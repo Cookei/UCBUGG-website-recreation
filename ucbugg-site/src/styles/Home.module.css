@@ -14,6 +14,7 @@
   right: clamp(25px, 15vw, 500px);
   top: clamp(10px, 5vh, 400px);
   width: 700px;
+  pointer-events: none;
 }
 #splashTitle > h1 {
   font-size: 8rem;
