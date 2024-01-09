@@ -1,0 +1,4 @@
+.splashView {
+  width: 100vw;
+  height: clamp(400px, 600px, 80vh);
+}
