@@ -7,14 +7,15 @@
 }
 
 .Navbar {
-  width: 100%;
+  width: 100vw;
   height: 60px;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
   background-color: rgb(243, 239, 242);
-  padding: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   border-bottom: 4px solid rgb(219, 215, 218);
 }
 
@@ -42,6 +43,7 @@
   height: 100%;
   text-wrap: wrap;
   margin: 10px;
+  margin-left: 15px;
 }
 
 .title {
