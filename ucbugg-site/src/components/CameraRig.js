@@ -8,8 +8,8 @@ const CameraRig = (props) => {
   return useFrame(() => {
     camera.position.lerp(
       vec.set(
-        props.SPLASH_OFFSET[0] + mouse.x / 2,
-        props.SPLASH_OFFSET[1] + mouse.y / 2,
+        props.SPLASH_OFFSET[0] + mouse.x / 4,
+        props.SPLASH_OFFSET[1] + mouse.y / 4,
         camera.position.z
       ),
       0.1

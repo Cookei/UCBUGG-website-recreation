@@ -1,10 +1,11 @@
-.splashSection {
+#splashSection {
   position: relative;
+  height: clamp(500px, 66vh, 700px);
 }
 
 .splashView {
   width: 100vw;
-  height: clamp(500px, 66vh, 700px);
+  height: 100%;
   position: absolute;
 }
 
