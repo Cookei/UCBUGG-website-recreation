@@ -1,4 +1,27 @@
+.splashSection {
+  position: relative;
+}
+
 .splashView {
   width: 100vw;
-  height: clamp(400px, 600px, 80vh);
+  height: clamp(500px, 66vh, 700px);
+  position: absolute;
+}
+
+#splashTitle {
+  position: absolute;
+  z-index: 1;
+  right: clamp(25px, 15vw, 500px);
+  top: clamp(10px, 5vh, 400px);
+  width: 700px;
+}
+#splashTitle > h1 {
+  font-size: 8rem;
+  text-align: center;
+  margin: 0;
+}
+
+#splashTitle > h2 {
+  margin: 0;
+  text-align: justify;
 }
