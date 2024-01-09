@@ -19,6 +19,23 @@ const Home = forwardRef((props, ref) => {
           </h2>
         </div>
       </section>
+      <section id={styles.announcementSection}>
+        <div className={styles.block}>
+          <h1>Announcements:</h1>
+          {/* prettier-ignore */}
+          <p>
+            UCBUGG will soon be accepting applications for the 
+            <span> Fall 2023 </span> semester! Come to our online infosession on
+            <span> August 28th </span> or <span>August 30th</span>. Both of these 
+            infosessions will cover the same material, so you need only come to one. 
+            During our info session we will be going over the application process, 
+            as well as logistics for the course. UCBUGG does not expect students or 
+            applicants to have any prior experience for the basic curriculum as we will be
+            teaching you everything you need to know for the application at our
+            first session.
+          </p>
+        </div>
+      </section>
     </div>
   );
 });

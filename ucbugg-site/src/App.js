@@ -56,7 +56,6 @@ function App() {
                       <Environment files="rainforest_trail_1k.hdr" />
                       <HelperGrid />
                       <SplashModel />
-                      <OrbitControls makeDefault enabled={false} />
                     </View>
                     <Preload all />
                   </Canvas>

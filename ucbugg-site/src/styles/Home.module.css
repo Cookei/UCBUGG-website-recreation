@@ -1,10 +1,11 @@
 #splashSection {
   position: relative;
   height: clamp(500px, 66vh, 700px);
+  background-color: rgb(234, 245, 247);
 }
 
 .splashView {
-  width: 100vw;
+  width: 100%;
   height: 100%;
   position: absolute;
 }
@@ -12,18 +13,48 @@
 #splashTitle {
   position: absolute;
   z-index: 1;
-  right: clamp(25px, 15vw, 500px);
-  top: clamp(10px, 5vh, 400px);
-  width: 700px;
+  right: clamp(10px, 15vw, 500px);
+  top: clamp(50px, 5vh, 400px);
+  max-width: 650px;
   pointer-events: none;
 }
-#splashTitle > h1 {
+#splashTitle h1 {
   font-size: 8rem;
   text-align: center;
   margin: 0;
 }
 
-#splashTitle > h2 {
+#splashTitle h2 {
   margin: 0;
   text-align: justify;
+}
+
+#announcementSection {
+  display: flex;
+  background-color: rgb(234, 245, 247);
+  height: 800px;
+  padding-left: clamp(25px, 2%, 400px);
+  padding-right: clamp(25px, 2%, 400px);
+}
+
+.block {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  max-width: 50%;
+  min-width: 500px;
+}
+
+.block h1 {
+  font-size: 3rem;
+  margin-top: 25px;
+  margin-bottom: 10px;
+}
+
+.block p {
+  font-size: large;
+}
+
+.block span {
+  font-weight: bold;
 }
