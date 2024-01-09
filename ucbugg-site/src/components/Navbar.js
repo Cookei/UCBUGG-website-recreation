@@ -1,13 +1,12 @@
 import React from "react";
 import styles from "../styles/Navbar.module.css";
-import logo from "../assets/logo.png";
 import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
     <div className={styles.Navbar}>
       <Link to="/" className={`${styles.left} ${styles.navlink}`}>
-        <img src={logo} alt="Logo" />
+        <img src="/logo.png" alt="Logo" />
         <div className={styles.title}>
           <h1>UCBUGG</h1>
         </div>
