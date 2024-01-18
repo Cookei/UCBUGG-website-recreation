@@ -3,7 +3,7 @@ import { TransformControls, Wireframe, useGLTF } from "@react-three/drei";
 import { useThree } from "@react-three/fiber";
 
 const SplashModel = () => {
-  // The model of the fox
+  // This is a wrapper for the actual fox model to handle all the hover and transformation logic
   const [hovered, setHovered] = useState(false);
   const [selected, setSelected] = useState(false);
   const [transformMode, setTransformMode] = useState("translate");
