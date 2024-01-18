@@ -15,7 +15,6 @@ import {
   GradientTexture,
   Environment,
   PerspectiveCamera,
-  OrbitControls,
 } from "@react-three/drei";
 import SplashModel from "./models/SplashModel";
 //CSS
@@ -33,13 +32,14 @@ function App() {
         <div ref={ref}>
           <Navbar />
           <Routes>
+            {/* Route for the home page */}
             <Route
               index
               element={
                 <>
                   <Home ref={splashView} />
                   <Canvas eventSource={ref} className={styles.splashCanvas}>
-                    {/* --------------Home Page-------------- */}
+                    {/* --------------Splash View-------------- */}
                     <View track={splashView}>
                       <PerspectiveCamera
                         makeDefault
@@ -48,15 +48,16 @@ function App() {
                       <CameraRig SPLASH_OFFSET={[3.5, 1.5, 4.5]} />
                       <GradientTexture
                         attach="background"
-                        stops={[0, 1]} // As many stops as you want
-                        colors={["#faf7f9", "#e1f0f5"]} // Colors need to match the number of stops
-                        size={1024} // Size is optional, default = 1024
+                        stops={[0, 1]}
+                        colors={["#faf7f9", "#e1f0f5"]}
+                        size={1024}
                       />
                       <ambientLight intensity={1} />
                       <Environment files="rainforest_trail_1k.hdr" />
                       <HelperGrid />
                       <SplashModel />
                     </View>
+                    {/* --------------------------------------- */}
                     <Preload all />
                   </Canvas>
                 </>

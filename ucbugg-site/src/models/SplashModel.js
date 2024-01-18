@@ -3,6 +3,7 @@ import { TransformControls, Wireframe, useGLTF } from "@react-three/drei";
 import { useThree } from "@react-three/fiber";
 
 const SplashModel = () => {
+  // The model of the fox
   const [hovered, setHovered] = useState(false);
   const [selected, setSelected] = useState(false);
   const [transformMode, setTransformMode] = useState("translate");
@@ -10,6 +11,7 @@ const SplashModel = () => {
   const viewport = useThree((state) => state.viewport);
   const SPLASH_OFFSET = [-viewport.width / 5, 0, viewport.width / 5];
 
+  // Change transform mode based on w/e/r
   useEffect(() => {
     const handleButton = (event) => {
       switch (event.key.toLowerCase()) {
@@ -45,8 +47,9 @@ const SplashModel = () => {
         />
       ) : null}
       <mesh
-        position={SPLASH_OFFSET}
-        rotation={[Math.PI / 10, -Math.PI / 2.8, Math.PI / 10]}
+        position={SPLASH_OFFSET} // initial position
+        rotation={[Math.PI / 10, -Math.PI / 2.8, Math.PI / 10]} // initial rotation
+        // Mouse hover and unhover
         onPointerOver={() => {
           if (!selected) setHovered(true);
         }}
@@ -57,7 +60,7 @@ const SplashModel = () => {
           setSelected(true);
           setHovered(false);
         }}
-        onPointerMissed={() => setSelected(false)}
+        onPointerMissed={() => setSelected(false)} // Mouse deselect
         name="SplashMesh"
         scale={0.5}
       >
@@ -72,6 +75,7 @@ const SplashModel = () => {
 
 export default SplashModel;
 
+// The actual fox model
 export function Model({ fillMix, strokeOpacity, ...props }) {
   const { nodes, materials } = useGLTF("/splashModel.glb");
   return (
@@ -84,7 +88,7 @@ export function Model({ fillMix, strokeOpacity, ...props }) {
           <Wireframe
             stroke={0x50f250}
             backfaceStroke={0x50f250}
-            fillMix={fillMix}
+            fillMix={fillMix} //determine the interior color of the wireframe. 0 means there is no wireframe
             strokeOpacity={strokeOpacity}
           />
         </mesh>
