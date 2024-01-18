@@ -53,6 +53,7 @@ function App() {
                         size={1024}
                       />
                       <ambientLight intensity={1} />
+                      {/* HDR for lighting */}
                       <Environment files="rainforest_trail_1k.hdr" />
                       <HelperGrid />
                       <SplashModel />
