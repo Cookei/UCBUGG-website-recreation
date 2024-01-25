@@ -4,15 +4,17 @@
   "private": true,
   "dependencies": {
     "@react-three/drei": "^9.93.0",
-    "@react-three/fiber": "^8.15.13",
+    "@react-three/fiber": "^8.15.15",
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "framer-motion-3d": "^11.0.3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-markdown": "^9.0.1",
     "react-router-dom": "^6.21.1",
     "react-scripts": "5.0.1",
-    "three": "^0.160.0",
+    "three": "^0.160.1",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
