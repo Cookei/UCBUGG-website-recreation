@@ -1,0 +1,11 @@
+#syllabusSection {
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+  justify-content: center;
+}
+
+#container {
+  display: flex;
+  flex-direction: row;
+}
