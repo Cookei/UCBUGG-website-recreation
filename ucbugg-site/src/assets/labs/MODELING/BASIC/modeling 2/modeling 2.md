@@ -431,7 +431,7 @@ This is what my fox looks like after a couple tweaks. This is where I'll stop fo
 ![](final.jpg)
 
 HEADING SMALL: LECTURE TOPICS NOT FULLY COVERED BY THIS LAB:
-**EFORMER**
+**DEFORMER**
 To create a deformer, go the the Deform menu, which has a list of useful deformers.
 Here are a few useful ones:
 Nonlinear -> Bend (does exactly what you think it does)
@@ -442,7 +442,7 @@ In order to use a deformer, select your mesh, and then click on the deformer in 
 Remember, deforms create a field that affects your mesh but does NOT permanently deform your mesh.
 Once you are done applying a deformer to a mesh or a piece of a mesh, select your mesh and press Alt + Shift + D to delete by type -> history. This will get rid of the deformer. Try using a bend deformer to bend the tail of the fox! Make sure to play with the curvature, the high bound, and the low bound, and move the deformer so it only deforms the tail.
 
-**CULP**
+**SCULP**
 Sculpting is better done in software like Zbrush (very expensive!) or Autodesk Mudbox (free for students!) but you can emulate these sculpting programs using the Mesh Tools -> Sculpting Tools. Play around with Sculpt, Smooth, and Grab. Make sure to mess with "Mirror" and "Invert" in the tool settings. The idea behind Sculpt and Grab is to pull and push in your mesh to achieve the bumps in organic models caused by muscle groups, bones, knuckles, and the like. The Smooth tool is particularly useful when your vertices/edges/faces are irregular in certain areas, even when your mesh is relatively low poly. It can often be a quick way to deal with messy topology.
 
 At this point, feel free to use the Sculpting Tools (or any other tools) to make aesthetic changes to your fox. The more detail the better!
