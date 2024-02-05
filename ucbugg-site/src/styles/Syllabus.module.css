@@ -3,6 +3,11 @@
   --color-canvas-subtle: #f6f8fa;
   --color-border-default: #d0d7de;
   --color-border-muted: hsla(210, 18%, 87%, 1);
+  --navbar-offset: clamp(200px, 20vw, 300px);
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 #syllabusSection {
@@ -10,11 +15,39 @@
   flex-direction: column;
   padding: 50px;
   justify-content: center;
+  background: linear-gradient(rgb(241, 247, 248), rgb(240, 237, 243));
 }
 
 #container {
   display: flex;
   flex-direction: row;
+}
+
+#navbar {
+  position: sticky;
+  padding-right: 10px;
+  width: var(--navbar-offset);
+  max-height: 50vh;
+  border-right: 2px gray solid;
+  top: 35px;
+}
+
+#navbar div div {
+  font-size: 1.05em;
+  margin-bottom: 5px;
+  border-bottom: 1px transparent solid;
+  transition: all 0.2s;
+}
+
+#navbar div div:hover {
+  border-bottom: 1px gray solid;
+  cursor: pointer;
+}
+
+#content {
+  position: relative;
+  max-width: calc(100vw - var(--navbar-offset) - 150px);
+  margin-left: 50px;
 }
 
 table {

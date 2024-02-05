@@ -22,10 +22,14 @@ const Syllabus = () => {
     <div>
       <section id={styles.syllabusSection}>
         <div id={styles.container}>
-          <div>
-            <MarkdownNavbar source={markdown} ordered={false} />
+          <div id={styles.navbar}>
+            <MarkdownNavbar
+              source={markdown}
+              ordered={false}
+              headingTopOffset={50}
+            />
           </div>
-          <div>
+          <div id={styles.content}>
             <Markdown
               remarkPlugins={[remarkGfm, remarkExtendedTable]}
               rehypePlugins={[rehypeRaw]}
