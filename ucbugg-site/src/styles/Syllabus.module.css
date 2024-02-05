@@ -1,5 +1,5 @@
 :root {
-  --color-canvas-default: #ffffff;
+  --color-canvas-default: #f6f7fa;
   --color-canvas-subtle: #f6f8fa;
   --color-border-default: #d0d7de;
   --color-border-muted: hsla(210, 18%, 87%, 1);
@@ -15,7 +15,7 @@ html {
   flex-direction: column;
   padding: 50px;
   justify-content: center;
-  background: linear-gradient(rgb(241, 247, 248), rgb(240, 237, 243));
+  background: linear-gradient(rgb(245, 246, 248), rgb(240, 237, 243));
 }
 
 #container {
@@ -63,6 +63,7 @@ table {
 
 tr {
   border-top: 1px solid var(--color-border-muted);
+  background-color: var(--color-canvas-default);
 }
 
 tr:nth-child(2n) {
