@@ -1,6 +1,6 @@
 :root {
   --color-canvas-default: #f6f7fa;
-  --color-canvas-subtle: #f6f8fa;
+  --color-canvas-subtle: #f1f2f5;
   --color-border-default: #d0d7de;
   --color-border-muted: hsla(210, 18%, 87%, 1);
   --navbar-offset: clamp(200px, 20vw, 300px);
