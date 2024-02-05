@@ -33,6 +33,7 @@
   display: flex;
   background-color: rgb(234, 245, 247);
   height: 800px;
+  width:  100%;
   padding-left: clamp(25px, 2%, 400px);
   padding-right: clamp(25px, 2%, 400px);
 }
@@ -57,4 +58,20 @@
 
 .block span {
   font-weight: bold;
+}
+
+.iconImage {
+  margin: 25px;
+  height: auto;
+  width: 75px;
+  height: 75px;
+  
+}
+
+.iconImageBlock {
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: center;
 }

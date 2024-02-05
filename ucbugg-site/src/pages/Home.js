@@ -1,5 +1,9 @@
 import React, { forwardRef } from "react";
 import styles from "../styles/Home.module.css";
+import mayaIconImage from "../assets/homePageIcon/maya-logo.jpg";
+import rendermanIconImage from "../assets/homePageIcon/rrm-logo.jpg";
+import creativecloudIconImage from "../assets/homePageIcon/cs-logo.jpeg";
+import aftereffectIconImage from "../assets/homePageIcon/AELOGO.png";
 
 const Home = forwardRef((props, ref) => {
   return (
@@ -21,7 +25,7 @@ const Home = forwardRef((props, ref) => {
       </section>
       <section id={styles.announcementSection}>
         <div className={styles.block}>
-          <h1>Announcements:</h1>
+          <h1>Who we are:</h1>
           {/* prettier-ignore */}
           <p>
             UCBUGG will soon be accepting applications for the 
@@ -34,6 +38,14 @@ const Home = forwardRef((props, ref) => {
             teaching you everything you need to know for the application at our
             first session.
           </p>
+          <div className={styles.iconImageBlock}>
+          <img src = {mayaIconImage} className={styles.iconImage}/>
+          <img src = {creativecloudIconImage} className={styles.iconImage} />
+          <img src = {rendermanIconImage} className={styles.iconImage} />
+          <img src = {aftereffectIconImage}className={styles.iconImage} />
+          </div>
+        </div>
+        <div >
         </div>
       </section>
     </div>
