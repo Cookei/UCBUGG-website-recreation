@@ -19,7 +19,8 @@
     "remark-extended-table": "^2.0.1",
     "remark-gfm": "^4.0.0",
     "three": "^0.160.1",
-    "web-vitals": "^2.1.4"
+    "web-vitals": "^2.1.4",
+    "wouter": "^3.0.1"
   },
   "scripts": {
     "start": "react-scripts start",

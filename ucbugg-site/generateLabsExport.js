@@ -144,12 +144,12 @@ for (e of jsonObj) {
 }
 newObj = JSON.stringify(newObj, null, 2);
 // data = `[\n${data}\n]`;
-
-// output += `${imports}\n\nconst data = ${data}\nexport default data;`;
-output += `${imports}\n\nconst data = ${newObj.replace(
+newObj = newObj.replace(
   /(?<=: *.*)["'](?=.*\n)|(?<=\[\n\s*)['"]|(?<=(?<=\[\n\s*)['"].*)['"]/gm,
   ""
-)}\nexport default data;`;
+);
+// output += `${imports}\n\nconst data = ${data}\nexport default data;`;
+output += `${imports}\n\nconst data = ${newObj}\nexport default data;`;
 // output += `${imports}\n\nconst data = ${newObj}\nexport default data;`;
 
 fs.writeFile(`${outputPath}/labExport.js`, output, function (err) {
