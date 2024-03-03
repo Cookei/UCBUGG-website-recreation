@@ -11,17 +11,13 @@ import Navbar from "./components/Navbar";
 //3D Stuff
 import { Canvas } from "@react-three/fiber";
 import { Preload } from "@react-three/drei";
+import HomeCanvas from "./pages/HomeCanvas";
 //CSS
 import styles from "./styles/App.module.css";
-import HomeCanvas from "./pages/HomeCanvas";
 //MarkdownGeneration
 import data from "./pages/labExport";
-import Markdown from "react-markdown";
-import remarkGfm from "remark-gfm";
-import rehypeRaw from "rehype-raw";
-import remarkExtendedTable, {
-  extendedTableHandlers,
-} from "remark-extended-table";
+import LabMarkdown from "./components/LabMarkdown";
+
 const tempEntries = [];
 function getRoute(obj) {
   Object.entries(obj).forEach((element) => {
@@ -77,20 +73,7 @@ function App() {
         console.log("Path", e.path);
         return (
           <Route path={`/labs/${e.path}`} key={e.key}>
-            <div>
-              <Markdown
-                remarkPlugins={[remarkGfm, remarkExtendedTable]}
-                rehypePlugins={[rehypeRaw]}
-                remarkRehypeOptions={{
-                  handlers: { ...extendedTableHandlers },
-                }}
-                urlTransform={(uri) => {
-                  return e.images[uri.replace(/%20/g, " ")];
-                }}
-              >
-                {markdownReferences[e.key]}
-              </Markdown>
-            </div>
+            <LabMarkdown e={e} markdownReferences={markdownReferences} />
           </Route>
         );
       })}
