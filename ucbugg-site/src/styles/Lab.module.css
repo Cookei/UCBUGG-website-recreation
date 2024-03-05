@@ -1,0 +1,59 @@
+section {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+#categoryContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 25px;
+  column-gap: 40px;
+}
+
+.category {
+  background-color: pink;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.category img {
+  max-width: 100%;
+}
+
+#categoryData {
+  width: 75%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  background-color: blueviolet;
+  transition: all 0.5s;
+  overflow: hidden;
+  padding: 15px;
+}
+
+.labRow {
+  display: flex;
+  flex-direction: row;
+}
+
+.labCard {
+  width: 100px;
+  height: 90px;
+  background-color: aliceblue;
+  margin-left: 15px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+/* .shown {
+  transition: all 0.5s;
+  max-height: 600px;
+}
+
+.hidden {
+  transition: all 0.5s;
+  max-height: 0;
+} */

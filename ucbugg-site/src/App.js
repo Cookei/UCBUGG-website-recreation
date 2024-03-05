@@ -22,7 +22,7 @@ const tempEntries = [];
 function getRoute(obj) {
   Object.entries(obj).forEach((element) => {
     let [key, value] = element;
-    if (value.markdown != undefined && value.images != undefined) {
+    if (value.markdown != undefined) {
       tempEntries.push({
         path: value.markdown[1].toLowerCase(),
         element: value.markdown[0],
@@ -70,7 +70,6 @@ function App() {
         <Labs />
       </Route>
       {entries.map((e) => {
-        console.log("Path", e.path);
         return (
           <Route path={`/labs/${e.path}`} key={e.key}>
             <LabMarkdown e={e} markdownReferences={markdownReferences} />
