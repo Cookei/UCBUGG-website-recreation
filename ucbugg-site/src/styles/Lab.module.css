@@ -31,7 +31,6 @@ section {
   background-color: blueviolet;
   transition: all 0.5s;
   overflow: hidden;
-  padding: 15px;
 }
 
 .labRow {
@@ -48,12 +47,14 @@ section {
   cursor: pointer;
 }
 
-/* .shown {
+.shown {
   transition: all 0.5s;
   max-height: 600px;
+  padding: 15px;
 }
 
 .hidden {
   transition: all 0.5s;
   max-height: 0;
-} */
+  padding: 0;
+}
