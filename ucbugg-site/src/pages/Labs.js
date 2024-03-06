@@ -14,6 +14,7 @@ const Labs = (props) => {
   const [selectedCategoryData, setSelectedCategoryData] = useState(null);
 
   function generateCategoryInfo(data, name) {
+    let counter = 0;
     if (data == null) return;
     const returnArray = [];
     if (data["Basic"] != undefined) {
@@ -23,10 +24,11 @@ const Labs = (props) => {
           <div className={styles.labRow}>
             {Object.entries(data["Basic"]).map((element) => {
               let [key, value] = element;
+              counter++;
               return (
                 <LabCard
                   path={value.markdown[1]}
-                  key={key}
+                  key={counter}
                   className={styles.labCard}
                   name={key}
                 />
@@ -43,10 +45,11 @@ const Labs = (props) => {
           <div className={styles.labRow}>
             {Object.entries(data["Advanced"]).map((element) => {
               let [key, value] = element;
+              counter++;
               return (
                 <LabCard
                   path={value.markdown[1]}
-                  key={key}
+                  key={counter}
                   className={styles.labCard}
                   name={key}
                 />
@@ -60,10 +63,11 @@ const Labs = (props) => {
       returnArray.push(
         Object.entries(data).map((element) => {
           let [key, value] = element;
+          counter++;
           return (
             <LabCard
               path={value.markdown[1]}
-              key={key}
+              key={counter}
               className={styles.labCard}
               name={key}
             />
@@ -111,22 +115,6 @@ const Labs = (props) => {
         </h1>
         <div>{selectedCategoryData}</div>
       </div>
-      {/* <div>{selectedCategoryData}</div>
-      <div id={styles.categoryContainer}>
-        {WebsiteData["Lab Order"].map((e) => {
-          return (
-            <div>
-              <div
-                className={styles.category}
-                onClick={() => setSelectedCategory(e)}
-              >
-                <img src={logo} />
-              </div>
-              <div>{e}</div>
-            </div>
-          );
-        })}
-      </div> */}
     </section>
   );
 };
