@@ -86,13 +86,16 @@ const Labs = (props) => {
   return (
     <section>
       <h1>All Labs</h1>
-      <LabCategory title="View this week's Lab" />
-      <div id={styles.categoryContainer}>
-        <LabCategories
-          onSelect={(selected) => {
-            setSelectedCategory(selected);
-          }}
-        />
+      <br />
+      <div id={styles.categoryGridContainer}>
+        <LabCategory title="View this week's Lab" />
+        <div id={styles.categoryContainer}>
+          <LabCategories
+            onSelect={(selected) => {
+              setSelectedCategory(selected);
+            }}
+          />
+        </div>
       </div>
       <div
         id={styles.categoryData}

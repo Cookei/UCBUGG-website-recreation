@@ -8,7 +8,8 @@ const LabCategories = (props) => {
       <LabCategory
         selectCallback={onSelect}
         title="Introduction To Maya"
-      ></LabCategory>
+        lineDirection={["lineDown"]}
+      />
       <LabCategory />
       <LabCategory />
       <LabCategory />
@@ -16,22 +17,36 @@ const LabCategories = (props) => {
       <LabCategory
         selectCallback={onSelect}
         title="Pre-Production"
-      ></LabCategory>
-      <LabCategory selectCallback={onSelect} title="Modeling"></LabCategory>
-      <LabCategory selectCallback={onSelect} title="Rigging"></LabCategory>
-      <LabCategory />
-      {/* ------- */}
-      <LabCategory />
-      <LabCategory selectCallback={onSelect} title="Shading"></LabCategory>
-      <LabCategory selectCallback={onSelect} title="Animating"></LabCategory>
+        lineDirection={["lineRight"]}
+      />
       <LabCategory
         selectCallback={onSelect}
-        title="Post-Production"
-      ></LabCategory>
+        title="Modeling"
+        lineDirection={["lineDown", "lineRight"]}
+      />
+      <LabCategory
+        selectCallback={onSelect}
+        title="Rigging"
+        lineDirection={["lineDown"]}
+      />
+      <LabCategory />
       {/* ------- */}
       <LabCategory />
-      <LabCategory selectCallback={onSelect} title="Lighting"></LabCategory>
-      <LabCategory selectCallback={onSelect} title="Effects"></LabCategory>
+      <LabCategory
+        selectCallback={onSelect}
+        title="Shading"
+        lineDirection={["lineDown"]}
+      />
+      <LabCategory
+        selectCallback={onSelect}
+        title="Animating"
+        lineDirection={["lineDown", "lineRight"]}
+      />
+      <LabCategory selectCallback={onSelect} title="Post-Production" />
+      {/* ------- */}
+      <LabCategory />
+      <LabCategory selectCallback={onSelect} title="Lighting" />
+      <LabCategory selectCallback={onSelect} title="Effects" />
       <LabCategory />
     </>
   );

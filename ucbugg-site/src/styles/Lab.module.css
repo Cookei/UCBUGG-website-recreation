@@ -1,34 +1,93 @@
+:root {
+  --gap: 30px;
+  --categoryColors: rgb(246, 245, 250);
+  --line-color: rgb(131, 129, 131);
+}
+
 section {
   display: flex;
   align-items: center;
   flex-direction: column;
+  background: linear-gradient(to top right, #d6eff8, #e1c8c7);
+}
+
+#categoryGridContainer {
+  border: 2px var(--line-color) solid;
+  border-radius: 5px;
+  padding: 50px;
+  width: clamp(800px, 80%, 1000px);
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 #categoryContainer {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  gap: 25px;
+  gap: var(--gap);
+  row-gap: calc(var(--gap) * 2);
   column-gap: 40px;
+  width: 100%;
+}
+
+#categoryGridContainer > div:first-child {
+  top: -70px;
+  width: 50%;
+}
+
+.categoryWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  height: 2.5rem;
 }
 
 .category {
-  background-color: pink;
-  overflow: hidden;
+  background-color: var(--categoryColors);
+  width: 100%;
+  height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
   cursor: pointer;
+  z-index: 1;
+  padding: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 5px;
+  transition: all 0.25s;
+  border-bottom: 2px var(--line-color) solid;
 }
 
-.category img {
-  max-width: 100%;
+.category:hover {
+  background-color: rgb(241, 232, 243);
+}
+
+.lineDown {
+  position: absolute;
+  height: calc(100% + var(--gap) * 2);
+  width: 2px;
+  top: 50%;
+  background-color: var(--line-color);
+}
+
+.lineRight {
+  position: absolute;
+  height: 2px;
+  width: calc(100% + var(--gap));
+  top: 50%;
+  left: 50%;
+  background-color: var(--line-color);
 }
 
 #categoryData {
-  width: 75%;
+  width: 80%;
   margin-top: 30px;
   margin-bottom: 30px;
-  background-color: blueviolet;
+  border-radius: 10px;
+  background-color: rgb(239, 242, 248);
   transition: all 0.5s;
   overflow: hidden;
 }
@@ -39,18 +98,46 @@ section {
 }
 
 .labCard {
-  width: 100px;
-  height: 90px;
-  background-color: aliceblue;
+  border-radius: 5px;
+  border: 2px rgba(255, 255, 255, 0) solid;
   margin-left: 15px;
   margin-right: 10px;
+  width: 175px;
   cursor: pointer;
+  display: block;
+  transition: all 0.15s;
+  overflow-wrap: break-word;
+}
+
+.labCard:hover {
+  border: 2px var(--line-color) solid;
+}
+
+.labCardImageWrapper {
+  background-color: rgb(210, 205, 212);
+  border-radius: 4px;
+  height: 125px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.labCardImageWrapper img {
+  height: 100%;
+}
+
+.labCard h4 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-left: 5px;
 }
 
 .shown {
   transition: all 0.5s;
   max-height: 600px;
   padding: 15px;
+  border: 2px var(--line-color) solid;
 }
 
 .hidden {
