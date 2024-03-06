@@ -88,7 +88,7 @@ const Labs = (props) => {
   }, [selectedCategory]);
 
   return (
-    <section>
+    <section id={styles.labSection}>
       <h1>All Labs</h1>
       <br />
       <div id={styles.categoryGridContainer}>

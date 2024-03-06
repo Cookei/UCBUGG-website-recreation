@@ -4,7 +4,7 @@
   --line-color: rgb(131, 129, 131);
 }
 
-section {
+#labSection {
   display: flex;
   align-items: center;
   flex-direction: column;
