@@ -33,7 +33,7 @@
   display: flex;
   background-color: rgb(234, 245, 247);
   height: 800px;
-  width:  100%;
+  width: 100%;
   padding-left: clamp(25px, 2%, 400px);
   padding-right: clamp(25px, 2%, 400px);
 }
@@ -65,7 +65,6 @@
   height: auto;
   width: 75px;
   height: 75px;
-  
 }
 
 .iconImageBlock {

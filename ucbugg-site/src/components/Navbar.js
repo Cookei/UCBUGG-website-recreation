@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "../styles/Navbar.module.css";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
+import { Link } from "wouter";
 
 const Navbar = () => {
   return (

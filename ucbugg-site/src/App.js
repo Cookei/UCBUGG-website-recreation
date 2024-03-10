@@ -1,6 +1,7 @@
-import { useRef } from "react";
+import { useRef, useState, useEffect } from "react";
 //Routing
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+// import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { Link, Route } from "wouter";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Syllabus from "./pages/Syllabus";
@@ -9,69 +10,88 @@ import Projects from "./pages/Projects";
 import Navbar from "./components/Navbar";
 //3D Stuff
 import { Canvas } from "@react-three/fiber";
-import {
-  View,
-  Preload,
-  GradientTexture,
-  Environment,
-  PerspectiveCamera,
-} from "@react-three/drei";
-import SplashModel from "./models/SplashModel";
+import { Preload } from "@react-three/drei";
+import HomeCanvas from "./pages/HomeCanvas";
 //CSS
 import styles from "./styles/App.module.css";
-import HelperGrid from "./models/HelperGrid";
-import CameraRig from "./components/CameraRig";
+//MarkdownGeneration
+import data from "./pages/labExport";
+import LabMarkdown from "./components/LabMarkdown";
+
+const tempEntries = [];
+function getRoute(obj) {
+  Object.entries(obj).forEach((element) => {
+    let [key, value] = element;
+    if (value.markdown != undefined) {
+      tempEntries.push({
+        path: value.markdown[1].toLowerCase(),
+        element: value.markdown[0],
+        images: value.images,
+        key: tempEntries.length,
+      });
+    } else {
+      getRoute(value);
+    }
+  });
+}
+
+getRoute(data);
 
 function App() {
-  const ref = useRef();
   const splashView = useRef();
 
+  const [markdownReferences, setMarkdownReferences] = useState({});
+  const [entries, setEntries] = useState([]);
+
+  useEffect(() => {
+    tempEntries.forEach((e) => {
+      let newObj = markdownReferences;
+      fetch(e.element)
+        .then((res) => res.text())
+        .then((text) => {
+          newObj[e.key] = text;
+          setMarkdownReferences(newObj);
+          setEntries(tempEntries);
+        });
+    });
+    console.log("test");
+  }, []);
+
   return (
-    <div>
-      <BrowserRouter>
-        <div ref={ref}>
-          <Navbar />
-          <Routes>
-            {/* Route for the home page */}
-            <Route
-              index
-              element={
-                <>
-                  <Home ref={splashView} />
-                  <Canvas eventSource={ref} className={styles.splashCanvas}>
-                    {/* --------------Splash View-------------- */}
-                    <View track={splashView}>
-                      <PerspectiveCamera
-                        makeDefault
-                        position={[3.5, 1.5, 4.5]}
-                      ></PerspectiveCamera>
-                      <CameraRig SPLASH_OFFSET={[3.5, 1.5, 4.5]} />
-                      <GradientTexture
-                        attach="background"
-                        stops={[0, 1]}
-                        colors={["#faf7f9", "#e1f0f5"]}
-                        size={1024}
-                      />
-                      <ambientLight intensity={1} />
-                      {/* HDR for lighting */}
-                      <Environment files="rainforest_trail_1k.hdr" />
-                      <HelperGrid />
-                      <SplashModel />
-                    </View>
-                    {/* --------------------------------------- */}
-                    <Preload all />
-                  </Canvas>
-                </>
-              }
-            />
-            <Route path="/about" element={<About />} />
-            <Route path="/syllabus" element={<Syllabus />} />
-            <Route path="/labs" element={<Labs />} />
-            <Route path="/projects" element={<Projects />} />
-          </Routes>
-        </div>
-      </BrowserRouter>
-    </div>
+    <>
+      <Navbar />
+      <Route path="/">
+        <Home ref={splashView} />
+      </Route>
+      <Route path="/syllabus">
+        <Syllabus />
+      </Route>
+      <Route path="/labs">
+        <Labs />
+      </Route>
+      {entries.map((e) => {
+        return (
+          <Route path={`/labs/${e.path}`} key={e.key}>
+            <LabMarkdown e={e} markdownReferences={markdownReferences} />
+          </Route>
+        );
+      })}
+      <Route path="/projects">
+        <Projects />
+      </Route>
+      <Route path="/about">
+        <About />
+      </Route>
+      <Canvas
+        eventSource={document.getElementById("root")}
+        className={styles.splashCanvas}
+      >
+        <Route path="/">
+          <HomeCanvas ref={{ splashView: splashView }} />
+        </Route>
+        <Preload all />
+      </Canvas>
+    </>
   );
 }
 
