@@ -1,13 +1,15 @@
-import React from "react";
+import React, { forwardRef, useState } from "react";
 import styles from "../styles/Lab.module.css";
+import { motion } from "framer-motion";
 
-const LabCategory = (props) => {
+const LabCategory = forwardRef((props, ref) => {
   const { title, selectCallback, lineDirection } = props;
+
   if (title == undefined) return <div />;
   let counter = 0;
 
   return (
-    <div className={styles.categoryWrapper}>
+    <div className={styles.categoryWrapper} ref={ref}>
       {lineDirection
         ? lineDirection.map((e) => {
             counter++;
@@ -26,6 +28,6 @@ const LabCategory = (props) => {
       </a>
     </div>
   );
-};
+});
 
 export default LabCategory;

@@ -10,6 +10,7 @@
   flex-direction: column;
   background: linear-gradient(to top right, #d6eff8, #e1c8c7);
   min-height: calc(100vh - 80px);
+  padding-bottom: 50px;
 }
 
 #categoryGridContainer {
@@ -21,7 +22,9 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #e9bff118;
+  background-color: #ccc4ce21;
+  background-color: #f5fbff48;
+  min-height: 50vh;
 }
 
 #categoryContainer {
@@ -44,11 +47,11 @@
   align-items: center;
   position: relative;
   height: 2.5rem;
-  max-width: 300px;
 }
 
 .category {
   background-color: var(--categoryColors);
+  max-width: 300px;
   width: 100%;
   height: 100%;
   display: flex;
@@ -70,7 +73,7 @@
 
 .lineDown {
   position: absolute;
-  height: calc(100% + var(--gap) * 2);
+  height: calc(100% + var(--gap) * 2 + 2px);
   width: 2px;
   top: 50%;
   background-color: var(--line-color);
@@ -79,19 +82,17 @@
 .lineRight {
   position: absolute;
   height: 2px;
-  width: calc(100% + var(--gap));
+  width: calc(100% + var(--gap) + 10px);
   top: 50%;
   left: 50%;
   background-color: var(--line-color);
 }
 
 #categoryData {
+  position: relative;
   width: 80%;
-  margin-top: 30px;
-  margin-bottom: 30px;
+  top: -2rem;
   border-radius: 10px;
-  background-color: rgb(239, 242, 248);
-  transition: all 0.5s;
   overflow: hidden;
 }
 
@@ -110,6 +111,7 @@
   display: block;
   transition: all 0.15s;
   overflow-wrap: break-word;
+  background: linear-gradient(#f5f9fa23, #f5f9fa);
 }
 
 .labCard:hover {
@@ -117,7 +119,7 @@
 }
 
 .labCardImageWrapper {
-  background-color: rgb(210, 205, 212);
+  background: rgb(228, 223, 230);
   border-radius: 4px;
   height: 125px;
   display: flex;
@@ -134,17 +136,4 @@
   margin-top: 10px;
   margin-bottom: 10px;
   padding-left: 5px;
-}
-
-.shown {
-  transition: all 0.5s;
-  max-height: 600px;
-  padding: 15px;
-  border: 2px var(--line-color) solid;
-}
-
-.hidden {
-  transition: all 0.5s;
-  max-height: 0;
-  padding: 0;
 }

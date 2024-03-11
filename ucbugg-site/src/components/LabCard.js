@@ -1,9 +1,9 @@
-import React from "react";
+import React, { forwardRef } from "react";
 import styles from "../styles/Lab.module.css";
 import { Link } from "wouter";
 import logo from "../assets/Syllabus/logo.png";
 
-const LabCard = (props) => {
+const LabCard = forwardRef((props, ref) => {
   const { name, path } = props;
   let displayName = [];
   name
@@ -14,13 +14,13 @@ const LabCard = (props) => {
     });
   displayName = displayName.join(" ");
   return (
-    <Link to={`labs/${path}`} className={styles.labCard}>
+    <Link ref={ref} to={`labs/${path}`} className={styles.labCard}>
       <div className={styles.labCardImageWrapper}>
         <img src={logo} />
       </div>
       <h4>{displayName}</h4>
     </Link>
   );
-};
+});
 
 export default LabCard;
