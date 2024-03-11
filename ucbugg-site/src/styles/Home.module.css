@@ -18,6 +18,7 @@
   max-width: 650px;
   pointer-events: none;
 }
+
 #splashTitle h1 {
   font-size: 8rem;
   text-align: center;
@@ -37,6 +38,52 @@
   padding-left: clamp(25px, 2%, 400px);
   padding-right: clamp(25px, 2%, 400px);
 }
+
+#pipelineSection {
+  display: flex;
+  background-color: rgb(234, 245, 247);
+  height: 800px;
+  width: 100%;
+  padding-left: clamp(25px, 2%, 400px);
+  padding-right: clamp(25px, 2%, 400px);
+}
+
+#pipelineIllustration {
+  display: flex;
+  background-color: rgb(255, 255, 224);
+  height: 600px;
+  width: 90%;
+  padding-left: clamp(25px, 2%, 400px);
+  padding-right: clamp(25px, 2%, 400px);
+}
+
+.pipelineTitle {
+  display: flex;
+  background-color: rgb(255, 255, 224);
+  height: 100px;
+  width: 30%;
+  padding-left: clamp(25px, 2%, 400px);
+  padding-right: clamp(25px, 2%, 400px);
+}
+
+.pipelineDescription {
+  display: flex;
+  background-color: rgb(255, 255, 224);
+  height: 400px;
+  width: 60%;
+  padding-left: clamp(25px, 2%, 400px);
+  padding-right: clamp(25px, 2%, 400px);
+}
+
+.pipelineImage {
+  display: flex;
+  background-color: rgb(255, 255, 224);
+  height: 400px;
+  width: 40%;
+  padding-left: clamp(25px, 2%, 400px);
+  padding-right: clamp(25px, 2%, 400px);
+}
+
 
 .block {
   display: flex;
