@@ -14,18 +14,29 @@ const Labs = (props) => {
 
   const categoryVariants = {
     hidden: {
-      y: 10,
+      y: 5,
       opacity: 0,
       transition: {
-        staggerChildren: 0.3,
+        duration: 0.3,
       },
+    },
+    show: {
+      opacity: 1,
+      transition: {
+        when: "beforeChildren",
+        staggerChildren: 0.2,
+      },
+    },
+  };
+
+  const cardVariants = {
+    hidden: {
+      y: -5,
+      opacity: 0,
     },
     show: {
       y: -5,
       opacity: 1,
-      transition: {
-        staggerChildren: 0.3,
-      },
     },
   };
 
@@ -37,9 +48,15 @@ const Labs = (props) => {
     const returnArray = [];
     if (data["Basic"] != undefined) {
       returnArray.push(
-        <motion.div key={counter} variants={categoryVariants} initial="hidden">
-          <motion.h1 key={counter + "h1"}>Basic</motion.h1>
-          <motion.div className={styles.labRow} key={counter + "row"}>
+        <motion.div key={counter} variants={cardVariants}>
+          <motion.h1 key={counter + "h1"} variants={categoryVariants}>
+            Basic
+          </motion.h1>
+          <motion.div
+            className={styles.labRow}
+            key={counter + "row"}
+            variants={categoryVariants}
+          >
             {Object.entries(data["Basic"]).map((element) => {
               let [key, value] = element;
               counter++;
@@ -48,7 +65,7 @@ const Labs = (props) => {
                   path={value.markdown[1]}
                   key={key}
                   className={styles.labCard}
-                  variants={categoryVariants}
+                  variants={cardVariants}
                   name={key}
                 />
               );
@@ -59,9 +76,15 @@ const Labs = (props) => {
     }
     if (data["Advanced"] != undefined) {
       returnArray.push(
-        <motion.div key={counter} variants={categoryVariants} initial="hidden">
-          <motion.h1 key={counter + "h1"}>Advanced</motion.h1>
-          <motion.div className={styles.labRow} key={counter + "row"}>
+        <motion.div key={counter} variants={cardVariants}>
+          <motion.h1 key={counter + "h1"} variants={categoryVariants}>
+            Advanced
+          </motion.h1>
+          <motion.div
+            className={styles.labRow}
+            key={counter + "row"}
+            variants={categoryVariants}
+          >
             {Object.entries(data["Advanced"]).map((element) => {
               let [key, value] = element;
               counter++;
@@ -70,7 +93,7 @@ const Labs = (props) => {
                   path={value.markdown[1]}
                   key={key}
                   className={styles.labCard}
-                  variants={categoryVariants}
+                  variants={cardVariants}
                   name={key}
                 />
               );
@@ -89,7 +112,7 @@ const Labs = (props) => {
               path={value.markdown[1]}
               key={key}
               className={styles.labCard}
-              variants={categoryVariants}
+              variants={cardVariants}
               name={key}
             />
           );
@@ -107,6 +130,8 @@ const Labs = (props) => {
     );
   }, [selectedCategory]);
 
+  const [show, setShow] = useState(true);
+
   return (
     <section id={styles.labSection}>
       <h1>All Labs</h1>
@@ -114,7 +139,7 @@ const Labs = (props) => {
       <motion.div
         id={styles.categoryGridContainer}
         initial="default"
-        animate={selectedCategoryData == null ? "default" : "reveal"}
+        animate={!show == null ? "default" : "reveal"}
         variants={{
           default: {
             backgroundColor: "#ccc4ce21",
@@ -124,27 +149,51 @@ const Labs = (props) => {
           },
         }}
       >
-        <LabCategory title="View this week's Lab" ref={categoryTopElem} />
+        {selectedCategory == null ? (
+          <LabCategory title={"View This Week's Lab"} ref={categoryTopElem} />
+        ) : (
+          <LabCategory
+            title={"See all labs"}
+            ref={categoryTopElem}
+            selectCallback={(selected) => {
+              setShow(true);
+            }}
+          />
+        )}
+
         <LabCategories
           onSelect={(selected) => {
             setSelectedCategory(selected);
+            setShow(false);
           }}
+          show={selectedCategory == null}
         />
         <motion.div
-          id={styles.categoryData}
           initial="hidden"
-          animate={selectedCategoryData != null ? "show" : "hidden"}
+          id={styles.categoryData}
+          animate={!show ? "show" : "hidden"}
+          onAnimationComplete={(definition) => {
+            if (definition == "hidden") {
+              setShow(true);
+              setSelectedCategory(null);
+              setSelectedCategoryData(null);
+              console.log(1);
+            }
+          }}
           variants={{
             hidden: {
-              height: "0",
+              height: 0,
+              opacity: 0,
               transition: {
-                staggerChildren: 0.5,
+                when: "afterChildren",
               },
             },
             show: {
               height: "100%",
+              opacity: 1,
               transition: {
-                staggerChildren: 0.5,
+                when: "beforeChildren",
+                staggerChildren: 0.2,
               },
             },
           }}
@@ -154,6 +203,7 @@ const Labs = (props) => {
               display: "flex",
               justifyContent: "center",
             }}
+            variants={categoryVariants}
           >
             {selectedCategory}
           </motion.h1>

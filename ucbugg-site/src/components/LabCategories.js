@@ -4,23 +4,28 @@ import { motion } from "framer-motion";
 import styles from "../styles/Lab.module.css";
 
 const LabCategories = (props) => {
-  const { onSelect } = props;
+  const { onSelect, show = null } = props;
   const [hide, setHide] = useState(false);
   const [selected, setSelected] = useState(null);
 
   const MotionLabCategory = motion(LabCategory);
 
+  useEffect(() => {
+    if (show == true) {
+      setHide(false);
+    }
+  }, [show]);
+
   const variants = {
     show: {
-      visibility: "visible",
-      height: "100%",
+      opacity: 1,
       transition: {
         when: "beforeChildren",
         staggerChildren: 0.03,
       },
     },
     hidden: {
-      visibility: "hidden",
+      opacity: 0,
       height: "0",
       transition: {
         when: "afterChildren",
@@ -36,7 +41,7 @@ const LabCategories = (props) => {
     },
     hidden: {
       opacity: 0,
-      y: 10,
+      y: 20,
     },
   };
 
@@ -44,10 +49,12 @@ const LabCategories = (props) => {
     setHide(true);
     setSelected(selected);
   };
+
   return (
     <motion.div
       id={styles.categoryContainer}
       animate={hide ? "hidden" : "show"}
+      initial="show"
       variants={variants}
       onAnimationComplete={(definition) => {
         if (definition == "hidden") {

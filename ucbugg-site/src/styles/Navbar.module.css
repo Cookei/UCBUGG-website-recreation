@@ -1,9 +1,6 @@
-@import url("https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;700&display=swap");
-
 * {
   text-decoration: none;
   color: rgb(80, 77, 79);
-  font-family: "Source Sans 3", sans-serif;
 }
 
 .Navbar {

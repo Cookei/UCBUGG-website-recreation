@@ -4,27 +4,32 @@
   --line-color: rgb(131, 129, 131);
 }
 
+body {
+  height: 100vh;
+}
+
 #labSection {
   display: flex;
   align-items: center;
   flex-direction: column;
   background: linear-gradient(to top right, #d6eff8, #e1c8c7);
-  min-height: calc(100vh - 80px);
-  padding-bottom: 50px;
+  min-height: calc(100% - 80px);
 }
 
 #categoryGridContainer {
-  border: 2px var(--line-color) solid;
-  border-radius: 5px;
+  border-top: 2px var(--line-color) solid;
+  border-left: 2px var(--line-color) solid;
+  border-right: 2px var(--line-color) solid;
+  border-radius: 5px 5px 0 0;
   padding: 50px;
   width: clamp(800px, 80%, 1500px);
   position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #ccc4ce21;
-  background-color: #f5fbff48;
-  min-height: 50vh;
+  background: rgba(0, 0, 0, 0.8);
+  backdrop-filter: saturate(180%) blur(10px);
+  flex: 1 1 auto;
 }
 
 #categoryContainer {
@@ -37,8 +42,9 @@
 }
 
 #categoryGridContainer > div:first-child {
-  top: -70px;
+  top: -20px;
   width: 50%;
+  position: absolute;
 }
 
 .categoryWrapper {
@@ -65,10 +71,13 @@
   border-radius: 5px;
   transition: all 0.25s;
   border-bottom: 2px var(--line-color) solid;
+  color: #939597;
+  letter-spacing: 0.05rem;
 }
 
 .category:hover {
   background-color: rgb(220, 237, 243);
+  color: #626466;
 }
 
 .lineDown {
