@@ -73,7 +73,9 @@ const Home = forwardRef((props, ref) => {
             <button onClick={() => setPipelineState('compositing')}>Button compositing</button>
           </div>
         </div>
-        <PipelineInfoUpdate pipelineState={pipelineState} />
+        <div>
+          <PipelineInfoUpdate pipelineState={pipelineState} />
+        </div>
       </section>
     </div>
   );

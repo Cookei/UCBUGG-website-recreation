@@ -30,7 +30,7 @@ function PipelineInfoUpdate({ pipelineState }) {
             case 'rigging': return "Rigging info";
             case 'animating': return "Animating info";
             case 'compositing': return "Compositing info";
-            default: return "what are you looking for?";
+            default: return "what are you looking for?asdfhasdfasd;fhaoshdf;iuashdfi;aso;dhfaiusdhf;ashdf;aiuhdfo'ihsdfakod;hfaishdfoiahs;doknc;uiashdifjak;fuowoefh'oasdfojhas;dfhaslidfbjasdbfauishdf;iuohbseifjasjfd;oashd;fusbaejfsjasadfasfas";
         }
     };
 
@@ -47,15 +47,17 @@ function PipelineInfoUpdate({ pipelineState }) {
     };
 
     return (
-        <div id={styles.pipelineIllustration}>
+        <div>
             <div id={styles.pipelineTitle}>
                 <p>{getPipelineTitle()}</p>
             </div>
-            <div id={styles.pipelineDescription}>
-                <p>{getPipelineInfo()}</p>
-            </div>
-            <div id={styles.pipelineImage}>
-                <img src={getPipelineImage()} className={styles.iconImage} />
+            <div id={styles.pipelineIllustration}>
+                <div id={styles.pipelineDescription}>
+                    <p>{getPipelineInfo()}</p>
+                </div>
+                <div id={styles.pipelineImage}>
+                    <img src={getPipelineImage()} className={styles.iconImage} />
+                </div>
             </div>
         </div>
     );

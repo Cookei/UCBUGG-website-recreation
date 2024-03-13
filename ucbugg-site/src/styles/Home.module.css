@@ -40,7 +40,6 @@
 }
 
 #pipelineSection {
-  display: flex;
   background-color: rgb(234, 245, 247);
   height: 800px;
   width: 100%;
@@ -50,40 +49,32 @@
 
 #pipelineIllustration {
   display: flex;
-  background-color: rgb(255, 255, 224);
-  height: 600px;
-  width: 90%;
-  padding-left: clamp(25px, 2%, 400px);
-  padding-right: clamp(25px, 2%, 400px);
+  width: 100%;
 }
 
 .pipelineTitle {
-  display: flex;
+  display: block;
   background-color: rgb(255, 255, 224);
   height: 100px;
-  width: 30%;
-  padding-left: clamp(25px, 2%, 400px);
-  padding-right: clamp(25px, 2%, 400px);
+}
+
+.pipelineContainer {
+  display: block;
+  justify-content: space-between;
 }
 
 .pipelineDescription {
-  display: flex;
   background-color: rgb(255, 255, 224);
   height: 400px;
-  width: 60%;
-  padding-left: clamp(25px, 2%, 400px);
-  padding-right: clamp(25px, 2%, 400px);
+  width: 200px;
 }
 
 .pipelineImage {
-  display: flex;
   background-color: rgb(255, 255, 224);
   height: 400px;
-  width: 40%;
-  padding-left: clamp(25px, 2%, 400px);
-  padding-right: clamp(25px, 2%, 400px);
+  width: 200px;
+  margin-left: auto;
 }
-
 
 .block {
   display: flex;
