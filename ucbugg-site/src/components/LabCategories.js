@@ -20,6 +20,7 @@ const LabCategories = (props) => {
     show: {
       opacity: 1,
       transition: {
+        delay: 0.4,
         when: "beforeChildren",
         staggerChildren: 0.03,
       },

@@ -134,18 +134,26 @@ const Labs = (props) => {
 
   return (
     <section id={styles.labSection}>
-      <h1>All Labs</h1>
+      <h1>Labs</h1>
       <br />
       <motion.div
         id={styles.categoryGridContainer}
         initial="default"
-        animate={!show == null ? "default" : "reveal"}
+        animate={!show == false ? "default" : "reveal"}
         variants={{
           default: {
             backgroundColor: "#ccc4ce21",
+            flexGrow: 0,
+            borderRadius: "5px",
+            borderBottom: "2px var(--line-color) solid",
+            marginBottom: "50px",
           },
           reveal: {
             backgroundColor: "#f5fbff48",
+            flexGrow: 1,
+            borderRadius: "5px 5px 0 0",
+            borderBottom: 0,
+            marginBottom: "0px",
           },
         }}
       >
@@ -177,7 +185,6 @@ const Labs = (props) => {
               setShow(true);
               setSelectedCategory(null);
               setSelectedCategoryData(null);
-              console.log(1);
             }
           }}
           variants={{
@@ -189,7 +196,7 @@ const Labs = (props) => {
               },
             },
             show: {
-              height: "100%",
+              height: "auto",
               opacity: 1,
               transition: {
                 when: "beforeChildren",

@@ -17,10 +17,11 @@ body {
 }
 
 #categoryGridContainer {
-  border-top: 2px var(--line-color) solid;
+  /* border-top: 2px var(--line-color) solid;
   border-left: 2px var(--line-color) solid;
-  border-right: 2px var(--line-color) solid;
-  border-radius: 5px 5px 0 0;
+  border-right: 2px var(--line-color) solid; */
+  border: 2px var(--line-color) solid;
+  border-radius: 5px;
   padding: 50px;
   width: clamp(800px, 80%, 1500px);
   position: relative;
@@ -29,7 +30,8 @@ body {
   align-items: center;
   background: rgba(0, 0, 0, 0.8);
   backdrop-filter: saturate(180%) blur(10px);
-  flex: 1 1 auto;
+  margin-left: 50px;
+  margin-right: 50px;
 }
 
 #categoryContainer {
