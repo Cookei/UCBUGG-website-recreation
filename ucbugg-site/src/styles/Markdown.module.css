@@ -41,10 +41,3 @@
   background-color: transparent;
   transform: none;
 }
-
-.markdown blockquote {
-  margin: 0;
-  padding: 0 1em;
-  color: #656d76;
-  border-left: 0.25em solid #d0d7de;
-}

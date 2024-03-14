@@ -23,7 +23,7 @@ body {
   border: 2px var(--line-color) solid;
   border-radius: 5px;
   padding: 50px;
-  width: clamp(800px, 80%, 1500px);
+  width: clamp(600px, 80%, 1500px);
   position: relative;
   display: flex;
   flex-direction: column;
