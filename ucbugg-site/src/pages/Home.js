@@ -1,11 +1,14 @@
-import React, { forwardRef } from "react";
+import React, { forwardRef, useState } from "react";
 import styles from "../styles/Home.module.css";
 import mayaIconImage from "../assets/homePageIcon/maya-logo.jpg";
 import rendermanIconImage from "../assets/homePageIcon/rrm-logo.jpg";
 import creativecloudIconImage from "../assets/homePageIcon/cs-logo.jpeg";
 import aftereffectIconImage from "../assets/homePageIcon/AELOGO.png";
+import PipelineInfoUpdate from './PipelineUpdate';
 
 const Home = forwardRef((props, ref) => {
+  const [pipelineState, setPipelineState] = useState(null);
+
   return (
     <div>
       <section id={styles.splashSection}>
@@ -28,24 +31,50 @@ const Home = forwardRef((props, ref) => {
           <h1>Who we are:</h1>
           {/* prettier-ignore */}
           <p>
-            UCBUGG will soon be accepting applications for the 
+            UCBUGG will soon be accepting applications for the
             <span> Fall 2023 </span> semester! Come to our online infosession on
-            <span> August 28th </span> or <span>August 30th</span>. Both of these 
-            infosessions will cover the same material, so you need only come to one. 
-            During our info session we will be going over the application process, 
-            as well as logistics for the course. UCBUGG does not expect students or 
+            <span> August 28th </span> or <span>August 30th</span>. Both of these
+            infosessions will cover the same material, so you need only come to one.
+            During our info session we will be going over the application process,
+            as well as logistics for the course. UCBUGG does not expect students or
             applicants to have any prior experience for the basic curriculum as we will be
             teaching you everything you need to know for the application at our
             first session.
           </p>
           <div className={styles.iconImageBlock}>
-          <img src = {mayaIconImage} className={styles.iconImage}/>
-          <img src = {creativecloudIconImage} className={styles.iconImage} />
-          <img src = {rendermanIconImage} className={styles.iconImage} />
-          <img src = {aftereffectIconImage}className={styles.iconImage} />
+            <img src={mayaIconImage} className={styles.iconImage} />
+            <img src={creativecloudIconImage} className={styles.iconImage} />
+            <img src={rendermanIconImage} className={styles.iconImage} />
+            <img src={aftereffectIconImage} className={styles.iconImage} />
           </div>
         </div>
         <div >
+        </div>
+      </section>
+      <section id={styles.pipelineSection}>
+        <div>
+          {/* 3d screen for pipeline */}
+          <div>
+            <button onClick={() => setPipelineState('storyBoarding')}>Button storyBoarding</button>
+          </div>
+          <div>
+            <button onClick={() => setPipelineState('modeling')}>Button modeling</button>
+          </div>
+          <div>
+            <button onClick={() => setPipelineState('shading')}>Button shading</button>
+          </div>
+          <div>
+            <button onClick={() => setPipelineState('rigging')}>Button rigging</button>
+          </div>
+          <div>
+            <button onClick={() => setPipelineState('animating')}>Button animating</button>
+          </div>
+          <div>
+            <button onClick={() => setPipelineState('compositing')}>Button compositing</button>
+          </div>
+        </div>
+        <div>
+          <PipelineInfoUpdate pipelineState={pipelineState} />
         </div>
       </section>
     </div>

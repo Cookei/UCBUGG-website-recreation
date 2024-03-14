@@ -18,6 +18,7 @@
   max-width: 650px;
   pointer-events: none;
 }
+
 #splashTitle h1 {
   font-size: 8rem;
   text-align: center;
@@ -36,6 +37,43 @@
   width: 100%;
   padding-left: clamp(25px, 2%, 400px);
   padding-right: clamp(25px, 2%, 400px);
+}
+
+#pipelineSection {
+  background-color: rgb(234, 245, 247);
+  height: 800px;
+  width: 100%;
+  padding-left: clamp(25px, 2%, 400px);
+  padding-right: clamp(25px, 2%, 400px);
+}
+
+#pipelineIllustration {
+  display: flex;
+  width: 100%;
+}
+
+.pipelineTitle {
+  display: block;
+  background-color: rgb(255, 255, 224);
+  height: 100px;
+}
+
+.pipelineContainer {
+  display: block;
+  justify-content: space-between;
+}
+
+.pipelineDescription {
+  background-color: rgb(255, 255, 224);
+  height: 400px;
+  width: 200px;
+}
+
+.pipelineImage {
+  background-color: rgb(255, 255, 224);
+  height: 400px;
+  width: 200px;
+  margin-left: auto;
 }
 
 .block {
