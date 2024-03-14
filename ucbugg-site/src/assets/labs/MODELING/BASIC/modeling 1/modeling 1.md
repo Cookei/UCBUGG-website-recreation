@@ -4,7 +4,8 @@ This lab explores the basics of polygon modeling in Maya by making a simple toil
 
 # MODELING THE BOWL
 
-First, let's make sure that interactive creation is turned off. From the menu at the top, go to Create → Polygon Primitives. Click the Interactive Creation entry on the menu to uncheck the box (if it is not already unchecked somehow). Now go ahead and create a cylinder: Create → Polygon Primitives → Cylinder.
+> (!important)
+> First, let's make sure that interactive creation is turned off. From the menu at the top, go to Create → Polygon Primitives. Click the Interactive Creation entry on the menu to uncheck the box (if it is not already unchecked somehow). Now go ahead and create a cylinder: Create → Polygon Primitives → Cylinder.
 
 ![](<1-turn off interactive creation.png>)
 

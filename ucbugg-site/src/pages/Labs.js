@@ -1,17 +1,46 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useState, useRef } from "react";
 // import { Routes, Route } from "react-router-dom";
-import { Route, Link } from "wouter";
-import WebsiteData from "../UCBUGG_Website_Data.json";
 import data from "./labExport";
 import styles from "../styles/Lab.module.css";
-import logo from "../assets/Syllabus/logo.png";
 import LabCategories from "../components/LabCategories";
 import LabCategory from "../components/LabCategory";
 import LabCard from "../components/LabCard";
+import { motion } from "framer-motion";
 
 const Labs = (props) => {
   const [selectedCategory, setSelectedCategory] = useState(null);
   const [selectedCategoryData, setSelectedCategoryData] = useState(null);
+  const categoryTopElem = useRef(null);
+
+  const categoryVariants = {
+    hidden: {
+      y: 5,
+      opacity: 0,
+      transition: {
+        duration: 0.3,
+      },
+    },
+    show: {
+      opacity: 1,
+      transition: {
+        when: "beforeChildren",
+        staggerChildren: 0.2,
+      },
+    },
+  };
+
+  const cardVariants = {
+    hidden: {
+      y: -5,
+      opacity: 0,
+    },
+    show: {
+      y: -5,
+      opacity: 1,
+    },
+  };
+
+  const MotionLabCard = motion(LabCard);
 
   function generateCategoryInfo(data, name) {
     let counter = 0;
@@ -19,44 +48,58 @@ const Labs = (props) => {
     const returnArray = [];
     if (data["Basic"] != undefined) {
       returnArray.push(
-        <div>
-          <h1>Basic</h1>
-          <div className={styles.labRow}>
+        <motion.div key={counter} variants={cardVariants}>
+          <motion.h1 key={counter + "h1"} variants={categoryVariants}>
+            Basic
+          </motion.h1>
+          <motion.div
+            className={styles.labRow}
+            key={counter + "row"}
+            variants={categoryVariants}
+          >
             {Object.entries(data["Basic"]).map((element) => {
               let [key, value] = element;
               counter++;
               return (
-                <LabCard
+                <MotionLabCard
                   path={value.markdown[1]}
-                  key={counter}
+                  key={key}
                   className={styles.labCard}
+                  variants={cardVariants}
                   name={key}
                 />
               );
             })}
-          </div>
-        </div>
+          </motion.div>
+        </motion.div>
       );
     }
     if (data["Advanced"] != undefined) {
       returnArray.push(
-        <div>
-          <h1>Advanced</h1>
-          <div className={styles.labRow}>
+        <motion.div key={counter} variants={cardVariants}>
+          <motion.h1 key={counter + "h1"} variants={categoryVariants}>
+            Advanced
+          </motion.h1>
+          <motion.div
+            className={styles.labRow}
+            key={counter + "row"}
+            variants={categoryVariants}
+          >
             {Object.entries(data["Advanced"]).map((element) => {
               let [key, value] = element;
               counter++;
               return (
-                <LabCard
+                <MotionLabCard
                   path={value.markdown[1]}
-                  key={counter}
+                  key={key}
                   className={styles.labCard}
+                  variants={cardVariants}
                   name={key}
                 />
               );
             })}
-          </div>
-        </div>
+          </motion.div>
+        </motion.div>
       );
     }
     if (data["Basic"] == undefined && data["Advanced"] == undefined) {
@@ -65,10 +108,11 @@ const Labs = (props) => {
           let [key, value] = element;
           counter++;
           return (
-            <LabCard
+            <MotionLabCard
               path={value.markdown[1]}
-              key={counter}
+              key={key}
               className={styles.labCard}
+              variants={cardVariants}
               name={key}
             />
           );
@@ -84,37 +128,97 @@ const Labs = (props) => {
     setSelectedCategoryData(
       generateCategoryInfo(data[selectedData], selectedData)
     );
-    console.log(selectedCategoryData);
   }, [selectedCategory]);
+
+  const [show, setShow] = useState(true);
 
   return (
     <section id={styles.labSection}>
-      <h1>All Labs</h1>
+      <h1>Labs</h1>
       <br />
-      <div id={styles.categoryGridContainer}>
-        <LabCategory title="View this week's Lab" />
-        <div id={styles.categoryContainer}>
-          <LabCategories
-            onSelect={(selected) => {
-              setSelectedCategory(selected);
+      <motion.div
+        id={styles.categoryGridContainer}
+        initial="default"
+        animate={!show == false ? "default" : "reveal"}
+        variants={{
+          default: {
+            backgroundColor: "#ccc4ce21",
+            flexGrow: 0,
+            borderRadius: "5px",
+            borderBottom: "2px var(--line-color) solid",
+            marginBottom: "50px",
+          },
+          reveal: {
+            backgroundColor: "#f5fbff48",
+            flexGrow: 1,
+            borderRadius: "5px 5px 0 0",
+            borderBottom: 0,
+            marginBottom: "0px",
+          },
+        }}
+      >
+        {selectedCategory == null ? (
+          <LabCategory title={"View This Week's Lab"} ref={categoryTopElem} />
+        ) : (
+          <LabCategory
+            title={"See all labs"}
+            ref={categoryTopElem}
+            selectCallback={(selected) => {
+              setShow(true);
             }}
           />
-        </div>
-      </div>
-      <div
-        id={styles.categoryData}
-        className={selectedCategory == undefined ? styles.hidden : styles.shown}
-      >
-        <h1
-          style={{
-            display: "flex",
-            justifyContent: "center",
+        )}
+
+        <LabCategories
+          onSelect={(selected) => {
+            setSelectedCategory(selected);
+            setShow(false);
+          }}
+          show={selectedCategory == null}
+        />
+        <motion.div
+          initial="hidden"
+          id={styles.categoryData}
+          animate={!show ? "show" : "hidden"}
+          onAnimationComplete={(definition) => {
+            if (definition == "hidden") {
+              setShow(true);
+              setSelectedCategory(null);
+              setSelectedCategoryData(null);
+            }
+          }}
+          variants={{
+            hidden: {
+              height: 0,
+              opacity: 0,
+              transition: {
+                when: "afterChildren",
+              },
+            },
+            show: {
+              height: "auto",
+              opacity: 1,
+              transition: {
+                when: "beforeChildren",
+                staggerChildren: 0.2,
+              },
+            },
           }}
         >
-          {selectedCategory}
-        </h1>
-        <div>{selectedCategoryData}</div>
-      </div>
+          <motion.h1
+            style={{
+              display: "flex",
+              justifyContent: "center",
+            }}
+            variants={categoryVariants}
+          >
+            {selectedCategory}
+          </motion.h1>
+          <motion.div variants={categoryVariants}>
+            {selectedCategoryData}
+          </motion.div>
+        </motion.div>
+      </motion.div>
     </section>
   );
 };

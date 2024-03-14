@@ -18,19 +18,19 @@ const Navbar = () => {
       </Link>
       <div className={styles.right}>
         <Link to="/" className={styles.navlink}>
-          <h2>Home</h2>
+          <h3>HOME</h3>
         </Link>
         <Link to="/syllabus" className={styles.navlink}>
-          <h2>Syllabus</h2>
+          <h3>SYLLABUS</h3>
         </Link>
         <Link to="/labs" className={styles.navlink}>
-          <h2>Labs</h2>
+          <h3>LABS</h3>
         </Link>
         <Link to="/projects" className={styles.navlink}>
-          <h2>Projects</h2>
+          <h3>PROJECTS</h3>
         </Link>
         <Link to="/about" className={styles.navlink}>
-          <h2>About</h2>
+          <h3>ABOUT</h3>
         </Link>
       </div>
     </div>
