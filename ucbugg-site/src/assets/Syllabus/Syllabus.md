@@ -2,7 +2,7 @@
 
 # Course Overview
 
-**Course Email:** staff@ucbugg.com  
+**Course Email:** staff@ucbugg.com
 **Course Website:** ucbugg.com  
 **Class Days & Hours:** Monday or Wednesday | 7:00pm - 9:00pm  
 **Class Location:** 200 Sutardja Dai Hall  
@@ -47,7 +47,8 @@ This course can only be taken as PASS/NO PASS (P/NP). CCNs will be provided by t
 
 # Grade Breakdown
 
-> **Note: Please read the above grading and absence policy CAREFULLY.**
+> (!important)
+> **Note: Please read the below grading and absence policy CAREFULLY.**
 
 | Assignment           | Percentage |
 | -------------------- | ---------- |

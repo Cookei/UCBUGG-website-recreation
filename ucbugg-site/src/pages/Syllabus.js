@@ -8,6 +8,7 @@ import remarkExtendedTable, {
 import MarkdownNavbar from "markdown-navbar";
 import syllabusDocument from "../assets/Syllabus/Syllabus.md";
 import styles from "../styles/Syllabus.module.css";
+import CustomMarkdownComponent from "../components/CustomMarkdownComponent";
 
 const Syllabus = () => {
   const [markdown, setMarkdown] = useState("");
@@ -23,20 +24,10 @@ const Syllabus = () => {
       <section id={styles.syllabusSection}>
         <div id={styles.container}>
           <div id={styles.navbar}>
-            <MarkdownNavbar
-              source={markdown}
-              ordered={false}
-              headingTopOffset={50}
-            />
+            <MarkdownNavbar source={markdown} ordered={false} />
           </div>
           <div id={styles.content}>
-            <Markdown
-              remarkPlugins={[remarkGfm, remarkExtendedTable]}
-              rehypePlugins={[rehypeRaw]}
-              remarkRehypeOptions={{ handlers: { ...extendedTableHandlers } }}
-            >
-              {markdown}
-            </Markdown>
+            <CustomMarkdownComponent child={markdown} />
           </div>
         </div>
       </section>
