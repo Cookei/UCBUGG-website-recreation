@@ -686,6 +686,41 @@ import _upperArmsrc_assets_labs_Modeling_Basic_modeling_2jpg from '../assets/lab
 import _vertexCountsrc_assets_labs_Modeling_Basic_modeling_2jpg from '../assets/labs/Modeling/Basic/modeling 2/vertexCount.jpg'
 import _verticessrc_assets_labs_Modeling_Basic_modeling_2jpg from '../assets/labs/Modeling/Basic/modeling 2/vertices.jpg'
 import _xRaysrc_assets_labs_Modeling_Basic_modeling_2png from '../assets/labs/Modeling/Basic/modeling 2/xRay.png'
+import _as_lab_cryingsrc_assets_labs_Pre_Production_pre_productionpng from '../assets/labs/Pre Production/pre production/as-lab-crying.png'
+import _ballsrc_assets_labs_Pre_Production_pre_productionpng from '../assets/labs/Pre Production/pre production/ball.png'
+import _camshotssrc_assets_labs_Pre_Production_pre_productionpng from '../assets/labs/Pre Production/pre production/camshots.png'
+import _carlsrc_assets_labs_Pre_Production_pre_productionpng from '../assets/labs/Pre Production/pre production/carl.png'
+import _charsrc_assets_labs_Pre_Production_pre_productionpng from '../assets/labs/Pre Production/pre production/char.png'
+import _conceptsrc_assets_labs_Pre_Production_pre_productionpng from '../assets/labs/Pre Production/pre production/concept.png'
+import _palettesrc_assets_labs_Pre_Production_pre_productionpng from '../assets/labs/Pre Production/pre production/palette.png'
+import _Poppy_1src_assets_labs_Pre_Production_pre_productionpng from '../assets/labs/Pre Production/pre production/Poppy-1.png'
+import _pre_productionsrc_assets_labs_Pre_Production_pre_productionmd from '../assets/labs/Pre Production/pre production/pre-production.md'
+import _pm1_5src_assets_labs_Pre_Production_production_managementpng from '../assets/labs/Pre Production/production management/pm1.5.png'
+import _pm1src_assets_labs_Pre_Production_production_managementpng from '../assets/labs/Pre Production/production management/pm1.png'
+import _pm10src_assets_labs_Pre_Production_production_managementpng from '../assets/labs/Pre Production/production management/pm10.png'
+import _pm11src_assets_labs_Pre_Production_production_managementpng from '../assets/labs/Pre Production/production management/pm11.png'
+import _pm12_5src_assets_labs_Pre_Production_production_managementpng from '../assets/labs/Pre Production/production management/pm12.5.png'
+import _pm12src_assets_labs_Pre_Production_production_managementpng from '../assets/labs/Pre Production/production management/pm12.png'
+import _pm13src_assets_labs_Pre_Production_production_managementpng from '../assets/labs/Pre Production/production management/pm13.png'
+import _pm14src_assets_labs_Pre_Production_production_managementpng from '../assets/labs/Pre Production/production management/pm14.png'
+import _pm15src_assets_labs_Pre_Production_production_managementpng from '../assets/labs/Pre Production/production management/pm15.png'
+import _pm16src_assets_labs_Pre_Production_production_managementpng from '../assets/labs/Pre Production/production management/pm16.png'
+import _pm17src_assets_labs_Pre_Production_production_managementpng from '../assets/labs/Pre Production/production management/pm17.png'
+import _pm18src_assets_labs_Pre_Production_production_managementpng from '../assets/labs/Pre Production/production management/pm18.png'
+import _pm19src_assets_labs_Pre_Production_production_managementpng from '../assets/labs/Pre Production/production management/pm19.png'
+import _pm2_5src_assets_labs_Pre_Production_production_managementpng from '../assets/labs/Pre Production/production management/pm2.5.png'
+import _pm2src_assets_labs_Pre_Production_production_managementpng from '../assets/labs/Pre Production/production management/pm2.png'
+import _pm3_5src_assets_labs_Pre_Production_production_managementpng from '../assets/labs/Pre Production/production management/pm3.5.png'
+import _pm3src_assets_labs_Pre_Production_production_managementpng from '../assets/labs/Pre Production/production management/pm3.png'
+import _pm4_5src_assets_labs_Pre_Production_production_managementpng from '../assets/labs/Pre Production/production management/pm4.5.png'
+import _pm4src_assets_labs_Pre_Production_production_managementpng from '../assets/labs/Pre Production/production management/pm4.png'
+import _pm5src_assets_labs_Pre_Production_production_managementpng from '../assets/labs/Pre Production/production management/pm5.png'
+import _pm6src_assets_labs_Pre_Production_production_managementpng from '../assets/labs/Pre Production/production management/pm6.png'
+import _pm7_5src_assets_labs_Pre_Production_production_managementpng from '../assets/labs/Pre Production/production management/pm7.5.png'
+import _pm7src_assets_labs_Pre_Production_production_managementpng from '../assets/labs/Pre Production/production management/pm7.png'
+import _pm8src_assets_labs_Pre_Production_production_managementpng from '../assets/labs/Pre Production/production management/pm8.png'
+import _pm9src_assets_labs_Pre_Production_production_managementpng from '../assets/labs/Pre Production/production management/pm9.png'
+import _production_managementsrc_assets_labs_Pre_Production_production_managementmd from '../assets/labs/Pre Production/production management/production management.md'
 
 
 const data = {
@@ -1456,6 +1491,57 @@ const data = {
           "Modeling/Basic/modeling_2"
         ]
       }
+    }
+  },
+  "Pre_Production": {
+    "pre_production": {
+      "images": {
+        "as-lab-crying.png": _as_lab_cryingsrc_assets_labs_Pre_Production_pre_productionpng,
+        "ball.png": _ballsrc_assets_labs_Pre_Production_pre_productionpng,
+        "camshots.png": _camshotssrc_assets_labs_Pre_Production_pre_productionpng,
+        "carl.png": _carlsrc_assets_labs_Pre_Production_pre_productionpng,
+        "char.png": _charsrc_assets_labs_Pre_Production_pre_productionpng,
+        "concept.png": _conceptsrc_assets_labs_Pre_Production_pre_productionpng,
+        "palette.png": _palettesrc_assets_labs_Pre_Production_pre_productionpng,
+        "Poppy-1.png": _Poppy_1src_assets_labs_Pre_Production_pre_productionpng
+      },
+      "markdown": [
+        _pre_productionsrc_assets_labs_Pre_Production_pre_productionmd,
+        "Pre_Production/pre_production"
+      ]
+    },
+    "production_management": {
+      "images": {
+        "pm1.5.png": _pm1_5src_assets_labs_Pre_Production_production_managementpng,
+        "pm1.png": _pm1src_assets_labs_Pre_Production_production_managementpng,
+        "pm10.png": _pm10src_assets_labs_Pre_Production_production_managementpng,
+        "pm11.png": _pm11src_assets_labs_Pre_Production_production_managementpng,
+        "pm12.5.png": _pm12_5src_assets_labs_Pre_Production_production_managementpng,
+        "pm12.png": _pm12src_assets_labs_Pre_Production_production_managementpng,
+        "pm13.png": _pm13src_assets_labs_Pre_Production_production_managementpng,
+        "pm14.png": _pm14src_assets_labs_Pre_Production_production_managementpng,
+        "pm15.png": _pm15src_assets_labs_Pre_Production_production_managementpng,
+        "pm16.png": _pm16src_assets_labs_Pre_Production_production_managementpng,
+        "pm17.png": _pm17src_assets_labs_Pre_Production_production_managementpng,
+        "pm18.png": _pm18src_assets_labs_Pre_Production_production_managementpng,
+        "pm19.png": _pm19src_assets_labs_Pre_Production_production_managementpng,
+        "pm2.5.png": _pm2_5src_assets_labs_Pre_Production_production_managementpng,
+        "pm2.png": _pm2src_assets_labs_Pre_Production_production_managementpng,
+        "pm3.5.png": _pm3_5src_assets_labs_Pre_Production_production_managementpng,
+        "pm3.png": _pm3src_assets_labs_Pre_Production_production_managementpng,
+        "pm4.5.png": _pm4_5src_assets_labs_Pre_Production_production_managementpng,
+        "pm4.png": _pm4src_assets_labs_Pre_Production_production_managementpng,
+        "pm5.png": _pm5src_assets_labs_Pre_Production_production_managementpng,
+        "pm6.png": _pm6src_assets_labs_Pre_Production_production_managementpng,
+        "pm7.5.png": _pm7_5src_assets_labs_Pre_Production_production_managementpng,
+        "pm7.png": _pm7src_assets_labs_Pre_Production_production_managementpng,
+        "pm8.png": _pm8src_assets_labs_Pre_Production_production_managementpng,
+        "pm9.png": _pm9src_assets_labs_Pre_Production_production_managementpng
+      },
+      "markdown": [
+        _production_managementsrc_assets_labs_Pre_Production_production_managementmd,
+        "Pre_Production/production_management"
+      ]
     }
   }
 }

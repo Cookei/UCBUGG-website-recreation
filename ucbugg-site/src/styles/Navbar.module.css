@@ -21,7 +21,7 @@
   height: 100%;
   top: 0;
   margin-left: 10px;
-  margin-right: 10px;
+  margin-right: 20px;
 }
 
 .navlink:hover {
@@ -36,7 +36,6 @@
 .navlink h3 {
   font-weight: lighter;
   letter-spacing: 0.2rem;
-  margin-right: 10px;
   color: #626466;
   font-size: 1.2rem;
 }
