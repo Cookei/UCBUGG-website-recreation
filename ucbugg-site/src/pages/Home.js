@@ -4,13 +4,13 @@ import mayaIconImage from "../assets/homePageIcon/maya-logo.jpg";
 import rendermanIconImage from "../assets/homePageIcon/rrm-logo.jpg";
 import creativecloudIconImage from "../assets/homePageIcon/cs-logo.jpeg";
 import aftereffectIconImage from "../assets/homePageIcon/AELOGO.png";
-import PipelineInfoUpdate from './PipelineUpdate';
+import PipelineInfoUpdate from "./PipelineUpdate";
 
 const Home = forwardRef((props, ref) => {
   const [pipelineState, setPipelineState] = useState(null);
 
   return (
-    <div>
+    <>
       <section id={styles.splashSection}>
         <div ref={ref} className={styles.splashView}></div>
         <div id={styles.splashTitle}>
@@ -48,36 +48,47 @@ const Home = forwardRef((props, ref) => {
             <img src={aftereffectIconImage} className={styles.iconImage} />
           </div>
         </div>
-        <div >
-        </div>
+        <div></div>
       </section>
       <section id={styles.pipelineSection}>
         <div>
           {/* 3d screen for pipeline */}
           <div>
-            <button onClick={() => setPipelineState('storyBoarding')}>Button storyBoarding</button>
+            <button onClick={() => setPipelineState("storyBoarding")}>
+              Button storyBoarding
+            </button>
           </div>
           <div>
-            <button onClick={() => setPipelineState('modeling')}>Button modeling</button>
+            <button onClick={() => setPipelineState("modeling")}>
+              Button modeling
+            </button>
           </div>
           <div>
-            <button onClick={() => setPipelineState('shading')}>Button shading</button>
+            <button onClick={() => setPipelineState("shading")}>
+              Button shading
+            </button>
           </div>
           <div>
-            <button onClick={() => setPipelineState('rigging')}>Button rigging</button>
+            <button onClick={() => setPipelineState("rigging")}>
+              Button rigging
+            </button>
           </div>
           <div>
-            <button onClick={() => setPipelineState('animating')}>Button animating</button>
+            <button onClick={() => setPipelineState("animating")}>
+              Button animating
+            </button>
           </div>
           <div>
-            <button onClick={() => setPipelineState('compositing')}>Button compositing</button>
+            <button onClick={() => setPipelineState("compositing")}>
+              Button compositing
+            </button>
           </div>
         </div>
         <div>
           <PipelineInfoUpdate pipelineState={pipelineState} />
         </div>
       </section>
-    </div>
+    </>
   );
 });
 

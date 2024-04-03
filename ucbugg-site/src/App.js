@@ -78,6 +78,7 @@ function App() {
       <Route path="/about">
         <About />
       </Route>
+
       <Canvas
         eventSource={document.getElementById("root")}
         className={styles.splashCanvas}
