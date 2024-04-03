@@ -6,7 +6,6 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import Syllabus from "./pages/Syllabus";
 import Labs from "./pages/Labs";
-import Projects from "./pages/Projects";
 import Navbar from "./components/Navbar";
 //3D Stuff
 import { Canvas } from "@react-three/fiber";
@@ -76,9 +75,6 @@ function App() {
           </Route>
         );
       })}
-      <Route path="/projects">
-        <Projects />
-      </Route>
       <Route path="/about">
         <About />
       </Route>
