@@ -104,19 +104,27 @@ const Labs = (props) => {
     }
     if (data["Basic"] == undefined && data["Advanced"] == undefined) {
       returnArray.push(
-        Object.entries(data).map((element) => {
-          let [key, value] = element;
-          counter++;
-          return (
-            <MotionLabCard
-              path={value.markdown[1]}
-              key={key}
-              className={styles.labCard}
-              variants={cardVariants}
-              name={key}
-            />
-          );
-        })
+        <motion.div key={counter} variants={cardVariants}>
+          <motion.div
+            className={styles.labRow}
+            key={counter + "row"}
+            variants={categoryVariants}
+          >
+            {Object.entries(data).map((element) => {
+              let [key, value] = element;
+              counter++;
+              return (
+                <MotionLabCard
+                  path={value.markdown[1]}
+                  key={key}
+                  className={styles.labCard}
+                  variants={cardVariants}
+                  name={key}
+                />
+              );
+            })}
+          </motion.div>
+        </motion.div>
       );
     }
     return returnArray;
