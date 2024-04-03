@@ -26,9 +26,6 @@ const Navbar = () => {
         <Link to="/labs" className={styles.navlink}>
           <h3>LABS</h3>
         </Link>
-        <Link to="/projects" className={styles.navlink}>
-          <h3>PROJECTS</h3>
-        </Link>
         <Link to="/about" className={styles.navlink}>
           <h3>ABOUT</h3>
         </Link>

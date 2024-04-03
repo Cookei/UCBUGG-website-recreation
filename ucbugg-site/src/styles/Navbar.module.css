@@ -36,6 +36,8 @@
 .navlink h3 {
   font-weight: lighter;
   letter-spacing: 0.2rem;
+  margin-right: 5px;
+  margin-left: 5px;
   color: #626466;
   font-size: 1.2rem;
 }
