@@ -1,0 +1,92 @@
+:root {
+  --min-cols: 1;
+  --max-cols: 4;
+  --cols-min-width: 100px;
+  --row-gap: 0px;
+  --col-gap: 0px;
+}
+
+#historySection,
+#staffSection {
+  padding: 50px;
+}
+
+#staffSection {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 0px;
+}
+
+/* .staffGrid {
+  --n: 4;
+  display: grid;
+  grid-template-columns: repeat(
+    auto-fill,
+    minmax(max(200px, (100% - (var(--n) - 1) * 10px) / var(--n)), 1fr)
+  );
+  gap: 10px;
+  margin: 5px;
+
+  > img {
+    width: 100%;
+  }
+} */
+
+.staffGrid {
+  --gap: 30px;
+  --min-cols: 2;
+  --max-cols: 4;
+  --cols-min-width: 150px;
+  --cols-max-width: 150px;
+  --row-gap: 0px;
+  --col-gap: 0px;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: clamp(500px, 70%, 1300px);
+
+  > div {
+    flex: 0 0;
+    flex-basis: min(
+      calc(
+        100% / var(--min-cols) - var(--col-gap) * (var(--min-cols) - 1) /
+          var(--min-cols)
+      ),
+      max(
+        var(--cols-min-width),
+        calc(
+          100% / var(--max-cols) - var(--col-gap) * (var(--max-cols) - 1) /
+            var(--max-cols)
+        )
+      )
+    );
+    display: flex;
+    justify-content: center;
+    width: 100%;
+
+    > div {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      text-align: center;
+      margin: var(--gap);
+      width: var(--cols-max-width);
+
+      > img {
+        width: 100%;
+        object-fit: cover;
+        border-radius: 50%;
+      }
+    }
+  }
+}
+
+#pastFacilitatorsSection {
+  position: relative;
+  height: 100%;
+  background-color: rgb(239, 219, 188);
+  display: flex;
+  justify-content: center;
+}

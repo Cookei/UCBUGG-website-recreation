@@ -16,6 +16,7 @@ import styles from "./styles/App.module.css";
 //MarkdownGeneration
 import data from "./pages/labExport";
 import LabMarkdown from "./components/LabMarkdown";
+import AboutCanvas from "./pages/AboutCanvas";
 
 const tempEntries = [];
 function getRoute(obj) {
@@ -38,6 +39,7 @@ getRoute(data);
 
 function App() {
   const splashView = useRef();
+  const pastFacilitatorsView = useRef();
 
   const [markdownReferences, setMarkdownReferences] = useState({});
   const [entries, setEntries] = useState([]);
@@ -76,18 +78,27 @@ function App() {
         );
       })}
       <Route path="/about">
-        <About />
+        <About ref={pastFacilitatorsView} />
       </Route>
 
-      <Canvas
-        eventSource={document.getElementById("root")}
-        className={styles.splashCanvas}
-      >
-        <Route path="/">
+      <Route path="/">
+        <Canvas
+          eventSource={document.getElementById("root")}
+          className={styles.splashCanvas}
+        >
           <HomeCanvas ref={{ splashView: splashView }} />
-        </Route>
-        <Preload all />
-      </Canvas>
+          <Preload all />
+        </Canvas>
+      </Route>
+      <Route path="/about">
+        <Canvas
+          eventSource={document.getElementById("root")}
+          className={styles.splashCanvas}
+        >
+          <AboutCanvas ref={{ pastFacilitatorsView: pastFacilitatorsView }} />
+          <Preload all />
+        </Canvas>
+      </Route>
     </>
   );
 }

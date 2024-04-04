@@ -1,4 +1,6 @@
 #!/usr/bin/env node
+//https://github.com/oscadev/react-import-folder/blob/master/index.js
+// Modified ^
 
 const fs = require("fs");
 const relPath = require("path");

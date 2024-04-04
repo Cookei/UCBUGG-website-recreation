@@ -1,5 +1,6 @@
 import React, { forwardRef, useState } from "react";
 import styles from "../styles/Home.module.css";
+import appStyles from "../styles/App.module.css";
 import mayaIconImage from "../assets/homePageIcon/maya-logo.jpg";
 import rendermanIconImage from "../assets/homePageIcon/rrm-logo.jpg";
 import creativecloudIconImage from "../assets/homePageIcon/cs-logo.jpeg";
@@ -12,7 +13,7 @@ const Home = forwardRef((props, ref) => {
   return (
     <>
       <section id={styles.splashSection}>
-        <div ref={ref} className={styles.splashView}></div>
+        <div ref={ref} className={appStyles.view}></div>
         <div id={styles.splashTitle}>
           <h1>UCBUGG</h1>
           <h2>
