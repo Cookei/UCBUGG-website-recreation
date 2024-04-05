@@ -2,6 +2,7 @@ import React, { forwardRef } from "react";
 import styles from "../styles/About.module.css";
 import appStyles from "../styles/App.module.css";
 import data from "./TatoeImgImports.js";
+import historyImg from "../assets/images/about/ucbuggfamily_fall2019.jpg";
 
 const About = forwardRef((props, ref) => {
   const { pastFacilitatorsView } = ref;
@@ -10,7 +11,7 @@ const About = forwardRef((props, ref) => {
       <section id={styles.projectSection}></section>
       <section id={styles.historySection}>
         <h1>A Brief History</h1>
-        <div>
+        <div style={{ display: "flex", flexDirection: "row" }}>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ut
             quam felis. Nunc malesuada sodales vulputate. Ut eu risus a quam
@@ -20,14 +21,15 @@ const About = forwardRef((props, ref) => {
             justo, ullamcorper scelerisque turpis tincidunt ac. Nulla ut
             hendrerit nulla, in venenatis tortor.
           </p>
+          <img src={historyImg} style={{ width: "500px" }} />
         </div>
       </section>
       <section id={styles.staffSection}>
         <h1>Current Facilitators</h1>
         <div className={styles.staffGrid}>
-          {data.head_tatoes.map((e) => {
+          {data.head_tatoes.map((e, i) => {
             return (
-              <div>
+              <div key={i}>
                 <div>
                   <img src={e.img} className={styles.staffImg} />
                   {e.name.match(/Senior/g) ? (
@@ -41,9 +43,9 @@ const About = forwardRef((props, ref) => {
           })}
         </div>
         <div className={styles.staffGrid}>
-          {data.normal_tatoes.map((e) => {
+          {data.normal_tatoes.map((e, i) => {
             return (
-              <div>
+              <div key={i}>
                 <div>
                   <img src={e.img} className={styles.staffImg} />
                   {e.name.match(/Senior/g) ? (
@@ -58,7 +60,9 @@ const About = forwardRef((props, ref) => {
         </div>
       </section>
       <section id={styles.pastFacilitatorsSection}>
-        <h1>Past Facilitators</h1>
+        <h1 style={{ zIndex: 1, height: "fit-content", pointerEvents: "None" }}>
+          Past Facilitators
+        </h1>
         <div ref={pastFacilitatorsView} className={appStyles.view} />
       </section>
     </>

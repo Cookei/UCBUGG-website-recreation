@@ -7,16 +7,13 @@ import {
 } from "@react-three/drei";
 import HelperGrid from "../models/HelperGrid";
 import CameraRig from "../components/CameraRig";
-import SplashModel from "../models/SplashModel";
+const SplashModel = React.lazy(() => import("../models/SplashModel"));
 
 const HomeCanvas = forwardRef((props, ref) => {
   const { splashView } = ref;
   return (
-    <View track={splashView}>
-      <PerspectiveCamera
-        makeDefault
-        position={[3.5, 1.5, 4.5]}
-      ></PerspectiveCamera>
+    <View track={splashView} index={1}>
+      <PerspectiveCamera makeDefault position={[3.5, 1.5, 4.5]} />
       <CameraRig SPLASH_OFFSET={[3.5, 1.5, 4.5]} />
       <GradientTexture
         attach="background"

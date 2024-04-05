@@ -1,15 +1,15 @@
 import { useRef, useState, useEffect } from "react";
 //Routing
 // import { BrowserRouter, Routes, Route } from "react-router-dom";
-import { Link, Route } from "wouter";
+import { Link, Route, useLocation } from "wouter";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Syllabus from "./pages/Syllabus";
 import Labs from "./pages/Labs";
 import Navbar from "./components/Navbar";
 //3D Stuff
-import { Canvas } from "@react-three/fiber";
-import { Preload } from "@react-three/drei";
+import { Canvas, invalidate } from "@react-three/fiber";
+import { Preload, View } from "@react-three/drei";
 import HomeCanvas from "./pages/HomeCanvas";
 //CSS
 import styles from "./styles/App.module.css";
@@ -43,6 +43,12 @@ function App() {
 
   const [markdownReferences, setMarkdownReferences] = useState({});
   const [entries, setEntries] = useState([]);
+
+  const [location, setLocation] = useLocation();
+
+  useEffect(() => {
+    invalidate();
+  }, [location]);
 
   useEffect(() => {
     tempEntries.forEach((e) => {
@@ -78,27 +84,21 @@ function App() {
         );
       })}
       <Route path="/about">
-        <About ref={pastFacilitatorsView} />
+        <About ref={{ pastFacilitatorsView: pastFacilitatorsView }} />
       </Route>
 
-      <Route path="/">
-        <Canvas
-          eventSource={document.getElementById("root")}
-          className={styles.splashCanvas}
-        >
+      <Canvas
+        eventSource={document.getElementById("root")}
+        className={styles.splashCanvas}
+      >
+        <Route path="/">
           <HomeCanvas ref={{ splashView: splashView }} />
-          <Preload all />
-        </Canvas>
-      </Route>
-      <Route path="/about">
-        <Canvas
-          eventSource={document.getElementById("root")}
-          className={styles.splashCanvas}
-        >
+        </Route>
+        <Route path="/about">
           <AboutCanvas ref={{ pastFacilitatorsView: pastFacilitatorsView }} />
-          <Preload all />
-        </Canvas>
-      </Route>
+        </Route>
+        <Preload all />
+      </Canvas>
     </>
   );
 }
