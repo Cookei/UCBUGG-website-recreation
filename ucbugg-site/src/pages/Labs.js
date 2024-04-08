@@ -22,10 +22,6 @@ const Labs = (props) => {
     },
     show: {
       opacity: 1,
-      transition: {
-        when: "beforeChildren",
-        staggerChildren: 0.2,
-      },
     },
   };
 
@@ -208,7 +204,6 @@ const Labs = (props) => {
               opacity: 1,
               transition: {
                 when: "beforeChildren",
-                staggerChildren: 0.2,
               },
             },
           }}

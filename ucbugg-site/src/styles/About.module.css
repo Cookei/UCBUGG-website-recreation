@@ -1,14 +1,42 @@
-:root {
-  --min-cols: 1;
-  --max-cols: 4;
-  --cols-min-width: 100px;
-  --row-gap: 0px;
-  --col-gap: 0px;
-}
-
 #historySection,
 #staffSection {
   padding: 50px;
+}
+
+#historySection {
+  display: flex;
+  justify-content: center;
+}
+
+#historyBlurb {
+  display: flex;
+  flex-direction: column;
+
+  > div {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  p {
+    min-width: 350px;
+    max-width: 400px;
+  }
+
+  img {
+    margin-left: 2rem;
+    max-width: 500px;
+    height: fit-content;
+    border-radius: 10px;
+  }
+
+  @media (max-width: 850px) {
+    align-items: center;
+
+    > div {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
 }
 
 #staffSection {
@@ -68,9 +96,27 @@
   }
 }
 
+.pastStaffGrid {
+  margin-top: 2rem;
+  --gap: 15px;
+  --min-cols: 2;
+  --max-cols: 8;
+  --cols-min-width: 100px;
+  --cols-max-width: 100px;
+  --row-gap: 0px;
+  --col-gap: 0px;
+  width: clamp(500px, 80%, 1300px);
+
+  > div > div > img {
+    border-radius: 10px;
+  }
+}
+
 #pastFacilitatorsSection {
   position: relative;
   height: 95vh;
   display: flex;
-  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 2rem;
 }

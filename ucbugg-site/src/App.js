@@ -8,8 +8,8 @@ import Syllabus from "./pages/Syllabus";
 import Labs from "./pages/Labs";
 import Navbar from "./components/Navbar";
 //3D Stuff
-import { Canvas, invalidate } from "@react-three/fiber";
-import { Preload, View } from "@react-three/drei";
+import { Canvas, extend, invalidate } from "@react-three/fiber";
+import { Preload } from "@react-three/drei";
 import HomeCanvas from "./pages/HomeCanvas";
 //CSS
 import styles from "./styles/App.module.css";
@@ -17,6 +17,7 @@ import styles from "./styles/App.module.css";
 import data from "./pages/labExport";
 import LabMarkdown from "./components/LabMarkdown";
 import AboutCanvas from "./pages/AboutCanvas";
+import { EffectComposer, Noise, Vignette } from "@react-three/postprocessing";
 
 const tempEntries = [];
 function getRoute(obj) {
@@ -94,9 +95,9 @@ function App() {
         <Route path="/">
           <HomeCanvas ref={{ splashView: splashView }} />
         </Route>
-        <Route path="/about">
+        {/* <Route path="/about">
           <AboutCanvas ref={{ pastFacilitatorsView: pastFacilitatorsView }} />
-        </Route>
+        </Route> */}
         <Preload all />
       </Canvas>
     </>
