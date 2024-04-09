@@ -14,9 +14,16 @@
   position: absolute;
   z-index: 1;
   right: clamp(10px, 15vw, 500px);
-  top: clamp(50px, 5vh, 400px);
+  top: 50%;
   max-width: 650px;
+  transform: translateY(-50%);
   pointer-events: none;
+}
+
+#splashText {
+  font-size: 1.25rem;
+  text-align: center;
+  margin: 0;
 }
 
 #splashTitle h1 {
