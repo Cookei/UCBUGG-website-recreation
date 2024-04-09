@@ -49,14 +49,13 @@
 #pipelineSection {
   background-color: rgb(234, 245, 247);
   height: 800px;
-  width: 100%;
+  width: 100vw;
   padding-left: clamp(25px, 2%, 400px);
   padding-right: clamp(25px, 2%, 400px);
 }
 
 #pipelineIllustration {
   display: flex;
-  width: 100%;
 }
 
 .pipelineTitle {
@@ -73,7 +72,6 @@
 .pipelineDescription {
   background-color: rgb(255, 255, 224);
   height: 400px;
-  width: 200px;
 }
 
 .pipelineImage {
@@ -81,6 +79,7 @@
   height: 400px;
   width: 200px;
   margin-left: auto;
+  
 }
 
 .block {
@@ -118,4 +117,58 @@
   flex-wrap: nowrap;
   flex-direction: row;
   justify-content: center;
+}
+
+#directionSection {
+  background-color: rgb(230, 230, 230);
+  height: 800px;
+  width: 100%;
+  position: relative;
+}
+
+.SDHImageBlock {
+  width: 100vw;
+  object-fit: contain;
+  display: flex;
+}
+
+.SDHImageContainer {
+  height: 80vw;
+  width: 100vw;
+  overflow: hidden;
+}
+
+.SDHTextBlock {
+  flex-grow: 1; 
+  top: 0;
+  top: 30%;
+  left: 70%;
+  font-size: 2rem;
+  color: rgb(0, 0, 0);
+  position: absolute;
+  height: 15vw;
+  width: 20vw;
+  background-color: rgba(143, 143, 143, 0.646);
+}
+
+.SDHTextBlock>h1 {
+  margin: 0;
+}
+
+.SDHSmallTextBlock {
+  font-size: 1rem;
+  color: rgb(0, 0, 0);
+}
+
+.SDHButton {
+  margin-top: 10vw;
+  height: 8vw;
+  width: 15vw;
+  border-radius: 2%;
+  border-color: rgba(156, 78, 180, 0.695);
+  background-color: rgba(185, 185, 185, 0.791);
+}
+
+.SDHButton>h1 {
+  font-size: 2rem;
 }

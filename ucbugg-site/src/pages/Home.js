@@ -5,6 +5,7 @@ import rendermanIconImage from "../assets/homePageIcon/rrm-logo.jpg";
 import creativecloudIconImage from "../assets/homePageIcon/cs-logo.jpeg";
 import aftereffectIconImage from "../assets/homePageIcon/AELOGO.png";
 import PipelineInfoUpdate from "./PipelineUpdate";
+import SDHRoomImage from "../assets/images/home page/SDH200.jpg";
 
 const Home = forwardRef((props, ref) => {
   const [pipelineState, setPipelineState] = useState(null);
@@ -79,6 +80,22 @@ const Home = forwardRef((props, ref) => {
         <div>
           <PipelineInfoUpdate pipelineState={pipelineState} />
         </div>
+      </section>
+      <section id={styles.directionSection}>
+        <div className={styles.SDHImageContainer}>
+        <img src={SDHRoomImage} className={styles.SDHImageBlock} />
+        </div>
+        <div className={styles.SDHTextBlock}>
+          <h1 >SDH 200</h1>
+          <div className={styles.SDHSmallTextBlock}>
+            <h1 >Mon/Weds</h1>
+            <h1>7:00 pm - 9:00 pm</h1>
+          </div>
+          <button className={styles.SDHButton}>
+              <h1>Apply Now!</h1>
+          </button>
+        </div>
+        <div></div>
       </section>
     </>
   );
