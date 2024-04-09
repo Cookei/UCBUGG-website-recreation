@@ -8,7 +8,7 @@ import remarkExtendedTable, {
 import markdownStyles from "../styles/Markdown.module.css";
 
 const CustomMarkdownComponent = (props) => {
-  const { e, child } = props;
+  const { images, child } = props;
   return (
     <Markdown
       remarkPlugins={[remarkGfm, remarkExtendedTable]}
@@ -17,8 +17,8 @@ const CustomMarkdownComponent = (props) => {
         handlers: { ...extendedTableHandlers },
       }}
       urlTransform={(uri) => {
-        if (e == undefined) return;
-        return e.images[uri.replace(/%20/g, " ")];
+        if (images == undefined) return;
+        return images[decodeURI(uri)];
       }}
       className={markdownStyles.markdown}
       components={{

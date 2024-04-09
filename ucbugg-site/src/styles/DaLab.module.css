@@ -3,27 +3,6 @@
   background: linear-gradient(rgb(245, 246, 248), rgb(240, 237, 243));
 }
 
-#navbar {
-  position: sticky;
-  padding-right: 10px;
-  width: var(--navbar-offset);
-  max-height: 100vh;
-  top: 35px;
-  font-size: 0.9rem;
-}
-
-#navbar div div {
-  font-size: 1.05em;
-  margin-bottom: 1rem;
-  border-bottom: 1px transparent solid;
-  transition: all 0.2s;
-}
-
-#navbar div div:hover {
-  border-bottom: 1px gray solid;
-  cursor: pointer;
-}
-
 #content {
   position: relative;
   max-width: calc(100vw - var(--navbar-offset) - 150px);

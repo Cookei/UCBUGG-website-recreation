@@ -89,6 +89,7 @@
 
       > img {
         width: 100%;
+        aspect-ratio: 1 / 1;
         object-fit: cover;
         border-radius: 50%;
       }
@@ -98,13 +99,12 @@
 
 .pastStaffGrid {
   margin-top: 2rem;
-  --gap: 15px;
-  --min-cols: 2;
+  --min-cols: 3;
   --max-cols: 8;
   --cols-min-width: 100px;
   --cols-max-width: 100px;
-  --row-gap: 0px;
-  --col-gap: 0px;
+  --row-gap: 15px;
+  --col-gap: 15px;
   width: clamp(500px, 80%, 1300px);
 
   > div > div > img {

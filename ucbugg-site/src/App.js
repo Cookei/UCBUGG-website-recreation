@@ -1,7 +1,7 @@
 import { useRef, useState, useEffect } from "react";
 //Routing
 // import { BrowserRouter, Routes, Route } from "react-router-dom";
-import { Link, Route, useLocation } from "wouter";
+import { Link, Redirect, Route, Switch, useLocation, useRoute } from "wouter";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Syllabus from "./pages/Syllabus";
@@ -42,51 +42,31 @@ function App() {
   const splashView = useRef();
   const pastFacilitatorsView = useRef();
 
-  const [markdownReferences, setMarkdownReferences] = useState({});
-  const [entries, setEntries] = useState([]);
-
-  const [location, setLocation] = useLocation();
-
-  useEffect(() => {
-    invalidate();
-  }, [location]);
-
-  useEffect(() => {
-    tempEntries.forEach((e) => {
-      let newObj = markdownReferences;
-      fetch(e.element)
-        .then((res) => res.text())
-        .then((text) => {
-          newObj[e.key] = text;
-          setMarkdownReferences(newObj);
-          setEntries(tempEntries);
-        });
-    });
-    console.log("test");
-  }, []);
-
   return (
     <>
       <Navbar />
-      <Route path="/">
-        <Home ref={splashView} />
-      </Route>
-      <Route path="/syllabus">
-        <Syllabus />
-      </Route>
-      <Route path="/labs">
-        <Labs />
-      </Route>
-      {entries.map((e) => {
-        return (
-          <Route path={`/labs/${e.path}`} key={e.key}>
-            <LabMarkdown e={e} markdownReferences={markdownReferences} />
-          </Route>
-        );
-      })}
-      <Route path="/about">
-        <About ref={{ pastFacilitatorsView: pastFacilitatorsView }} />
-      </Route>
+      <Switch>
+        <Route path="/">
+          <Home ref={splashView} />
+        </Route>
+        <Route path="/syllabus">
+          <Syllabus />
+        </Route>
+        <Route path="/labs">
+          <Labs />
+        </Route>
+        {tempEntries.map((e) => {
+          return (
+            <Route path={`/labs/${e.path}`} key={e.key}>
+              {/* <LabMarkdown e={e} markdownReferences={markdownReferences} /> */}
+              <LabMarkdown path={e.path} />
+            </Route>
+          );
+        })}
+        <Route path="/about">
+          <About ref={{ pastFacilitatorsView: pastFacilitatorsView }} />
+        </Route>
+      </Switch>
 
       <Canvas
         eventSource={document.getElementById("root")}
