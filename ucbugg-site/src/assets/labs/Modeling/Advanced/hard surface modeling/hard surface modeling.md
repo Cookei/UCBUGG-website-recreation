@@ -27,7 +27,7 @@ Outline
 
 Import this image of top-down view of cello in the "top" orthographic view in the viewport window.
 
-<a href="cello_top_view.zip" class="downloadButton">cello_top_view.zip</a>
+[cello_top_view.zip](cello_top_view.zip)
 
 Tip: Before I start any modeling I always like to bring my reference images on an image plane and put them on a separate layer. That way I can turn visibility off and on whenever I want.
 

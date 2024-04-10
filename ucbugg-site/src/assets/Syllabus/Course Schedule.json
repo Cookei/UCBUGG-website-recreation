@@ -1,0 +1,198 @@
+[
+  {
+    "date": ["Jan 22", "Jan 24"],
+    "topics": ["Intro to Maya"],
+    "assignments": {
+      "basic": {
+        "individual": [
+          "Submit enrollment form",
+          "Submit application",
+          "Join Discord"
+        ],
+        "group": [],
+        "labsAssigned": []
+      },
+      "advanced": {}
+    }
+  },
+  {
+    "date": ["Jan 29", "Jan 31"],
+    "topics": ["Art and Story"],
+    "assignments": {
+      "basic": {
+        "individual": [
+          "Prepare a story pitch",
+          "Make 15-20 storyboards to accompany pitch",
+          "Create an asset list"
+        ],
+        "group": [],
+        "labsAssigned": []
+      },
+      "advanced": {}
+    }
+  },
+  {
+    "date": ["Feb 5", "Feb 7"],
+    "topics": ["Story Pitches", "Project Management", "Group Formation"],
+    "assignments": {
+      "basic": {
+        "individual": [],
+        "group": [
+          "Revise storyboards and develop animatic",
+          "Make modeling sheets for characters",
+          "Set up GDrive"
+        ],
+        "labsAssigned": []
+      },
+      "advanced": {}
+    }
+  },
+  {
+    "date": ["Feb 12", "Feb 14"],
+    "topics": ["Basic Modeling"],
+    "assignments": {
+      "basic": {
+        "individual": ["Complete Basic Modeling Lab"],
+        "group": ["Model Props", "Project Set Up"]
+      },
+      "labsAssigned": ["Modeling 1"]
+    },
+    "advanced": {}
+  },
+  {
+    "date": ["Feb 19", "Feb 21"],
+    "topics": ["Advanced Modeling"],
+    "assignments": {
+      "basic": {
+        "individual": ["Complete Advanced Modeling Lab"],
+        "group": ["Model all characters and environment"]
+      },
+      "labsAssigned": ["Modeling 2"]
+    },
+    "advanced": {}
+  },
+  {
+    "date": ["Feb 26", "Feb 28"],
+    "topics": ["Shading"],
+    "assignments": {
+      "basic": {
+        "individual": ["Complete Shading Lab"],
+        "group": [
+          "UV Map, texture, and shade all models",
+          "Submit preview render"
+        ]
+      },
+      "labsAssigned": ["Basic Materials"]
+    },
+    "advanced": {}
+  },
+  {
+    "date": ["Mar 4", "Mar 6"],
+    "topics": ["Basic Rigging"],
+    "assignments": {
+      "basic": {
+        "individual": ["Complete Basic Rigging Lab"],
+        "group": ["Setup skeletons for all characters", "Create blendshapes"]
+      },
+      "labsAssigned": ["Rigging 1"]
+    },
+    "advanced": {}
+  },
+  {
+    "date": ["Mar 1", "Mar 13"],
+    "topics": ["Advanced Rigging"],
+    "assignments": {
+      "basic": {
+        "individual": ["Complete Advanced Rigging Lab"],
+        "group": ["Add controllers to rigs", "Skin characters"]
+      },
+      "labsAssigned": ["Rigging 2"]
+    },
+    "advanced": {}
+  },
+  {
+    "date": ["Mar 18", "Mar 20"],
+    "topics": ["Basic Animation"],
+    "assignments": {
+      "basic": {
+        "individual": ["Complete Basic Animation Lab"],
+        "group": ["Start blocking animation", "Set up projects"]
+      },
+      "labsAssigned": ["Animation 1"]
+    },
+    "advanced": {}
+  },
+  {
+    "date": ["Mar 25", "Mar 27"],
+    "topics": ["Spring Break"],
+    "assignments": {
+      "basic": {
+        "individual": ["Enjoy your break!"],
+        "group": ["Enjoy your break!"]
+      },
+      "labsAssigned": []
+    },
+    "advanced": {}
+  },
+  {
+    "date": ["Apr 1", "Apr 3"],
+    "topics": ["Visual Effects and Lighting"],
+    "assignments": {
+      "basic": {
+        "individual": ["Complete Lighting Lab"],
+        "group": ["Continue refining animation", "Submit playblasts"]
+      },
+      "labsAssigned": ["Lighting 1"]
+    },
+    "advanced": {}
+  },
+  {
+    "date": ["Apr 8", "Apr 10"],
+    "topics": ["Advanced Animation"],
+    "assignments": {
+      "basic": {
+        "individual": ["Complete Advanced Animation Lab"],
+        "group": ["Submit refined playblasts"]
+      },
+      "labsAssigned": ["Animation 2"]
+    },
+    "advanced": {}
+  },
+  {
+    "date": ["Apr 15", "Apr 17"],
+    "topics": ["Rendering and Compositing"],
+    "assignments": {
+      "basic": {
+        "individual": [
+          "Complete Compositing Lab",
+          "Complete VFX Lab (Extra Credit)"
+        ],
+        "group": ["Create lighting rigs", "Submit lighting preview render"]
+      },
+      "labsAssigned": [
+        "Rendering",
+        "Compositing Layer Management",
+        "Compositing Motion Tracking",
+        "Compositing Particles"
+      ]
+    },
+    "advanced": {}
+  },
+  {
+    "date": ["Apr 22", "Apr 24"],
+    "topics": ["Final Class Critique"],
+    "assignments": {
+      "basic": {
+        "individual": [],
+        "group": ["Final Renders", "Post-production and sound effects"]
+      },
+      "labsAssigned": []
+    },
+    "advanced": {}
+  },
+  {
+    "date": ["~ May 3 (TBD)"],
+    "topics": ["Final Showcase"],
+    "location": "Location: TBD"
+  }
+]

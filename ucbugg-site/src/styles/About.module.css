@@ -1,0 +1,150 @@
+#historySection,
+#staffSection {
+  padding: 50px;
+}
+
+#historySection {
+  display: flex;
+  justify-content: center;
+}
+
+#historyBlurb {
+  display: flex;
+  flex-direction: column;
+
+  > div {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  p {
+    max-width: 400px;
+  }
+
+  img {
+    margin-left: 1rem;
+    margin-left: 1rem;
+    max-width: 430px;
+    height: fit-content;
+    border-radius: 10px;
+  }
+
+  @media (max-width: 800px) {
+    align-items: center;
+
+    > div {
+      flex-direction: column;
+      align-items: center;
+    }
+
+    p {
+      width: auto;
+    }
+
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
+}
+
+#staffSection {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.staffGrid {
+  --gap: 30px;
+  --min-cols: 2;
+  --max-cols: 4;
+  --cols-min-width: 150px;
+  --cols-max-width: 150px;
+  --row-gap: 0px;
+  --col-gap: 0px;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: clamp(500px, 67%, 1300px);
+
+  > div {
+    flex: 0 0;
+    flex-basis: min(
+      calc(
+        100% / var(--min-cols) - var(--col-gap) * (var(--min-cols) - 1) /
+          var(--min-cols)
+      ),
+      max(
+        var(--cols-min-width),
+        calc(
+          100% / var(--max-cols) - var(--col-gap) * (var(--max-cols) - 1) /
+            var(--max-cols)
+        )
+      )
+    );
+    display: flex;
+    justify-content: center;
+    width: 100%;
+
+    > div {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      text-align: center;
+      margin: var(--gap);
+      width: var(--cols-max-width);
+
+      > img {
+        width: 100%;
+        aspect-ratio: 1 / 1;
+        object-fit: cover;
+        border-radius: 50%;
+      }
+    }
+
+    @media (max-width: 800px) {
+      --cols-min-width: 100px;
+      --cols-max-width: 100px;
+
+      > div {
+        margin: 10px;
+      }
+    }
+  }
+}
+
+.pastStaffGrid {
+  margin-top: 2rem;
+  --min-cols: 3;
+  --max-cols: 8;
+  --cols-min-width: 100px;
+  --cols-max-width: 100px;
+  --row-gap: 15px;
+  --col-gap: 15px;
+  width: clamp(500px, 80%, 1300px);
+
+  > div > div > img {
+    border-radius: 10px;
+  }
+}
+
+@media (max-width: 800px) {
+  .pastStaffGrid,
+  .staffGrid {
+    padding-left: 3rem;
+    padding-right: 3rem;
+    width: auto;
+  }
+}
+
+#pastFacilitatorsSection {
+  position: relative;
+  height: 95vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 2rem;
+}

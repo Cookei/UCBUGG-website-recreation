@@ -96,3 +96,32 @@ blockquote.important::before {
   color: #dd2e2e;
   display: block;
 }
+
+.markdown-navigation {
+  position: sticky;
+  padding-right: 10px;
+  width: var(--navbar-offset);
+  max-height: 50vh;
+  border-right: 2px gray solid;
+  top: 35px;
+}
+
+.markdown-navigation .title-anchor {
+  font-size: 1.05em;
+  margin-bottom: 0.5rem;
+  padding-bottom: 0.5rem;
+  transition: all 100ms;
+  border-bottom: 2px transparent solid;
+  scroll-behavior: smooth;
+}
+
+.markdown-navigation .title-anchor:hover {
+  cursor: pointer;
+  border-bottom: 2px gray solid;
+}
+
+@media (max-width: 800px) {
+  .markdown-navigation {
+    display: none;
+  }
+}

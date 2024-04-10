@@ -1,14 +1,14 @@
 import { useRef, useState, useEffect } from "react";
 //Routing
 // import { BrowserRouter, Routes, Route } from "react-router-dom";
-import { Link, Route } from "wouter";
+import { Link, Redirect, Route, Switch, useLocation, useRoute } from "wouter";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Syllabus from "./pages/Syllabus";
 import Labs from "./pages/Labs";
 import Navbar from "./components/Navbar";
 //3D Stuff
-import { Canvas } from "@react-three/fiber";
+import { Canvas, extend, invalidate } from "@react-three/fiber";
 import { Preload } from "@react-three/drei";
 import HomeCanvas from "./pages/HomeCanvas";
 //CSS
@@ -16,6 +16,8 @@ import styles from "./styles/App.module.css";
 //MarkdownGeneration
 import data from "./pages/labExport";
 import LabMarkdown from "./components/LabMarkdown";
+import AboutCanvas from "./pages/AboutCanvas";
+import { EffectComposer, Noise, Vignette } from "@react-three/postprocessing";
 
 const tempEntries = [];
 function getRoute(obj) {
@@ -38,46 +40,33 @@ getRoute(data);
 
 function App() {
   const splashView = useRef();
-
-  const [markdownReferences, setMarkdownReferences] = useState({});
-  const [entries, setEntries] = useState([]);
-
-  useEffect(() => {
-    tempEntries.forEach((e) => {
-      let newObj = markdownReferences;
-      fetch(e.element)
-        .then((res) => res.text())
-        .then((text) => {
-          newObj[e.key] = text;
-          setMarkdownReferences(newObj);
-          setEntries(tempEntries);
-        });
-    });
-    console.log("test");
-  }, []);
+  const pastFacilitatorsView = useRef();
 
   return (
     <>
       <Navbar />
-      <Route path="/">
-        <Home ref={splashView} />
-      </Route>
-      <Route path="/syllabus">
-        <Syllabus />
-      </Route>
-      <Route path="/labs">
-        <Labs />
-      </Route>
-      {entries.map((e) => {
-        return (
-          <Route path={`/labs/${e.path}`} key={e.key}>
-            <LabMarkdown e={e} markdownReferences={markdownReferences} />
-          </Route>
-        );
-      })}
-      <Route path="/about">
-        <About />
-      </Route>
+      <Switch>
+        <Route path="/">
+          <Home ref={splashView} />
+        </Route>
+        <Route path="/syllabus">
+          <Syllabus />
+        </Route>
+        <Route path="/labs">
+          <Labs />
+        </Route>
+        {tempEntries.map((e) => {
+          return (
+            <Route path={`/labs/${e.path}`} key={e.key}>
+              {/* <LabMarkdown e={e} markdownReferences={markdownReferences} /> */}
+              <LabMarkdown path={e.path} />
+            </Route>
+          );
+        })}
+        <Route path="/about">
+          <About ref={{ pastFacilitatorsView: pastFacilitatorsView }} />
+        </Route>
+      </Switch>
 
       <Canvas
         eventSource={document.getElementById("root")}
@@ -86,6 +75,9 @@ function App() {
         <Route path="/">
           <HomeCanvas ref={{ splashView: splashView }} />
         </Route>
+        {/* <Route path="/about">
+          <AboutCanvas ref={{ pastFacilitatorsView: pastFacilitatorsView }} />
+        </Route> */}
         <Preload all />
       </Canvas>
     </>
