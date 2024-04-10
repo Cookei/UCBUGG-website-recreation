@@ -24,6 +24,8 @@ basicOutputString += "| - | - | - | - |\n";
 
 let advancedOutputString = basicOutputString;
 
+let labScheduleOutputObj = {};
+
 for (let obj of jsonFile) {
   if (obj.location != undefined) {
     let string = `| ${obj.date[0]} | ${obj.topics[0]} | > | <br>${obj.location}<br><br>`;
@@ -32,6 +34,17 @@ for (let obj of jsonFile) {
     continue;
   }
   let date = "";
+
+  if (obj.location == undefined) {
+    let d = new Date(`${obj.date[1]}, ${obj.year}`);
+    let da = firstDayOfWeek(d, 0);
+    labScheduleOutputObj[da.toString()] = {
+      real_date: d,
+      basic: obj.assignments.basic.labsAssigned,
+      advanced: obj.assignments.advanced.labsAssigned,
+    };
+  }
+
   let first = obj.date[0].split(" ");
   let month = first[0];
   date += month + " ";
@@ -79,6 +92,8 @@ for (let obj of jsonFile) {
   advancedOutputString += `| ^ | ^ | ${advancedAssignments[0]} | ${advancedAssignments[1]} |\n`;
 }
 
+let labScheduleOutputString = JSON.stringify(labScheduleOutputObj);
+
 fs.writeFile(
   `${outputPath}/basicSchedule.md`,
   basicOutputString,
@@ -97,6 +112,15 @@ fs.writeFile(
   }
 );
 
+fs.writeFile(
+  `${outputPath}/labSchedule.json`,
+  labScheduleOutputString,
+  function (err) {
+    if (err) return console.log(err);
+    console.log("labSchedule.json has been created.");
+  }
+);
+
 function liIfy(arr) {
   let returnStr = "";
   for (let e of arr) {
@@ -105,4 +129,18 @@ function liIfy(arr) {
     returnStr += "</li>";
   }
   return returnStr;
+}
+
+function firstDayOfWeek(dateObject, firstDayOfWeekIndex) {
+  const dayOfWeek = dateObject.getDay(),
+    firstDayOfWeek = new Date(dateObject),
+    diff =
+      dayOfWeek >= firstDayOfWeekIndex
+        ? dayOfWeek - firstDayOfWeekIndex
+        : 6 - dayOfWeek;
+
+  firstDayOfWeek.setDate(dateObject.getDate() - diff);
+  firstDayOfWeek.setHours(0, 0, 0, 0);
+
+  return firstDayOfWeek;
 }

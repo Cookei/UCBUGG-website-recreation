@@ -3,13 +3,18 @@ import styles from "../styles/Lab.module.css";
 import { motion } from "framer-motion";
 
 const LabCategory = forwardRef((props, ref) => {
-  const { title, selectCallback, lineDirection } = props;
+  const { title, selectCallback, lineDirection, style } = props;
 
   if (title == undefined) return <div />;
   let counter = 0;
+  console.log(style);
 
   return (
-    <div className={styles.categoryWrapper} ref={ref}>
+    <div
+      className={styles.categoryWrapper}
+      ref={ref}
+      style={style ? style : null}
+    >
       {lineDirection
         ? lineDirection.map((e) => {
             counter++;

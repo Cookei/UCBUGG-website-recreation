@@ -12,7 +12,7 @@ body {
   display: flex;
   align-items: center;
   flex-direction: column;
-  background: linear-gradient(to top right, #d6eff8, #e1c8c7);
+  background: linear-gradient(to bottom, #f3eff2, #ebd7c6);
   min-height: calc(100% - 80px);
 }
 
@@ -23,7 +23,9 @@ body {
   border: 2px var(--line-color) solid;
   border-radius: 5px;
   padding: 50px;
-  width: clamp(600px, 80%, 1500px);
+  padding-left: 4rem;
+  padding-right: 4rem;
+  width: clamp(auto, 80%, 1500px);
   position: relative;
   display: flex;
   flex-direction: column;
@@ -108,28 +110,70 @@ body {
 
 #categoryData {
   position: relative;
-  width: 80%;
+  width: 100%;
   top: -2rem;
   border-radius: 10px;
-  overflow: hidden;
 }
 
 .labRow {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  gap: 2rem;
 }
 
 .labCard {
   border-radius: 5px;
   border: 2px rgba(255, 255, 255, 0) solid;
-  margin-left: 15px;
-  margin-right: 10px;
   width: 175px;
   cursor: pointer;
   display: block;
   transition: all 0.15s;
   overflow-wrap: break-word;
   background: linear-gradient(#f5f9fa23, #f5f9fa);
+  position: relative;
+}
+
+.labCard .basic {
+  --size-gap: 1rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 7px #68f787 solid;
+  border-radius: 10px;
+  z-index: 5;
+  width: calc(100% + var(--size-gap));
+  height: calc(100% + var(--size-gap));
+}
+
+.labCard .advanced {
+  --size-gap: 1rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 7px #fd7e68 solid;
+  border-radius: 10px;
+  z-index: 5;
+  width: calc(100% + var(--size-gap));
+  height: calc(100% + var(--size-gap));
+}
+
+.labCard .both {
+  --size-gap: 1rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-image: linear-gradient(#68f787 50%, #fd7e68 50%) 1;
+  border-width: 7px;
+  border-style: solid;
+  border-radius: 10px;
+  z-index: 5;
+  width: calc(100% + var(--size-gap));
+  height: calc(100% + var(--size-gap));
 }
 
 .labCard:hover {

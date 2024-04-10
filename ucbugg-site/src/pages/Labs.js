@@ -6,11 +6,13 @@ import LabCategories from "../components/LabCategories";
 import LabCategory from "../components/LabCategory";
 import LabCard from "../components/LabCard";
 import { motion } from "framer-motion";
+import labSchedule from "../assets/Syllabus/labSchedule.json";
 
 const Labs = (props) => {
   const [selectedCategory, setSelectedCategory] = useState(null);
   const [selectedCategoryData, setSelectedCategoryData] = useState(null);
   const categoryTopElem = useRef(null);
+  const [todaysPath, setTodaysPath] = useState();
 
   const categoryVariants = {
     hidden: {
@@ -37,6 +39,44 @@ const Labs = (props) => {
   };
 
   const MotionLabCard = motion(LabCard);
+  const [date, setDate] = useState(new Date("Apr 10, 2024"));
+
+  const imlosingmymind = (name) => {
+    let basicOrAdvanced = null;
+
+    let firstDofW = firstDayOfWeek(date, 0);
+    if (labSchedule[firstDofW] == undefined) {
+      return;
+    }
+    let obj = labSchedule[firstDofW];
+
+    const aaaaa = () => {
+      let findBasic = obj.basic.includes(name);
+      let findAdvanced = obj.advanced.includes(name);
+      if (findBasic && findAdvanced) {
+        basicOrAdvanced = "both";
+      } else if (findBasic) {
+        basicOrAdvanced = "basic";
+      } else if (findAdvanced) {
+        basicOrAdvanced = "advanced";
+      }
+    };
+    if (date - new Date(obj.real_date) >= 0) {
+      aaaaa();
+    } else {
+      firstDofW = firstDayOfWeek(
+        new Date(date.getFullYear(), date.getMonth(), date.getDate() - 7),
+        0
+      );
+      if (labSchedule[firstDofW] == undefined) {
+        return;
+      }
+      obj = labSchedule[firstDofW];
+      aaaaa();
+    }
+
+    return basicOrAdvanced;
+  };
 
   function generateCategoryInfo(data, name) {
     let counter = 0;
@@ -56,13 +96,20 @@ const Labs = (props) => {
             {Object.entries(data["Basic"]).map((element) => {
               let [key, value] = element;
               counter++;
+              let fixedName = key
+                .toLowerCase()
+                .split("_")
+                .map((s) => s.charAt(0).toUpperCase() + s.substring(1))
+                .join(" ");
+              let basicOrAdvanced = imlosingmymind(fixedName);
               return (
                 <MotionLabCard
                   path={value.markdown[1]}
                   key={key}
                   className={styles.labCard}
                   variants={cardVariants}
-                  name={key}
+                  name={fixedName}
+                  basicOrAdvanced={basicOrAdvanced}
                 />
               );
             })}
@@ -84,13 +131,20 @@ const Labs = (props) => {
             {Object.entries(data["Advanced"]).map((element) => {
               let [key, value] = element;
               counter++;
+              let fixedName = key
+                .toLowerCase()
+                .split("_")
+                .map((s) => s.charAt(0).toUpperCase() + s.substring(1))
+                .join(" ");
+              let basicOrAdvanced = imlosingmymind(fixedName);
               return (
                 <MotionLabCard
                   path={value.markdown[1]}
                   key={key}
                   className={styles.labCard}
                   variants={cardVariants}
-                  name={key}
+                  name={fixedName}
+                  basicOrAdvanced={basicOrAdvanced}
                 />
               );
             })}
@@ -109,13 +163,20 @@ const Labs = (props) => {
             {Object.entries(data).map((element) => {
               let [key, value] = element;
               counter++;
+              let fixedName = key
+                .toLowerCase()
+                .split("_")
+                .map((s) => s.charAt(0).toUpperCase() + s.substring(1))
+                .join(" ");
+              let basicOrAdvanced = imlosingmymind(fixedName);
               return (
                 <MotionLabCard
                   path={value.markdown[1]}
                   key={key}
                   className={styles.labCard}
                   variants={cardVariants}
-                  name={key}
+                  name={fixedName}
+                  basicOrAdvanced={basicOrAdvanced}
                 />
               );
             })}
@@ -161,8 +222,23 @@ const Labs = (props) => {
           },
         }}
       >
-        {selectedCategory == null ? (
-          <LabCategory title={"View This Week's Lab"} ref={categoryTopElem} />
+        <LabCategory
+          style={{
+            transition: "opacity 100ms",
+            opacity: selectedCategory == null ? 0 : 1,
+          }}
+          title={"See all labs"}
+          ref={categoryTopElem}
+          selectCallback={(selected) => {
+            setShow(true);
+          }}
+        />
+        {/* {selectedCategory == null ? (
+          <LabCategory
+            style={{ visibility: "hidden" }}
+            title={"View This Week's Lab"}
+            ref={categoryTopElem}
+          />
         ) : (
           <LabCategory
             title={"See all labs"}
@@ -171,7 +247,7 @@ const Labs = (props) => {
               setShow(true);
             }}
           />
-        )}
+        )} */}
 
         <LabCategories
           onSelect={(selected) => {
@@ -225,5 +301,19 @@ const Labs = (props) => {
     </section>
   );
 };
+
+function firstDayOfWeek(dateObject, firstDayOfWeekIndex) {
+  const dayOfWeek = dateObject.getDay(),
+    firstDayOfWeek = new Date(dateObject),
+    diff =
+      dayOfWeek >= firstDayOfWeekIndex
+        ? dayOfWeek - firstDayOfWeekIndex
+        : 6 - dayOfWeek;
+
+  firstDayOfWeek.setDate(dateObject.getDate() - diff);
+  firstDayOfWeek.setHours(0, 0, 0, 0);
+
+  return firstDayOfWeek;
+}
 
 export default Labs;
