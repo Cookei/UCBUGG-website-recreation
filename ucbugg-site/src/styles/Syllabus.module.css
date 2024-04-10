@@ -16,6 +16,7 @@ html {
   padding: 50px;
   justify-content: center;
   background: linear-gradient(rgb(245, 246, 248), rgb(240, 237, 243));
+  background: linear-gradient(to bottom, #f3eff2, #ebe7dd);
 }
 
 #container {
@@ -30,6 +31,10 @@ html {
   margin-left: 50px;
   overflow: visible;
   right: 0;
+  --color-canvas-default: #fff0df9d;
+  --color-canvas-subtle: #f3e3ce9d;
+  --color-border-default: #c5bfb89d;
+  --color-border-subtle: #bdaf9f9d;
 }
 
 #scheduleToggleButtonDiv {
@@ -78,4 +83,41 @@ html {
     max-width: 100%;
     margin: 0;
   }
+}
+
+#content table {
+  border-spacing: 0;
+  border-collapse: collapse;
+  display: block;
+  margin-top: 0;
+  margin-bottom: 16px;
+  width: max-content;
+  max-width: 100%;
+  overflow: auto;
+  backdrop-filter: saturate(180%) blur(10px);
+}
+
+#content tr {
+  border-top: 1px solid var(--color-border-muted);
+  background-color: var(--color-canvas-default);
+}
+
+#content tr:nth-child(2n) {
+  background-color: var(--color-canvas-subtle);
+}
+
+#content td,
+#content th {
+  padding: 6px 13px;
+  border: 1px solid var(--color-border-default);
+  max-width: 275px;
+}
+
+#content th {
+  font-weight: 600;
+}
+
+#content table img {
+  background-color: transparent;
+  transform: none;
 }
