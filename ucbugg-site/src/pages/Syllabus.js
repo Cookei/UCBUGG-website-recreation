@@ -1,16 +1,11 @@
 import React, { useEffect, useState } from "react";
-import Markdown from "react-markdown";
-import remarkGfm from "remark-gfm";
-import rehypeRaw from "rehype-raw";
-import remarkExtendedTable, {
-  extendedTableHandlers,
-} from "remark-extended-table";
 import MarkdownNavbar from "markdown-navbar";
 import syllabusDocument from "../assets/Syllabus/Syllabus.md";
 import basicSchedule from "../assets/Syllabus/basicSchedule.md";
 import advancedSchedule from "../assets/Syllabus/advancedSchedule.md";
 import styles from "../styles/Syllabus.module.css";
 import CustomMarkdownComponent from "../components/CustomMarkdownComponent";
+import markdownStyles from "../styles/Markdown.module.css";
 
 const Syllabus = () => {
   const [markdown, setMarkdown] = useState("");
@@ -39,7 +34,10 @@ const Syllabus = () => {
           <MarkdownNavbar source={markdown} ordered={false} />
           <div id={styles.content}>
             <CustomMarkdownComponent child={markdown} />
-            <div id={styles.scheduleToggleButtonDiv}>
+            <div
+              id={styles.scheduleToggleButtonDiv}
+              className={markdownStyles.markdown}
+            >
               <button
                 onClick={() => {
                   setSelectedSection("Basic");

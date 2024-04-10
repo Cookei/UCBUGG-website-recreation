@@ -26,8 +26,10 @@ html {
 #content {
   position: relative;
   max-width: calc(100vw - var(--navbar-offset) - 150px);
+  width: 100%;
   margin-left: 50px;
   overflow: visible;
+  right: 0;
 }
 
 #scheduleToggleButtonDiv {
