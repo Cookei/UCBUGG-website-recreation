@@ -2,14 +2,3 @@
   padding: 50px;
   background: linear-gradient(rgb(245, 246, 248), rgb(240, 237, 243));
 }
-
-#content {
-  position: relative;
-  max-width: calc(100vw - var(--navbar-offset) - 150px);
-  margin-left: 25px;
-}
-
-#content img {
-  margin-bottom: 2rem;
-  margin-top: 2rem;
-}

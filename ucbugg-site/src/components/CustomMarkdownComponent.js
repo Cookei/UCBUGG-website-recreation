@@ -7,8 +7,24 @@ import remarkExtendedTable, {
 } from "remark-extended-table";
 import markdownStyles from "../styles/Markdown.module.css";
 
+import downloadSVG from "../assets/aboutPage/material-download-icon.svg";
+
 const CustomMarkdownComponent = (props) => {
   const { images, child } = props;
+  const extractString = (obj) => {
+    if (typeof obj == "string") return obj;
+    else {
+      obj = obj.props.children;
+      let returnString = "";
+      let i = 0;
+      while (obj[i]) {
+        returnString += extractString(obj[i]);
+        i++;
+      }
+      return returnString;
+    }
+  };
+
   return (
     <Markdown
       remarkPlugins={[remarkGfm, remarkExtendedTable]}
@@ -22,21 +38,36 @@ const CustomMarkdownComponent = (props) => {
       }}
       className={markdownStyles.markdown}
       components={{
+        a(props) {
+          let childrenProps = extractString(props.children);
+          console.log(props);
+          console.log(props.href);
+          if (props.href == undefined) {
+            return <a href={props.href}>{childrenProps}</a>;
+          }
+          if (
+            (props.href != undefined && props.href.endsWith(".zip")) ||
+            props.href.endsWith(".ma") ||
+            props.href.endsWith(".mb")
+          ) {
+            return (
+              <a
+                href={props.href}
+                className={markdownStyles.downloadButton}
+                download={
+                  props.href.match(/(?<=\/)[^\/]+(?=\..+\.(zip|ma|mb))/g)[0]
+                }
+              >
+                <img src={downloadSVG} />
+                <div>{childrenProps}</div>
+              </a>
+            );
+          } else {
+            return <a href={props.href}>{childrenProps}</a>;
+          }
+        },
         blockquote(props) {
           const { children } = props;
-          const extractString = (obj) => {
-            if (typeof obj == "string") return obj;
-            else {
-              obj = obj.props.children;
-              let returnString = "";
-              let i = 0;
-              while (obj[i]) {
-                returnString += extractString(obj[i]);
-                i++;
-              }
-              return returnString;
-            }
-          };
           let childrenProps = extractString(children[1]);
           let classname;
           if (/^\s*\(!important\)\s*\n/g.exec(childrenProps) != null) {

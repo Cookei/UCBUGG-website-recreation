@@ -36,11 +36,15 @@ import _bridge_planes_1src_assets_labs_Modeling_Advanced_hard_surface_modelingpn
 import _bridge_plane_progress_legsrc_assets_labs_Modeling_Advanced_hard_surface_modelingpng from '../assets/labs/Modeling/Advanced/hard surface modeling/bridge_plane_progress_leg.png'
 import _bridge_start_planesrc_assets_labs_Modeling_Advanced_hard_surface_modelingpng from '../assets/labs/Modeling/Advanced/hard surface modeling/bridge_start_plane.png'
 import _cello_bridgesrc_assets_labs_Modeling_Advanced_hard_surface_modelingjpg from '../assets/labs/Modeling/Advanced/hard surface modeling/cello_bridge.jpg'
+import _cello_bridgesrc_assets_labs_Modeling_Advanced_hard_surface_modelingzip from '../assets/labs/Modeling/Advanced/hard surface modeling/cello_bridge.zip'
 import _cello_endpinsrc_assets_labs_Modeling_Advanced_hard_surface_modelingjpg from '../assets/labs/Modeling/Advanced/hard surface modeling/cello_endpin.jpg'
 import _cello_partssrc_assets_labs_Modeling_Advanced_hard_surface_modelingjpg from '../assets/labs/Modeling/Advanced/hard surface modeling/cello_parts.jpg'
 import _cello_scrollsrc_assets_labs_Modeling_Advanced_hard_surface_modelingjpg from '../assets/labs/Modeling/Advanced/hard surface modeling/cello_scroll.jpg'
+import _cello_scrollsrc_assets_labs_Modeling_Advanced_hard_surface_modelingzip from '../assets/labs/Modeling/Advanced/hard surface modeling/cello_scroll.zip'
 import _cello_sidesrc_assets_labs_Modeling_Advanced_hard_surface_modelingjpg from '../assets/labs/Modeling/Advanced/hard surface modeling/cello_side.jpg'
+import _cello_sidesrc_assets_labs_Modeling_Advanced_hard_surface_modelingzip from '../assets/labs/Modeling/Advanced/hard surface modeling/cello_side.zip'
 import _cello_top_viewsrc_assets_labs_Modeling_Advanced_hard_surface_modelingpng from '../assets/labs/Modeling/Advanced/hard surface modeling/cello_top_view.png'
+import _cello_top_viewsrc_assets_labs_Modeling_Advanced_hard_surface_modelingzip from '../assets/labs/Modeling/Advanced/hard surface modeling/cello_top_view.zip'
 import _closing_bridgesrc_assets_labs_Modeling_Advanced_hard_surface_modelinggif from '../assets/labs/Modeling/Advanced/hard surface modeling/closing_bridge.gif'
 import _corrected_loft_optionssrc_assets_labs_Modeling_Advanced_hard_surface_modelingpng from '../assets/labs/Modeling/Advanced/hard surface modeling/corrected_loft_options.png'
 import _curves_in_position_for_loftsrc_assets_labs_Modeling_Advanced_hard_surface_modelingpng from '../assets/labs/Modeling/Advanced/hard surface modeling/curves_in_position_for_loft.png'
@@ -568,6 +572,7 @@ import _6d___bottomEdgesrc_assets_labs_Modeling_Basic_modeling_1png from '../ass
 import _7___select_extrudesrc_assets_labs_Modeling_Basic_modeling_1png from '../assets/labs/Modeling/Basic/modeling 1/7 - select extrude.png'
 import _8___move_down_and_sclaesrc_assets_labs_Modeling_Basic_modeling_1png from '../assets/labs/Modeling/Basic/modeling 1/8 - move down and sclae.png'
 import _9___rectangular_bottomsrc_assets_labs_Modeling_Basic_modeling_1png from '../assets/labs/Modeling/Basic/modeling 1/9 - rectangular bottom.png'
+import _download_thissrc_assets_labs_Modeling_Basic_modeling_1ma from '../assets/labs/Modeling/Basic/modeling 1/download_this.ma'
 import _hardSurface_smooth_comparisonsrc_assets_labs_Modeling_Basic_modeling_1png from '../assets/labs/Modeling/Basic/modeling 1/hardSurface_smooth_comparison.png'
 import _hardSurface_smooth_comparisonAFTERsrc_assets_labs_Modeling_Basic_modeling_1png from '../assets/labs/Modeling/Basic/modeling 1/hardSurface_smooth_comparisonAFTER.png'
 import _modeling_1src_assets_labs_Modeling_Basic_modeling_1md from '../assets/labs/Modeling/Basic/modeling 1/modeling 1.md'
@@ -728,6 +733,7 @@ import _camera_basedsrc_assets_labs_Shading_Basic_basic_materialsjpg from '../as
 import _checkerboardsrc_assets_labs_Shading_Basic_basic_materialspng from '../assets/labs/Shading/Basic/basic materials/checkerboard.png'
 import _checkerboard21src_assets_labs_Shading_Basic_basic_materialspng from '../assets/labs/Shading/Basic/basic materials/checkerboard21.png'
 import _displacementsrc_assets_labs_Shading_Basic_basic_materialspng from '../assets/labs/Shading/Basic/basic materials/displacement.png'
+import _Env_Three_Point_Lightingsrc_assets_labs_Shading_Basic_basic_materialsma from '../assets/labs/Shading/Basic/basic materials/Env_Three_Point_Lighting.ma'
 import _example_setupsrc_assets_labs_Shading_Basic_basic_materialsjpg from '../assets/labs/Shading/Basic/basic materials/example_setup.jpg'
 import _example_test_rendersrc_assets_labs_Shading_Basic_basic_materialsjpg from '../assets/labs/Shading/Basic/basic materials/example_test_render.jpg'
 import _file_iconsrc_assets_labs_Shading_Basic_basic_materialsjpg from '../assets/labs/Shading/Basic/basic materials/file_icon.jpg'
@@ -737,6 +743,8 @@ import _importlightsrc_assets_labs_Shading_Basic_basic_materialspng from '../ass
 import _lightsrc_assets_labs_Shading_Basic_basic_materialspng from '../assets/labs/Shading/Basic/basic materials/light.png'
 import _outlinersrc_assets_labs_Shading_Basic_basic_materialspng from '../assets/labs/Shading/Basic/basic materials/outliner.png'
 import _patternssrc_assets_labs_Shading_Basic_basic_materialspng from '../assets/labs/Shading/Basic/basic materials/patterns.png'
+import _pencilsrc_assets_labs_Shading_Basic_basic_materialsma from '../assets/labs/Shading/Basic/basic materials/pencil.ma'
+import _pencil_finishedsrc_assets_labs_Shading_Basic_basic_materialsma from '../assets/labs/Shading/Basic/basic materials/pencil_finished.ma'
 import _pencil_layoutsrc_assets_labs_Shading_Basic_basic_materialsjpg from '../assets/labs/Shading/Basic/basic materials/pencil_layout.jpg'
 import _pencil_seams_markedsrc_assets_labs_Shading_Basic_basic_materialsjpg from '../assets/labs/Shading/Basic/basic materials/pencil_seams_marked.jpg'
 import _pencil_shadedsrc_assets_labs_Shading_Basic_basic_materialsjpg from '../assets/labs/Shading/Basic/basic materials/pencil_shaded.jpg'
@@ -820,11 +828,15 @@ const data = {
           "bridge_plane_progress_leg.png": _bridge_plane_progress_legsrc_assets_labs_Modeling_Advanced_hard_surface_modelingpng,
           "bridge_start_plane.png": _bridge_start_planesrc_assets_labs_Modeling_Advanced_hard_surface_modelingpng,
           "cello_bridge.jpg": _cello_bridgesrc_assets_labs_Modeling_Advanced_hard_surface_modelingjpg,
+          "cello_bridge.zip": _cello_bridgesrc_assets_labs_Modeling_Advanced_hard_surface_modelingzip,
           "cello_endpin.jpg": _cello_endpinsrc_assets_labs_Modeling_Advanced_hard_surface_modelingjpg,
           "cello_parts.jpg": _cello_partssrc_assets_labs_Modeling_Advanced_hard_surface_modelingjpg,
           "cello_scroll.jpg": _cello_scrollsrc_assets_labs_Modeling_Advanced_hard_surface_modelingjpg,
+          "cello_scroll.zip": _cello_scrollsrc_assets_labs_Modeling_Advanced_hard_surface_modelingzip,
           "cello_side.jpg": _cello_sidesrc_assets_labs_Modeling_Advanced_hard_surface_modelingjpg,
+          "cello_side.zip": _cello_sidesrc_assets_labs_Modeling_Advanced_hard_surface_modelingzip,
           "cello_top_view.png": _cello_top_viewsrc_assets_labs_Modeling_Advanced_hard_surface_modelingpng,
+          "cello_top_view.zip": _cello_top_viewsrc_assets_labs_Modeling_Advanced_hard_surface_modelingzip,
           "closing_bridge.gif": _closing_bridgesrc_assets_labs_Modeling_Advanced_hard_surface_modelinggif,
           "corrected_loft_options.png": _corrected_loft_optionssrc_assets_labs_Modeling_Advanced_hard_surface_modelingpng,
           "curves_in_position_for_loft.png": _curves_in_position_for_loftsrc_assets_labs_Modeling_Advanced_hard_surface_modelingpng,
@@ -1406,6 +1418,7 @@ const data = {
           "7 - select extrude.png": _7___select_extrudesrc_assets_labs_Modeling_Basic_modeling_1png,
           "8 - move down and sclae.png": _8___move_down_and_sclaesrc_assets_labs_Modeling_Basic_modeling_1png,
           "9 - rectangular bottom.png": _9___rectangular_bottomsrc_assets_labs_Modeling_Basic_modeling_1png,
+          "download_this.ma": _download_thissrc_assets_labs_Modeling_Basic_modeling_1ma,
           "hardSurface_smooth_comparison.png": _hardSurface_smooth_comparisonsrc_assets_labs_Modeling_Basic_modeling_1png,
           "hardSurface_smooth_comparisonAFTER.png": _hardSurface_smooth_comparisonAFTERsrc_assets_labs_Modeling_Basic_modeling_1png
         },
@@ -1599,6 +1612,7 @@ const data = {
           "checkerboard.png": _checkerboardsrc_assets_labs_Shading_Basic_basic_materialspng,
           "checkerboard21.png": _checkerboard21src_assets_labs_Shading_Basic_basic_materialspng,
           "displacement.png": _displacementsrc_assets_labs_Shading_Basic_basic_materialspng,
+          "Env_Three_Point_Lighting.ma": _Env_Three_Point_Lightingsrc_assets_labs_Shading_Basic_basic_materialsma,
           "example_setup.jpg": _example_setupsrc_assets_labs_Shading_Basic_basic_materialsjpg,
           "example_test_render.jpg": _example_test_rendersrc_assets_labs_Shading_Basic_basic_materialsjpg,
           "file_icon.jpg": _file_iconsrc_assets_labs_Shading_Basic_basic_materialsjpg,
@@ -1608,6 +1622,8 @@ const data = {
           "light.png": _lightsrc_assets_labs_Shading_Basic_basic_materialspng,
           "outliner.png": _outlinersrc_assets_labs_Shading_Basic_basic_materialspng,
           "patterns.png": _patternssrc_assets_labs_Shading_Basic_basic_materialspng,
+          "pencil.ma": _pencilsrc_assets_labs_Shading_Basic_basic_materialsma,
+          "pencil_finished.ma": _pencil_finishedsrc_assets_labs_Shading_Basic_basic_materialsma,
           "pencil_layout.jpg": _pencil_layoutsrc_assets_labs_Shading_Basic_basic_materialsjpg,
           "pencil_seams_marked.jpg": _pencil_seams_markedsrc_assets_labs_Shading_Basic_basic_materialsjpg,
           "pencil_shaded.jpg": _pencil_shadedsrc_assets_labs_Shading_Basic_basic_materialsjpg,

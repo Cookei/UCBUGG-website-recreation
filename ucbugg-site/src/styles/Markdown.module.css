@@ -1,9 +1,17 @@
+.markdown {
+  position: relative;
+  max-width: calc(100vw - var(--navbar-offset) - 150px);
+  margin-left: 25px;
+}
+
 .markdown img {
   max-width: 70%;
   position: relative;
   left: 50%;
   transform: translate(-50%, 0);
   display: block;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
 }
 
 .markdown table {
@@ -40,4 +48,33 @@
 .markdown table img {
   background-color: transparent;
   transform: none;
+}
+
+.markdown .downloadButton {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: fit-content;
+  height: 2rem;
+  background-color: var(--color-border-default);
+  border-radius: 4px;
+  padding: 10px;
+  gap: 10px;
+  transition: all 100ms;
+
+  img {
+    all: unset;
+  }
+}
+
+.markdown .downloadButton:hover {
+  filter: brightness(90%);
+}
+
+@media (max-width: 800px) {
+  .markdown {
+    max-width: 100%;
+    margin: 0;
+  }
 }

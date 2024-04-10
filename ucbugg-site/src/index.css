@@ -119,3 +119,9 @@ blockquote.important::before {
   cursor: pointer;
   border-bottom: 2px gray solid;
 }
+
+@media (max-width: 800px) {
+  .markdown-navigation {
+    display: none;
+  }
+}

@@ -45,6 +45,9 @@ const importThese = [
   "ai",
   "eps",
   "pdf",
+  "zip",
+  "ma",
+  "mb",
 ];
 
 if (!path) {
