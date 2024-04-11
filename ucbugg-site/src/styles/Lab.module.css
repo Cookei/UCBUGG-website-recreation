@@ -1,6 +1,7 @@
 :root {
   --gap: 30px;
-  --categoryColors: #ede3fb;
+  --categoryColors: #f9cdbf;
+  --categoryColorsHover: #ffdebb;
   --line-color: rgb(131, 129, 131);
   --basic-color: #92f5a8;
   --advanced-color: #f5aa9c;
@@ -84,13 +85,13 @@ body {
   border-radius: 5px;
   transition: all 0.25s;
   border-bottom: 2px var(--line-color) solid;
-  color: #939597;
+  color: #646567;
   letter-spacing: 0.05rem;
 }
 
 .category:hover {
-  background-color: rgb(220, 237, 243);
-  color: #626466;
+  background-color: var(--categoryColorsHover);
+  color: #353637;
 }
 
 .lineDown {

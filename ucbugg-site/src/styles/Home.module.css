@@ -1,3 +1,4 @@
+/* #region */
 #splashSection {
   position: relative;
   height: clamp(500px, 66vh, 700px);
@@ -13,17 +14,30 @@
 #splashTitle {
   position: absolute;
   z-index: 1;
-  right: clamp(10px, 15vw, 500px);
+  width: 100%;
   top: 50%;
-  max-width: 650px;
   transform: translateY(-50%);
   pointer-events: none;
+  display: flex;
+  container-name: splashTitleContainer;
 }
 
 #splashText {
   font-size: 1.25rem;
   text-align: center;
   margin: 0;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  flex-grow: 1;
+}
+
+@media (max-width: 800px) {
+  #splashTitleBox {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
 }
 
 #splashTitle h1 {
@@ -32,26 +46,131 @@
   margin: 0;
 }
 
+@media (max-width: 500px) {
+  #splashTitle h1 {
+    font-size: 5.5rem;
+    text-align: center;
+    margin: 0;
+  }
+
+  #splashText {
+    display: none;
+  }
+}
+
+@media (max-width: 350px) {
+  #splashTitle h1 {
+    font-size: 4rem;
+    text-align: center;
+    margin: 0;
+  }
+}
+
 #splashTitle h2 {
   margin: 0;
   text-align: justify;
 }
+/* #endregion */
 
 #announcementSection {
   display: flex;
   background-color: rgb(234, 245, 247);
   height: 800px;
-  width: 100%;
-  padding-left: clamp(25px, 2%, 400px);
-  padding-right: clamp(25px, 2%, 400px);
+  padding: 2rem;
+  justify-content: center;
 }
 
+/* #region */
 #pipelineSection {
-  background-color: rgb(234, 245, 247);
-  height: 800px;
-  width: 100vw;
-  padding-left: clamp(25px, 2%, 400px);
-  padding-right: clamp(25px, 2%, 400px);
+  background-color: rgb(142, 223, 162);
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#pipelineButtons {
+  display: grid;
+  width: 700px;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 15px;
+}
+
+.pipelineButton {
+  width: 100%;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.verticalLine {
+  width: 7px;
+  height: 30px;
+  border-radius: 4px;
+  background-color: black;
+}
+
+#timelineContainer {
+  display: flex;
+  position: absolute;
+  width: 750px;
+  height: auto;
+  pointer-events: none;
+  bottom: calc(24px + 18.72px * 2 + 15px);
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.horizontalLine {
+  width: 100%;
+  height: 7px;
+  border-radius: 4px;
+  background-color: black;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+/* #region */
+.triangle {
+  position: relative;
+  background-color: black;
+  text-align: left;
+  right: 0;
+}
+.triangle:before,
+.triangle:after {
+  content: "";
+  position: absolute;
+  background-color: inherit;
+}
+.triangle,
+.triangle:before,
+.triangle:after {
+  width: 30px;
+  height: 30px;
+  border-top-right-radius: 30%;
+}
+/* #region */
+.triangle {
+  position: absolute;
+  transform: rotate(30deg) skewX(-30deg) scale(1, 0.866) translateY(-100%);
+}
+.triangle:before {
+  transform: rotate(-135deg) skewX(-45deg) scale(1.414, 0.707)
+    translate(0, -50%);
+}
+.triangle:after {
+  transform: rotate(135deg) skewY(-45deg) scale(0.707, 1.414) translate(50%);
+}
+/* #endregion */
+/* #endregion */
+
+.timelineModelView {
+  width: 75px;
+  height: 75px;
+  margin-bottom: 1rem;
 }
 
 #pipelineIllustration {
@@ -79,8 +198,8 @@
   height: 400px;
   width: 200px;
   margin-left: auto;
-  
 }
+/* #endregion */
 
 .block {
   display: flex;
@@ -105,24 +224,23 @@
 }
 
 .iconImage {
-  margin: 25px;
   height: auto;
   width: 75px;
   height: 75px;
 }
 
 .iconImageBlock {
+  margin-top: 1.5rem;
   display: flex;
   align-items: center;
   flex-wrap: nowrap;
   flex-direction: row;
-  justify-content: center;
+  gap: 25px;
 }
 
 #directionSection {
   background-color: rgb(230, 230, 230);
   height: 800px;
-  width: 100%;
   position: relative;
 }
 
@@ -139,7 +257,7 @@
 }
 
 .SDHTextBlock {
-  flex-grow: 1; 
+  flex-grow: 1;
   top: 0;
   top: 30%;
   left: 70%;
@@ -151,7 +269,7 @@
   background-color: rgba(143, 143, 143, 0.646);
 }
 
-.SDHTextBlock>h1 {
+.SDHTextBlock > h1 {
   margin: 0;
 }
 
@@ -169,6 +287,6 @@
   background-color: rgba(185, 185, 185, 0.791);
 }
 
-.SDHButton>h1 {
+.SDHButton > h1 {
   font-size: 2rem;
 }

@@ -1,18 +1,44 @@
-import React, { forwardRef } from "react";
+import React, { forwardRef, useRef } from "react";
 import {
   View,
   GradientTexture,
   Environment,
   PerspectiveCamera,
+  Sphere,
+  useHelper,
 } from "@react-three/drei";
 import HelperGrid from "../models/HelperGrid";
 import CameraRig from "../components/CameraRig";
+import { SpotLightHelper } from "three";
 const SplashModel = React.lazy(() => import("../models/SplashModel"));
 
 const HomeCanvas = forwardRef((props, ref) => {
-  const { splashView } = ref;
+  const { splashView, timelineRefs } = ref;
+  const {
+    storyboardingRef,
+    modelingRef,
+    shadingRef,
+    riggingRef,
+    animatingRef,
+    compositingRef,
+  } = timelineRefs;
+
   return (
-    <View track={splashView} index={1}>
+    <>
+      <SplashView ref={splashView} />
+      <StoryboardingView ref={storyboardingRef} />
+      <ModelingView ref={modelingRef} />
+      <ShadingView ref={shadingRef} />
+      <RiggingView ref={riggingRef} />
+      <AnimatingView ref={animatingRef} />
+      <CompositingView ref={compositingRef} />
+    </>
+  );
+});
+
+const SplashView = forwardRef((props, ref) => {
+  return (
+    <View track={ref} index={1}>
       <PerspectiveCamera makeDefault position={[3.5, 1.5, 4.5]} />
       <CameraRig SPLASH_OFFSET={[3.5, 1.5, 4.5]} />
       <GradientTexture
@@ -28,6 +54,37 @@ const HomeCanvas = forwardRef((props, ref) => {
       <SplashModel />
     </View>
   );
+});
+
+const StoryboardingView = forwardRef((props, ref) => {
+  return <View track={ref}></View>;
+});
+
+const ModelingView = forwardRef((props, ref) => {
+  return <View track={ref}></View>;
+});
+
+const ShadingView = forwardRef((props, ref) => {
+  const light = useRef();
+
+  return (
+    <View track={ref}>
+      <Sphere scale={2.5} />
+      <spotLight ref={light} intensity={0.2} position={[0, 1, 0]} />
+    </View>
+  );
+});
+
+const RiggingView = forwardRef((props, ref) => {
+  return <View track={ref}></View>;
+});
+
+const AnimatingView = forwardRef((props, ref) => {
+  return <View track={ref}></View>;
+});
+
+const CompositingView = forwardRef((props, ref) => {
+  return <View track={ref}></View>;
 });
 
 export default HomeCanvas;

@@ -40,6 +40,22 @@ getRoute(data);
 
 function App() {
   const splashView = useRef();
+  const storyboardingRef = useRef();
+  const modelingRef = useRef();
+  const shadingRef = useRef();
+  const riggingRef = useRef();
+  const animatingRef = useRef();
+  const compositingRef = useRef();
+
+  const timelineRefs = {
+    storyboardingRef: storyboardingRef,
+    modelingRef: modelingRef,
+    shadingRef: shadingRef,
+    riggingRef: riggingRef,
+    animatingRef: animatingRef,
+    compositingRef: compositingRef,
+  };
+
   const pastFacilitatorsView = useRef();
 
   return (
@@ -47,7 +63,7 @@ function App() {
       <Navbar />
       <Switch>
         <Route path="/">
-          <Home ref={splashView} />
+          <Home ref={{ splashView: splashView, timelineRefs: timelineRefs }} />
         </Route>
         <Route path="/syllabus">
           <Syllabus />
@@ -73,7 +89,9 @@ function App() {
         className={styles.splashCanvas}
       >
         <Route path="/">
-          <HomeCanvas ref={{ splashView: splashView }} />
+          <HomeCanvas
+            ref={{ splashView: splashView, timelineRefs: timelineRefs }}
+          />
         </Route>
         {/* <Route path="/about">
           <AboutCanvas ref={{ pastFacilitatorsView: pastFacilitatorsView }} />
