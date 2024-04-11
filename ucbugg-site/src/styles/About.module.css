@@ -6,7 +6,7 @@
 #historySection {
   display: flex;
   justify-content: center;
-  background: linear-gradient(to bottom, #f3eff2, #ebd7c6);
+  background: linear-gradient(to bottom, #f8f5f6, #ebd7c6);
 }
 
 #historyBlurb {

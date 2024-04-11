@@ -16,7 +16,7 @@ html {
   padding: 50px;
   justify-content: center;
   background: linear-gradient(rgb(245, 246, 248), rgb(240, 237, 243));
-  background: linear-gradient(to bottom, #f3eff2, #ebe7dd);
+  background: linear-gradient(to bottom, #f8f5f6, #fcf1e9);
 }
 
 #container {
@@ -99,7 +99,7 @@ html {
 
 #content tr {
   border-top: 1px solid var(--color-border-muted);
-  background-color: var(--color-canvas-default);
+  background-color: rgba(var(--color-canvas-default), 0.8);
 }
 
 #content tr:nth-child(2n) {

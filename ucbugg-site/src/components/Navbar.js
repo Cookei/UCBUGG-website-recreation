@@ -60,6 +60,15 @@ const Navbar = () => {
           <h3>xxx</h3>
         </div>
         <Link
+          to="/"
+          className={styles.navlink}
+          onClick={() => {
+            setDropdownActive(false);
+          }}
+        >
+          <h3>HOME</h3>
+        </Link>
+        <Link
           to="/syllabus"
           className={styles.navlink}
           onClick={() => {
