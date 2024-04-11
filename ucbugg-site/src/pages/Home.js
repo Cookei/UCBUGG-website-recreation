@@ -9,22 +9,39 @@ import aftereffectIconImage from "../assets/homePageIcon/AELOGO.png";
 import PipelineInfoUpdate from "../components/PipelineUpdate";
 import SDHRoomImage from "../assets/images/home page/SDH200.jpg";
 
-const Home = forwardRef((props, ref) => {
+import {
+  View,
+  GradientTexture,
+  Environment,
+  PerspectiveCamera,
+  Sphere,
+  useHelper,
+} from "@react-three/drei";
+import HelperGrid from "../models/HelperGrid";
+import CameraRig from "../components/CameraRig";
+const SplashModel = React.lazy(() => import("../models/SplashModel"));
+
+const Home = (props, ref) => {
   const [pipelineState, setPipelineState] = useState(null);
-  const { splashView, timelineRefs } = ref;
-  const {
-    storyboardingRef,
-    modelingRef,
-    shadingRef,
-    riggingRef,
-    animatingRef,
-    compositingRef,
-  } = timelineRefs;
 
   return (
     <>
       <section id={styles.splashSection}>
-        <div ref={splashView} className={appStyles.view}></div>
+        <View index={1} className={appStyles.view}>
+          <PerspectiveCamera makeDefault position={[3.5, 1.5, 4.5]} />
+          <CameraRig SPLASH_OFFSET={[3.5, 1.5, 4.5]} />
+          <GradientTexture
+            attach="background"
+            stops={[0, 1]}
+            colors={["#faf7f9", "#e1f0f5"]}
+            size={1024}
+          />
+          <ambientLight intensity={1} />
+          {/* HDR for lighting */}
+          <Environment files="rainforest_trail_1k.hdr" />
+          <HelperGrid />
+          <SplashModel />
+        </View>
         <div id={styles.splashTitle}>
           <div style={{ flexGrow: 3 }} />
           <div id={styles.splashTitleBox}>
@@ -80,10 +97,9 @@ const Home = forwardRef((props, ref) => {
                 onClick={() => setPipelineState("storyBoarding")}
                 className={styles.pipelineButton}
               >
-                <div
-                  ref={storyboardingRef}
-                  className={styles.timelineModelView}
-                />
+                <View className={styles.timelineModelView}>
+                  <Sphere />
+                </View>
                 <div className={styles.verticalLine} />
                 <h3>Storyboarding</h3>
               </div>
@@ -91,7 +107,9 @@ const Home = forwardRef((props, ref) => {
                 onClick={() => setPipelineState("modeling")}
                 className={styles.pipelineButton}
               >
-                <div ref={modelingRef} className={styles.timelineModelView} />
+                <View className={styles.timelineModelView}>
+                  <Sphere />
+                </View>
                 <div className={styles.verticalLine} />
                 <h3>Modeling</h3>
               </div>
@@ -99,7 +117,9 @@ const Home = forwardRef((props, ref) => {
                 onClick={() => setPipelineState("shading")}
                 className={styles.pipelineButton}
               >
-                <div ref={shadingRef} className={styles.timelineModelView} />
+                <View className={styles.timelineModelView}>
+                  <Sphere />
+                </View>
                 <div className={styles.verticalLine} />
                 <h3>Shading</h3>
               </div>
@@ -107,7 +127,9 @@ const Home = forwardRef((props, ref) => {
                 onClick={() => setPipelineState("rigging")}
                 className={styles.pipelineButton}
               >
-                <div ref={riggingRef} className={styles.timelineModelView} />
+                <View className={styles.timelineModelView}>
+                  <Sphere />
+                </View>
                 <div className={styles.verticalLine} />
                 <h3>Rigging</h3>
               </div>
@@ -115,7 +137,9 @@ const Home = forwardRef((props, ref) => {
                 onClick={() => setPipelineState("animating")}
                 className={styles.pipelineButton}
               >
-                <div ref={animatingRef} className={styles.timelineModelView} />
+                <View className={styles.timelineModelView}>
+                  <Sphere />
+                </View>
                 <div className={styles.verticalLine} />
                 <h3>Animating</h3>
               </div>
@@ -123,10 +147,9 @@ const Home = forwardRef((props, ref) => {
                 onClick={() => setPipelineState("compositing")}
                 className={styles.pipelineButton}
               >
-                <div
-                  ref={compositingRef}
-                  className={styles.timelineModelView}
-                />
+                <View className={styles.timelineModelView}>
+                  <Sphere />
+                </View>
                 <div className={styles.verticalLine} />
                 <h3>Compositing</h3>
               </div>
@@ -153,6 +176,6 @@ const Home = forwardRef((props, ref) => {
       </section>
     </>
   );
-});
+};
 
 export default Home;
