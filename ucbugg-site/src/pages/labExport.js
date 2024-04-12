@@ -774,6 +774,74 @@ import _uvs_on_blacksrc_assets_labs_Shading_Basic_basic_materialsjpg from '../as
 import _uv_editing_workspacesrc_assets_labs_Shading_Basic_basic_materialsjpg from '../assets/labs/Shading/Basic/basic materials/uv_editing_workspace.jpg'
 import _uv_snapshotsrc_assets_labs_Shading_Basic_basic_materialsjpg from '../assets/labs/Shading/Basic/basic materials/uv_snapshot.jpg'
 import _uv_specsrc_assets_labs_Shading_Basic_basic_materialsjpg from '../assets/labs/Shading/Basic/basic materials/uv_spec.jpg'
+import _2d3d_0src_assets_labs_Shading_Basic_toon_shadinggif from '../assets/labs/Shading/Basic/toon shading/2d3d_0.gif'
+import _2d3d_1src_assets_labs_Shading_Basic_toon_shadinggif from '../assets/labs/Shading/Basic/toon shading/2d3d_1.gif'
+import _2d3d_2src_assets_labs_Shading_Basic_toon_shadinggif from '../assets/labs/Shading/Basic/toon shading/2d3d_2.gif'
+import _2d3d_3src_assets_labs_Shading_Basic_toon_shadinggif from '../assets/labs/Shading/Basic/toon shading/2d3d_3.gif'
+import _2d3d_4src_assets_labs_Shading_Basic_toon_shadinggif from '../assets/labs/Shading/Basic/toon shading/2d3d_4.gif'
+import _basic_toon_shading_0src_assets_labs_Shading_Basic_toon_shadingpng from '../assets/labs/Shading/Basic/toon shading/basic_toon_shading_0.png'
+import _basic_toon_shading_1src_assets_labs_Shading_Basic_toon_shadingpng from '../assets/labs/Shading/Basic/toon shading/basic_toon_shading_1.png'
+import _basic_toon_shading_10src_assets_labs_Shading_Basic_toon_shadingpng from '../assets/labs/Shading/Basic/toon shading/basic_toon_shading_10.png'
+import _basic_toon_shading_11src_assets_labs_Shading_Basic_toon_shadingpng from '../assets/labs/Shading/Basic/toon shading/basic_toon_shading_11.png'
+import _basic_toon_shading_12src_assets_labs_Shading_Basic_toon_shadingpng from '../assets/labs/Shading/Basic/toon shading/basic_toon_shading_12.png'
+import _basic_toon_shading_13src_assets_labs_Shading_Basic_toon_shadingpng from '../assets/labs/Shading/Basic/toon shading/basic_toon_shading_13.png'
+import _basic_toon_shading_14src_assets_labs_Shading_Basic_toon_shadingpng from '../assets/labs/Shading/Basic/toon shading/basic_toon_shading_14.png'
+import _basic_toon_shading_2src_assets_labs_Shading_Basic_toon_shadingpng from '../assets/labs/Shading/Basic/toon shading/basic_toon_shading_2.png'
+import _basic_toon_shading_3src_assets_labs_Shading_Basic_toon_shadingpng from '../assets/labs/Shading/Basic/toon shading/basic_toon_shading_3.png'
+import _basic_toon_shading_4src_assets_labs_Shading_Basic_toon_shadingpng from '../assets/labs/Shading/Basic/toon shading/basic_toon_shading_4.png'
+import _basic_toon_shading_5src_assets_labs_Shading_Basic_toon_shadingpng from '../assets/labs/Shading/Basic/toon shading/basic_toon_shading_5.png'
+import _basic_toon_shading_6src_assets_labs_Shading_Basic_toon_shadingpng from '../assets/labs/Shading/Basic/toon shading/basic_toon_shading_6.png'
+import _basic_toon_shading_7src_assets_labs_Shading_Basic_toon_shadingpng from '../assets/labs/Shading/Basic/toon shading/basic_toon_shading_7.png'
+import _basic_toon_shading_8src_assets_labs_Shading_Basic_toon_shadingpng from '../assets/labs/Shading/Basic/toon shading/basic_toon_shading_8.png'
+import _basic_toon_shading_9src_assets_labs_Shading_Basic_toon_shadingpng from '../assets/labs/Shading/Basic/toon shading/basic_toon_shading_9.png'
+import _basic_toon_shading_9bsrc_assets_labs_Shading_Basic_toon_shadingpng from '../assets/labs/Shading/Basic/toon shading/basic_toon_shading_9b.png'
+import _camera_basedsrc_assets_labs_Shading_Basic_toon_shadingjpg from '../assets/labs/Shading/Basic/toon shading/camera_based.jpg'
+import _edge_0src_assets_labs_Shading_Basic_toon_shadingpng from '../assets/labs/Shading/Basic/toon shading/edge_0.png'
+import _edge_1src_assets_labs_Shading_Basic_toon_shadingpng from '../assets/labs/Shading/Basic/toon shading/edge_1.png'
+import _edge_2src_assets_labs_Shading_Basic_toon_shadingpng from '../assets/labs/Shading/Basic/toon shading/edge_2.png'
+import _edge_3src_assets_labs_Shading_Basic_toon_shadingpng from '../assets/labs/Shading/Basic/toon shading/edge_3.png'
+import _edge_4src_assets_labs_Shading_Basic_toon_shadingpng from '../assets/labs/Shading/Basic/toon shading/edge_4.png'
+import _getting_started_0src_assets_labs_Shading_Basic_toon_shadingpng from '../assets/labs/Shading/Basic/toon shading/getting_started_0.png'
+import _highlights_0src_assets_labs_Shading_Basic_toon_shadingpng from '../assets/labs/Shading/Basic/toon shading/highlights_0.png'
+import _highlights_1src_assets_labs_Shading_Basic_toon_shadingpng from '../assets/labs/Shading/Basic/toon shading/highlights_1.png'
+import _highlights_2src_assets_labs_Shading_Basic_toon_shadingpng from '../assets/labs/Shading/Basic/toon shading/highlights_2.png'
+import _highlights_3src_assets_labs_Shading_Basic_toon_shadingpng from '../assets/labs/Shading/Basic/toon shading/highlights_3.png'
+import _image_sequences_0src_assets_labs_Shading_Basic_toon_shadingpng from '../assets/labs/Shading/Basic/toon shading/image_sequences_0.png'
+import _image_sequences_1src_assets_labs_Shading_Basic_toon_shadingpng from '../assets/labs/Shading/Basic/toon shading/image_sequences_1.png'
+import _intro_closesrc_assets_labs_Shading_Basic_toon_shadingpng from '../assets/labs/Shading/Basic/toon shading/intro_close.png'
+import _intro_farsrc_assets_labs_Shading_Basic_toon_shadingpng from '../assets/labs/Shading/Basic/toon shading/intro_far.png'
+import _pencil_1src_assets_labs_Shading_Basic_toon_shadingpng from '../assets/labs/Shading/Basic/toon shading/pencil_1.png'
+import _pencil_2src_assets_labs_Shading_Basic_toon_shadingpng from '../assets/labs/Shading/Basic/toon shading/pencil_2.png'
+import _pencil_3src_assets_labs_Shading_Basic_toon_shadingpng from '../assets/labs/Shading/Basic/toon shading/pencil_3.png'
+import _pencil_layoutsrc_assets_labs_Shading_Basic_toon_shadingjpg from '../assets/labs/Shading/Basic/toon shading/pencil_layout.jpg'
+import _pencil_seams_markedsrc_assets_labs_Shading_Basic_toon_shadingjpg from '../assets/labs/Shading/Basic/toon shading/pencil_seams_marked.jpg'
+import _pencil_toonsrc_assets_labs_Shading_Basic_toon_shadingma from '../assets/labs/Shading/Basic/toon shading/pencil_toon.ma'
+import _pencil_unfoldedsrc_assets_labs_Shading_Basic_toon_shadingjpg from '../assets/labs/Shading/Basic/toon shading/pencil_unfolded.jpg'
+import _rim_light_0src_assets_labs_Shading_Basic_toon_shadingpng from '../assets/labs/Shading/Basic/toon shading/rim_light_0.png'
+import _rim_light_1src_assets_labs_Shading_Basic_toon_shadingpng from '../assets/labs/Shading/Basic/toon shading/rim_light_1.png'
+import _rim_light_2src_assets_labs_Shading_Basic_toon_shadingpng from '../assets/labs/Shading/Basic/toon shading/rim_light_2.png'
+import _rim_light_3src_assets_labs_Shading_Basic_toon_shadingpng from '../assets/labs/Shading/Basic/toon shading/rim_light_3.png'
+import _rim_light_4src_assets_labs_Shading_Basic_toon_shadingpng from '../assets/labs/Shading/Basic/toon shading/rim_light_4.png'
+import _rim_light_5src_assets_labs_Shading_Basic_toon_shadingpng from '../assets/labs/Shading/Basic/toon shading/rim_light_5.png'
+import _rim_light_6src_assets_labs_Shading_Basic_toon_shadingpng from '../assets/labs/Shading/Basic/toon shading/rim_light_6.png'
+import _rim_light_7src_assets_labs_Shading_Basic_toon_shadingpng from '../assets/labs/Shading/Basic/toon shading/rim_light_7.png'
+import _set_renderer_to_arnold_0src_assets_labs_Shading_Basic_toon_shadingpng from '../assets/labs/Shading/Basic/toon shading/set_renderer_to_arnold_0.png'
+import _set_renderer_to_arnold_1src_assets_labs_Shading_Basic_toon_shadingpng from '../assets/labs/Shading/Basic/toon shading/set_renderer_to_arnold_1.png'
+import _texture_0src_assets_labs_Shading_Basic_toon_shadingpng from '../assets/labs/Shading/Basic/toon shading/texture_0.png'
+import _texture_1src_assets_labs_Shading_Basic_toon_shadingpng from '../assets/labs/Shading/Basic/toon shading/texture_1.png'
+import _texture_2src_assets_labs_Shading_Basic_toon_shadingpng from '../assets/labs/Shading/Basic/toon shading/texture_2.png'
+import _texture_3src_assets_labs_Shading_Basic_toon_shadingpng from '../assets/labs/Shading/Basic/toon shading/texture_3.png'
+import _texture_4src_assets_labs_Shading_Basic_toon_shadingpng from '../assets/labs/Shading/Basic/toon shading/texture_4.png'
+import _texture_5src_assets_labs_Shading_Basic_toon_shadingpng from '../assets/labs/Shading/Basic/toon shading/texture_5.png'
+import _toon_shadingsrc_assets_labs_Shading_Basic_toon_shadingmd from '../assets/labs/Shading/Basic/toon shading/toon shading.md'
+import _ToonShaderLabsrc_assets_labs_Shading_Basic_toon_shadingzip from '../assets/labs/Shading/Basic/toon shading/ToonShaderLab.zip'
+import _uvs_coloredsrc_assets_labs_Shading_Basic_toon_shadingjpg from '../assets/labs/Shading/Basic/toon shading/uvs_colored.jpg'
+import _uvs_on_blacksrc_assets_labs_Shading_Basic_toon_shadingjpg from '../assets/labs/Shading/Basic/toon shading/uvs_on_black.jpg'
+import _uv_editing_workspacesrc_assets_labs_Shading_Basic_toon_shadingjpg from '../assets/labs/Shading/Basic/toon shading/uv_editing_workspace.jpg'
+import _uv_snapshotsrc_assets_labs_Shading_Basic_toon_shadingjpg from '../assets/labs/Shading/Basic/toon shading/uv_snapshot.jpg'
+import _uv_specsrc_assets_labs_Shading_Basic_toon_shadingjpg from '../assets/labs/Shading/Basic/toon shading/uv_spec.jpg'
+import _WeirdShadowssrc_assets_labs_Shading_Basic_toon_shadinggif from '../assets/labs/Shading/Basic/toon shading/WeirdShadows.gif'
+import _wtfIsThissrc_assets_labs_Shading_Basic_toon_shadinggif from '../assets/labs/Shading/Basic/toon shading/wtfIsThis.gif'
 
 
 const data = {
@@ -1657,6 +1725,81 @@ const data = {
         "markdown": [
           _basic_materialssrc_assets_labs_Shading_Basic_basic_materialsmd,
           "Shading/Basic/basic_materials"
+        ]
+      },
+      "toon_shading": {
+        "images": {
+          "2d3d_0.gif": _2d3d_0src_assets_labs_Shading_Basic_toon_shadinggif,
+          "2d3d_1.gif": _2d3d_1src_assets_labs_Shading_Basic_toon_shadinggif,
+          "2d3d_2.gif": _2d3d_2src_assets_labs_Shading_Basic_toon_shadinggif,
+          "2d3d_3.gif": _2d3d_3src_assets_labs_Shading_Basic_toon_shadinggif,
+          "2d3d_4.gif": _2d3d_4src_assets_labs_Shading_Basic_toon_shadinggif,
+          "basic_toon_shading_0.png": _basic_toon_shading_0src_assets_labs_Shading_Basic_toon_shadingpng,
+          "basic_toon_shading_1.png": _basic_toon_shading_1src_assets_labs_Shading_Basic_toon_shadingpng,
+          "basic_toon_shading_10.png": _basic_toon_shading_10src_assets_labs_Shading_Basic_toon_shadingpng,
+          "basic_toon_shading_11.png": _basic_toon_shading_11src_assets_labs_Shading_Basic_toon_shadingpng,
+          "basic_toon_shading_12.png": _basic_toon_shading_12src_assets_labs_Shading_Basic_toon_shadingpng,
+          "basic_toon_shading_13.png": _basic_toon_shading_13src_assets_labs_Shading_Basic_toon_shadingpng,
+          "basic_toon_shading_14.png": _basic_toon_shading_14src_assets_labs_Shading_Basic_toon_shadingpng,
+          "basic_toon_shading_2.png": _basic_toon_shading_2src_assets_labs_Shading_Basic_toon_shadingpng,
+          "basic_toon_shading_3.png": _basic_toon_shading_3src_assets_labs_Shading_Basic_toon_shadingpng,
+          "basic_toon_shading_4.png": _basic_toon_shading_4src_assets_labs_Shading_Basic_toon_shadingpng,
+          "basic_toon_shading_5.png": _basic_toon_shading_5src_assets_labs_Shading_Basic_toon_shadingpng,
+          "basic_toon_shading_6.png": _basic_toon_shading_6src_assets_labs_Shading_Basic_toon_shadingpng,
+          "basic_toon_shading_7.png": _basic_toon_shading_7src_assets_labs_Shading_Basic_toon_shadingpng,
+          "basic_toon_shading_8.png": _basic_toon_shading_8src_assets_labs_Shading_Basic_toon_shadingpng,
+          "basic_toon_shading_9.png": _basic_toon_shading_9src_assets_labs_Shading_Basic_toon_shadingpng,
+          "basic_toon_shading_9b.png": _basic_toon_shading_9bsrc_assets_labs_Shading_Basic_toon_shadingpng,
+          "camera_based.jpg": _camera_basedsrc_assets_labs_Shading_Basic_toon_shadingjpg,
+          "edge_0.png": _edge_0src_assets_labs_Shading_Basic_toon_shadingpng,
+          "edge_1.png": _edge_1src_assets_labs_Shading_Basic_toon_shadingpng,
+          "edge_2.png": _edge_2src_assets_labs_Shading_Basic_toon_shadingpng,
+          "edge_3.png": _edge_3src_assets_labs_Shading_Basic_toon_shadingpng,
+          "edge_4.png": _edge_4src_assets_labs_Shading_Basic_toon_shadingpng,
+          "getting_started_0.png": _getting_started_0src_assets_labs_Shading_Basic_toon_shadingpng,
+          "highlights_0.png": _highlights_0src_assets_labs_Shading_Basic_toon_shadingpng,
+          "highlights_1.png": _highlights_1src_assets_labs_Shading_Basic_toon_shadingpng,
+          "highlights_2.png": _highlights_2src_assets_labs_Shading_Basic_toon_shadingpng,
+          "highlights_3.png": _highlights_3src_assets_labs_Shading_Basic_toon_shadingpng,
+          "image_sequences_0.png": _image_sequences_0src_assets_labs_Shading_Basic_toon_shadingpng,
+          "image_sequences_1.png": _image_sequences_1src_assets_labs_Shading_Basic_toon_shadingpng,
+          "intro_close.png": _intro_closesrc_assets_labs_Shading_Basic_toon_shadingpng,
+          "intro_far.png": _intro_farsrc_assets_labs_Shading_Basic_toon_shadingpng,
+          "pencil_1.png": _pencil_1src_assets_labs_Shading_Basic_toon_shadingpng,
+          "pencil_2.png": _pencil_2src_assets_labs_Shading_Basic_toon_shadingpng,
+          "pencil_3.png": _pencil_3src_assets_labs_Shading_Basic_toon_shadingpng,
+          "pencil_layout.jpg": _pencil_layoutsrc_assets_labs_Shading_Basic_toon_shadingjpg,
+          "pencil_seams_marked.jpg": _pencil_seams_markedsrc_assets_labs_Shading_Basic_toon_shadingjpg,
+          "pencil_toon.ma": _pencil_toonsrc_assets_labs_Shading_Basic_toon_shadingma,
+          "pencil_unfolded.jpg": _pencil_unfoldedsrc_assets_labs_Shading_Basic_toon_shadingjpg,
+          "rim_light_0.png": _rim_light_0src_assets_labs_Shading_Basic_toon_shadingpng,
+          "rim_light_1.png": _rim_light_1src_assets_labs_Shading_Basic_toon_shadingpng,
+          "rim_light_2.png": _rim_light_2src_assets_labs_Shading_Basic_toon_shadingpng,
+          "rim_light_3.png": _rim_light_3src_assets_labs_Shading_Basic_toon_shadingpng,
+          "rim_light_4.png": _rim_light_4src_assets_labs_Shading_Basic_toon_shadingpng,
+          "rim_light_5.png": _rim_light_5src_assets_labs_Shading_Basic_toon_shadingpng,
+          "rim_light_6.png": _rim_light_6src_assets_labs_Shading_Basic_toon_shadingpng,
+          "rim_light_7.png": _rim_light_7src_assets_labs_Shading_Basic_toon_shadingpng,
+          "set_renderer_to_arnold_0.png": _set_renderer_to_arnold_0src_assets_labs_Shading_Basic_toon_shadingpng,
+          "set_renderer_to_arnold_1.png": _set_renderer_to_arnold_1src_assets_labs_Shading_Basic_toon_shadingpng,
+          "texture_0.png": _texture_0src_assets_labs_Shading_Basic_toon_shadingpng,
+          "texture_1.png": _texture_1src_assets_labs_Shading_Basic_toon_shadingpng,
+          "texture_2.png": _texture_2src_assets_labs_Shading_Basic_toon_shadingpng,
+          "texture_3.png": _texture_3src_assets_labs_Shading_Basic_toon_shadingpng,
+          "texture_4.png": _texture_4src_assets_labs_Shading_Basic_toon_shadingpng,
+          "texture_5.png": _texture_5src_assets_labs_Shading_Basic_toon_shadingpng,
+          "ToonShaderLab.zip": _ToonShaderLabsrc_assets_labs_Shading_Basic_toon_shadingzip,
+          "uvs_colored.jpg": _uvs_coloredsrc_assets_labs_Shading_Basic_toon_shadingjpg,
+          "uvs_on_black.jpg": _uvs_on_blacksrc_assets_labs_Shading_Basic_toon_shadingjpg,
+          "uv_editing_workspace.jpg": _uv_editing_workspacesrc_assets_labs_Shading_Basic_toon_shadingjpg,
+          "uv_snapshot.jpg": _uv_snapshotsrc_assets_labs_Shading_Basic_toon_shadingjpg,
+          "uv_spec.jpg": _uv_specsrc_assets_labs_Shading_Basic_toon_shadingjpg,
+          "WeirdShadows.gif": _WeirdShadowssrc_assets_labs_Shading_Basic_toon_shadinggif,
+          "wtfIsThis.gif": _wtfIsThissrc_assets_labs_Shading_Basic_toon_shadinggif
+        },
+        "markdown": [
+          _toon_shadingsrc_assets_labs_Shading_Basic_toon_shadingmd,
+          "Shading/Basic/toon_shading"
         ]
       }
     }

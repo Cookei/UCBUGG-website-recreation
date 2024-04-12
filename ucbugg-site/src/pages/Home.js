@@ -1,4 +1,4 @@
-import React, { forwardRef, useState } from "react";
+import React, { forwardRef, useRef, useState } from "react";
 import styles from "../styles/Home.module.css";
 import appStyles from "../styles/App.module.css";
 import mayaIconImage from "../assets/homePageIcon/maya-logo.jpg";
@@ -9,13 +9,15 @@ import aftereffectIconImage from "../assets/homePageIcon/AELOGO.png";
 import PipelineInfoUpdate from "../components/PipelineUpdate";
 import SDHRoomImage from "../assets/images/home page/SDH200.jpg";
 
+import ModelingImage from "../assets/homePageIcon/modelingIcon.png";
+import RiggingImage from "../assets/homePageIcon/riggingIcon.png";
+import ShadingImage from "../assets/homePageIcon/shadingIcon.png";
+
 import {
   View,
   GradientTexture,
   Environment,
   PerspectiveCamera,
-  Sphere,
-  useHelper,
 } from "@react-three/drei";
 import HelperGrid from "../models/HelperGrid";
 import CameraRig from "../components/CameraRig";
@@ -37,7 +39,6 @@ const Home = (props, ref) => {
             size={1024}
           />
           <ambientLight intensity={1} />
-          {/* HDR for lighting */}
           <Environment files="rainforest_trail_1k.hdr" />
           <HelperGrid />
           <SplashModel />
@@ -54,7 +55,7 @@ const Home = (props, ref) => {
         </div>
       </section>
       <section id={styles.announcementSection}>
-        <div className={styles.block}>
+        <div className={styles.block} id={styles.whoWeAreContainer}>
           <h1>Who we are</h1>
           {/* prettier-ignore */}
           <p>
@@ -80,6 +81,7 @@ const Home = (props, ref) => {
         <div></div>
       </section>
       <section id={styles.pipelineSection}>
+        <h1 style={{ fontSize: "3rem" }}>The Animation Pipeline</h1>
         <div
           style={{
             display: "flex",
@@ -87,7 +89,7 @@ const Home = (props, ref) => {
             alignItems: "center",
           }}
         >
-          <div style={{ position: "relative" }}>
+          <div style={{ position: "relative", marginBottom: "2rem" }}>
             <div id={styles.timelineContainer}>
               <div className={styles.horizontalLine} />
               <div className={styles.triangle} />
@@ -97,9 +99,7 @@ const Home = (props, ref) => {
                 onClick={() => setPipelineState("storyBoarding")}
                 className={styles.pipelineButton}
               >
-                <View className={styles.timelineModelView}>
-                  <Sphere />
-                </View>
+                <img className={styles.timelineModelImg} />
                 <div className={styles.verticalLine} />
                 <h3>Storyboarding</h3>
               </div>
@@ -107,9 +107,7 @@ const Home = (props, ref) => {
                 onClick={() => setPipelineState("modeling")}
                 className={styles.pipelineButton}
               >
-                <View className={styles.timelineModelView}>
-                  <Sphere />
-                </View>
+                <img className={styles.timelineModelImg} src={ModelingImage} />
                 <div className={styles.verticalLine} />
                 <h3>Modeling</h3>
               </div>
@@ -117,9 +115,7 @@ const Home = (props, ref) => {
                 onClick={() => setPipelineState("shading")}
                 className={styles.pipelineButton}
               >
-                <View className={styles.timelineModelView}>
-                  <Sphere />
-                </View>
+                <img className={styles.timelineModelImg} src={ShadingImage} />
                 <div className={styles.verticalLine} />
                 <h3>Shading</h3>
               </div>
@@ -127,9 +123,7 @@ const Home = (props, ref) => {
                 onClick={() => setPipelineState("rigging")}
                 className={styles.pipelineButton}
               >
-                <View className={styles.timelineModelView}>
-                  <Sphere />
-                </View>
+                <img className={styles.timelineModelImg} src={RiggingImage} />
                 <div className={styles.verticalLine} />
                 <h3>Rigging</h3>
               </div>
@@ -137,9 +131,7 @@ const Home = (props, ref) => {
                 onClick={() => setPipelineState("animating")}
                 className={styles.pipelineButton}
               >
-                <View className={styles.timelineModelView}>
-                  <Sphere />
-                </View>
+                <img className={styles.timelineModelImg} />
                 <div className={styles.verticalLine} />
                 <h3>Animating</h3>
               </div>
@@ -147,9 +139,7 @@ const Home = (props, ref) => {
                 onClick={() => setPipelineState("compositing")}
                 className={styles.pipelineButton}
               >
-                <View className={styles.timelineModelView}>
-                  <Sphere />
-                </View>
+                <img className={styles.timelineModelImg} />
                 <div className={styles.verticalLine} />
                 <h3>Compositing</h3>
               </div>
@@ -160,19 +150,38 @@ const Home = (props, ref) => {
       </section>
       <section id={styles.directionSection}>
         <div className={styles.SDHImageContainer}>
-          <img src={SDHRoomImage} className={styles.SDHImageBlock} />
+          <img src={SDHRoomImage} />
         </div>
-        <div className={styles.SDHTextBlock}>
-          <h1>SDH 200</h1>
-          <div className={styles.SDHSmallTextBlock}>
-            <h1>Mon/Weds</h1>
-            <h1>7:00 pm - 9:00 pm</h1>
-          </div>
-          <button className={styles.SDHButton}>
-            <h1>Apply Now!</h1>
-          </button>
+        <div
+          style={{
+            display: "flex",
+            width: "100%",
+            position: "absolute",
+            flexDirection: "row",
+            alignItems: "center",
+          }}
+        >
+          <div style={{ position: "aboslute", flexGrow: 1 }} />
+          <a
+            className={styles.SDHTextBlock}
+            href="https://maps.app.goo.gl/MYg3EeWBrpotrWBi6"
+            target="_blank"
+          >
+            <h1>Schedule</h1>
+            <div className={styles.SDHSmallTextBlock}>
+              Monday or Wednesday
+              <br />
+              7:00 - 9:00pm 200
+              <br />
+              <br />
+              200 Sutardja Dai Hall
+            </div>
+            {/* <button className={styles.SDHButton}>
+              <h1>Apply Now!</h1>
+            </button> */}
+          </a>
+          <div style={{ position: "aboslute", flexGrow: 5 }} />
         </div>
-        <div></div>
       </section>
     </>
   );

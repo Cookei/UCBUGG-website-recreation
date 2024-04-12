@@ -5,7 +5,6 @@ import data from "./TatoeImgImports.js";
 import historyImg from "../assets/images/about/ucbuggfamily_fall2019.jpg";
 
 const About = forwardRef((props, ref) => {
-  const { pastFacilitatorsView } = ref;
   return (
     <>
       <section id={styles.projectSection}></section>

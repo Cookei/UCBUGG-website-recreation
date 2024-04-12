@@ -1,8 +1,12 @@
+:root {
+  --home-background-color: rgb(234, 245, 247);
+}
+
 /* #region */
 #splashSection {
   position: relative;
   height: clamp(500px, 66vh, 700px);
-  background-color: rgb(234, 245, 247);
+  background-color: var(--home-background-color);
 }
 
 .splashView {
@@ -19,7 +23,6 @@
   transform: translateY(-50%);
   pointer-events: none;
   display: flex;
-  container-name: splashTitleContainer;
 }
 
 #splashText {
@@ -72,21 +75,25 @@
 }
 /* #endregion */
 
+:root {
+  --accent: rgb(255, 231, 194);
+}
+
 #announcementSection {
   display: flex;
-  background-color: rgb(234, 245, 247);
-  height: 800px;
+  background-color: var(--home-background-color);
   padding: 2rem;
   justify-content: center;
 }
 
 /* #region */
 #pipelineSection {
-  background-color: rgb(142, 223, 162);
+  background-color: var(--home-background-color);
   padding: 2rem;
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding-bottom: 5rem;
 }
 
 #pipelineButtons {
@@ -94,21 +101,27 @@
   width: 700px;
   grid-template-columns: repeat(6, 1fr);
   gap: 15px;
+  justify-items: center;
 }
 
 .pipelineButton {
-  width: 100%;
+  width: 80px;
   cursor: pointer;
   display: flex;
   flex-direction: column;
   align-items: center;
+  transition: all 200ms;
+}
+
+.pipelineButton:hover {
+  scale: 110%;
 }
 
 .verticalLine {
   width: 7px;
   height: 30px;
   border-radius: 4px;
-  background-color: black;
+  background-color: #222222;
 }
 
 #timelineContainer {
@@ -126,7 +139,7 @@
   width: 100%;
   height: 7px;
   border-radius: 4px;
-  background-color: black;
+  background-color: #222222;
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
@@ -135,7 +148,7 @@
 /* #region */
 .triangle {
   position: relative;
-  background-color: black;
+  background-color: #222222;
   text-align: left;
   right: 0;
 }
@@ -167,37 +180,54 @@
 /* #endregion */
 /* #endregion */
 
-.timelineModelView {
+.timelineModelImg {
   width: 75px;
   height: 75px;
   margin-bottom: 1rem;
 }
 
-#pipelineIllustration {
+#pipelineDataContainer {
+  display: flex;
+  width: 800px;
+  padding: 2rem;
+  flex-direction: column;
+  background-color: var(--accent);
+  border-radius: 15px;
+  box-shadow: 2px 2px 5px rgb(180, 180, 180);
+  transition: scale 150ms, max-height 500ms ease, padding 300ms;
+  overflow: hidden;
+  max-height: 100vh;
+}
+
+#pipelineDataContainer:hover {
+  scale: 102%;
+}
+
+#pipelineInfoContainer {
   display: flex;
 }
 
-.pipelineTitle {
-  display: block;
-  background-color: rgb(255, 255, 224);
-  height: 100px;
+.hide {
+  max-height: 0 !important;
+  padding: 0 !important;
 }
 
-.pipelineContainer {
-  display: block;
-  justify-content: space-between;
+#pipelineDescription {
+  display: flex;
+  flex-wrap: wrap;
+  width: 500px;
+  overflow-wrap: anywhere;
 }
 
-.pipelineDescription {
-  background-color: rgb(255, 255, 224);
-  height: 400px;
+#pipelineImages {
+  display: flex;
 }
 
 .pipelineImage {
-  background-color: rgb(255, 255, 224);
-  height: 400px;
-  width: 200px;
-  margin-left: auto;
+  width: 350px;
+  border-radius: 10px;
+  margin-left: 1rem;
+  box-shadow: 2px 2px 5px rgb(180, 180, 180);
 }
 /* #endregion */
 
@@ -224,9 +254,7 @@
 }
 
 .iconImage {
-  height: auto;
   width: 75px;
-  height: 75px;
 }
 
 .iconImageBlock {
@@ -239,34 +267,55 @@
 }
 
 #directionSection {
-  background-color: rgb(230, 230, 230);
-  height: 800px;
+  height: 90vh;
   position: relative;
-}
-
-.SDHImageBlock {
-  width: 100vw;
-  object-fit: contain;
   display: flex;
+  align-items: center;
+  background-color: var(--home-background-color);
 }
 
 .SDHImageContainer {
-  height: 80vw;
-  width: 100vw;
+  width: 70%;
+  height: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  left: 55%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 15px;
   overflow: hidden;
+  box-shadow: 2px 2px 5px rgb(180, 180, 180);
+}
+
+.SDHImageContainer img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
 }
 
 .SDHTextBlock {
-  flex-grow: 1;
   top: 0;
-  top: 30%;
-  left: 70%;
   font-size: 2rem;
   color: rgb(0, 0, 0);
-  position: absolute;
-  height: 15vw;
-  width: 20vw;
-  background-color: rgba(143, 143, 143, 0.646);
+  background-color: rgba(255, 219, 171, 0.897);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+  border-radius: 15px;
+  gap: 10px;
+  filter: drop-shadow(5px 5px 5px rgba(128, 120, 112, 0.404));
+  backdrop-filter: saturate(180%) blur(3px);
+  transition: all 100ms;
+}
+
+.SDHTextBlock:hover {
+  scale: 102%;
 }
 
 .SDHTextBlock > h1 {
@@ -274,12 +323,11 @@
 }
 
 .SDHSmallTextBlock {
-  font-size: 1rem;
-  color: rgb(0, 0, 0);
+  font-size: large;
+  text-align: center;
 }
 
 .SDHButton {
-  margin-top: 10vw;
   height: 8vw;
   width: 15vw;
   border-radius: 2%;
@@ -289,4 +337,12 @@
 
 .SDHButton > h1 {
   font-size: 2rem;
+}
+
+#whoWeAreContainer {
+  background-color: var(--accent);
+  border-radius: 15px;
+  padding: 2rem;
+  margin-top: 100px;
+  box-shadow: 2px 2px 5px rgb(180, 180, 180);
 }
