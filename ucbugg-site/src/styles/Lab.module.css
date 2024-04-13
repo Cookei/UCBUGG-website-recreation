@@ -4,7 +4,7 @@
   --categoryColorsHover: #ffdebb;
   --line-color: rgb(131, 129, 131);
   --basic-color: #92f5a8;
-  --advanced-color: #f5aa9c;
+  --advanced-color: #f78888;
 }
 
 body {
@@ -17,6 +17,8 @@ body {
   flex-direction: column;
   background: linear-gradient(to bottom, #f8f5f6, #fcf1e9);
   min-height: calc(100% - 80px);
+  overflow: auto;
+  position: relative;
 }
 
 #categoryGridContainer {
@@ -37,6 +39,7 @@ body {
   margin-left: 50px;
   margin-right: 50px;
   min-height: 20vh;
+  z-index: 1;
 }
 
 @supports (-webkit-backdrop-filter: none) or (backdrop-filter: none) {
@@ -199,6 +202,12 @@ body {
 
 .labCardImageWrapper img {
   height: 100%;
+}
+
+.cover {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .labCard h4 {

@@ -7,6 +7,7 @@ import LabCategory from "../components/LabCategory";
 import LabCard from "../components/LabCard";
 import { motion } from "framer-motion";
 import labSchedule from "../assets/Syllabus/labSchedule.json";
+import BottomBanner from "../assets/homePageIcon/stupidbottombannerhillsblahugh.svg";
 
 const Labs = (props) => {
   const [selectedCategory, setSelectedCategory] = useState(null);
@@ -110,6 +111,7 @@ const Labs = (props) => {
                   variants={cardVariants}
                   name={fixedName}
                   basicOrAdvanced={basicOrAdvanced}
+                  image={value.thumbnail ? value.thumbnail : null}
                 />
               );
             })}
@@ -145,6 +147,7 @@ const Labs = (props) => {
                   variants={cardVariants}
                   name={fixedName}
                   basicOrAdvanced={basicOrAdvanced}
+                  image={value.thumbnail ? value.thumbnail : null}
                 />
               );
             })}
@@ -177,6 +180,7 @@ const Labs = (props) => {
                   variants={cardVariants}
                   name={fixedName}
                   basicOrAdvanced={basicOrAdvanced}
+                  image={value.thumbnail ? value.thumbnail : null}
                 />
               );
             })}
@@ -298,6 +302,14 @@ const Labs = (props) => {
           </motion.div>
         </motion.div>
       </motion.div>
+      <img
+        src={BottomBanner}
+        style={{
+          position: "absolute",
+          bottom: "0",
+          width: "100%",
+        }}
+      />
     </section>
   );
 };

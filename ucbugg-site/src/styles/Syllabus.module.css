@@ -17,11 +17,13 @@ html {
   justify-content: center;
   /* background: linear-gradient(rgb(245, 246, 248), rgb(240, 237, 243)); */
   background: linear-gradient(to bottom, #f8f5f6, #fcf1e9);
+  position: relative;
 }
 
 #container {
   display: flex;
   flex-direction: row;
+  z-index: 1;
 }
 
 #content {
@@ -120,4 +122,11 @@ html {
 #content table img {
   background-color: transparent;
   transform: none;
+}
+
+#navbarContainer {
+  position: sticky;
+  top: 50px;
+  height: 90vh;
+  width: var(--navbar-offset);
 }

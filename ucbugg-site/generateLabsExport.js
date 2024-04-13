@@ -109,9 +109,15 @@ function main(pth) {
             pth.match(/(?<=labs\/).*/g)[0]
           }"},\n`;
         } else {
-          data += `{"type": "${ext}",\n "file": "${validVarName}",\n "name": "${
-            filenameWithoutExt + "." + ext
-          }", "folder": "${pth.match(/(?<=labs\/).*/g)[0]}"},\n`;
+          if (filenameWithoutExt == "THUMBNAIL") {
+            data += `{"thumbnail": true,\n "type": "${ext}",\n "file": "${validVarName}",\n "name": "${
+              filenameWithoutExt + "." + ext
+            }", "folder": "${pth.match(/(?<=labs\/).*/g)[0]}"},\n`;
+          } else {
+            data += `{"type": "${ext}",\n "file": "${validVarName}",\n "name": "${
+              filenameWithoutExt + "." + ext
+            }", "folder": "${pth.match(/(?<=labs\/).*/g)[0]}"},\n`;
+          }
         }
       }
     }
@@ -144,7 +150,11 @@ for (e of jsonObj) {
   if (e["type"] == "md") {
     nestedAdd(routePath + "/markdown", [e.file, routePath], newObj);
   } else {
-    nestedAdd(routePath + "/images/" + e.name, e["file"], newObj);
+    if (e["thumbnail"] != undefined) {
+      nestedAdd(routePath + "/thumbnail", e["file"], newObj);
+    } else {
+      nestedAdd(routePath + "/images/" + e.name, e["file"], newObj);
+    }
   }
 }
 newObj = JSON.stringify(newObj, null, 2);

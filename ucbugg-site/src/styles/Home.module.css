@@ -35,11 +35,19 @@
 }
 
 @media (max-width: 800px) {
+  #splashTitle {
+    top: 20%;
+  }
+
   #splashTitleBox {
     position: absolute;
-    top: 50%;
     left: 50%;
+    top: 50%;
     transform: translate(-50%, -50%);
+  }
+
+  #splashText {
+    display: none;
   }
 }
 
@@ -84,16 +92,101 @@
   background-color: var(--home-background-color);
   padding: 2rem;
   justify-content: center;
+  position: relative;
+}
+
+.block {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  max-width: 50%;
+  min-width: 500px;
+}
+
+.block h1 {
+  font-size: 3rem;
+  margin-top: 25px;
+  margin-bottom: 10px;
+}
+
+.block p {
+  font-size: large;
+}
+
+.block span {
+  font-weight: bold;
+}
+
+.iconImage {
+  width: 75px;
+}
+
+.iconImageBlock {
+  margin-top: 1.5rem;
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  gap: 25px;
+}
+
+#whoWeAreContainer {
+  background-color: var(--accent);
+  border-radius: 15px;
+  padding: 2rem;
+  margin-top: 100px;
+  box-shadow: 2px 2px 5px rgb(180, 180, 180);
+  z-index: 1;
+}
+
+#announcementSidePanel {
+  max-width: 300px;
+  width: 100%;
+}
+
+@media (max-width: 700px) {
+  #announcementSection {
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+  }
+
+  #whoWeAreContainer.block {
+    width: 100%;
+    margin: 0;
+    max-width: none;
+    border-radius: 0;
+    box-shadow: none;
+    min-width: 0;
+  }
+
+  #announcementSidePanel {
+    display: none;
+  }
+
+  .iconImageBlock {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
 }
 
 /* #region */
 #pipelineSection {
   background-color: var(--home-background-color);
   padding: 2rem;
+  padding-bottom: 5rem;
+}
+
+#pipelineDiv {
+  z-index: 1;
+  background-color: var(--accent);
+  padding: 2rem;
+  border-radius: 15px;
+  box-shadow: 2px 2px 5px rgb(180, 180, 180);
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-bottom: 5rem;
+  position: relative;
 }
 
 #pipelineButtons {
@@ -133,6 +226,7 @@
   bottom: calc(24px + 18.72px * 2 + 15px);
   left: 50%;
   transform: translateX(-50%);
+  z-index: 3;
 }
 
 .horizontalLine {
@@ -191,7 +285,7 @@
   width: 800px;
   padding: 2rem;
   flex-direction: column;
-  background-color: var(--accent);
+  background-color: rgba(98, 170, 238, 0.79);
   border-radius: 15px;
   box-shadow: 2px 2px 5px rgb(180, 180, 180);
   transition: scale 150ms, max-height 500ms ease, padding 300ms;
@@ -229,42 +323,102 @@
   margin-left: 1rem;
   box-shadow: 2px 2px 5px rgb(180, 180, 180);
 }
+
+@media (max-width: 1000px) {
+  #pipelineSection > div > div {
+    display: none;
+  }
+
+  #pipelineDiv {
+    display: flex !important;
+    width: 100%;
+    border-radius: 0;
+  }
+
+  #pipelineDiv h1 {
+    font-size: 2rem !important;
+  }
+
+  #pipelineDiv h3 {
+    font-size: medium !important;
+    margin-top: 1.5em;
+  }
+
+  #pipelineDiv > div {
+    width: 100%;
+  }
+
+  #pipelineDiv > div > div {
+    width: 100%;
+  }
+
+  #pipelineSection {
+    padding: 0;
+    padding-right: 0;
+  }
+
+  #pipelineDataContainer {
+    width: 90% !important;
+  }
+
+  #timelineContainer {
+    width: 100%;
+  }
+
+  #pipelineInfoContainer {
+    width: 100%;
+    flex-direction: column;
+  }
+
+  #pipelineButtons {
+    width: 100%;
+  }
+
+  #pipelineDescription,
+  #pipelineImages {
+    width: 100%;
+  }
+
+  #pipelineImages img {
+    width: 100%;
+    margin: 0;
+    margin-top: 1em;
+  }
+
+  #timelineContainer .triangle {
+    display: none;
+  }
+}
+
+@media (max-width: 700px) {
+  .backgroundImg {
+    display: none;
+  }
+
+  #pipelineButtons {
+    grid-template-columns: repeat(3, 1fr);
+    width: auto;
+    background-color: rgba(98, 170, 238, 0.79);
+    border-radius: 15px;
+    padding: 1em;
+    box-shadow: 2px 2px 5px rgb(180, 180, 180);
+  }
+
+  .verticalLine,
+  .horizontalLine {
+    display: none;
+  }
+
+  #pipelineDiv h3 {
+    margin: 0;
+  }
+
+  .timelineModelImg {
+    width: 80%;
+    height: 80%;
+  }
+}
 /* #endregion */
-
-.block {
-  display: flex;
-  flex-direction: column;
-  margin: 20px;
-  max-width: 50%;
-  min-width: 500px;
-}
-
-.block h1 {
-  font-size: 3rem;
-  margin-top: 25px;
-  margin-bottom: 10px;
-}
-
-.block p {
-  font-size: large;
-}
-
-.block span {
-  font-weight: bold;
-}
-
-.iconImage {
-  width: 75px;
-}
-
-.iconImageBlock {
-  margin-top: 1.5rem;
-  display: flex;
-  align-items: center;
-  flex-wrap: nowrap;
-  flex-direction: row;
-  gap: 25px;
-}
 
 #directionSection {
   height: 90vh;
@@ -337,12 +491,4 @@
 
 .SDHButton > h1 {
   font-size: 2rem;
-}
-
-#whoWeAreContainer {
-  background-color: var(--accent);
-  border-radius: 15px;
-  padding: 2rem;
-  margin-top: 100px;
-  box-shadow: 2px 2px 5px rgb(180, 180, 180);
 }

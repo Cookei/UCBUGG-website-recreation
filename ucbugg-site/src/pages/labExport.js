@@ -576,6 +576,7 @@ import _download_thissrc_assets_labs_Modeling_Basic_modeling_1ma from '../assets
 import _hardSurface_smooth_comparisonsrc_assets_labs_Modeling_Basic_modeling_1png from '../assets/labs/Modeling/Basic/modeling 1/hardSurface_smooth_comparison.png'
 import _hardSurface_smooth_comparisonAFTERsrc_assets_labs_Modeling_Basic_modeling_1png from '../assets/labs/Modeling/Basic/modeling 1/hardSurface_smooth_comparisonAFTER.png'
 import _modeling_1src_assets_labs_Modeling_Basic_modeling_1md from '../assets/labs/Modeling/Basic/modeling 1/modeling 1.md'
+import _THUMBNAILsrc_assets_labs_Modeling_Basic_modeling_1png from '../assets/labs/Modeling/Basic/modeling 1/THUMBNAIL.png'
 import _append_to_polygonsrc_assets_labs_Modeling_Basic_modeling_2png from '../assets/labs/Modeling/Basic/modeling 2/append to polygon.png'
 import _April_setupsrc_assets_labs_Modeling_Basic_modeling_2png from '../assets/labs/Modeling/Basic/modeling 2/April_setup.png'
 import _armsrc_assets_labs_Modeling_Basic_modeling_2jpg from '../assets/labs/Modeling/Basic/modeling 2/arm.jpg'
@@ -1493,7 +1494,8 @@ const data = {
         "markdown": [
           _modeling_1src_assets_labs_Modeling_Basic_modeling_1md,
           "Modeling/Basic/modeling_1"
-        ]
+        ],
+        "thumbnail": _THUMBNAILsrc_assets_labs_Modeling_Basic_modeling_1png
       },
       "modeling_2": {
         "images": {

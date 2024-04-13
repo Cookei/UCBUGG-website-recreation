@@ -12,6 +12,12 @@ import SDHRoomImage from "../assets/images/home page/SDH200.jpg";
 import ModelingImage from "../assets/homePageIcon/modelingIcon.png";
 import RiggingImage from "../assets/homePageIcon/riggingIcon.png";
 import ShadingImage from "../assets/homePageIcon/shadingIcon.png";
+import StoryboardingImage from "../assets/homePageIcon/storyboardingIcon.png";
+import AnimatingImage from "../assets/homePageIcon/animatingIcon.png";
+import CompositingImage from "../assets/homePageIcon/compositingIcon.png";
+import Focks from "../assets/homePageIcon/focks.svg";
+import BottomBanner from "../assets/homePageIcon/stupidbottombannerhillsblahugh.svg";
+import oldlogo from "../assets/homePageIcon/oldlogo.svg";
 
 import {
   View,
@@ -59,15 +65,7 @@ const Home = (props, ref) => {
           <h1>Who we are</h1>
           {/* prettier-ignore */}
           <p>
-            UCBUGG will soon be accepting applications for the
-            <span> Fall 2023 </span> semester! Come to our online infosession on
-            <span> August 28th </span> or <span>August 30th</span>. Both of these
-            infosessions will cover the same material, so you need only come to one.
-            During our info session we will be going over the application process,
-            as well as logistics for the course. UCBUGG does not expect students or
-            applicants to have any prior experience for the basic curriculum as we will be
-            teaching you everything you need to know for the application at our
-            first session.
+            The UC Berkeley Undergraduate Graphics Group (UCBUGG) is a group of passionate students who want to introduce our fellow peers to the art of creating a 3D-animated short film. We run the UCBUGG DeCal, offering both a basic and advanced curriculum. This DeCal guides students of all skill levels through the entire production pipeline of creating an animated film, using software like Autodesk Maya, Adobe After Effects, and Pixar's Renderman. UCBUGG alumni have broke into the industry, working at places like Dreamworks, Pixar, and Sony Interactive Entertainment
           </p>
           <div className={styles.iconImageBlock}>
             <img src={mayaIconImage} className={styles.iconImage} />
@@ -77,79 +75,140 @@ const Home = (props, ref) => {
             <img src={substancePainterImage} className={styles.iconImage} />
           </div>
         </div>
-        <div style={{ maxWidth: "300px", width: "100%" }} />
-        <div></div>
-      </section>
-      <section id={styles.pipelineSection}>
-        <h1 style={{ fontSize: "3rem" }}>The Animation Pipeline</h1>
+        <div id={styles.announcementSidePanel} />
         <div
           style={{
+            position: "absolute",
+            top: "375px",
+            width: "100%",
             display: "flex",
-            flexDirection: "column",
-            alignItems: "center",
           }}
         >
-          <div style={{ position: "relative", marginBottom: "2rem" }}>
-            <div id={styles.timelineContainer}>
-              <div className={styles.horizontalLine} />
-              <div className={styles.triangle} />
-            </div>
-            <div id={styles.pipelineButtons}>
-              <div
-                onClick={() => setPipelineState("storyBoarding")}
-                className={styles.pipelineButton}
-              >
-                <img className={styles.timelineModelImg} />
-                <div className={styles.verticalLine} />
-                <h3>Storyboarding</h3>
+          <div style={{ flexGrow: 7 }} />
+          <img
+            src={Focks}
+            style={{
+              position: "relative",
+              width: "400px",
+            }}
+            className={styles.backgroundImg}
+          />
+          <div style={{ flexGrow: 0.5 }} />
+        </div>
+      </section>
+      <section id={styles.pipelineSection}>
+        <div style={{ position: "relative", display: "flex" }}>
+          <div style={{ flexGrow: 3 }} />
+          <div id={styles.pipelineDiv}>
+            <h1 style={{ fontSize: "3rem" }}>The Animation Pipeline</h1>
+            <div
+              style={{
+                display: "flex",
+                flexDirection: "column",
+                alignItems: "center",
+              }}
+            >
+              <div style={{ position: "relative", marginBottom: "2rem" }}>
+                <div id={styles.timelineContainer}>
+                  <div className={styles.horizontalLine} />
+                  <div className={styles.triangle} />
+                </div>
+                <div id={styles.pipelineButtons}>
+                  <div
+                    onClick={() => setPipelineState("storyBoarding")}
+                    className={styles.pipelineButton}
+                  >
+                    <img
+                      className={styles.timelineModelImg}
+                      src={StoryboardingImage}
+                    />
+                    <div className={styles.verticalLine} />
+                    <h3>Storyboarding</h3>
+                  </div>
+                  <div
+                    onClick={() => setPipelineState("modeling")}
+                    className={styles.pipelineButton}
+                  >
+                    <img
+                      className={styles.timelineModelImg}
+                      src={ModelingImage}
+                    />
+                    <div className={styles.verticalLine} />
+                    <h3>Modeling</h3>
+                  </div>
+                  <div
+                    onClick={() => setPipelineState("shading")}
+                    className={styles.pipelineButton}
+                  >
+                    <img
+                      className={styles.timelineModelImg}
+                      src={ShadingImage}
+                    />
+                    <div className={styles.verticalLine} />
+                    <h3>Shading</h3>
+                  </div>
+                  <div
+                    onClick={() => setPipelineState("rigging")}
+                    className={styles.pipelineButton}
+                  >
+                    <img
+                      className={styles.timelineModelImg}
+                      src={RiggingImage}
+                    />
+                    <div className={styles.verticalLine} />
+                    <h3>Rigging</h3>
+                  </div>
+                  <div
+                    onClick={() => setPipelineState("animating")}
+                    className={styles.pipelineButton}
+                  >
+                    <img
+                      className={styles.timelineModelImg}
+                      src={AnimatingImage}
+                    />
+                    <div className={styles.verticalLine} />
+                    <h3>Animating</h3>
+                  </div>
+                  <div
+                    onClick={() => setPipelineState("compositing")}
+                    className={styles.pipelineButton}
+                  >
+                    <img
+                      className={styles.timelineModelImg}
+                      src={CompositingImage}
+                    />
+                    <div className={styles.verticalLine} />
+                    <h3>Compositing</h3>
+                  </div>
+                </div>
               </div>
-              <div
-                onClick={() => setPipelineState("modeling")}
-                className={styles.pipelineButton}
-              >
-                <img className={styles.timelineModelImg} src={ModelingImage} />
-                <div className={styles.verticalLine} />
-                <h3>Modeling</h3>
-              </div>
-              <div
-                onClick={() => setPipelineState("shading")}
-                className={styles.pipelineButton}
-              >
-                <img className={styles.timelineModelImg} src={ShadingImage} />
-                <div className={styles.verticalLine} />
-                <h3>Shading</h3>
-              </div>
-              <div
-                onClick={() => setPipelineState("rigging")}
-                className={styles.pipelineButton}
-              >
-                <img className={styles.timelineModelImg} src={RiggingImage} />
-                <div className={styles.verticalLine} />
-                <h3>Rigging</h3>
-              </div>
-              <div
-                onClick={() => setPipelineState("animating")}
-                className={styles.pipelineButton}
-              >
-                <img className={styles.timelineModelImg} />
-                <div className={styles.verticalLine} />
-                <h3>Animating</h3>
-              </div>
-              <div
-                onClick={() => setPipelineState("compositing")}
-                className={styles.pipelineButton}
-              >
-                <img className={styles.timelineModelImg} />
-                <div className={styles.verticalLine} />
-                <h3>Compositing</h3>
-              </div>
+              <PipelineInfoUpdate pipelineState={pipelineState} />
             </div>
           </div>
-          <PipelineInfoUpdate pipelineState={pipelineState} />
+          <div style={{ flexGrow: 1 }} />
+          <div
+            style={{
+              position: "absolute",
+              top: "150px",
+              width: "100%",
+              display: "flex",
+            }}
+          >
+            <div style={{ flexGrow: 1 }} />
+            <img
+              src={oldlogo}
+              style={{
+                position: "relative",
+                width: "300px",
+              }}
+              className={styles.backgroundImg}
+            />
+            <div style={{ flexGrow: 7 }} />
+          </div>
         </div>
       </section>
       <section id={styles.directionSection}>
-        <div className={styles.SDHImageContainer}>
+        <div className={styles.SDHImageContainer} style={{ zIndex: 1 }}>
           <img src={SDHRoomImage} />
         </div>
         <div
@@ -159,6 +218,7 @@ const Home = (props, ref) => {
             position: "absolute",
             flexDirection: "row",
             alignItems: "center",
+            zIndex: 1,
           }}
         >
           <div style={{ position: "aboslute", flexGrow: 1 }} />
@@ -182,6 +242,14 @@ const Home = (props, ref) => {
           </a>
           <div style={{ position: "aboslute", flexGrow: 5 }} />
         </div>
+        <img
+          src={BottomBanner}
+          style={{
+            position: "absolute",
+            bottom: "0",
+            width: "100%",
+          }}
+        />
       </section>
     </>
   );

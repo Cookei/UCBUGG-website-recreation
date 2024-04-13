@@ -6,7 +6,7 @@
 #historySection {
   display: flex;
   justify-content: center;
-  background: linear-gradient(to bottom, #f8f5f6, #ebd7c6);
+  background: linear-gradient(to bottom, #f8f5f6, #f5e8dc);
 }
 
 #historyBlurb {
@@ -18,16 +18,25 @@
     justify-content: space-between;
   }
 
+  h1 {
+    font-size: 3rem;
+  }
+
   p {
-    max-width: 400px;
+    max-width: 750px;
   }
 
   img {
-    margin-left: 1rem;
-    margin-left: 1rem;
+    margin-left: 3rem;
     max-width: 430px;
     height: fit-content;
     border-radius: 10px;
+  }
+
+  @media (max-width: 1000px) {
+    img {
+      max-width: 300px;
+    }
   }
 
   @media (max-width: 800px) {
@@ -44,6 +53,8 @@
 
     img {
       width: 100%;
+      margin: 0;
+      margin-top: 2rem;
       height: auto;
     }
   }
@@ -55,7 +66,11 @@
   flex-direction: column;
   padding-left: 5px;
   padding-right: 5px;
-  background: linear-gradient(to bottom, #ebd7c6, #f3eff2);
+  background: linear-gradient(to bottom, #f5e8dc, #f3eff2);
+
+  h1 {
+    font-size: 3rem;
+  }
 }
 
 .staffGrid {
@@ -127,6 +142,12 @@
   --row-gap: 15px;
   --col-gap: 15px;
   width: clamp(500px, 80%, 1300px);
+  z-index: 1;
+  background-color: rgba(253, 240, 222, 0.61);
+  border-radius: 15px;
+  backdrop-filter: saturate(180%) blur(10px);
+  margin-bottom: 3rem;
+  filter: drop-shadow(5px 5px 5px rgba(133, 133, 133, 0.301));
 
   > div > div > img {
     border-radius: 10px;
@@ -139,6 +160,8 @@
     padding-left: 3rem;
     padding-right: 3rem;
     width: auto;
+    border-radius: 0;
+    margin-bottom: 0;
   }
 }
 
@@ -149,4 +172,8 @@
   flex-direction: column;
   padding-top: 2rem;
   background: linear-gradient(to bottom, #f3eff2, #ebd7c6);
+
+  h1 {
+    font-size: 3rem;
+  }
 }

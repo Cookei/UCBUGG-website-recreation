@@ -68,7 +68,7 @@ blockquote.important::before {
   max-height: 90vh;
   border-right: 2px gray solid;
   top: 35px;
-  overflow-y: scroll;
+  overflow-y: auto;
 }
 
 .markdown-navigation .title-anchor {

@@ -4,7 +4,8 @@ import { Link } from "wouter";
 import logo from "../assets/Syllabus/logo.png";
 
 const LabCard = forwardRef((props, ref) => {
-  const { name, path, basicOrAdvanced } = props;
+  const { name, path, basicOrAdvanced, image } = props;
+  console.log(image);
 
   return (
     <Link ref={ref} to={`labs/${path}`} className={styles.labCard}>
@@ -16,7 +17,10 @@ const LabCard = forwardRef((props, ref) => {
         <div className={styles.advanced} />
       ) : null}
       <div className={styles.labCardImageWrapper}>
-        <img src={logo} />
+        <img
+          src={image ? image : logo}
+          className={image ? styles.cover : null}
+        />
       </div>
       <h4>{name}</h4>
     </Link>

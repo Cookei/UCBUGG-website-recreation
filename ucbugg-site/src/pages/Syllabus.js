@@ -6,6 +6,8 @@ import advancedSchedule from "../assets/Syllabus/advancedSchedule.md";
 import styles from "../styles/Syllabus.module.css";
 import CustomMarkdownComponent from "../components/CustomMarkdownComponent";
 import markdownStyles from "../styles/Markdown.module.css";
+import rebeccafox from "../assets/homePageIcon/rebeccafox.png";
+import BottomBanner from "../assets/homePageIcon/stupidbottombannerhillsblahugh.svg";
 
 const Syllabus = () => {
   const [markdown, setMarkdown] = useState("");
@@ -31,7 +33,23 @@ const Syllabus = () => {
     <div>
       <section id={styles.syllabusSection}>
         <div id={styles.container}>
-          <MarkdownNavbar source={markdown} ordered={false} />
+          <div id={styles.navbarContainer}>
+            <MarkdownNavbar
+              source={markdown}
+              ordered={false}
+              className={markdownStyles.unset}
+            />
+            <img
+              src={rebeccafox}
+              style={{
+                position: "absolute",
+                zIndex: 1,
+                bottom: "10%",
+                width: "100%",
+              }}
+            />
+          </div>
+
           <div id={styles.content}>
             <CustomMarkdownComponent child={markdown} />
             <div
@@ -68,6 +86,15 @@ const Syllabus = () => {
             />
           </div>
         </div>
+        <img
+          src={BottomBanner}
+          style={{
+            position: "absolute",
+            bottom: "0",
+            left: "0",
+            width: "100%",
+          }}
+        />
       </section>
     </div>
   );
