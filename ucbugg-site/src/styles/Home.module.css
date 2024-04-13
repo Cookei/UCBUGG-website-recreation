@@ -305,7 +305,6 @@
   box-shadow: 2px 2px 5px rgb(180, 180, 180);
   transition: scale 150ms, max-height 500ms ease, padding 300ms;
   overflow: hidden;
-  max-height: 100vh;
 }
 
 #pipelineDataContainer:hover {
@@ -326,6 +325,7 @@
   flex-wrap: wrap;
   width: 500px;
   overflow-wrap: anywhere;
+  font-size: larger;
 }
 
 #pipelineImages {
