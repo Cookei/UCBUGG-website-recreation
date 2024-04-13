@@ -248,7 +248,7 @@ const Home = (props, ref) => {
             <div className={styles.SDHSmallTextBlock}>
               Monday or Wednesday
               <br />
-              7:00 - 9:00pm 200
+              7:00 - 9:00pm
               <br />
               <br />
               200 Sutardja Dai Hall
