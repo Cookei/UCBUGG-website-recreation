@@ -111,7 +111,7 @@
     align-items: center;
     width: fit-content;
     height: 100%;
-    margin-right: 5px;
+    margin-right: 1rem;
     padding: 10px;
     transition: all 1s;
   }

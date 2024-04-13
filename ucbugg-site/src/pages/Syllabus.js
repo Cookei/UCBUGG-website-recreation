@@ -6,7 +6,7 @@ import advancedSchedule from "../assets/Syllabus/advancedSchedule.md";
 import styles from "../styles/Syllabus.module.css";
 import CustomMarkdownComponent from "../components/CustomMarkdownComponent";
 import markdownStyles from "../styles/Markdown.module.css";
-import rebeccafox from "../assets/homePageIcon/rebeccafox.png";
+import rebeccafox from "../assets/Syllabus/rebeccafox.png";
 import BottomBanner from "../assets/homePageIcon/stupidbottombannerhillsblahugh.svg";
 
 const Syllabus = () => {
@@ -44,7 +44,7 @@ const Syllabus = () => {
               style={{
                 position: "absolute",
                 zIndex: 1,
-                bottom: "10%",
+                bottom: "0",
                 width: "100%",
               }}
             />
@@ -90,8 +90,8 @@ const Syllabus = () => {
           src={BottomBanner}
           style={{
             position: "absolute",
-            bottom: "0",
-            left: "0",
+            bottom: 0,
+            left: 0,
             width: "100%",
           }}
         />

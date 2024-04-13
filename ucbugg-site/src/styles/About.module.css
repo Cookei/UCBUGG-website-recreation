@@ -1,3 +1,25 @@
+#projectSection {
+  background: #f8f5f6;
+}
+
+#projectSection > div {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#projectSection h1 {
+  font-size: 3rem;
+}
+
+@media (max-width: 600px) {
+  #projectSection > div iframe {
+    width: 100%;
+  }
+}
+
 #historySection,
 #staffSection {
   padding: 50px;
@@ -175,5 +197,16 @@
 
   h1 {
     font-size: 3rem;
+  }
+}
+
+@media (max-width: 500px) {
+  #projectSection,
+  #historySection,
+  #staffSection,
+  #pastFacilitatorsSection {
+    h1 {
+      font-size: 2rem;
+    }
   }
 }

@@ -8,7 +8,21 @@ import BottomBanner from "../assets/homePageIcon/stupidbottombannerhillsblahugh.
 const About = forwardRef((props, ref) => {
   return (
     <div style={{ position: "relative" }}>
-      <section id={styles.projectSection}></section>
+      <section id={styles.projectSection}>
+        <div>
+          <h1>UCBUGG Promo Video</h1>
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/mP_huyd4_nY?si=1OcEZiMWM9WIGuJt"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </section>
       <section id={styles.historySection}>
         <div id={styles.historyBlurb}>
           <h1>A Brief History of UCBUGG</h1>

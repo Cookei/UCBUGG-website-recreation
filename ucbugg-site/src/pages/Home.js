@@ -19,6 +19,10 @@ import Focks from "../assets/homePageIcon/focks.svg";
 import BottomBanner from "../assets/homePageIcon/stupidbottombannerhillsblahugh.svg";
 import oldlogo from "../assets/homePageIcon/oldlogo.svg";
 
+import discordIcon from "../assets/homePageIcon/discord-mark-white.svg";
+import emailIcon from "../assets/homePageIcon/email.svg";
+import youtubeIcon from "../assets/homePageIcon/utub.svg";
+
 import {
   View,
   GradientTexture,
@@ -27,6 +31,7 @@ import {
 } from "@react-three/drei";
 import HelperGrid from "../models/HelperGrid";
 import CameraRig from "../components/CameraRig";
+import SocialIcon from "../components/SocialIcon";
 const SplashModel = React.lazy(() => import("../models/SplashModel"));
 
 const Home = (props, ref) => {
@@ -56,6 +61,17 @@ const Home = (props, ref) => {
             <p id={styles.splashText}>
               University of California Berkeley Undergraduate Graphics Group
             </p>
+            <div id={styles.socialIcons}>
+              <SocialIcon icon={emailIcon} link="mailto:staff@ucbugg.com" />
+              <SocialIcon
+                icon={discordIcon}
+                link="https://discord.gg/QTYFDrhw9y"
+              />
+              <SocialIcon
+                icon={youtubeIcon}
+                link="https://www.youtube.com/UCBUGG"
+              />
+            </div>
           </div>
           <div style={{ flexGrow: 1 }} />
         </div>

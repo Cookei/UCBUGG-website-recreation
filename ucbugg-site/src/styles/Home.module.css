@@ -34,20 +34,35 @@
   flex-grow: 1;
 }
 
+#socialIcons {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 1rem;
+}
+
 @media (max-width: 800px) {
   #splashTitle {
     top: 20%;
+    height: 100%;
   }
 
   #splashTitleBox {
     position: absolute;
     left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
+    top: 35%;
+    transform: translateX(-50%);
+    height: 90%;
   }
 
   #splashText {
     display: none;
+  }
+
+  #socialIcons {
+    position: absolute;
+    bottom: 0;
   }
 }
 
