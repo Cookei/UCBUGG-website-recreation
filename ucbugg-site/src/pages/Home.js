@@ -7,7 +7,7 @@ import creativecloudIconImage from "../assets/homePageIcon/cs-logo.jpeg";
 import substancePainterImage from "../assets/homePageIcon/adobe-substance-3d-painter-icon.png";
 import aftereffectIconImage from "../assets/homePageIcon/AELOGO.png";
 import PipelineInfoUpdate from "../components/PipelineUpdate";
-import SDHRoomImage from "../assets/images/home page/SDH200.jpg";
+import SDHRoomImage from "../assets/homePageIcon/SDH200.jpg";
 
 import ModelingImage from "../assets/homePageIcon/modelingIcon.png";
 import RiggingImage from "../assets/homePageIcon/riggingIcon.png";
