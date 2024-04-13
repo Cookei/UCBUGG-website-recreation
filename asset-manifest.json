@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.59852a5b.css",
-    "main.js": "/static/js/main.bab3da4a.js",
+    "main.css": "/static/css/main.007a3000.css",
+    "main.js": "/static/js/main.8416d13c.js",
     "static/js/526.f2c8b305.chunk.js": "/static/js/526.f2c8b305.chunk.js",
     "static/js/206.24d8eb7c.chunk.js": "/static/js/206.24d8eb7c.chunk.js",
     "static/js/95.ba5437e0.chunk.js": "/static/js/95.ba5437e0.chunk.js",
@@ -1401,15 +1401,15 @@
     "static/media/stupidbottombannerhillsblahugh.svg": "/static/media/stupidbottombannerhillsblahugh.b144eddf435eaa50ce6a400ff25a81c7.svg",
     "static/media/basicSchedule.md": "/static/media/basicSchedule.b710b920fc2137a63273.md",
     "static/media/advancedSchedule.md": "/static/media/advancedSchedule.a1591ec08fa38379b350.md",
+    "index.html": "/index.html",
     "static/media/email.svg": "/static/media/email.36a88e40d63f738c73a77e14351a16fd.svg",
     "static/media/discord-mark-white.svg": "/static/media/discord-mark-white.81949e05bf4c1f0292fc0bf241b394ba.svg",
-    "index.html": "/index.html",
     "static/media/utub.svg": "/static/media/utub.42fe82466d675b2d58d53b1e574f5ab4.svg",
     "static/media/material-download-icon.svg": "/static/media/material-download-icon.a494200f4e8456b0b537eeb0f69a80b0.svg",
     "static/media/download_this.ma": "/static/media/download_this.cae342c80f739080fae9.ma"
   },
   "entrypoints": [
-    "static/css/main.59852a5b.css",
-    "static/js/main.bab3da4a.js"
+    "static/css/main.007a3000.css",
+    "static/js/main.8416d13c.js"
   ]
 }
