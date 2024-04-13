@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/UCBUGG-website-recreation/static/css/main.59852a5b.css",
-    "main.js": "/UCBUGG-website-recreation/static/js/main.4ebc8d5e.js",
+    "main.js": "/UCBUGG-website-recreation/static/js/main.e6abf571.js",
     "static/js/526.f2c8b305.chunk.js": "/UCBUGG-website-recreation/static/js/526.f2c8b305.chunk.js",
     "static/js/206.24d8eb7c.chunk.js": "/UCBUGG-website-recreation/static/js/206.24d8eb7c.chunk.js",
     "static/js/95.ba5437e0.chunk.js": "/UCBUGG-website-recreation/static/js/95.ba5437e0.chunk.js",
@@ -1410,6 +1410,6 @@
   },
   "entrypoints": [
     "static/css/main.59852a5b.css",
-    "static/js/main.4ebc8d5e.js"
+    "static/js/main.e6abf571.js"
   ]
 }
