@@ -1,7 +1,7 @@
 {
   "name": "ucbugg-site",
   "version": "0.1.0",
-  "homepage": "https://www.ucbugg.com//",
+  "homepage": "https://www.ucbugg.com/",
   "private": true,
   "dependencies": {
     "@react-three/drei": "^9.93.0",
