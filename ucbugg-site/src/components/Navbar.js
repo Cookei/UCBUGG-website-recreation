@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import styles from "../styles/Navbar.module.css";
 // import { Link } from "react-router-dom";
 import { Link } from "wouter";
+import logoImg from "../assets/logo.png";
 
 const Navbar = () => {
   const [dropdownActive, setDropdownActive] = useState(false);
@@ -9,7 +10,7 @@ const Navbar = () => {
   return (
     <div className={styles.Navbar}>
       <Link to="/" className={`${styles.left} ${styles.navlink}`}>
-        <img src="/logo.png" alt="Logo" />
+        <img src={logoImg} alt="Logo" />
         <div className={styles.title}>
           <h1>UCBUGG</h1>
         </div>

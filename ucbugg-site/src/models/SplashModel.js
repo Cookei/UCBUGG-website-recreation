@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { TransformControls, Wireframe, useGLTF } from "@react-three/drei";
 import { useThree } from "@react-three/fiber";
+import model from "../assets/models/splashModel.glb";
 
 const SplashModel = () => {
   // This is a wrapper for the actual fox model to handle all the hover and transformation logic
@@ -35,7 +36,7 @@ const SplashModel = () => {
     };
   }, []);
 
-  useGLTF.preload("splashModel.glb");
+  useGLTF.preload(model);
 
   return (
     <>
@@ -77,7 +78,7 @@ export default SplashModel;
 
 // The actual fox model
 export function Model({ fillMix, strokeOpacity, ...props }) {
-  const { nodes, materials } = useGLTF("/splashModel.glb");
+  const { nodes, materials } = useGLTF(model);
   return (
     <group {...props} dispose={null}>
       <group rotation={[Math.PI / 2, 0, 0]}>
@@ -130,4 +131,4 @@ export function Model({ fillMix, strokeOpacity, ...props }) {
   );
 }
 
-useGLTF.preload("/splashModel.glb");
+useGLTF.preload(model);

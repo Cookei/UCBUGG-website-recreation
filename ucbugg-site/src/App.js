@@ -1,6 +1,6 @@
 //Routing
 // import { BrowserRouter, Routes, Route } from "react-router-dom";
-import { Route, Switch } from "wouter";
+import { Redirect, Route, Switch } from "wouter";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Syllabus from "./pages/Syllabus";
@@ -59,7 +59,9 @@ function App() {
         <Route path="/about">
           <About />
         </Route>
-        <Route path="/" />
+        <Route>
+          <Redirect to="/" />
+        </Route>
       </Switch>
       <Canvas
         eventSource={document.getElementById("root")}

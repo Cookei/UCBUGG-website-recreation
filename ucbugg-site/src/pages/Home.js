@@ -32,6 +32,7 @@ import {
 import HelperGrid from "../models/HelperGrid";
 import CameraRig from "../components/CameraRig";
 import SocialIcon from "../components/SocialIcon";
+import hdr from "../assets/models/rainforest_trail_1k.hdr";
 const SplashModel = React.lazy(() => import("../models/SplashModel"));
 
 const Home = (props, ref) => {
@@ -50,7 +51,7 @@ const Home = (props, ref) => {
             size={1024}
           />
           <ambientLight intensity={1} />
-          <Environment files="rainforest_trail_1k.hdr" />
+          <Environment files={hdr} />
           <HelperGrid />
           <SplashModel />
         </View>
