@@ -26,6 +26,77 @@ import _unsmoothedsrc_assets_labs_Introduction_To_Maya_introduction_to_mayapng f
 import _vertex_face_etcsrc_assets_labs_Introduction_To_Maya_introduction_to_mayapng from '../assets/labs/Introduction To Maya/introduction to maya/vertex_face_etc.png'
 import _viewportsrc_assets_labs_Introduction_To_Maya_introduction_to_mayajpg from '../assets/labs/Introduction To Maya/introduction to maya/viewport.jpg'
 import _wireframe_options_pngsrc_assets_labs_Introduction_To_Maya_introduction_to_mayapng from '../assets/labs/Introduction To Maya/introduction to maya/wireframe_options_png.png'
+import _3cube2src_assets_labs_Lighting_lighting_1png from '../assets/labs/Lighting/lighting 1/3cube2.png'
+import _br1src_assets_labs_Lighting_lighting_1png from '../assets/labs/Lighting/lighting 1/br1.png'
+import _br2src_assets_labs_Lighting_lighting_1png from '../assets/labs/Lighting/lighting 1/br2.png'
+import _br3src_assets_labs_Lighting_lighting_1png from '../assets/labs/Lighting/lighting 1/br3.png'
+import _br4src_assets_labs_Lighting_lighting_1png from '../assets/labs/Lighting/lighting 1/br4.png'
+import _conesrc_assets_labs_Lighting_lighting_1png from '../assets/labs/Lighting/lighting 1/cone.png'
+import _cone_anglesrc_assets_labs_Lighting_lighting_1png from '../assets/labs/Lighting/lighting 1/cone_angle.png'
+import _daytime_env_viewportsrc_assets_labs_Lighting_lighting_1png from '../assets/labs/Lighting/lighting 1/daytime_env_viewport.png'
+import _Kelvin_Temperature___Rendermansrc_assets_labs_Lighting_lighting_1png from '../assets/labs/Lighting/lighting 1/Kelvin Temperature - Renderman.png'
+import _kelvin_color_temperaturesrc_assets_labs_Lighting_lighting_1jpg from '../assets/labs/Lighting/lighting 1/kelvin-color-temperature.jpg'
+import _l0src_assets_labs_Lighting_lighting_1png from '../assets/labs/Lighting/lighting 1/l0.png'
+import _l1src_assets_labs_Lighting_lighting_1png from '../assets/labs/Lighting/lighting 1/l1.png'
+import _l10src_assets_labs_Lighting_lighting_1png from '../assets/labs/Lighting/lighting 1/l10.png'
+import _l11src_assets_labs_Lighting_lighting_1png from '../assets/labs/Lighting/lighting 1/l11.png'
+import _l12src_assets_labs_Lighting_lighting_1png from '../assets/labs/Lighting/lighting 1/l12.png'
+import _l13src_assets_labs_Lighting_lighting_1png from '../assets/labs/Lighting/lighting 1/l13.png'
+import _l2src_assets_labs_Lighting_lighting_1png from '../assets/labs/Lighting/lighting 1/l2.png'
+import _l3src_assets_labs_Lighting_lighting_1png from '../assets/labs/Lighting/lighting 1/l3.png'
+import _l4src_assets_labs_Lighting_lighting_1png from '../assets/labs/Lighting/lighting 1/l4.png'
+import _l5src_assets_labs_Lighting_lighting_1png from '../assets/labs/Lighting/lighting 1/l5.png'
+import _l6src_assets_labs_Lighting_lighting_1png from '../assets/labs/Lighting/lighting 1/l6.png'
+import _l7src_assets_labs_Lighting_lighting_1png from '../assets/labs/Lighting/lighting 1/l7.png'
+import _l8src_assets_labs_Lighting_lighting_1png from '../assets/labs/Lighting/lighting 1/l8.png'
+import _l9src_assets_labs_Lighting_lighting_1png from '../assets/labs/Lighting/lighting 1/l9.png'
+import _Light_Panelsrc_assets_labs_Lighting_lighting_1png from '../assets/labs/Lighting/lighting 1/Light Panel.png'
+import _lightcentricsrc_assets_labs_Lighting_lighting_1png from '../assets/labs/Lighting/lighting 1/lightcentric.png'
+import _lightcentricfurrealsrc_assets_labs_Lighting_lighting_1png from '../assets/labs/Lighting/lighting 1/lightcentricfurreal.png'
+import _lighting_1src_assets_labs_Lighting_lighting_1md from '../assets/labs/Lighting/lighting 1/lighting 1.md'
+import _lightingLabsrc_assets_labs_Lighting_lighting_1ma from '../assets/labs/Lighting/lighting 1/lightingLab.ma'
+import _lighting_labsrc_assets_labs_Lighting_lighting_1ma from '../assets/labs/Lighting/lighting 1/lighting_lab.ma'
+import _light_linking_1src_assets_labs_Lighting_lighting_1png from '../assets/labs/Lighting/lighting 1/light_linking_1.png'
+import _light_linking_2src_assets_labs_Lighting_lighting_1png from '../assets/labs/Lighting/lighting 1/light_linking_2.png'
+import _light_linking_3src_assets_labs_Lighting_lighting_1png from '../assets/labs/Lighting/lighting 1/light_linking_3.png'
+import _Screen_Shot_2015_11_16_at_2_16_00_PMsrc_assets_labs_Lighting_lighting_1png from '../assets/labs/Lighting/lighting 1/Screen Shot 2015-11-16 at 2.16.00 PM.png'
+import _Screen_Shot_2015_11_16_at_2_20_58_PMsrc_assets_labs_Lighting_lighting_1png from '../assets/labs/Lighting/lighting 1/Screen Shot 2015-11-16 at 2.20.58 PM.png'
+import _Untitledsrc_assets_labs_Lighting_lighting_1png from '../assets/labs/Lighting/lighting 1/Untitled.png'
+import _Untitled_primaryvisibilitysrc_assets_labs_Lighting_lighting_1png from '../assets/labs/Lighting/lighting 1/Untitled_primaryvisibility.png'
+import _wr1src_assets_labs_Lighting_lighting_1png from '../assets/labs/Lighting/lighting 1/wr1.png'
+import _wr2src_assets_labs_Lighting_lighting_1png from '../assets/labs/Lighting/lighting 1/wr2.png'
+import _wr3src_assets_labs_Lighting_lighting_1png from '../assets/labs/Lighting/lighting 1/wr3.png'
+import _3cube2src_assets_labs_Lighting_lighting_2png from '../assets/labs/Lighting/lighting 2/3cube2.png'
+import _3cubessrc_assets_labs_Lighting_lighting_2png from '../assets/labs/Lighting/lighting 2/3cubes.png'
+import _barnsrc_assets_labs_Lighting_lighting_2png from '../assets/labs/Lighting/lighting 2/barn.png'
+import _barndoors_viewportsrc_assets_labs_Lighting_lighting_2png from '../assets/labs/Lighting/lighting 2/barndoors_viewport.png'
+import _barn_settingssrc_assets_labs_Lighting_lighting_2png from '../assets/labs/Lighting/lighting 2/barn_settings.png'
+import _conesrc_assets_labs_Lighting_lighting_2png from '../assets/labs/Lighting/lighting 2/cone.png'
+import _daytime_env_viewportsrc_assets_labs_Lighting_lighting_2png from '../assets/labs/Lighting/lighting 2/daytime_env_viewport.png'
+import _daytime_finishedsrc_assets_labs_Lighting_lighting_2png from '../assets/labs/Lighting/lighting 2/daytime_finished.png'
+import _demo_no_lightssrc_assets_labs_Lighting_lighting_2ma from '../assets/labs/Lighting/lighting 2/demo_no_lights.ma'
+import _farmflapssrc_assets_labs_Lighting_lighting_2png from '../assets/labs/Lighting/lighting 2/farmflaps.png'
+import _helloMalcolmsrc_assets_labs_Lighting_lighting_2png from '../assets/labs/Lighting/lighting 2/helloMalcolm.png'
+import _Kelvin_Temperature___Rendermansrc_assets_labs_Lighting_lighting_2png from '../assets/labs/Lighting/lighting 2/Kelvin Temperature - Renderman.png'
+import _kelvin_color_temperaturesrc_assets_labs_Lighting_lighting_2jpg from '../assets/labs/Lighting/lighting 2/kelvin-color-temperature.jpg'
+import _lampshadesrc_assets_labs_Lighting_lighting_2png from '../assets/labs/Lighting/lighting 2/lampshade.png'
+import _Light_Panelsrc_assets_labs_Lighting_lighting_2png from '../assets/labs/Lighting/lighting 2/Light Panel.png'
+import _lightcentricsrc_assets_labs_Lighting_lighting_2png from '../assets/labs/Lighting/lighting 2/lightcentric.png'
+import _lightcentricfurrealsrc_assets_labs_Lighting_lighting_2png from '../assets/labs/Lighting/lighting 2/lightcentricfurreal.png'
+import _lighting_2src_assets_labs_Lighting_lighting_2md from '../assets/labs/Lighting/lighting 2/lighting 2.md'
+import _light_linking_1src_assets_labs_Lighting_lighting_2png from '../assets/labs/Lighting/lighting 2/light_linking_1.png'
+import _light_linking_2src_assets_labs_Lighting_lighting_2png from '../assets/labs/Lighting/lighting 2/light_linking_2.png'
+import _light_linking_3src_assets_labs_Lighting_lighting_2png from '../assets/labs/Lighting/lighting 2/light_linking_3.png'
+import _meshLightsrc_assets_labs_Lighting_lighting_2png from '../assets/labs/Lighting/lighting 2/meshLight.png'
+import _nighttime_finishedsrc_assets_labs_Lighting_lighting_2png from '../assets/labs/Lighting/lighting 2/nighttime_finished.png'
+import _radiussrc_assets_labs_Lighting_lighting_2png from '../assets/labs/Lighting/lighting 2/radius.png'
+import _Screen_Shot_2015_11_16_at_2_16_00_PMsrc_assets_labs_Lighting_lighting_2png from '../assets/labs/Lighting/lighting 2/Screen Shot 2015-11-16 at 2.16.00 PM.png'
+import _Screen_Shot_2015_11_16_at_2_20_58_PMsrc_assets_labs_Lighting_lighting_2png from '../assets/labs/Lighting/lighting 2/Screen Shot 2015-11-16 at 2.20.58 PM.png'
+import _staringintotheabysssrc_assets_labs_Lighting_lighting_2png from '../assets/labs/Lighting/lighting 2/staringintotheabyss.png'
+import _Untitledsrc_assets_labs_Lighting_lighting_2png from '../assets/labs/Lighting/lighting 2/Untitled.png'
+import _Untitled_primaryvisibilitysrc_assets_labs_Lighting_lighting_2png from '../assets/labs/Lighting/lighting 2/Untitled_primaryvisibility.png'
+import _viewportMalcolmsrc_assets_labs_Lighting_lighting_2png from '../assets/labs/Lighting/lighting 2/viewportMalcolm.png'
+import _viewptsrc_assets_labs_Lighting_lighting_2png from '../assets/labs/Lighting/lighting 2/viewpt.png'
 import _adding_body_to_layersrc_assets_labs_Modeling_Advanced_hard_surface_modelingpng from '../assets/labs/Modeling/Advanced/hard surface modeling/adding_body_to_layer.png'
 import _add_first_edge_loopsrc_assets_labs_Modeling_Advanced_hard_surface_modelingpng from '../assets/labs/Modeling/Advanced/hard surface modeling/add_first_edge_loop.png'
 import _add_second_edge_loopsrc_assets_labs_Modeling_Advanced_hard_surface_modelingpng from '../assets/labs/Modeling/Advanced/hard surface modeling/add_second_edge_loop.png'
@@ -727,6 +798,27 @@ import _pm7src_assets_labs_Pre_Production_production_managementpng from '../asse
 import _pm8src_assets_labs_Pre_Production_production_managementpng from '../assets/labs/Pre Production/production management/pm8.png'
 import _pm9src_assets_labs_Pre_Production_production_managementpng from '../assets/labs/Pre Production/production management/pm9.png'
 import _production_managementsrc_assets_labs_Pre_Production_production_managementmd from '../assets/labs/Pre Production/production management/production management.md'
+import _adv8src_assets_labs_Shading_Advanced_hypershadepng from '../assets/labs/Shading/Advanced/hypershade/adv8.png'
+import _advanced1src_assets_labs_Shading_Advanced_hypershadepng from '../assets/labs/Shading/Advanced/hypershade/advanced1.png'
+import _advanced2src_assets_labs_Shading_Advanced_hypershadepng from '../assets/labs/Shading/Advanced/hypershade/advanced2.png'
+import _advanced5src_assets_labs_Shading_Advanced_hypershadepng from '../assets/labs/Shading/Advanced/hypershade/advanced5.png'
+import _ADVANCED8src_assets_labs_Shading_Advanced_hypershadepng from '../assets/labs/Shading/Advanced/hypershade/ADVANCED8.png'
+import _colorsrc_assets_labs_Shading_Advanced_hypershadepng from '../assets/labs/Shading/Advanced/hypershade/color.png'
+import _contrastsrc_assets_labs_Shading_Advanced_hypershadepng from '../assets/labs/Shading/Advanced/hypershade/contrast.png'
+import _flakeySpheresrc_assets_labs_Shading_Advanced_hypershadepng from '../assets/labs/Shading/Advanced/hypershade/flakeySphere.png'
+import _hypershadesrc_assets_labs_Shading_Advanced_hypershademd from '../assets/labs/Shading/Advanced/hypershade/hypershade.md'
+import _hypershade_uisrc_assets_labs_Shading_Advanced_hypershadepng from '../assets/labs/Shading/Advanced/hypershade/hypershade_ui.png'
+import _iridescencesrc_assets_labs_Shading_Advanced_hypershadepng from '../assets/labs/Shading/Advanced/hypershade/iridescence.png'
+import _layerMixersrc_assets_labs_Shading_Advanced_hypershadepng from '../assets/labs/Shading/Advanced/hypershade/layerMixer.png'
+import _lmDiagramsrc_assets_labs_Shading_Advanced_hypershadejpg from '../assets/labs/Shading/Advanced/hypershade/lmDiagram.jpg'
+import _metpaintsrc_assets_labs_Shading_Advanced_hypershadepng from '../assets/labs/Shading/Advanced/hypershade/metpaint.png'
+import _newadv2src_assets_labs_Shading_Advanced_hypershadepng from '../assets/labs/Shading/Advanced/hypershade/newadv2.png'
+import _newadv3src_assets_labs_Shading_Advanced_hypershadepng from '../assets/labs/Shading/Advanced/hypershade/newadv3.png'
+import _newadv4src_assets_labs_Shading_Advanced_hypershadepng from '../assets/labs/Shading/Advanced/hypershade/newadv4.png'
+import _nodesrc_assets_labs_Shading_Advanced_hypershadepng from '../assets/labs/Shading/Advanced/hypershade/node.png'
+import _normals2src_assets_labs_Shading_Advanced_hypershadepng from '../assets/labs/Shading/Advanced/hypershade/normals2.png'
+import _pxrflakessrc_assets_labs_Shading_Advanced_hypershadepng from '../assets/labs/Shading/Advanced/hypershade/pxrflakes.png'
+import _setupWithFlakessrc_assets_labs_Shading_Advanced_hypershadepng from '../assets/labs/Shading/Advanced/hypershade/setupWithFlakes.png'
 import _52677src_assets_labs_Shading_Basic_basic_materialsjpg from '../assets/labs/Shading/Basic/basic materials/52677.jpg'
 import _basic_materialssrc_assets_labs_Shading_Basic_basic_materialsmd from '../assets/labs/Shading/Basic/basic materials/basic materials.md'
 import _basic_materialssrc_assets_labs_Shading_Basic_basic_materialspng from '../assets/labs/Shading/Basic/basic materials/basic materials.png'
@@ -775,6 +867,21 @@ import _uvs_on_blacksrc_assets_labs_Shading_Basic_basic_materialsjpg from '../as
 import _uv_editing_workspacesrc_assets_labs_Shading_Basic_basic_materialsjpg from '../assets/labs/Shading/Basic/basic materials/uv_editing_workspace.jpg'
 import _uv_snapshotsrc_assets_labs_Shading_Basic_basic_materialsjpg from '../assets/labs/Shading/Basic/basic materials/uv_snapshot.jpg'
 import _uv_specsrc_assets_labs_Shading_Basic_basic_materialsjpg from '../assets/labs/Shading/Basic/basic materials/uv_spec.jpg'
+import _anisosrc_assets_labs_Shading_Basic_shading_guidejpg from '../assets/labs/Shading/Basic/shading guide/aniso.jpg'
+import _browsersrc_assets_labs_Shading_Basic_shading_guidepng from '../assets/labs/Shading/Basic/shading guide/browser.png'
+import _connectionssrc_assets_labs_Shading_Basic_shading_guidepng from '../assets/labs/Shading/Basic/shading guide/connections.png'
+import _displacementsrc_assets_labs_Shading_Basic_shading_guidepng from '../assets/labs/Shading/Basic/shading guide/displacement.png'
+import _dome_lightsrc_assets_labs_Shading_Basic_shading_guidepng from '../assets/labs/Shading/Basic/shading guide/dome_light.png'
+import _expandsrc_assets_labs_Shading_Basic_shading_guidepng from '../assets/labs/Shading/Basic/shading guide/expand.png'
+import _hypershade1src_assets_labs_Shading_Basic_shading_guidepng from '../assets/labs/Shading/Basic/shading guide/hypershade1.png'
+import _Hypershade2src_assets_labs_Shading_Basic_shading_guidepng from '../assets/labs/Shading/Basic/shading guide/Hypershade2.png'
+import _normalssrc_assets_labs_Shading_Basic_shading_guidepng from '../assets/labs/Shading/Basic/shading guide/normals.png'
+import _presencesrc_assets_labs_Shading_Basic_shading_guidepng from '../assets/labs/Shading/Basic/shading guide/presence.png'
+import _pxrbump2src_assets_labs_Shading_Basic_shading_guidepng from '../assets/labs/Shading/Basic/shading guide/pxrbump2.png'
+import _roughnesssrc_assets_labs_Shading_Basic_shading_guidejpg from '../assets/labs/Shading/Basic/shading guide/roughness.jpg'
+import _shading_guidesrc_assets_labs_Shading_Basic_shading_guidemd from '../assets/labs/Shading/Basic/shading guide/shading guide.md'
+import _specularsrc_assets_labs_Shading_Basic_shading_guidepng from '../assets/labs/Shading/Basic/shading guide/specular.png'
+import _subsursrc_assets_labs_Shading_Basic_shading_guidejpg from '../assets/labs/Shading/Basic/shading guide/subsur.jpg'
 import _2d3d_0src_assets_labs_Shading_Basic_toon_shadinggif from '../assets/labs/Shading/Basic/toon shading/2d3d_0.gif'
 import _2d3d_1src_assets_labs_Shading_Basic_toon_shadinggif from '../assets/labs/Shading/Basic/toon shading/2d3d_1.gif'
 import _2d3d_2src_assets_labs_Shading_Basic_toon_shadinggif from '../assets/labs/Shading/Basic/toon shading/2d3d_2.gif'
@@ -880,6 +987,93 @@ const data = {
       "markdown": [
         _introduction_to_mayasrc_assets_labs_Introduction_To_Maya_introduction_to_mayamd,
         "Introduction_To_Maya/introduction_to_maya"
+      ]
+    }
+  },
+  "Lighting": {
+    "lighting_1": {
+      "images": {
+        "3cube2.png": _3cube2src_assets_labs_Lighting_lighting_1png,
+        "br1.png": _br1src_assets_labs_Lighting_lighting_1png,
+        "br2.png": _br2src_assets_labs_Lighting_lighting_1png,
+        "br3.png": _br3src_assets_labs_Lighting_lighting_1png,
+        "br4.png": _br4src_assets_labs_Lighting_lighting_1png,
+        "cone.png": _conesrc_assets_labs_Lighting_lighting_1png,
+        "cone_angle.png": _cone_anglesrc_assets_labs_Lighting_lighting_1png,
+        "daytime_env_viewport.png": _daytime_env_viewportsrc_assets_labs_Lighting_lighting_1png,
+        "Kelvin Temperature - Renderman.png": _Kelvin_Temperature___Rendermansrc_assets_labs_Lighting_lighting_1png,
+        "kelvin-color-temperature.jpg": _kelvin_color_temperaturesrc_assets_labs_Lighting_lighting_1jpg,
+        "l0.png": _l0src_assets_labs_Lighting_lighting_1png,
+        "l1.png": _l1src_assets_labs_Lighting_lighting_1png,
+        "l10.png": _l10src_assets_labs_Lighting_lighting_1png,
+        "l11.png": _l11src_assets_labs_Lighting_lighting_1png,
+        "l12.png": _l12src_assets_labs_Lighting_lighting_1png,
+        "l13.png": _l13src_assets_labs_Lighting_lighting_1png,
+        "l2.png": _l2src_assets_labs_Lighting_lighting_1png,
+        "l3.png": _l3src_assets_labs_Lighting_lighting_1png,
+        "l4.png": _l4src_assets_labs_Lighting_lighting_1png,
+        "l5.png": _l5src_assets_labs_Lighting_lighting_1png,
+        "l6.png": _l6src_assets_labs_Lighting_lighting_1png,
+        "l7.png": _l7src_assets_labs_Lighting_lighting_1png,
+        "l8.png": _l8src_assets_labs_Lighting_lighting_1png,
+        "l9.png": _l9src_assets_labs_Lighting_lighting_1png,
+        "Light Panel.png": _Light_Panelsrc_assets_labs_Lighting_lighting_1png,
+        "lightcentric.png": _lightcentricsrc_assets_labs_Lighting_lighting_1png,
+        "lightcentricfurreal.png": _lightcentricfurrealsrc_assets_labs_Lighting_lighting_1png,
+        "lightingLab.ma": _lightingLabsrc_assets_labs_Lighting_lighting_1ma,
+        "lighting_lab.ma": _lighting_labsrc_assets_labs_Lighting_lighting_1ma,
+        "light_linking_1.png": _light_linking_1src_assets_labs_Lighting_lighting_1png,
+        "light_linking_2.png": _light_linking_2src_assets_labs_Lighting_lighting_1png,
+        "light_linking_3.png": _light_linking_3src_assets_labs_Lighting_lighting_1png,
+        "Screen Shot 2015-11-16 at 2.16.00 PM.png": _Screen_Shot_2015_11_16_at_2_16_00_PMsrc_assets_labs_Lighting_lighting_1png,
+        "Screen Shot 2015-11-16 at 2.20.58 PM.png": _Screen_Shot_2015_11_16_at_2_20_58_PMsrc_assets_labs_Lighting_lighting_1png,
+        "Untitled.png": _Untitledsrc_assets_labs_Lighting_lighting_1png,
+        "Untitled_primaryvisibility.png": _Untitled_primaryvisibilitysrc_assets_labs_Lighting_lighting_1png,
+        "wr1.png": _wr1src_assets_labs_Lighting_lighting_1png,
+        "wr2.png": _wr2src_assets_labs_Lighting_lighting_1png,
+        "wr3.png": _wr3src_assets_labs_Lighting_lighting_1png
+      },
+      "markdown": [
+        _lighting_1src_assets_labs_Lighting_lighting_1md,
+        "Lighting/lighting_1"
+      ]
+    },
+    "lighting_2": {
+      "images": {
+        "3cube2.png": _3cube2src_assets_labs_Lighting_lighting_2png,
+        "3cubes.png": _3cubessrc_assets_labs_Lighting_lighting_2png,
+        "barn.png": _barnsrc_assets_labs_Lighting_lighting_2png,
+        "barndoors_viewport.png": _barndoors_viewportsrc_assets_labs_Lighting_lighting_2png,
+        "barn_settings.png": _barn_settingssrc_assets_labs_Lighting_lighting_2png,
+        "cone.png": _conesrc_assets_labs_Lighting_lighting_2png,
+        "daytime_env_viewport.png": _daytime_env_viewportsrc_assets_labs_Lighting_lighting_2png,
+        "daytime_finished.png": _daytime_finishedsrc_assets_labs_Lighting_lighting_2png,
+        "demo_no_lights.ma": _demo_no_lightssrc_assets_labs_Lighting_lighting_2ma,
+        "farmflaps.png": _farmflapssrc_assets_labs_Lighting_lighting_2png,
+        "helloMalcolm.png": _helloMalcolmsrc_assets_labs_Lighting_lighting_2png,
+        "Kelvin Temperature - Renderman.png": _Kelvin_Temperature___Rendermansrc_assets_labs_Lighting_lighting_2png,
+        "kelvin-color-temperature.jpg": _kelvin_color_temperaturesrc_assets_labs_Lighting_lighting_2jpg,
+        "lampshade.png": _lampshadesrc_assets_labs_Lighting_lighting_2png,
+        "Light Panel.png": _Light_Panelsrc_assets_labs_Lighting_lighting_2png,
+        "lightcentric.png": _lightcentricsrc_assets_labs_Lighting_lighting_2png,
+        "lightcentricfurreal.png": _lightcentricfurrealsrc_assets_labs_Lighting_lighting_2png,
+        "light_linking_1.png": _light_linking_1src_assets_labs_Lighting_lighting_2png,
+        "light_linking_2.png": _light_linking_2src_assets_labs_Lighting_lighting_2png,
+        "light_linking_3.png": _light_linking_3src_assets_labs_Lighting_lighting_2png,
+        "meshLight.png": _meshLightsrc_assets_labs_Lighting_lighting_2png,
+        "nighttime_finished.png": _nighttime_finishedsrc_assets_labs_Lighting_lighting_2png,
+        "radius.png": _radiussrc_assets_labs_Lighting_lighting_2png,
+        "Screen Shot 2015-11-16 at 2.16.00 PM.png": _Screen_Shot_2015_11_16_at_2_16_00_PMsrc_assets_labs_Lighting_lighting_2png,
+        "Screen Shot 2015-11-16 at 2.20.58 PM.png": _Screen_Shot_2015_11_16_at_2_20_58_PMsrc_assets_labs_Lighting_lighting_2png,
+        "staringintotheabyss.png": _staringintotheabysssrc_assets_labs_Lighting_lighting_2png,
+        "Untitled.png": _Untitledsrc_assets_labs_Lighting_lighting_2png,
+        "Untitled_primaryvisibility.png": _Untitled_primaryvisibilitysrc_assets_labs_Lighting_lighting_2png,
+        "viewportMalcolm.png": _viewportMalcolmsrc_assets_labs_Lighting_lighting_2png,
+        "viewpt.png": _viewptsrc_assets_labs_Lighting_lighting_2png
+      },
+      "markdown": [
+        _lighting_2src_assets_labs_Lighting_lighting_2md,
+        "Lighting/lighting_2"
       ]
     }
   },
@@ -1673,6 +1867,36 @@ const data = {
     }
   },
   "Shading": {
+    "Advanced": {
+      "hypershade": {
+        "images": {
+          "adv8.png": _adv8src_assets_labs_Shading_Advanced_hypershadepng,
+          "advanced1.png": _advanced1src_assets_labs_Shading_Advanced_hypershadepng,
+          "advanced2.png": _advanced2src_assets_labs_Shading_Advanced_hypershadepng,
+          "advanced5.png": _advanced5src_assets_labs_Shading_Advanced_hypershadepng,
+          "ADVANCED8.png": _ADVANCED8src_assets_labs_Shading_Advanced_hypershadepng,
+          "color.png": _colorsrc_assets_labs_Shading_Advanced_hypershadepng,
+          "contrast.png": _contrastsrc_assets_labs_Shading_Advanced_hypershadepng,
+          "flakeySphere.png": _flakeySpheresrc_assets_labs_Shading_Advanced_hypershadepng,
+          "hypershade_ui.png": _hypershade_uisrc_assets_labs_Shading_Advanced_hypershadepng,
+          "iridescence.png": _iridescencesrc_assets_labs_Shading_Advanced_hypershadepng,
+          "layerMixer.png": _layerMixersrc_assets_labs_Shading_Advanced_hypershadepng,
+          "lmDiagram.jpg": _lmDiagramsrc_assets_labs_Shading_Advanced_hypershadejpg,
+          "metpaint.png": _metpaintsrc_assets_labs_Shading_Advanced_hypershadepng,
+          "newadv2.png": _newadv2src_assets_labs_Shading_Advanced_hypershadepng,
+          "newadv3.png": _newadv3src_assets_labs_Shading_Advanced_hypershadepng,
+          "newadv4.png": _newadv4src_assets_labs_Shading_Advanced_hypershadepng,
+          "node.png": _nodesrc_assets_labs_Shading_Advanced_hypershadepng,
+          "normals2.png": _normals2src_assets_labs_Shading_Advanced_hypershadepng,
+          "pxrflakes.png": _pxrflakessrc_assets_labs_Shading_Advanced_hypershadepng,
+          "setupWithFlakes.png": _setupWithFlakessrc_assets_labs_Shading_Advanced_hypershadepng
+        },
+        "markdown": [
+          _hypershadesrc_assets_labs_Shading_Advanced_hypershademd,
+          "Shading/Advanced/hypershade"
+        ]
+      }
+    },
     "Basic": {
       "basic_materials": {
         "images": {
@@ -1727,6 +1951,28 @@ const data = {
         "markdown": [
           _basic_materialssrc_assets_labs_Shading_Basic_basic_materialsmd,
           "Shading/Basic/basic_materials"
+        ]
+      },
+      "shading_guide": {
+        "images": {
+          "aniso.jpg": _anisosrc_assets_labs_Shading_Basic_shading_guidejpg,
+          "browser.png": _browsersrc_assets_labs_Shading_Basic_shading_guidepng,
+          "connections.png": _connectionssrc_assets_labs_Shading_Basic_shading_guidepng,
+          "displacement.png": _displacementsrc_assets_labs_Shading_Basic_shading_guidepng,
+          "dome_light.png": _dome_lightsrc_assets_labs_Shading_Basic_shading_guidepng,
+          "expand.png": _expandsrc_assets_labs_Shading_Basic_shading_guidepng,
+          "hypershade1.png": _hypershade1src_assets_labs_Shading_Basic_shading_guidepng,
+          "Hypershade2.png": _Hypershade2src_assets_labs_Shading_Basic_shading_guidepng,
+          "normals.png": _normalssrc_assets_labs_Shading_Basic_shading_guidepng,
+          "presence.png": _presencesrc_assets_labs_Shading_Basic_shading_guidepng,
+          "pxrbump2.png": _pxrbump2src_assets_labs_Shading_Basic_shading_guidepng,
+          "roughness.jpg": _roughnesssrc_assets_labs_Shading_Basic_shading_guidejpg,
+          "specular.png": _specularsrc_assets_labs_Shading_Basic_shading_guidepng,
+          "subsur.jpg": _subsursrc_assets_labs_Shading_Basic_shading_guidejpg
+        },
+        "markdown": [
+          _shading_guidesrc_assets_labs_Shading_Basic_shading_guidemd,
+          "Shading/Basic/shading_guide"
         ]
       },
       "toon_shading": {

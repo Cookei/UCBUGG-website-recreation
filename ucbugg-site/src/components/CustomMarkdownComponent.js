@@ -34,7 +34,9 @@ const CustomMarkdownComponent = (props) => {
       }}
       urlTransform={(uri) => {
         if (images == undefined) return;
-        return images[decodeURI(uri)];
+        let decode = images[decodeURI(uri)];
+        if (!decode) return uri;
+        return decode;
       }}
       className={markdownStyles.markdown}
       components={{
@@ -43,7 +45,7 @@ const CustomMarkdownComponent = (props) => {
           console.log(props);
           console.log(props.href);
           if (props.href == undefined) {
-            return <a href={props.href}>{childrenProps}</a>;
+            return <a>{childrenProps}</a>;
           }
           if (
             (props.href != undefined && props.href.endsWith(".zip")) ||
@@ -59,11 +61,15 @@ const CustomMarkdownComponent = (props) => {
                 }
               >
                 <img src={downloadSVG} />
-                <div>{childrenProps}</div>
+                <p>{childrenProps}</p>
               </a>
             );
           } else {
-            return <a href={props.href}>{childrenProps}</a>;
+            return (
+              <a href={props.href} style={{ textDecoration: "underline" }}>
+                {childrenProps}
+              </a>
+            );
           }
         },
         blockquote(props) {
