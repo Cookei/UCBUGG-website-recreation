@@ -85,9 +85,12 @@
         "labsAssigned": ["Modeling 1"]
       },
       "advanced": {
-        "individual": ["Complete Basic Modeling Lab"],
+        "individual": [
+          "Complete Hard Surface Modeling Lab",
+          "Read Node Editor Lab"
+        ],
         "group": ["Model Props", "Project Set Up"],
-        "labsAssigned": ["Modeling 1"]
+        "labsAssigned": ["Hard Surface Modeling", "Node Editor"]
       }
     }
   },
@@ -102,9 +105,9 @@
         "labsAssigned": ["Modeling 2"]
       },
       "advanced": {
-        "individual": ["Complete Advanced Modeling Lab"],
+        "individual": ["Complete Organic Modeling Lab"],
         "group": ["Model all characters and environment"],
-        "labsAssigned": ["Modeling 2"]
+        "labsAssigned": ["Organic Modeling Dragon", "Organic Modeling Human"]
       }
     }
   },
@@ -122,12 +125,12 @@
         "labsAssigned": ["Basic Materials"]
       },
       "advanced": {
-        "individual": ["Complete Shading Lab"],
+        "individual": ["Complete Hypershade Lab"],
         "group": [
           "UV Map, texture, and shade all models",
           "Submit preview render"
         ],
-        "labsAssigned": ["Basic Materials"]
+        "labsAssigned": ["Hypershade"]
       }
     }
   },
@@ -142,9 +145,9 @@
         "labsAssigned": ["Rigging 1"]
       },
       "advanced": {
-        "individual": ["Complete Basic Rigging Lab"],
+        "individual": [],
         "group": ["Setup skeletons for all characters", "Create blendshapes"],
-        "labsAssigned": ["Rigging 1"]
+        "labsAssigned": []
       }
     }
   },
@@ -154,14 +157,17 @@
     "topics": ["Advanced Rigging"],
     "assignments": {
       "basic": {
-        "individual": ["Complete Advanced Rigging Lab"],
+        "individual": ["Complete Rigging 2 Lab"],
         "group": ["Add controllers to rigs", "Skin characters"],
         "labsAssigned": ["Rigging 2"]
       },
       "advanced": {
-        "individual": ["Complete Advanced Rigging Lab"],
+        "individual": [
+          "Complete Advanced Rigging Lab",
+          "Read Rigging Guide Lab"
+        ],
         "group": ["Add controllers to rigs", "Skin characters"],
-        "labsAssigned": ["Rigging 2"]
+        "labsAssigned": ["Advanced Rigging", "Rigging Guide"]
       }
     }
   },
@@ -176,9 +182,9 @@
         "labsAssigned": ["Animation 1"]
       },
       "advanced": {
-        "individual": ["Complete Basic Animation Lab"],
+        "individual": [],
         "group": ["Start blocking animation", "Set up projects"],
-        "labsAssigned": ["Animation 1"]
+        "labsAssigned": []
       }
     }
   },
@@ -210,9 +216,9 @@
         "labsAssigned": ["Lighting 1"]
       },
       "advanced": {
-        "individual": ["Complete Lighting Lab"],
+        "individual": ["Complete Lighting 2 Lab"],
         "group": ["Continue refining animation", "Submit playblasts"],
-        "labsAssigned": ["Lighting 1"]
+        "labsAssigned": ["Lighting 2"]
       }
     }
   },
@@ -227,9 +233,9 @@
         "labsAssigned": ["Animation 2"]
       },
       "advanced": {
-        "individual": ["Complete Advanced Animation Lab"],
+        "individual": ["Complete Character Animation Lab"],
         "group": ["Submit refined playblasts"],
-        "labsAssigned": ["Animation 2"]
+        "labsAssigned": ["Character Animation"]
       }
     }
   },
@@ -240,7 +246,7 @@
     "assignments": {
       "basic": {
         "individual": [
-          "Complete Compositing Lab",
+          "Complete a Post Production Lab",
           "Complete VFX Lab (Extra Credit)"
         ],
         "group": ["Create lighting rigs", "Submit lighting preview render"],
@@ -253,7 +259,7 @@
       },
       "advanced": {
         "individual": [
-          "Complete Compositing Lab",
+          "Complete a Post Production Lab",
           "Complete VFX Lab (Extra Credit)"
         ],
         "group": ["Create lighting rigs", "Submit lighting preview render"],

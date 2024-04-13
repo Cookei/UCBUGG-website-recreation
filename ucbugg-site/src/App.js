@@ -59,6 +59,7 @@ function App() {
         <Route path="/about">
           <About />
         </Route>
+        <Route path="/" />
       </Switch>
       <Canvas
         eventSource={document.getElementById("root")}

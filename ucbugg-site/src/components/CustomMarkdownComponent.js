@@ -40,6 +40,26 @@ const CustomMarkdownComponent = (props) => {
       }}
       className={markdownStyles.markdown}
       components={{
+        img(props) {
+          if (
+            (props.src != undefined && props.src.endsWith(".mov")) ||
+            (props.src.endsWith(".mp4") &&
+              props.src.match(/(?<=\/)[^\/]+(?=\..+\.(mov|mp4))/g))
+          ) {
+            return (
+              <video
+                controls
+                className={markdownStyles.videoPlayer}
+                width="560"
+                height="315"
+              >
+                <source src={props.src} />
+              </video>
+            );
+          } else if (props.src) {
+            return <img src={props.src} />;
+          }
+        },
         a(props) {
           let childrenProps = extractString(props.children);
           console.log(props);
@@ -50,7 +70,10 @@ const CustomMarkdownComponent = (props) => {
           if (
             (props.href != undefined && props.href.endsWith(".zip")) ||
             props.href.endsWith(".ma") ||
-            props.href.endsWith(".mb")
+            props.href.endsWith(".mb") ||
+            props.href.endsWith(".iff") ||
+            (props.href.endsWith(".exr") &&
+              props.href.match(/(?<=\/)[^\/]+(?=\..+\.(zip|ma|mb))/g) != null)
           ) {
             return (
               <a
@@ -61,7 +84,7 @@ const CustomMarkdownComponent = (props) => {
                 }
               >
                 <img src={downloadSVG} />
-                <p>{childrenProps}</p>
+                {childrenProps}
               </a>
             );
           } else {

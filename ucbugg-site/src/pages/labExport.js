@@ -1,3 +1,208 @@
+import _advanced_animsrc_assets_labs_Animating_Advanced_character_animationzip from '../assets/labs/Animating/Advanced/character animation/advanced_anim.zip'
+import _character_animationsrc_assets_labs_Animating_Advanced_character_animationmd from '../assets/labs/Animating/Advanced/character animation/character animation.md'
+import _doublesplinessrc_assets_labs_Animating_Advanced_character_animationgif from '../assets/labs/Animating/Advanced/character animation/doublesplines.gif'
+import _finsrc_assets_labs_Animating_Advanced_character_animationgif from '../assets/labs/Animating/Advanced/character animation/fin.gif'
+import _heel_rollsrc_assets_labs_Animating_Advanced_character_animationgif from '../assets/labs/Animating/Advanced/character animation/heel_roll.gif'
+import _hell_rollsrc_assets_labs_Animating_Advanced_character_animationpng from '../assets/labs/Animating/Advanced/character animation/hell_roll.png'
+import _hipcontrollersrc_assets_labs_Animating_Advanced_character_animationpng from '../assets/labs/Animating/Advanced/character animation/hipcontroller.png'
+import _invertSplinesrc_assets_labs_Animating_Advanced_character_animationgif from '../assets/labs/Animating/Advanced/character animation/invertSpline.gif'
+import _kneecheatssrc_assets_labs_Animating_Advanced_character_animationpng from '../assets/labs/Animating/Advanced/character animation/kneecheats.png'
+import _kneepopssrc_assets_labs_Animating_Advanced_character_animationgif from '../assets/labs/Animating/Advanced/character animation/kneepops.gif'
+import _kneepopsredsrc_assets_labs_Animating_Advanced_character_animationgif from '../assets/labs/Animating/Advanced/character animation/kneepopsred.gif'
+import _leftFootForwardBlocksrc_assets_labs_Animating_Advanced_character_animationpng from '../assets/labs/Animating/Advanced/character animation/leftFootForwardBlock.png'
+import _leftFootPassingBlocksrc_assets_labs_Animating_Advanced_character_animationpng from '../assets/labs/Animating/Advanced/character animation/leftFootPassingBlock.png'
+import _linearsrc_assets_labs_Animating_Advanced_character_animationpng from '../assets/labs/Animating/Advanced/character animation/linear.png'
+import _peel_offsrc_assets_labs_Animating_Advanced_character_animationpng from '../assets/labs/Animating/Advanced/character animation/peel_off.png'
+import _peel_off_posesrc_assets_labs_Animating_Advanced_character_animationpng from '../assets/labs/Animating/Advanced/character animation/peel_off_pose.png'
+import _reddottracesrc_assets_labs_Animating_Advanced_character_animationgif from '../assets/labs/Animating/Advanced/character animation/reddottrace.gif'
+import _rightFootsrc_assets_labs_Animating_Advanced_character_animationpng from '../assets/labs/Animating/Advanced/character animation/rightFoot.png'
+import _rightFootForwardBlocksrc_assets_labs_Animating_Advanced_character_animationpng from '../assets/labs/Animating/Advanced/character animation/rightFootForwardBlock.png'
+import _rightFootForwardBlockAgainsrc_assets_labs_Animating_Advanced_character_animationpng from '../assets/labs/Animating/Advanced/character animation/rightFootForwardBlockAgain.png'
+import _rightFootPassingBlocksrc_assets_labs_Animating_Advanced_character_animationpng from '../assets/labs/Animating/Advanced/character animation/rightFootPassingBlock.png'
+import _rootsrc_assets_labs_Animating_Advanced_character_animationpng from '../assets/labs/Animating/Advanced/character animation/root.png'
+import _step1src_assets_labs_Animating_Advanced_character_animationgif from '../assets/labs/Animating/Advanced/character animation/step1.gif'
+import _step10src_assets_labs_Animating_Advanced_character_animationgif from '../assets/labs/Animating/Advanced/character animation/step10.gif'
+import _step10splinesrc_assets_labs_Animating_Advanced_character_animationpng from '../assets/labs/Animating/Advanced/character animation/step10spline.png'
+import _step11src_assets_labs_Animating_Advanced_character_animationgif from '../assets/labs/Animating/Advanced/character animation/step11.gif'
+import _step12src_assets_labs_Animating_Advanced_character_animationgif from '../assets/labs/Animating/Advanced/character animation/step12.gif'
+import _step1copypastesrc_assets_labs_Animating_Advanced_character_animationgif from '../assets/labs/Animating/Advanced/character animation/step1copypaste.gif'
+import _step2src_assets_labs_Animating_Advanced_character_animationgif from '../assets/labs/Animating/Advanced/character animation/step2.gif'
+import _step2copypastesrc_assets_labs_Animating_Advanced_character_animationgif from '../assets/labs/Animating/Advanced/character animation/step2copypaste.gif'
+import _step2duplicate2src_assets_labs_Animating_Advanced_character_animationgif from '../assets/labs/Animating/Advanced/character animation/step2duplicate2.gif'
+import _step3src_assets_labs_Animating_Advanced_character_animationgif from '../assets/labs/Animating/Advanced/character animation/step3.gif'
+import _step3copypastesrc_assets_labs_Animating_Advanced_character_animationgif from '../assets/labs/Animating/Advanced/character animation/step3copypaste.gif'
+import _step3exaggeratedsrc_assets_labs_Animating_Advanced_character_animationgif from '../assets/labs/Animating/Advanced/character animation/step3exaggerated.gif'
+import _step4src_assets_labs_Animating_Advanced_character_animationgif from '../assets/labs/Animating/Advanced/character animation/step4.gif'
+import _step5radicalsrc_assets_labs_Animating_Advanced_character_animationpng from '../assets/labs/Animating/Advanced/character animation/step5radical.png'
+import _step6src_assets_labs_Animating_Advanced_character_animationgif from '../assets/labs/Animating/Advanced/character animation/step6.gif'
+import _step8src_assets_labs_Animating_Advanced_character_animationgif from '../assets/labs/Animating/Advanced/character animation/step8.gif'
+import _step9src_assets_labs_Animating_Advanced_character_animationgif from '../assets/labs/Animating/Advanced/character animation/step9.gif'
+import _step9polishsrc_assets_labs_Animating_Advanced_character_animationgif from '../assets/labs/Animating/Advanced/character animation/step9polish.gif'
+import _straightbadsrc_assets_labs_Animating_Advanced_character_animationpng from '../assets/labs/Animating/Advanced/character animation/straightbad.png'
+import _straightgoodsrc_assets_labs_Animating_Advanced_character_animationpng from '../assets/labs/Animating/Advanced/character animation/straightgood.png'
+import _THUMBNAILsrc_assets_labs_Animating_Advanced_character_animationpng from '../assets/labs/Animating/Advanced/character animation/THUMBNAIL.png'
+import _translateYBlock4src_assets_labs_Animating_Advanced_character_animationpng from '../assets/labs/Animating/Advanced/character animation/translateYBlock4.png'
+import _tricksrc_assets_labs_Animating_Advanced_character_animationgif from '../assets/labs/Animating/Advanced/character animation/trick.gif'
+import _tricksrc_assets_labs_Animating_Advanced_character_animationpng from '../assets/labs/Animating/Advanced/character animation/trick.png'
+import _vizgeosrc_assets_labs_Animating_Advanced_character_animationpng from '../assets/labs/Animating/Advanced/character animation/vizgeo.png'
+import _williams16ssrc_assets_labs_Animating_Advanced_character_animationjpg from '../assets/labs/Animating/Advanced/character animation/williams16s.jpg'
+import _williams_posessrc_assets_labs_Animating_Advanced_character_animationjpg from '../assets/labs/Animating/Advanced/character animation/williams_poses.jpg'
+import _1src_assets_labs_Animating_Basic_animation_1png from '../assets/labs/Animating/Basic/animation 1/1.png'
+import _10src_assets_labs_Animating_Basic_animation_1png from '../assets/labs/Animating/Basic/animation 1/10.png'
+import _11src_assets_labs_Animating_Basic_animation_1png from '../assets/labs/Animating/Basic/animation 1/11.png'
+import _12src_assets_labs_Animating_Basic_animation_1png from '../assets/labs/Animating/Basic/animation 1/12.png'
+import _13src_assets_labs_Animating_Basic_animation_1png from '../assets/labs/Animating/Basic/animation 1/13.png'
+import _2src_assets_labs_Animating_Basic_animation_1png from '../assets/labs/Animating/Basic/animation 1/2.png'
+import _2017src_assets_labs_Animating_Basic_animation_1png from '../assets/labs/Animating/Basic/animation 1/2017.png'
+import _3src_assets_labs_Animating_Basic_animation_1png from '../assets/labs/Animating/Basic/animation 1/3.png'
+import _3ornjK3itVx9NZ3WUMsrc_assets_labs_Animating_Basic_animation_1gif from '../assets/labs/Animating/Basic/animation 1/3ornjK3itVx9NZ3WUM.gif'
+import _7src_assets_labs_Animating_Basic_animation_1png from '../assets/labs/Animating/Basic/animation 1/7.png'
+import _8src_assets_labs_Animating_Basic_animation_1png from '../assets/labs/Animating/Basic/animation 1/8.png'
+import _9src_assets_labs_Animating_Basic_animation_1png from '../assets/labs/Animating/Basic/animation 1/9.png'
+import _animation_1src_assets_labs_Animating_Basic_animation_1md from '../assets/labs/Animating/Basic/animation 1/animation 1.md'
+import _Animationsrc_assets_labs_Animating_Basic_animation_1gif from '../assets/labs/Animating/Basic/animation 1/Animation.gif'
+import _ask1src_assets_labs_Animating_Basic_animation_1png from '../assets/labs/Animating/Basic/animation 1/ask1.png'
+import _ask2src_assets_labs_Animating_Basic_animation_1png from '../assets/labs/Animating/Basic/animation 1/ask2.png'
+import _ball_rigsrc_assets_labs_Animating_Basic_animation_1png from '../assets/labs/Animating/Basic/animation 1/ball_rig.png'
+import _ball_rig_oldsrc_assets_labs_Animating_Basic_animation_1png from '../assets/labs/Animating/Basic/animation 1/ball_rig_old.png'
+import _basic_animsrc_assets_labs_Animating_Basic_animation_1zip from '../assets/labs/Animating/Basic/animation 1/basic_anim.zip'
+import _basic_anim_oldsrc_assets_labs_Animating_Basic_animation_1zip from '../assets/labs/Animating/Basic/animation 1/basic_anim_old.zip'
+import _blockUpSlowsrc_assets_labs_Animating_Basic_animation_1gif from '../assets/labs/Animating/Basic/animation 1/blockUpSlow.gif'
+import _boxUpsrc_assets_labs_Animating_Basic_animation_1gif from '../assets/labs/Animating/Basic/animation 1/boxUp.gif'
+import _boxUpHighersrc_assets_labs_Animating_Basic_animation_1gif from '../assets/labs/Animating/Basic/animation 1/boxUpHigher.gif'
+import _BoxUpYsrc_assets_labs_Animating_Basic_animation_1gif from '../assets/labs/Animating/Basic/animation 1/BoxUpY.gif'
+import _breaktangentssrc_assets_labs_Animating_Basic_animation_1gif from '../assets/labs/Animating/Basic/animation 1/breaktangents.gif'
+import _Homework_src_assets_labs_Animating_Basic_animation_1png from '../assets/labs/Animating/Basic/animation 1/Homework..png'
+import _Homeworksrc_assets_labs_Animating_Basic_animation_1png from '../assets/labs/Animating/Basic/animation 1/Homework.png'
+import _Homework1src_assets_labs_Animating_Basic_animation_1png from '../assets/labs/Animating/Basic/animation 1/Homework1.png'
+import _horizontalmotionsrc_assets_labs_Animating_Basic_animation_1gif from '../assets/labs/Animating/Basic/animation 1/horizontalmotion.gif'
+import _horizontalmotionsrc_assets_labs_Animating_Basic_animation_1mov from '../assets/labs/Animating/Basic/animation 1/horizontalmotion.mov'
+import _horizontalmotion_NEWsrc_assets_labs_Animating_Basic_animation_1gif from '../assets/labs/Animating/Basic/animation 1/horizontalmotion_NEW.gif'
+import _insertkeysrc_assets_labs_Animating_Basic_animation_1gif from '../assets/labs/Animating/Basic/animation 1/insertkey.gif'
+import _linearsrc_assets_labs_Animating_Basic_animation_1png from '../assets/labs/Animating/Basic/animation 1/linear.png'
+import _linearBallsrc_assets_labs_Animating_Basic_animation_1gif from '../assets/labs/Animating/Basic/animation 1/linearBall.gif'
+import _lockedsrc_assets_labs_Animating_Basic_animation_1png from '../assets/labs/Animating/Basic/animation 1/locked.png'
+import _motiontrail1src_assets_labs_Animating_Basic_animation_1png from '../assets/labs/Animating/Basic/animation 1/motiontrail1.png'
+import _motiontrail2src_assets_labs_Animating_Basic_animation_1png from '../assets/labs/Animating/Basic/animation 1/motiontrail2.png'
+import _rotationsrc_assets_labs_Animating_Basic_animation_1gif from '../assets/labs/Animating/Basic/animation 1/rotation.gif'
+import _rotationsrc_assets_labs_Animating_Basic_animation_1mov from '../assets/labs/Animating/Basic/animation 1/rotation.mov'
+import _runningsrc_assets_labs_Animating_Basic_animation_1png from '../assets/labs/Animating/Basic/animation 1/running.png'
+import _samplesrc_assets_labs_Animating_Basic_animation_1mp4 from '../assets/labs/Animating/Basic/animation 1/sample.mp4'
+import _selectingdifferntsidesoftangentsrc_assets_labs_Animating_Basic_animation_1gif from '../assets/labs/Animating/Basic/animation 1/selectingdifferntsidesoftangent.gif'
+import _slowinsrc_assets_labs_Animating_Basic_animation_1gif from '../assets/labs/Animating/Basic/animation 1/slowin.gif'
+import _slowinsrc_assets_labs_Animating_Basic_animation_1png from '../assets/labs/Animating/Basic/animation 1/slowin.png'
+import _slowoutsrc_assets_labs_Animating_Basic_animation_1gif from '../assets/labs/Animating/Basic/animation 1/slowout.gif'
+import _slowoutsrc_assets_labs_Animating_Basic_animation_1png from '../assets/labs/Animating/Basic/animation 1/slowout.png'
+import _splinesrc_assets_labs_Animating_Basic_animation_1mp4 from '../assets/labs/Animating/Basic/animation 1/spline.mp4'
+import _splineDrawingsrc_assets_labs_Animating_Basic_animation_1png from '../assets/labs/Animating/Basic/animation 1/splineDrawing.png'
+import _spline_tracersrc_assets_labs_Animating_Basic_animation_1png from '../assets/labs/Animating/Basic/animation 1/spline_tracer.png'
+import _squashandstretch_NEWsrc_assets_labs_Animating_Basic_animation_1gif from '../assets/labs/Animating/Basic/animation 1/squashandstretch_NEW.gif'
+import _squashstretchsrc_assets_labs_Animating_Basic_animation_1gif from '../assets/labs/Animating/Basic/animation 1/squashstretch.gif'
+import _squashstretchsrc_assets_labs_Animating_Basic_animation_1mov from '../assets/labs/Animating/Basic/animation 1/squashstretch.mov'
+import _THUMBNAILsrc_assets_labs_Animating_Basic_animation_1png from '../assets/labs/Animating/Basic/animation 1/THUMBNAIL.png'
+import _timesliderredlinesrc_assets_labs_Animating_Basic_animation_1gif from '../assets/labs/Animating/Basic/animation 1/timesliderredline.gif'
+import _ty_curvesrc_assets_labs_Animating_Basic_animation_1png from '../assets/labs/Animating/Basic/animation 1/ty_curve.png'
+import _tz_curvesrc_assets_labs_Animating_Basic_animation_1png from '../assets/labs/Animating/Basic/animation 1/tz_curve.png'
+import _unlockedsrc_assets_labs_Animating_Basic_animation_1png from '../assets/labs/Animating/Basic/animation 1/unlocked.png'
+import _unweightedTangentsrc_assets_labs_Animating_Basic_animation_1gif from '../assets/labs/Animating/Basic/animation 1/unweightedTangent.gif'
+import _verticalsrc_assets_labs_Animating_Basic_animation_1gif from '../assets/labs/Animating/Basic/animation 1/vertical.gif'
+import _verticalsrc_assets_labs_Animating_Basic_animation_1mov from '../assets/labs/Animating/Basic/animation 1/vertical.mov'
+import _vertical_NEWsrc_assets_labs_Animating_Basic_animation_1gif from '../assets/labs/Animating/Basic/animation 1/vertical_NEW.gif'
+import _weightedTangentsrc_assets_labs_Animating_Basic_animation_1gif from '../assets/labs/Animating/Basic/animation 1/weightedTangent.gif'
+import _yosrc_assets_labs_Animating_Basic_animation_1gif from '../assets/labs/Animating/Basic/animation 1/yo.gif'
+import _animation_2src_assets_labs_Animating_Basic_animation_2md from '../assets/labs/Animating/Basic/animation 2/animation 2.md'
+import _playblastssrc_assets_labs_Animating_Basic_playblastsmd from '../assets/labs/Animating/Basic/playblasts/playblasts.md'
+import _playblasts1src_assets_labs_Animating_Basic_playblastspng from '../assets/labs/Animating/Basic/playblasts/playblasts1.png'
+import _playblasts2src_assets_labs_Animating_Basic_playblastspng from '../assets/labs/Animating/Basic/playblasts/playblasts2.png'
+import _playblasts3src_assets_labs_Animating_Basic_playblastspng from '../assets/labs/Animating/Basic/playblasts/playblasts3.png'
+import _playblasts4src_assets_labs_Animating_Basic_playblastspng from '../assets/labs/Animating/Basic/playblasts/playblasts4.png'
+import _playblasts5src_assets_labs_Animating_Basic_playblastspng from '../assets/labs/Animating/Basic/playblasts/playblasts5.png'
+import _playblasts6src_assets_labs_Animating_Basic_playblastspng from '../assets/labs/Animating/Basic/playblasts/playblasts6.png'
+import _bifrostsrc_assets_labs_Effects_bifrostmd from '../assets/labs/Effects/bifrost/bifrost.md'
+import _Bifrostsrc_assets_labs_Effects_bifrostpng from '../assets/labs/Effects/bifrost/Bifrost.png'
+import _Bifrost10src_assets_labs_Effects_bifrostpng from '../assets/labs/Effects/bifrost/Bifrost10.png'
+import _Bifrost12src_assets_labs_Effects_bifrostpng from '../assets/labs/Effects/bifrost/Bifrost12.png'
+import _Bifrost13src_assets_labs_Effects_bifrostpng from '../assets/labs/Effects/bifrost/Bifrost13.png'
+import _Bifrost14src_assets_labs_Effects_bifrostpng from '../assets/labs/Effects/bifrost/Bifrost14.png'
+import _Bifrost15src_assets_labs_Effects_bifrostpng from '../assets/labs/Effects/bifrost/Bifrost15.png'
+import _Bifrost2src_assets_labs_Effects_bifrostpng from '../assets/labs/Effects/bifrost/Bifrost2.png'
+import _Bifrost3src_assets_labs_Effects_bifrostpng from '../assets/labs/Effects/bifrost/Bifrost3.png'
+import _Bifrost4src_assets_labs_Effects_bifrostpng from '../assets/labs/Effects/bifrost/Bifrost4.png'
+import _Bifrost5src_assets_labs_Effects_bifrostpng from '../assets/labs/Effects/bifrost/Bifrost5.png'
+import _Bifrost6src_assets_labs_Effects_bifrostpng from '../assets/labs/Effects/bifrost/Bifrost6.png'
+import _Bifrost7src_assets_labs_Effects_bifrostpng from '../assets/labs/Effects/bifrost/Bifrost7.png'
+import _Bifrost9src_assets_labs_Effects_bifrostpng from '../assets/labs/Effects/bifrost/Bifrost9.png'
+import _bifrost_lab_initialsrc_assets_labs_Effects_bifrostma from '../assets/labs/Effects/bifrost/bifrost_lab_initial.ma'
+import _bowlsrc_assets_labs_Effects_bifrostgif from '../assets/labs/Effects/bifrost/bowl.gif'
+import _Capture16src_assets_labs_Effects_bifrostpng from '../assets/labs/Effects/bifrost/Capture16.png'
+import _outlinersrc_assets_labs_Effects_bifrostpng from '../assets/labs/Effects/bifrost/outliner.png'
+import _poursrc_assets_labs_Effects_bifrostgif from '../assets/labs/Effects/bifrost/pour.gif'
+import _THUMBNAILsrc_assets_labs_Effects_bifrostpng from '../assets/labs/Effects/bifrost/THUMBNAIL.png'
+import _capesrc_assets_labs_Effects_clothgif from '../assets/labs/Effects/cloth/cape.gif'
+import _clothsrc_assets_labs_Effects_clothmd from '../assets/labs/Effects/cloth/cloth.md'
+import _cloth1src_assets_labs_Effects_clothgif from '../assets/labs/Effects/cloth/cloth1.gif'
+import _cloth1src_assets_labs_Effects_clothpng from '../assets/labs/Effects/cloth/cloth1.png'
+import _cloth2src_assets_labs_Effects_clothpng from '../assets/labs/Effects/cloth/cloth2.png'
+import _cloth3src_assets_labs_Effects_clothpng from '../assets/labs/Effects/cloth/cloth3.png'
+import _cloth4src_assets_labs_Effects_clothpng from '../assets/labs/Effects/cloth/cloth4.png'
+import _cloth5src_assets_labs_Effects_clothpng from '../assets/labs/Effects/cloth/cloth5.png'
+import _cloth_lab_initialsrc_assets_labs_Effects_clothma from '../assets/labs/Effects/cloth/cloth_lab_initial.ma'
+import _hi_res_wrapsrc_assets_labs_Effects_clothgif from '../assets/labs/Effects/cloth/hi-res-wrap.gif'
+import _no_collidesrc_assets_labs_Effects_clothgif from '../assets/labs/Effects/cloth/no_collide.gif'
+import _THUMBNAILsrc_assets_labs_Effects_clothpng from '../assets/labs/Effects/cloth/THUMBNAIL.png'
+import _Animationsrc_assets_labs_Effects_fluidsgif from '../assets/labs/Effects/fluids/Animation.gif'
+import _Animation2src_assets_labs_Effects_fluidsgif from '../assets/labs/Effects/fluids/Animation2.gif'
+import _Capturesrc_assets_labs_Effects_fluidspng from '../assets/labs/Effects/fluids/Capture.png'
+import _Capture11src_assets_labs_Effects_fluidspng from '../assets/labs/Effects/fluids/Capture11.png'
+import _Capture12src_assets_labs_Effects_fluidspng from '../assets/labs/Effects/fluids/Capture12.png'
+import _Capture14src_assets_labs_Effects_fluidspng from '../assets/labs/Effects/fluids/Capture14.png'
+import _Capture17src_assets_labs_Effects_fluidspng from '../assets/labs/Effects/fluids/Capture17.png'
+import _Capture2src_assets_labs_Effects_fluidspng from '../assets/labs/Effects/fluids/Capture2.png'
+import _Capture3src_assets_labs_Effects_fluidspng from '../assets/labs/Effects/fluids/Capture3.png'
+import _Capture4src_assets_labs_Effects_fluidspng from '../assets/labs/Effects/fluids/Capture4.png'
+import _Capture5src_assets_labs_Effects_fluidspng from '../assets/labs/Effects/fluids/Capture5.png'
+import _Capture7src_assets_labs_Effects_fluidspng from '../assets/labs/Effects/fluids/Capture7.png'
+import _Capture8src_assets_labs_Effects_fluidspng from '../assets/labs/Effects/fluids/Capture8.png'
+import _Capture9src_assets_labs_Effects_fluidspng from '../assets/labs/Effects/fluids/Capture9.png'
+import _firesrc_assets_labs_Effects_fluidsma from '../assets/labs/Effects/fluids/fire.ma'
+import _fire_labsrc_assets_labs_Effects_fluidsmp4 from '../assets/labs/Effects/fluids/fire_lab.mp4'
+import _fire_lab_2src_assets_labs_Effects_fluidspng from '../assets/labs/Effects/fluids/fire_lab_2.png'
+import _fire_lab_3src_assets_labs_Effects_fluidspng from '../assets/labs/Effects/fluids/fire_lab_3.png'
+import _fire_lab_4src_assets_labs_Effects_fluidspng from '../assets/labs/Effects/fluids/fire_lab_4.png'
+import _fire_lab_5src_assets_labs_Effects_fluidspng from '../assets/labs/Effects/fluids/fire_lab_5.png'
+import _fire_lab_onesrc_assets_labs_Effects_fluidspng from '../assets/labs/Effects/fluids/fire_lab_one.png'
+import _fire_lab_rate1src_assets_labs_Effects_fluidspng from '../assets/labs/Effects/fluids/fire_lab_rate1.png'
+import _fire_lab_rate2src_assets_labs_Effects_fluidspng from '../assets/labs/Effects/fluids/fire_lab_rate2.png'
+import _fiyahsrc_assets_labs_Effects_fluidsmp4 from '../assets/labs/Effects/fluids/fiyah.mp4'
+import _fluidssrc_assets_labs_Effects_fluidsmd from '../assets/labs/Effects/fluids/fluids.md'
+import _fluids_lab_initialsrc_assets_labs_Effects_fluidsma from '../assets/labs/Effects/fluids/fluids_lab_initial.ma'
+import _ncache_1src_assets_labs_Effects_fluidspng from '../assets/labs/Effects/fluids/ncache_1.png'
+import _ncache_2src_assets_labs_Effects_fluidspng from '../assets/labs/Effects/fluids/ncache_2.png'
+import _THUMBNAILsrc_assets_labs_Effects_fluidspng from '../assets/labs/Effects/fluids/THUMBNAIL.png'
+import _BlackHairsrc_assets_labs_Effects_xgenpng from '../assets/labs/Effects/xgen/BlackHair.png'
+import _CreateDescriptionsrc_assets_labs_Effects_xgenpng from '../assets/labs/Effects/xgen/CreateDescription.png'
+import _CreatePxrsrc_assets_labs_Effects_xgenpng from '../assets/labs/Effects/xgen/CreatePxr.png'
+import _EyeBallssrc_assets_labs_Effects_xgenpng from '../assets/labs/Effects/xgen/EyeBalls.png'
+import _FullHeadGroomsrc_assets_labs_Effects_xgenpng from '../assets/labs/Effects/xgen/FullHeadGroom.png'
+import _GroomedHairsrc_assets_labs_Effects_xgenpng from '../assets/labs/Effects/xgen/GroomedHair.png'
+import _GuideHairSettingssrc_assets_labs_Effects_xgenpng from '../assets/labs/Effects/xgen/GuideHairSettings.png'
+import _HairBasicShadersrc_assets_labs_Effects_xgenpng from '../assets/labs/Effects/xgen/HairBasicShader.png'
+import _HairColorsrc_assets_labs_Effects_xgenpng from '../assets/labs/Effects/xgen/HairColor.png'
+import _HairSelectsrc_assets_labs_Effects_xgenpng from '../assets/labs/Effects/xgen/HairSelect.png'
+import _HairSelectInversesrc_assets_labs_Effects_xgenpng from '../assets/labs/Effects/xgen/HairSelectInverse.png'
+import _HeadModelsrc_assets_labs_Effects_xgenpng from '../assets/labs/Effects/xgen/HeadModel.png'
+import _HeadScalpsrc_assets_labs_Effects_xgenpng from '../assets/labs/Effects/xgen/HeadScalp.png'
+import _Hypershade1src_assets_labs_Effects_xgenpng from '../assets/labs/Effects/xgen/Hypershade1.png'
+import _Hypershade2src_assets_labs_Effects_xgenpng from '../assets/labs/Effects/xgen/Hypershade2.png'
+import _Lengthsrc_assets_labs_Effects_xgenpng from '../assets/labs/Effects/xgen/Length.png'
+import _NewDescriptionsrc_assets_labs_Effects_xgenpng from '../assets/labs/Effects/xgen/NewDescription.png'
+import _Rendersrc_assets_labs_Effects_xgenpng from '../assets/labs/Effects/xgen/Render.png'
+import _Renderersrc_assets_labs_Effects_xgenpng from '../assets/labs/Effects/xgen/Renderer.png'
+import _RendermanSettingssrc_assets_labs_Effects_xgenpng from '../assets/labs/Effects/xgen/RendermanSettings.png'
+import _Scalpsrc_assets_labs_Effects_xgenpng from '../assets/labs/Effects/xgen/Scalp.png'
+import _THUMBNAILsrc_assets_labs_Effects_xgenpng from '../assets/labs/Effects/xgen/THUMBNAIL.png'
+import _xgensrc_assets_labs_Effects_xgenmd from '../assets/labs/Effects/xgen/xgen.md'
+import _XgenWindowsrc_assets_labs_Effects_xgenpng from '../assets/labs/Effects/xgen/XgenWindow.png'
 import _access_attribute_editorsrc_assets_labs_Introduction_To_Maya_introduction_to_mayapng from '../assets/labs/Introduction To Maya/introduction to maya/access_attribute_editor.png'
 import _all_toolssrc_assets_labs_Introduction_To_Maya_introduction_to_mayapng from '../assets/labs/Introduction To Maya/introduction to maya/all_tools.png'
 import _attribute_editor_1src_assets_labs_Introduction_To_Maya_introduction_to_mayapng from '../assets/labs/Introduction To Maya/introduction to maya/attribute_editor_1.png'
@@ -21,6 +226,7 @@ import _pull_facesrc_assets_labs_Introduction_To_Maya_introduction_to_mayapng fr
 import _shelfsrc_assets_labs_Introduction_To_Maya_introduction_to_mayapng from '../assets/labs/Introduction To Maya/introduction to maya/shelf.png'
 import _smoothedsrc_assets_labs_Introduction_To_Maya_introduction_to_mayapng from '../assets/labs/Introduction To Maya/introduction to maya/smoothed.png'
 import _sphere_shelfsrc_assets_labs_Introduction_To_Maya_introduction_to_mayapng from '../assets/labs/Introduction To Maya/introduction to maya/sphere_shelf.png'
+import _THUMBNAILsrc_assets_labs_Introduction_To_Maya_introduction_to_mayapng from '../assets/labs/Introduction To Maya/introduction to maya/THUMBNAIL.png'
 import _toolboxsrc_assets_labs_Introduction_To_Maya_introduction_to_mayapng from '../assets/labs/Introduction To Maya/introduction to maya/toolbox.png'
 import _unsmoothedsrc_assets_labs_Introduction_To_Maya_introduction_to_mayapng from '../assets/labs/Introduction To Maya/introduction to maya/unsmoothed.png'
 import _vertex_face_etcsrc_assets_labs_Introduction_To_Maya_introduction_to_mayapng from '../assets/labs/Introduction To Maya/introduction to maya/vertex_face_etc.png'
@@ -61,6 +267,7 @@ import _light_linking_2src_assets_labs_Lighting_lighting_1png from '../assets/la
 import _light_linking_3src_assets_labs_Lighting_lighting_1png from '../assets/labs/Lighting/lighting 1/light_linking_3.png'
 import _Screen_Shot_2015_11_16_at_2_16_00_PMsrc_assets_labs_Lighting_lighting_1png from '../assets/labs/Lighting/lighting 1/Screen Shot 2015-11-16 at 2.16.00 PM.png'
 import _Screen_Shot_2015_11_16_at_2_20_58_PMsrc_assets_labs_Lighting_lighting_1png from '../assets/labs/Lighting/lighting 1/Screen Shot 2015-11-16 at 2.20.58 PM.png'
+import _THUMBNAILsrc_assets_labs_Lighting_lighting_1png from '../assets/labs/Lighting/lighting 1/THUMBNAIL.png'
 import _Untitledsrc_assets_labs_Lighting_lighting_1png from '../assets/labs/Lighting/lighting 1/Untitled.png'
 import _Untitled_primaryvisibilitysrc_assets_labs_Lighting_lighting_1png from '../assets/labs/Lighting/lighting 1/Untitled_primaryvisibility.png'
 import _wr1src_assets_labs_Lighting_lighting_1png from '../assets/labs/Lighting/lighting 1/wr1.png'
@@ -93,6 +300,7 @@ import _radiussrc_assets_labs_Lighting_lighting_2png from '../assets/labs/Lighti
 import _Screen_Shot_2015_11_16_at_2_16_00_PMsrc_assets_labs_Lighting_lighting_2png from '../assets/labs/Lighting/lighting 2/Screen Shot 2015-11-16 at 2.16.00 PM.png'
 import _Screen_Shot_2015_11_16_at_2_20_58_PMsrc_assets_labs_Lighting_lighting_2png from '../assets/labs/Lighting/lighting 2/Screen Shot 2015-11-16 at 2.20.58 PM.png'
 import _staringintotheabysssrc_assets_labs_Lighting_lighting_2png from '../assets/labs/Lighting/lighting 2/staringintotheabyss.png'
+import _THUMBNAILsrc_assets_labs_Lighting_lighting_2png from '../assets/labs/Lighting/lighting 2/THUMBNAIL.png'
 import _Untitledsrc_assets_labs_Lighting_lighting_2png from '../assets/labs/Lighting/lighting 2/Untitled.png'
 import _Untitled_primaryvisibilitysrc_assets_labs_Lighting_lighting_2png from '../assets/labs/Lighting/lighting 2/Untitled_primaryvisibility.png'
 import _viewportMalcolmsrc_assets_labs_Lighting_lighting_2png from '../assets/labs/Lighting/lighting 2/viewportMalcolm.png'
@@ -187,6 +395,7 @@ import _strings_tailpiece_positionsrc_assets_labs_Modeling_Advanced_hard_surface
 import _tailpiece_anglesrc_assets_labs_Modeling_Advanced_hard_surface_modelingpng from '../assets/labs/Modeling/Advanced/hard surface modeling/tailpiece_angle.png'
 import _tailpiece_modelsrc_assets_labs_Modeling_Advanced_hard_surface_modelingpng from '../assets/labs/Modeling/Advanced/hard surface modeling/tailpiece_model.png'
 import _third_edge_loopsrc_assets_labs_Modeling_Advanced_hard_surface_modelingpng from '../assets/labs/Modeling/Advanced/hard surface modeling/third_edge_loop.png'
+import _THUMBNAILsrc_assets_labs_Modeling_Advanced_hard_surface_modelingpng from '../assets/labs/Modeling/Advanced/hard surface modeling/THUMBNAIL.png'
 import _triangle_problemsrc_assets_labs_Modeling_Advanced_hard_surface_modelingpng from '../assets/labs/Modeling/Advanced/hard surface modeling/triangle_problem.png'
 import _tricky_vertexsrc_assets_labs_Modeling_Advanced_hard_surface_modelinggif from '../assets/labs/Modeling/Advanced/hard surface modeling/tricky_vertex.gif'
 import _tuning_pegsrc_assets_labs_Modeling_Advanced_hard_surface_modelingjpg from '../assets/labs/Modeling/Advanced/hard surface modeling/tuning peg.jpg'
@@ -213,6 +422,7 @@ import _figure7asrc_assets_labs_Modeling_Advanced_node_editorpng from '../assets
 import _figure8src_assets_labs_Modeling_Advanced_node_editorpng from '../assets/labs/Modeling/Advanced/node editor/figure8.png'
 import _figure9src_assets_labs_Modeling_Advanced_node_editorpng from '../assets/labs/Modeling/Advanced/node editor/figure9.png'
 import _node_editorsrc_assets_labs_Modeling_Advanced_node_editormd from '../assets/labs/Modeling/Advanced/node editor/node editor.md'
+import _THUMBNAILsrc_assets_labs_Modeling_Advanced_node_editorpng from '../assets/labs/Modeling/Advanced/node editor/THUMBNAIL.png'
 import _Capturesrc_assets_labs_Modeling_Advanced_organic_modeling_dragonpng from '../assets/labs/Modeling/Advanced/organic modeling dragon/Capture.png'
 import _Capture1src_assets_labs_Modeling_Advanced_organic_modeling_dragonpng from '../assets/labs/Modeling/Advanced/organic modeling dragon/Capture1.png'
 import _Capture10src_assets_labs_Modeling_Advanced_organic_modeling_dragonpng from '../assets/labs/Modeling/Advanced/organic modeling dragon/Capture10.png'
@@ -316,6 +526,7 @@ import _Capture98src_assets_labs_Modeling_Advanced_organic_modeling_dragonpng fr
 import _Capture99src_assets_labs_Modeling_Advanced_organic_modeling_dragonpng from '../assets/labs/Modeling/Advanced/organic modeling dragon/Capture99.png'
 import _Final_rendersrc_assets_labs_Modeling_Advanced_organic_modeling_dragonpng from '../assets/labs/Modeling/Advanced/organic modeling dragon/Final render.png'
 import _organic_modeling_dragonsrc_assets_labs_Modeling_Advanced_organic_modeling_dragonmd from '../assets/labs/Modeling/Advanced/organic modeling dragon/organic modeling dragon.md'
+import _THUMBNAILsrc_assets_labs_Modeling_Advanced_organic_modeling_dragonpng from '../assets/labs/Modeling/Advanced/organic modeling dragon/THUMBNAIL.png'
 import _10_shirtsrc_assets_labs_Modeling_Advanced_organic_modeling_human_Accessoriespng from '../assets/labs/Modeling/Advanced/organic modeling human/Accessories/10_shirt.png'
 import _11_pantsrc_assets_labs_Modeling_Advanced_organic_modeling_human_Accessoriespng from '../assets/labs/Modeling/Advanced/organic modeling human/Accessories/11_pant.png'
 import _12_pantsrc_assets_labs_Modeling_Advanced_organic_modeling_human_Accessoriespng from '../assets/labs/Modeling/Advanced/organic modeling human/Accessories/12_pant.png'
@@ -596,6 +807,7 @@ import _25_finalSculpt_SIDEsrc_assets_labs_Modeling_Advanced_organic_modeling_hu
 import _26_renameOutlinersrc_assets_labs_Modeling_Advanced_organic_modeling_human_Sculptingpng from '../assets/labs/Modeling/Advanced/organic modeling human/Sculpting/26_renameOutliner.png'
 import _27_liveSurfacesrc_assets_labs_Modeling_Advanced_organic_modeling_human_Sculptingpng from '../assets/labs/Modeling/Advanced/organic modeling human/Sculpting/27_liveSurface.png'
 import _28_quadDrawsrc_assets_labs_Modeling_Advanced_organic_modeling_human_Sculptingpng from '../assets/labs/Modeling/Advanced/organic modeling human/Sculpting/28_quadDraw.png'
+import _THUMBNAILsrc_assets_labs_Modeling_Advanced_organic_modeling_humanpng from '../assets/labs/Modeling/Advanced/organic modeling human/THUMBNAIL.png'
 import _under_constructionsrc_assets_labs_Modeling_Advanced_organic_modeling_humanjpg from '../assets/labs/Modeling/Advanced/organic modeling human/under-construction.jpg'
 import _1_turn_off_interactive_creationsrc_assets_labs_Modeling_Basic_modeling_1png from '../assets/labs/Modeling/Basic/modeling 1/1-turn off interactive creation.png'
 import _10___extrude_and_tweaksrc_assets_labs_Modeling_Basic_modeling_1png from '../assets/labs/Modeling/Basic/modeling 1/10 - extrude and tweak.png'
@@ -758,11 +970,153 @@ import _tail4src_assets_labs_Modeling_Basic_modeling_2jpg from '../assets/labs/M
 import _tail5src_assets_labs_Modeling_Basic_modeling_2jpg from '../assets/labs/Modeling/Basic/modeling 2/tail5.jpg'
 import _tail6src_assets_labs_Modeling_Basic_modeling_2jpg from '../assets/labs/Modeling/Basic/modeling 2/tail6.jpg'
 import _tail7src_assets_labs_Modeling_Basic_modeling_2jpg from '../assets/labs/Modeling/Basic/modeling 2/tail7.jpg'
+import _THUMBNAILsrc_assets_labs_Modeling_Basic_modeling_2jpg from '../assets/labs/Modeling/Basic/modeling 2/THUMBNAIL.jpg'
 import _topBarsrc_assets_labs_Modeling_Basic_modeling_2png from '../assets/labs/Modeling/Basic/modeling 2/topBar.png'
 import _upperArmsrc_assets_labs_Modeling_Basic_modeling_2jpg from '../assets/labs/Modeling/Basic/modeling 2/upperArm.jpg'
 import _vertexCountsrc_assets_labs_Modeling_Basic_modeling_2jpg from '../assets/labs/Modeling/Basic/modeling 2/vertexCount.jpg'
 import _verticessrc_assets_labs_Modeling_Basic_modeling_2jpg from '../assets/labs/Modeling/Basic/modeling 2/vertices.jpg'
 import _xRaysrc_assets_labs_Modeling_Basic_modeling_2png from '../assets/labs/Modeling/Basic/modeling 2/xRay.png'
+import _blahsrc_assets_labs_Post_Production_compositing_layer_managementgif from '../assets/labs/Post Production/compositing layer management/blah.gif'
+import _blursrc_assets_labs_Post_Production_compositing_layer_managementpng from '../assets/labs/Post Production/compositing layer management/blur.png'
+import _clickdragsrc_assets_labs_Post_Production_compositing_layer_managementgif from '../assets/labs/Post Production/compositing layer management/clickdrag.gif'
+import _colorsrc_assets_labs_Post_Production_compositing_layer_managementgif from '../assets/labs/Post Production/compositing layer management/color.gif'
+import _compositing___layer_managementsrc_assets_labs_Post_Production_compositing_layer_managementmd from '../assets/labs/Post Production/compositing layer management/compositing - layer management.md'
+import _editedfiresrc_assets_labs_Post_Production_compositing_layer_managementgif from '../assets/labs/Post Production/compositing layer management/editedfire.gif'
+import _eraser1src_assets_labs_Post_Production_compositing_layer_managementgif from '../assets/labs/Post Production/compositing layer management/eraser1.gif'
+import _fiayer_h_ydksrc_assets_labs_Post_Production_compositing_layer_managementgif from '../assets/labs/Post Production/compositing layer management/fiayer-h-ydk.gif'
+import _fireanchorpointsrc_assets_labs_Post_Production_compositing_layer_managementgif from '../assets/labs/Post Production/compositing layer management/fireanchorpoint.gif'
+import _h2osrc_assets_labs_Post_Production_compositing_layer_managementgif from '../assets/labs/Post Production/compositing layer management/h2o.gif'
+import _hasrc_assets_labs_Post_Production_compositing_layer_managementgif from '../assets/labs/Post Production/compositing layer management/ha.gif'
+import _mattesrc_assets_labs_Post_Production_compositing_layer_managementgif from '../assets/labs/Post Production/compositing layer management/matte.gif'
+import _oksrc_assets_labs_Post_Production_compositing_layer_managementgif from '../assets/labs/Post Production/compositing layer management/ok.gif'
+import _resizesrc_assets_labs_Post_Production_compositing_layer_managementgif from '../assets/labs/Post Production/compositing layer management/resize.gif'
+import _scalefiresrc_assets_labs_Post_Production_compositing_layer_managementgif from '../assets/labs/Post Production/compositing layer management/scalefire.gif'
+import _scalekeyssrc_assets_labs_Post_Production_compositing_layer_managementgif from '../assets/labs/Post Production/compositing layer management/scalekeys.gif'
+import _Screen_Shot_2016_04_04_at_2_38_31_PMsrc_assets_labs_Post_Production_compositing_layer_managementpng from '../assets/labs/Post Production/compositing layer management/Screen Shot 2016-04-04 at 2.38.31 PM.png'
+import _Screen_Shot_2016_04_04_at_2_41_31_PMsrc_assets_labs_Post_Production_compositing_layer_managementpng from '../assets/labs/Post Production/compositing layer management/Screen Shot 2016-04-04 at 2.41.31 PM.png'
+import _Screen_Shot_2016_04_09_at_3_34_12_PMsrc_assets_labs_Post_Production_compositing_layer_managementpng from '../assets/labs/Post Production/compositing layer management/Screen Shot 2016-04-09 at 3.34.12 PM.png'
+import _Screen_Shot_2016_04_09_at_3_53_32_PMsrc_assets_labs_Post_Production_compositing_layer_managementpng from '../assets/labs/Post Production/compositing layer management/Screen Shot 2016-04-09 at 3.53.32 PM.png'
+import _Screen_Shot_2016_04_09_at_4_02_20_PMsrc_assets_labs_Post_Production_compositing_layer_managementpng from '../assets/labs/Post Production/compositing layer management/Screen Shot 2016-04-09 at 4.02.20 PM.png'
+import _Screen_Shot_2016_04_09_at_4_04_46_PMsrc_assets_labs_Post_Production_compositing_layer_managementpng from '../assets/labs/Post Production/compositing layer management/Screen Shot 2016-04-09 at 4.04.46 PM.png'
+import _Screen_Shot_2016_04_10_at_10_03_48_PMsrc_assets_labs_Post_Production_compositing_layer_managementpng from '../assets/labs/Post Production/compositing layer management/Screen Shot 2016-04-10 at 10.03.48 PM.png'
+import _Screen_Shot_2016_04_10_at_11_31_16_PMsrc_assets_labs_Post_Production_compositing_layer_managementpng from '../assets/labs/Post Production/compositing layer management/Screen Shot 2016-04-10 at 11.31.16 PM.png'
+import _Screen_Shot_2016_04_10_at_11_38_17_PMsrc_assets_labs_Post_Production_compositing_layer_managementpng from '../assets/labs/Post Production/compositing layer management/Screen Shot 2016-04-10 at 11.38.17 PM.png'
+import _Screen_Shot_2016_04_10_at_11_40_19_PMsrc_assets_labs_Post_Production_compositing_layer_managementpng from '../assets/labs/Post Production/compositing layer management/Screen Shot 2016-04-10 at 11.40.19 PM.png'
+import _Screen_Shot_2016_04_10_at_11_45_48_PMsrc_assets_labs_Post_Production_compositing_layer_managementpng from '../assets/labs/Post Production/compositing layer management/Screen Shot 2016-04-10 at 11.45.48 PM.png'
+import _Screen_Shot_2016_04_10_at_4_50_18_PMsrc_assets_labs_Post_Production_compositing_layer_managementpng from '../assets/labs/Post Production/compositing layer management/Screen Shot 2016-04-10 at 4.50.18 PM.png'
+import _Screen_Shot_2016_04_10_at_4_50_34_PMsrc_assets_labs_Post_Production_compositing_layer_managementpng from '../assets/labs/Post Production/compositing layer management/Screen Shot 2016-04-10 at 4.50.34 PM.png'
+import _Screen_Shot_2016_04_10_at_5_06_58_PMsrc_assets_labs_Post_Production_compositing_layer_managementpng from '../assets/labs/Post Production/compositing layer management/Screen Shot 2016-04-10 at 5.06.58 PM.png'
+import _Screen_Shot_2016_04_10_at_5_11_39_PMsrc_assets_labs_Post_Production_compositing_layer_managementpng from '../assets/labs/Post Production/compositing layer management/Screen Shot 2016-04-10 at 5.11.39 PM.png'
+import _Screen_Shot_2016_04_10_at_5_17_12_PMsrc_assets_labs_Post_Production_compositing_layer_managementpng from '../assets/labs/Post Production/compositing layer management/Screen Shot 2016-04-10 at 5.17.12 PM.png'
+import _Screen_Shot_2016_04_10_at_5_30_31_PMsrc_assets_labs_Post_Production_compositing_layer_managementpng from '../assets/labs/Post Production/compositing layer management/Screen Shot 2016-04-10 at 5.30.31 PM.png'
+import _Screen_Shot_2016_04_10_at_5_49_25_PMsrc_assets_labs_Post_Production_compositing_layer_managementpng from '../assets/labs/Post Production/compositing layer management/Screen Shot 2016-04-10 at 5.49.25 PM.png'
+import _Screen_Shot_2016_04_10_at_5_52_50_PMsrc_assets_labs_Post_Production_compositing_layer_managementpng from '../assets/labs/Post Production/compositing layer management/Screen Shot 2016-04-10 at 5.52.50 PM.png'
+import _Screen_Shot_2016_04_10_at_6_15_14_PMsrc_assets_labs_Post_Production_compositing_layer_managementpng from '../assets/labs/Post Production/compositing layer management/Screen Shot 2016-04-10 at 6.15.14 PM.png'
+import _Screen_Shot_2016_04_10_at_6_58_44_PMsrc_assets_labs_Post_Production_compositing_layer_managementpng from '../assets/labs/Post Production/compositing layer management/Screen Shot 2016-04-10 at 6.58.44 PM.png'
+import _Screen_Shot_2016_04_10_at_7_02_27_PMsrc_assets_labs_Post_Production_compositing_layer_managementpng from '../assets/labs/Post Production/compositing layer management/Screen Shot 2016-04-10 at 7.02.27 PM.png'
+import _Screen_Shot_2016_04_10_at_8_51_30_PMsrc_assets_labs_Post_Production_compositing_layer_managementpng from '../assets/labs/Post Production/compositing layer management/Screen Shot 2016-04-10 at 8.51.30 PM.png'
+import _Screen_Shot_2016_04_10_at_9_13_35_PMsrc_assets_labs_Post_Production_compositing_layer_managementpng from '../assets/labs/Post Production/compositing layer management/Screen Shot 2016-04-10 at 9.13.35 PM.png'
+import _Screen_Shot_2016_04_10_at_9_22_58_PMsrc_assets_labs_Post_Production_compositing_layer_managementpng from '../assets/labs/Post Production/compositing layer management/Screen Shot 2016-04-10 at 9.22.58 PM.png'
+import _Screen_Shot_2016_04_10_at_9_25_31_PMsrc_assets_labs_Post_Production_compositing_layer_managementpng from '../assets/labs/Post Production/compositing layer management/Screen Shot 2016-04-10 at 9.25.31 PM.png'
+import _Screen_Shot_2016_04_11_at_1_06_13_AMsrc_assets_labs_Post_Production_compositing_layer_managementpng from '../assets/labs/Post Production/compositing layer management/Screen Shot 2016-04-11 at 1.06.13 AM.png'
+import _Screen_Shot_2016_04_11_at_1_06_36_PMsrc_assets_labs_Post_Production_compositing_layer_managementpng from '../assets/labs/Post Production/compositing layer management/Screen Shot 2016-04-11 at 1.06.36 PM.png'
+import _Screen_Shot_2016_04_11_at_1_08_26_AMsrc_assets_labs_Post_Production_compositing_layer_managementpng from '../assets/labs/Post Production/compositing layer management/Screen Shot 2016-04-11 at 1.08.26 AM.png'
+import _Screen_Shot_2016_04_11_at_1_10_22_PMsrc_assets_labs_Post_Production_compositing_layer_managementpng from '../assets/labs/Post Production/compositing layer management/Screen Shot 2016-04-11 at 1.10.22 PM.png'
+import _Screen_Shot_2016_04_11_at_1_14_19_AMsrc_assets_labs_Post_Production_compositing_layer_managementpng from '../assets/labs/Post Production/compositing layer management/Screen Shot 2016-04-11 at 1.14.19 AM.png'
+import _Screen_Shot_2016_04_11_at_1_18_59_PMsrc_assets_labs_Post_Production_compositing_layer_managementpng from '../assets/labs/Post Production/compositing layer management/Screen Shot 2016-04-11 at 1.18.59 PM.png'
+import _Screen_Shot_2016_04_11_at_1_36_58_PMsrc_assets_labs_Post_Production_compositing_layer_managementpng from '../assets/labs/Post Production/compositing layer management/Screen Shot 2016-04-11 at 1.36.58 PM.png'
+import _Screen_Shot_2016_04_11_at_1_39_00_PMsrc_assets_labs_Post_Production_compositing_layer_managementpng from '../assets/labs/Post Production/compositing layer management/Screen Shot 2016-04-11 at 1.39.00 PM.png'
+import _Screen_Shot_2016_04_11_at_1_41_59_PMsrc_assets_labs_Post_Production_compositing_layer_managementpng from '../assets/labs/Post Production/compositing layer management/Screen Shot 2016-04-11 at 1.41.59 PM.png'
+import _Screen_Shot_2016_04_11_at_1_45_16_PMsrc_assets_labs_Post_Production_compositing_layer_managementpng from '../assets/labs/Post Production/compositing layer management/Screen Shot 2016-04-11 at 1.45.16 PM.png'
+import _Screen_Shot_2016_04_11_at_12_09_35_AMsrc_assets_labs_Post_Production_compositing_layer_managementpng from '../assets/labs/Post Production/compositing layer management/Screen Shot 2016-04-11 at 12.09.35 AM.png'
+import _Screen_Shot_2016_04_11_at_12_14_12_AMsrc_assets_labs_Post_Production_compositing_layer_managementpng from '../assets/labs/Post Production/compositing layer management/Screen Shot 2016-04-11 at 12.14.12 AM.png'
+import _Screen_Shot_2016_04_11_at_12_16_44_AMsrc_assets_labs_Post_Production_compositing_layer_managementpng from '../assets/labs/Post Production/compositing layer management/Screen Shot 2016-04-11 at 12.16.44 AM.png'
+import _Screen_Shot_2016_04_11_at_12_45_58_PMsrc_assets_labs_Post_Production_compositing_layer_managementpng from '../assets/labs/Post Production/compositing layer management/Screen Shot 2016-04-11 at 12.45.58 PM.png'
+import _Screen_Shot_2016_04_11_at_2_11_39_PMsrc_assets_labs_Post_Production_compositing_layer_managementpng from '../assets/labs/Post Production/compositing layer management/Screen Shot 2016-04-11 at 2.11.39 PM.png'
+import _Screen_Shot_2016_04_11_at_2_22_04_PMsrc_assets_labs_Post_Production_compositing_layer_managementpng from '../assets/labs/Post Production/compositing layer management/Screen Shot 2016-04-11 at 2.22.04 PM.png'
+import _Screen_Shot_2016_04_11_at_2_33_38_PMsrc_assets_labs_Post_Production_compositing_layer_managementpng from '../assets/labs/Post Production/compositing layer management/Screen Shot 2016-04-11 at 2.33.38 PM.png'
+import _Screen_Shot_2016_04_11_at_2_39_33_AMsrc_assets_labs_Post_Production_compositing_layer_managementpng from '../assets/labs/Post Production/compositing layer management/Screen Shot 2016-04-11 at 2.39.33 AM.png'
+import _Screen_Shot_2016_04_11_at_2_50_56_PMsrc_assets_labs_Post_Production_compositing_layer_managementpng from '../assets/labs/Post Production/compositing layer management/Screen Shot 2016-04-11 at 2.50.56 PM.png'
+import _Screen_Shot_2016_04_11_at_4_30_15_AMsrc_assets_labs_Post_Production_compositing_layer_managementpng from '../assets/labs/Post Production/compositing layer management/Screen Shot 2016-04-11 at 4.30.15 AM.png'
+import _THUMBNAILsrc_assets_labs_Post_Production_compositing_layer_managementpng from '../assets/labs/Post Production/compositing layer management/THUMBNAIL.png'
+import _toolboopsrc_assets_labs_Post_Production_compositing_layer_managementpng from '../assets/labs/Post Production/compositing layer management/toolboop.png'
+import _transformsrc_assets_labs_Post_Production_compositing_layer_managementgif from '../assets/labs/Post Production/compositing layer management/transform.gif'
+import _yaysrc_assets_labs_Post_Production_compositing_layer_managementgif from '../assets/labs/Post Production/compositing layer management/yay.gif'
+import _001src_assets_labs_Post_Production_compositing_motion_trackingpng from '../assets/labs/Post Production/compositing motion tracking/001.PNG'
+import _001_mutesrc_assets_labs_Post_Production_compositing_motion_trackingpng from '../assets/labs/Post Production/compositing motion tracking/001_mute.png'
+import _002src_assets_labs_Post_Production_compositing_motion_trackingpng from '../assets/labs/Post Production/compositing motion tracking/002.png'
+import _003src_assets_labs_Post_Production_compositing_motion_trackingpng from '../assets/labs/Post Production/compositing motion tracking/003.png'
+import _004src_assets_labs_Post_Production_compositing_motion_trackinggif from '../assets/labs/Post Production/compositing motion tracking/004.gif'
+import _004src_assets_labs_Post_Production_compositing_motion_trackingmp4 from '../assets/labs/Post Production/compositing motion tracking/004.mp4'
+import _005src_assets_labs_Post_Production_compositing_motion_trackingpng from '../assets/labs/Post Production/compositing motion tracking/005.png'
+import _006src_assets_labs_Post_Production_compositing_motion_trackingpng from '../assets/labs/Post Production/compositing motion tracking/006.png'
+import _007src_assets_labs_Post_Production_compositing_motion_trackingpng from '../assets/labs/Post Production/compositing motion tracking/007.png'
+import _008src_assets_labs_Post_Production_compositing_motion_trackingpng from '../assets/labs/Post Production/compositing motion tracking/008.png'
+import _009src_assets_labs_Post_Production_compositing_motion_trackingpng from '../assets/labs/Post Production/compositing motion tracking/009.png'
+import _010src_assets_labs_Post_Production_compositing_motion_trackinggif from '../assets/labs/Post Production/compositing motion tracking/010.gif'
+import _010src_assets_labs_Post_Production_compositing_motion_trackingmp4 from '../assets/labs/Post Production/compositing motion tracking/010.mp4'
+import _011src_assets_labs_Post_Production_compositing_motion_trackinggif from '../assets/labs/Post Production/compositing motion tracking/011.gif'
+import _011src_assets_labs_Post_Production_compositing_motion_trackingmp4 from '../assets/labs/Post Production/compositing motion tracking/011.mp4'
+import _012src_assets_labs_Post_Production_compositing_motion_trackingpng from '../assets/labs/Post Production/compositing motion tracking/012.png'
+import _013src_assets_labs_Post_Production_compositing_motion_trackingpng from '../assets/labs/Post Production/compositing motion tracking/013.png'
+import _014src_assets_labs_Post_Production_compositing_motion_trackingpng from '../assets/labs/Post Production/compositing motion tracking/014.png'
+import _015src_assets_labs_Post_Production_compositing_motion_trackingpng from '../assets/labs/Post Production/compositing motion tracking/015.png'
+import _016src_assets_labs_Post_Production_compositing_motion_trackingpng from '../assets/labs/Post Production/compositing motion tracking/016.png'
+import _017src_assets_labs_Post_Production_compositing_motion_trackingpng from '../assets/labs/Post Production/compositing motion tracking/017.png'
+import _017_2src_assets_labs_Post_Production_compositing_motion_trackingpng from '../assets/labs/Post Production/compositing motion tracking/017_2.png'
+import _018src_assets_labs_Post_Production_compositing_motion_trackingpng from '../assets/labs/Post Production/compositing motion tracking/018.png'
+import _019src_assets_labs_Post_Production_compositing_motion_trackingpng from '../assets/labs/Post Production/compositing motion tracking/019.png'
+import _020src_assets_labs_Post_Production_compositing_motion_trackingpng from '../assets/labs/Post Production/compositing motion tracking/020.png'
+import _021src_assets_labs_Post_Production_compositing_motion_trackingpng from '../assets/labs/Post Production/compositing motion tracking/021.png'
+import _022src_assets_labs_Post_Production_compositing_motion_trackingpng from '../assets/labs/Post Production/compositing motion tracking/022.png'
+import _023src_assets_labs_Post_Production_compositing_motion_trackingpng from '../assets/labs/Post Production/compositing motion tracking/023.png'
+import _024src_assets_labs_Post_Production_compositing_motion_trackingpng from '../assets/labs/Post Production/compositing motion tracking/024.png'
+import _025src_assets_labs_Post_Production_compositing_motion_trackingpng from '../assets/labs/Post Production/compositing motion tracking/025.png'
+import _026src_assets_labs_Post_Production_compositing_motion_trackingpng from '../assets/labs/Post Production/compositing motion tracking/026.png'
+import _027src_assets_labs_Post_Production_compositing_motion_trackinggif from '../assets/labs/Post Production/compositing motion tracking/027.gif'
+import _028src_assets_labs_Post_Production_compositing_motion_trackingpng from '../assets/labs/Post Production/compositing motion tracking/028.png'
+import _029src_assets_labs_Post_Production_compositing_motion_trackinggif from '../assets/labs/Post Production/compositing motion tracking/029.gif'
+import _029src_assets_labs_Post_Production_compositing_motion_trackingmp4 from '../assets/labs/Post Production/compositing motion tracking/029.mp4'
+import _030src_assets_labs_Post_Production_compositing_motion_trackingpng from '../assets/labs/Post Production/compositing motion tracking/030.png'
+import _032src_assets_labs_Post_Production_compositing_motion_trackingpng from '../assets/labs/Post Production/compositing motion tracking/032.png'
+import _compositing___motion_trackingsrc_assets_labs_Post_Production_compositing_motion_trackingmd from '../assets/labs/Post Production/compositing motion tracking/compositing - motion tracking.md'
+import _Nickelstatssrc_assets_labs_Post_Production_compositing_motion_trackingmp4 from '../assets/labs/Post Production/compositing motion tracking/Nickelstats.mp4'
+import _Nickelstatssrc_assets_labs_Post_Production_compositing_motion_trackingpng from '../assets/labs/Post Production/compositing motion tracking/Nickelstats.png'
+import _Nickelstats_part1src_assets_labs_Post_Production_compositing_motion_trackinggif from '../assets/labs/Post Production/compositing motion tracking/Nickelstats_part1.gif'
+import _Nickelstats_part2src_assets_labs_Post_Production_compositing_motion_trackinggif from '../assets/labs/Post Production/compositing motion tracking/Nickelstats_part2.gif'
+import _spacesinfilepathssrc_assets_labs_Post_Production_compositing_motion_trackingpng from '../assets/labs/Post Production/compositing motion tracking/spacesinfilepaths.png'
+import _THUMBNAILsrc_assets_labs_Post_Production_compositing_motion_trackingpng from '../assets/labs/Post Production/compositing motion tracking/THUMBNAIL.png'
+import _compositing___particlessrc_assets_labs_Post_Production_compositing_particlesmd from '../assets/labs/Post Production/compositing particles/compositing - particles.md'
+import _comp_settingssrc_assets_labs_Post_Production_compositing_particlespng from '../assets/labs/Post Production/compositing particles/comp_settings.png'
+import _create_adjustment_layersrc_assets_labs_Post_Production_compositing_particlesgif from '../assets/labs/Post Production/compositing particles/create_adjustment_layer.gif'
+import _particle_world_overviewsrc_assets_labs_Post_Production_compositing_particlespng from '../assets/labs/Post Production/compositing particles/particle_world_overview.png'
+import _pre_compsrc_assets_labs_Post_Production_compositing_particlesgif from '../assets/labs/Post Production/compositing particles/pre_comp.gif'
+import _shape_out_pssrc_assets_labs_Post_Production_compositing_particlesgif from '../assets/labs/Post Production/compositing particles/shape_out_ps.gif'
+import _show_shapesrc_assets_labs_Post_Production_compositing_particlesgif from '../assets/labs/Post Production/compositing particles/show_shape.gif'
+import _snow_daysrc_assets_labs_Post_Production_compositing_particlesexr from '../assets/labs/Post Production/compositing particles/snow_day.exr'
+import _snow_physicssrc_assets_labs_Post_Production_compositing_particlesgif from '../assets/labs/Post Production/compositing particles/snow_physics.gif'
+import _THUMBNAILsrc_assets_labs_Post_Production_compositing_particlespng from '../assets/labs/Post Production/compositing particles/THUMBNAIL.png'
+import _batchRendersrc_assets_labs_Post_Production_renderingpng from '../assets/labs/Post Production/rendering/batchRender.png'
+import _batchRender_monitorsrc_assets_labs_Post_Production_renderingpng from '../assets/labs/Post Production/rendering/batchRender_monitor.png'
+import _chanelBoxLayerAddsrc_assets_labs_Post_Production_renderingpng from '../assets/labs/Post Production/rendering/chanelBoxLayerAdd.png'
+import _commonSettingssrc_assets_labs_Post_Production_renderingpng from '../assets/labs/Post Production/rendering/commonSettings.png'
+import _denoisesrc_assets_labs_Post_Production_renderingpng from '../assets/labs/Post Production/rendering/denoise.png'
+import _denoise_NEWsrc_assets_labs_Post_Production_renderingpng from '../assets/labs/Post Production/rendering/denoise_NEW.png'
+import _holdoutssrc_assets_labs_Post_Production_renderingpng from '../assets/labs/Post Production/rendering/holdouts.png'
+import _newOutputLocationsrc_assets_labs_Post_Production_renderingpng from '../assets/labs/Post Production/rendering/newOutputLocation.png'
+import _plugin_managersrc_assets_labs_Post_Production_renderingpng from '../assets/labs/Post Production/rendering/plugin manager.png'
+import _renderingsrc_assets_labs_Post_Production_renderingmd from '../assets/labs/Post Production/rendering/rendering.md'
+import _rendermancontrolssrc_assets_labs_Post_Production_renderingpng from '../assets/labs/Post Production/rendering/rendermancontrols.png'
+import _renderSettingssrc_assets_labs_Post_Production_renderingpng from '../assets/labs/Post Production/rendering/renderSettings.png'
+import _sampling_NEWsrc_assets_labs_Post_Production_renderingpng from '../assets/labs/Post Production/rendering/sampling_NEW.png'
+import _Screen_Shot_2015_12_01_at_4_25_10_PMsrc_assets_labs_Post_Production_renderingpng from '../assets/labs/Post Production/rendering/Screen Shot 2015-12-01 at 4.25.10 PM.png'
+import _visibleLayersrc_assets_labs_Post_Production_renderingpng from '../assets/labs/Post Production/rendering/visibleLayer.png'
+import _workspacesrc_assets_labs_Post_Production_renderingpng from '../assets/labs/Post Production/rendering/workspace.png'
+import _zync1src_assets_labs_Post_Production_renderingpng from '../assets/labs/Post Production/rendering/zync1.png'
+import _zync2src_assets_labs_Post_Production_renderingpng from '../assets/labs/Post Production/rendering/zync2.png'
+import _zyncConsolesrc_assets_labs_Post_Production_renderingpng from '../assets/labs/Post Production/rendering/zyncConsole.png'
+import _zyncINsrc_assets_labs_Post_Production_renderingpng from '../assets/labs/Post Production/rendering/zyncIN.png'
+import _zyncPluginssrc_assets_labs_Post_Production_renderingpng from '../assets/labs/Post Production/rendering/zyncPlugins.png'
 import _as_lab_cryingsrc_assets_labs_Pre_Production_pre_productionpng from '../assets/labs/Pre Production/pre production/as-lab-crying.png'
 import _ballsrc_assets_labs_Pre_Production_pre_productionpng from '../assets/labs/Pre Production/pre production/ball.png'
 import _camshotssrc_assets_labs_Pre_Production_pre_productionpng from '../assets/labs/Pre Production/pre production/camshots.png'
@@ -772,6 +1126,7 @@ import _conceptsrc_assets_labs_Pre_Production_pre_productionpng from '../assets/
 import _palettesrc_assets_labs_Pre_Production_pre_productionpng from '../assets/labs/Pre Production/pre production/palette.png'
 import _Poppy_1src_assets_labs_Pre_Production_pre_productionpng from '../assets/labs/Pre Production/pre production/Poppy-1.png'
 import _pre_productionsrc_assets_labs_Pre_Production_pre_productionmd from '../assets/labs/Pre Production/pre production/pre-production.md'
+import _THUMBNAILsrc_assets_labs_Pre_Production_pre_productionpng from '../assets/labs/Pre Production/pre production/THUMBNAIL.png'
 import _pm1_5src_assets_labs_Pre_Production_production_managementpng from '../assets/labs/Pre Production/production management/pm1.5.png'
 import _pm1src_assets_labs_Pre_Production_production_managementpng from '../assets/labs/Pre Production/production management/pm1.png'
 import _pm10src_assets_labs_Pre_Production_production_managementpng from '../assets/labs/Pre Production/production management/pm10.png'
@@ -798,6 +1153,144 @@ import _pm7src_assets_labs_Pre_Production_production_managementpng from '../asse
 import _pm8src_assets_labs_Pre_Production_production_managementpng from '../assets/labs/Pre Production/production management/pm8.png'
 import _pm9src_assets_labs_Pre_Production_production_managementpng from '../assets/labs/Pre Production/production management/pm9.png'
 import _production_managementsrc_assets_labs_Pre_Production_production_managementmd from '../assets/labs/Pre Production/production management/production management.md'
+import _THUMBNAILsrc_assets_labs_Pre_Production_production_managementpng from '../assets/labs/Pre Production/production management/THUMBNAIL.png'
+import _adjusting_foot_controllersrc_assets_labs_Rigging_Advanced_advanced_rigginggif from '../assets/labs/Rigging/Advanced/advanced rigging/adjusting_foot_controller.gif'
+import _advanced_riggingsrc_assets_labs_Rigging_Advanced_advanced_riggingmd from '../assets/labs/Rigging/Advanced/advanced rigging/advanced rigging.md'
+import _attach_curves_optionsrc_assets_labs_Rigging_Advanced_advanced_riggingpng from '../assets/labs/Rigging/Advanced/advanced rigging/attach_curves_option.png'
+import _clustered_copysrc_assets_labs_Rigging_Advanced_advanced_riggingpng from '../assets/labs/Rigging/Advanced/advanced rigging/clustered copy.png'
+import _cluster_controller_view_2src_assets_labs_Rigging_Advanced_advanced_riggingpng from '../assets/labs/Rigging/Advanced/advanced rigging/cluster_controller_view_2.png'
+import _connecting_rollsrc_assets_labs_Rigging_Advanced_advanced_riggingpng from '../assets/labs/Rigging/Advanced/advanced rigging/connecting_roll.png'
+import _controller_hidden_undergroundsrc_assets_labs_Rigging_Advanced_advanced_rigginggif from '../assets/labs/Rigging/Advanced/advanced rigging/controller_hidden_underground.gif'
+import _creating_diamond_controllersrc_assets_labs_Rigging_Advanced_advanced_rigginggif from '../assets/labs/Rigging/Advanced/advanced rigging/creating_diamond_controller.gif'
+import _default_locator_copysrc_assets_labs_Rigging_Advanced_advanced_riggingpng from '../assets/labs/Rigging/Advanced/advanced rigging/default_locator copy.png'
+import _fox_initial_Skeletonsrc_assets_labs_Rigging_Advanced_advanced_riggingpng from '../assets/labs/Rigging/Advanced/advanced rigging/fox_initial_Skeleton.png'
+import _head_controller_positionsrc_assets_labs_Rigging_Advanced_advanced_riggingpng from '../assets/labs/Rigging/Advanced/advanced rigging/head_controller_position.png'
+import _hip_controllersrc_assets_labs_Rigging_Advanced_advanced_riggingpng from '../assets/labs/Rigging/Advanced/advanced rigging/hip_controller.png'
+import _joints_to_splinesrc_assets_labs_Rigging_Advanced_advanced_riggingpng from '../assets/labs/Rigging/Advanced/advanced rigging/joints_to_spline.png'
+import _locators_final_positionsrc_assets_labs_Rigging_Advanced_advanced_riggingpng from '../assets/labs/Rigging/Advanced/advanced rigging/locators_final_position.png'
+import _making_circle_controllersrc_assets_labs_Rigging_Advanced_advanced_rigginggif from '../assets/labs/Rigging/Advanced/advanced rigging/making_circle_controller.gif'
+import _making_cog_controllersrc_assets_labs_Rigging_Advanced_advanced_rigginggif from '../assets/labs/Rigging/Advanced/advanced rigging/making_cog_controller.gif'
+import _master_controllersrc_assets_labs_Rigging_Advanced_advanced_riggingpng from '../assets/labs/Rigging/Advanced/advanced rigging/master_controller.png'
+import _matching_joint_pivotsrc_assets_labs_Rigging_Advanced_advanced_rigginggif from '../assets/labs/Rigging/Advanced/advanced rigging/matching_joint_pivot.gif'
+import _mismatched_pivot_effectsrc_assets_labs_Rigging_Advanced_advanced_rigginggif from '../assets/labs/Rigging/Advanced/advanced rigging/mismatched_pivot_effect.gif'
+import _moving_cluster_controllerssrc_assets_labs_Rigging_Advanced_advanced_rigginggif from '../assets/labs/Rigging/Advanced/advanced rigging/moving_cluster_controllers.gif'
+import _moving_cog_controllersrc_assets_labs_Rigging_Advanced_advanced_rigginggif from '../assets/labs/Rigging/Advanced/advanced rigging/moving_cog_controller.gif'
+import _moving_tailsrc_assets_labs_Rigging_Advanced_advanced_rigginggif from '../assets/labs/Rigging/Advanced/advanced rigging/moving_tail.gif'
+import _resizing_whole_rigsrc_assets_labs_Rigging_Advanced_advanced_rigginggif from '../assets/labs/Rigging/Advanced/advanced rigging/resizing_whole_rig.gif'
+import _roll_and_twist_channelssrc_assets_labs_Rigging_Advanced_advanced_riggingpng from '../assets/labs/Rigging/Advanced/advanced rigging/roll_and_twist_channels.png'
+import _rotate_plane_attribute_editorsrc_assets_labs_Rigging_Advanced_advanced_riggingpng from '../assets/labs/Rigging/Advanced/advanced rigging/rotate_plane_attribute_editor.png'
+import _shoulders_controllersrc_assets_labs_Rigging_Advanced_advanced_riggingpng from '../assets/labs/Rigging/Advanced/advanced rigging/shoulders_controller.png'
+import _testing_parented_oriented_foot_controllersrc_assets_labs_Rigging_Advanced_advanced_rigginggif from '../assets/labs/Rigging/Advanced/advanced rigging/testing_parented_oriented_foot_controller.gif'
+import _THUMBNAILsrc_assets_labs_Rigging_Advanced_advanced_riggingpng from '../assets/labs/Rigging/Advanced/advanced rigging/THUMBNAIL.png'
+import _twist_roll_in_attributessrc_assets_labs_Rigging_Advanced_advanced_rigginggif from '../assets/labs/Rigging/Advanced/advanced rigging/twist_roll_in_attributes.gif'
+import _updated_box_makingsrc_assets_labs_Rigging_Advanced_advanced_rigginggif from '../assets/labs/Rigging/Advanced/advanced rigging/updated_box_making.gif'
+import _rigging_guidesrc_assets_labs_Rigging_Advanced_rigging_guidemd from '../assets/labs/Rigging/Advanced/rigging guide/rigging guide.md'
+import _2src_assets_labs_Rigging_Basic_blend_shapesjpg from '../assets/labs/Rigging/Basic/blend shapes/2.jpg'
+import _4src_assets_labs_Rigging_Basic_blend_shapesjpg from '../assets/labs/Rigging/Basic/blend shapes/4.jpg'
+import _4src_assets_labs_Rigging_Basic_blend_shapespng from '../assets/labs/Rigging/Basic/blend shapes/4.png'
+import _5src_assets_labs_Rigging_Basic_blend_shapesjpg from '../assets/labs/Rigging/Basic/blend shapes/5.jpg'
+import _blend_shapessrc_assets_labs_Rigging_Basic_blend_shapesmd from '../assets/labs/Rigging/Basic/blend shapes/blend shapes.md'
+import _blendshapes_all_in_viewportsrc_assets_labs_Rigging_Basic_blend_shapespng from '../assets/labs/Rigging/Basic/blend shapes/blendshapes_all_in_viewport.png'
+import _blendshape_bunnysrc_assets_labs_Rigging_Basic_blend_shapesma from '../assets/labs/Rigging/Basic/blend shapes/blendshape_bunny.ma'
+import _bsLab_1src_assets_labs_Rigging_Basic_blend_shapespng from '../assets/labs/Rigging/Basic/blend shapes/bsLab_1.png'
+import _bsLab_2src_assets_labs_Rigging_Basic_blend_shapespng from '../assets/labs/Rigging/Basic/blend shapes/bsLab_2.png'
+import _bsLab_3src_assets_labs_Rigging_Basic_blend_shapespng from '../assets/labs/Rigging/Basic/blend shapes/bsLab_3.png'
+import _bsLab_4src_assets_labs_Rigging_Basic_blend_shapespng from '../assets/labs/Rigging/Basic/blend shapes/bsLab_4.png'
+import _bsLab_5src_assets_labs_Rigging_Basic_blend_shapespng from '../assets/labs/Rigging/Basic/blend shapes/bsLab_5.png'
+import _DCUBEsrc_assets_labs_Rigging_Basic_blend_shapesgif from '../assets/labs/Rigging/Basic/blend shapes/DCUBE.gif'
+import _facessrc_assets_labs_Rigging_Basic_blend_shapesma from '../assets/labs/Rigging/Basic/blend shapes/faces.ma'
+import _THUMBNAILsrc_assets_labs_Rigging_Basic_blend_shapespng from '../assets/labs/Rigging/Basic/blend shapes/THUMBNAIL.png'
+import _vid1src_assets_labs_Rigging_Basic_blend_shapesgif from '../assets/labs/Rigging/Basic/blend shapes/vid1.gif'
+import _vid2src_assets_labs_Rigging_Basic_blend_shapesgif from '../assets/labs/Rigging/Basic/blend shapes/vid2.gif'
+import _vid3src_assets_labs_Rigging_Basic_blend_shapesgif from '../assets/labs/Rigging/Basic/blend shapes/vid3.gif'
+import _vid4src_assets_labs_Rigging_Basic_blend_shapesgif from '../assets/labs/Rigging/Basic/blend shapes/vid4.gif'
+import _vid5src_assets_labs_Rigging_Basic_blend_shapesgif from '../assets/labs/Rigging/Basic/blend shapes/vid5.gif'
+import _vid6src_assets_labs_Rigging_Basic_blend_shapesgif from '../assets/labs/Rigging/Basic/blend shapes/vid6.gif'
+import _vid7src_assets_labs_Rigging_Basic_blend_shapesgif from '../assets/labs/Rigging/Basic/blend shapes/vid7.gif'
+import _vid8src_assets_labs_Rigging_Basic_blend_shapesgif from '../assets/labs/Rigging/Basic/blend shapes/vid8.gif'
+import _1_first_joint_placementsrc_assets_labs_Rigging_Basic_rigging_1png from '../assets/labs/Rigging/Basic/rigging 1/1.first_joint_placement.png'
+import _10_back_view_finishedsrc_assets_labs_Rigging_Basic_rigging_1png from '../assets/labs/Rigging/Basic/rigging 1/10.back_view_finished.png'
+import _11_applying_ik_handle_settingssrc_assets_labs_Rigging_Basic_rigging_1png from '../assets/labs/Rigging/Basic/rigging 1/11.applying_ik_handle_settings.png'
+import _12_ik_handlesrc_assets_labs_Rigging_Basic_rigging_1png from '../assets/labs/Rigging/Basic/rigging 1/12.ik_handle.png'
+import _2_front_halfsrc_assets_labs_Rigging_Basic_rigging_1png from '../assets/labs/Rigging/Basic/rigging 1/2.front_half.png'
+import _3_back_halfsrc_assets_labs_Rigging_Basic_rigging_1png from '../assets/labs/Rigging/Basic/rigging 1/3.back_half.png'
+import _4_front_legsrc_assets_labs_Rigging_Basic_rigging_1png from '../assets/labs/Rigging/Basic/rigging 1/4.front_leg.png'
+import _5_back_legsrc_assets_labs_Rigging_Basic_rigging_1png from '../assets/labs/Rigging/Basic/rigging 1/5.back_leg.png'
+import _6_persp_view_reveals_dimensionalitysrc_assets_labs_Rigging_Basic_rigging_1png from '../assets/labs/Rigging/Basic/rigging 1/6.persp_view_reveals_dimensionality.png'
+import _7_fixed_joints_placementsrc_assets_labs_Rigging_Basic_rigging_1png from '../assets/labs/Rigging/Basic/rigging 1/7.fixed_joints_placement.png'
+import _8_fixed_ear_joint_placementsrc_assets_labs_Rigging_Basic_rigging_1png from '../assets/labs/Rigging/Basic/rigging 1/8.fixed_ear_joint_placement.png'
+import _9_after_mirroring_jointssrc_assets_labs_Rigging_Basic_rigging_1png from '../assets/labs/Rigging/Basic/rigging 1/9.after_mirroring_joints.png'
+import _fox_modelsrc_assets_labs_Rigging_Basic_rigging_1ma from '../assets/labs/Rigging/Basic/rigging 1/fox_model.ma'
+import _joint_to_mirrorsrc_assets_labs_Rigging_Basic_rigging_1png from '../assets/labs/Rigging/Basic/rigging 1/joint_to_mirror.png'
+import _orient_jointssrc_assets_labs_Rigging_Basic_rigging_1png from '../assets/labs/Rigging/Basic/rigging 1/orient_joints.png'
+import _outliner_unnamed_newsrc_assets_labs_Rigging_Basic_rigging_1png from '../assets/labs/Rigging/Basic/rigging 1/outliner_unnamed_new.png'
+import _rigging_1src_assets_labs_Rigging_Basic_rigging_1md from '../assets/labs/Rigging/Basic/rigging 1/rigging 1.md'
+import _tail_joints_edgessrc_assets_labs_Rigging_Basic_rigging_1png from '../assets/labs/Rigging/Basic/rigging 1/tail_joints_edges.png'
+import _THUMBNAILsrc_assets_labs_Rigging_Basic_rigging_1png from '../assets/labs/Rigging/Basic/rigging 1/THUMBNAIL.png'
+import _bellysrc_assets_labs_Rigging_Basic_rigging_2png from '../assets/labs/Rigging/Basic/rigging 2/belly.png'
+import _buddiessrc_assets_labs_Rigging_Basic_rigging_2png from '../assets/labs/Rigging/Basic/rigging 2/buddies.png'
+import _cboxsrc_assets_labs_Rigging_Basic_rigging_2png from '../assets/labs/Rigging/Basic/rigging 2/cbox.png'
+import _cbox2src_assets_labs_Rigging_Basic_rigging_2png from '../assets/labs/Rigging/Basic/rigging 2/cbox2.png'
+import _collarsrc_assets_labs_Rigging_Basic_rigging_2png from '../assets/labs/Rigging/Basic/rigging 2/collar.png'
+import _deesrc_assets_labs_Rigging_Basic_rigging_2png from '../assets/labs/Rigging/Basic/rigging 2/dee.png'
+import _dentsrc_assets_labs_Rigging_Basic_rigging_2png from '../assets/labs/Rigging/Basic/rigging 2/dent.png'
+import _ellipsesrc_assets_labs_Rigging_Basic_rigging_2png from '../assets/labs/Rigging/Basic/rigging 2/ellipse.png'
+import _everythingsrc_assets_labs_Rigging_Basic_rigging_2png from '../assets/labs/Rigging/Basic/rigging 2/everything.png'
+import _eyessrc_assets_labs_Rigging_Basic_rigging_2ma from '../assets/labs/Rigging/Basic/rigging 2/eyes.ma'
+import _FKt2src_assets_labs_Rigging_Basic_rigging_2png from '../assets/labs/Rigging/Basic/rigging 2/FKt2.png'
+import _fktailsrc_assets_labs_Rigging_Basic_rigging_2png from '../assets/labs/Rigging/Basic/rigging 2/fktail.png'
+import _followsrc_assets_labs_Rigging_Basic_rigging_2png from '../assets/labs/Rigging/Basic/rigging 2/follow.png'
+import _fox_and_jointssrc_assets_labs_Rigging_Basic_rigging_2ma from '../assets/labs/Rigging/Basic/rigging 2/fox_and_joints.ma'
+import _hmm2src_assets_labs_Rigging_Basic_rigging_2png from '../assets/labs/Rigging/Basic/rigging 2/hmm2.png'
+import _ik_handlesrc_assets_labs_Rigging_Basic_rigging_2png from '../assets/labs/Rigging/Basic/rigging 2/ik_handle.png'
+import _ik_outlinersrc_assets_labs_Rigging_Basic_rigging_2png from '../assets/labs/Rigging/Basic/rigging 2/ik_outliner.png'
+import _imsosorrysrc_assets_labs_Rigging_Basic_rigging_2png from '../assets/labs/Rigging/Basic/rigging 2/imsosorry.png'
+import _leftbehindsrc_assets_labs_Rigging_Basic_rigging_2png from '../assets/labs/Rigging/Basic/rigging 2/leftbehind.png'
+import _locatorsrc_assets_labs_Rigging_Basic_rigging_2png from '../assets/labs/Rigging/Basic/rigging 2/locator.png'
+import _locatorpositioningsrc_assets_labs_Rigging_Basic_rigging_2png from '../assets/labs/Rigging/Basic/rigging 2/locatorpositioning.png'
+import _mastersrc_assets_labs_Rigging_Basic_rigging_2png from '../assets/labs/Rigging/Basic/rigging 2/master.png'
+import _moreneatsrc_assets_labs_Rigging_Basic_rigging_2png from '../assets/labs/Rigging/Basic/rigging 2/moreneat.png'
+import _neatosrc_assets_labs_Rigging_Basic_rigging_2png from '../assets/labs/Rigging/Basic/rigging 2/neato.png'
+import _necksrc_assets_labs_Rigging_Basic_rigging_2png from '../assets/labs/Rigging/Basic/rigging 2/neck.png'
+import _nofeetsrc_assets_labs_Rigging_Basic_rigging_2png from '../assets/labs/Rigging/Basic/rigging 2/nofeet.png'
+import _normalfoxsrc_assets_labs_Rigging_Basic_rigging_2png from '../assets/labs/Rigging/Basic/rigging 2/normalfox.png'
+import _ortho2src_assets_labs_Rigging_Basic_rigging_2png from '../assets/labs/Rigging/Basic/rigging 2/ortho2.png'
+import _outliner_01src_assets_labs_Rigging_Basic_rigging_2png from '../assets/labs/Rigging/Basic/rigging 2/outliner_01.png'
+import _overridessrc_assets_labs_Rigging_Basic_rigging_2png from '../assets/labs/Rigging/Basic/rigging 2/overrides.png'
+import _o_______osrc_assets_labs_Rigging_Basic_rigging_2png from '../assets/labs/Rigging/Basic/rigging 2/o_______o.png'
+import _parentsrc_assets_labs_Rigging_Basic_rigging_2png from '../assets/labs/Rigging/Basic/rigging 2/parent.png'
+import _pivotsrc_assets_labs_Rigging_Basic_rigging_2png from '../assets/labs/Rigging/Basic/rigging 2/pivot.png'
+import _point1src_assets_labs_Rigging_Basic_rigging_2png from '../assets/labs/Rigging/Basic/rigging 2/point1.png'
+import _point2src_assets_labs_Rigging_Basic_rigging_2png from '../assets/labs/Rigging/Basic/rigging 2/point2.png'
+import _pSphereShape1_colorsrc_assets_labs_Rigging_Basic_rigging_2iff from '../assets/labs/Rigging/Basic/rigging 2/pSphereShape1_color.iff'
+import _rigging_2src_assets_labs_Rigging_Basic_rigging_2md from '../assets/labs/Rigging/Basic/rigging 2/rigging 2.md'
+import _riggingsrc_assets_labs_Rigging_Basic_rigging_2png from '../assets/labs/Rigging/Basic/rigging 2/rigging.png'
+import _riglab1src_assets_labs_Rigging_Basic_rigging_2png from '../assets/labs/Rigging/Basic/rigging 2/riglab1.png'
+import _rotatsrc_assets_labs_Rigging_Basic_rigging_2png from '../assets/labs/Rigging/Basic/rigging 2/rotat.png'
+import _selectedsrc_assets_labs_Rigging_Basic_rigging_2png from '../assets/labs/Rigging/Basic/rigging 2/selected.png'
+import _shiftysrc_assets_labs_Rigging_Basic_rigging_2png from '../assets/labs/Rigging/Basic/rigging 2/shifty.png'
+import _skinning3src_assets_labs_Rigging_Basic_rigging_2jpg from '../assets/labs/Rigging/Basic/rigging 2/skinning3.jpg'
+import _snapsrc_assets_labs_Rigging_Basic_rigging_2png from '../assets/labs/Rigging/Basic/rigging 2/snap.png'
+import _THUMBNAILsrc_assets_labs_Rigging_Basic_rigging_2png from '../assets/labs/Rigging/Basic/rigging 2/THUMBNAIL.png'
+import _toesrc_assets_labs_Rigging_Basic_rigging_2png from '../assets/labs/Rigging/Basic/rigging 2/toe.png'
+import _toeconstsrc_assets_labs_Rigging_Basic_rigging_2png from '../assets/labs/Rigging/Basic/rigging 2/toeconst.png'
+import _veesrc_assets_labs_Rigging_Basic_rigging_2png from '../assets/labs/Rigging/Basic/rigging 2/vee.png'
+import _blobber_going_wrongsrc_assets_labs_Rigging_Basic_skinninggif from '../assets/labs/Rigging/Basic/skinning/blobber_going_wrong.gif'
+import _candy_wrapper_1src_assets_labs_Rigging_Basic_skinninggif from '../assets/labs/Rigging/Basic/skinning/candy_wrapper_1.gif'
+import _dual_quaternionsrc_assets_labs_Rigging_Basic_skinninggif from '../assets/labs/Rigging/Basic/skinning/dual_quaternion.gif'
+import _edit_posedsrc_assets_labs_Rigging_Basic_skinninggif from '../assets/labs/Rigging/Basic/skinning/edit_posed.gif'
+import _rigged_blobbersrc_assets_labs_Rigging_Basic_skinningma from '../assets/labs/Rigging/Basic/skinning/rigged_blobber.ma'
+import _skinningsrc_assets_labs_Rigging_Basic_skinningmd from '../assets/labs/Rigging/Basic/skinning/skinning.md'
+import _skinning10src_assets_labs_Rigging_Basic_skinningpng from '../assets/labs/Rigging/Basic/skinning/skinning10.png'
+import _skinning3src_assets_labs_Rigging_Basic_skinningjpg from '../assets/labs/Rigging/Basic/skinning/skinning3.jpg'
+import _skinning6src_assets_labs_Rigging_Basic_skinningjpg from '../assets/labs/Rigging/Basic/skinning/skinning6.jpg'
+import _skinning7src_assets_labs_Rigging_Basic_skinningjpg from '../assets/labs/Rigging/Basic/skinning/skinning7.jpg'
+import _skinning8src_assets_labs_Rigging_Basic_skinningpng from '../assets/labs/Rigging/Basic/skinning/skinning8.png'
+import _skinning9src_assets_labs_Rigging_Basic_skinningpng from '../assets/labs/Rigging/Basic/skinning/skinning9.png'
+import _testing_edited_elbowsrc_assets_labs_Rigging_Basic_skinninggif from '../assets/labs/Rigging/Basic/skinning/testing_edited_elbow.gif'
+import _THUMBNAILsrc_assets_labs_Rigging_Basic_skinningpng from '../assets/labs/Rigging/Basic/skinning/THUMBNAIL.png'
+import _unedited_elbowsrc_assets_labs_Rigging_Basic_skinninggif from '../assets/labs/Rigging/Basic/skinning/unedited_elbow.gif'
+import _updated_legs_going_wrong_2src_assets_labs_Rigging_Basic_skinninggif from '../assets/labs/Rigging/Basic/skinning/updated_legs_going_wrong_2.gif'
 import _adv8src_assets_labs_Shading_Advanced_hypershadepng from '../assets/labs/Shading/Advanced/hypershade/adv8.png'
 import _advanced1src_assets_labs_Shading_Advanced_hypershadepng from '../assets/labs/Shading/Advanced/hypershade/advanced1.png'
 import _advanced2src_assets_labs_Shading_Advanced_hypershadepng from '../assets/labs/Shading/Advanced/hypershade/advanced2.png'
@@ -819,6 +1312,7 @@ import _nodesrc_assets_labs_Shading_Advanced_hypershadepng from '../assets/labs/
 import _normals2src_assets_labs_Shading_Advanced_hypershadepng from '../assets/labs/Shading/Advanced/hypershade/normals2.png'
 import _pxrflakessrc_assets_labs_Shading_Advanced_hypershadepng from '../assets/labs/Shading/Advanced/hypershade/pxrflakes.png'
 import _setupWithFlakessrc_assets_labs_Shading_Advanced_hypershadepng from '../assets/labs/Shading/Advanced/hypershade/setupWithFlakes.png'
+import _THUMBNAILsrc_assets_labs_Shading_Advanced_hypershadepng from '../assets/labs/Shading/Advanced/hypershade/THUMBNAIL.png'
 import _52677src_assets_labs_Shading_Basic_basic_materialsjpg from '../assets/labs/Shading/Basic/basic materials/52677.jpg'
 import _basic_materialssrc_assets_labs_Shading_Basic_basic_materialsmd from '../assets/labs/Shading/Basic/basic materials/basic materials.md'
 import _basic_materialssrc_assets_labs_Shading_Basic_basic_materialspng from '../assets/labs/Shading/Basic/basic materials/basic materials.png'
@@ -861,6 +1355,7 @@ import _pxrtexturesrc_assets_labs_Shading_Basic_basic_materialsjpg from '../asse
 import _repeatsrc_assets_labs_Shading_Basic_basic_materialspng from '../assets/labs/Shading/Basic/basic materials/repeat.png'
 import _rman_shelfsrc_assets_labs_Shading_Basic_basic_materialsjpg from '../assets/labs/Shading/Basic/basic materials/rman_shelf.jpg'
 import _scalingsrc_assets_labs_Shading_Basic_basic_materialspng from '../assets/labs/Shading/Basic/basic materials/scaling.png'
+import _THUMBNAILsrc_assets_labs_Shading_Basic_basic_materialsjpg from '../assets/labs/Shading/Basic/basic materials/THUMBNAIL.jpg'
 import _tiny_render_iconsrc_assets_labs_Shading_Basic_basic_materialsjpg from '../assets/labs/Shading/Basic/basic materials/tiny_render_icon.jpg'
 import _uvs_coloredsrc_assets_labs_Shading_Basic_basic_materialsjpg from '../assets/labs/Shading/Basic/basic materials/uvs_colored.jpg'
 import _uvs_on_blacksrc_assets_labs_Shading_Basic_basic_materialsjpg from '../assets/labs/Shading/Basic/basic materials/uvs_on_black.jpg'
@@ -882,6 +1377,7 @@ import _roughnesssrc_assets_labs_Shading_Basic_shading_guidejpg from '../assets/
 import _shading_guidesrc_assets_labs_Shading_Basic_shading_guidemd from '../assets/labs/Shading/Basic/shading guide/shading guide.md'
 import _specularsrc_assets_labs_Shading_Basic_shading_guidepng from '../assets/labs/Shading/Basic/shading guide/specular.png'
 import _subsursrc_assets_labs_Shading_Basic_shading_guidejpg from '../assets/labs/Shading/Basic/shading guide/subsur.jpg'
+import _THUMBNAILsrc_assets_labs_Shading_Basic_shading_guidejpg from '../assets/labs/Shading/Basic/shading guide/THUMBNAIL.jpg'
 import _2d3d_0src_assets_labs_Shading_Basic_toon_shadinggif from '../assets/labs/Shading/Basic/toon shading/2d3d_0.gif'
 import _2d3d_1src_assets_labs_Shading_Basic_toon_shadinggif from '../assets/labs/Shading/Basic/toon shading/2d3d_1.gif'
 import _2d3d_2src_assets_labs_Shading_Basic_toon_shadinggif from '../assets/labs/Shading/Basic/toon shading/2d3d_2.gif'
@@ -941,6 +1437,7 @@ import _texture_2src_assets_labs_Shading_Basic_toon_shadingpng from '../assets/l
 import _texture_3src_assets_labs_Shading_Basic_toon_shadingpng from '../assets/labs/Shading/Basic/toon shading/texture_3.png'
 import _texture_4src_assets_labs_Shading_Basic_toon_shadingpng from '../assets/labs/Shading/Basic/toon shading/texture_4.png'
 import _texture_5src_assets_labs_Shading_Basic_toon_shadingpng from '../assets/labs/Shading/Basic/toon shading/texture_5.png'
+import _THUMBNAILsrc_assets_labs_Shading_Basic_toon_shadingpng from '../assets/labs/Shading/Basic/toon shading/THUMBNAIL.png'
 import _toon_shadingsrc_assets_labs_Shading_Basic_toon_shadingmd from '../assets/labs/Shading/Basic/toon shading/toon shading.md'
 import _ToonShaderLabsrc_assets_labs_Shading_Basic_toon_shadingzip from '../assets/labs/Shading/Basic/toon shading/ToonShaderLab.zip'
 import _uvs_coloredsrc_assets_labs_Shading_Basic_toon_shadingjpg from '../assets/labs/Shading/Basic/toon shading/uvs_colored.jpg'
@@ -953,6 +1450,273 @@ import _wtfIsThissrc_assets_labs_Shading_Basic_toon_shadinggif from '../assets/l
 
 
 const data = {
+  "Animating": {
+    "Advanced": {
+      "character_animation": {
+        "images": {
+          "advanced_anim.zip": _advanced_animsrc_assets_labs_Animating_Advanced_character_animationzip,
+          "doublesplines.gif": _doublesplinessrc_assets_labs_Animating_Advanced_character_animationgif,
+          "fin.gif": _finsrc_assets_labs_Animating_Advanced_character_animationgif,
+          "heel_roll.gif": _heel_rollsrc_assets_labs_Animating_Advanced_character_animationgif,
+          "hell_roll.png": _hell_rollsrc_assets_labs_Animating_Advanced_character_animationpng,
+          "hipcontroller.png": _hipcontrollersrc_assets_labs_Animating_Advanced_character_animationpng,
+          "invertSpline.gif": _invertSplinesrc_assets_labs_Animating_Advanced_character_animationgif,
+          "kneecheats.png": _kneecheatssrc_assets_labs_Animating_Advanced_character_animationpng,
+          "kneepops.gif": _kneepopssrc_assets_labs_Animating_Advanced_character_animationgif,
+          "kneepopsred.gif": _kneepopsredsrc_assets_labs_Animating_Advanced_character_animationgif,
+          "leftFootForwardBlock.png": _leftFootForwardBlocksrc_assets_labs_Animating_Advanced_character_animationpng,
+          "leftFootPassingBlock.png": _leftFootPassingBlocksrc_assets_labs_Animating_Advanced_character_animationpng,
+          "linear.png": _linearsrc_assets_labs_Animating_Advanced_character_animationpng,
+          "peel_off.png": _peel_offsrc_assets_labs_Animating_Advanced_character_animationpng,
+          "peel_off_pose.png": _peel_off_posesrc_assets_labs_Animating_Advanced_character_animationpng,
+          "reddottrace.gif": _reddottracesrc_assets_labs_Animating_Advanced_character_animationgif,
+          "rightFoot.png": _rightFootsrc_assets_labs_Animating_Advanced_character_animationpng,
+          "rightFootForwardBlock.png": _rightFootForwardBlocksrc_assets_labs_Animating_Advanced_character_animationpng,
+          "rightFootForwardBlockAgain.png": _rightFootForwardBlockAgainsrc_assets_labs_Animating_Advanced_character_animationpng,
+          "rightFootPassingBlock.png": _rightFootPassingBlocksrc_assets_labs_Animating_Advanced_character_animationpng,
+          "root.png": _rootsrc_assets_labs_Animating_Advanced_character_animationpng,
+          "step1.gif": _step1src_assets_labs_Animating_Advanced_character_animationgif,
+          "step10.gif": _step10src_assets_labs_Animating_Advanced_character_animationgif,
+          "step10spline.png": _step10splinesrc_assets_labs_Animating_Advanced_character_animationpng,
+          "step11.gif": _step11src_assets_labs_Animating_Advanced_character_animationgif,
+          "step12.gif": _step12src_assets_labs_Animating_Advanced_character_animationgif,
+          "step1copypaste.gif": _step1copypastesrc_assets_labs_Animating_Advanced_character_animationgif,
+          "step2.gif": _step2src_assets_labs_Animating_Advanced_character_animationgif,
+          "step2copypaste.gif": _step2copypastesrc_assets_labs_Animating_Advanced_character_animationgif,
+          "step2duplicate2.gif": _step2duplicate2src_assets_labs_Animating_Advanced_character_animationgif,
+          "step3.gif": _step3src_assets_labs_Animating_Advanced_character_animationgif,
+          "step3copypaste.gif": _step3copypastesrc_assets_labs_Animating_Advanced_character_animationgif,
+          "step3exaggerated.gif": _step3exaggeratedsrc_assets_labs_Animating_Advanced_character_animationgif,
+          "step4.gif": _step4src_assets_labs_Animating_Advanced_character_animationgif,
+          "step5radical.png": _step5radicalsrc_assets_labs_Animating_Advanced_character_animationpng,
+          "step6.gif": _step6src_assets_labs_Animating_Advanced_character_animationgif,
+          "step8.gif": _step8src_assets_labs_Animating_Advanced_character_animationgif,
+          "step9.gif": _step9src_assets_labs_Animating_Advanced_character_animationgif,
+          "step9polish.gif": _step9polishsrc_assets_labs_Animating_Advanced_character_animationgif,
+          "straightbad.png": _straightbadsrc_assets_labs_Animating_Advanced_character_animationpng,
+          "straightgood.png": _straightgoodsrc_assets_labs_Animating_Advanced_character_animationpng,
+          "translateYBlock4.png": _translateYBlock4src_assets_labs_Animating_Advanced_character_animationpng,
+          "trick.gif": _tricksrc_assets_labs_Animating_Advanced_character_animationgif,
+          "trick.png": _tricksrc_assets_labs_Animating_Advanced_character_animationpng,
+          "vizgeo.png": _vizgeosrc_assets_labs_Animating_Advanced_character_animationpng,
+          "williams16s.jpg": _williams16ssrc_assets_labs_Animating_Advanced_character_animationjpg,
+          "williams_poses.jpg": _williams_posessrc_assets_labs_Animating_Advanced_character_animationjpg
+        },
+        "markdown": [
+          _character_animationsrc_assets_labs_Animating_Advanced_character_animationmd,
+          "Animating/Advanced/character_animation"
+        ],
+        "thumbnail": _THUMBNAILsrc_assets_labs_Animating_Advanced_character_animationpng
+      }
+    },
+    "Basic": {
+      "animation_1": {
+        "images": {
+          "1.png": _1src_assets_labs_Animating_Basic_animation_1png,
+          "10.png": _10src_assets_labs_Animating_Basic_animation_1png,
+          "11.png": _11src_assets_labs_Animating_Basic_animation_1png,
+          "12.png": _12src_assets_labs_Animating_Basic_animation_1png,
+          "13.png": _13src_assets_labs_Animating_Basic_animation_1png,
+          "2.png": _2src_assets_labs_Animating_Basic_animation_1png,
+          "2017.png": _2017src_assets_labs_Animating_Basic_animation_1png,
+          "3.png": _3src_assets_labs_Animating_Basic_animation_1png,
+          "3ornjK3itVx9NZ3WUM.gif": _3ornjK3itVx9NZ3WUMsrc_assets_labs_Animating_Basic_animation_1gif,
+          "7.png": _7src_assets_labs_Animating_Basic_animation_1png,
+          "8.png": _8src_assets_labs_Animating_Basic_animation_1png,
+          "9.png": _9src_assets_labs_Animating_Basic_animation_1png,
+          "Animation.gif": _Animationsrc_assets_labs_Animating_Basic_animation_1gif,
+          "ask1.png": _ask1src_assets_labs_Animating_Basic_animation_1png,
+          "ask2.png": _ask2src_assets_labs_Animating_Basic_animation_1png,
+          "ball_rig.png": _ball_rigsrc_assets_labs_Animating_Basic_animation_1png,
+          "ball_rig_old.png": _ball_rig_oldsrc_assets_labs_Animating_Basic_animation_1png,
+          "basic_anim.zip": _basic_animsrc_assets_labs_Animating_Basic_animation_1zip,
+          "basic_anim_old.zip": _basic_anim_oldsrc_assets_labs_Animating_Basic_animation_1zip,
+          "blockUpSlow.gif": _blockUpSlowsrc_assets_labs_Animating_Basic_animation_1gif,
+          "boxUp.gif": _boxUpsrc_assets_labs_Animating_Basic_animation_1gif,
+          "boxUpHigher.gif": _boxUpHighersrc_assets_labs_Animating_Basic_animation_1gif,
+          "BoxUpY.gif": _BoxUpYsrc_assets_labs_Animating_Basic_animation_1gif,
+          "breaktangents.gif": _breaktangentssrc_assets_labs_Animating_Basic_animation_1gif,
+          "Homework..png": _Homework_src_assets_labs_Animating_Basic_animation_1png,
+          "Homework.png": _Homeworksrc_assets_labs_Animating_Basic_animation_1png,
+          "Homework1.png": _Homework1src_assets_labs_Animating_Basic_animation_1png,
+          "horizontalmotion.gif": _horizontalmotionsrc_assets_labs_Animating_Basic_animation_1gif,
+          "horizontalmotion.mov": _horizontalmotionsrc_assets_labs_Animating_Basic_animation_1mov,
+          "horizontalmotion_NEW.gif": _horizontalmotion_NEWsrc_assets_labs_Animating_Basic_animation_1gif,
+          "insertkey.gif": _insertkeysrc_assets_labs_Animating_Basic_animation_1gif,
+          "linear.png": _linearsrc_assets_labs_Animating_Basic_animation_1png,
+          "linearBall.gif": _linearBallsrc_assets_labs_Animating_Basic_animation_1gif,
+          "locked.png": _lockedsrc_assets_labs_Animating_Basic_animation_1png,
+          "motiontrail1.png": _motiontrail1src_assets_labs_Animating_Basic_animation_1png,
+          "motiontrail2.png": _motiontrail2src_assets_labs_Animating_Basic_animation_1png,
+          "rotation.gif": _rotationsrc_assets_labs_Animating_Basic_animation_1gif,
+          "rotation.mov": _rotationsrc_assets_labs_Animating_Basic_animation_1mov,
+          "running.png": _runningsrc_assets_labs_Animating_Basic_animation_1png,
+          "sample.mp4": _samplesrc_assets_labs_Animating_Basic_animation_1mp4,
+          "selectingdifferntsidesoftangent.gif": _selectingdifferntsidesoftangentsrc_assets_labs_Animating_Basic_animation_1gif,
+          "slowin.gif": _slowinsrc_assets_labs_Animating_Basic_animation_1gif,
+          "slowin.png": _slowinsrc_assets_labs_Animating_Basic_animation_1png,
+          "slowout.gif": _slowoutsrc_assets_labs_Animating_Basic_animation_1gif,
+          "slowout.png": _slowoutsrc_assets_labs_Animating_Basic_animation_1png,
+          "spline.mp4": _splinesrc_assets_labs_Animating_Basic_animation_1mp4,
+          "splineDrawing.png": _splineDrawingsrc_assets_labs_Animating_Basic_animation_1png,
+          "spline_tracer.png": _spline_tracersrc_assets_labs_Animating_Basic_animation_1png,
+          "squashandstretch_NEW.gif": _squashandstretch_NEWsrc_assets_labs_Animating_Basic_animation_1gif,
+          "squashstretch.gif": _squashstretchsrc_assets_labs_Animating_Basic_animation_1gif,
+          "squashstretch.mov": _squashstretchsrc_assets_labs_Animating_Basic_animation_1mov,
+          "timesliderredline.gif": _timesliderredlinesrc_assets_labs_Animating_Basic_animation_1gif,
+          "ty_curve.png": _ty_curvesrc_assets_labs_Animating_Basic_animation_1png,
+          "tz_curve.png": _tz_curvesrc_assets_labs_Animating_Basic_animation_1png,
+          "unlocked.png": _unlockedsrc_assets_labs_Animating_Basic_animation_1png,
+          "unweightedTangent.gif": _unweightedTangentsrc_assets_labs_Animating_Basic_animation_1gif,
+          "vertical.gif": _verticalsrc_assets_labs_Animating_Basic_animation_1gif,
+          "vertical.mov": _verticalsrc_assets_labs_Animating_Basic_animation_1mov,
+          "vertical_NEW.gif": _vertical_NEWsrc_assets_labs_Animating_Basic_animation_1gif,
+          "weightedTangent.gif": _weightedTangentsrc_assets_labs_Animating_Basic_animation_1gif,
+          "yo.gif": _yosrc_assets_labs_Animating_Basic_animation_1gif
+        },
+        "markdown": [
+          _animation_1src_assets_labs_Animating_Basic_animation_1md,
+          "Animating/Basic/animation_1"
+        ],
+        "thumbnail": _THUMBNAILsrc_assets_labs_Animating_Basic_animation_1png
+      },
+      "animation_2": {
+        "markdown": [
+          _animation_2src_assets_labs_Animating_Basic_animation_2md,
+          "Animating/Basic/animation_2"
+        ]
+      },
+      "playblasts": {
+        "markdown": [
+          _playblastssrc_assets_labs_Animating_Basic_playblastsmd,
+          "Animating/Basic/playblasts"
+        ],
+        "images": {
+          "playblasts1.png": _playblasts1src_assets_labs_Animating_Basic_playblastspng,
+          "playblasts2.png": _playblasts2src_assets_labs_Animating_Basic_playblastspng,
+          "playblasts3.png": _playblasts3src_assets_labs_Animating_Basic_playblastspng,
+          "playblasts4.png": _playblasts4src_assets_labs_Animating_Basic_playblastspng,
+          "playblasts5.png": _playblasts5src_assets_labs_Animating_Basic_playblastspng,
+          "playblasts6.png": _playblasts6src_assets_labs_Animating_Basic_playblastspng
+        }
+      }
+    }
+  },
+  "Effects": {
+    "bifrost": {
+      "markdown": [
+        _bifrostsrc_assets_labs_Effects_bifrostmd,
+        "Effects/bifrost"
+      ],
+      "images": {
+        "Bifrost.png": _Bifrostsrc_assets_labs_Effects_bifrostpng,
+        "Bifrost10.png": _Bifrost10src_assets_labs_Effects_bifrostpng,
+        "Bifrost12.png": _Bifrost12src_assets_labs_Effects_bifrostpng,
+        "Bifrost13.png": _Bifrost13src_assets_labs_Effects_bifrostpng,
+        "Bifrost14.png": _Bifrost14src_assets_labs_Effects_bifrostpng,
+        "Bifrost15.png": _Bifrost15src_assets_labs_Effects_bifrostpng,
+        "Bifrost2.png": _Bifrost2src_assets_labs_Effects_bifrostpng,
+        "Bifrost3.png": _Bifrost3src_assets_labs_Effects_bifrostpng,
+        "Bifrost4.png": _Bifrost4src_assets_labs_Effects_bifrostpng,
+        "Bifrost5.png": _Bifrost5src_assets_labs_Effects_bifrostpng,
+        "Bifrost6.png": _Bifrost6src_assets_labs_Effects_bifrostpng,
+        "Bifrost7.png": _Bifrost7src_assets_labs_Effects_bifrostpng,
+        "Bifrost9.png": _Bifrost9src_assets_labs_Effects_bifrostpng,
+        "bifrost_lab_initial.ma": _bifrost_lab_initialsrc_assets_labs_Effects_bifrostma,
+        "bowl.gif": _bowlsrc_assets_labs_Effects_bifrostgif,
+        "Capture16.png": _Capture16src_assets_labs_Effects_bifrostpng,
+        "outliner.png": _outlinersrc_assets_labs_Effects_bifrostpng,
+        "pour.gif": _poursrc_assets_labs_Effects_bifrostgif
+      },
+      "thumbnail": _THUMBNAILsrc_assets_labs_Effects_bifrostpng
+    },
+    "cloth": {
+      "images": {
+        "cape.gif": _capesrc_assets_labs_Effects_clothgif,
+        "cloth1.gif": _cloth1src_assets_labs_Effects_clothgif,
+        "cloth1.png": _cloth1src_assets_labs_Effects_clothpng,
+        "cloth2.png": _cloth2src_assets_labs_Effects_clothpng,
+        "cloth3.png": _cloth3src_assets_labs_Effects_clothpng,
+        "cloth4.png": _cloth4src_assets_labs_Effects_clothpng,
+        "cloth5.png": _cloth5src_assets_labs_Effects_clothpng,
+        "cloth_lab_initial.ma": _cloth_lab_initialsrc_assets_labs_Effects_clothma,
+        "hi-res-wrap.gif": _hi_res_wrapsrc_assets_labs_Effects_clothgif,
+        "no_collide.gif": _no_collidesrc_assets_labs_Effects_clothgif
+      },
+      "markdown": [
+        _clothsrc_assets_labs_Effects_clothmd,
+        "Effects/cloth"
+      ],
+      "thumbnail": _THUMBNAILsrc_assets_labs_Effects_clothpng
+    },
+    "fluids": {
+      "images": {
+        "Animation.gif": _Animationsrc_assets_labs_Effects_fluidsgif,
+        "Animation2.gif": _Animation2src_assets_labs_Effects_fluidsgif,
+        "Capture.png": _Capturesrc_assets_labs_Effects_fluidspng,
+        "Capture11.png": _Capture11src_assets_labs_Effects_fluidspng,
+        "Capture12.png": _Capture12src_assets_labs_Effects_fluidspng,
+        "Capture14.png": _Capture14src_assets_labs_Effects_fluidspng,
+        "Capture17.png": _Capture17src_assets_labs_Effects_fluidspng,
+        "Capture2.png": _Capture2src_assets_labs_Effects_fluidspng,
+        "Capture3.png": _Capture3src_assets_labs_Effects_fluidspng,
+        "Capture4.png": _Capture4src_assets_labs_Effects_fluidspng,
+        "Capture5.png": _Capture5src_assets_labs_Effects_fluidspng,
+        "Capture7.png": _Capture7src_assets_labs_Effects_fluidspng,
+        "Capture8.png": _Capture8src_assets_labs_Effects_fluidspng,
+        "Capture9.png": _Capture9src_assets_labs_Effects_fluidspng,
+        "fire.ma": _firesrc_assets_labs_Effects_fluidsma,
+        "fire_lab.mp4": _fire_labsrc_assets_labs_Effects_fluidsmp4,
+        "fire_lab_2.png": _fire_lab_2src_assets_labs_Effects_fluidspng,
+        "fire_lab_3.png": _fire_lab_3src_assets_labs_Effects_fluidspng,
+        "fire_lab_4.png": _fire_lab_4src_assets_labs_Effects_fluidspng,
+        "fire_lab_5.png": _fire_lab_5src_assets_labs_Effects_fluidspng,
+        "fire_lab_one.png": _fire_lab_onesrc_assets_labs_Effects_fluidspng,
+        "fire_lab_rate1.png": _fire_lab_rate1src_assets_labs_Effects_fluidspng,
+        "fire_lab_rate2.png": _fire_lab_rate2src_assets_labs_Effects_fluidspng,
+        "fiyah.mp4": _fiyahsrc_assets_labs_Effects_fluidsmp4,
+        "fluids_lab_initial.ma": _fluids_lab_initialsrc_assets_labs_Effects_fluidsma,
+        "ncache_1.png": _ncache_1src_assets_labs_Effects_fluidspng,
+        "ncache_2.png": _ncache_2src_assets_labs_Effects_fluidspng
+      },
+      "markdown": [
+        _fluidssrc_assets_labs_Effects_fluidsmd,
+        "Effects/fluids"
+      ],
+      "thumbnail": _THUMBNAILsrc_assets_labs_Effects_fluidspng
+    },
+    "xgen": {
+      "images": {
+        "BlackHair.png": _BlackHairsrc_assets_labs_Effects_xgenpng,
+        "CreateDescription.png": _CreateDescriptionsrc_assets_labs_Effects_xgenpng,
+        "CreatePxr.png": _CreatePxrsrc_assets_labs_Effects_xgenpng,
+        "EyeBalls.png": _EyeBallssrc_assets_labs_Effects_xgenpng,
+        "FullHeadGroom.png": _FullHeadGroomsrc_assets_labs_Effects_xgenpng,
+        "GroomedHair.png": _GroomedHairsrc_assets_labs_Effects_xgenpng,
+        "GuideHairSettings.png": _GuideHairSettingssrc_assets_labs_Effects_xgenpng,
+        "HairBasicShader.png": _HairBasicShadersrc_assets_labs_Effects_xgenpng,
+        "HairColor.png": _HairColorsrc_assets_labs_Effects_xgenpng,
+        "HairSelect.png": _HairSelectsrc_assets_labs_Effects_xgenpng,
+        "HairSelectInverse.png": _HairSelectInversesrc_assets_labs_Effects_xgenpng,
+        "HeadModel.png": _HeadModelsrc_assets_labs_Effects_xgenpng,
+        "HeadScalp.png": _HeadScalpsrc_assets_labs_Effects_xgenpng,
+        "Hypershade1.png": _Hypershade1src_assets_labs_Effects_xgenpng,
+        "Hypershade2.png": _Hypershade2src_assets_labs_Effects_xgenpng,
+        "Length.png": _Lengthsrc_assets_labs_Effects_xgenpng,
+        "NewDescription.png": _NewDescriptionsrc_assets_labs_Effects_xgenpng,
+        "Render.png": _Rendersrc_assets_labs_Effects_xgenpng,
+        "Renderer.png": _Renderersrc_assets_labs_Effects_xgenpng,
+        "RendermanSettings.png": _RendermanSettingssrc_assets_labs_Effects_xgenpng,
+        "Scalp.png": _Scalpsrc_assets_labs_Effects_xgenpng,
+        "XgenWindow.png": _XgenWindowsrc_assets_labs_Effects_xgenpng
+      },
+      "thumbnail": _THUMBNAILsrc_assets_labs_Effects_xgenpng,
+      "markdown": [
+        _xgensrc_assets_labs_Effects_xgenmd,
+        "Effects/xgen"
+      ]
+    }
+  },
   "Introduction_To_Maya": {
     "introduction_to_maya": {
       "images": {
@@ -987,7 +1751,8 @@ const data = {
       "markdown": [
         _introduction_to_mayasrc_assets_labs_Introduction_To_Maya_introduction_to_mayamd,
         "Introduction_To_Maya/introduction_to_maya"
-      ]
+      ],
+      "thumbnail": _THUMBNAILsrc_assets_labs_Introduction_To_Maya_introduction_to_mayapng
     }
   },
   "Lighting": {
@@ -1036,7 +1801,8 @@ const data = {
       "markdown": [
         _lighting_1src_assets_labs_Lighting_lighting_1md,
         "Lighting/lighting_1"
-      ]
+      ],
+      "thumbnail": _THUMBNAILsrc_assets_labs_Lighting_lighting_1png
     },
     "lighting_2": {
       "images": {
@@ -1074,7 +1840,8 @@ const data = {
       "markdown": [
         _lighting_2src_assets_labs_Lighting_lighting_2md,
         "Lighting/lighting_2"
-      ]
+      ],
+      "thumbnail": _THUMBNAILsrc_assets_labs_Lighting_lighting_2png
     }
   },
   "Modeling": {
@@ -1183,7 +1950,8 @@ const data = {
         "markdown": [
           _hard_surface_modelingsrc_assets_labs_Modeling_Advanced_hard_surface_modelingmd,
           "Modeling/Advanced/hard_surface_modeling"
-        ]
+        ],
+        "thumbnail": _THUMBNAILsrc_assets_labs_Modeling_Advanced_hard_surface_modelingpng
       },
       "node_editor": {
         "images": {
@@ -1207,7 +1975,8 @@ const data = {
         "markdown": [
           _node_editorsrc_assets_labs_Modeling_Advanced_node_editormd,
           "Modeling/Advanced/node_editor"
-        ]
+        ],
+        "thumbnail": _THUMBNAILsrc_assets_labs_Modeling_Advanced_node_editorpng
       },
       "organic_modeling_dragon": {
         "images": {
@@ -1317,7 +2086,8 @@ const data = {
         "markdown": [
           _organic_modeling_dragonsrc_assets_labs_Modeling_Advanced_organic_modeling_dragonmd,
           "Modeling/Advanced/organic_modeling_dragon"
-        ]
+        ],
+        "thumbnail": _THUMBNAILsrc_assets_labs_Modeling_Advanced_organic_modeling_dragonpng
       },
       "organic_modeling_human": {
         "Accessories": {
@@ -1629,7 +2399,8 @@ const data = {
             "27_liveSurface.png": _27_liveSurfacesrc_assets_labs_Modeling_Advanced_organic_modeling_human_Sculptingpng,
             "28_quadDraw.png": _28_quadDrawsrc_assets_labs_Modeling_Advanced_organic_modeling_human_Sculptingpng
           }
-        }
+        },
+        "thumbnail": _THUMBNAILsrc_assets_labs_Modeling_Advanced_organic_modeling_humanpng
       }
     },
     "Basic": {
@@ -1811,8 +2582,180 @@ const data = {
         "markdown": [
           _modeling_2src_assets_labs_Modeling_Basic_modeling_2md,
           "Modeling/Basic/modeling_2"
-        ]
+        ],
+        "thumbnail": _THUMBNAILsrc_assets_labs_Modeling_Basic_modeling_2jpg
       }
+    }
+  },
+  "Post_Production": {
+    "compositing_layer_management": {
+      "images": {
+        "blah.gif": _blahsrc_assets_labs_Post_Production_compositing_layer_managementgif,
+        "blur.png": _blursrc_assets_labs_Post_Production_compositing_layer_managementpng,
+        "clickdrag.gif": _clickdragsrc_assets_labs_Post_Production_compositing_layer_managementgif,
+        "color.gif": _colorsrc_assets_labs_Post_Production_compositing_layer_managementgif,
+        "editedfire.gif": _editedfiresrc_assets_labs_Post_Production_compositing_layer_managementgif,
+        "eraser1.gif": _eraser1src_assets_labs_Post_Production_compositing_layer_managementgif,
+        "fiayer-h-ydk.gif": _fiayer_h_ydksrc_assets_labs_Post_Production_compositing_layer_managementgif,
+        "fireanchorpoint.gif": _fireanchorpointsrc_assets_labs_Post_Production_compositing_layer_managementgif,
+        "h2o.gif": _h2osrc_assets_labs_Post_Production_compositing_layer_managementgif,
+        "ha.gif": _hasrc_assets_labs_Post_Production_compositing_layer_managementgif,
+        "matte.gif": _mattesrc_assets_labs_Post_Production_compositing_layer_managementgif,
+        "ok.gif": _oksrc_assets_labs_Post_Production_compositing_layer_managementgif,
+        "resize.gif": _resizesrc_assets_labs_Post_Production_compositing_layer_managementgif,
+        "scalefire.gif": _scalefiresrc_assets_labs_Post_Production_compositing_layer_managementgif,
+        "scalekeys.gif": _scalekeyssrc_assets_labs_Post_Production_compositing_layer_managementgif,
+        "Screen Shot 2016-04-04 at 2.38.31 PM.png": _Screen_Shot_2016_04_04_at_2_38_31_PMsrc_assets_labs_Post_Production_compositing_layer_managementpng,
+        "Screen Shot 2016-04-04 at 2.41.31 PM.png": _Screen_Shot_2016_04_04_at_2_41_31_PMsrc_assets_labs_Post_Production_compositing_layer_managementpng,
+        "Screen Shot 2016-04-09 at 3.34.12 PM.png": _Screen_Shot_2016_04_09_at_3_34_12_PMsrc_assets_labs_Post_Production_compositing_layer_managementpng,
+        "Screen Shot 2016-04-09 at 3.53.32 PM.png": _Screen_Shot_2016_04_09_at_3_53_32_PMsrc_assets_labs_Post_Production_compositing_layer_managementpng,
+        "Screen Shot 2016-04-09 at 4.02.20 PM.png": _Screen_Shot_2016_04_09_at_4_02_20_PMsrc_assets_labs_Post_Production_compositing_layer_managementpng,
+        "Screen Shot 2016-04-09 at 4.04.46 PM.png": _Screen_Shot_2016_04_09_at_4_04_46_PMsrc_assets_labs_Post_Production_compositing_layer_managementpng,
+        "Screen Shot 2016-04-10 at 10.03.48 PM.png": _Screen_Shot_2016_04_10_at_10_03_48_PMsrc_assets_labs_Post_Production_compositing_layer_managementpng,
+        "Screen Shot 2016-04-10 at 11.31.16 PM.png": _Screen_Shot_2016_04_10_at_11_31_16_PMsrc_assets_labs_Post_Production_compositing_layer_managementpng,
+        "Screen Shot 2016-04-10 at 11.38.17 PM.png": _Screen_Shot_2016_04_10_at_11_38_17_PMsrc_assets_labs_Post_Production_compositing_layer_managementpng,
+        "Screen Shot 2016-04-10 at 11.40.19 PM.png": _Screen_Shot_2016_04_10_at_11_40_19_PMsrc_assets_labs_Post_Production_compositing_layer_managementpng,
+        "Screen Shot 2016-04-10 at 11.45.48 PM.png": _Screen_Shot_2016_04_10_at_11_45_48_PMsrc_assets_labs_Post_Production_compositing_layer_managementpng,
+        "Screen Shot 2016-04-10 at 4.50.18 PM.png": _Screen_Shot_2016_04_10_at_4_50_18_PMsrc_assets_labs_Post_Production_compositing_layer_managementpng,
+        "Screen Shot 2016-04-10 at 4.50.34 PM.png": _Screen_Shot_2016_04_10_at_4_50_34_PMsrc_assets_labs_Post_Production_compositing_layer_managementpng,
+        "Screen Shot 2016-04-10 at 5.06.58 PM.png": _Screen_Shot_2016_04_10_at_5_06_58_PMsrc_assets_labs_Post_Production_compositing_layer_managementpng,
+        "Screen Shot 2016-04-10 at 5.11.39 PM.png": _Screen_Shot_2016_04_10_at_5_11_39_PMsrc_assets_labs_Post_Production_compositing_layer_managementpng,
+        "Screen Shot 2016-04-10 at 5.17.12 PM.png": _Screen_Shot_2016_04_10_at_5_17_12_PMsrc_assets_labs_Post_Production_compositing_layer_managementpng,
+        "Screen Shot 2016-04-10 at 5.30.31 PM.png": _Screen_Shot_2016_04_10_at_5_30_31_PMsrc_assets_labs_Post_Production_compositing_layer_managementpng,
+        "Screen Shot 2016-04-10 at 5.49.25 PM.png": _Screen_Shot_2016_04_10_at_5_49_25_PMsrc_assets_labs_Post_Production_compositing_layer_managementpng,
+        "Screen Shot 2016-04-10 at 5.52.50 PM.png": _Screen_Shot_2016_04_10_at_5_52_50_PMsrc_assets_labs_Post_Production_compositing_layer_managementpng,
+        "Screen Shot 2016-04-10 at 6.15.14 PM.png": _Screen_Shot_2016_04_10_at_6_15_14_PMsrc_assets_labs_Post_Production_compositing_layer_managementpng,
+        "Screen Shot 2016-04-10 at 6.58.44 PM.png": _Screen_Shot_2016_04_10_at_6_58_44_PMsrc_assets_labs_Post_Production_compositing_layer_managementpng,
+        "Screen Shot 2016-04-10 at 7.02.27 PM.png": _Screen_Shot_2016_04_10_at_7_02_27_PMsrc_assets_labs_Post_Production_compositing_layer_managementpng,
+        "Screen Shot 2016-04-10 at 8.51.30 PM.png": _Screen_Shot_2016_04_10_at_8_51_30_PMsrc_assets_labs_Post_Production_compositing_layer_managementpng,
+        "Screen Shot 2016-04-10 at 9.13.35 PM.png": _Screen_Shot_2016_04_10_at_9_13_35_PMsrc_assets_labs_Post_Production_compositing_layer_managementpng,
+        "Screen Shot 2016-04-10 at 9.22.58 PM.png": _Screen_Shot_2016_04_10_at_9_22_58_PMsrc_assets_labs_Post_Production_compositing_layer_managementpng,
+        "Screen Shot 2016-04-10 at 9.25.31 PM.png": _Screen_Shot_2016_04_10_at_9_25_31_PMsrc_assets_labs_Post_Production_compositing_layer_managementpng,
+        "Screen Shot 2016-04-11 at 1.06.13 AM.png": _Screen_Shot_2016_04_11_at_1_06_13_AMsrc_assets_labs_Post_Production_compositing_layer_managementpng,
+        "Screen Shot 2016-04-11 at 1.06.36 PM.png": _Screen_Shot_2016_04_11_at_1_06_36_PMsrc_assets_labs_Post_Production_compositing_layer_managementpng,
+        "Screen Shot 2016-04-11 at 1.08.26 AM.png": _Screen_Shot_2016_04_11_at_1_08_26_AMsrc_assets_labs_Post_Production_compositing_layer_managementpng,
+        "Screen Shot 2016-04-11 at 1.10.22 PM.png": _Screen_Shot_2016_04_11_at_1_10_22_PMsrc_assets_labs_Post_Production_compositing_layer_managementpng,
+        "Screen Shot 2016-04-11 at 1.14.19 AM.png": _Screen_Shot_2016_04_11_at_1_14_19_AMsrc_assets_labs_Post_Production_compositing_layer_managementpng,
+        "Screen Shot 2016-04-11 at 1.18.59 PM.png": _Screen_Shot_2016_04_11_at_1_18_59_PMsrc_assets_labs_Post_Production_compositing_layer_managementpng,
+        "Screen Shot 2016-04-11 at 1.36.58 PM.png": _Screen_Shot_2016_04_11_at_1_36_58_PMsrc_assets_labs_Post_Production_compositing_layer_managementpng,
+        "Screen Shot 2016-04-11 at 1.39.00 PM.png": _Screen_Shot_2016_04_11_at_1_39_00_PMsrc_assets_labs_Post_Production_compositing_layer_managementpng,
+        "Screen Shot 2016-04-11 at 1.41.59 PM.png": _Screen_Shot_2016_04_11_at_1_41_59_PMsrc_assets_labs_Post_Production_compositing_layer_managementpng,
+        "Screen Shot 2016-04-11 at 1.45.16 PM.png": _Screen_Shot_2016_04_11_at_1_45_16_PMsrc_assets_labs_Post_Production_compositing_layer_managementpng,
+        "Screen Shot 2016-04-11 at 12.09.35 AM.png": _Screen_Shot_2016_04_11_at_12_09_35_AMsrc_assets_labs_Post_Production_compositing_layer_managementpng,
+        "Screen Shot 2016-04-11 at 12.14.12 AM.png": _Screen_Shot_2016_04_11_at_12_14_12_AMsrc_assets_labs_Post_Production_compositing_layer_managementpng,
+        "Screen Shot 2016-04-11 at 12.16.44 AM.png": _Screen_Shot_2016_04_11_at_12_16_44_AMsrc_assets_labs_Post_Production_compositing_layer_managementpng,
+        "Screen Shot 2016-04-11 at 12.45.58 PM.png": _Screen_Shot_2016_04_11_at_12_45_58_PMsrc_assets_labs_Post_Production_compositing_layer_managementpng,
+        "Screen Shot 2016-04-11 at 2.11.39 PM.png": _Screen_Shot_2016_04_11_at_2_11_39_PMsrc_assets_labs_Post_Production_compositing_layer_managementpng,
+        "Screen Shot 2016-04-11 at 2.22.04 PM.png": _Screen_Shot_2016_04_11_at_2_22_04_PMsrc_assets_labs_Post_Production_compositing_layer_managementpng,
+        "Screen Shot 2016-04-11 at 2.33.38 PM.png": _Screen_Shot_2016_04_11_at_2_33_38_PMsrc_assets_labs_Post_Production_compositing_layer_managementpng,
+        "Screen Shot 2016-04-11 at 2.39.33 AM.png": _Screen_Shot_2016_04_11_at_2_39_33_AMsrc_assets_labs_Post_Production_compositing_layer_managementpng,
+        "Screen Shot 2016-04-11 at 2.50.56 PM.png": _Screen_Shot_2016_04_11_at_2_50_56_PMsrc_assets_labs_Post_Production_compositing_layer_managementpng,
+        "Screen Shot 2016-04-11 at 4.30.15 AM.png": _Screen_Shot_2016_04_11_at_4_30_15_AMsrc_assets_labs_Post_Production_compositing_layer_managementpng,
+        "toolboop.png": _toolboopsrc_assets_labs_Post_Production_compositing_layer_managementpng,
+        "transform.gif": _transformsrc_assets_labs_Post_Production_compositing_layer_managementgif,
+        "yay.gif": _yaysrc_assets_labs_Post_Production_compositing_layer_managementgif
+      },
+      "markdown": [
+        _compositing___layer_managementsrc_assets_labs_Post_Production_compositing_layer_managementmd,
+        "Post_Production/compositing_layer_management"
+      ],
+      "thumbnail": _THUMBNAILsrc_assets_labs_Post_Production_compositing_layer_managementpng
+    },
+    "compositing_motion_tracking": {
+      "images": {
+        "001.png": _001src_assets_labs_Post_Production_compositing_motion_trackingpng,
+        "001_mute.png": _001_mutesrc_assets_labs_Post_Production_compositing_motion_trackingpng,
+        "002.png": _002src_assets_labs_Post_Production_compositing_motion_trackingpng,
+        "003.png": _003src_assets_labs_Post_Production_compositing_motion_trackingpng,
+        "004.gif": _004src_assets_labs_Post_Production_compositing_motion_trackinggif,
+        "004.mp4": _004src_assets_labs_Post_Production_compositing_motion_trackingmp4,
+        "005.png": _005src_assets_labs_Post_Production_compositing_motion_trackingpng,
+        "006.png": _006src_assets_labs_Post_Production_compositing_motion_trackingpng,
+        "007.png": _007src_assets_labs_Post_Production_compositing_motion_trackingpng,
+        "008.png": _008src_assets_labs_Post_Production_compositing_motion_trackingpng,
+        "009.png": _009src_assets_labs_Post_Production_compositing_motion_trackingpng,
+        "010.gif": _010src_assets_labs_Post_Production_compositing_motion_trackinggif,
+        "010.mp4": _010src_assets_labs_Post_Production_compositing_motion_trackingmp4,
+        "011.gif": _011src_assets_labs_Post_Production_compositing_motion_trackinggif,
+        "011.mp4": _011src_assets_labs_Post_Production_compositing_motion_trackingmp4,
+        "012.png": _012src_assets_labs_Post_Production_compositing_motion_trackingpng,
+        "013.png": _013src_assets_labs_Post_Production_compositing_motion_trackingpng,
+        "014.png": _014src_assets_labs_Post_Production_compositing_motion_trackingpng,
+        "015.png": _015src_assets_labs_Post_Production_compositing_motion_trackingpng,
+        "016.png": _016src_assets_labs_Post_Production_compositing_motion_trackingpng,
+        "017.png": _017src_assets_labs_Post_Production_compositing_motion_trackingpng,
+        "017_2.png": _017_2src_assets_labs_Post_Production_compositing_motion_trackingpng,
+        "018.png": _018src_assets_labs_Post_Production_compositing_motion_trackingpng,
+        "019.png": _019src_assets_labs_Post_Production_compositing_motion_trackingpng,
+        "020.png": _020src_assets_labs_Post_Production_compositing_motion_trackingpng,
+        "021.png": _021src_assets_labs_Post_Production_compositing_motion_trackingpng,
+        "022.png": _022src_assets_labs_Post_Production_compositing_motion_trackingpng,
+        "023.png": _023src_assets_labs_Post_Production_compositing_motion_trackingpng,
+        "024.png": _024src_assets_labs_Post_Production_compositing_motion_trackingpng,
+        "025.png": _025src_assets_labs_Post_Production_compositing_motion_trackingpng,
+        "026.png": _026src_assets_labs_Post_Production_compositing_motion_trackingpng,
+        "027.gif": _027src_assets_labs_Post_Production_compositing_motion_trackinggif,
+        "028.png": _028src_assets_labs_Post_Production_compositing_motion_trackingpng,
+        "029.gif": _029src_assets_labs_Post_Production_compositing_motion_trackinggif,
+        "029.mp4": _029src_assets_labs_Post_Production_compositing_motion_trackingmp4,
+        "030.png": _030src_assets_labs_Post_Production_compositing_motion_trackingpng,
+        "032.png": _032src_assets_labs_Post_Production_compositing_motion_trackingpng,
+        "Nickelstats.mp4": _Nickelstatssrc_assets_labs_Post_Production_compositing_motion_trackingmp4,
+        "Nickelstats.png": _Nickelstatssrc_assets_labs_Post_Production_compositing_motion_trackingpng,
+        "Nickelstats_part1.gif": _Nickelstats_part1src_assets_labs_Post_Production_compositing_motion_trackinggif,
+        "Nickelstats_part2.gif": _Nickelstats_part2src_assets_labs_Post_Production_compositing_motion_trackinggif,
+        "spacesinfilepaths.png": _spacesinfilepathssrc_assets_labs_Post_Production_compositing_motion_trackingpng
+      },
+      "markdown": [
+        _compositing___motion_trackingsrc_assets_labs_Post_Production_compositing_motion_trackingmd,
+        "Post_Production/compositing_motion_tracking"
+      ],
+      "thumbnail": _THUMBNAILsrc_assets_labs_Post_Production_compositing_motion_trackingpng
+    },
+    "compositing_particles": {
+      "markdown": [
+        _compositing___particlessrc_assets_labs_Post_Production_compositing_particlesmd,
+        "Post_Production/compositing_particles"
+      ],
+      "images": {
+        "comp_settings.png": _comp_settingssrc_assets_labs_Post_Production_compositing_particlespng,
+        "create_adjustment_layer.gif": _create_adjustment_layersrc_assets_labs_Post_Production_compositing_particlesgif,
+        "particle_world_overview.png": _particle_world_overviewsrc_assets_labs_Post_Production_compositing_particlespng,
+        "pre_comp.gif": _pre_compsrc_assets_labs_Post_Production_compositing_particlesgif,
+        "shape_out_ps.gif": _shape_out_pssrc_assets_labs_Post_Production_compositing_particlesgif,
+        "show_shape.gif": _show_shapesrc_assets_labs_Post_Production_compositing_particlesgif,
+        "snow_day.exr": _snow_daysrc_assets_labs_Post_Production_compositing_particlesexr,
+        "snow_physics.gif": _snow_physicssrc_assets_labs_Post_Production_compositing_particlesgif
+      },
+      "thumbnail": _THUMBNAILsrc_assets_labs_Post_Production_compositing_particlespng
+    },
+    "rendering": {
+      "images": {
+        "batchRender.png": _batchRendersrc_assets_labs_Post_Production_renderingpng,
+        "batchRender_monitor.png": _batchRender_monitorsrc_assets_labs_Post_Production_renderingpng,
+        "chanelBoxLayerAdd.png": _chanelBoxLayerAddsrc_assets_labs_Post_Production_renderingpng,
+        "commonSettings.png": _commonSettingssrc_assets_labs_Post_Production_renderingpng,
+        "denoise.png": _denoisesrc_assets_labs_Post_Production_renderingpng,
+        "denoise_NEW.png": _denoise_NEWsrc_assets_labs_Post_Production_renderingpng,
+        "holdouts.png": _holdoutssrc_assets_labs_Post_Production_renderingpng,
+        "newOutputLocation.png": _newOutputLocationsrc_assets_labs_Post_Production_renderingpng,
+        "plugin manager.png": _plugin_managersrc_assets_labs_Post_Production_renderingpng,
+        "rendermancontrols.png": _rendermancontrolssrc_assets_labs_Post_Production_renderingpng,
+        "renderSettings.png": _renderSettingssrc_assets_labs_Post_Production_renderingpng,
+        "sampling_NEW.png": _sampling_NEWsrc_assets_labs_Post_Production_renderingpng,
+        "Screen Shot 2015-12-01 at 4.25.10 PM.png": _Screen_Shot_2015_12_01_at_4_25_10_PMsrc_assets_labs_Post_Production_renderingpng,
+        "visibleLayer.png": _visibleLayersrc_assets_labs_Post_Production_renderingpng,
+        "workspace.png": _workspacesrc_assets_labs_Post_Production_renderingpng,
+        "zync1.png": _zync1src_assets_labs_Post_Production_renderingpng,
+        "zync2.png": _zync2src_assets_labs_Post_Production_renderingpng,
+        "zyncConsole.png": _zyncConsolesrc_assets_labs_Post_Production_renderingpng,
+        "zyncIN.png": _zyncINsrc_assets_labs_Post_Production_renderingpng,
+        "zyncPlugins.png": _zyncPluginssrc_assets_labs_Post_Production_renderingpng
+      },
+      "markdown": [
+        _renderingsrc_assets_labs_Post_Production_renderingmd,
+        "Post_Production/rendering"
+      ]
     }
   },
   "Pre_Production": {
@@ -1830,7 +2773,8 @@ const data = {
       "markdown": [
         _pre_productionsrc_assets_labs_Pre_Production_pre_productionmd,
         "Pre_Production/pre_production"
-      ]
+      ],
+      "thumbnail": _THUMBNAILsrc_assets_labs_Pre_Production_pre_productionpng
     },
     "production_management": {
       "images": {
@@ -1863,7 +2807,191 @@ const data = {
       "markdown": [
         _production_managementsrc_assets_labs_Pre_Production_production_managementmd,
         "Pre_Production/production_management"
-      ]
+      ],
+      "thumbnail": _THUMBNAILsrc_assets_labs_Pre_Production_production_managementpng
+    }
+  },
+  "Rigging": {
+    "Advanced": {
+      "advanced_rigging": {
+        "images": {
+          "adjusting_foot_controller.gif": _adjusting_foot_controllersrc_assets_labs_Rigging_Advanced_advanced_rigginggif,
+          "attach_curves_option.png": _attach_curves_optionsrc_assets_labs_Rigging_Advanced_advanced_riggingpng,
+          "clustered copy.png": _clustered_copysrc_assets_labs_Rigging_Advanced_advanced_riggingpng,
+          "cluster_controller_view_2.png": _cluster_controller_view_2src_assets_labs_Rigging_Advanced_advanced_riggingpng,
+          "connecting_roll.png": _connecting_rollsrc_assets_labs_Rigging_Advanced_advanced_riggingpng,
+          "controller_hidden_underground.gif": _controller_hidden_undergroundsrc_assets_labs_Rigging_Advanced_advanced_rigginggif,
+          "creating_diamond_controller.gif": _creating_diamond_controllersrc_assets_labs_Rigging_Advanced_advanced_rigginggif,
+          "default_locator copy.png": _default_locator_copysrc_assets_labs_Rigging_Advanced_advanced_riggingpng,
+          "fox_initial_Skeleton.png": _fox_initial_Skeletonsrc_assets_labs_Rigging_Advanced_advanced_riggingpng,
+          "head_controller_position.png": _head_controller_positionsrc_assets_labs_Rigging_Advanced_advanced_riggingpng,
+          "hip_controller.png": _hip_controllersrc_assets_labs_Rigging_Advanced_advanced_riggingpng,
+          "joints_to_spline.png": _joints_to_splinesrc_assets_labs_Rigging_Advanced_advanced_riggingpng,
+          "locators_final_position.png": _locators_final_positionsrc_assets_labs_Rigging_Advanced_advanced_riggingpng,
+          "making_circle_controller.gif": _making_circle_controllersrc_assets_labs_Rigging_Advanced_advanced_rigginggif,
+          "making_cog_controller.gif": _making_cog_controllersrc_assets_labs_Rigging_Advanced_advanced_rigginggif,
+          "master_controller.png": _master_controllersrc_assets_labs_Rigging_Advanced_advanced_riggingpng,
+          "matching_joint_pivot.gif": _matching_joint_pivotsrc_assets_labs_Rigging_Advanced_advanced_rigginggif,
+          "mismatched_pivot_effect.gif": _mismatched_pivot_effectsrc_assets_labs_Rigging_Advanced_advanced_rigginggif,
+          "moving_cluster_controllers.gif": _moving_cluster_controllerssrc_assets_labs_Rigging_Advanced_advanced_rigginggif,
+          "moving_cog_controller.gif": _moving_cog_controllersrc_assets_labs_Rigging_Advanced_advanced_rigginggif,
+          "moving_tail.gif": _moving_tailsrc_assets_labs_Rigging_Advanced_advanced_rigginggif,
+          "resizing_whole_rig.gif": _resizing_whole_rigsrc_assets_labs_Rigging_Advanced_advanced_rigginggif,
+          "roll_and_twist_channels.png": _roll_and_twist_channelssrc_assets_labs_Rigging_Advanced_advanced_riggingpng,
+          "rotate_plane_attribute_editor.png": _rotate_plane_attribute_editorsrc_assets_labs_Rigging_Advanced_advanced_riggingpng,
+          "shoulders_controller.png": _shoulders_controllersrc_assets_labs_Rigging_Advanced_advanced_riggingpng,
+          "testing_parented_oriented_foot_controller.gif": _testing_parented_oriented_foot_controllersrc_assets_labs_Rigging_Advanced_advanced_rigginggif,
+          "twist_roll_in_attributes.gif": _twist_roll_in_attributessrc_assets_labs_Rigging_Advanced_advanced_rigginggif,
+          "updated_box_making.gif": _updated_box_makingsrc_assets_labs_Rigging_Advanced_advanced_rigginggif
+        },
+        "markdown": [
+          _advanced_riggingsrc_assets_labs_Rigging_Advanced_advanced_riggingmd,
+          "Rigging/Advanced/advanced_rigging"
+        ],
+        "thumbnail": _THUMBNAILsrc_assets_labs_Rigging_Advanced_advanced_riggingpng
+      },
+      "rigging_guide": {
+        "markdown": [
+          _rigging_guidesrc_assets_labs_Rigging_Advanced_rigging_guidemd,
+          "Rigging/Advanced/rigging_guide"
+        ]
+      }
+    },
+    "Basic": {
+      "blend_shapes": {
+        "images": {
+          "2.jpg": _2src_assets_labs_Rigging_Basic_blend_shapesjpg,
+          "4.jpg": _4src_assets_labs_Rigging_Basic_blend_shapesjpg,
+          "4.png": _4src_assets_labs_Rigging_Basic_blend_shapespng,
+          "5.jpg": _5src_assets_labs_Rigging_Basic_blend_shapesjpg,
+          "blendshapes_all_in_viewport.png": _blendshapes_all_in_viewportsrc_assets_labs_Rigging_Basic_blend_shapespng,
+          "blendshape_bunny.ma": _blendshape_bunnysrc_assets_labs_Rigging_Basic_blend_shapesma,
+          "bsLab_1.png": _bsLab_1src_assets_labs_Rigging_Basic_blend_shapespng,
+          "bsLab_2.png": _bsLab_2src_assets_labs_Rigging_Basic_blend_shapespng,
+          "bsLab_3.png": _bsLab_3src_assets_labs_Rigging_Basic_blend_shapespng,
+          "bsLab_4.png": _bsLab_4src_assets_labs_Rigging_Basic_blend_shapespng,
+          "bsLab_5.png": _bsLab_5src_assets_labs_Rigging_Basic_blend_shapespng,
+          "DCUBE.gif": _DCUBEsrc_assets_labs_Rigging_Basic_blend_shapesgif,
+          "faces.ma": _facessrc_assets_labs_Rigging_Basic_blend_shapesma,
+          "vid1.gif": _vid1src_assets_labs_Rigging_Basic_blend_shapesgif,
+          "vid2.gif": _vid2src_assets_labs_Rigging_Basic_blend_shapesgif,
+          "vid3.gif": _vid3src_assets_labs_Rigging_Basic_blend_shapesgif,
+          "vid4.gif": _vid4src_assets_labs_Rigging_Basic_blend_shapesgif,
+          "vid5.gif": _vid5src_assets_labs_Rigging_Basic_blend_shapesgif,
+          "vid6.gif": _vid6src_assets_labs_Rigging_Basic_blend_shapesgif,
+          "vid7.gif": _vid7src_assets_labs_Rigging_Basic_blend_shapesgif,
+          "vid8.gif": _vid8src_assets_labs_Rigging_Basic_blend_shapesgif
+        },
+        "markdown": [
+          _blend_shapessrc_assets_labs_Rigging_Basic_blend_shapesmd,
+          "Rigging/Basic/blend_shapes"
+        ],
+        "thumbnail": _THUMBNAILsrc_assets_labs_Rigging_Basic_blend_shapespng
+      },
+      "rigging_1": {
+        "images": {
+          "1.first_joint_placement.png": _1_first_joint_placementsrc_assets_labs_Rigging_Basic_rigging_1png,
+          "10.back_view_finished.png": _10_back_view_finishedsrc_assets_labs_Rigging_Basic_rigging_1png,
+          "11.applying_ik_handle_settings.png": _11_applying_ik_handle_settingssrc_assets_labs_Rigging_Basic_rigging_1png,
+          "12.ik_handle.png": _12_ik_handlesrc_assets_labs_Rigging_Basic_rigging_1png,
+          "2.front_half.png": _2_front_halfsrc_assets_labs_Rigging_Basic_rigging_1png,
+          "3.back_half.png": _3_back_halfsrc_assets_labs_Rigging_Basic_rigging_1png,
+          "4.front_leg.png": _4_front_legsrc_assets_labs_Rigging_Basic_rigging_1png,
+          "5.back_leg.png": _5_back_legsrc_assets_labs_Rigging_Basic_rigging_1png,
+          "6.persp_view_reveals_dimensionality.png": _6_persp_view_reveals_dimensionalitysrc_assets_labs_Rigging_Basic_rigging_1png,
+          "7.fixed_joints_placement.png": _7_fixed_joints_placementsrc_assets_labs_Rigging_Basic_rigging_1png,
+          "8.fixed_ear_joint_placement.png": _8_fixed_ear_joint_placementsrc_assets_labs_Rigging_Basic_rigging_1png,
+          "9.after_mirroring_joints.png": _9_after_mirroring_jointssrc_assets_labs_Rigging_Basic_rigging_1png,
+          "fox_model.ma": _fox_modelsrc_assets_labs_Rigging_Basic_rigging_1ma,
+          "joint_to_mirror.png": _joint_to_mirrorsrc_assets_labs_Rigging_Basic_rigging_1png,
+          "orient_joints.png": _orient_jointssrc_assets_labs_Rigging_Basic_rigging_1png,
+          "outliner_unnamed_new.png": _outliner_unnamed_newsrc_assets_labs_Rigging_Basic_rigging_1png,
+          "tail_joints_edges.png": _tail_joints_edgessrc_assets_labs_Rigging_Basic_rigging_1png
+        },
+        "markdown": [
+          _rigging_1src_assets_labs_Rigging_Basic_rigging_1md,
+          "Rigging/Basic/rigging_1"
+        ],
+        "thumbnail": _THUMBNAILsrc_assets_labs_Rigging_Basic_rigging_1png
+      },
+      "rigging_2": {
+        "images": {
+          "belly.png": _bellysrc_assets_labs_Rigging_Basic_rigging_2png,
+          "buddies.png": _buddiessrc_assets_labs_Rigging_Basic_rigging_2png,
+          "cbox.png": _cboxsrc_assets_labs_Rigging_Basic_rigging_2png,
+          "cbox2.png": _cbox2src_assets_labs_Rigging_Basic_rigging_2png,
+          "collar.png": _collarsrc_assets_labs_Rigging_Basic_rigging_2png,
+          "dee.png": _deesrc_assets_labs_Rigging_Basic_rigging_2png,
+          "dent.png": _dentsrc_assets_labs_Rigging_Basic_rigging_2png,
+          "ellipse.png": _ellipsesrc_assets_labs_Rigging_Basic_rigging_2png,
+          "everything.png": _everythingsrc_assets_labs_Rigging_Basic_rigging_2png,
+          "eyes.ma": _eyessrc_assets_labs_Rigging_Basic_rigging_2ma,
+          "FKt2.png": _FKt2src_assets_labs_Rigging_Basic_rigging_2png,
+          "fktail.png": _fktailsrc_assets_labs_Rigging_Basic_rigging_2png,
+          "follow.png": _followsrc_assets_labs_Rigging_Basic_rigging_2png,
+          "fox_and_joints.ma": _fox_and_jointssrc_assets_labs_Rigging_Basic_rigging_2ma,
+          "hmm2.png": _hmm2src_assets_labs_Rigging_Basic_rigging_2png,
+          "ik_handle.png": _ik_handlesrc_assets_labs_Rigging_Basic_rigging_2png,
+          "ik_outliner.png": _ik_outlinersrc_assets_labs_Rigging_Basic_rigging_2png,
+          "imsosorry.png": _imsosorrysrc_assets_labs_Rigging_Basic_rigging_2png,
+          "leftbehind.png": _leftbehindsrc_assets_labs_Rigging_Basic_rigging_2png,
+          "locator.png": _locatorsrc_assets_labs_Rigging_Basic_rigging_2png,
+          "locatorpositioning.png": _locatorpositioningsrc_assets_labs_Rigging_Basic_rigging_2png,
+          "master.png": _mastersrc_assets_labs_Rigging_Basic_rigging_2png,
+          "moreneat.png": _moreneatsrc_assets_labs_Rigging_Basic_rigging_2png,
+          "neato.png": _neatosrc_assets_labs_Rigging_Basic_rigging_2png,
+          "neck.png": _necksrc_assets_labs_Rigging_Basic_rigging_2png,
+          "nofeet.png": _nofeetsrc_assets_labs_Rigging_Basic_rigging_2png,
+          "normalfox.png": _normalfoxsrc_assets_labs_Rigging_Basic_rigging_2png,
+          "ortho2.png": _ortho2src_assets_labs_Rigging_Basic_rigging_2png,
+          "outliner_01.png": _outliner_01src_assets_labs_Rigging_Basic_rigging_2png,
+          "overrides.png": _overridessrc_assets_labs_Rigging_Basic_rigging_2png,
+          "o_______o.png": _o_______osrc_assets_labs_Rigging_Basic_rigging_2png,
+          "parent.png": _parentsrc_assets_labs_Rigging_Basic_rigging_2png,
+          "pivot.png": _pivotsrc_assets_labs_Rigging_Basic_rigging_2png,
+          "point1.png": _point1src_assets_labs_Rigging_Basic_rigging_2png,
+          "point2.png": _point2src_assets_labs_Rigging_Basic_rigging_2png,
+          "pSphereShape1_color.iff": _pSphereShape1_colorsrc_assets_labs_Rigging_Basic_rigging_2iff,
+          "rigging.png": _riggingsrc_assets_labs_Rigging_Basic_rigging_2png,
+          "riglab1.png": _riglab1src_assets_labs_Rigging_Basic_rigging_2png,
+          "rotat.png": _rotatsrc_assets_labs_Rigging_Basic_rigging_2png,
+          "selected.png": _selectedsrc_assets_labs_Rigging_Basic_rigging_2png,
+          "shifty.png": _shiftysrc_assets_labs_Rigging_Basic_rigging_2png,
+          "skinning3.jpg": _skinning3src_assets_labs_Rigging_Basic_rigging_2jpg,
+          "snap.png": _snapsrc_assets_labs_Rigging_Basic_rigging_2png,
+          "toe.png": _toesrc_assets_labs_Rigging_Basic_rigging_2png,
+          "toeconst.png": _toeconstsrc_assets_labs_Rigging_Basic_rigging_2png,
+          "vee.png": _veesrc_assets_labs_Rigging_Basic_rigging_2png
+        },
+        "markdown": [
+          _rigging_2src_assets_labs_Rigging_Basic_rigging_2md,
+          "Rigging/Basic/rigging_2"
+        ],
+        "thumbnail": _THUMBNAILsrc_assets_labs_Rigging_Basic_rigging_2png
+      },
+      "skinning": {
+        "images": {
+          "blobber_going_wrong.gif": _blobber_going_wrongsrc_assets_labs_Rigging_Basic_skinninggif,
+          "candy_wrapper_1.gif": _candy_wrapper_1src_assets_labs_Rigging_Basic_skinninggif,
+          "dual_quaternion.gif": _dual_quaternionsrc_assets_labs_Rigging_Basic_skinninggif,
+          "edit_posed.gif": _edit_posedsrc_assets_labs_Rigging_Basic_skinninggif,
+          "rigged_blobber.ma": _rigged_blobbersrc_assets_labs_Rigging_Basic_skinningma,
+          "skinning10.png": _skinning10src_assets_labs_Rigging_Basic_skinningpng,
+          "skinning3.jpg": _skinning3src_assets_labs_Rigging_Basic_skinningjpg,
+          "skinning6.jpg": _skinning6src_assets_labs_Rigging_Basic_skinningjpg,
+          "skinning7.jpg": _skinning7src_assets_labs_Rigging_Basic_skinningjpg,
+          "skinning8.png": _skinning8src_assets_labs_Rigging_Basic_skinningpng,
+          "skinning9.png": _skinning9src_assets_labs_Rigging_Basic_skinningpng,
+          "testing_edited_elbow.gif": _testing_edited_elbowsrc_assets_labs_Rigging_Basic_skinninggif,
+          "unedited_elbow.gif": _unedited_elbowsrc_assets_labs_Rigging_Basic_skinninggif,
+          "updated_legs_going_wrong_2.gif": _updated_legs_going_wrong_2src_assets_labs_Rigging_Basic_skinninggif
+        },
+        "markdown": [
+          _skinningsrc_assets_labs_Rigging_Basic_skinningmd,
+          "Rigging/Basic/skinning"
+        ],
+        "thumbnail": _THUMBNAILsrc_assets_labs_Rigging_Basic_skinningpng
+      }
     }
   },
   "Shading": {
@@ -1894,7 +3022,8 @@ const data = {
         "markdown": [
           _hypershadesrc_assets_labs_Shading_Advanced_hypershademd,
           "Shading/Advanced/hypershade"
-        ]
+        ],
+        "thumbnail": _THUMBNAILsrc_assets_labs_Shading_Advanced_hypershadepng
       }
     },
     "Basic": {
@@ -1951,7 +3080,8 @@ const data = {
         "markdown": [
           _basic_materialssrc_assets_labs_Shading_Basic_basic_materialsmd,
           "Shading/Basic/basic_materials"
-        ]
+        ],
+        "thumbnail": _THUMBNAILsrc_assets_labs_Shading_Basic_basic_materialsjpg
       },
       "shading_guide": {
         "images": {
@@ -1973,7 +3103,8 @@ const data = {
         "markdown": [
           _shading_guidesrc_assets_labs_Shading_Basic_shading_guidemd,
           "Shading/Basic/shading_guide"
-        ]
+        ],
+        "thumbnail": _THUMBNAILsrc_assets_labs_Shading_Basic_shading_guidejpg
       },
       "toon_shading": {
         "images": {
@@ -2045,6 +3176,7 @@ const data = {
           "WeirdShadows.gif": _WeirdShadowssrc_assets_labs_Shading_Basic_toon_shadinggif,
           "wtfIsThis.gif": _wtfIsThissrc_assets_labs_Shading_Basic_toon_shadinggif
         },
+        "thumbnail": _THUMBNAILsrc_assets_labs_Shading_Basic_toon_shadingpng,
         "markdown": [
           _toon_shadingsrc_assets_labs_Shading_Basic_toon_shadingmd,
           "Shading/Basic/toon_shading"

@@ -40,7 +40,7 @@ const Labs = (props) => {
   };
 
   const MotionLabCard = motion(LabCard);
-  const [date, setDate] = useState(new Date("Apr 10, 2024"));
+  const [date, setDate] = useState(new Date());
 
   const imlosingmymind = (name) => {
     let basicOrAdvanced = null;

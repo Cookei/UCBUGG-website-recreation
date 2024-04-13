@@ -48,6 +48,10 @@ const importThese = [
   "zip",
   "ma",
   "mb",
+  "iff",
+  "mov",
+  "mp4",
+  "exr",
 ];
 
 if (!path) {

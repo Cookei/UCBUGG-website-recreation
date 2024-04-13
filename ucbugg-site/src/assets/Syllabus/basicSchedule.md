@@ -15,7 +15,7 @@
 | Mar 4 / 6 | Basic Rigging | Individual | Group |
 | ^ | ^ | <ul><li>Complete Basic Rigging Lab</li></ul> | <ul><li>Setup skeletons for all characters</li><li>Create blendshapes</li></ul> |
 | Mar 1 / 13 | Advanced Rigging | Individual | Group |
-| ^ | ^ | <ul><li>Complete Advanced Rigging Lab</li></ul> | <ul><li>Add controllers to rigs</li><li>Skin characters</li></ul> |
+| ^ | ^ | <ul><li>Complete Rigging 2 Lab</li></ul> | <ul><li>Add controllers to rigs</li><li>Skin characters</li></ul> |
 | Mar 18 / 20 | Basic Animation | Individual | Group |
 | ^ | ^ | <ul><li>Complete Basic Animation Lab</li></ul> | <ul><li>Start blocking animation</li><li>Set up projects</li></ul> |
 | Mar 25 / 27 | Spring Break | Individual | Group |
@@ -25,7 +25,7 @@
 | Apr 8 / 10 | Advanced Animation | Individual | Group |
 | ^ | ^ | <ul><li>Complete Advanced Animation Lab</li></ul> | <ul><li>Submit refined playblasts</li></ul> |
 | Apr 15 / 17 | Rendering and Compositing | Individual | Group |
-| ^ | ^ | <ul><li>Complete Compositing Lab</li><li>Complete VFX Lab (Extra Credit)</li></ul> | <ul><li>Create lighting rigs</li><li>Submit lighting preview render</li></ul> |
+| ^ | ^ | <ul><li>Complete a Post Production Lab</li><li>Complete VFX Lab (Extra Credit)</li></ul> | <ul><li>Create lighting rigs</li><li>Submit lighting preview render</li></ul> |
 | Apr 22 / 24 | Final Class Critique | Individual | Group |
 | ^ | ^ |  | <ul><li>Final Renders</li><li>Post-production and sound effects</li></ul> |
 | ~ May 3 (TBD) | Final Showcase | > | <br>Location: TBD<br><br>
