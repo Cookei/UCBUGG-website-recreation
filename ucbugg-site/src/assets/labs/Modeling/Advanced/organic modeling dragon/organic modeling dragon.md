@@ -182,7 +182,7 @@ Fill it up with Mesh -> Fill Hole and use the multicut tool to cut it up into Qu
 
 Now go back to the Toes and select areas in preparation for extruding Talons.
 
-![](Cap<ture33.png>)
+![](Capture33.png)
 
 Extrude Talons exactly the same way we extruded the thumb claw in the wing (extrude, pull out, grow, extrude, pull in, shrink, extrude, shrink, pull out far, set division to 4, switch to move tool and curve the talons).
 

@@ -110,7 +110,22 @@ import _verticalsrc_assets_labs_Animating_Basic_animation_1mov from '../assets/l
 import _vertical_NEWsrc_assets_labs_Animating_Basic_animation_1gif from '../assets/labs/Animating/Basic/animation 1/vertical_NEW.gif'
 import _weightedTangentsrc_assets_labs_Animating_Basic_animation_1gif from '../assets/labs/Animating/Basic/animation 1/weightedTangent.gif'
 import _yosrc_assets_labs_Animating_Basic_animation_1gif from '../assets/labs/Animating/Basic/animation 1/yo.gif'
+import _advanced_animsrc_assets_labs_Animating_Basic_animation_2zip from '../assets/labs/Animating/Basic/animation 2/advanced_anim.zip'
 import _animation_2src_assets_labs_Animating_Basic_animation_2md from '../assets/labs/Animating/Basic/animation 2/animation 2.md'
+import _copy_pating_link1_to_link2src_assets_labs_Animating_Basic_animation_2gif from '../assets/labs/Animating/Basic/animation 2/copy_pating_link1_to_link2.gif'
+import _deamp_second_linksrc_assets_labs_Animating_Basic_animation_2gif from '../assets/labs/Animating/Basic/animation 2/deamp_second_link.gif'
+import _left_motion_pendulumsrc_assets_labs_Animating_Basic_animation_2gif from '../assets/labs/Animating/Basic/animation 2/left_motion_pendulum.gif'
+import _left_motion_pendulum_step1src_assets_labs_Animating_Basic_animation_2gif from '../assets/labs/Animating/Basic/animation 2/left_motion_pendulum_step1.gif'
+import _left_motion_pendulum_step2src_assets_labs_Animating_Basic_animation_2gif from '../assets/labs/Animating/Basic/animation 2/left_motion_pendulum_step2.gif'
+import _left_motion_pendulum_step3_2src_assets_labs_Animating_Basic_animation_2gif from '../assets/labs/Animating/Basic/animation 2/left_motion_pendulum_step3_2.gif'
+import _left_motion_pendulum_step4src_assets_labs_Animating_Basic_animation_2gif from '../assets/labs/Animating/Basic/animation 2/left_motion_pendulum_step4.gif'
+import _left_motion_pendulum_step5src_assets_labs_Animating_Basic_animation_2gif from '../assets/labs/Animating/Basic/animation 2/left_motion_pendulum_step5.gif'
+import _left_motion_pendulum_step6src_assets_labs_Animating_Basic_animation_2gif from '../assets/labs/Animating/Basic/animation 2/left_motion_pendulum_step6.gif'
+import _pendulumsrc_assets_labs_Animating_Basic_animation_2mp4 from '../assets/labs/Animating/Basic/animation 2/pendulum.mp4'
+import _pendulum_assignmentsrc_assets_labs_Animating_Basic_animation_2gif from '../assets/labs/Animating/Basic/animation 2/pendulum_assignment.gif'
+import _pendulum_picsrc_assets_labs_Animating_Basic_animation_2png from '../assets/labs/Animating/Basic/animation 2/pendulum_pic.png'
+import _referencesrc_assets_labs_Animating_Basic_animation_2mp4 from '../assets/labs/Animating/Basic/animation 2/reference.mp4'
+import _shifting_second_link_curvesrc_assets_labs_Animating_Basic_animation_2gif from '../assets/labs/Animating/Basic/animation 2/shifting_second_link_curve.gif'
 import _playblastssrc_assets_labs_Animating_Basic_playblastsmd from '../assets/labs/Animating/Basic/playblasts/playblasts.md'
 import _playblasts1src_assets_labs_Animating_Basic_playblastspng from '../assets/labs/Animating/Basic/playblasts/playblasts1.png'
 import _playblasts2src_assets_labs_Animating_Basic_playblastspng from '../assets/labs/Animating/Basic/playblasts/playblasts2.png'
@@ -1581,6 +1596,23 @@ const data = {
         "thumbnail": _THUMBNAILsrc_assets_labs_Animating_Basic_animation_1png
       },
       "animation_2": {
+        "images": {
+          "advanced_anim.zip": _advanced_animsrc_assets_labs_Animating_Basic_animation_2zip,
+          "copy_pating_link1_to_link2.gif": _copy_pating_link1_to_link2src_assets_labs_Animating_Basic_animation_2gif,
+          "deamp_second_link.gif": _deamp_second_linksrc_assets_labs_Animating_Basic_animation_2gif,
+          "left_motion_pendulum.gif": _left_motion_pendulumsrc_assets_labs_Animating_Basic_animation_2gif,
+          "left_motion_pendulum_step1.gif": _left_motion_pendulum_step1src_assets_labs_Animating_Basic_animation_2gif,
+          "left_motion_pendulum_step2.gif": _left_motion_pendulum_step2src_assets_labs_Animating_Basic_animation_2gif,
+          "left_motion_pendulum_step3_2.gif": _left_motion_pendulum_step3_2src_assets_labs_Animating_Basic_animation_2gif,
+          "left_motion_pendulum_step4.gif": _left_motion_pendulum_step4src_assets_labs_Animating_Basic_animation_2gif,
+          "left_motion_pendulum_step5.gif": _left_motion_pendulum_step5src_assets_labs_Animating_Basic_animation_2gif,
+          "left_motion_pendulum_step6.gif": _left_motion_pendulum_step6src_assets_labs_Animating_Basic_animation_2gif,
+          "pendulum.mp4": _pendulumsrc_assets_labs_Animating_Basic_animation_2mp4,
+          "pendulum_assignment.gif": _pendulum_assignmentsrc_assets_labs_Animating_Basic_animation_2gif,
+          "pendulum_pic.png": _pendulum_picsrc_assets_labs_Animating_Basic_animation_2png,
+          "reference.mp4": _referencesrc_assets_labs_Animating_Basic_animation_2mp4,
+          "shifting_second_link_curve.gif": _shifting_second_link_curvesrc_assets_labs_Animating_Basic_animation_2gif
+        },
         "markdown": [
           _animation_2src_assets_labs_Animating_Basic_animation_2md,
           "Animating/Basic/animation_2"

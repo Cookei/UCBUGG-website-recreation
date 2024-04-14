@@ -13,10 +13,19 @@ const LabMarkdown = (props) => {
   useEffect(() => {
     const splitPath = path.split("/");
     let obj = data;
+    console.log(obj);
+    console.log(splitPath);
     for (let i in splitPath) {
       let val = splitPath[i];
-      if (i != splitPath.length - 1) {
+      if (i == 0) {
+        val = val
+          .toLowerCase()
+          .split("_")
+          .map((s) => s.charAt(0).toUpperCase() + s.substring(1))
+          .join("_");
+      } else if (i != splitPath.length - 1) {
         val = val.charAt(0).toUpperCase() + val.slice(1);
+        console.log(val);
       }
       obj = obj[val];
     }

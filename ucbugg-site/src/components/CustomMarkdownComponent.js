@@ -17,6 +17,8 @@ const CustomMarkdownComponent = (props) => {
       obj = obj.props.children;
       let returnString = "";
       let i = 0;
+      if (!obj) return "";
+      if (typeof obj == "string") return obj;
       while (obj[i]) {
         returnString += extractString(obj[i]);
         i++;
@@ -41,10 +43,10 @@ const CustomMarkdownComponent = (props) => {
       className={markdownStyles.markdown}
       components={{
         img(props) {
+          if (!props.src) return <img />;
           if (
-            (props.src != undefined && props.src.endsWith(".mov")) ||
-            (props.src.endsWith(".mp4") &&
-              props.src.match(/(?<=\/)[^\/]+(?=\..+\.(mov|mp4))/g))
+            (props.src.endsWith(".mov") || props.src.endsWith(".mp4")) &&
+            props.src.match(/(?<=\/)[^\/]+(?=\..+\.(mov|mp4))/g)
           ) {
             return (
               <video
@@ -62,18 +64,17 @@ const CustomMarkdownComponent = (props) => {
         },
         a(props) {
           let childrenProps = extractString(props.children);
-          console.log(props);
-          console.log(props.href);
           if (props.href == undefined) {
             return <a>{childrenProps}</a>;
           }
           if (
-            (props.href != undefined && props.href.endsWith(".zip")) ||
-            props.href.endsWith(".ma") ||
-            props.href.endsWith(".mb") ||
-            props.href.endsWith(".iff") ||
-            (props.href.endsWith(".exr") &&
-              props.href.match(/(?<=\/)[^\/]+(?=\..+\.(zip|ma|mb))/g) != null)
+            props.href != undefined &&
+            (props.href.endsWith(".zip") ||
+              props.href.endsWith(".ma") ||
+              props.href.endsWith(".mb") ||
+              props.href.endsWith(".iff") ||
+              props.href.endsWith(".exr")) &&
+            props.href.match(/(?<=\/)[^\/]+(?=\..+\.(zip|ma|mb))/g) != null
           ) {
             return (
               <a
