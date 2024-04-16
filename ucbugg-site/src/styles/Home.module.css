@@ -455,7 +455,7 @@
   transform: translate(-50%, -50%);
   border-radius: 15px;
   overflow: hidden;
-  box-shadow: 2px 2px 5px rgb(180, 180, 180);
+  box-shadow: 2px 2px 5px rgba(128, 120, 112, 0.404);
 }
 
 .SDHImageContainer img {
