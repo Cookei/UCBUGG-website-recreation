@@ -44,6 +44,7 @@
   text-wrap: wrap;
   margin: 10px;
   margin-left: 15px;
+  max-width: calc(100vw - 25px - 70px);
 }
 
 .title {

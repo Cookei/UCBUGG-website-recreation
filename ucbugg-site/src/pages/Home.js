@@ -251,7 +251,9 @@ const Home = (props, ref) => {
               7:00 - 9:00pm
               <br />
               <br />
-              200 Sutardja Dai Hall
+              <span style={{ textDecoration: "underline" }}>
+                200 Sutardja Dai Hall
+              </span>
             </div>
             {/* <button className={styles.SDHButton}>
               <h1>Apply Now!</h1>

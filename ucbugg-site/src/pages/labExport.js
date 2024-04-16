@@ -126,6 +126,7 @@ import _pendulum_assignmentsrc_assets_labs_Animating_Basic_animation_2gif from '
 import _pendulum_picsrc_assets_labs_Animating_Basic_animation_2png from '../assets/labs/Animating/Basic/animation 2/pendulum_pic.png'
 import _referencesrc_assets_labs_Animating_Basic_animation_2mp4 from '../assets/labs/Animating/Basic/animation 2/reference.mp4'
 import _shifting_second_link_curvesrc_assets_labs_Animating_Basic_animation_2gif from '../assets/labs/Animating/Basic/animation 2/shifting_second_link_curve.gif'
+import _THUMBNAILsrc_assets_labs_Animating_Basic_animation_2png from '../assets/labs/Animating/Basic/animation 2/THUMBNAIL.png'
 import _playblastssrc_assets_labs_Animating_Basic_playblastsmd from '../assets/labs/Animating/Basic/playblasts/playblasts.md'
 import _playblasts1src_assets_labs_Animating_Basic_playblastspng from '../assets/labs/Animating/Basic/playblasts/playblasts1.png'
 import _playblasts2src_assets_labs_Animating_Basic_playblastspng from '../assets/labs/Animating/Basic/playblasts/playblasts2.png'
@@ -1616,7 +1617,8 @@ const data = {
         "markdown": [
           _animation_2src_assets_labs_Animating_Basic_animation_2md,
           "Animating/Basic/animation_2"
-        ]
+        ],
+        "thumbnail": _THUMBNAILsrc_assets_labs_Animating_Basic_animation_2png
       },
       "playblasts": {
         "markdown": [
