@@ -39,15 +39,7 @@ const Syllabus = () => {
               ordered={false}
               className={markdownStyles.unset}
             />
-            <img
-              src={rebeccafox}
-              style={{
-                position: "absolute",
-                zIndex: 1,
-                bottom: "0",
-                width: "100%",
-              }}
-            />
+            <img src={rebeccafox} id={styles.rebeccafox} />
           </div>
 
           <div id={styles.content}>

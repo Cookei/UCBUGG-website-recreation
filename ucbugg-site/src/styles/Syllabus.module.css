@@ -130,3 +130,12 @@ html {
   height: 90vh;
   width: var(--navbar-offset);
 }
+
+#rebeccafox {
+  position: absolute;
+  z-index: 1;
+  bottom: 0;
+  left: -5px;
+  width: 100%;
+  filter: drop-shadow(-15px 5px 0px #fb9db9);
+}
