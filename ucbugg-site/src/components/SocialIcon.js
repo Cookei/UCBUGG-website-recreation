@@ -1,13 +1,14 @@
-import React from "react";
+import React, { useState } from "react";
 
 const SocialIcon = ({ icon, link }) => {
+  const [mouseOver, setMouseOver] = useState(false);
   return (
     <div
       style={{
         width: "50px",
         height: "50px",
         borderRadius: "50%",
-        backgroundColor: "#ffccbb",
+        backgroundColor: mouseOver ? "royalblue" : "#ffccbb",
         display: "flex",
         justifyContent: "center",
         alignItems: "center",
@@ -15,6 +16,8 @@ const SocialIcon = ({ icon, link }) => {
         padding: "5px",
         margin: "5px",
       }}
+      onMouseOver={() => setMouseOver(true)}
+      onMouseOut={() => setMouseOver(false)}
     >
       <a href={link} target="_blank" style={{ height: "100%", width: "100%" }}>
         <img
