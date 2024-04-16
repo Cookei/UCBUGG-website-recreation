@@ -85,11 +85,30 @@ const Home = (props, ref) => {
             The UC Berkeley Undergraduate Graphics Group (UCBUGG) is a group of passionate students who want to introduce our fellow peers to the art of creating a 3D-animated short film. We run the UCBUGG DeCal, offering both a basic and advanced curriculum. This DeCal guides students of all skill levels through the entire production pipeline of creating an animated film, using software like Autodesk Maya, Adobe After Effects, and Pixar's Renderman. UCBUGG alumni have broke into the industry, working at places like Dreamworks, Pixar, and Sony Interactive Entertainment
           </p>
           <div className={styles.iconImageBlock}>
-            <img src={mayaIconImage} className={styles.iconImage} />
-            <img src={creativecloudIconImage} className={styles.iconImage} />
-            <img src={rendermanIconImage} className={styles.iconImage} />
-            <img src={aftereffectIconImage} className={styles.iconImage} />
-            <img src={substancePainterImage} className={styles.iconImage} />
+            <a
+              href="https://www.autodesk.com/education/edu-software/overview?sorting=featured&filters=individual"
+              target="_blank"
+            >
+              <img src={mayaIconImage} className={styles.iconImage} />
+            </a>
+            <a href="https://www.adobe.com/creativecloud.html" target="_blank">
+              <img src={creativecloudIconImage} className={styles.iconImage} />
+            </a>
+            <a href="https://renderman.pixar.com/" target="_blank">
+              <img src={rendermanIconImage} className={styles.iconImage} />
+            </a>
+            <a
+              href="https://www.adobe.com/products/aftereffects.html"
+              target="_blank"
+            >
+              <img src={aftereffectIconImage} className={styles.iconImage} />
+            </a>
+            <a
+              href="https://www.adobe.com/products/substance3d/apps/painter.html"
+              target="_blank"
+            >
+              <img src={substancePainterImage} className={styles.iconImage} />
+            </a>
           </div>
         </div>
         <div id={styles.announcementSidePanel} />
