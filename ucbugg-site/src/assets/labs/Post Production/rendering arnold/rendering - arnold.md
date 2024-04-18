@@ -1,6 +1,6 @@
 # Introduction
 
-Welcome to the Arnold rendering lab! In this lab, we will be going over the render settings used by the arnold renderer, as well as how to set up After Effects to display your beautiful short in all its glory.
+Welcome to the Arnold rendering lab! In this lab, we will be going over the render settings used by the Arnold renderer, as well as how to set up After Effects to display your beautiful short in all its glory.
 
 For this lab, you will be needing **Adobe After Effects** installed.
 
@@ -17,7 +17,7 @@ In real life, light comes from the sun (or other various light sources), bounces
 > Please please please, START EARLY. DO NOT PROCRASTINATE when rendering during render week. You will run into a lot of issues and even if you don't, rendering itself takes a massive amount of time.
 
 > (!info)
-> A single frame takes about 3 to 5 minutes to render. At 24 frames a second, 1 minute of animation will take on average 96 hours.
+> A single frame takes about 3 to 5 (or more!) minutes to render. At 24 frames a second, 1 minute of animation will take on average 96 hours.
 > 60s \* 24fps \* 4mins / 60s = 96 hours
 
 Before you start rendering, please make sure all your scenes are **COMPLETELY FINALIZED**. You cannot edit anything after you render since rendering is essentially "FINAL". If you want to change anything, you will have to rerender the **entire thing**. Make sure everything is completely final and double triple check all your animations and lighting are correct.
@@ -53,7 +53,7 @@ Also make sure to change your Color Space to Raw
 
 ![](frame_range.jpg)
 
-You want to set your start frame and end frame of your render sequence here
+Next, scroll down and you want to set your start frame and end frame of your render sequence here
 
 ![](renderable_camera.jpg)
 
@@ -62,7 +62,7 @@ You want to set your start frame and end frame of your render sequence here
 
 ![](camera_resolution.jpg)
 
-Under Image Size, change the presets to **HD_1080**. This will make sure you're rendering in 1080p. Alterantively, you can set it to a different value. The important thing is making sure that **all scenes rendered by all group members have the same image size**.
+Scroll down further. Under Image Size, change the presets to **HD_1080**. This will make sure you're rendering in 1080p. Alterantively, you can set it to a different value. The important thing is making sure that **all scenes rendered by all group members have the same image size**.
 
 ---
 
@@ -79,9 +79,7 @@ Since the number of samples essentially is the value of how many particles of li
 
 If you have any edge outlines in your scene (IE: Toon Shader), setting the Filter Type to "contour" will make it actually work.
 
----
-
-Common settings to change for cool looks if you wanna
+_Interesting settings to note under Arnold Renderer tab_
 
 - You can have environment fog by going to Environment and setting the Atmosphere to _fog_ or _atmosphere_volume_
 - You can enable motion blur by going to Motion Blur and clicking enable. Here are the settings referenced by the official Arnold documentation
@@ -98,6 +96,8 @@ Now, you want to go to the **AOV Browser** and among the Available AOVs menu, fi
 ## Time to actually render!
 
 After exiting the Render Settings menu, go to Render -> Render Sequence and click the option box.
+
+![](render_sequence_toolbar_location.jpg)
 
 ![](render_sequence_location.jpg)
 
@@ -128,7 +128,8 @@ Make sure OpenEXR Sequence is checked.
 
 You want to right click your exr sequence and create New Comp from Selection
 
-### If your composition displays everything correctly, you can skip this entire next part until AE Rendering
+> (!info)
+> **If your composition displays everything correctly, you can skip this entire next part until AE Rendering**
 
 Now you should have a composition that you can play! Unfortunately, it may be completely black.
 
@@ -169,7 +170,7 @@ Now, when you save, your colors should look right!
 
 ---
 
-Here you can do lots of post processing touch ups if you want. For example, you can denoise, mask, apply other color correction settings, and more. Experiment with it to see what works for you!
+Here in After Effects, you can do lots of post processing touch ups if you want. For example, you can denoise, mask, apply other color correction settings, and more. Experiment with it to see what works for you!
 
 ---
 
@@ -190,6 +191,11 @@ Navigate to the Color tab, and make sure the Output Color Space is set to **colo
 Now, you can finally select the compositions you want to render and click the render button, wait 10 years, and you're done!
 
 ![](AE_render_button.jpg)
+
+You should now have an .mp4 file that you can play as a video.
+
+> (!info)
+> If you plan to do more extensive compositing, it might be wise to render/export individual exr sequences as mp4s and then reimport that into After Effects or Adobe Premiere since it will load faster.
 
 # Optional reading
 

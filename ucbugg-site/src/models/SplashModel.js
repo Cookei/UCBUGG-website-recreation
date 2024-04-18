@@ -1,5 +1,11 @@
-import React, { useEffect, useState } from "react";
-import { TransformControls, Wireframe, useGLTF } from "@react-three/drei";
+import React, { Suspense, useEffect, useState } from "react";
+import {
+  Html,
+  TransformControls,
+  Wireframe,
+  useGLTF,
+  useProgress,
+} from "@react-three/drei";
 import { useThree } from "@react-three/fiber";
 import model from "../assets/models/splashModel.glb";
 
@@ -36,10 +42,22 @@ const SplashModel = () => {
     };
   }, []);
 
+  function Loader() {
+    const { progress, total } = useProgress();
+    return (
+      <Html position={SPLASH_OFFSET}>
+        <div>
+          <p>Loading</p>
+          <progress value={0.5} />
+        </div>
+      </Html>
+    );
+  }
+
   useGLTF.preload(model);
 
   return (
-    <>
+    <Suspense fallback={<Loader />}>
       {hovered || selected ? (
         <TransformControls
           enabled={selected ? true : false}
@@ -70,7 +88,7 @@ const SplashModel = () => {
           strokeOpacity={selected || hovered ? 1 : 0}
         />
       </mesh>
-    </>
+    </Suspense>
   );
 };
 
