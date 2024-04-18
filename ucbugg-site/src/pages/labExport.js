@@ -1133,6 +1133,33 @@ import _zync2src_assets_labs_Post_Production_renderingpng from '../assets/labs/P
 import _zyncConsolesrc_assets_labs_Post_Production_renderingpng from '../assets/labs/Post Production/rendering/zyncConsole.png'
 import _zyncINsrc_assets_labs_Post_Production_renderingpng from '../assets/labs/Post Production/rendering/zyncIN.png'
 import _zyncPluginssrc_assets_labs_Post_Production_renderingpng from '../assets/labs/Post Production/rendering/zyncPlugins.png'
+import _AE_render_buttonsrc_assets_labs_Post_Production_rendering_arnoldjpg from '../assets/labs/Post Production/rendering arnold/AE_render_button.jpg'
+import _AE_render_settingssrc_assets_labs_Post_Production_rendering_arnoldjpg from '../assets/labs/Post Production/rendering arnold/AE_render_settings.jpg'
+import _black_screensrc_assets_labs_Post_Production_rendering_arnoldjpg from '../assets/labs/Post Production/rendering arnold/black_screen.jpg'
+import _camera_resolutionsrc_assets_labs_Post_Production_rendering_arnoldjpg from '../assets/labs/Post Production/rendering arnold/camera_resolution.jpg'
+import _create_comp_settingssrc_assets_labs_Post_Production_rendering_arnoldjpg from '../assets/labs/Post Production/rendering arnold/create_comp_settings.jpg'
+import _file_settingssrc_assets_labs_Post_Production_rendering_arnoldjpg from '../assets/labs/Post Production/rendering arnold/file_settings.jpg'
+import _frame_rangesrc_assets_labs_Post_Production_rendering_arnoldjpg from '../assets/labs/Post Production/rendering arnold/frame_range.jpg'
+import _import_file_locationsrc_assets_labs_Post_Production_rendering_arnoldjpg from '../assets/labs/Post Production/rendering arnold/import_file_location.jpg'
+import _import_settingssrc_assets_labs_Post_Production_rendering_arnoldjpg from '../assets/labs/Post Production/rendering arnold/import_settings.jpg'
+import _interpret_footage_locationsrc_assets_labs_Post_Production_rendering_arnoldjpg from '../assets/labs/Post Production/rendering arnold/interpret_footage_location.jpg'
+import _interpret_footage_settings1src_assets_labs_Post_Production_rendering_arnoldpng from '../assets/labs/Post Production/rendering arnold/interpret_footage_settings1.png'
+import _interpret_footage_settings2src_assets_labs_Post_Production_rendering_arnoldpng from '../assets/labs/Post Production/rendering arnold/interpret_footage_settings2.png'
+import _motion_blur_settings_3src_assets_labs_Post_Production_rendering_arnoldpng from '../assets/labs/Post Production/rendering arnold/motion_blur_settings_3.png'
+import _output_module_settingssrc_assets_labs_Post_Production_rendering_arnoldjpg from '../assets/labs/Post Production/rendering arnold/output_module_settings.jpg'
+import _project_settings_color_3src_assets_labs_Post_Production_rendering_arnoldjpg from '../assets/labs/Post Production/rendering arnold/project_settings_color_3.jpg'
+import _project_settings_color_managementsrc_assets_labs_Post_Production_rendering_arnoldpng from '../assets/labs/Post Production/rendering arnold/project_settings_color_management.png'
+import _project_settings_locationsrc_assets_labs_Post_Production_rendering_arnoldjpg from '../assets/labs/Post Production/rendering arnold/project_settings_location.jpg'
+import _renderable_camerasrc_assets_labs_Post_Production_rendering_arnoldjpg from '../assets/labs/Post Production/rendering arnold/renderable_camera.jpg'
+import _rendering___arnoldsrc_assets_labs_Post_Production_rendering_arnoldmd from '../assets/labs/Post Production/rendering arnold/rendering - arnold.md'
+import _renderSettings_AOVs_3src_assets_labs_Post_Production_rendering_arnoldjpg from '../assets/labs/Post Production/rendering arnold/renderSettings_AOVs_3.jpg'
+import _renderSettings_arnoldRenderer_2src_assets_labs_Post_Production_rendering_arnoldjpg from '../assets/labs/Post Production/rendering arnold/renderSettings_arnoldRenderer_2.jpg'
+import _rendersettings_arnold_selectorsrc_assets_labs_Post_Production_rendering_arnoldjpg from '../assets/labs/Post Production/rendering arnold/rendersettings_arnold_selector.jpg'
+import _rendersettings_location_1src_assets_labs_Post_Production_rendering_arnoldjpg from '../assets/labs/Post Production/rendering arnold/rendersettings_location_1.jpg'
+import _render_sequence_locationsrc_assets_labs_Post_Production_rendering_arnoldjpg from '../assets/labs/Post Production/rendering arnold/render_sequence_location.jpg'
+import _render_toolbar_location_0src_assets_labs_Post_Production_rendering_arnoldjpg from '../assets/labs/Post Production/rendering arnold/render_toolbar_location_0.jpg'
+import _too_darksrc_assets_labs_Post_Production_rendering_arnoldjpg from '../assets/labs/Post Production/rendering arnold/too_dark.jpg'
+import _whitewashedsrc_assets_labs_Post_Production_rendering_arnoldjpg from '../assets/labs/Post Production/rendering arnold/whitewashed.jpg'
 import _as_lab_cryingsrc_assets_labs_Pre_Production_pre_productionpng from '../assets/labs/Pre Production/pre production/as-lab-crying.png'
 import _ballsrc_assets_labs_Pre_Production_pre_productionpng from '../assets/labs/Pre Production/pre production/ball.png'
 import _camshotssrc_assets_labs_Pre_Production_pre_productionpng from '../assets/labs/Pre Production/pre production/camshots.png'
@@ -2789,6 +2816,40 @@ const data = {
       "markdown": [
         _renderingsrc_assets_labs_Post_Production_renderingmd,
         "Post_Production/rendering"
+      ]
+    },
+    "rendering_arnold": {
+      "images": {
+        "AE_render_button.jpg": _AE_render_buttonsrc_assets_labs_Post_Production_rendering_arnoldjpg,
+        "AE_render_settings.jpg": _AE_render_settingssrc_assets_labs_Post_Production_rendering_arnoldjpg,
+        "black_screen.jpg": _black_screensrc_assets_labs_Post_Production_rendering_arnoldjpg,
+        "camera_resolution.jpg": _camera_resolutionsrc_assets_labs_Post_Production_rendering_arnoldjpg,
+        "create_comp_settings.jpg": _create_comp_settingssrc_assets_labs_Post_Production_rendering_arnoldjpg,
+        "file_settings.jpg": _file_settingssrc_assets_labs_Post_Production_rendering_arnoldjpg,
+        "frame_range.jpg": _frame_rangesrc_assets_labs_Post_Production_rendering_arnoldjpg,
+        "import_file_location.jpg": _import_file_locationsrc_assets_labs_Post_Production_rendering_arnoldjpg,
+        "import_settings.jpg": _import_settingssrc_assets_labs_Post_Production_rendering_arnoldjpg,
+        "interpret_footage_location.jpg": _interpret_footage_locationsrc_assets_labs_Post_Production_rendering_arnoldjpg,
+        "interpret_footage_settings1.png": _interpret_footage_settings1src_assets_labs_Post_Production_rendering_arnoldpng,
+        "interpret_footage_settings2.png": _interpret_footage_settings2src_assets_labs_Post_Production_rendering_arnoldpng,
+        "motion_blur_settings_3.png": _motion_blur_settings_3src_assets_labs_Post_Production_rendering_arnoldpng,
+        "output_module_settings.jpg": _output_module_settingssrc_assets_labs_Post_Production_rendering_arnoldjpg,
+        "project_settings_color_3.jpg": _project_settings_color_3src_assets_labs_Post_Production_rendering_arnoldjpg,
+        "project_settings_color_management.png": _project_settings_color_managementsrc_assets_labs_Post_Production_rendering_arnoldpng,
+        "project_settings_location.jpg": _project_settings_locationsrc_assets_labs_Post_Production_rendering_arnoldjpg,
+        "renderable_camera.jpg": _renderable_camerasrc_assets_labs_Post_Production_rendering_arnoldjpg,
+        "renderSettings_AOVs_3.jpg": _renderSettings_AOVs_3src_assets_labs_Post_Production_rendering_arnoldjpg,
+        "renderSettings_arnoldRenderer_2.jpg": _renderSettings_arnoldRenderer_2src_assets_labs_Post_Production_rendering_arnoldjpg,
+        "rendersettings_arnold_selector.jpg": _rendersettings_arnold_selectorsrc_assets_labs_Post_Production_rendering_arnoldjpg,
+        "rendersettings_location_1.jpg": _rendersettings_location_1src_assets_labs_Post_Production_rendering_arnoldjpg,
+        "render_sequence_location.jpg": _render_sequence_locationsrc_assets_labs_Post_Production_rendering_arnoldjpg,
+        "render_toolbar_location_0.jpg": _render_toolbar_location_0src_assets_labs_Post_Production_rendering_arnoldjpg,
+        "too_dark.jpg": _too_darksrc_assets_labs_Post_Production_rendering_arnoldjpg,
+        "whitewashed.jpg": _whitewashedsrc_assets_labs_Post_Production_rendering_arnoldjpg
+      },
+      "markdown": [
+        _rendering___arnoldsrc_assets_labs_Post_Production_rendering_arnoldmd,
+        "Post_Production/rendering_arnold"
       ]
     }
   },
