@@ -58,7 +58,7 @@ Note that you should have your Playback speed at 24 frames per second, which you
 
 # IMPORTING AND ADJUSTING FILES
 
-![](<After Effects has the capacity of opening your typical .png>)/.jpeg files, but it can also open up .psd/.ai files (in other words, files that have layers within them), so use this to your advantage.
+After Effects has the capacity of opening your typical .png/.jpeg files, but it can also open up .psd/.ai files (in other words, files that have layers within them), so use this to your advantage.
 
 ## SINGLE IMAGE FILES
 
