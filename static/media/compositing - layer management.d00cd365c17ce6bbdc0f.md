@@ -203,7 +203,7 @@ I think the grass looks a little odd, so I'm going to adjust the color of it. To
 
 ![](color.gif)
 
-![](<Essentially what I did in the .gif>) was color pick the "From" to pick the color of the grass in the composition, and adjust the "To" part to a more yellow-green color in order to reflect the color of the sun. I adjusted "Change" to Hue and Saturation. Here's a screenshot of what I got to make my results look more clear to you:
+Essentially what I did in the .gif was color pick the "From" to pick the color of the grass in the composition, and adjust the "To" part to a more yellow-green color in order to reflect the color of the sun. I adjusted "Change" to Hue and Saturation. Here's a screenshot of what I got to make my results look more clear to you:
 
 ![](<Screen Shot 2016-04-11 at 12.09.35 AM.png>)
 

@@ -12,7 +12,7 @@ I will assume you have some basic familiarity with the After Effects interface. 
 
 Let’s start by downloading the lab files - the only external file you will need is **snow_day.exr**, an OpenEXR image file of the background we are going to composite onto.
 
-![](snow_day.exr)
+[snow_day.exr](snow_day.exr)
 
 Open a new After Effects Project File and create a new Composition - there should be a graphic for **New Composition** displayed pretty prominently in the UI, but if not, navigate to **Composition > New Composition**. Let’s rename our new comp _particles_, and update the settings so it looks like this:
 
