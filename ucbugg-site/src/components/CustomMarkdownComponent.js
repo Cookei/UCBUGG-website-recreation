@@ -12,6 +12,7 @@ import downloadSVG from "../assets/aboutPage/material-download-icon.svg";
 const CustomMarkdownComponent = (props) => {
   const { images, child } = props;
   const extractString = (obj) => {
+    if (!obj) return "";
     if (typeof obj == "string") return obj;
     else {
       obj = obj.props.children;
@@ -74,14 +75,17 @@ const CustomMarkdownComponent = (props) => {
               props.href.endsWith(".mb") ||
               props.href.endsWith(".iff") ||
               props.href.endsWith(".exr")) &&
-            props.href.match(/(?<=\/)[^\/]+(?=\..+\.(zip|ma|mb))/g) != null
+            props.href.match(/(?<=\/)[^\/]+(?=\..+\.(zip|ma|mb|iff|exr))/g) !=
+              null
           ) {
             return (
               <a
                 href={props.href}
                 className={markdownStyles.downloadButton}
                 download={
-                  props.href.match(/(?<=\/)[^\/]+(?=\..+\.(zip|ma|mb))/g)[0]
+                  props.href.match(
+                    /(?<=\/)[^\/]+(?=\..+\.(zip|ma|mb|iff|exr))/g
+                  )[0]
                 }
               >
                 <img src={downloadSVG} />
