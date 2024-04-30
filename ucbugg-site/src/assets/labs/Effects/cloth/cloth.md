@@ -3,8 +3,9 @@
 This lab will give a very brief introduction to two different ways of putting cloth in your scenes. The first method covered is Wrap Deformers. This is the easiest way to force cloth to conform to a mesh below it. This is useful if you have a character with clothes, and the clothes are a separate mesh floating above the actual body. The second method is nCloth, which is maya's dynamic cloth simulation engine. This can be used to create cloth fluttering in wind, and colliding with and stretching around meshes. It can also be used to clothe characters, and will often produce higher quality results than a wrap deformer, but it might be more difficult to fine-tune. After completing this lab, you should have a good idea how to clothe your characters and create fluttering flags and parachutes.
 
 Please download this file:  
-(You may need to right click, hit "Save link as ...". If it takes you to a new page filled with text just right click on that page and "Save as". If the file downloaded ends in ".ma.txt" or anything other than ".ma" rename it to have just ".ma" and ignore the warning)  
-![cloth_lab_initial.ma](cloth_lab_initial.ma)
+(You may need to right click, hit "Save link as ...". If it takes you to a new page filled with text just right click on that page and "Save as". If the file downloaded ends in ".ma.txt" or anything other than ".ma" rename it to have just ".ma" and ignore the warning)
+
+[cloth_lab_initial.ma](cloth_lab_initial.ma)
 
 You should see a blobby person with horrible skinning, a terrible walk cycle, a rigid skirt, and a rigid cape. We are eventually going to make the latter two behave like cloth.
 ![](cloth1.gif)
