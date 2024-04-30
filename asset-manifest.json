@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.6ce999ee.css",
-    "main.js": "/static/js/main.4d25c048.js",
+    "main.js": "/static/js/main.885de94b.js",
     "static/js/526.a1046954.chunk.js": "/static/js/526.a1046954.chunk.js",
     "static/js/206.24d8eb7c.chunk.js": "/static/js/206.24d8eb7c.chunk.js",
     "static/js/529.55a417a2.chunk.js": "/static/js/529.55a417a2.chunk.js",
@@ -1434,7 +1434,7 @@
     "static/media/compositing - particles.md": "/static/media/compositing - particles.5f9808a0dc75013c443f.md",
     "static/media/hypershade.md": "/static/media/hypershade.9e2e751bb133e8e082f3.md",
     "static/media/xgen.md": "/static/media/xgen.b65957394c590d5edbc2.md",
-    "static/media/cloth.md": "/static/media/cloth.e334315cf832685a5f9c.md",
+    "static/media/cloth.md": "/static/media/cloth.8b9f8004ec56f327b6f5.md",
     "static/media/fluids.md": "/static/media/fluids.8d349e8951c6309c6435.md",
     "static/media/Syllabus.md": "/static/media/Syllabus.b54fc20448ee326c42c8.md",
     "static/media/playblasts.md": "/static/media/playblasts.3ca2d5a786516a2dd26d.md",
@@ -1451,6 +1451,6 @@
   },
   "entrypoints": [
     "static/css/main.6ce999ee.css",
-    "static/js/main.4d25c048.js"
+    "static/js/main.885de94b.js"
   ]
 }
