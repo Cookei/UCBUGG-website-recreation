@@ -191,8 +191,6 @@ Remember that I only adjusted the matte painting and nothing else. Make sure tha
 
 Next, I want to adjust the lighting of the houses so that they reflect the color of the sun and the sky. Again, under the Color Correction menu, I used Color Balance, Exposure, Curves, and Hue/Saturation.
 
-![](2.PNG)
-
 Please note that you don't necessarily have to follow the color correction options I used exactly. If you think only three of the options do the trick, feel free to do it your way, and if you want to try out other options, go for it.
 
 Here is what I ended up with:
