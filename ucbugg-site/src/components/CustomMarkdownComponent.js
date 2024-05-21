@@ -6,10 +6,15 @@ import remarkExtendedTable, {
   extendedTableHandlers,
 } from "remark-extended-table";
 import markdownStyles from "../styles/Markdown.module.css";
+import { PrismLight as SyntaxHighlighter } from "react-syntax-highlighter";
+import python from "react-syntax-highlighter/dist/cjs/languages/prism/python";
 
 import downloadSVG from "../assets/aboutPage/material-download-icon.svg";
+import { vscDarkPlus } from "react-syntax-highlighter/dist/esm/styles/prism";
 
 const CustomMarkdownComponent = (props) => {
+  SyntaxHighlighter.registerLanguage("python", python);
+
   const { images, child } = props;
   const extractString = (obj) => {
     if (!obj) return "";
@@ -114,7 +119,31 @@ const CustomMarkdownComponent = (props) => {
             childrenProps = childrenProps.replace(/^\s*\(!info\)\s*\n/g, "");
             classname = "info";
           }
-          return <blockquote children={childrenProps} className={classname} />;
+          return (
+            <blockquote
+              children={childrenProps}
+              className={classname}
+              style={{ whiteSpace: "pre-wrap" }}
+            />
+          );
+        },
+        code(props) {
+          const { children, className, node, ...rest } = props;
+          const match = /language-(\w+)/.exec(className || "");
+          return match ? (
+            <SyntaxHighlighter
+              {...rest}
+              PreTag="div"
+              children={String(children).replace(/\n$/, "")}
+              language={match[1]}
+              style={vscDarkPlus}
+              customStyle={{ borderRadius: "7px" }}
+            />
+          ) : (
+            <code {...rest} className={className}>
+              {children}
+            </code>
+          );
         },
       }}
     >

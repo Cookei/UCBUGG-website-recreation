@@ -13,8 +13,6 @@ const LabMarkdown = (props) => {
   useEffect(() => {
     const splitPath = path.split("/");
     let obj = data;
-    console.log(obj);
-    console.log(splitPath);
     for (let i in splitPath) {
       let val = splitPath[i];
       if (i == 0) {

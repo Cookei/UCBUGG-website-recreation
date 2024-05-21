@@ -80,6 +80,14 @@ blockquote.important::before {
   scroll-behavior: smooth;
 }
 
+.markdown-navigation .title-anchor.title-level2 {
+  margin-left: 25px;
+}
+
+.markdown-navigation .title-anchor.title-level3 {
+  margin-left: 50px;
+}
+
 .markdown-navigation .title-anchor:hover {
   cursor: pointer;
   border-bottom: 2px gray solid;

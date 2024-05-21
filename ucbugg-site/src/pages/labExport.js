@@ -1493,6 +1493,28 @@ import _uv_snapshotsrc_assets_labs_Shading_Basic_toon_shadingjpg from '../assets
 import _uv_specsrc_assets_labs_Shading_Basic_toon_shadingjpg from '../assets/labs/Shading/Basic/toon shading/uv_spec.jpg'
 import _WeirdShadowssrc_assets_labs_Shading_Basic_toon_shadinggif from '../assets/labs/Shading/Basic/toon shading/WeirdShadows.gif'
 import _wtfIsThissrc_assets_labs_Shading_Basic_toon_shadinggif from '../assets/labs/Shading/Basic/toon shading/wtfIsThis.gif'
+import _creating_labs___1src_assets_labs_Website_creating_labsjpg from '../assets/labs/Website/creating labs/creating labs - 1.jpg'
+import _creating_labs___10src_assets_labs_Website_creating_labsjpg from '../assets/labs/Website/creating labs/creating labs - 10.jpg'
+import _creating_labs___11src_assets_labs_Website_creating_labsjpg from '../assets/labs/Website/creating labs/creating labs - 11.jpg'
+import _creating_labs___12src_assets_labs_Website_creating_labsjpg from '../assets/labs/Website/creating labs/creating labs - 12.jpg'
+import _creating_labs___13src_assets_labs_Website_creating_labsjpg from '../assets/labs/Website/creating labs/creating labs - 13.jpg'
+import _creating_labs___14src_assets_labs_Website_creating_labsjpg from '../assets/labs/Website/creating labs/creating labs - 14.jpg'
+import _creating_labs___15src_assets_labs_Website_creating_labsjpg from '../assets/labs/Website/creating labs/creating labs - 15.jpg'
+import _creating_labs___16src_assets_labs_Website_creating_labsjpg from '../assets/labs/Website/creating labs/creating labs - 16.jpg'
+import _creating_labs___17src_assets_labs_Website_creating_labsjpg from '../assets/labs/Website/creating labs/creating labs - 17.jpg'
+import _creating_labs___2src_assets_labs_Website_creating_labsjpg from '../assets/labs/Website/creating labs/creating labs - 2.jpg'
+import _creating_labs___3src_assets_labs_Website_creating_labsjpg from '../assets/labs/Website/creating labs/creating labs - 3.jpg'
+import _creating_labs___4src_assets_labs_Website_creating_labsjpg from '../assets/labs/Website/creating labs/creating labs - 4.jpg'
+import _creating_labs___5src_assets_labs_Website_creating_labsjpg from '../assets/labs/Website/creating labs/creating labs - 5.jpg'
+import _creating_labs___6src_assets_labs_Website_creating_labsjpg from '../assets/labs/Website/creating labs/creating labs - 6.jpg'
+import _creating_labs___7src_assets_labs_Website_creating_labsjpg from '../assets/labs/Website/creating labs/creating labs - 7.jpg'
+import _creating_labs___8src_assets_labs_Website_creating_labsjpg from '../assets/labs/Website/creating labs/creating labs - 8.jpg'
+import _creating_labs___9src_assets_labs_Website_creating_labsjpg from '../assets/labs/Website/creating labs/creating labs - 9.jpg'
+import _creating_labssrc_assets_labs_Website_creating_labsmd from '../assets/labs/Website/creating labs/creating_labs.md'
+import _example_imagesrc_assets_labs_Website_creating_labsjpg from '../assets/labs/Website/creating labs/example image.jpg'
+import _example_labsrc_assets_labs_Website_example_labmd from '../assets/labs/Website/example lab/example lab.md'
+import _example_maya_filesrc_assets_labs_Website_example_labma from '../assets/labs/Website/example lab/example_maya_file.ma'
+import _name_of_your_imagesrc_assets_labs_Website_example_labjpg from '../assets/labs/Website/example lab/name of your image.jpg'
 
 
 const data = {
@@ -3282,6 +3304,44 @@ const data = {
           _toon_shadingsrc_assets_labs_Shading_Basic_toon_shadingmd,
           "Shading/Basic/toon_shading"
         ]
+      }
+    }
+  },
+  "Website": {
+    "creating_labs": {
+      "images": {
+        "creating labs - 1.jpg": _creating_labs___1src_assets_labs_Website_creating_labsjpg,
+        "creating labs - 10.jpg": _creating_labs___10src_assets_labs_Website_creating_labsjpg,
+        "creating labs - 11.jpg": _creating_labs___11src_assets_labs_Website_creating_labsjpg,
+        "creating labs - 12.jpg": _creating_labs___12src_assets_labs_Website_creating_labsjpg,
+        "creating labs - 13.jpg": _creating_labs___13src_assets_labs_Website_creating_labsjpg,
+        "creating labs - 14.jpg": _creating_labs___14src_assets_labs_Website_creating_labsjpg,
+        "creating labs - 15.jpg": _creating_labs___15src_assets_labs_Website_creating_labsjpg,
+        "creating labs - 16.jpg": _creating_labs___16src_assets_labs_Website_creating_labsjpg,
+        "creating labs - 17.jpg": _creating_labs___17src_assets_labs_Website_creating_labsjpg,
+        "creating labs - 2.jpg": _creating_labs___2src_assets_labs_Website_creating_labsjpg,
+        "creating labs - 3.jpg": _creating_labs___3src_assets_labs_Website_creating_labsjpg,
+        "creating labs - 4.jpg": _creating_labs___4src_assets_labs_Website_creating_labsjpg,
+        "creating labs - 5.jpg": _creating_labs___5src_assets_labs_Website_creating_labsjpg,
+        "creating labs - 6.jpg": _creating_labs___6src_assets_labs_Website_creating_labsjpg,
+        "creating labs - 7.jpg": _creating_labs___7src_assets_labs_Website_creating_labsjpg,
+        "creating labs - 8.jpg": _creating_labs___8src_assets_labs_Website_creating_labsjpg,
+        "creating labs - 9.jpg": _creating_labs___9src_assets_labs_Website_creating_labsjpg,
+        "example image.jpg": _example_imagesrc_assets_labs_Website_creating_labsjpg
+      },
+      "markdown": [
+        _creating_labssrc_assets_labs_Website_creating_labsmd,
+        "Website/creating_labs"
+      ]
+    },
+    "example_lab": {
+      "markdown": [
+        _example_labsrc_assets_labs_Website_example_labmd,
+        "Website/example_lab"
+      ],
+      "images": {
+        "example_maya_file.ma": _example_maya_filesrc_assets_labs_Website_example_labma,
+        "name of your image.jpg": _name_of_your_imagesrc_assets_labs_Website_example_labjpg
       }
     }
   }

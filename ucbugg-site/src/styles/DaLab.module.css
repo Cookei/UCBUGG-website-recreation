@@ -1,4 +1,38 @@
 #daLab {
   padding: 50px;
   background: linear-gradient(rgb(253, 248, 253), rgb(243, 240, 237));
+  min-height: 100%;
+}
+
+h1 {
+  font-size: 1.5em;
+}
+
+h2 {
+  font-size: 1.3em;
+}
+
+h3 {
+  font-size: 1.1em;
+}
+
+h4,
+h5,
+h6 {
+  font-size: 1em;
+}
+
+pre * {
+  color: rgb(212, 212, 212);
+}
+
+pre {
+  background-color: rgb(30, 30, 30);
+  line-height: 1.5;
+  padding: 1em;
+  border-radius: 7px;
+}
+
+pre div {
+  padding: 0 !important;
 }
