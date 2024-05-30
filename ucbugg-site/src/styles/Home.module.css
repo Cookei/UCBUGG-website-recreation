@@ -42,6 +42,26 @@
   margin-top: 1rem;
 }
 
+
+.socialicon {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #ffccbb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  pointer-events: all;
+  padding: 5px;
+  margin: 5px;
+  transition: background-color 200ms;
+}
+.socialicon:hover {
+  background-color: rgba(130, 209, 251, 0.92);
+}
+
+
+
 @media (max-width: 800px) {
   #splashTitle {
     top: 20%;

@@ -1,21 +1,10 @@
 import React from "react";
+import styles from "../styles/Home.module.css";
+
 
 const SocialIcon = ({ icon, link }) => {
   return (
-    <div
-      style={{
-        width: "50px",
-        height: "50px",
-        borderRadius: "50%",
-        backgroundColor: "#ffccbb",
-        display: "flex",
-        justifyContent: "center",
-        alignItems: "center",
-        pointerEvents: "all",
-        padding: "5px",
-        margin: "5px",
-      }}
-    >
+    <div className={styles.socialicon}>
       <a href={link} target="_blank" style={{ height: "100%", width: "100%" }}>
         <img
           src={icon}
