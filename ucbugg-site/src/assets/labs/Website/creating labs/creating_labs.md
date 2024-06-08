@@ -235,3 +235,5 @@ Note that the only thing that is in all lowercase is the lab itself. All _non-la
 > You want to push this commit to the main branch (or whatever branch you're working on). Do not push to the gh-pages branch
 
 To push it to production. Please contact whoever is in charge of the website
+
+If you want to test your changes, you can run the site by navigating inside ucbugg-site and running `npm start` (Make sure you have all the dependencies installed)
