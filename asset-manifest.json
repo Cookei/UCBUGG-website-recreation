@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.93ea5716.css",
-    "main.js": "/static/js/main.b5c21494.js",
+    "main.css": "/static/css/main.a0ce1bf5.css",
+    "main.js": "/static/js/main.0f31d322.js",
     "static/js/526.a1046954.chunk.js": "/static/js/526.a1046954.chunk.js",
     "static/js/206.24d8eb7c.chunk.js": "/static/js/206.24d8eb7c.chunk.js",
     "static/js/529.55a417a2.chunk.js": "/static/js/529.55a417a2.chunk.js",
@@ -1433,6 +1433,7 @@
     "static/media/CreatePxr.png": "/static/media/CreatePxr.85da75ec6a2283e24a98.png",
     "static/media/splineDrawing.png": "/static/media/splineDrawing.399470ca1be328781e39.png",
     "static/media/motiontrail1.png": "/static/media/motiontrail1.6275b8f6921012686841.png",
+    "static/media/creating_labs.md": "/static/media/creating_labs.2a84149e1742868d23a7.md",
     "static/media/009.png": "/static/media/009.ae3d402bf07156b4b5a2.png",
     "static/media/Jacob Holesinger.jpg": "/static/media/Jacob Holesinger.69cc7369343d873c8768.jpg",
     "static/media/filePath.jpg": "/static/media/filePath.9a689e12424ae7dd91a4.jpg",
@@ -1444,7 +1445,6 @@
     "static/media/creating labs - 16.jpg": "/static/media/creating labs - 16.bd620da395adcf5a885e.jpg",
     "static/media/rendering - arnold.md": "/static/media/rendering - arnold.5de3eb74caf19b2299a1.md",
     "static/media/24b - toggle visibility.png": "/static/media/24b - toggle visibility.49e875a96ce53f105d3e.png",
-    "static/media/creating_labs.md": "/static/media/creating_labs.8aea626abeb71df9c716.md",
     "static/media/cloth1.png": "/static/media/cloth1.0b12819e00530a1ea0d7.png",
     "static/media/bifrost.md": "/static/media/bifrost.158354790a9c3f2df891.md",
     "static/media/001.PNG": "/static/media/001.c20cf1aafb45307a4c8d.PNG",
@@ -1471,7 +1471,7 @@
     "static/media/download_this.ma": "/static/media/download_this.cae342c80f739080fae9.ma"
   },
   "entrypoints": [
-    "static/css/main.93ea5716.css",
-    "static/js/main.b5c21494.js"
+    "static/css/main.a0ce1bf5.css",
+    "static/js/main.0f31d322.js"
   ]
 }

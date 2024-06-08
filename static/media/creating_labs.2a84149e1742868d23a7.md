@@ -210,3 +210,30 @@ These markdown specifications are a slightly modified version of [the markdown b
 I have not covered how to make tables as they are a bit finicky, but if you are curious, you can look [here](https://github.com/wataru-chocola/remark-extended-table). This reason for this because it is finicky as what markdown is allowed in the table or not. Hence, why if you look inside the markdown file for this lab, there is a lot of html embedded in there
 
 You can also navigate [here](https://www.ucbugg.com/labs/Website/example_lab) to see the example lab that was created to make this lab
+
+---
+
+# Uploading to Github
+
+> (!important)
+> Only proceed if you know what you're doing!!!
+
+If you want to upload the lab to the github repo, follow along.
+
+All labs in the website exist inside `src/assets/labs`. Inside this folder are categories, marked by being capitalized. There are 2 different ways of putting a lab inside a category
+
+- Basic and Advanced subsections
+
+  - Inside the selected category, there may be two folders titled Advanced and Basic (note the capitals). If you put your lab file within this respective folder, it will appear underneath that respective subsection
+
+- No Basic and Advanced subsections
+  - Otherwise, if you just put the lab directly inside the category, it won't be apart of any subsections
+
+Note that the only thing that is in all lowercase is the lab itself. All _non-lab file structure_ is capitalized
+
+> (!important)
+> You want to push this commit to the main branch (or whatever branch you're working on). Do not push to the gh-pages branch
+
+To push it to production. Please contact whoever is in charge of the website
+
+If you want to test your changes, you can run the site by navigating inside ucbugg-site and running `npm start` (Make sure you have all the dependencies installed)
