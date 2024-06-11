@@ -7,7 +7,6 @@ const LabCategory = forwardRef((props, ref) => {
 
   if (title == undefined) return <div />;
   let counter = 0;
-  console.log(style);
 
   return (
     <div
