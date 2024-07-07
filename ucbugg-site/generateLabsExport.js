@@ -52,6 +52,7 @@ const importThese = [
   "mov",
   "mp4",
   "exr",
+  "py",
 ];
 
 if (!path) {

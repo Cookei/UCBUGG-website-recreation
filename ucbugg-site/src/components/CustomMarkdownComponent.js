@@ -79,9 +79,11 @@ const CustomMarkdownComponent = (props) => {
               props.href.endsWith(".ma") ||
               props.href.endsWith(".mb") ||
               props.href.endsWith(".iff") ||
-              props.href.endsWith(".exr")) &&
-            props.href.match(/(?<=\/)[^\/]+(?=\..+\.(zip|ma|mb|iff|exr))/g) !=
-              null
+              props.href.endsWith(".exr") ||
+              props.href.endsWith(".py")) &&
+            props.href.match(
+              /(?<=\/)[^\/]+(?=\..+\.(zip|ma|mb|iff|exr|py))/g
+            ) != null
           ) {
             return (
               <a
@@ -89,7 +91,7 @@ const CustomMarkdownComponent = (props) => {
                 className={markdownStyles.downloadButton}
                 download={
                   props.href.match(
-                    /(?<=\/)[^\/]+(?=\..+\.(zip|ma|mb|iff|exr))/g
+                    /(?<=\/)[^\/]+(?=\..+\.(zip|ma|mb|iff|exr|py))/g
                   )[0]
                 }
               >
