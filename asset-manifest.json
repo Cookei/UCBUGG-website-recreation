@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.a0ce1bf5.css",
-    "main.js": "/static/js/main.0f31d322.js",
+    "main.js": "/static/js/main.13a83390.js",
     "static/js/526.a1046954.chunk.js": "/static/js/526.a1046954.chunk.js",
     "static/js/206.24d8eb7c.chunk.js": "/static/js/206.24d8eb7c.chunk.js",
     "static/js/529.55a417a2.chunk.js": "/static/js/529.55a417a2.chunk.js",
@@ -35,6 +35,7 @@
     "static/media/Christine Co.jpg": "/static/media/Christine Co.bafbe96f8582e5c1b1fa.jpg",
     "static/media/resize.gif": "/static/media/resize.aaae8e98f3f21583f539.gif",
     "static/media/Chris Magana.png": "/static/media/Chris Magana.245aa4dce49cf86747cc.png",
+    "static/media/example0.mp4": "/static/media/example0.d78d729875d01e24b0d4.mp4",
     "static/media/editedfire.gif": "/static/media/editedfire.bc6aa30f9fcfeab39c9f.gif",
     "static/media/Andy Gagliardi.jpg": "/static/media/Andy Gagliardi.7956f9ce2141fb7fba88.jpg",
     "static/media/storyboardingExample.png": "/static/media/storyboardingExample.b4e8d963b23f448a7b65.png",
@@ -51,6 +52,7 @@
     "static/media/Anze Liu.JPG": "/static/media/Anze Liu.ccda581a4e27f88b74af.JPG",
     "static/media/shadingIcon.png": "/static/media/shadingIcon.e279b357bf65862203f2.png",
     "static/media/blendshape_bunny.ma": "/static/media/blendshape_bunny.4ec15cba7cc1cf5526b8.ma",
+    "static/media/example1.mov": "/static/media/example1.fdc8b562e459dc97914c.mov",
     "static/media/Animation2.gif": "/static/media/Animation2.7e1a93d734ed8cf0d5ea.gif",
     "static/media/Hillary Huynh Senior.png": "/static/media/Hillary Huynh Senior.843136e03f1ad0f89d92.png",
     "static/media/blah.gif": "/static/media/blah.a9bf07fc36754c87147a.gif",
@@ -1430,10 +1432,10 @@
     "static/media/blend shapes.md": "/static/media/blend shapes.66a0774141b0261a3e5f.md",
     "static/media/creating labs - 7.jpg": "/static/media/creating labs - 7.bd9f0fb85abf3a8b3347.jpg",
     "static/media/creating labs - 15.jpg": "/static/media/creating labs - 15.f4513e20756619d2434a.jpg",
+    "static/media/creating_labs.md": "/static/media/creating_labs.07f73352ef43bbc1b330.md",
     "static/media/CreatePxr.png": "/static/media/CreatePxr.85da75ec6a2283e24a98.png",
     "static/media/splineDrawing.png": "/static/media/splineDrawing.399470ca1be328781e39.png",
     "static/media/motiontrail1.png": "/static/media/motiontrail1.6275b8f6921012686841.png",
-    "static/media/creating_labs.md": "/static/media/creating_labs.2a84149e1742868d23a7.md",
     "static/media/009.png": "/static/media/009.ae3d402bf07156b4b5a2.png",
     "static/media/Jacob Holesinger.jpg": "/static/media/Jacob Holesinger.69cc7369343d873c8768.jpg",
     "static/media/filePath.jpg": "/static/media/filePath.9a689e12424ae7dd91a4.jpg",
@@ -1456,12 +1458,13 @@
     "static/media/xgen.md": "/static/media/xgen.b65957394c590d5edbc2.md",
     "static/media/cloth.md": "/static/media/cloth.8b9f8004ec56f327b6f5.md",
     "static/media/fluids.md": "/static/media/fluids.8d349e8951c6309c6435.md",
-    "static/media/Syllabus.md": "/static/media/Syllabus.b54fc20448ee326c42c8.md",
+    "static/media/Syllabus.md": "/static/media/Syllabus.ab3cbedd234998589609.md",
     "static/media/playblasts.md": "/static/media/playblasts.3ca2d5a786516a2dd26d.md",
     "static/media/animation 2.md": "/static/media/animation 2.05e30cf53528160b10dc.md",
     "static/media/stupidbottombannerhillsblahugh.svg": "/static/media/stupidbottombannerhillsblahugh.b144eddf435eaa50ce6a400ff25a81c7.svg",
-    "static/media/basicSchedule.md": "/static/media/basicSchedule.585f835adc71299fc6cf.md",
-    "static/media/advancedSchedule.md": "/static/media/advancedSchedule.86ccb853f747df5ad888.md",
+    "static/media/advancedSchedule.md": "/static/media/advancedSchedule.1b6f740857b007be1a2b.md",
+    "static/media/basicSchedule.md": "/static/media/basicSchedule.b40a9431454f64f31603.md",
+    "static/media/scripting.md": "/static/media/scripting.e87781910e2ccfa302c8.md",
     "index.html": "/index.html",
     "static/media/discord-mark-white.svg": "/static/media/discord-mark-white.81949e05bf4c1f0292fc0bf241b394ba.svg",
     "static/media/email.svg": "/static/media/email.0333216cc88b764fa04f4acd907aedbc.svg",
@@ -1472,6 +1475,6 @@
   },
   "entrypoints": [
     "static/css/main.a0ce1bf5.css",
-    "static/js/main.0f31d322.js"
+    "static/js/main.13a83390.js"
   ]
 }
