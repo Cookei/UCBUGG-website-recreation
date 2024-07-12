@@ -1,11 +1,12 @@
 [
   {
     "year": 2024,
-    "date": ["Jan 22", "Jan 24"],
+    "date": ["Sept 3", "Sept 4"],
     "topics": ["Intro to Maya"],
     "assignments": {
       "basic": {
         "individual": [
+          "Install Maya 2023",
           "Submit enrollment form",
           "Submit application",
           "Join Discord"
@@ -26,32 +27,30 @@
   },
   {
     "year": 2024,
-    "date": ["Jan 29", "Jan 31"],
+    "date": ["Sept 9", "Sept 11"],
     "topics": ["Art and Story"],
     "assignments": {
       "basic": {
         "individual": [
           "Prepare a story pitch",
-          "Make 15-20 storyboards to accompany pitch",
-          "Create an asset list"
+          "Make 15-20 storyboards to accompany pitch"
         ],
         "group": [],
-        "labsAssigned": []
+        "labsAssigned": ["Pre-Production"]
       },
       "advanced": {
         "individual": [
-          "Prepare a story pitch",
-          "Make 15-20 storyboards to accompany pitch",
-          "Create an asset list"
+          "Receive feedback on application story pitches",
+          "Make 15-20 storyboards to accompany final pitch"
         ],
         "group": [],
-        "labsAssigned": []
+        "labsAssigned": ["Pre-Production"]
       }
     }
   },
   {
     "year": 2024,
-    "date": ["Feb 5", "Feb 7"],
+    "date": ["Sept 16", "Sept 18"],
     "topics": ["Story Pitches", "Project Management", "Group Formation"],
     "assignments": {
       "basic": {
@@ -59,28 +58,30 @@
         "group": [
           "Revise storyboards and develop animatic",
           "Make modeling sheets for characters",
+          "Create an asset list",
           "Set up GDrive"
         ],
-        "labsAssigned": []
+        "labsAssigned": ["Production Management"]
       },
       "advanced": {
         "individual": [],
         "group": [
           "Revise storyboards and develop animatic",
           "Make modeling sheets for characters",
+          "Create an asset list",
           "Set up GDrive"
         ],
-        "labsAssigned": []
+        "labsAssigned": ["Production Management"]
       }
     }
   },
   {
     "year": 2024,
-    "date": ["Feb 12", "Feb 14"],
+    "date": ["Sept 23", "Sept 25"],
     "topics": ["Basic Modeling"],
     "assignments": {
       "basic": {
-        "individual": ["Complete Basic Modeling Lab"],
+        "individual": ["Complete Modeling 1 Lab"],
         "group": ["Model Props", "Project Set Up"],
         "labsAssigned": ["Modeling 1"]
       },
@@ -96,11 +97,11 @@
   },
   {
     "year": 2024,
-    "date": ["Feb 19", "Feb 21"],
+    "date": ["Sept 30", "Oct 2"],
     "topics": ["Advanced Modeling"],
     "assignments": {
       "basic": {
-        "individual": ["Complete Advanced Modeling Lab"],
+        "individual": ["Complete Modeling 2 Lab"],
         "group": ["Model all characters and environment"],
         "labsAssigned": ["Modeling 2"]
       },
@@ -113,7 +114,7 @@
   },
   {
     "year": 2024,
-    "date": ["Feb 26", "Feb 28"],
+    "date": ["Oct 7", "Oct 9"],
     "topics": ["Shading"],
     "assignments": {
       "basic": {
@@ -136,7 +137,7 @@
   },
   {
     "year": 2024,
-    "date": ["Mar 4", "Mar 6"],
+    "date": ["Oct 14", "Oct 16"],
     "topics": ["Basic Rigging"],
     "assignments": {
       "basic": {
@@ -153,7 +154,7 @@
   },
   {
     "year": 2024,
-    "date": ["Mar 1", "Mar 13"],
+    "date": ["Oct 21", "Oct 23"],
     "topics": ["Advanced Rigging"],
     "assignments": {
       "basic": {
@@ -173,45 +174,28 @@
   },
   {
     "year": 2024,
-    "date": ["Mar 18", "Mar 20"],
+    "date": ["Oct 28", "Oct 30"],
     "topics": ["Basic Animation"],
     "assignments": {
       "basic": {
         "individual": ["Complete Basic Animation Lab"],
-        "group": ["Start blocking animation", "Set up projects"],
+        "group": ["Start blocking animation"],
         "labsAssigned": ["Animation 1"]
       },
       "advanced": {
-        "individual": [],
-        "group": ["Start blocking animation", "Set up projects"],
-        "labsAssigned": []
+        "individual": ["Complete Charactor Animation lab up to 'hip rotate y'"],
+        "group": ["Start blocking animation"],
+        "labsAssigned": ["Character Animation"]
       }
     }
   },
   {
     "year": 2024,
-    "date": ["Mar 25", "Mar 27"],
-    "topics": ["Spring Break"],
-    "assignments": {
-      "basic": {
-        "individual": ["Enjoy your break!"],
-        "group": ["Enjoy your break!"],
-        "labsAssigned": []
-      },
-      "advanced": {
-        "individual": ["Enjoy your break!"],
-        "group": ["Enjoy your break!"],
-        "labsAssigned": []
-      }
-    }
-  },
-  {
-    "year": 2024,
-    "date": ["Apr 1", "Apr 3"],
+    "date": ["Nov 4", "Nov 6"],
     "topics": ["Visual Effects and Lighting"],
     "assignments": {
       "basic": {
-        "individual": ["Complete Lighting Lab"],
+        "individual": ["Complete Lighting 1 Lab"],
         "group": ["Continue refining animation", "Submit playblasts"],
         "labsAssigned": ["Lighting 1"]
       },
@@ -224,16 +208,16 @@
   },
   {
     "year": 2024,
-    "date": ["Apr 8", "Apr 10"],
+    "date": ["Nov 13"],
     "topics": ["Advanced Animation"],
     "assignments": {
       "basic": {
-        "individual": ["Complete Advanced Animation Lab"],
+        "individual": ["Complete Animation 2 Lab"],
         "group": ["Submit refined playblasts"],
         "labsAssigned": ["Animation 2"]
       },
       "advanced": {
-        "individual": ["Complete Character Animation Lab"],
+        "individual": ["Complete rest of Character Animation Lab"],
         "group": ["Submit refined playblasts"],
         "labsAssigned": ["Character Animation"]
       }
@@ -241,7 +225,7 @@
   },
   {
     "year": 2024,
-    "date": ["Apr 15", "Apr 17"],
+    "date": ["Nov 18", "Nov 20"],
     "topics": ["Rendering and Compositing"],
     "assignments": {
       "basic": {
@@ -274,7 +258,24 @@
   },
   {
     "year": 2024,
-    "date": ["Apr 22", "Apr 24"],
+    "date": ["Nov 25"],
+    "topics": ["Speaker Event"],
+    "assignments": {
+      "basic": {
+        "individual": [],
+        "group": ["Continue groupwork"],
+        "labsAssigned": []
+      },
+      "advanced": {
+        "individual": [],
+        "group": ["Continue groupwork"],
+        "labsAssigned": []
+      }
+    }
+  },
+  {
+    "year": 2024,
+    "date": ["Dec 2", "Dec 4"],
     "topics": ["Final Class Critique"],
     "assignments": {
       "basic": {
@@ -291,7 +292,7 @@
   },
   {
     "year": 2024,
-    "date": ["~ May 3 (TBD)"],
+    "date": ["~ Dec 13 (TBD)"],
     "topics": ["Final Showcase"],
     "location": "Location: TBD"
   }
