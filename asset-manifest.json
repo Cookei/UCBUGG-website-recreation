@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.a0ce1bf5.css",
-    "main.js": "/static/js/main.13a83390.js",
+    "main.js": "/static/js/main.e2490d55.js",
     "static/js/526.a1046954.chunk.js": "/static/js/526.a1046954.chunk.js",
     "static/js/206.24d8eb7c.chunk.js": "/static/js/206.24d8eb7c.chunk.js",
     "static/js/529.55a417a2.chunk.js": "/static/js/529.55a417a2.chunk.js",
@@ -30,7 +30,7 @@
     "static/media/spline.mp4": "/static/media/spline.b29a64ee5e03596827ee.mp4",
     "static/media/heel_roll.gif": "/static/media/heel_roll.9bc61b924dc3eeb9430d.gif",
     "static/media/SDH200.jpg": "/static/media/SDH200.380731f44c30f5e285bb.jpg",
-    "static/media/Hoang Ton Senior.jpg": "/static/media/Hoang Ton Senior.97fccbd408b9ab1e72c9.jpg",
+    "static/media/Hoang Ton.jpg": "/static/media/Hoang Ton.97fccbd408b9ab1e72c9.jpg",
     "static/media/h2o.gif": "/static/media/h2o.5ecb2ef7c9c968c3c1b6.gif",
     "static/media/Christine Co.jpg": "/static/media/Christine Co.bafbe96f8582e5c1b1fa.jpg",
     "static/media/resize.gif": "/static/media/resize.aaae8e98f3f21583f539.gif",
@@ -54,7 +54,7 @@
     "static/media/blendshape_bunny.ma": "/static/media/blendshape_bunny.4ec15cba7cc1cf5526b8.ma",
     "static/media/example1.mov": "/static/media/example1.fdc8b562e459dc97914c.mov",
     "static/media/Animation2.gif": "/static/media/Animation2.7e1a93d734ed8cf0d5ea.gif",
-    "static/media/Hillary Huynh Senior.png": "/static/media/Hillary Huynh Senior.843136e03f1ad0f89d92.png",
+    "static/media/Hillary Huynh.png": "/static/media/Hillary Huynh.843136e03f1ad0f89d92.png",
     "static/media/blah.gif": "/static/media/blah.a9bf07fc36754c87147a.gif",
     "static/media/2d3d_0.gif": "/static/media/2d3d_0.39d10b6f12519b8b785d.gif",
     "static/media/029.gif": "/static/media/029.8d10a6ef42bf08d8f8c7.gif",
@@ -81,7 +81,7 @@
     "static/media/particle_world_overview.png": "/static/media/particle_world_overview.0576d7599ce7c0ea16fa.png",
     "static/media/fireanchorpoint.gif": "/static/media/fireanchorpoint.b82a44a5b83ef3642e3f.gif",
     "static/media/cello_scroll.jpg": "/static/media/cello_scroll.b5b1b680ade1fc093bfc.jpg",
-    "static/media/Billy Dong Senior.jpeg": "/static/media/Billy Dong Senior.b964ea76ed83bd210db5.jpeg",
+    "static/media/Billy Dong.jpeg": "/static/media/Billy Dong.b964ea76ed83bd210db5.jpeg",
     "static/media/cloth1.gif": "/static/media/cloth1.bcca249162fb5ab1273b.gif",
     "static/media/wtfIsThis.gif": "/static/media/wtfIsThis.320f04a5a97b47529aea.gif",
     "static/media/Nickelstats.mp4": "/static/media/Nickelstats.c03bd508b3b15168e340.mp4",
@@ -327,7 +327,7 @@
     "static/media/cello_bridge.zip": "/static/media/cello_bridge.7223e717e7f6d231d3d3.zip",
     "static/media/basic_toon_shading_8.png": "/static/media/basic_toon_shading_8.4da05ce4e22036e3b8bf.png",
     "static/media/17.png": "/static/media/17.dfbac3f01362d3bfda77.png",
-    "static/media/Rebecca Feng.jpg": "/static/media/Rebecca Feng.53b4370b3452eb2d99c2.jpg",
+    "static/media/Rebecca Feng Senior.jpg": "/static/media/Rebecca Feng Senior.53b4370b3452eb2d99c2.jpg",
     "static/media/kneepops.gif": "/static/media/kneepops.20159ab8843b13c574d6.gif",
     "static/media/52.png": "/static/media/52.eb547880b857df3c661c.png",
     "static/media/body26.png": "/static/media/body26.f343617284e7ffbaefa5.png",
@@ -371,7 +371,7 @@
     "static/media/figure2.png": "/static/media/figure2.403b8866cec478a8bd69.png",
     "static/media/body13.png": "/static/media/body13.aa033519e527393bdfcc.png",
     "static/media/body18.png": "/static/media/body18.a26bb53a17c6dd66494e.png",
-    "static/media/Gracia Y. Barrera Ruiz Senior.JPG": "/static/media/Gracia Y. Barrera Ruiz Senior.7edcabde6d1f8d678109.JPG",
+    "static/media/Gracia Y. Barrera Ruiz.JPG": "/static/media/Gracia Y. Barrera Ruiz.7edcabde6d1f8d678109.JPG",
     "static/media/body28.png": "/static/media/body28.2e842026e5310359e243.png",
     "static/media/tailpiece_angle.png": "/static/media/tailpiece_angle.8417c3a8f4e314f80487.png",
     "static/media/pendulum_assignment.gif": "/static/media/pendulum_assignment.5b5dcac55ac077a4ee16.gif",
@@ -965,7 +965,7 @@
     "static/media/browser.png": "/static/media/browser.e7f401e07ddd23793b7e.png",
     "static/media/rendersettings_location_1.jpg": "/static/media/rendersettings_location_1.64cefbc5ce5e8efc80b4.jpg",
     "static/media/mouth2b - selectEdge.png": "/static/media/mouth2b - selectEdge.00874a0a604b5f0436cf.png",
-    "static/media/Maya Zheng Senior.jpeg": "/static/media/Maya Zheng Senior.04f9796e9af71dd4a05a.jpeg",
+    "static/media/Maya Zheng.jpeg": "/static/media/Maya Zheng.04f9796e9af71dd4a05a.jpeg",
     "static/media/matchVertices.jpg": "/static/media/matchVertices.4beeff1376cb731a526a.jpg",
     "static/media/005.png": "/static/media/005.45ecf8b7a6e583be1c08.png",
     "static/media/l8.png": "/static/media/l8.fd13fd422ffb6090bb62.png",
@@ -1458,7 +1458,7 @@
     "static/media/xgen.md": "/static/media/xgen.b65957394c590d5edbc2.md",
     "static/media/cloth.md": "/static/media/cloth.8b9f8004ec56f327b6f5.md",
     "static/media/fluids.md": "/static/media/fluids.8d349e8951c6309c6435.md",
-    "static/media/Syllabus.md": "/static/media/Syllabus.ab3cbedd234998589609.md",
+    "static/media/Syllabus.md": "/static/media/Syllabus.288aaf95dbd19dc632bb.md",
     "static/media/playblasts.md": "/static/media/playblasts.3ca2d5a786516a2dd26d.md",
     "static/media/animation 2.md": "/static/media/animation 2.05e30cf53528160b10dc.md",
     "static/media/stupidbottombannerhillsblahugh.svg": "/static/media/stupidbottombannerhillsblahugh.b144eddf435eaa50ce6a400ff25a81c7.svg",
@@ -1475,6 +1475,6 @@
   },
   "entrypoints": [
     "static/css/main.a0ce1bf5.css",
-    "static/js/main.13a83390.js"
+    "static/js/main.e2490d55.js"
   ]
 }

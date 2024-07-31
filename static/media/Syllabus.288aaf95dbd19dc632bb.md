@@ -46,8 +46,8 @@ This course can only be taken as PASS/NO PASS (P/NP). CCNs will be provided by t
   - Late assignments (right after the due date) can be graded for up to 50% credit
   - Assignment is graded based upon percentage of completion and correctness
   - Homework extensions are handled on a case by case basis
-- **Maximum of 2 excused absences & 1 unexcused absence before a 5% deduction per absence on their final grade**
-- **Successfully interact with your group mates**
+- **Maximum of 2 excused absences & 1 unexcused absence (each additional absence results in a 5% deduction on final grade)**
+- **Successfully interact with group mates**
 - **Complete the final project**
 
 # Grade Breakdown
