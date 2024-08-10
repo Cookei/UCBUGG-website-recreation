@@ -1,4 +1,4 @@
-# Syllabus for Spring 2024
+# Syllabus for Fall 2024
 
 # Course Overview
 
