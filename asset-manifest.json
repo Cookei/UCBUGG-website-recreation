@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.a0ce1bf5.css",
-    "main.js": "/static/js/main.e2490d55.js",
+    "main.js": "/static/js/main.39719ed4.js",
     "static/js/526.a1046954.chunk.js": "/static/js/526.a1046954.chunk.js",
     "static/js/206.24d8eb7c.chunk.js": "/static/js/206.24d8eb7c.chunk.js",
     "static/js/529.55a417a2.chunk.js": "/static/js/529.55a417a2.chunk.js",
@@ -302,7 +302,7 @@
     "static/media/step11.gif": "/static/media/step11.05bf4087bab690636645.gif",
     "static/media/left_motion_pendulum_step6.gif": "/static/media/left_motion_pendulum_step6.5553110a3f4c5455935a.gif",
     "static/media/body22.png": "/static/media/body22.09bb73c84207b5df966a.png",
-    "static/media/9.png": "/static/media/9.c19042f6a3b1713bc3e8.png",
+    "static/media/9_2.png": "/static/media/9_2.cab23c79f02bee8dd3c1.png",
     "static/media/daytime_finished.png": "/static/media/daytime_finished.b1d68bad5515bef70889.png",
     "static/media/14_side.png": "/static/media/14_side.9c846d7afff6c93f6d27.png",
     "static/media/31_connecting2.png": "/static/media/31_connecting2.5522dc1275cf723be1b6.png",
@@ -387,6 +387,7 @@
     "static/media/19_extendUp2.png": "/static/media/19_extendUp2.5ab3c8fb55468ef274a6.png",
     "static/media/locators_final_position.png": "/static/media/locators_final_position.35b3e604194299070d0d.png",
     "static/media/53.png": "/static/media/53.43ab02412a7989ee2944.png",
+    "static/media/9.png": "/static/media/9.c19042f6a3b1713bc3e8.png",
     "static/media/026.png": "/static/media/026.fde4d3d0aa6acaa713e7.png",
     "static/media/vid3.gif": "/static/media/vid3.85914a0735416748c152.gif",
     "static/media/loft_curve_placement.png": "/static/media/loft_curve_placement.4ac05d80b19eb64a8319.png",
@@ -1087,13 +1088,13 @@
     "static/media/final_cello_shaded.png": "/static/media/final_cello_shaded.a5888b717b3782302b93.png",
     "static/media/nose6.jpg": "/static/media/nose6.7e670908d996467ae0ee.jpg",
     "static/media/Capture102.png": "/static/media/Capture102.5511bc2a015628abfac7.png",
-    "static/media/organic modeling human.md": "/static/media/organic modeling human.821344f8c01e50f1a68c.md",
     "static/media/Screen Shot 2015-12-01 at 4.25.10 PM.png": "/static/media/Screen Shot 2015-12-01 at 4.25.10 PM.65b729faa804f327c068.png",
     "static/media/Capture26.png": "/static/media/Capture26.eb8b1661b47c349656e4.png",
     "static/media/renderSettings_arnoldRenderer_2.jpg": "/static/media/renderSettings_arnoldRenderer_2.9d044804fbccd410a361.jpg",
     "static/media/output_module_settings.jpg": "/static/media/output_module_settings.6079e8c195fd2cb48a49.jpg",
     "static/media/Screen Shot 2016-04-10 at 5.11.39 PM.png": "/static/media/Screen Shot 2016-04-10 at 5.11.39 PM.7fa4f79ee1b1968d4197.png",
     "static/media/Capture77.png": "/static/media/Capture77.1c9d8cae7d137494bcec.png",
+    "static/media/organic modeling human.md": "/static/media/organic modeling human.0ee471c77443d174a8fb.md",
     "static/media/ear6.jpg": "/static/media/ear6.971d85b23989575f2eec.jpg",
     "static/media/hardSurface_smooth_comparison.png": "/static/media/hardSurface_smooth_comparison.6202b4157bf0def27daa.png",
     "static/media/cbox.png": "/static/media/cbox.c4f66e546e12aa8cbbea.png",
@@ -1458,7 +1459,7 @@
     "static/media/xgen.md": "/static/media/xgen.b65957394c590d5edbc2.md",
     "static/media/cloth.md": "/static/media/cloth.8b9f8004ec56f327b6f5.md",
     "static/media/fluids.md": "/static/media/fluids.8d349e8951c6309c6435.md",
-    "static/media/Syllabus.md": "/static/media/Syllabus.288aaf95dbd19dc632bb.md",
+    "static/media/Syllabus.md": "/static/media/Syllabus.34057cd2a1514d785bd3.md",
     "static/media/playblasts.md": "/static/media/playblasts.3ca2d5a786516a2dd26d.md",
     "static/media/animation 2.md": "/static/media/animation 2.05e30cf53528160b10dc.md",
     "static/media/stupidbottombannerhillsblahugh.svg": "/static/media/stupidbottombannerhillsblahugh.b144eddf435eaa50ce6a400ff25a81c7.svg",
@@ -1475,6 +1476,6 @@
   },
   "entrypoints": [
     "static/css/main.a0ce1bf5.css",
-    "static/js/main.e2490d55.js"
+    "static/js/main.39719ed4.js"
   ]
 }
