@@ -8,6 +8,7 @@ import substancePainterImage from "../assets/homePageIcon/adobe-substance-3d-pai
 import aftereffectIconImage from "../assets/homePageIcon/AELOGO.png";
 import PipelineInfoUpdate from "../components/PipelineUpdate";
 import SDHRoomImage from "../assets/homePageIcon/SDH200.jpg";
+import Soda330Image from "../assets/homePageIcon/Soda330Image.jpg";
 
 import ModelingImage from "../assets/homePageIcon/modelingIcon.png";
 import RiggingImage from "../assets/homePageIcon/riggingIcon.png";
@@ -255,7 +256,9 @@ const Home = (props, ref) => {
       </section>
       <section id={styles.directionSection}>
         <div className={styles.SDHImageContainer} style={{ zIndex: 1 }}>
-          <img src={SDHRoomImage} />
+          <a href="https://maps.app.goo.gl/Me496cmvq8oSQxVS8" target="_blank">
+            <img src={Soda330Image} />
+          </a>
         </div>
         <div
           style={{
@@ -265,13 +268,17 @@ const Home = (props, ref) => {
             flexDirection: "row",
             alignItems: "center",
             zIndex: 1,
+            pointerEvents: "none",
           }}
         >
           <div style={{ position: "aboslute", flexGrow: 1 }} />
           <a
             className={styles.SDHTextBlock}
-            href="https://maps.app.goo.gl/MYg3EeWBrpotrWBi6"
+            href="https://maps.app.goo.gl/Me496cmvq8oSQxVS8"
             target="_blank"
+            style={{
+              pointerEvents: "auto",
+            }}
           >
             <h1>Schedule</h1>
             <div className={styles.SDHSmallTextBlock}>
