@@ -33,28 +33,40 @@ import HelperGrid from "../models/HelperGrid";
 import CameraRig from "../components/CameraRig";
 import SocialIcon from "../components/SocialIcon";
 import hdr from "../assets/models/rainforest_trail_1k.hdr";
+import useWindowSize from "../components/useWindowSize";
 const SplashModel = React.lazy(() => import("../models/SplashModel"));
 
 const Home = (props, ref) => {
   const [pipelineState, setPipelineState] = useState(null);
 
+  const size = useWindowSize();
+
   return (
     <>
+      {size.width > 600 ? (
+        <div id={styles.adBanner}>
+          <a href="https://forms.gle/RshnVnW2gg4HsBLw6" target="_blank">
+            <h1>UCBUGG Infosession signup click here!</h1>
+          </a>
+        </div>
+      ) : null}
       <section id={styles.splashSection}>
-        <View index={1} className={appStyles.view}>
-          <PerspectiveCamera makeDefault position={[3.5, 1.5, 4.5]} />
-          <CameraRig SPLASH_OFFSET={[3.5, 1.5, 4.5]} />
-          <GradientTexture
-            attach="background"
-            stops={[0, 1]}
-            colors={["#faf7f9", "#e1f0f5"]}
-            size={1024}
-          />
-          <ambientLight intensity={1} />
-          <Environment files={hdr} />
-          <HelperGrid />
-          <SplashModel />
-        </View>
+        {size.width > 600 ? (
+          <View index={1} className={appStyles.view}>
+            <PerspectiveCamera makeDefault position={[3.5, 1.5, 4.5]} />
+            <CameraRig SPLASH_OFFSET={[3.5, 1.5, 4.5]} />
+            <GradientTexture
+              attach="background"
+              stops={[0, 1]}
+              colors={["#faf7f9", "#e1f0f5"]}
+              size={1024}
+            />
+            <ambientLight intensity={1} />
+            <Environment files={hdr} />
+            <HelperGrid />
+            <SplashModel />
+          </View>
+        ) : null}
         <div id={styles.splashTitle}>
           <div style={{ flexGrow: 3 }} />
           <div id={styles.splashTitleBox}>

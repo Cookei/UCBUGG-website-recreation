@@ -4,17 +4,17 @@
 
 **Course Email:** staff@ucbugg.com  
 **Course Website:** ucbugg.com  
-**Class Days & Hours:** Monday or Wednesday | 7:00pm - 9:00pm  
-**Class Location:** 200 Sutardja Dai Hall  
+**Class Days & Hours:** Monday or Friday | 7:00pm - 9:00pm  
+**Class Location:** Soda 330
 **Unit Information:** CS 198-3, 3 units
 
 ## Staff
 
-| Role              | Name(s)                                                                                                                                                                  |
-| ----------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| Head Facilitators | Olivia Xie<br>Rebecca Feng                                                                                                                                             |
+| Role              | Name(s)                                                                                                         |
+| ----------------- | --------------------------------------------------------------------------------------------------------------- |
+| Head Facilitators | Olivia Xie<br>Rebecca Feng                                                                                      |
 | Facilitators      | Gabriel De Leon<br>Chinyce Cole-Henry<br>Francis Basco<br>Ethan Tam<br>Khylie Aviles<br>Han Li<br>Raine Koizumi |
-| Faculty Sponsor   | Dan Garcia                                                                                                                                                               |
+| Faculty Sponsor   | Dan Garcia                                                                                                      |
 
 # Course Description and Structure
 
@@ -34,9 +34,9 @@
 
 # Requirements and Prerequisites
 
-- Enrollment will be based on an application which involves the submission of an initial homework assignment along with a form containing other relevant information about the student. The details of this assignment will be discussed in the introductory lecture. 
+- Enrollment will be based on an application which involves the submission of an initial homework assignment along with a form containing other relevant information about the student. The details of this assignment will be discussed in the introductory lecture.
 - **Students must be fully enrolled both in this class and at UC Berkeley. Auditors are handled on a case-to-case basis.**
-- It is highly recommended that students have access to a personal computer that can have Autodesk Maya installed on it. However, this is not a hard requirement as card key access to the computer lab will be granted after registration as well. 
+- It is highly recommended that students have access to a personal computer that can have Autodesk Maya installed on it. However, this is not a hard requirement as card key access to the computer lab will be granted after registration as well.
 
 # Grading and Absence Policy
 
@@ -55,13 +55,13 @@ This course can only be taken as PASS/NO PASS (P/NP). CCNs will be provided by t
 > (!important)
 > **Note: Please read the below grading and absence policy CAREFULLY.**
 
-| Assignment                        | Percentage |
-| --------------------------------- | ---------- |
-| Lab Assignments                   | 40%        |
-| Attendance                        | 10%        |
-| Participation                     | 5%         |
-| Weekly Team Progress              | 10%        |
-| Midterm                           | 10%        |
-| Completion of Final Short         | 25%        |
+| Assignment                | Percentage |
+| ------------------------- | ---------- |
+| Lab Assignments           | 40%        |
+| Attendance                | 10%        |
+| Participation             | 5%         |
+| Weekly Team Progress      | 10%        |
+| Midterm                   | 10%        |
+| Completion of Final Short | 25%        |
 
 # Course Outline
