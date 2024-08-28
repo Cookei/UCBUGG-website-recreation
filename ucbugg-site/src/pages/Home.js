@@ -8,6 +8,7 @@ import substancePainterImage from "../assets/homePageIcon/adobe-substance-3d-pai
 import aftereffectIconImage from "../assets/homePageIcon/AELOGO.png";
 import PipelineInfoUpdate from "../components/PipelineUpdate";
 import SDHRoomImage from "../assets/homePageIcon/SDH200.jpg";
+import Soda330Image from "../assets/homePageIcon/Soda330Image.jpg";
 
 import ModelingImage from "../assets/homePageIcon/modelingIcon.png";
 import RiggingImage from "../assets/homePageIcon/riggingIcon.png";
@@ -33,30 +34,40 @@ import HelperGrid from "../models/HelperGrid";
 import CameraRig from "../components/CameraRig";
 import SocialIcon from "../components/SocialIcon";
 import hdr from "../assets/models/rainforest_trail_1k.hdr";
+import useWindowSize from "../components/useWindowSize";
 const SplashModel = React.lazy(() => import("../models/SplashModel"));
 const InfoseshModel = React.lazy(() => import("../models/InfoseshModel"));
 
 const Home = (props, ref) => {
   const [pipelineState, setPipelineState] = useState(null);
 
+  const size = useWindowSize();
+
   return (
     <>
+      <div id={styles.adBanner}>
+        <a href="https://forms.gle/RshnVnW2gg4HsBLw6" target="_blank">
+          <h1>UCBUGG Infosession signup click here!</h1>
+        </a>
+      </div>
       <section id={styles.splashSection}>
-        <View index={1} className={appStyles.view}>
-          <PerspectiveCamera makeDefault position={[3.5, 1.5, 4.5]} />
-          <CameraRig SPLASH_OFFSET={[3.5, 1.5, 4.5]} />
-          <GradientTexture
-            attach="background"
-            stops={[0, 1]}
-            colors={["#faf7f9", "#e1f0f5"]}
-            size={1024}
-          />
-          <ambientLight intensity={1} />
-          <Environment files={hdr} />
-          <HelperGrid />
-          <SplashModel />
-          <InfoseshModel/>
-        </View>
+        {size.width > 600 ? (
+          <View index={1} className={appStyles.view}>
+            <PerspectiveCamera makeDefault position={[3.5, 1.5, 4.5]} />
+            <CameraRig SPLASH_OFFSET={[3.5, 1.5, 4.5]} />
+            <GradientTexture
+              attach="background"
+              stops={[0, 1]}
+              colors={["#faf7f9", "#e1f0f5"]}
+              size={1024}
+            />
+            <ambientLight intensity={1} />
+            <Environment files={hdr} />
+            <HelperGrid />
+            <SplashModel />
+            <InfoseshModel />
+          </View>
+        ) : null}
         <div id={styles.splashTitle}>
           <div style={{ flexGrow: 3 }} />
           <div id={styles.splashTitleBox}>
@@ -247,7 +258,9 @@ const Home = (props, ref) => {
       </section>
       <section id={styles.directionSection}>
         <div className={styles.SDHImageContainer} style={{ zIndex: 1 }}>
-          <img src={SDHRoomImage} />
+          <a href="https://maps.app.goo.gl/Me496cmvq8oSQxVS8" target="_blank">
+            <img src={Soda330Image} />
+          </a>
         </div>
         <div
           style={{
@@ -257,24 +270,26 @@ const Home = (props, ref) => {
             flexDirection: "row",
             alignItems: "center",
             zIndex: 1,
+            pointerEvents: "none",
           }}
         >
           <div style={{ position: "aboslute", flexGrow: 1 }} />
           <a
             className={styles.SDHTextBlock}
-            href="https://maps.app.goo.gl/MYg3EeWBrpotrWBi6"
+            href="https://maps.app.goo.gl/Me496cmvq8oSQxVS8"
             target="_blank"
+            style={{
+              pointerEvents: "auto",
+            }}
           >
             <h1>Schedule</h1>
             <div className={styles.SDHSmallTextBlock}>
-              Monday or Wednesday
+              Monday or Friday
               <br />
               7:00 - 9:00pm
               <br />
               <br />
-              <span style={{ textDecoration: "underline" }}>
-                200 Sutardja Dai Hall
-              </span>
+              <span style={{ textDecoration: "underline" }}>Soda 330</span>
             </div>
             {/* <button className={styles.SDHButton}>
               <h1>Apply Now!</h1>
