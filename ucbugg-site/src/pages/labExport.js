@@ -543,120 +543,214 @@ import _Capture99src_assets_labs_Modeling_Advanced_organic_modeling_dragonpng fr
 import _Final_rendersrc_assets_labs_Modeling_Advanced_organic_modeling_dragonpng from '../assets/labs/Modeling/Advanced/organic modeling dragon/Final render.png'
 import _organic_modeling_dragonsrc_assets_labs_Modeling_Advanced_organic_modeling_dragonmd from '../assets/labs/Modeling/Advanced/organic modeling dragon/organic modeling dragon.md'
 import _THUMBNAILsrc_assets_labs_Modeling_Advanced_organic_modeling_dragonpng from '../assets/labs/Modeling/Advanced/organic modeling dragon/THUMBNAIL.png'
-import _10_shirtsrc_assets_labs_Modeling_Advanced_organic_modeling_human_Accessoriespng from '../assets/labs/Modeling/Advanced/organic modeling human/Accessories/10_shirt.png'
-import _11_pantsrc_assets_labs_Modeling_Advanced_organic_modeling_human_Accessoriespng from '../assets/labs/Modeling/Advanced/organic modeling human/Accessories/11_pant.png'
-import _12_pantsrc_assets_labs_Modeling_Advanced_organic_modeling_human_Accessoriespng from '../assets/labs/Modeling/Advanced/organic modeling human/Accessories/12_pant.png'
-import _13_pantsrc_assets_labs_Modeling_Advanced_organic_modeling_human_Accessoriespng from '../assets/labs/Modeling/Advanced/organic modeling human/Accessories/13_pant.png'
-import _14_pantsrc_assets_labs_Modeling_Advanced_organic_modeling_human_Accessoriespng from '../assets/labs/Modeling/Advanced/organic modeling human/Accessories/14_pant.png'
-import _15_pantsrc_assets_labs_Modeling_Advanced_organic_modeling_human_Accessoriespng from '../assets/labs/Modeling/Advanced/organic modeling human/Accessories/15_pant.png'
-import _16_hairsrc_assets_labs_Modeling_Advanced_organic_modeling_human_Accessoriespng from '../assets/labs/Modeling/Advanced/organic modeling human/Accessories/16_hair.png'
-import _17_hairsrc_assets_labs_Modeling_Advanced_organic_modeling_human_Accessoriespng from '../assets/labs/Modeling/Advanced/organic modeling human/Accessories/17_hair.png'
-import _18_hairsrc_assets_labs_Modeling_Advanced_organic_modeling_human_Accessoriespng from '../assets/labs/Modeling/Advanced/organic modeling human/Accessories/18_hair.png'
-import _19_hairsrc_assets_labs_Modeling_Advanced_organic_modeling_human_Accessoriespng from '../assets/labs/Modeling/Advanced/organic modeling human/Accessories/19_hair.png'
-import _1_shirtsrc_assets_labs_Modeling_Advanced_organic_modeling_human_Accessoriespng from '../assets/labs/Modeling/Advanced/organic modeling human/Accessories/1_shirt.png'
-import _20_hairsrc_assets_labs_Modeling_Advanced_organic_modeling_human_Accessoriespng from '../assets/labs/Modeling/Advanced/organic modeling human/Accessories/20_hair.png'
-import _21_hairsrc_assets_labs_Modeling_Advanced_organic_modeling_human_Accessoriespng from '../assets/labs/Modeling/Advanced/organic modeling human/Accessories/21_hair.png'
-import _22_finalsrc_assets_labs_Modeling_Advanced_organic_modeling_human_Accessoriespng from '../assets/labs/Modeling/Advanced/organic modeling human/Accessories/22_final.png'
-import _23_finalsrc_assets_labs_Modeling_Advanced_organic_modeling_human_Accessoriespng from '../assets/labs/Modeling/Advanced/organic modeling human/Accessories/23_final.png'
-import _24_finalsrc_assets_labs_Modeling_Advanced_organic_modeling_human_Accessoriespng from '../assets/labs/Modeling/Advanced/organic modeling human/Accessories/24_final.png'
-import _25_finalsrc_assets_labs_Modeling_Advanced_organic_modeling_human_Accessoriespng from '../assets/labs/Modeling/Advanced/organic modeling human/Accessories/25_final.png'
-import _2_shirtsrc_assets_labs_Modeling_Advanced_organic_modeling_human_Accessoriespng from '../assets/labs/Modeling/Advanced/organic modeling human/Accessories/2_shirt.png'
-import _3_shirtsrc_assets_labs_Modeling_Advanced_organic_modeling_human_Accessoriespng from '../assets/labs/Modeling/Advanced/organic modeling human/Accessories/3_shirt.png'
-import _4_shirtsrc_assets_labs_Modeling_Advanced_organic_modeling_human_Accessoriespng from '../assets/labs/Modeling/Advanced/organic modeling human/Accessories/4_shirt.png'
-import _5_shirtsrc_assets_labs_Modeling_Advanced_organic_modeling_human_Accessoriespng from '../assets/labs/Modeling/Advanced/organic modeling human/Accessories/5_shirt.png'
-import _6_shirtsrc_assets_labs_Modeling_Advanced_organic_modeling_human_Accessoriespng from '../assets/labs/Modeling/Advanced/organic modeling human/Accessories/6_shirt.png'
-import _7_shirtsrc_assets_labs_Modeling_Advanced_organic_modeling_human_Accessoriespng from '../assets/labs/Modeling/Advanced/organic modeling human/Accessories/7_shirt.png'
-import _8_shirtsrc_assets_labs_Modeling_Advanced_organic_modeling_human_Accessoriespng from '../assets/labs/Modeling/Advanced/organic modeling human/Accessories/8_shirt.png'
-import _9_shirtsrc_assets_labs_Modeling_Advanced_organic_modeling_human_Accessoriespng from '../assets/labs/Modeling/Advanced/organic modeling human/Accessories/9_shirt.png'
-import _body1src_assets_labs_Modeling_Advanced_organic_modeling_human_Bodypng from '../assets/labs/Modeling/Advanced/organic modeling human/Body/body1.png'
-import _body10src_assets_labs_Modeling_Advanced_organic_modeling_human_Bodypng from '../assets/labs/Modeling/Advanced/organic modeling human/Body/body10.png'
-import _body11src_assets_labs_Modeling_Advanced_organic_modeling_human_Bodypng from '../assets/labs/Modeling/Advanced/organic modeling human/Body/body11.png'
-import _body12src_assets_labs_Modeling_Advanced_organic_modeling_human_Bodypng from '../assets/labs/Modeling/Advanced/organic modeling human/Body/body12.png'
-import _body13src_assets_labs_Modeling_Advanced_organic_modeling_human_Bodypng from '../assets/labs/Modeling/Advanced/organic modeling human/Body/body13.png'
-import _body14src_assets_labs_Modeling_Advanced_organic_modeling_human_Bodypng from '../assets/labs/Modeling/Advanced/organic modeling human/Body/body14.png'
-import _body15src_assets_labs_Modeling_Advanced_organic_modeling_human_Bodypng from '../assets/labs/Modeling/Advanced/organic modeling human/Body/body15.png'
-import _body16src_assets_labs_Modeling_Advanced_organic_modeling_human_Bodypng from '../assets/labs/Modeling/Advanced/organic modeling human/Body/body16.png'
-import _body17src_assets_labs_Modeling_Advanced_organic_modeling_human_Bodypng from '../assets/labs/Modeling/Advanced/organic modeling human/Body/body17.png'
-import _body18src_assets_labs_Modeling_Advanced_organic_modeling_human_Bodypng from '../assets/labs/Modeling/Advanced/organic modeling human/Body/body18.png'
-import _body19src_assets_labs_Modeling_Advanced_organic_modeling_human_Bodypng from '../assets/labs/Modeling/Advanced/organic modeling human/Body/body19.png'
-import _body1asrc_assets_labs_Modeling_Advanced_organic_modeling_human_Bodypng from '../assets/labs/Modeling/Advanced/organic modeling human/Body/body1a.png'
-import _body1bsrc_assets_labs_Modeling_Advanced_organic_modeling_human_Bodypng from '../assets/labs/Modeling/Advanced/organic modeling human/Body/body1b.png'
-import _body2src_assets_labs_Modeling_Advanced_organic_modeling_human_Bodypng from '../assets/labs/Modeling/Advanced/organic modeling human/Body/body2.png'
-import _body20src_assets_labs_Modeling_Advanced_organic_modeling_human_Bodypng from '../assets/labs/Modeling/Advanced/organic modeling human/Body/body20.png'
-import _body21src_assets_labs_Modeling_Advanced_organic_modeling_human_Bodypng from '../assets/labs/Modeling/Advanced/organic modeling human/Body/body21.png'
-import _body22src_assets_labs_Modeling_Advanced_organic_modeling_human_Bodypng from '../assets/labs/Modeling/Advanced/organic modeling human/Body/body22.png'
-import _body23src_assets_labs_Modeling_Advanced_organic_modeling_human_Bodypng from '../assets/labs/Modeling/Advanced/organic modeling human/Body/body23.png'
-import _body24src_assets_labs_Modeling_Advanced_organic_modeling_human_Bodypng from '../assets/labs/Modeling/Advanced/organic modeling human/Body/body24.png'
-import _body25src_assets_labs_Modeling_Advanced_organic_modeling_human_Bodypng from '../assets/labs/Modeling/Advanced/organic modeling human/Body/body25.png'
-import _body26src_assets_labs_Modeling_Advanced_organic_modeling_human_Bodypng from '../assets/labs/Modeling/Advanced/organic modeling human/Body/body26.png'
-import _body27src_assets_labs_Modeling_Advanced_organic_modeling_human_Bodypng from '../assets/labs/Modeling/Advanced/organic modeling human/Body/body27.png'
-import _body28src_assets_labs_Modeling_Advanced_organic_modeling_human_Bodypng from '../assets/labs/Modeling/Advanced/organic modeling human/Body/body28.png'
-import _body29src_assets_labs_Modeling_Advanced_organic_modeling_human_Bodypng from '../assets/labs/Modeling/Advanced/organic modeling human/Body/body29.png'
-import _body3src_assets_labs_Modeling_Advanced_organic_modeling_human_Bodypng from '../assets/labs/Modeling/Advanced/organic modeling human/Body/body3.png'
-import _body30src_assets_labs_Modeling_Advanced_organic_modeling_human_Bodypng from '../assets/labs/Modeling/Advanced/organic modeling human/Body/body30.png'
-import _body31src_assets_labs_Modeling_Advanced_organic_modeling_human_Bodypng from '../assets/labs/Modeling/Advanced/organic modeling human/Body/body31.png'
-import _body33src_assets_labs_Modeling_Advanced_organic_modeling_human_Bodypng from '../assets/labs/Modeling/Advanced/organic modeling human/Body/body33.png'
-import _body34src_assets_labs_Modeling_Advanced_organic_modeling_human_Bodypng from '../assets/labs/Modeling/Advanced/organic modeling human/Body/body34.png'
-import _body36src_assets_labs_Modeling_Advanced_organic_modeling_human_Bodypng from '../assets/labs/Modeling/Advanced/organic modeling human/Body/body36.png'
-import _body37src_assets_labs_Modeling_Advanced_organic_modeling_human_Bodypng from '../assets/labs/Modeling/Advanced/organic modeling human/Body/body37.png'
-import _body38src_assets_labs_Modeling_Advanced_organic_modeling_human_Bodypng from '../assets/labs/Modeling/Advanced/organic modeling human/Body/body38.png'
-import _body39src_assets_labs_Modeling_Advanced_organic_modeling_human_Bodypng from '../assets/labs/Modeling/Advanced/organic modeling human/Body/body39.png'
-import _body4src_assets_labs_Modeling_Advanced_organic_modeling_human_Bodypng from '../assets/labs/Modeling/Advanced/organic modeling human/Body/body4.png'
-import _body40src_assets_labs_Modeling_Advanced_organic_modeling_human_Bodypng from '../assets/labs/Modeling/Advanced/organic modeling human/Body/body40.png'
-import _body41src_assets_labs_Modeling_Advanced_organic_modeling_human_Bodypng from '../assets/labs/Modeling/Advanced/organic modeling human/Body/body41.png'
-import _body42src_assets_labs_Modeling_Advanced_organic_modeling_human_Bodypng from '../assets/labs/Modeling/Advanced/organic modeling human/Body/body42.png'
-import _body43src_assets_labs_Modeling_Advanced_organic_modeling_human_Bodypng from '../assets/labs/Modeling/Advanced/organic modeling human/Body/body43.png'
-import _body44src_assets_labs_Modeling_Advanced_organic_modeling_human_Bodypng from '../assets/labs/Modeling/Advanced/organic modeling human/Body/body44.png'
-import _body46src_assets_labs_Modeling_Advanced_organic_modeling_human_Bodypng from '../assets/labs/Modeling/Advanced/organic modeling human/Body/body46.png'
-import _body47src_assets_labs_Modeling_Advanced_organic_modeling_human_Bodypng from '../assets/labs/Modeling/Advanced/organic modeling human/Body/body47.png'
-import _body48src_assets_labs_Modeling_Advanced_organic_modeling_human_Bodypng from '../assets/labs/Modeling/Advanced/organic modeling human/Body/body48.png'
-import _body49src_assets_labs_Modeling_Advanced_organic_modeling_human_Bodypng from '../assets/labs/Modeling/Advanced/organic modeling human/Body/body49.png'
-import _body5src_assets_labs_Modeling_Advanced_organic_modeling_human_Bodypng from '../assets/labs/Modeling/Advanced/organic modeling human/Body/body5.png'
-import _body50src_assets_labs_Modeling_Advanced_organic_modeling_human_Bodypng from '../assets/labs/Modeling/Advanced/organic modeling human/Body/body50.png'
-import _body51src_assets_labs_Modeling_Advanced_organic_modeling_human_Bodypng from '../assets/labs/Modeling/Advanced/organic modeling human/Body/body51.png'
-import _body52src_assets_labs_Modeling_Advanced_organic_modeling_human_Bodypng from '../assets/labs/Modeling/Advanced/organic modeling human/Body/body52.png'
-import _body53src_assets_labs_Modeling_Advanced_organic_modeling_human_Bodypng from '../assets/labs/Modeling/Advanced/organic modeling human/Body/body53.png'
-import _body54src_assets_labs_Modeling_Advanced_organic_modeling_human_Bodypng from '../assets/labs/Modeling/Advanced/organic modeling human/Body/body54.png'
-import _body55src_assets_labs_Modeling_Advanced_organic_modeling_human_Bodypng from '../assets/labs/Modeling/Advanced/organic modeling human/Body/body55.png'
-import _body5asrc_assets_labs_Modeling_Advanced_organic_modeling_human_Bodypng from '../assets/labs/Modeling/Advanced/organic modeling human/Body/body5a.png'
-import _body5bsrc_assets_labs_Modeling_Advanced_organic_modeling_human_Bodypng from '../assets/labs/Modeling/Advanced/organic modeling human/Body/body5b.png'
-import _body5csrc_assets_labs_Modeling_Advanced_organic_modeling_human_Bodypng from '../assets/labs/Modeling/Advanced/organic modeling human/Body/body5c.png'
-import _body5dsrc_assets_labs_Modeling_Advanced_organic_modeling_human_Bodypng from '../assets/labs/Modeling/Advanced/organic modeling human/Body/body5d.png'
-import _body6src_assets_labs_Modeling_Advanced_organic_modeling_human_Bodypng from '../assets/labs/Modeling/Advanced/organic modeling human/Body/body6.png'
-import _body7src_assets_labs_Modeling_Advanced_organic_modeling_human_Bodypng from '../assets/labs/Modeling/Advanced/organic modeling human/Body/body7.png'
-import _body7bsrc_assets_labs_Modeling_Advanced_organic_modeling_human_Bodypng from '../assets/labs/Modeling/Advanced/organic modeling human/Body/body7b.png'
-import _body7csrc_assets_labs_Modeling_Advanced_organic_modeling_human_Bodypng from '../assets/labs/Modeling/Advanced/organic modeling human/Body/body7c.png'
-import _body8src_assets_labs_Modeling_Advanced_organic_modeling_human_Bodypng from '../assets/labs/Modeling/Advanced/organic modeling human/Body/body8.png'
-import _body9src_assets_labs_Modeling_Advanced_organic_modeling_human_Bodypng from '../assets/labs/Modeling/Advanced/organic modeling human/Body/body9.png'
-import _circularizesrc_assets_labs_Modeling_Advanced_organic_modeling_human_Bodypng from '../assets/labs/Modeling/Advanced/organic modeling human/Body/circularize.png'
-import _polyBridgesrc_assets_labs_Modeling_Advanced_organic_modeling_human_Bodypng from '../assets/labs/Modeling/Advanced/organic modeling human/Body/polyBridge.png'
-import _symmetrysrc_assets_labs_Modeling_Advanced_organic_modeling_human_Bodypng from '../assets/labs/Modeling/Advanced/organic modeling human/Body/symmetry.png'
-import _targetWeldsrc_assets_labs_Modeling_Advanced_organic_modeling_human_Bodypng from '../assets/labs/Modeling/Advanced/organic modeling human/Body/targetWeld.png'
+import _01_characterSheets_setupsrc_assets_labs_Modeling_Advanced_organic_modeling_humanpng from '../assets/labs/Modeling/Advanced/organic modeling human/01_characterSheets_setup.png'
+import _01_pointssrc_assets_labs_Modeling_Advanced_organic_modeling_humanpng from '../assets/labs/Modeling/Advanced/organic modeling human/01_points.png'
+import _02_hoversrc_assets_labs_Modeling_Advanced_organic_modeling_humanpng from '../assets/labs/Modeling/Advanced/organic modeling human/02_hover.png'
+import _02_simpleSpheresrc_assets_labs_Modeling_Advanced_organic_modeling_humanpng from '../assets/labs/Modeling/Advanced/organic modeling human/02_simpleSphere.png'
+import _03_positionFRONTsrc_assets_labs_Modeling_Advanced_organic_modeling_humanpng from '../assets/labs/Modeling/Advanced/organic modeling human/03_positionFRONT.png'
+import _03_squaresrc_assets_labs_Modeling_Advanced_organic_modeling_humanpng from '../assets/labs/Modeling/Advanced/organic modeling human/03_square.png'
+import _04_positionSIDEsrc_assets_labs_Modeling_Advanced_organic_modeling_humanpng from '../assets/labs/Modeling/Advanced/organic modeling human/04_positionSIDE.png'
+import _04_tabsrc_assets_labs_Modeling_Advanced_organic_modeling_humanpng from '../assets/labs/Modeling/Advanced/organic modeling human/04_tab.png'
+import _05_newSquaresrc_assets_labs_Modeling_Advanced_organic_modeling_humanpng from '../assets/labs/Modeling/Advanced/organic modeling human/05_newSquare.png'
+import _05_xraysrc_assets_labs_Modeling_Advanced_organic_modeling_humanpng from '../assets/labs/Modeling/Advanced/organic modeling human/05_xray.png'
+import _06_moreSquaressrc_assets_labs_Modeling_Advanced_organic_modeling_humanpng from '../assets/labs/Modeling/Advanced/organic modeling human/06_moreSquares.png'
+import _06_scaleSpheresrc_assets_labs_Modeling_Advanced_organic_modeling_humanpng from '../assets/labs/Modeling/Advanced/organic modeling human/06_scaleSphere.png'
+import _07_moreSquares2src_assets_labs_Modeling_Advanced_organic_modeling_humanpng from '../assets/labs/Modeling/Advanced/organic modeling human/07_moreSquares2.png'
+import _07_symmetryOnsrc_assets_labs_Modeling_Advanced_organic_modeling_humanpng from '../assets/labs/Modeling/Advanced/organic modeling human/07_symmetryOn.png'
+import _08_basicShapeFRONTsrc_assets_labs_Modeling_Advanced_organic_modeling_humanpng from '../assets/labs/Modeling/Advanced/organic modeling human/08_basicShapeFRONT.png'
+import _08_eyeMasksrc_assets_labs_Modeling_Advanced_organic_modeling_humanpng from '../assets/labs/Modeling/Advanced/organic modeling human/08_eyeMask.png'
+import _09_basicShapeSIDEsrc_assets_labs_Modeling_Advanced_organic_modeling_humanpng from '../assets/labs/Modeling/Advanced/organic modeling human/09_basicShapeSIDE.png'
+import _1src_assets_labs_Modeling_Advanced_organic_modeling_humanpng from '../assets/labs/Modeling/Advanced/organic modeling human/1.png'
+import _10src_assets_labs_Modeling_Advanced_organic_modeling_humanpng from '../assets/labs/Modeling/Advanced/organic modeling human/10.png'
+import _10_adjustedEyeMasksrc_assets_labs_Modeling_Advanced_organic_modeling_humanpng from '../assets/labs/Modeling/Advanced/organic modeling human/10_adjustedEyeMask.png'
+import _10_sculptNose_asrc_assets_labs_Modeling_Advanced_organic_modeling_humanpng from '../assets/labs/Modeling/Advanced/organic modeling human/10_sculptNose_a.png'
+import _10_shirtsrc_assets_labs_Modeling_Advanced_organic_modeling_humanpng from '../assets/labs/Modeling/Advanced/organic modeling human/10_shirt.png'
+import _11src_assets_labs_Modeling_Advanced_organic_modeling_humanpng from '../assets/labs/Modeling/Advanced/organic modeling human/11.png'
+import _11_pantsrc_assets_labs_Modeling_Advanced_organic_modeling_humanpng from '../assets/labs/Modeling/Advanced/organic modeling human/11_pant.png'
+import _11_sculptNose_bsrc_assets_labs_Modeling_Advanced_organic_modeling_humanpng from '../assets/labs/Modeling/Advanced/organic modeling human/11_sculptNose_b.png'
+import _11_smallerRingsrc_assets_labs_Modeling_Advanced_organic_modeling_humanpng from '../assets/labs/Modeling/Advanced/organic modeling human/11_smallerRing.png'
+import _11_smallerRing_highlightedsrc_assets_labs_Modeling_Advanced_organic_modeling_humanpng from '../assets/labs/Modeling/Advanced/organic modeling human/11_smallerRing_highlighted.png'
+import _12src_assets_labs_Modeling_Advanced_organic_modeling_humanpng from '../assets/labs/Modeling/Advanced/organic modeling human/12.png'
+import _12_filledSocketsrc_assets_labs_Modeling_Advanced_organic_modeling_humanpng from '../assets/labs/Modeling/Advanced/organic modeling human/12_filledSocket.png'
+import _12_pantsrc_assets_labs_Modeling_Advanced_organic_modeling_humanpng from '../assets/labs/Modeling/Advanced/organic modeling human/12_pant.png'
+import _12_sculptNose_csrc_assets_labs_Modeling_Advanced_organic_modeling_humanpng from '../assets/labs/Modeling/Advanced/organic modeling human/12_sculptNose_c.png'
+import _13src_assets_labs_Modeling_Advanced_organic_modeling_humanpng from '../assets/labs/Modeling/Advanced/organic modeling human/13.png'
+import _13_edgeFlow_highlightssrc_assets_labs_Modeling_Advanced_organic_modeling_humanpng from '../assets/labs/Modeling/Advanced/organic modeling human/13_edgeFlow_highlights.png'
+import _13_pantsrc_assets_labs_Modeling_Advanced_organic_modeling_humanpng from '../assets/labs/Modeling/Advanced/organic modeling human/13_pant.png'
+import _13_sculptNose_dsrc_assets_labs_Modeling_Advanced_organic_modeling_humanpng from '../assets/labs/Modeling/Advanced/organic modeling human/13_sculptNose_d.png'
+import _14src_assets_labs_Modeling_Advanced_organic_modeling_humanpng from '../assets/labs/Modeling/Advanced/organic modeling human/14.png'
+import _14_pantsrc_assets_labs_Modeling_Advanced_organic_modeling_humanpng from '../assets/labs/Modeling/Advanced/organic modeling human/14_pant.png'
+import _14_sculptEyes_asrc_assets_labs_Modeling_Advanced_organic_modeling_humanpng from '../assets/labs/Modeling/Advanced/organic modeling human/14_sculptEyes_a.png'
+import _14_sidesrc_assets_labs_Modeling_Advanced_organic_modeling_humanpng from '../assets/labs/Modeling/Advanced/organic modeling human/14_side.png'
+import _15src_assets_labs_Modeling_Advanced_organic_modeling_humanpng from '../assets/labs/Modeling/Advanced/organic modeling human/15.png'
+import _15_extendedsrc_assets_labs_Modeling_Advanced_organic_modeling_humanpng from '../assets/labs/Modeling/Advanced/organic modeling human/15_extended.png'
+import _15_pantsrc_assets_labs_Modeling_Advanced_organic_modeling_humanpng from '../assets/labs/Modeling/Advanced/organic modeling human/15_pant.png'
+import _15_sculptEyes_bsrc_assets_labs_Modeling_Advanced_organic_modeling_humanpng from '../assets/labs/Modeling/Advanced/organic modeling human/15_sculptEyes_b.png'
+import _16src_assets_labs_Modeling_Advanced_organic_modeling_humanpng from '../assets/labs/Modeling/Advanced/organic modeling human/16.png'
+import _16_hairsrc_assets_labs_Modeling_Advanced_organic_modeling_humanpng from '../assets/labs/Modeling/Advanced/organic modeling human/16_hair.png'
+import _16_moreExtendedsrc_assets_labs_Modeling_Advanced_organic_modeling_humanpng from '../assets/labs/Modeling/Advanced/organic modeling human/16_moreExtended.png'
+import _16_sculptEyes_csrc_assets_labs_Modeling_Advanced_organic_modeling_humanpng from '../assets/labs/Modeling/Advanced/organic modeling human/16_sculptEyes_c.png'
+import _17src_assets_labs_Modeling_Advanced_organic_modeling_humanpng from '../assets/labs/Modeling/Advanced/organic modeling human/17.png'
+import _17_connectedsrc_assets_labs_Modeling_Advanced_organic_modeling_humanpng from '../assets/labs/Modeling/Advanced/organic modeling human/17_connected.png'
+import _17_hairsrc_assets_labs_Modeling_Advanced_organic_modeling_humanpng from '../assets/labs/Modeling/Advanced/organic modeling human/17_hair.png'
+import _17_sculptNeck_asrc_assets_labs_Modeling_Advanced_organic_modeling_humanpng from '../assets/labs/Modeling/Advanced/organic modeling human/17_sculptNeck_a.png'
+import _18src_assets_labs_Modeling_Advanced_organic_modeling_humanpng from '../assets/labs/Modeling/Advanced/organic modeling human/18.png'
+import _18_extendUpsrc_assets_labs_Modeling_Advanced_organic_modeling_humanpng from '../assets/labs/Modeling/Advanced/organic modeling human/18_extendUp.png'
+import _18_hairsrc_assets_labs_Modeling_Advanced_organic_modeling_humanpng from '../assets/labs/Modeling/Advanced/organic modeling human/18_hair.png'
+import _18_sculptNeck_bsrc_assets_labs_Modeling_Advanced_organic_modeling_humanpng from '../assets/labs/Modeling/Advanced/organic modeling human/18_sculptNeck_b.png'
+import _19_extendUp2src_assets_labs_Modeling_Advanced_organic_modeling_humanpng from '../assets/labs/Modeling/Advanced/organic modeling human/19_extendUp2.png'
+import _19_hairsrc_assets_labs_Modeling_Advanced_organic_modeling_humanpng from '../assets/labs/Modeling/Advanced/organic modeling human/19_hair.png'
+import _19_sculptNeck_csrc_assets_labs_Modeling_Advanced_organic_modeling_humanpng from '../assets/labs/Modeling/Advanced/organic modeling human/19_sculptNeck_c.png'
+import _1edgesrc_assets_labs_Modeling_Advanced_organic_modeling_humanpng from '../assets/labs/Modeling/Advanced/organic modeling human/1edge.png'
+import _1_shirtsrc_assets_labs_Modeling_Advanced_organic_modeling_humanpng from '../assets/labs/Modeling/Advanced/organic modeling human/1_shirt.png'
+import _2src_assets_labs_Modeling_Advanced_organic_modeling_humanpng from '../assets/labs/Modeling/Advanced/organic modeling human/2.png'
+import _20_closedLoopsrc_assets_labs_Modeling_Advanced_organic_modeling_humanpng from '../assets/labs/Modeling/Advanced/organic modeling human/20_closedLoop.png'
+import _20_hairsrc_assets_labs_Modeling_Advanced_organic_modeling_humanpng from '../assets/labs/Modeling/Advanced/organic modeling human/20_hair.png'
+import _20_sculptNeck_dsrc_assets_labs_Modeling_Advanced_organic_modeling_humanpng from '../assets/labs/Modeling/Advanced/organic modeling human/20_sculptNeck_d.png'
+import _21_hairsrc_assets_labs_Modeling_Advanced_organic_modeling_humanpng from '../assets/labs/Modeling/Advanced/organic modeling human/21_hair.png'
+import _21_moreRingssrc_assets_labs_Modeling_Advanced_organic_modeling_humanpng from '../assets/labs/Modeling/Advanced/organic modeling human/21_moreRings.png'
+import _21_sculptNeck_esrc_assets_labs_Modeling_Advanced_organic_modeling_humanpng from '../assets/labs/Modeling/Advanced/organic modeling human/21_sculptNeck_e.png'
+import _22_finalsrc_assets_labs_Modeling_Advanced_organic_modeling_humanpng from '../assets/labs/Modeling/Advanced/organic modeling human/22_final.png'
+import _22_moreRings2src_assets_labs_Modeling_Advanced_organic_modeling_humanpng from '../assets/labs/Modeling/Advanced/organic modeling human/22_moreRings2.png'
+import _22_sculptNeck_fsrc_assets_labs_Modeling_Advanced_organic_modeling_humanpng from '../assets/labs/Modeling/Advanced/organic modeling human/22_sculptNeck_f.png'
+import _23src_assets_labs_Modeling_Advanced_organic_modeling_humanpng from '../assets/labs/Modeling/Advanced/organic modeling human/23.png'
+import _23_finalsrc_assets_labs_Modeling_Advanced_organic_modeling_humanpng from '../assets/labs/Modeling/Advanced/organic modeling human/23_final.png'
+import _23_sculptNeck_gsrc_assets_labs_Modeling_Advanced_organic_modeling_humanpng from '../assets/labs/Modeling/Advanced/organic modeling human/23_sculptNeck_g.png'
+import _24_finalsrc_assets_labs_Modeling_Advanced_organic_modeling_humanpng from '../assets/labs/Modeling/Advanced/organic modeling human/24_final.png'
+import _24_finalSculpt_FRONTsrc_assets_labs_Modeling_Advanced_organic_modeling_humanpng from '../assets/labs/Modeling/Advanced/organic modeling human/24_finalSculpt_FRONT.png'
+import _24_moreRings3src_assets_labs_Modeling_Advanced_organic_modeling_humanpng from '../assets/labs/Modeling/Advanced/organic modeling human/24_moreRings3.png'
+import _25src_assets_labs_Modeling_Advanced_organic_modeling_humanpng from '../assets/labs/Modeling/Advanced/organic modeling human/25.png'
+import _25_finalsrc_assets_labs_Modeling_Advanced_organic_modeling_humanpng from '../assets/labs/Modeling/Advanced/organic modeling human/25_final.png'
+import _25_finalSculpt_SIDEsrc_assets_labs_Modeling_Advanced_organic_modeling_humanpng from '../assets/labs/Modeling/Advanced/organic modeling human/25_finalSculpt_SIDE.png'
+import _26src_assets_labs_Modeling_Advanced_organic_modeling_humanpng from '../assets/labs/Modeling/Advanced/organic modeling human/26.png'
+import _26_renameOutlinersrc_assets_labs_Modeling_Advanced_organic_modeling_humanpng from '../assets/labs/Modeling/Advanced/organic modeling human/26_renameOutliner.png'
+import _27_liveSurfacesrc_assets_labs_Modeling_Advanced_organic_modeling_humanpng from '../assets/labs/Modeling/Advanced/organic modeling human/27_liveSurface.png'
+import _27_manyRingssrc_assets_labs_Modeling_Advanced_organic_modeling_humanpng from '../assets/labs/Modeling/Advanced/organic modeling human/27_manyRings.png'
+import _28src_assets_labs_Modeling_Advanced_organic_modeling_humanpng from '../assets/labs/Modeling/Advanced/organic modeling human/28.png'
+import _28_quadDrawsrc_assets_labs_Modeling_Advanced_organic_modeling_humanpng from '../assets/labs/Modeling/Advanced/organic modeling human/28_quadDraw.png'
+import _29_topViewsrc_assets_labs_Modeling_Advanced_organic_modeling_humanpng from '../assets/labs/Modeling/Advanced/organic modeling human/29_topView.png'
+import _2edgessrc_assets_labs_Modeling_Advanced_organic_modeling_humanpng from '../assets/labs/Modeling/Advanced/organic modeling human/2edges.png'
+import _2edge_elbowpadsrc_assets_labs_Modeling_Advanced_organic_modeling_humanpng from '../assets/labs/Modeling/Advanced/organic modeling human/2edge_elbowpad.png'
+import _2_shirtsrc_assets_labs_Modeling_Advanced_organic_modeling_humanpng from '../assets/labs/Modeling/Advanced/organic modeling human/2_shirt.png'
+import _3src_assets_labs_Modeling_Advanced_organic_modeling_humanpng from '../assets/labs/Modeling/Advanced/organic modeling human/3.png'
+import _30_connectingsrc_assets_labs_Modeling_Advanced_organic_modeling_humanpng from '../assets/labs/Modeling/Advanced/organic modeling human/30_connecting.png'
+import _31_connecting2src_assets_labs_Modeling_Advanced_organic_modeling_humanpng from '../assets/labs/Modeling/Advanced/organic modeling human/31_connecting2.png'
+import _32_linessrc_assets_labs_Modeling_Advanced_organic_modeling_humanpng from '../assets/labs/Modeling/Advanced/organic modeling human/32_lines.png'
+import _33_connectsrc_assets_labs_Modeling_Advanced_organic_modeling_humanpng from '../assets/labs/Modeling/Advanced/organic modeling human/33_connect.png'
+import _34_smoothedsrc_assets_labs_Modeling_Advanced_organic_modeling_humanpng from '../assets/labs/Modeling/Advanced/organic modeling human/34_smoothed.png'
+import _35_topHalfsrc_assets_labs_Modeling_Advanced_organic_modeling_humanpng from '../assets/labs/Modeling/Advanced/organic modeling human/35_topHalf.png'
+import _36_noseExtendsrc_assets_labs_Modeling_Advanced_organic_modeling_humanpng from '../assets/labs/Modeling/Advanced/organic modeling human/36_noseExtend.png'
+import _37_noseExtend2src_assets_labs_Modeling_Advanced_organic_modeling_humanpng from '../assets/labs/Modeling/Advanced/organic modeling human/37_noseExtend2.png'
+import _38_placePointssrc_assets_labs_Modeling_Advanced_organic_modeling_humanpng from '../assets/labs/Modeling/Advanced/organic modeling human/38_placePoints.png'
+import _39_placeQuadssrc_assets_labs_Modeling_Advanced_organic_modeling_humanpng from '../assets/labs/Modeling/Advanced/organic modeling human/39_placeQuads.png'
+import _3edgessrc_assets_labs_Modeling_Advanced_organic_modeling_humanpng from '../assets/labs/Modeling/Advanced/organic modeling human/3edges.png'
+import _3edge_elbowpadsrc_assets_labs_Modeling_Advanced_organic_modeling_humanpng from '../assets/labs/Modeling/Advanced/organic modeling human/3edge_elbowpad.png'
+import _3_shirtsrc_assets_labs_Modeling_Advanced_organic_modeling_humanpng from '../assets/labs/Modeling/Advanced/organic modeling human/3_shirt.png'
+import _4src_assets_labs_Modeling_Advanced_organic_modeling_humanpng from '../assets/labs/Modeling/Advanced/organic modeling human/4.png'
+import _40_mouthRingsrc_assets_labs_Modeling_Advanced_organic_modeling_humanpng from '../assets/labs/Modeling/Advanced/organic modeling human/40_mouthRing.png'
+import _41_mouthRing2src_assets_labs_Modeling_Advanced_organic_modeling_humanpng from '../assets/labs/Modeling/Advanced/organic modeling human/41_mouthRing2.png'
+import _42src_assets_labs_Modeling_Advanced_organic_modeling_humanpng from '../assets/labs/Modeling/Advanced/organic modeling human/42.png'
+import _43_mouthFilledsrc_assets_labs_Modeling_Advanced_organic_modeling_humanpng from '../assets/labs/Modeling/Advanced/organic modeling human/43_mouthFilled.png'
+import _44src_assets_labs_Modeling_Advanced_organic_modeling_humanpng from '../assets/labs/Modeling/Advanced/organic modeling human/44.png'
+import _45_connectNoseMouthsrc_assets_labs_Modeling_Advanced_organic_modeling_humanpng from '../assets/labs/Modeling/Advanced/organic modeling human/45_connectNoseMouth.png'
+import _46_extendMouthsrc_assets_labs_Modeling_Advanced_organic_modeling_humanpng from '../assets/labs/Modeling/Advanced/organic modeling human/46_extendMouth.png'
+import _47src_assets_labs_Modeling_Advanced_organic_modeling_humanpng from '../assets/labs/Modeling/Advanced/organic modeling human/47.png'
+import _48_startCheeksrc_assets_labs_Modeling_Advanced_organic_modeling_humanpng from '../assets/labs/Modeling/Advanced/organic modeling human/48_startCheek.png'
+import _49_extendCheeksrc_assets_labs_Modeling_Advanced_organic_modeling_humanpng from '../assets/labs/Modeling/Advanced/organic modeling human/49_extendCheek.png'
+import _4_shirtsrc_assets_labs_Modeling_Advanced_organic_modeling_humanpng from '../assets/labs/Modeling/Advanced/organic modeling human/4_shirt.png'
+import _5src_assets_labs_Modeling_Advanced_organic_modeling_humanpng from '../assets/labs/Modeling/Advanced/organic modeling human/5.png'
+import _50src_assets_labs_Modeling_Advanced_organic_modeling_humanpng from '../assets/labs/Modeling/Advanced/organic modeling human/50.png'
+import _51src_assets_labs_Modeling_Advanced_organic_modeling_humanpng from '../assets/labs/Modeling/Advanced/organic modeling human/51.png'
+import _52src_assets_labs_Modeling_Advanced_organic_modeling_humanpng from '../assets/labs/Modeling/Advanced/organic modeling human/52.png'
+import _53src_assets_labs_Modeling_Advanced_organic_modeling_humanpng from '../assets/labs/Modeling/Advanced/organic modeling human/53.png'
+import _54src_assets_labs_Modeling_Advanced_organic_modeling_humanpng from '../assets/labs/Modeling/Advanced/organic modeling human/54.png'
+import _55_almostDonesrc_assets_labs_Modeling_Advanced_organic_modeling_humanpng from '../assets/labs/Modeling/Advanced/organic modeling human/55_almostDone.png'
+import _56src_assets_labs_Modeling_Advanced_organic_modeling_humanpng from '../assets/labs/Modeling/Advanced/organic modeling human/56.png'
+import _57_chinBeginningsrc_assets_labs_Modeling_Advanced_organic_modeling_humanpng from '../assets/labs/Modeling/Advanced/organic modeling human/57_chinBeginning.png'
+import _58_chinStrapsrc_assets_labs_Modeling_Advanced_organic_modeling_humanpng from '../assets/labs/Modeling/Advanced/organic modeling human/58_chinStrap.png'
+import _59_chinConnectsrc_assets_labs_Modeling_Advanced_organic_modeling_humanpng from '../assets/labs/Modeling/Advanced/organic modeling human/59_chinConnect.png'
+import _5_shirtsrc_assets_labs_Modeling_Advanced_organic_modeling_humanpng from '../assets/labs/Modeling/Advanced/organic modeling human/5_shirt.png'
+import _6src_assets_labs_Modeling_Advanced_organic_modeling_humanpng from '../assets/labs/Modeling/Advanced/organic modeling human/6.png'
+import _60_fillGapsrc_assets_labs_Modeling_Advanced_organic_modeling_humanpng from '../assets/labs/Modeling/Advanced/organic modeling human/60_fillGap.png'
+import _61_fillGapsrc_assets_labs_Modeling_Advanced_organic_modeling_humanpng from '../assets/labs/Modeling/Advanced/organic modeling human/61_fillGap.png'
+import _62_necksrc_assets_labs_Modeling_Advanced_organic_modeling_humanpng from '../assets/labs/Modeling/Advanced/organic modeling human/62_neck.png'
+import _63_necksrc_assets_labs_Modeling_Advanced_organic_modeling_humanpng from '../assets/labs/Modeling/Advanced/organic modeling human/63_neck.png'
+import _64src_assets_labs_Modeling_Advanced_organic_modeling_humanpng from '../assets/labs/Modeling/Advanced/organic modeling human/64.png'
+import _65_neckCompletesrc_assets_labs_Modeling_Advanced_organic_modeling_humanpng from '../assets/labs/Modeling/Advanced/organic modeling human/65_neckComplete.png'
+import _66_finishedQuadDrawsrc_assets_labs_Modeling_Advanced_organic_modeling_humanpng from '../assets/labs/Modeling/Advanced/organic modeling human/66_finishedQuadDraw.png'
+import _67_softSelectsrc_assets_labs_Modeling_Advanced_organic_modeling_humanpng from '../assets/labs/Modeling/Advanced/organic modeling human/67_softSelect.png'
+import _68_retoposrc_assets_labs_Modeling_Advanced_organic_modeling_humanpng from '../assets/labs/Modeling/Advanced/organic modeling human/68_retopo.png'
+import _6_shirtsrc_assets_labs_Modeling_Advanced_organic_modeling_humanpng from '../assets/labs/Modeling/Advanced/organic modeling human/6_shirt.png'
+import _7src_assets_labs_Modeling_Advanced_organic_modeling_humanpng from '../assets/labs/Modeling/Advanced/organic modeling human/7.png'
+import _7_shirtsrc_assets_labs_Modeling_Advanced_organic_modeling_humanpng from '../assets/labs/Modeling/Advanced/organic modeling human/7_shirt.png'
+import _8src_assets_labs_Modeling_Advanced_organic_modeling_humanpng from '../assets/labs/Modeling/Advanced/organic modeling human/8.png'
+import _8_shirtsrc_assets_labs_Modeling_Advanced_organic_modeling_humanpng from '../assets/labs/Modeling/Advanced/organic modeling human/8_shirt.png'
+import _9src_assets_labs_Modeling_Advanced_organic_modeling_humanpng from '../assets/labs/Modeling/Advanced/organic modeling human/9.png'
+import _9_2src_assets_labs_Modeling_Advanced_organic_modeling_humanpng from '../assets/labs/Modeling/Advanced/organic modeling human/9_2.png'
+import _9_shirtsrc_assets_labs_Modeling_Advanced_organic_modeling_humanpng from '../assets/labs/Modeling/Advanced/organic modeling human/9_shirt.png'
+import _body1src_assets_labs_Modeling_Advanced_organic_modeling_humanpng from '../assets/labs/Modeling/Advanced/organic modeling human/body1.png'
+import _body10src_assets_labs_Modeling_Advanced_organic_modeling_humanpng from '../assets/labs/Modeling/Advanced/organic modeling human/body10.png'
+import _body11src_assets_labs_Modeling_Advanced_organic_modeling_humanpng from '../assets/labs/Modeling/Advanced/organic modeling human/body11.png'
+import _body12src_assets_labs_Modeling_Advanced_organic_modeling_humanpng from '../assets/labs/Modeling/Advanced/organic modeling human/body12.png'
+import _body13src_assets_labs_Modeling_Advanced_organic_modeling_humanpng from '../assets/labs/Modeling/Advanced/organic modeling human/body13.png'
+import _body14src_assets_labs_Modeling_Advanced_organic_modeling_humanpng from '../assets/labs/Modeling/Advanced/organic modeling human/body14.png'
+import _body15src_assets_labs_Modeling_Advanced_organic_modeling_humanpng from '../assets/labs/Modeling/Advanced/organic modeling human/body15.png'
+import _body16src_assets_labs_Modeling_Advanced_organic_modeling_humanpng from '../assets/labs/Modeling/Advanced/organic modeling human/body16.png'
+import _body17src_assets_labs_Modeling_Advanced_organic_modeling_humanpng from '../assets/labs/Modeling/Advanced/organic modeling human/body17.png'
+import _body18src_assets_labs_Modeling_Advanced_organic_modeling_humanpng from '../assets/labs/Modeling/Advanced/organic modeling human/body18.png'
+import _body19src_assets_labs_Modeling_Advanced_organic_modeling_humanpng from '../assets/labs/Modeling/Advanced/organic modeling human/body19.png'
+import _body1asrc_assets_labs_Modeling_Advanced_organic_modeling_humanpng from '../assets/labs/Modeling/Advanced/organic modeling human/body1a.png'
+import _body1bsrc_assets_labs_Modeling_Advanced_organic_modeling_humanpng from '../assets/labs/Modeling/Advanced/organic modeling human/body1b.png'
+import _body2src_assets_labs_Modeling_Advanced_organic_modeling_humanpng from '../assets/labs/Modeling/Advanced/organic modeling human/body2.png'
+import _body20src_assets_labs_Modeling_Advanced_organic_modeling_humanpng from '../assets/labs/Modeling/Advanced/organic modeling human/body20.png'
+import _body21src_assets_labs_Modeling_Advanced_organic_modeling_humanpng from '../assets/labs/Modeling/Advanced/organic modeling human/body21.png'
+import _body22src_assets_labs_Modeling_Advanced_organic_modeling_humanpng from '../assets/labs/Modeling/Advanced/organic modeling human/body22.png'
+import _body23src_assets_labs_Modeling_Advanced_organic_modeling_humanpng from '../assets/labs/Modeling/Advanced/organic modeling human/body23.png'
+import _body24src_assets_labs_Modeling_Advanced_organic_modeling_humanpng from '../assets/labs/Modeling/Advanced/organic modeling human/body24.png'
+import _body25src_assets_labs_Modeling_Advanced_organic_modeling_humanpng from '../assets/labs/Modeling/Advanced/organic modeling human/body25.png'
+import _body26src_assets_labs_Modeling_Advanced_organic_modeling_humanpng from '../assets/labs/Modeling/Advanced/organic modeling human/body26.png'
+import _body27src_assets_labs_Modeling_Advanced_organic_modeling_humanpng from '../assets/labs/Modeling/Advanced/organic modeling human/body27.png'
+import _body28src_assets_labs_Modeling_Advanced_organic_modeling_humanpng from '../assets/labs/Modeling/Advanced/organic modeling human/body28.png'
+import _body29src_assets_labs_Modeling_Advanced_organic_modeling_humanpng from '../assets/labs/Modeling/Advanced/organic modeling human/body29.png'
+import _body3src_assets_labs_Modeling_Advanced_organic_modeling_humanpng from '../assets/labs/Modeling/Advanced/organic modeling human/body3.png'
+import _body30src_assets_labs_Modeling_Advanced_organic_modeling_humanpng from '../assets/labs/Modeling/Advanced/organic modeling human/body30.png'
+import _body31src_assets_labs_Modeling_Advanced_organic_modeling_humanpng from '../assets/labs/Modeling/Advanced/organic modeling human/body31.png'
+import _body33src_assets_labs_Modeling_Advanced_organic_modeling_humanpng from '../assets/labs/Modeling/Advanced/organic modeling human/body33.png'
+import _body34src_assets_labs_Modeling_Advanced_organic_modeling_humanpng from '../assets/labs/Modeling/Advanced/organic modeling human/body34.png'
+import _body36src_assets_labs_Modeling_Advanced_organic_modeling_humanpng from '../assets/labs/Modeling/Advanced/organic modeling human/body36.png'
+import _body37src_assets_labs_Modeling_Advanced_organic_modeling_humanpng from '../assets/labs/Modeling/Advanced/organic modeling human/body37.png'
+import _body38src_assets_labs_Modeling_Advanced_organic_modeling_humanpng from '../assets/labs/Modeling/Advanced/organic modeling human/body38.png'
+import _body39src_assets_labs_Modeling_Advanced_organic_modeling_humanpng from '../assets/labs/Modeling/Advanced/organic modeling human/body39.png'
+import _body4src_assets_labs_Modeling_Advanced_organic_modeling_humanpng from '../assets/labs/Modeling/Advanced/organic modeling human/body4.png'
+import _body40src_assets_labs_Modeling_Advanced_organic_modeling_humanpng from '../assets/labs/Modeling/Advanced/organic modeling human/body40.png'
+import _body41src_assets_labs_Modeling_Advanced_organic_modeling_humanpng from '../assets/labs/Modeling/Advanced/organic modeling human/body41.png'
+import _body42src_assets_labs_Modeling_Advanced_organic_modeling_humanpng from '../assets/labs/Modeling/Advanced/organic modeling human/body42.png'
+import _body43src_assets_labs_Modeling_Advanced_organic_modeling_humanpng from '../assets/labs/Modeling/Advanced/organic modeling human/body43.png'
+import _body44src_assets_labs_Modeling_Advanced_organic_modeling_humanpng from '../assets/labs/Modeling/Advanced/organic modeling human/body44.png'
+import _body46src_assets_labs_Modeling_Advanced_organic_modeling_humanpng from '../assets/labs/Modeling/Advanced/organic modeling human/body46.png'
+import _body47src_assets_labs_Modeling_Advanced_organic_modeling_humanpng from '../assets/labs/Modeling/Advanced/organic modeling human/body47.png'
+import _body48src_assets_labs_Modeling_Advanced_organic_modeling_humanpng from '../assets/labs/Modeling/Advanced/organic modeling human/body48.png'
+import _body49src_assets_labs_Modeling_Advanced_organic_modeling_humanpng from '../assets/labs/Modeling/Advanced/organic modeling human/body49.png'
+import _body5src_assets_labs_Modeling_Advanced_organic_modeling_humanpng from '../assets/labs/Modeling/Advanced/organic modeling human/body5.png'
+import _body50src_assets_labs_Modeling_Advanced_organic_modeling_humanpng from '../assets/labs/Modeling/Advanced/organic modeling human/body50.png'
+import _body51src_assets_labs_Modeling_Advanced_organic_modeling_humanpng from '../assets/labs/Modeling/Advanced/organic modeling human/body51.png'
+import _body52src_assets_labs_Modeling_Advanced_organic_modeling_humanpng from '../assets/labs/Modeling/Advanced/organic modeling human/body52.png'
+import _body53src_assets_labs_Modeling_Advanced_organic_modeling_humanpng from '../assets/labs/Modeling/Advanced/organic modeling human/body53.png'
+import _body54src_assets_labs_Modeling_Advanced_organic_modeling_humanpng from '../assets/labs/Modeling/Advanced/organic modeling human/body54.png'
+import _body55src_assets_labs_Modeling_Advanced_organic_modeling_humanpng from '../assets/labs/Modeling/Advanced/organic modeling human/body55.png'
+import _body5asrc_assets_labs_Modeling_Advanced_organic_modeling_humanpng from '../assets/labs/Modeling/Advanced/organic modeling human/body5a.png'
+import _body5bsrc_assets_labs_Modeling_Advanced_organic_modeling_humanpng from '../assets/labs/Modeling/Advanced/organic modeling human/body5b.png'
+import _body5csrc_assets_labs_Modeling_Advanced_organic_modeling_humanpng from '../assets/labs/Modeling/Advanced/organic modeling human/body5c.png'
+import _body5dsrc_assets_labs_Modeling_Advanced_organic_modeling_humanpng from '../assets/labs/Modeling/Advanced/organic modeling human/body5d.png'
+import _body6src_assets_labs_Modeling_Advanced_organic_modeling_humanpng from '../assets/labs/Modeling/Advanced/organic modeling human/body6.png'
+import _body7src_assets_labs_Modeling_Advanced_organic_modeling_humanpng from '../assets/labs/Modeling/Advanced/organic modeling human/body7.png'
+import _body7bsrc_assets_labs_Modeling_Advanced_organic_modeling_humanpng from '../assets/labs/Modeling/Advanced/organic modeling human/body7b.png'
+import _body7csrc_assets_labs_Modeling_Advanced_organic_modeling_humanpng from '../assets/labs/Modeling/Advanced/organic modeling human/body7c.png'
+import _body8src_assets_labs_Modeling_Advanced_organic_modeling_humanpng from '../assets/labs/Modeling/Advanced/organic modeling human/body8.png'
+import _body9src_assets_labs_Modeling_Advanced_organic_modeling_humanpng from '../assets/labs/Modeling/Advanced/organic modeling human/body9.png'
 import _character_sheetsrc_assets_labs_Modeling_Advanced_organic_modeling_humanpng from '../assets/labs/Modeling/Advanced/organic modeling human/character_sheet.png'
-import _1src_assets_labs_Modeling_Advanced_organic_modeling_human_Detailspng from '../assets/labs/Modeling/Advanced/organic modeling human/Details/1.png'
-import _10src_assets_labs_Modeling_Advanced_organic_modeling_human_Detailspng from '../assets/labs/Modeling/Advanced/organic modeling human/Details/10.png'
-import _11src_assets_labs_Modeling_Advanced_organic_modeling_human_Detailspng from '../assets/labs/Modeling/Advanced/organic modeling human/Details/11.png'
-import _12src_assets_labs_Modeling_Advanced_organic_modeling_human_Detailspng from '../assets/labs/Modeling/Advanced/organic modeling human/Details/12.png'
-import _13src_assets_labs_Modeling_Advanced_organic_modeling_human_Detailspng from '../assets/labs/Modeling/Advanced/organic modeling human/Details/13.png'
-import _14src_assets_labs_Modeling_Advanced_organic_modeling_human_Detailspng from '../assets/labs/Modeling/Advanced/organic modeling human/Details/14.png'
-import _15src_assets_labs_Modeling_Advanced_organic_modeling_human_Detailspng from '../assets/labs/Modeling/Advanced/organic modeling human/Details/15.png'
-import _16src_assets_labs_Modeling_Advanced_organic_modeling_human_Detailspng from '../assets/labs/Modeling/Advanced/organic modeling human/Details/16.png'
-import _17src_assets_labs_Modeling_Advanced_organic_modeling_human_Detailspng from '../assets/labs/Modeling/Advanced/organic modeling human/Details/17.png'
-import _18src_assets_labs_Modeling_Advanced_organic_modeling_human_Detailspng from '../assets/labs/Modeling/Advanced/organic modeling human/Details/18.png'
-import _2src_assets_labs_Modeling_Advanced_organic_modeling_human_Detailspng from '../assets/labs/Modeling/Advanced/organic modeling human/Details/2.png'
-import _3src_assets_labs_Modeling_Advanced_organic_modeling_human_Detailspng from '../assets/labs/Modeling/Advanced/organic modeling human/Details/3.png'
-import _4src_assets_labs_Modeling_Advanced_organic_modeling_human_Detailspng from '../assets/labs/Modeling/Advanced/organic modeling human/Details/4.png'
-import _5src_assets_labs_Modeling_Advanced_organic_modeling_human_Detailspng from '../assets/labs/Modeling/Advanced/organic modeling human/Details/5.png'
-import _6src_assets_labs_Modeling_Advanced_organic_modeling_human_Detailspng from '../assets/labs/Modeling/Advanced/organic modeling human/Details/6.png'
-import _7src_assets_labs_Modeling_Advanced_organic_modeling_human_Detailspng from '../assets/labs/Modeling/Advanced/organic modeling human/Details/7.png'
-import _8src_assets_labs_Modeling_Advanced_organic_modeling_human_Detailspng from '../assets/labs/Modeling/Advanced/organic modeling human/Details/8.png'
-import _9src_assets_labs_Modeling_Advanced_organic_modeling_human_Detailspng from '../assets/labs/Modeling/Advanced/organic modeling human/Details/9.png'
-import _1edgesrc_assets_labs_Modeling_Advanced_organic_modeling_human_elbow_examplespng from '../assets/labs/Modeling/Advanced/organic modeling human/elbow_examples/1edge.png'
-import _2edgessrc_assets_labs_Modeling_Advanced_organic_modeling_human_elbow_examplespng from '../assets/labs/Modeling/Advanced/organic modeling human/elbow_examples/2edges.png'
-import _2edge_elbowpadsrc_assets_labs_Modeling_Advanced_organic_modeling_human_elbow_examplespng from '../assets/labs/Modeling/Advanced/organic modeling human/elbow_examples/2edge_elbowpad.png'
-import _3edgessrc_assets_labs_Modeling_Advanced_organic_modeling_human_elbow_examplespng from '../assets/labs/Modeling/Advanced/organic modeling human/elbow_examples/3edges.png'
-import _3edge_elbowpadsrc_assets_labs_Modeling_Advanced_organic_modeling_human_elbow_examplespng from '../assets/labs/Modeling/Advanced/organic modeling human/elbow_examples/3edge_elbowpad.png'
-import _diamondsrc_assets_labs_Modeling_Advanced_organic_modeling_human_elbow_examplespng from '../assets/labs/Modeling/Advanced/organic modeling human/elbow_examples/diamond.png'
+import _circularizesrc_assets_labs_Modeling_Advanced_organic_modeling_humanpng from '../assets/labs/Modeling/Advanced/organic modeling human/circularize.png'
+import _diamondsrc_assets_labs_Modeling_Advanced_organic_modeling_humanpng from '../assets/labs/Modeling/Advanced/organic modeling human/diamond.png'
 import _image1src_assets_labs_Modeling_Advanced_organic_modeling_humanpng from '../assets/labs/Modeling/Advanced/organic modeling human/image1.png'
 import _image10src_assets_labs_Modeling_Advanced_organic_modeling_humanpng from '../assets/labs/Modeling/Advanced/organic modeling human/image10.png'
 import _image11src_assets_labs_Modeling_Advanced_organic_modeling_humanpng from '../assets/labs/Modeling/Advanced/organic modeling human/image11.png'
@@ -725,104 +819,10 @@ import _image8src_assets_labs_Modeling_Advanced_organic_modeling_humanpng from '
 import _image9src_assets_labs_Modeling_Advanced_organic_modeling_humanpng from '../assets/labs/Modeling/Advanced/organic modeling human/image9.png'
 import _organic_modeling_humansrc_assets_labs_Modeling_Advanced_organic_modeling_humanmd from '../assets/labs/Modeling/Advanced/organic modeling human/organic modeling human.md'
 import _pastcharacterssrc_assets_labs_Modeling_Advanced_organic_modeling_humanpng from '../assets/labs/Modeling/Advanced/organic modeling human/pastcharacters.png'
-import _01_pointssrc_assets_labs_Modeling_Advanced_organic_modeling_human_Retopologypng from '../assets/labs/Modeling/Advanced/organic modeling human/Retopology/01_points.png'
-import _02_hoversrc_assets_labs_Modeling_Advanced_organic_modeling_human_Retopologypng from '../assets/labs/Modeling/Advanced/organic modeling human/Retopology/02_hover.png'
-import _03_squaresrc_assets_labs_Modeling_Advanced_organic_modeling_human_Retopologypng from '../assets/labs/Modeling/Advanced/organic modeling human/Retopology/03_square.png'
-import _04_tabsrc_assets_labs_Modeling_Advanced_organic_modeling_human_Retopologypng from '../assets/labs/Modeling/Advanced/organic modeling human/Retopology/04_tab.png'
-import _05_newSquaresrc_assets_labs_Modeling_Advanced_organic_modeling_human_Retopologypng from '../assets/labs/Modeling/Advanced/organic modeling human/Retopology/05_newSquare.png'
-import _06_moreSquaressrc_assets_labs_Modeling_Advanced_organic_modeling_human_Retopologypng from '../assets/labs/Modeling/Advanced/organic modeling human/Retopology/06_moreSquares.png'
-import _07_moreSquares2src_assets_labs_Modeling_Advanced_organic_modeling_human_Retopologypng from '../assets/labs/Modeling/Advanced/organic modeling human/Retopology/07_moreSquares2.png'
-import _08_eyeMasksrc_assets_labs_Modeling_Advanced_organic_modeling_human_Retopologypng from '../assets/labs/Modeling/Advanced/organic modeling human/Retopology/08_eyeMask.png'
-import _10_adjustedEyeMasksrc_assets_labs_Modeling_Advanced_organic_modeling_human_Retopologypng from '../assets/labs/Modeling/Advanced/organic modeling human/Retopology/10_adjustedEyeMask.png'
-import _11_smallerRingsrc_assets_labs_Modeling_Advanced_organic_modeling_human_Retopologypng from '../assets/labs/Modeling/Advanced/organic modeling human/Retopology/11_smallerRing.png'
-import _11_smallerRing_highlightedsrc_assets_labs_Modeling_Advanced_organic_modeling_human_Retopologypng from '../assets/labs/Modeling/Advanced/organic modeling human/Retopology/11_smallerRing_highlighted.png'
-import _12_filledSocketsrc_assets_labs_Modeling_Advanced_organic_modeling_human_Retopologypng from '../assets/labs/Modeling/Advanced/organic modeling human/Retopology/12_filledSocket.png'
-import _13_edgeFlow_highlightssrc_assets_labs_Modeling_Advanced_organic_modeling_human_Retopologypng from '../assets/labs/Modeling/Advanced/organic modeling human/Retopology/13_edgeFlow_highlights.png'
-import _14_sidesrc_assets_labs_Modeling_Advanced_organic_modeling_human_Retopologypng from '../assets/labs/Modeling/Advanced/organic modeling human/Retopology/14_side.png'
-import _15_extendedsrc_assets_labs_Modeling_Advanced_organic_modeling_human_Retopologypng from '../assets/labs/Modeling/Advanced/organic modeling human/Retopology/15_extended.png'
-import _16_moreExtendedsrc_assets_labs_Modeling_Advanced_organic_modeling_human_Retopologypng from '../assets/labs/Modeling/Advanced/organic modeling human/Retopology/16_moreExtended.png'
-import _17_connectedsrc_assets_labs_Modeling_Advanced_organic_modeling_human_Retopologypng from '../assets/labs/Modeling/Advanced/organic modeling human/Retopology/17_connected.png'
-import _18_extendUpsrc_assets_labs_Modeling_Advanced_organic_modeling_human_Retopologypng from '../assets/labs/Modeling/Advanced/organic modeling human/Retopology/18_extendUp.png'
-import _19_extendUp2src_assets_labs_Modeling_Advanced_organic_modeling_human_Retopologypng from '../assets/labs/Modeling/Advanced/organic modeling human/Retopology/19_extendUp2.png'
-import _20_closedLoopsrc_assets_labs_Modeling_Advanced_organic_modeling_human_Retopologypng from '../assets/labs/Modeling/Advanced/organic modeling human/Retopology/20_closedLoop.png'
-import _21_moreRingssrc_assets_labs_Modeling_Advanced_organic_modeling_human_Retopologypng from '../assets/labs/Modeling/Advanced/organic modeling human/Retopology/21_moreRings.png'
-import _22_moreRings2src_assets_labs_Modeling_Advanced_organic_modeling_human_Retopologypng from '../assets/labs/Modeling/Advanced/organic modeling human/Retopology/22_moreRings2.png'
-import _23src_assets_labs_Modeling_Advanced_organic_modeling_human_Retopologypng from '../assets/labs/Modeling/Advanced/organic modeling human/Retopology/23.png'
-import _24_moreRings3src_assets_labs_Modeling_Advanced_organic_modeling_human_Retopologypng from '../assets/labs/Modeling/Advanced/organic modeling human/Retopology/24_moreRings3.png'
-import _25src_assets_labs_Modeling_Advanced_organic_modeling_human_Retopologypng from '../assets/labs/Modeling/Advanced/organic modeling human/Retopology/25.png'
-import _26src_assets_labs_Modeling_Advanced_organic_modeling_human_Retopologypng from '../assets/labs/Modeling/Advanced/organic modeling human/Retopology/26.png'
-import _27_manyRingssrc_assets_labs_Modeling_Advanced_organic_modeling_human_Retopologypng from '../assets/labs/Modeling/Advanced/organic modeling human/Retopology/27_manyRings.png'
-import _28src_assets_labs_Modeling_Advanced_organic_modeling_human_Retopologypng from '../assets/labs/Modeling/Advanced/organic modeling human/Retopology/28.png'
-import _29_topViewsrc_assets_labs_Modeling_Advanced_organic_modeling_human_Retopologypng from '../assets/labs/Modeling/Advanced/organic modeling human/Retopology/29_topView.png'
-import _30_connectingsrc_assets_labs_Modeling_Advanced_organic_modeling_human_Retopologypng from '../assets/labs/Modeling/Advanced/organic modeling human/Retopology/30_connecting.png'
-import _31_connecting2src_assets_labs_Modeling_Advanced_organic_modeling_human_Retopologypng from '../assets/labs/Modeling/Advanced/organic modeling human/Retopology/31_connecting2.png'
-import _32_linessrc_assets_labs_Modeling_Advanced_organic_modeling_human_Retopologypng from '../assets/labs/Modeling/Advanced/organic modeling human/Retopology/32_lines.png'
-import _33_connectsrc_assets_labs_Modeling_Advanced_organic_modeling_human_Retopologypng from '../assets/labs/Modeling/Advanced/organic modeling human/Retopology/33_connect.png'
-import _34_smoothedsrc_assets_labs_Modeling_Advanced_organic_modeling_human_Retopologypng from '../assets/labs/Modeling/Advanced/organic modeling human/Retopology/34_smoothed.png'
-import _35_topHalfsrc_assets_labs_Modeling_Advanced_organic_modeling_human_Retopologypng from '../assets/labs/Modeling/Advanced/organic modeling human/Retopology/35_topHalf.png'
-import _36_noseExtendsrc_assets_labs_Modeling_Advanced_organic_modeling_human_Retopologypng from '../assets/labs/Modeling/Advanced/organic modeling human/Retopology/36_noseExtend.png'
-import _37_noseExtend2src_assets_labs_Modeling_Advanced_organic_modeling_human_Retopologypng from '../assets/labs/Modeling/Advanced/organic modeling human/Retopology/37_noseExtend2.png'
-import _38_placePointssrc_assets_labs_Modeling_Advanced_organic_modeling_human_Retopologypng from '../assets/labs/Modeling/Advanced/organic modeling human/Retopology/38_placePoints.png'
-import _39_placeQuadssrc_assets_labs_Modeling_Advanced_organic_modeling_human_Retopologypng from '../assets/labs/Modeling/Advanced/organic modeling human/Retopology/39_placeQuads.png'
-import _40_mouthRingsrc_assets_labs_Modeling_Advanced_organic_modeling_human_Retopologypng from '../assets/labs/Modeling/Advanced/organic modeling human/Retopology/40_mouthRing.png'
-import _41_mouthRing2src_assets_labs_Modeling_Advanced_organic_modeling_human_Retopologypng from '../assets/labs/Modeling/Advanced/organic modeling human/Retopology/41_mouthRing2.png'
-import _42src_assets_labs_Modeling_Advanced_organic_modeling_human_Retopologypng from '../assets/labs/Modeling/Advanced/organic modeling human/Retopology/42.png'
-import _43_mouthFilledsrc_assets_labs_Modeling_Advanced_organic_modeling_human_Retopologypng from '../assets/labs/Modeling/Advanced/organic modeling human/Retopology/43_mouthFilled.png'
-import _44src_assets_labs_Modeling_Advanced_organic_modeling_human_Retopologypng from '../assets/labs/Modeling/Advanced/organic modeling human/Retopology/44.png'
-import _45_connectNoseMouthsrc_assets_labs_Modeling_Advanced_organic_modeling_human_Retopologypng from '../assets/labs/Modeling/Advanced/organic modeling human/Retopology/45_connectNoseMouth.png'
-import _46_extendMouthsrc_assets_labs_Modeling_Advanced_organic_modeling_human_Retopologypng from '../assets/labs/Modeling/Advanced/organic modeling human/Retopology/46_extendMouth.png'
-import _47src_assets_labs_Modeling_Advanced_organic_modeling_human_Retopologypng from '../assets/labs/Modeling/Advanced/organic modeling human/Retopology/47.png'
-import _48_startCheeksrc_assets_labs_Modeling_Advanced_organic_modeling_human_Retopologypng from '../assets/labs/Modeling/Advanced/organic modeling human/Retopology/48_startCheek.png'
-import _49_extendCheeksrc_assets_labs_Modeling_Advanced_organic_modeling_human_Retopologypng from '../assets/labs/Modeling/Advanced/organic modeling human/Retopology/49_extendCheek.png'
-import _50src_assets_labs_Modeling_Advanced_organic_modeling_human_Retopologypng from '../assets/labs/Modeling/Advanced/organic modeling human/Retopology/50.png'
-import _51src_assets_labs_Modeling_Advanced_organic_modeling_human_Retopologypng from '../assets/labs/Modeling/Advanced/organic modeling human/Retopology/51.png'
-import _52src_assets_labs_Modeling_Advanced_organic_modeling_human_Retopologypng from '../assets/labs/Modeling/Advanced/organic modeling human/Retopology/52.png'
-import _53src_assets_labs_Modeling_Advanced_organic_modeling_human_Retopologypng from '../assets/labs/Modeling/Advanced/organic modeling human/Retopology/53.png'
-import _54src_assets_labs_Modeling_Advanced_organic_modeling_human_Retopologypng from '../assets/labs/Modeling/Advanced/organic modeling human/Retopology/54.png'
-import _55_almostDonesrc_assets_labs_Modeling_Advanced_organic_modeling_human_Retopologypng from '../assets/labs/Modeling/Advanced/organic modeling human/Retopology/55_almostDone.png'
-import _56src_assets_labs_Modeling_Advanced_organic_modeling_human_Retopologypng from '../assets/labs/Modeling/Advanced/organic modeling human/Retopology/56.png'
-import _57_chinBeginningsrc_assets_labs_Modeling_Advanced_organic_modeling_human_Retopologypng from '../assets/labs/Modeling/Advanced/organic modeling human/Retopology/57_chinBeginning.png'
-import _58_chinStrapsrc_assets_labs_Modeling_Advanced_organic_modeling_human_Retopologypng from '../assets/labs/Modeling/Advanced/organic modeling human/Retopology/58_chinStrap.png'
-import _59_chinConnectsrc_assets_labs_Modeling_Advanced_organic_modeling_human_Retopologypng from '../assets/labs/Modeling/Advanced/organic modeling human/Retopology/59_chinConnect.png'
-import _60_fillGapsrc_assets_labs_Modeling_Advanced_organic_modeling_human_Retopologypng from '../assets/labs/Modeling/Advanced/organic modeling human/Retopology/60_fillGap.png'
-import _61_fillGapsrc_assets_labs_Modeling_Advanced_organic_modeling_human_Retopologypng from '../assets/labs/Modeling/Advanced/organic modeling human/Retopology/61_fillGap.png'
-import _62_necksrc_assets_labs_Modeling_Advanced_organic_modeling_human_Retopologypng from '../assets/labs/Modeling/Advanced/organic modeling human/Retopology/62_neck.png'
-import _63_necksrc_assets_labs_Modeling_Advanced_organic_modeling_human_Retopologypng from '../assets/labs/Modeling/Advanced/organic modeling human/Retopology/63_neck.png'
-import _64src_assets_labs_Modeling_Advanced_organic_modeling_human_Retopologypng from '../assets/labs/Modeling/Advanced/organic modeling human/Retopology/64.png'
-import _65_neckCompletesrc_assets_labs_Modeling_Advanced_organic_modeling_human_Retopologypng from '../assets/labs/Modeling/Advanced/organic modeling human/Retopology/65_neckComplete.png'
-import _66_finishedQuadDrawsrc_assets_labs_Modeling_Advanced_organic_modeling_human_Retopologypng from '../assets/labs/Modeling/Advanced/organic modeling human/Retopology/66_finishedQuadDraw.png'
-import _67_softSelectsrc_assets_labs_Modeling_Advanced_organic_modeling_human_Retopologypng from '../assets/labs/Modeling/Advanced/organic modeling human/Retopology/67_softSelect.png'
-import _68_retoposrc_assets_labs_Modeling_Advanced_organic_modeling_human_Retopologypng from '../assets/labs/Modeling/Advanced/organic modeling human/Retopology/68_retopo.png'
-import _9src_assets_labs_Modeling_Advanced_organic_modeling_human_Retopologypng from '../assets/labs/Modeling/Advanced/organic modeling human/Retopology/9.png'
-import _retopologysrc_assets_labs_Modeling_Advanced_organic_modeling_human_Retopologypng from '../assets/labs/Modeling/Advanced/organic modeling human/Retopology/retopology.png'
-import _01_characterSheets_setupsrc_assets_labs_Modeling_Advanced_organic_modeling_human_Sculptingpng from '../assets/labs/Modeling/Advanced/organic modeling human/Sculpting/01_characterSheets_setup.png'
-import _02_simpleSpheresrc_assets_labs_Modeling_Advanced_organic_modeling_human_Sculptingpng from '../assets/labs/Modeling/Advanced/organic modeling human/Sculpting/02_simpleSphere.png'
-import _03_positionFRONTsrc_assets_labs_Modeling_Advanced_organic_modeling_human_Sculptingpng from '../assets/labs/Modeling/Advanced/organic modeling human/Sculpting/03_positionFRONT.png'
-import _04_positionSIDEsrc_assets_labs_Modeling_Advanced_organic_modeling_human_Sculptingpng from '../assets/labs/Modeling/Advanced/organic modeling human/Sculpting/04_positionSIDE.png'
-import _05_xraysrc_assets_labs_Modeling_Advanced_organic_modeling_human_Sculptingpng from '../assets/labs/Modeling/Advanced/organic modeling human/Sculpting/05_xray.png'
-import _06_scaleSpheresrc_assets_labs_Modeling_Advanced_organic_modeling_human_Sculptingpng from '../assets/labs/Modeling/Advanced/organic modeling human/Sculpting/06_scaleSphere.png'
-import _07_symmetryOnsrc_assets_labs_Modeling_Advanced_organic_modeling_human_Sculptingpng from '../assets/labs/Modeling/Advanced/organic modeling human/Sculpting/07_symmetryOn.png'
-import _08_basicShapeFRONTsrc_assets_labs_Modeling_Advanced_organic_modeling_human_Sculptingpng from '../assets/labs/Modeling/Advanced/organic modeling human/Sculpting/08_basicShapeFRONT.png'
-import _09_basicShapeSIDEsrc_assets_labs_Modeling_Advanced_organic_modeling_human_Sculptingpng from '../assets/labs/Modeling/Advanced/organic modeling human/Sculpting/09_basicShapeSIDE.png'
-import _10_sculptNose_asrc_assets_labs_Modeling_Advanced_organic_modeling_human_Sculptingpng from '../assets/labs/Modeling/Advanced/organic modeling human/Sculpting/10_sculptNose_a.png'
-import _11_sculptNose_bsrc_assets_labs_Modeling_Advanced_organic_modeling_human_Sculptingpng from '../assets/labs/Modeling/Advanced/organic modeling human/Sculpting/11_sculptNose_b.png'
-import _12_sculptNose_csrc_assets_labs_Modeling_Advanced_organic_modeling_human_Sculptingpng from '../assets/labs/Modeling/Advanced/organic modeling human/Sculpting/12_sculptNose_c.png'
-import _13_sculptNose_dsrc_assets_labs_Modeling_Advanced_organic_modeling_human_Sculptingpng from '../assets/labs/Modeling/Advanced/organic modeling human/Sculpting/13_sculptNose_d.png'
-import _14_sculptEyes_asrc_assets_labs_Modeling_Advanced_organic_modeling_human_Sculptingpng from '../assets/labs/Modeling/Advanced/organic modeling human/Sculpting/14_sculptEyes_a.png'
-import _15_sculptEyes_bsrc_assets_labs_Modeling_Advanced_organic_modeling_human_Sculptingpng from '../assets/labs/Modeling/Advanced/organic modeling human/Sculpting/15_sculptEyes_b.png'
-import _16_sculptEyes_csrc_assets_labs_Modeling_Advanced_organic_modeling_human_Sculptingpng from '../assets/labs/Modeling/Advanced/organic modeling human/Sculpting/16_sculptEyes_c.png'
-import _17_sculptNeck_asrc_assets_labs_Modeling_Advanced_organic_modeling_human_Sculptingpng from '../assets/labs/Modeling/Advanced/organic modeling human/Sculpting/17_sculptNeck_a.png'
-import _18_sculptNeck_bsrc_assets_labs_Modeling_Advanced_organic_modeling_human_Sculptingpng from '../assets/labs/Modeling/Advanced/organic modeling human/Sculpting/18_sculptNeck_b.png'
-import _19_sculptNeck_csrc_assets_labs_Modeling_Advanced_organic_modeling_human_Sculptingpng from '../assets/labs/Modeling/Advanced/organic modeling human/Sculpting/19_sculptNeck_c.png'
-import _20_sculptNeck_dsrc_assets_labs_Modeling_Advanced_organic_modeling_human_Sculptingpng from '../assets/labs/Modeling/Advanced/organic modeling human/Sculpting/20_sculptNeck_d.png'
-import _21_sculptNeck_esrc_assets_labs_Modeling_Advanced_organic_modeling_human_Sculptingpng from '../assets/labs/Modeling/Advanced/organic modeling human/Sculpting/21_sculptNeck_e.png'
-import _22_sculptNeck_fsrc_assets_labs_Modeling_Advanced_organic_modeling_human_Sculptingpng from '../assets/labs/Modeling/Advanced/organic modeling human/Sculpting/22_sculptNeck_f.png'
-import _23_sculptNeck_gsrc_assets_labs_Modeling_Advanced_organic_modeling_human_Sculptingpng from '../assets/labs/Modeling/Advanced/organic modeling human/Sculpting/23_sculptNeck_g.png'
-import _24_finalSculpt_FRONTsrc_assets_labs_Modeling_Advanced_organic_modeling_human_Sculptingpng from '../assets/labs/Modeling/Advanced/organic modeling human/Sculpting/24_finalSculpt_FRONT.png'
-import _25_finalSculpt_SIDEsrc_assets_labs_Modeling_Advanced_organic_modeling_human_Sculptingpng from '../assets/labs/Modeling/Advanced/organic modeling human/Sculpting/25_finalSculpt_SIDE.png'
-import _26_renameOutlinersrc_assets_labs_Modeling_Advanced_organic_modeling_human_Sculptingpng from '../assets/labs/Modeling/Advanced/organic modeling human/Sculpting/26_renameOutliner.png'
-import _27_liveSurfacesrc_assets_labs_Modeling_Advanced_organic_modeling_human_Sculptingpng from '../assets/labs/Modeling/Advanced/organic modeling human/Sculpting/27_liveSurface.png'
-import _28_quadDrawsrc_assets_labs_Modeling_Advanced_organic_modeling_human_Sculptingpng from '../assets/labs/Modeling/Advanced/organic modeling human/Sculpting/28_quadDraw.png'
+import _polyBridgesrc_assets_labs_Modeling_Advanced_organic_modeling_humanpng from '../assets/labs/Modeling/Advanced/organic modeling human/polyBridge.png'
+import _retopologysrc_assets_labs_Modeling_Advanced_organic_modeling_humanpng from '../assets/labs/Modeling/Advanced/organic modeling human/retopology.png'
+import _symmetrysrc_assets_labs_Modeling_Advanced_organic_modeling_humanpng from '../assets/labs/Modeling/Advanced/organic modeling human/symmetry.png'
+import _targetWeldsrc_assets_labs_Modeling_Advanced_organic_modeling_humanpng from '../assets/labs/Modeling/Advanced/organic modeling human/targetWeld.png'
 import _THUMBNAILsrc_assets_labs_Modeling_Advanced_organic_modeling_humanpng from '../assets/labs/Modeling/Advanced/organic modeling human/THUMBNAIL.png'
 import _under_constructionsrc_assets_labs_Modeling_Advanced_organic_modeling_humanjpg from '../assets/labs/Modeling/Advanced/organic modeling human/under-construction.jpg'
 import _1_turn_off_interactive_creationsrc_assets_labs_Modeling_Basic_modeling_1png from '../assets/labs/Modeling/Basic/modeling 1/1-turn off interactive creation.png'
@@ -2179,105 +2179,215 @@ const data = {
         "thumbnail": _THUMBNAILsrc_assets_labs_Modeling_Advanced_organic_modeling_dragonpng
       },
       "organic_modeling_human": {
-        "Accessories": {
-          "images": {
-            "10_shirt.png": _10_shirtsrc_assets_labs_Modeling_Advanced_organic_modeling_human_Accessoriespng,
-            "11_pant.png": _11_pantsrc_assets_labs_Modeling_Advanced_organic_modeling_human_Accessoriespng,
-            "12_pant.png": _12_pantsrc_assets_labs_Modeling_Advanced_organic_modeling_human_Accessoriespng,
-            "13_pant.png": _13_pantsrc_assets_labs_Modeling_Advanced_organic_modeling_human_Accessoriespng,
-            "14_pant.png": _14_pantsrc_assets_labs_Modeling_Advanced_organic_modeling_human_Accessoriespng,
-            "15_pant.png": _15_pantsrc_assets_labs_Modeling_Advanced_organic_modeling_human_Accessoriespng,
-            "16_hair.png": _16_hairsrc_assets_labs_Modeling_Advanced_organic_modeling_human_Accessoriespng,
-            "17_hair.png": _17_hairsrc_assets_labs_Modeling_Advanced_organic_modeling_human_Accessoriespng,
-            "18_hair.png": _18_hairsrc_assets_labs_Modeling_Advanced_organic_modeling_human_Accessoriespng,
-            "19_hair.png": _19_hairsrc_assets_labs_Modeling_Advanced_organic_modeling_human_Accessoriespng,
-            "1_shirt.png": _1_shirtsrc_assets_labs_Modeling_Advanced_organic_modeling_human_Accessoriespng,
-            "20_hair.png": _20_hairsrc_assets_labs_Modeling_Advanced_organic_modeling_human_Accessoriespng,
-            "21_hair.png": _21_hairsrc_assets_labs_Modeling_Advanced_organic_modeling_human_Accessoriespng,
-            "22_final.png": _22_finalsrc_assets_labs_Modeling_Advanced_organic_modeling_human_Accessoriespng,
-            "23_final.png": _23_finalsrc_assets_labs_Modeling_Advanced_organic_modeling_human_Accessoriespng,
-            "24_final.png": _24_finalsrc_assets_labs_Modeling_Advanced_organic_modeling_human_Accessoriespng,
-            "25_final.png": _25_finalsrc_assets_labs_Modeling_Advanced_organic_modeling_human_Accessoriespng,
-            "2_shirt.png": _2_shirtsrc_assets_labs_Modeling_Advanced_organic_modeling_human_Accessoriespng,
-            "3_shirt.png": _3_shirtsrc_assets_labs_Modeling_Advanced_organic_modeling_human_Accessoriespng,
-            "4_shirt.png": _4_shirtsrc_assets_labs_Modeling_Advanced_organic_modeling_human_Accessoriespng,
-            "5_shirt.png": _5_shirtsrc_assets_labs_Modeling_Advanced_organic_modeling_human_Accessoriespng,
-            "6_shirt.png": _6_shirtsrc_assets_labs_Modeling_Advanced_organic_modeling_human_Accessoriespng,
-            "7_shirt.png": _7_shirtsrc_assets_labs_Modeling_Advanced_organic_modeling_human_Accessoriespng,
-            "8_shirt.png": _8_shirtsrc_assets_labs_Modeling_Advanced_organic_modeling_human_Accessoriespng,
-            "9_shirt.png": _9_shirtsrc_assets_labs_Modeling_Advanced_organic_modeling_human_Accessoriespng
-          }
-        },
-        "Body": {
-          "images": {
-            "body1.png": _body1src_assets_labs_Modeling_Advanced_organic_modeling_human_Bodypng,
-            "body10.png": _body10src_assets_labs_Modeling_Advanced_organic_modeling_human_Bodypng,
-            "body11.png": _body11src_assets_labs_Modeling_Advanced_organic_modeling_human_Bodypng,
-            "body12.png": _body12src_assets_labs_Modeling_Advanced_organic_modeling_human_Bodypng,
-            "body13.png": _body13src_assets_labs_Modeling_Advanced_organic_modeling_human_Bodypng,
-            "body14.png": _body14src_assets_labs_Modeling_Advanced_organic_modeling_human_Bodypng,
-            "body15.png": _body15src_assets_labs_Modeling_Advanced_organic_modeling_human_Bodypng,
-            "body16.png": _body16src_assets_labs_Modeling_Advanced_organic_modeling_human_Bodypng,
-            "body17.png": _body17src_assets_labs_Modeling_Advanced_organic_modeling_human_Bodypng,
-            "body18.png": _body18src_assets_labs_Modeling_Advanced_organic_modeling_human_Bodypng,
-            "body19.png": _body19src_assets_labs_Modeling_Advanced_organic_modeling_human_Bodypng,
-            "body1a.png": _body1asrc_assets_labs_Modeling_Advanced_organic_modeling_human_Bodypng,
-            "body1b.png": _body1bsrc_assets_labs_Modeling_Advanced_organic_modeling_human_Bodypng,
-            "body2.png": _body2src_assets_labs_Modeling_Advanced_organic_modeling_human_Bodypng,
-            "body20.png": _body20src_assets_labs_Modeling_Advanced_organic_modeling_human_Bodypng,
-            "body21.png": _body21src_assets_labs_Modeling_Advanced_organic_modeling_human_Bodypng,
-            "body22.png": _body22src_assets_labs_Modeling_Advanced_organic_modeling_human_Bodypng,
-            "body23.png": _body23src_assets_labs_Modeling_Advanced_organic_modeling_human_Bodypng,
-            "body24.png": _body24src_assets_labs_Modeling_Advanced_organic_modeling_human_Bodypng,
-            "body25.png": _body25src_assets_labs_Modeling_Advanced_organic_modeling_human_Bodypng,
-            "body26.png": _body26src_assets_labs_Modeling_Advanced_organic_modeling_human_Bodypng,
-            "body27.png": _body27src_assets_labs_Modeling_Advanced_organic_modeling_human_Bodypng,
-            "body28.png": _body28src_assets_labs_Modeling_Advanced_organic_modeling_human_Bodypng,
-            "body29.png": _body29src_assets_labs_Modeling_Advanced_organic_modeling_human_Bodypng,
-            "body3.png": _body3src_assets_labs_Modeling_Advanced_organic_modeling_human_Bodypng,
-            "body30.png": _body30src_assets_labs_Modeling_Advanced_organic_modeling_human_Bodypng,
-            "body31.png": _body31src_assets_labs_Modeling_Advanced_organic_modeling_human_Bodypng,
-            "body33.png": _body33src_assets_labs_Modeling_Advanced_organic_modeling_human_Bodypng,
-            "body34.png": _body34src_assets_labs_Modeling_Advanced_organic_modeling_human_Bodypng,
-            "body36.png": _body36src_assets_labs_Modeling_Advanced_organic_modeling_human_Bodypng,
-            "body37.png": _body37src_assets_labs_Modeling_Advanced_organic_modeling_human_Bodypng,
-            "body38.png": _body38src_assets_labs_Modeling_Advanced_organic_modeling_human_Bodypng,
-            "body39.png": _body39src_assets_labs_Modeling_Advanced_organic_modeling_human_Bodypng,
-            "body4.png": _body4src_assets_labs_Modeling_Advanced_organic_modeling_human_Bodypng,
-            "body40.png": _body40src_assets_labs_Modeling_Advanced_organic_modeling_human_Bodypng,
-            "body41.png": _body41src_assets_labs_Modeling_Advanced_organic_modeling_human_Bodypng,
-            "body42.png": _body42src_assets_labs_Modeling_Advanced_organic_modeling_human_Bodypng,
-            "body43.png": _body43src_assets_labs_Modeling_Advanced_organic_modeling_human_Bodypng,
-            "body44.png": _body44src_assets_labs_Modeling_Advanced_organic_modeling_human_Bodypng,
-            "body46.png": _body46src_assets_labs_Modeling_Advanced_organic_modeling_human_Bodypng,
-            "body47.png": _body47src_assets_labs_Modeling_Advanced_organic_modeling_human_Bodypng,
-            "body48.png": _body48src_assets_labs_Modeling_Advanced_organic_modeling_human_Bodypng,
-            "body49.png": _body49src_assets_labs_Modeling_Advanced_organic_modeling_human_Bodypng,
-            "body5.png": _body5src_assets_labs_Modeling_Advanced_organic_modeling_human_Bodypng,
-            "body50.png": _body50src_assets_labs_Modeling_Advanced_organic_modeling_human_Bodypng,
-            "body51.png": _body51src_assets_labs_Modeling_Advanced_organic_modeling_human_Bodypng,
-            "body52.png": _body52src_assets_labs_Modeling_Advanced_organic_modeling_human_Bodypng,
-            "body53.png": _body53src_assets_labs_Modeling_Advanced_organic_modeling_human_Bodypng,
-            "body54.png": _body54src_assets_labs_Modeling_Advanced_organic_modeling_human_Bodypng,
-            "body55.png": _body55src_assets_labs_Modeling_Advanced_organic_modeling_human_Bodypng,
-            "body5a.png": _body5asrc_assets_labs_Modeling_Advanced_organic_modeling_human_Bodypng,
-            "body5b.png": _body5bsrc_assets_labs_Modeling_Advanced_organic_modeling_human_Bodypng,
-            "body5c.png": _body5csrc_assets_labs_Modeling_Advanced_organic_modeling_human_Bodypng,
-            "body5d.png": _body5dsrc_assets_labs_Modeling_Advanced_organic_modeling_human_Bodypng,
-            "body6.png": _body6src_assets_labs_Modeling_Advanced_organic_modeling_human_Bodypng,
-            "body7.png": _body7src_assets_labs_Modeling_Advanced_organic_modeling_human_Bodypng,
-            "body7b.png": _body7bsrc_assets_labs_Modeling_Advanced_organic_modeling_human_Bodypng,
-            "body7c.png": _body7csrc_assets_labs_Modeling_Advanced_organic_modeling_human_Bodypng,
-            "body8.png": _body8src_assets_labs_Modeling_Advanced_organic_modeling_human_Bodypng,
-            "body9.png": _body9src_assets_labs_Modeling_Advanced_organic_modeling_human_Bodypng,
-            "circularize.png": _circularizesrc_assets_labs_Modeling_Advanced_organic_modeling_human_Bodypng,
-            "polyBridge.png": _polyBridgesrc_assets_labs_Modeling_Advanced_organic_modeling_human_Bodypng,
-            "symmetry.png": _symmetrysrc_assets_labs_Modeling_Advanced_organic_modeling_human_Bodypng,
-            "targetWeld.png": _targetWeldsrc_assets_labs_Modeling_Advanced_organic_modeling_human_Bodypng
-          }
-        },
         "images": {
+          "01_characterSheets_setup.png": _01_characterSheets_setupsrc_assets_labs_Modeling_Advanced_organic_modeling_humanpng,
+          "01_points.png": _01_pointssrc_assets_labs_Modeling_Advanced_organic_modeling_humanpng,
+          "02_hover.png": _02_hoversrc_assets_labs_Modeling_Advanced_organic_modeling_humanpng,
+          "02_simpleSphere.png": _02_simpleSpheresrc_assets_labs_Modeling_Advanced_organic_modeling_humanpng,
+          "03_positionFRONT.png": _03_positionFRONTsrc_assets_labs_Modeling_Advanced_organic_modeling_humanpng,
+          "03_square.png": _03_squaresrc_assets_labs_Modeling_Advanced_organic_modeling_humanpng,
+          "04_positionSIDE.png": _04_positionSIDEsrc_assets_labs_Modeling_Advanced_organic_modeling_humanpng,
+          "04_tab.png": _04_tabsrc_assets_labs_Modeling_Advanced_organic_modeling_humanpng,
+          "05_newSquare.png": _05_newSquaresrc_assets_labs_Modeling_Advanced_organic_modeling_humanpng,
+          "05_xray.png": _05_xraysrc_assets_labs_Modeling_Advanced_organic_modeling_humanpng,
+          "06_moreSquares.png": _06_moreSquaressrc_assets_labs_Modeling_Advanced_organic_modeling_humanpng,
+          "06_scaleSphere.png": _06_scaleSpheresrc_assets_labs_Modeling_Advanced_organic_modeling_humanpng,
+          "07_moreSquares2.png": _07_moreSquares2src_assets_labs_Modeling_Advanced_organic_modeling_humanpng,
+          "07_symmetryOn.png": _07_symmetryOnsrc_assets_labs_Modeling_Advanced_organic_modeling_humanpng,
+          "08_basicShapeFRONT.png": _08_basicShapeFRONTsrc_assets_labs_Modeling_Advanced_organic_modeling_humanpng,
+          "08_eyeMask.png": _08_eyeMasksrc_assets_labs_Modeling_Advanced_organic_modeling_humanpng,
+          "09_basicShapeSIDE.png": _09_basicShapeSIDEsrc_assets_labs_Modeling_Advanced_organic_modeling_humanpng,
+          "1.png": _1src_assets_labs_Modeling_Advanced_organic_modeling_humanpng,
+          "10.png": _10src_assets_labs_Modeling_Advanced_organic_modeling_humanpng,
+          "10_adjustedEyeMask.png": _10_adjustedEyeMasksrc_assets_labs_Modeling_Advanced_organic_modeling_humanpng,
+          "10_sculptNose_a.png": _10_sculptNose_asrc_assets_labs_Modeling_Advanced_organic_modeling_humanpng,
+          "10_shirt.png": _10_shirtsrc_assets_labs_Modeling_Advanced_organic_modeling_humanpng,
+          "11.png": _11src_assets_labs_Modeling_Advanced_organic_modeling_humanpng,
+          "11_pant.png": _11_pantsrc_assets_labs_Modeling_Advanced_organic_modeling_humanpng,
+          "11_sculptNose_b.png": _11_sculptNose_bsrc_assets_labs_Modeling_Advanced_organic_modeling_humanpng,
+          "11_smallerRing.png": _11_smallerRingsrc_assets_labs_Modeling_Advanced_organic_modeling_humanpng,
+          "11_smallerRing_highlighted.png": _11_smallerRing_highlightedsrc_assets_labs_Modeling_Advanced_organic_modeling_humanpng,
+          "12.png": _12src_assets_labs_Modeling_Advanced_organic_modeling_humanpng,
+          "12_filledSocket.png": _12_filledSocketsrc_assets_labs_Modeling_Advanced_organic_modeling_humanpng,
+          "12_pant.png": _12_pantsrc_assets_labs_Modeling_Advanced_organic_modeling_humanpng,
+          "12_sculptNose_c.png": _12_sculptNose_csrc_assets_labs_Modeling_Advanced_organic_modeling_humanpng,
+          "13.png": _13src_assets_labs_Modeling_Advanced_organic_modeling_humanpng,
+          "13_edgeFlow_highlights.png": _13_edgeFlow_highlightssrc_assets_labs_Modeling_Advanced_organic_modeling_humanpng,
+          "13_pant.png": _13_pantsrc_assets_labs_Modeling_Advanced_organic_modeling_humanpng,
+          "13_sculptNose_d.png": _13_sculptNose_dsrc_assets_labs_Modeling_Advanced_organic_modeling_humanpng,
+          "14.png": _14src_assets_labs_Modeling_Advanced_organic_modeling_humanpng,
+          "14_pant.png": _14_pantsrc_assets_labs_Modeling_Advanced_organic_modeling_humanpng,
+          "14_sculptEyes_a.png": _14_sculptEyes_asrc_assets_labs_Modeling_Advanced_organic_modeling_humanpng,
+          "14_side.png": _14_sidesrc_assets_labs_Modeling_Advanced_organic_modeling_humanpng,
+          "15.png": _15src_assets_labs_Modeling_Advanced_organic_modeling_humanpng,
+          "15_extended.png": _15_extendedsrc_assets_labs_Modeling_Advanced_organic_modeling_humanpng,
+          "15_pant.png": _15_pantsrc_assets_labs_Modeling_Advanced_organic_modeling_humanpng,
+          "15_sculptEyes_b.png": _15_sculptEyes_bsrc_assets_labs_Modeling_Advanced_organic_modeling_humanpng,
+          "16.png": _16src_assets_labs_Modeling_Advanced_organic_modeling_humanpng,
+          "16_hair.png": _16_hairsrc_assets_labs_Modeling_Advanced_organic_modeling_humanpng,
+          "16_moreExtended.png": _16_moreExtendedsrc_assets_labs_Modeling_Advanced_organic_modeling_humanpng,
+          "16_sculptEyes_c.png": _16_sculptEyes_csrc_assets_labs_Modeling_Advanced_organic_modeling_humanpng,
+          "17.png": _17src_assets_labs_Modeling_Advanced_organic_modeling_humanpng,
+          "17_connected.png": _17_connectedsrc_assets_labs_Modeling_Advanced_organic_modeling_humanpng,
+          "17_hair.png": _17_hairsrc_assets_labs_Modeling_Advanced_organic_modeling_humanpng,
+          "17_sculptNeck_a.png": _17_sculptNeck_asrc_assets_labs_Modeling_Advanced_organic_modeling_humanpng,
+          "18.png": _18src_assets_labs_Modeling_Advanced_organic_modeling_humanpng,
+          "18_extendUp.png": _18_extendUpsrc_assets_labs_Modeling_Advanced_organic_modeling_humanpng,
+          "18_hair.png": _18_hairsrc_assets_labs_Modeling_Advanced_organic_modeling_humanpng,
+          "18_sculptNeck_b.png": _18_sculptNeck_bsrc_assets_labs_Modeling_Advanced_organic_modeling_humanpng,
+          "19_extendUp2.png": _19_extendUp2src_assets_labs_Modeling_Advanced_organic_modeling_humanpng,
+          "19_hair.png": _19_hairsrc_assets_labs_Modeling_Advanced_organic_modeling_humanpng,
+          "19_sculptNeck_c.png": _19_sculptNeck_csrc_assets_labs_Modeling_Advanced_organic_modeling_humanpng,
+          "1edge.png": _1edgesrc_assets_labs_Modeling_Advanced_organic_modeling_humanpng,
+          "1_shirt.png": _1_shirtsrc_assets_labs_Modeling_Advanced_organic_modeling_humanpng,
+          "2.png": _2src_assets_labs_Modeling_Advanced_organic_modeling_humanpng,
+          "20_closedLoop.png": _20_closedLoopsrc_assets_labs_Modeling_Advanced_organic_modeling_humanpng,
+          "20_hair.png": _20_hairsrc_assets_labs_Modeling_Advanced_organic_modeling_humanpng,
+          "20_sculptNeck_d.png": _20_sculptNeck_dsrc_assets_labs_Modeling_Advanced_organic_modeling_humanpng,
+          "21_hair.png": _21_hairsrc_assets_labs_Modeling_Advanced_organic_modeling_humanpng,
+          "21_moreRings.png": _21_moreRingssrc_assets_labs_Modeling_Advanced_organic_modeling_humanpng,
+          "21_sculptNeck_e.png": _21_sculptNeck_esrc_assets_labs_Modeling_Advanced_organic_modeling_humanpng,
+          "22_final.png": _22_finalsrc_assets_labs_Modeling_Advanced_organic_modeling_humanpng,
+          "22_moreRings2.png": _22_moreRings2src_assets_labs_Modeling_Advanced_organic_modeling_humanpng,
+          "22_sculptNeck_f.png": _22_sculptNeck_fsrc_assets_labs_Modeling_Advanced_organic_modeling_humanpng,
+          "23.png": _23src_assets_labs_Modeling_Advanced_organic_modeling_humanpng,
+          "23_final.png": _23_finalsrc_assets_labs_Modeling_Advanced_organic_modeling_humanpng,
+          "23_sculptNeck_g.png": _23_sculptNeck_gsrc_assets_labs_Modeling_Advanced_organic_modeling_humanpng,
+          "24_final.png": _24_finalsrc_assets_labs_Modeling_Advanced_organic_modeling_humanpng,
+          "24_finalSculpt_FRONT.png": _24_finalSculpt_FRONTsrc_assets_labs_Modeling_Advanced_organic_modeling_humanpng,
+          "24_moreRings3.png": _24_moreRings3src_assets_labs_Modeling_Advanced_organic_modeling_humanpng,
+          "25.png": _25src_assets_labs_Modeling_Advanced_organic_modeling_humanpng,
+          "25_final.png": _25_finalsrc_assets_labs_Modeling_Advanced_organic_modeling_humanpng,
+          "25_finalSculpt_SIDE.png": _25_finalSculpt_SIDEsrc_assets_labs_Modeling_Advanced_organic_modeling_humanpng,
+          "26.png": _26src_assets_labs_Modeling_Advanced_organic_modeling_humanpng,
+          "26_renameOutliner.png": _26_renameOutlinersrc_assets_labs_Modeling_Advanced_organic_modeling_humanpng,
+          "27_liveSurface.png": _27_liveSurfacesrc_assets_labs_Modeling_Advanced_organic_modeling_humanpng,
+          "27_manyRings.png": _27_manyRingssrc_assets_labs_Modeling_Advanced_organic_modeling_humanpng,
+          "28.png": _28src_assets_labs_Modeling_Advanced_organic_modeling_humanpng,
+          "28_quadDraw.png": _28_quadDrawsrc_assets_labs_Modeling_Advanced_organic_modeling_humanpng,
+          "29_topView.png": _29_topViewsrc_assets_labs_Modeling_Advanced_organic_modeling_humanpng,
+          "2edges.png": _2edgessrc_assets_labs_Modeling_Advanced_organic_modeling_humanpng,
+          "2edge_elbowpad.png": _2edge_elbowpadsrc_assets_labs_Modeling_Advanced_organic_modeling_humanpng,
+          "2_shirt.png": _2_shirtsrc_assets_labs_Modeling_Advanced_organic_modeling_humanpng,
+          "3.png": _3src_assets_labs_Modeling_Advanced_organic_modeling_humanpng,
+          "30_connecting.png": _30_connectingsrc_assets_labs_Modeling_Advanced_organic_modeling_humanpng,
+          "31_connecting2.png": _31_connecting2src_assets_labs_Modeling_Advanced_organic_modeling_humanpng,
+          "32_lines.png": _32_linessrc_assets_labs_Modeling_Advanced_organic_modeling_humanpng,
+          "33_connect.png": _33_connectsrc_assets_labs_Modeling_Advanced_organic_modeling_humanpng,
+          "34_smoothed.png": _34_smoothedsrc_assets_labs_Modeling_Advanced_organic_modeling_humanpng,
+          "35_topHalf.png": _35_topHalfsrc_assets_labs_Modeling_Advanced_organic_modeling_humanpng,
+          "36_noseExtend.png": _36_noseExtendsrc_assets_labs_Modeling_Advanced_organic_modeling_humanpng,
+          "37_noseExtend2.png": _37_noseExtend2src_assets_labs_Modeling_Advanced_organic_modeling_humanpng,
+          "38_placePoints.png": _38_placePointssrc_assets_labs_Modeling_Advanced_organic_modeling_humanpng,
+          "39_placeQuads.png": _39_placeQuadssrc_assets_labs_Modeling_Advanced_organic_modeling_humanpng,
+          "3edges.png": _3edgessrc_assets_labs_Modeling_Advanced_organic_modeling_humanpng,
+          "3edge_elbowpad.png": _3edge_elbowpadsrc_assets_labs_Modeling_Advanced_organic_modeling_humanpng,
+          "3_shirt.png": _3_shirtsrc_assets_labs_Modeling_Advanced_organic_modeling_humanpng,
+          "4.png": _4src_assets_labs_Modeling_Advanced_organic_modeling_humanpng,
+          "40_mouthRing.png": _40_mouthRingsrc_assets_labs_Modeling_Advanced_organic_modeling_humanpng,
+          "41_mouthRing2.png": _41_mouthRing2src_assets_labs_Modeling_Advanced_organic_modeling_humanpng,
+          "42.png": _42src_assets_labs_Modeling_Advanced_organic_modeling_humanpng,
+          "43_mouthFilled.png": _43_mouthFilledsrc_assets_labs_Modeling_Advanced_organic_modeling_humanpng,
+          "44.png": _44src_assets_labs_Modeling_Advanced_organic_modeling_humanpng,
+          "45_connectNoseMouth.png": _45_connectNoseMouthsrc_assets_labs_Modeling_Advanced_organic_modeling_humanpng,
+          "46_extendMouth.png": _46_extendMouthsrc_assets_labs_Modeling_Advanced_organic_modeling_humanpng,
+          "47.png": _47src_assets_labs_Modeling_Advanced_organic_modeling_humanpng,
+          "48_startCheek.png": _48_startCheeksrc_assets_labs_Modeling_Advanced_organic_modeling_humanpng,
+          "49_extendCheek.png": _49_extendCheeksrc_assets_labs_Modeling_Advanced_organic_modeling_humanpng,
+          "4_shirt.png": _4_shirtsrc_assets_labs_Modeling_Advanced_organic_modeling_humanpng,
+          "5.png": _5src_assets_labs_Modeling_Advanced_organic_modeling_humanpng,
+          "50.png": _50src_assets_labs_Modeling_Advanced_organic_modeling_humanpng,
+          "51.png": _51src_assets_labs_Modeling_Advanced_organic_modeling_humanpng,
+          "52.png": _52src_assets_labs_Modeling_Advanced_organic_modeling_humanpng,
+          "53.png": _53src_assets_labs_Modeling_Advanced_organic_modeling_humanpng,
+          "54.png": _54src_assets_labs_Modeling_Advanced_organic_modeling_humanpng,
+          "55_almostDone.png": _55_almostDonesrc_assets_labs_Modeling_Advanced_organic_modeling_humanpng,
+          "56.png": _56src_assets_labs_Modeling_Advanced_organic_modeling_humanpng,
+          "57_chinBeginning.png": _57_chinBeginningsrc_assets_labs_Modeling_Advanced_organic_modeling_humanpng,
+          "58_chinStrap.png": _58_chinStrapsrc_assets_labs_Modeling_Advanced_organic_modeling_humanpng,
+          "59_chinConnect.png": _59_chinConnectsrc_assets_labs_Modeling_Advanced_organic_modeling_humanpng,
+          "5_shirt.png": _5_shirtsrc_assets_labs_Modeling_Advanced_organic_modeling_humanpng,
+          "6.png": _6src_assets_labs_Modeling_Advanced_organic_modeling_humanpng,
+          "60_fillGap.png": _60_fillGapsrc_assets_labs_Modeling_Advanced_organic_modeling_humanpng,
+          "61_fillGap.png": _61_fillGapsrc_assets_labs_Modeling_Advanced_organic_modeling_humanpng,
+          "62_neck.png": _62_necksrc_assets_labs_Modeling_Advanced_organic_modeling_humanpng,
+          "63_neck.png": _63_necksrc_assets_labs_Modeling_Advanced_organic_modeling_humanpng,
+          "64.png": _64src_assets_labs_Modeling_Advanced_organic_modeling_humanpng,
+          "65_neckComplete.png": _65_neckCompletesrc_assets_labs_Modeling_Advanced_organic_modeling_humanpng,
+          "66_finishedQuadDraw.png": _66_finishedQuadDrawsrc_assets_labs_Modeling_Advanced_organic_modeling_humanpng,
+          "67_softSelect.png": _67_softSelectsrc_assets_labs_Modeling_Advanced_organic_modeling_humanpng,
+          "68_retopo.png": _68_retoposrc_assets_labs_Modeling_Advanced_organic_modeling_humanpng,
+          "6_shirt.png": _6_shirtsrc_assets_labs_Modeling_Advanced_organic_modeling_humanpng,
+          "7.png": _7src_assets_labs_Modeling_Advanced_organic_modeling_humanpng,
+          "7_shirt.png": _7_shirtsrc_assets_labs_Modeling_Advanced_organic_modeling_humanpng,
+          "8.png": _8src_assets_labs_Modeling_Advanced_organic_modeling_humanpng,
+          "8_shirt.png": _8_shirtsrc_assets_labs_Modeling_Advanced_organic_modeling_humanpng,
+          "9.png": _9src_assets_labs_Modeling_Advanced_organic_modeling_humanpng,
+          "9_2.png": _9_2src_assets_labs_Modeling_Advanced_organic_modeling_humanpng,
+          "9_shirt.png": _9_shirtsrc_assets_labs_Modeling_Advanced_organic_modeling_humanpng,
+          "body1.png": _body1src_assets_labs_Modeling_Advanced_organic_modeling_humanpng,
+          "body10.png": _body10src_assets_labs_Modeling_Advanced_organic_modeling_humanpng,
+          "body11.png": _body11src_assets_labs_Modeling_Advanced_organic_modeling_humanpng,
+          "body12.png": _body12src_assets_labs_Modeling_Advanced_organic_modeling_humanpng,
+          "body13.png": _body13src_assets_labs_Modeling_Advanced_organic_modeling_humanpng,
+          "body14.png": _body14src_assets_labs_Modeling_Advanced_organic_modeling_humanpng,
+          "body15.png": _body15src_assets_labs_Modeling_Advanced_organic_modeling_humanpng,
+          "body16.png": _body16src_assets_labs_Modeling_Advanced_organic_modeling_humanpng,
+          "body17.png": _body17src_assets_labs_Modeling_Advanced_organic_modeling_humanpng,
+          "body18.png": _body18src_assets_labs_Modeling_Advanced_organic_modeling_humanpng,
+          "body19.png": _body19src_assets_labs_Modeling_Advanced_organic_modeling_humanpng,
+          "body1a.png": _body1asrc_assets_labs_Modeling_Advanced_organic_modeling_humanpng,
+          "body1b.png": _body1bsrc_assets_labs_Modeling_Advanced_organic_modeling_humanpng,
+          "body2.png": _body2src_assets_labs_Modeling_Advanced_organic_modeling_humanpng,
+          "body20.png": _body20src_assets_labs_Modeling_Advanced_organic_modeling_humanpng,
+          "body21.png": _body21src_assets_labs_Modeling_Advanced_organic_modeling_humanpng,
+          "body22.png": _body22src_assets_labs_Modeling_Advanced_organic_modeling_humanpng,
+          "body23.png": _body23src_assets_labs_Modeling_Advanced_organic_modeling_humanpng,
+          "body24.png": _body24src_assets_labs_Modeling_Advanced_organic_modeling_humanpng,
+          "body25.png": _body25src_assets_labs_Modeling_Advanced_organic_modeling_humanpng,
+          "body26.png": _body26src_assets_labs_Modeling_Advanced_organic_modeling_humanpng,
+          "body27.png": _body27src_assets_labs_Modeling_Advanced_organic_modeling_humanpng,
+          "body28.png": _body28src_assets_labs_Modeling_Advanced_organic_modeling_humanpng,
+          "body29.png": _body29src_assets_labs_Modeling_Advanced_organic_modeling_humanpng,
+          "body3.png": _body3src_assets_labs_Modeling_Advanced_organic_modeling_humanpng,
+          "body30.png": _body30src_assets_labs_Modeling_Advanced_organic_modeling_humanpng,
+          "body31.png": _body31src_assets_labs_Modeling_Advanced_organic_modeling_humanpng,
+          "body33.png": _body33src_assets_labs_Modeling_Advanced_organic_modeling_humanpng,
+          "body34.png": _body34src_assets_labs_Modeling_Advanced_organic_modeling_humanpng,
+          "body36.png": _body36src_assets_labs_Modeling_Advanced_organic_modeling_humanpng,
+          "body37.png": _body37src_assets_labs_Modeling_Advanced_organic_modeling_humanpng,
+          "body38.png": _body38src_assets_labs_Modeling_Advanced_organic_modeling_humanpng,
+          "body39.png": _body39src_assets_labs_Modeling_Advanced_organic_modeling_humanpng,
+          "body4.png": _body4src_assets_labs_Modeling_Advanced_organic_modeling_humanpng,
+          "body40.png": _body40src_assets_labs_Modeling_Advanced_organic_modeling_humanpng,
+          "body41.png": _body41src_assets_labs_Modeling_Advanced_organic_modeling_humanpng,
+          "body42.png": _body42src_assets_labs_Modeling_Advanced_organic_modeling_humanpng,
+          "body43.png": _body43src_assets_labs_Modeling_Advanced_organic_modeling_humanpng,
+          "body44.png": _body44src_assets_labs_Modeling_Advanced_organic_modeling_humanpng,
+          "body46.png": _body46src_assets_labs_Modeling_Advanced_organic_modeling_humanpng,
+          "body47.png": _body47src_assets_labs_Modeling_Advanced_organic_modeling_humanpng,
+          "body48.png": _body48src_assets_labs_Modeling_Advanced_organic_modeling_humanpng,
+          "body49.png": _body49src_assets_labs_Modeling_Advanced_organic_modeling_humanpng,
+          "body5.png": _body5src_assets_labs_Modeling_Advanced_organic_modeling_humanpng,
+          "body50.png": _body50src_assets_labs_Modeling_Advanced_organic_modeling_humanpng,
+          "body51.png": _body51src_assets_labs_Modeling_Advanced_organic_modeling_humanpng,
+          "body52.png": _body52src_assets_labs_Modeling_Advanced_organic_modeling_humanpng,
+          "body53.png": _body53src_assets_labs_Modeling_Advanced_organic_modeling_humanpng,
+          "body54.png": _body54src_assets_labs_Modeling_Advanced_organic_modeling_humanpng,
+          "body55.png": _body55src_assets_labs_Modeling_Advanced_organic_modeling_humanpng,
+          "body5a.png": _body5asrc_assets_labs_Modeling_Advanced_organic_modeling_humanpng,
+          "body5b.png": _body5bsrc_assets_labs_Modeling_Advanced_organic_modeling_humanpng,
+          "body5c.png": _body5csrc_assets_labs_Modeling_Advanced_organic_modeling_humanpng,
+          "body5d.png": _body5dsrc_assets_labs_Modeling_Advanced_organic_modeling_humanpng,
+          "body6.png": _body6src_assets_labs_Modeling_Advanced_organic_modeling_humanpng,
+          "body7.png": _body7src_assets_labs_Modeling_Advanced_organic_modeling_humanpng,
+          "body7b.png": _body7bsrc_assets_labs_Modeling_Advanced_organic_modeling_humanpng,
+          "body7c.png": _body7csrc_assets_labs_Modeling_Advanced_organic_modeling_humanpng,
+          "body8.png": _body8src_assets_labs_Modeling_Advanced_organic_modeling_humanpng,
+          "body9.png": _body9src_assets_labs_Modeling_Advanced_organic_modeling_humanpng,
           "character_sheet.png": _character_sheetsrc_assets_labs_Modeling_Advanced_organic_modeling_humanpng,
+          "circularize.png": _circularizesrc_assets_labs_Modeling_Advanced_organic_modeling_humanpng,
+          "diamond.png": _diamondsrc_assets_labs_Modeling_Advanced_organic_modeling_humanpng,
           "image1.png": _image1src_assets_labs_Modeling_Advanced_organic_modeling_humanpng,
           "image10.png": _image10src_assets_labs_Modeling_Advanced_organic_modeling_humanpng,
           "image11.png": _image11src_assets_labs_Modeling_Advanced_organic_modeling_humanpng,
@@ -2345,150 +2455,16 @@ const data = {
           "image8.png": _image8src_assets_labs_Modeling_Advanced_organic_modeling_humanpng,
           "image9.png": _image9src_assets_labs_Modeling_Advanced_organic_modeling_humanpng,
           "pastcharacters.png": _pastcharacterssrc_assets_labs_Modeling_Advanced_organic_modeling_humanpng,
+          "polyBridge.png": _polyBridgesrc_assets_labs_Modeling_Advanced_organic_modeling_humanpng,
+          "retopology.png": _retopologysrc_assets_labs_Modeling_Advanced_organic_modeling_humanpng,
+          "symmetry.png": _symmetrysrc_assets_labs_Modeling_Advanced_organic_modeling_humanpng,
+          "targetWeld.png": _targetWeldsrc_assets_labs_Modeling_Advanced_organic_modeling_humanpng,
           "under-construction.jpg": _under_constructionsrc_assets_labs_Modeling_Advanced_organic_modeling_humanjpg
-        },
-        "Details": {
-          "images": {
-            "1.png": _1src_assets_labs_Modeling_Advanced_organic_modeling_human_Detailspng,
-            "10.png": _10src_assets_labs_Modeling_Advanced_organic_modeling_human_Detailspng,
-            "11.png": _11src_assets_labs_Modeling_Advanced_organic_modeling_human_Detailspng,
-            "12.png": _12src_assets_labs_Modeling_Advanced_organic_modeling_human_Detailspng,
-            "13.png": _13src_assets_labs_Modeling_Advanced_organic_modeling_human_Detailspng,
-            "14.png": _14src_assets_labs_Modeling_Advanced_organic_modeling_human_Detailspng,
-            "15.png": _15src_assets_labs_Modeling_Advanced_organic_modeling_human_Detailspng,
-            "16.png": _16src_assets_labs_Modeling_Advanced_organic_modeling_human_Detailspng,
-            "17.png": _17src_assets_labs_Modeling_Advanced_organic_modeling_human_Detailspng,
-            "18.png": _18src_assets_labs_Modeling_Advanced_organic_modeling_human_Detailspng,
-            "2.png": _2src_assets_labs_Modeling_Advanced_organic_modeling_human_Detailspng,
-            "3.png": _3src_assets_labs_Modeling_Advanced_organic_modeling_human_Detailspng,
-            "4.png": _4src_assets_labs_Modeling_Advanced_organic_modeling_human_Detailspng,
-            "5.png": _5src_assets_labs_Modeling_Advanced_organic_modeling_human_Detailspng,
-            "6.png": _6src_assets_labs_Modeling_Advanced_organic_modeling_human_Detailspng,
-            "7.png": _7src_assets_labs_Modeling_Advanced_organic_modeling_human_Detailspng,
-            "8.png": _8src_assets_labs_Modeling_Advanced_organic_modeling_human_Detailspng,
-            "9.png": _9src_assets_labs_Modeling_Advanced_organic_modeling_human_Detailspng
-          }
-        },
-        "elbow_examples": {
-          "images": {
-            "1edge.png": _1edgesrc_assets_labs_Modeling_Advanced_organic_modeling_human_elbow_examplespng,
-            "2edges.png": _2edgessrc_assets_labs_Modeling_Advanced_organic_modeling_human_elbow_examplespng,
-            "2edge_elbowpad.png": _2edge_elbowpadsrc_assets_labs_Modeling_Advanced_organic_modeling_human_elbow_examplespng,
-            "3edges.png": _3edgessrc_assets_labs_Modeling_Advanced_organic_modeling_human_elbow_examplespng,
-            "3edge_elbowpad.png": _3edge_elbowpadsrc_assets_labs_Modeling_Advanced_organic_modeling_human_elbow_examplespng,
-            "diamond.png": _diamondsrc_assets_labs_Modeling_Advanced_organic_modeling_human_elbow_examplespng
-          }
         },
         "markdown": [
           _organic_modeling_humansrc_assets_labs_Modeling_Advanced_organic_modeling_humanmd,
           "Modeling/Advanced/organic_modeling_human"
         ],
-        "Retopology": {
-          "images": {
-            "01_points.png": _01_pointssrc_assets_labs_Modeling_Advanced_organic_modeling_human_Retopologypng,
-            "02_hover.png": _02_hoversrc_assets_labs_Modeling_Advanced_organic_modeling_human_Retopologypng,
-            "03_square.png": _03_squaresrc_assets_labs_Modeling_Advanced_organic_modeling_human_Retopologypng,
-            "04_tab.png": _04_tabsrc_assets_labs_Modeling_Advanced_organic_modeling_human_Retopologypng,
-            "05_newSquare.png": _05_newSquaresrc_assets_labs_Modeling_Advanced_organic_modeling_human_Retopologypng,
-            "06_moreSquares.png": _06_moreSquaressrc_assets_labs_Modeling_Advanced_organic_modeling_human_Retopologypng,
-            "07_moreSquares2.png": _07_moreSquares2src_assets_labs_Modeling_Advanced_organic_modeling_human_Retopologypng,
-            "08_eyeMask.png": _08_eyeMasksrc_assets_labs_Modeling_Advanced_organic_modeling_human_Retopologypng,
-            "10_adjustedEyeMask.png": _10_adjustedEyeMasksrc_assets_labs_Modeling_Advanced_organic_modeling_human_Retopologypng,
-            "11_smallerRing.png": _11_smallerRingsrc_assets_labs_Modeling_Advanced_organic_modeling_human_Retopologypng,
-            "11_smallerRing_highlighted.png": _11_smallerRing_highlightedsrc_assets_labs_Modeling_Advanced_organic_modeling_human_Retopologypng,
-            "12_filledSocket.png": _12_filledSocketsrc_assets_labs_Modeling_Advanced_organic_modeling_human_Retopologypng,
-            "13_edgeFlow_highlights.png": _13_edgeFlow_highlightssrc_assets_labs_Modeling_Advanced_organic_modeling_human_Retopologypng,
-            "14_side.png": _14_sidesrc_assets_labs_Modeling_Advanced_organic_modeling_human_Retopologypng,
-            "15_extended.png": _15_extendedsrc_assets_labs_Modeling_Advanced_organic_modeling_human_Retopologypng,
-            "16_moreExtended.png": _16_moreExtendedsrc_assets_labs_Modeling_Advanced_organic_modeling_human_Retopologypng,
-            "17_connected.png": _17_connectedsrc_assets_labs_Modeling_Advanced_organic_modeling_human_Retopologypng,
-            "18_extendUp.png": _18_extendUpsrc_assets_labs_Modeling_Advanced_organic_modeling_human_Retopologypng,
-            "19_extendUp2.png": _19_extendUp2src_assets_labs_Modeling_Advanced_organic_modeling_human_Retopologypng,
-            "20_closedLoop.png": _20_closedLoopsrc_assets_labs_Modeling_Advanced_organic_modeling_human_Retopologypng,
-            "21_moreRings.png": _21_moreRingssrc_assets_labs_Modeling_Advanced_organic_modeling_human_Retopologypng,
-            "22_moreRings2.png": _22_moreRings2src_assets_labs_Modeling_Advanced_organic_modeling_human_Retopologypng,
-            "23.png": _23src_assets_labs_Modeling_Advanced_organic_modeling_human_Retopologypng,
-            "24_moreRings3.png": _24_moreRings3src_assets_labs_Modeling_Advanced_organic_modeling_human_Retopologypng,
-            "25.png": _25src_assets_labs_Modeling_Advanced_organic_modeling_human_Retopologypng,
-            "26.png": _26src_assets_labs_Modeling_Advanced_organic_modeling_human_Retopologypng,
-            "27_manyRings.png": _27_manyRingssrc_assets_labs_Modeling_Advanced_organic_modeling_human_Retopologypng,
-            "28.png": _28src_assets_labs_Modeling_Advanced_organic_modeling_human_Retopologypng,
-            "29_topView.png": _29_topViewsrc_assets_labs_Modeling_Advanced_organic_modeling_human_Retopologypng,
-            "30_connecting.png": _30_connectingsrc_assets_labs_Modeling_Advanced_organic_modeling_human_Retopologypng,
-            "31_connecting2.png": _31_connecting2src_assets_labs_Modeling_Advanced_organic_modeling_human_Retopologypng,
-            "32_lines.png": _32_linessrc_assets_labs_Modeling_Advanced_organic_modeling_human_Retopologypng,
-            "33_connect.png": _33_connectsrc_assets_labs_Modeling_Advanced_organic_modeling_human_Retopologypng,
-            "34_smoothed.png": _34_smoothedsrc_assets_labs_Modeling_Advanced_organic_modeling_human_Retopologypng,
-            "35_topHalf.png": _35_topHalfsrc_assets_labs_Modeling_Advanced_organic_modeling_human_Retopologypng,
-            "36_noseExtend.png": _36_noseExtendsrc_assets_labs_Modeling_Advanced_organic_modeling_human_Retopologypng,
-            "37_noseExtend2.png": _37_noseExtend2src_assets_labs_Modeling_Advanced_organic_modeling_human_Retopologypng,
-            "38_placePoints.png": _38_placePointssrc_assets_labs_Modeling_Advanced_organic_modeling_human_Retopologypng,
-            "39_placeQuads.png": _39_placeQuadssrc_assets_labs_Modeling_Advanced_organic_modeling_human_Retopologypng,
-            "40_mouthRing.png": _40_mouthRingsrc_assets_labs_Modeling_Advanced_organic_modeling_human_Retopologypng,
-            "41_mouthRing2.png": _41_mouthRing2src_assets_labs_Modeling_Advanced_organic_modeling_human_Retopologypng,
-            "42.png": _42src_assets_labs_Modeling_Advanced_organic_modeling_human_Retopologypng,
-            "43_mouthFilled.png": _43_mouthFilledsrc_assets_labs_Modeling_Advanced_organic_modeling_human_Retopologypng,
-            "44.png": _44src_assets_labs_Modeling_Advanced_organic_modeling_human_Retopologypng,
-            "45_connectNoseMouth.png": _45_connectNoseMouthsrc_assets_labs_Modeling_Advanced_organic_modeling_human_Retopologypng,
-            "46_extendMouth.png": _46_extendMouthsrc_assets_labs_Modeling_Advanced_organic_modeling_human_Retopologypng,
-            "47.png": _47src_assets_labs_Modeling_Advanced_organic_modeling_human_Retopologypng,
-            "48_startCheek.png": _48_startCheeksrc_assets_labs_Modeling_Advanced_organic_modeling_human_Retopologypng,
-            "49_extendCheek.png": _49_extendCheeksrc_assets_labs_Modeling_Advanced_organic_modeling_human_Retopologypng,
-            "50.png": _50src_assets_labs_Modeling_Advanced_organic_modeling_human_Retopologypng,
-            "51.png": _51src_assets_labs_Modeling_Advanced_organic_modeling_human_Retopologypng,
-            "52.png": _52src_assets_labs_Modeling_Advanced_organic_modeling_human_Retopologypng,
-            "53.png": _53src_assets_labs_Modeling_Advanced_organic_modeling_human_Retopologypng,
-            "54.png": _54src_assets_labs_Modeling_Advanced_organic_modeling_human_Retopologypng,
-            "55_almostDone.png": _55_almostDonesrc_assets_labs_Modeling_Advanced_organic_modeling_human_Retopologypng,
-            "56.png": _56src_assets_labs_Modeling_Advanced_organic_modeling_human_Retopologypng,
-            "57_chinBeginning.png": _57_chinBeginningsrc_assets_labs_Modeling_Advanced_organic_modeling_human_Retopologypng,
-            "58_chinStrap.png": _58_chinStrapsrc_assets_labs_Modeling_Advanced_organic_modeling_human_Retopologypng,
-            "59_chinConnect.png": _59_chinConnectsrc_assets_labs_Modeling_Advanced_organic_modeling_human_Retopologypng,
-            "60_fillGap.png": _60_fillGapsrc_assets_labs_Modeling_Advanced_organic_modeling_human_Retopologypng,
-            "61_fillGap.png": _61_fillGapsrc_assets_labs_Modeling_Advanced_organic_modeling_human_Retopologypng,
-            "62_neck.png": _62_necksrc_assets_labs_Modeling_Advanced_organic_modeling_human_Retopologypng,
-            "63_neck.png": _63_necksrc_assets_labs_Modeling_Advanced_organic_modeling_human_Retopologypng,
-            "64.png": _64src_assets_labs_Modeling_Advanced_organic_modeling_human_Retopologypng,
-            "65_neckComplete.png": _65_neckCompletesrc_assets_labs_Modeling_Advanced_organic_modeling_human_Retopologypng,
-            "66_finishedQuadDraw.png": _66_finishedQuadDrawsrc_assets_labs_Modeling_Advanced_organic_modeling_human_Retopologypng,
-            "67_softSelect.png": _67_softSelectsrc_assets_labs_Modeling_Advanced_organic_modeling_human_Retopologypng,
-            "68_retopo.png": _68_retoposrc_assets_labs_Modeling_Advanced_organic_modeling_human_Retopologypng,
-            "9.png": _9src_assets_labs_Modeling_Advanced_organic_modeling_human_Retopologypng,
-            "retopology.png": _retopologysrc_assets_labs_Modeling_Advanced_organic_modeling_human_Retopologypng
-          }
-        },
-        "Sculpting": {
-          "images": {
-            "01_characterSheets_setup.png": _01_characterSheets_setupsrc_assets_labs_Modeling_Advanced_organic_modeling_human_Sculptingpng,
-            "02_simpleSphere.png": _02_simpleSpheresrc_assets_labs_Modeling_Advanced_organic_modeling_human_Sculptingpng,
-            "03_positionFRONT.png": _03_positionFRONTsrc_assets_labs_Modeling_Advanced_organic_modeling_human_Sculptingpng,
-            "04_positionSIDE.png": _04_positionSIDEsrc_assets_labs_Modeling_Advanced_organic_modeling_human_Sculptingpng,
-            "05_xray.png": _05_xraysrc_assets_labs_Modeling_Advanced_organic_modeling_human_Sculptingpng,
-            "06_scaleSphere.png": _06_scaleSpheresrc_assets_labs_Modeling_Advanced_organic_modeling_human_Sculptingpng,
-            "07_symmetryOn.png": _07_symmetryOnsrc_assets_labs_Modeling_Advanced_organic_modeling_human_Sculptingpng,
-            "08_basicShapeFRONT.png": _08_basicShapeFRONTsrc_assets_labs_Modeling_Advanced_organic_modeling_human_Sculptingpng,
-            "09_basicShapeSIDE.png": _09_basicShapeSIDEsrc_assets_labs_Modeling_Advanced_organic_modeling_human_Sculptingpng,
-            "10_sculptNose_a.png": _10_sculptNose_asrc_assets_labs_Modeling_Advanced_organic_modeling_human_Sculptingpng,
-            "11_sculptNose_b.png": _11_sculptNose_bsrc_assets_labs_Modeling_Advanced_organic_modeling_human_Sculptingpng,
-            "12_sculptNose_c.png": _12_sculptNose_csrc_assets_labs_Modeling_Advanced_organic_modeling_human_Sculptingpng,
-            "13_sculptNose_d.png": _13_sculptNose_dsrc_assets_labs_Modeling_Advanced_organic_modeling_human_Sculptingpng,
-            "14_sculptEyes_a.png": _14_sculptEyes_asrc_assets_labs_Modeling_Advanced_organic_modeling_human_Sculptingpng,
-            "15_sculptEyes_b.png": _15_sculptEyes_bsrc_assets_labs_Modeling_Advanced_organic_modeling_human_Sculptingpng,
-            "16_sculptEyes_c.png": _16_sculptEyes_csrc_assets_labs_Modeling_Advanced_organic_modeling_human_Sculptingpng,
-            "17_sculptNeck_a.png": _17_sculptNeck_asrc_assets_labs_Modeling_Advanced_organic_modeling_human_Sculptingpng,
-            "18_sculptNeck_b.png": _18_sculptNeck_bsrc_assets_labs_Modeling_Advanced_organic_modeling_human_Sculptingpng,
-            "19_sculptNeck_c.png": _19_sculptNeck_csrc_assets_labs_Modeling_Advanced_organic_modeling_human_Sculptingpng,
-            "20_sculptNeck_d.png": _20_sculptNeck_dsrc_assets_labs_Modeling_Advanced_organic_modeling_human_Sculptingpng,
-            "21_sculptNeck_e.png": _21_sculptNeck_esrc_assets_labs_Modeling_Advanced_organic_modeling_human_Sculptingpng,
-            "22_sculptNeck_f.png": _22_sculptNeck_fsrc_assets_labs_Modeling_Advanced_organic_modeling_human_Sculptingpng,
-            "23_sculptNeck_g.png": _23_sculptNeck_gsrc_assets_labs_Modeling_Advanced_organic_modeling_human_Sculptingpng,
-            "24_finalSculpt_FRONT.png": _24_finalSculpt_FRONTsrc_assets_labs_Modeling_Advanced_organic_modeling_human_Sculptingpng,
-            "25_finalSculpt_SIDE.png": _25_finalSculpt_SIDEsrc_assets_labs_Modeling_Advanced_organic_modeling_human_Sculptingpng,
-            "26_renameOutliner.png": _26_renameOutlinersrc_assets_labs_Modeling_Advanced_organic_modeling_human_Sculptingpng,
-            "27_liveSurface.png": _27_liveSurfacesrc_assets_labs_Modeling_Advanced_organic_modeling_human_Sculptingpng,
-            "28_quadDraw.png": _28_quadDrawsrc_assets_labs_Modeling_Advanced_organic_modeling_human_Sculptingpng
-          }
-        },
         "thumbnail": _THUMBNAILsrc_assets_labs_Modeling_Advanced_organic_modeling_humanpng
       }
     },
