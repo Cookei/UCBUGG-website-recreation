@@ -43,13 +43,11 @@ const Home = (props, ref) => {
 
   return (
     <>
-      {size.width > 600 ? (
-        <div id={styles.adBanner}>
-          <a href="https://forms.gle/RshnVnW2gg4HsBLw6" target="_blank">
-            <h1>UCBUGG Infosession signup click here!</h1>
-          </a>
-        </div>
-      ) : null}
+      <div id={styles.adBanner}>
+        <a href="https://forms.gle/RshnVnW2gg4HsBLw6" target="_blank">
+          <h1>UCBUGG Infosession signup click here!</h1>
+        </a>
+      </div>
       <section id={styles.splashSection}>
         {size.width > 600 ? (
           <View index={1} className={appStyles.view}>
@@ -277,14 +275,12 @@ const Home = (props, ref) => {
           >
             <h1>Schedule</h1>
             <div className={styles.SDHSmallTextBlock}>
-              Monday or Wednesday
+              Monday or Friday
               <br />
               7:00 - 9:00pm
               <br />
               <br />
-              <span style={{ textDecoration: "underline" }}>
-                200 Sutardja Dai Hall
-              </span>
+              <span style={{ textDecoration: "underline" }}>Soda 330</span>
             </div>
             {/* <button className={styles.SDHButton}>
               <h1>Apply Now!</h1>
