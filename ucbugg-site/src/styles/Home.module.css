@@ -16,7 +16,7 @@
 }
 
 #adBanner {
-  width: 100%;
+  width: 100vw;
   padding: 0.2rem;
   text-align: center;
   background-color: rgb(253, 127, 137);
