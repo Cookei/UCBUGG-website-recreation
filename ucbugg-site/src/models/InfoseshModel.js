@@ -2,17 +2,16 @@ import React, { Suspense, useRef, useState} from "react";
 import {
   Html,
   useGLTF,
-  Wireframe,
 } from "@react-three/drei";
 import { useThree, useFrame } from "@react-three/fiber";
 import model from "../assets/models/interestform.glb";
 import { MeshBasicMaterial } from "three";
 
+// make an invisible rectangle  for infosession link clicking instead
+
 const InfoseshModel = () => {
   // This is a wrapper for the actual fox model to handle all the hover and transformation logic
   const [hovered, setHovered] = useState(false);
-  const scene = useThree((state) => state.scene);
-  const viewport = useThree((state) => state.viewport);
   const TXT_OFFSET = [1, 2, -1];
 
   const meshRef = useRef();
@@ -53,7 +52,7 @@ const InfoseshModel = () => {
   const material = peematerial
   return (
     <Suspense fallback={<Loader />}>
-     
+      
       <mesh 
       ref={meshRef}
         geometry={nodes.text.geometry} 
@@ -61,18 +60,23 @@ const InfoseshModel = () => {
         position={TXT_OFFSET}       // X, Y, Z position in world space
         rotation={[Math.PI / 2, 0, 0]}
         scale = {0.4}
-        // Mouse hover and unhover
-        onPointerOver={() => {
-          setHovered(true)
-        }}
-        onPointerOut={() => {
-          setHovered(false)
-        }}
-        onClick={() => {
-          window.location.href = 'https://forms.gle/uPkium81Ewg4w5ni7'; // Redirect to the specified URL
-        }}
-    >
-    
+        
+    />
+
+    <mesh 
+      position={TXT_OFFSET}
+      rotation={[Math.PI / 2, 0, 0]} // Mouse hover and unhover
+      onPointerOver={() => {
+        setHovered(true)
+      }}
+      onPointerOut={() => {
+        setHovered(false)
+      }}
+      onClick={() => {
+        window.location.href = 'https://forms.gle/uPkium81Ewg4w5ni7'; // Redirect to the specified URL
+      }}>
+      <boxGeometry args={[2,0.5,0.75]} />
+      <meshStandardMaterial opacity={0} transparent/>
     </mesh>
       
     </Suspense>
@@ -80,60 +84,5 @@ const InfoseshModel = () => {
 };
 
 export default InfoseshModel;
-
-// // The actual fox model
-// export function Model({ fillMix, strokeOpacity, ...props }) {
-//   const { nodes, materials } = useGLTF(model);
-//   return (
-//     <group {...props} dispose={null}>
-//       <group rotation={[Math.PI / 2, 0, 0]}>
-//         <mesh
-//           geometry={nodes.splashModel_1.geometry}
-//           material={materials.standardSurface2SG}
-//         >
-//           <Wireframe
-//             stroke={0x50f250}
-//             backfaceStroke={0x50f250}
-//             fillMix={fillMix} //determine the interior color of the wireframe. 0 means there is no wireframe
-//             strokeOpacity={strokeOpacity}
-//           />
-//         </mesh>
-//         <mesh
-//           geometry={nodes.splashModel_2.geometry}
-//           material={materials.standardSurface3SG}
-//         >
-//           <Wireframe
-//             stroke={0x50f250}
-//             backfaceStroke={0x50f250}
-//             fillMix={fillMix}
-//             strokeOpacity={strokeOpacity}
-//           />
-//         </mesh>
-//         <mesh
-//           geometry={nodes.splashModel_3.geometry}
-//           material={materials.standardSurface5SG}
-//         >
-//           <Wireframe
-//             stroke={0x50f250}
-//             backfaceStroke={0x50f250}
-//             fillMix={fillMix}
-//             strokeOpacity={strokeOpacity}
-//           />
-//         </mesh>
-//         <mesh
-//           geometry={nodes.splashModel_4.geometry}
-//           material={materials.standardSurface4SG}
-//         >
-//           <Wireframe
-//             stroke={0x50f250}
-//             backfaceStroke={0x50f250}
-//             fillMix={fillMix}
-//             strokeOpacity={strokeOpacity}
-//           />
-//         </mesh>
-//       </group>
-//     </group>
-//   );
-// }
 
 useGLTF.preload(model);
