@@ -36,6 +36,7 @@ import SocialIcon from "../components/SocialIcon";
 import hdr from "../assets/models/rainforest_trail_1k.hdr";
 import useWindowSize from "../components/useWindowSize";
 const SplashModel = React.lazy(() => import("../models/SplashModel"));
+const InfoseshModel = React.lazy(() => import("../models/InfoseshModel"));
 
 const Home = (props, ref) => {
   const [pipelineState, setPipelineState] = useState(null);
@@ -64,6 +65,7 @@ const Home = (props, ref) => {
             <Environment files={hdr} />
             <HelperGrid />
             <SplashModel />
+            <InfoseshModel />
           </View>
         ) : null}
         <div id={styles.splashTitle}>
