@@ -1,6 +1,5 @@
 import React, { forwardRef } from "react";
 import styles from "../styles/About.module.css";
-import appStyles from "../styles/App.module.css";
 import data from "./TatoeImgImports.js";
 import historyImg from "../assets/aboutPage/melchananime.png";
 import BottomBanner from "../assets/homePageIcon/stupidbottombannerhillsblahugh.svg";
@@ -66,7 +65,7 @@ const About = forwardRef((props, ref) => {
               </p>
             </div>
 
-            <img src={historyImg} />
+            <img src={historyImg} alt="Mel-chan doing a cool pose" />
           </div>
         </div>
       </section>
@@ -77,7 +76,11 @@ const About = forwardRef((props, ref) => {
             return (
               <div key={i}>
                 <div style={{ position: "relative" }}>
-                  <img src={e.img} className={styles.staffImg} />
+                  <img
+                    src={e.img}
+                    className={styles.staffImg}
+                    alt={"Staff:" + e.name}
+                  />
                   {e.name.match(/Senior/g) ? (
                     <>
                       <h3>{e.name.match(/\S+/g).slice(0, -1).join(" ")}</h3>
@@ -88,6 +91,7 @@ const About = forwardRef((props, ref) => {
                           position: "absolute",
                           transform: "scale(1.3)",
                         }}
+                        alt="Fox sticker to signify head facilitator"
                       />
                     </>
                   ) : (
@@ -100,6 +104,7 @@ const About = forwardRef((props, ref) => {
                       position: "absolute",
                       transform: "scale(1.3)",
                     }}
+                    alt="Sakura petals to signify Senior or higher facilitator"
                   />
                 </div>
               </div>
@@ -111,7 +116,11 @@ const About = forwardRef((props, ref) => {
             return (
               <div key={i}>
                 <div>
-                  <img src={e.img} className={styles.staffImg} />
+                  <img
+                    src={e.img}
+                    className={styles.staffImg}
+                    alt={"Staff:" + e.name}
+                  />
                   {e.name.match(/Senior/g) ? (
                     <>
                       <h3>{e.name.match(/\S+/g).slice(0, -1).join(" ")}</h3>
@@ -122,6 +131,7 @@ const About = forwardRef((props, ref) => {
                           position: "absolute",
                           transform: "scale(1.3)",
                         }}
+                        alt="Sakura petals to signify Senior or higher facilitator"
                       />
                     </>
                   ) : (
@@ -141,7 +151,7 @@ const About = forwardRef((props, ref) => {
             return (
               <div key={i}>
                 <div>
-                  <img src={e.img} />
+                  <img src={e.img} alt={"Past Staff:" + e.name} />
                   {e.name.match(/Senior/g) ? (
                     <h3>{e.name.match(/\S+/g).slice(0, -1).join(" ")}</h3>
                   ) : (
@@ -161,6 +171,7 @@ const About = forwardRef((props, ref) => {
           left: "0",
           width: "100%",
         }}
+        alt="Cool graphic"
       />
     </div>
   );
