@@ -155,7 +155,12 @@
 /* #endregion */
 
 :root {
-  --accent: rgb(255, 231, 194);
+  --accent: linear-gradient(
+    to bottom,
+    rgb(255, 231, 194),
+    90%,
+    rgb(236, 203, 165)
+  );
 }
 
 #announcementSection {
@@ -202,7 +207,7 @@
 }
 
 #whoWeAreContainer {
-  background-color: var(--accent);
+  background: var(--accent);
   border-radius: 15px;
   padding: 2rem;
   margin-top: 100px;
@@ -250,7 +255,7 @@
 
 #pipelineDiv {
   z-index: 1;
-  background-color: var(--accent);
+  background: var(--accent);
   padding: 2rem;
   border-radius: 15px;
   box-shadow: 2px 2px 5px rgb(180, 180, 180);
@@ -357,7 +362,12 @@
   width: 800px;
   padding: 2rem;
   flex-direction: column;
-  background-color: rgba(98, 170, 238, 0.79);
+  background: linear-gradient(
+    to bottom,
+    rgba(98, 170, 238, 0.79),
+    90%,
+    rgba(94, 150, 235, 0.79)
+  );
   border-radius: 15px;
   box-shadow: 2px 2px 5px rgb(180, 180, 180);
   transition: scale 150ms, max-height 500ms ease, padding 300ms;
