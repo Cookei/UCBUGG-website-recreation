@@ -115,7 +115,7 @@ const About = forwardRef((props, ref) => {
           {data.normal_tatoes.map((e, i) => {
             return (
               <div key={i}>
-                <div>
+                <div style={{ position: "relative" }}>
                   <img
                     src={e.img}
                     className={styles.staffImg}
