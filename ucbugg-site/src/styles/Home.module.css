@@ -286,6 +286,7 @@
   height: 30px;
   border-radius: 4px;
   background-color: #222222;
+  transition: all 0.1s;
 }
 
 #timelineContainer {
@@ -570,4 +571,8 @@
     width: unset;
     z-index: -1;
   }
+}
+
+.active {
+  background-color: rgb(255, 152, 68);
 }

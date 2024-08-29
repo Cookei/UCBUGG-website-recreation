@@ -39,7 +39,7 @@ const SplashModel = React.lazy(() => import("../models/SplashModel"));
 const InfoseshModel = React.lazy(() => import("../models/InfoseshModel"));
 
 const Home = (props, ref) => {
-  const [pipelineState, setPipelineState] = useState(null);
+  const [pipelineState, setPipelineState] = useState("storyBoarding");
 
   const size = useWindowSize();
 
@@ -95,7 +95,7 @@ const Home = (props, ref) => {
           <h1>Who we are</h1>
           {/* prettier-ignore */}
           <p>
-            The UC Berkeley Undergraduate Graphics Group (UCBUGG) is a group of passionate students who want to introduce our fellow peers to the art of creating a 3D-animated short film. We run the UCBUGG DeCal, offering both a basic and advanced curriculum. This DeCal guides students of all skill levels through the entire production pipeline of creating an animated film, using software like Autodesk Maya, Adobe After Effects, and Pixar's Renderman. UCBUGG alumni have broke into the industry, working at places like Dreamworks, Pixar, and Sony Interactive Entertainment
+            The UC Berkeley Undergraduate Graphics Group (UCBUGG) is a group of passionate students who want to introduce our fellow peers to the art of creating a 3D-animated short film. We run the UCBUGG DeCal, offering both a basic and advanced curriculum. This DeCal guides students of all skill levels through the entire production pipeline of creating an animated film, using software like Autodesk Maya, Adobe After Effects, and Pixar's Renderman. UCBUGG alumni have broke into the industry, working at places like Dreamworks, Pixar, and Sony Intestyles.activeEntertainment
           </p>
           <div className={styles.iconImageBlock}>
             <a
@@ -158,10 +158,6 @@ const Home = (props, ref) => {
               }}
             >
               <div style={{ position: "relative", marginBottom: "2rem" }}>
-                <div id={styles.timelineContainer}>
-                  <div className={styles.horizontalLine} />
-                  <div className={styles.triangle} />
-                </div>
                 <div id={styles.pipelineButtons}>
                   <div
                     onClick={() => setPipelineState("storyBoarding")}
@@ -171,7 +167,11 @@ const Home = (props, ref) => {
                       className={styles.timelineModelImg}
                       src={StoryboardingImage}
                     />
-                    <div className={styles.verticalLine} />
+                    <div
+                      className={`${styles.verticalLine} ${
+                        pipelineState == "storyBoarding" ? styles.active : ""
+                      }`}
+                    />
                     <h3>Storyboarding</h3>
                   </div>
                   <div
@@ -182,7 +182,11 @@ const Home = (props, ref) => {
                       className={styles.timelineModelImg}
                       src={ModelingImage}
                     />
-                    <div className={styles.verticalLine} />
+                    <div
+                      className={`${styles.verticalLine} ${
+                        pipelineState == "modeling" ? styles.active : ""
+                      }`}
+                    />
                     <h3>Modeling</h3>
                   </div>
                   <div
@@ -193,7 +197,11 @@ const Home = (props, ref) => {
                       className={styles.timelineModelImg}
                       src={ShadingImage}
                     />
-                    <div className={styles.verticalLine} />
+                    <div
+                      className={`${styles.verticalLine} ${
+                        pipelineState == "shading" ? styles.active : ""
+                      }`}
+                    />
                     <h3>Shading</h3>
                   </div>
                   <div
@@ -204,7 +212,11 @@ const Home = (props, ref) => {
                       className={styles.timelineModelImg}
                       src={RiggingImage}
                     />
-                    <div className={styles.verticalLine} />
+                    <div
+                      className={`${styles.verticalLine} ${
+                        pipelineState == "rigging" ? styles.active : ""
+                      }`}
+                    />
                     <h3>Rigging</h3>
                   </div>
                   <div
@@ -215,7 +227,11 @@ const Home = (props, ref) => {
                       className={styles.timelineModelImg}
                       src={AnimatingImage}
                     />
-                    <div className={styles.verticalLine} />
+                    <div
+                      className={`${styles.verticalLine} ${
+                        pipelineState == "animating" ? styles.active : ""
+                      }`}
+                    />
                     <h3>Animating</h3>
                   </div>
                   <div
@@ -226,9 +242,17 @@ const Home = (props, ref) => {
                       className={styles.timelineModelImg}
                       src={CompositingImage}
                     />
-                    <div className={styles.verticalLine} />
+                    <div
+                      className={`${styles.verticalLine} ${
+                        pipelineState == "compositing" ? styles.active : ""
+                      }`}
+                    />
                     <h3>Compositing</h3>
                   </div>
+                </div>
+                <div id={styles.timelineContainer} style={{ zIndex: -1 }}>
+                  <div className={styles.horizontalLine} />
+                  <div className={styles.triangle} />
                 </div>
               </div>
               <PipelineInfoUpdate pipelineState={pipelineState} />
