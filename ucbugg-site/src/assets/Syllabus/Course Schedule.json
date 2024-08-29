@@ -27,7 +27,7 @@
   },
   {
     "year": 2024,
-    "date": ["Sept 9", "Sept 11"],
+    "date": ["Sept 9", "Sept 13"],
     "topics": ["Art and Story"],
     "assignments": {
       "basic": {
@@ -50,7 +50,7 @@
   },
   {
     "year": 2024,
-    "date": ["Sept 16", "Sept 18"],
+    "date": ["Sept 16", "Sept 20"],
     "topics": ["Story Pitches", "Project Management", "Group Formation"],
     "assignments": {
       "basic": {
@@ -77,7 +77,7 @@
   },
   {
     "year": 2024,
-    "date": ["Sept 23", "Sept 25"],
+    "date": ["Sept 23", "Sept 27"],
     "topics": ["Basic Modeling"],
     "assignments": {
       "basic": {
@@ -97,7 +97,7 @@
   },
   {
     "year": 2024,
-    "date": ["Sept 30", "Oct 2"],
+    "date": ["Sept 30", "Oct 4"],
     "topics": ["Advanced Modeling"],
     "assignments": {
       "basic": {
@@ -114,7 +114,7 @@
   },
   {
     "year": 2024,
-    "date": ["Oct 7", "Oct 9"],
+    "date": ["Oct 7", "Oct 11"],
     "topics": ["Shading"],
     "assignments": {
       "basic": {
@@ -137,7 +137,7 @@
   },
   {
     "year": 2024,
-    "date": ["Oct 14", "Oct 16"],
+    "date": ["Oct 14", "Oct 18"],
     "topics": ["Basic Rigging"],
     "assignments": {
       "basic": {
@@ -154,7 +154,7 @@
   },
   {
     "year": 2024,
-    "date": ["Oct 21", "Oct 23"],
+    "date": ["Oct 21", "Oct 25"],
     "topics": ["Advanced Rigging"],
     "assignments": {
       "basic": {
@@ -174,7 +174,7 @@
   },
   {
     "year": 2024,
-    "date": ["Oct 28", "Oct 30"],
+    "date": ["Oct 28", "Nov 1"],
     "topics": ["Basic Animation"],
     "assignments": {
       "basic": {
@@ -191,7 +191,7 @@
   },
   {
     "year": 2024,
-    "date": ["Nov 4", "Nov 6"],
+    "date": ["Nov 4", "Nov 8"],
     "topics": ["Visual Effects and Lighting"],
     "assignments": {
       "basic": {
@@ -225,7 +225,7 @@
   },
   {
     "year": 2024,
-    "date": ["Nov 18", "Nov 20"],
+    "date": ["Nov 18", "Nov 22"],
     "topics": ["Rendering and Compositing"],
     "assignments": {
       "basic": {
@@ -258,7 +258,7 @@
   },
   {
     "year": 2024,
-    "date": ["Nov 25"],
+    "date": ["Nov 29"],
     "topics": ["Speaker Event"],
     "assignments": {
       "basic": {
@@ -275,7 +275,7 @@
   },
   {
     "year": 2024,
-    "date": ["Dec 2", "Dec 4"],
+    "date": ["Dec 2", "Dec 6"],
     "topics": ["Final Class Critique"],
     "assignments": {
       "basic": {
