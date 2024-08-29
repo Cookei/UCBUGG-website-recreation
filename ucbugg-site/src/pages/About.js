@@ -4,6 +4,8 @@ import appStyles from "../styles/App.module.css";
 import data from "./TatoeImgImports.js";
 import historyImg from "../assets/aboutPage/melchananime.png";
 import BottomBanner from "../assets/homePageIcon/stupidbottombannerhillsblahugh.svg";
+import headTatoeTag from "../assets/aboutPage/UCBUGG_Head_Tatoe_Tag.png";
+import seniorTatoeTag from "../assets/aboutPage/UCBUGG_Senior_Tag.png";
 
 const About = forwardRef((props, ref) => {
   return (
@@ -74,13 +76,31 @@ const About = forwardRef((props, ref) => {
           {data.head_tatoes.map((e, i) => {
             return (
               <div key={i}>
-                <div>
+                <div style={{ position: "relative" }}>
                   <img src={e.img} className={styles.staffImg} />
                   {e.name.match(/Senior/g) ? (
-                    <h3>{e.name.match(/\S+/g).slice(0, -1).join(" ")}</h3>
+                    <>
+                      <h3>{e.name.match(/\S+/g).slice(0, -1).join(" ")}</h3>
+                      <img
+                        src={seniorTatoeTag}
+                        className={styles.staffImg}
+                        style={{
+                          position: "absolute",
+                          transform: "scale(1.3)",
+                        }}
+                      />
+                    </>
                   ) : (
                     <h3>{e.name}</h3>
                   )}
+                  <img
+                    src={headTatoeTag}
+                    className={styles.staffImg}
+                    style={{
+                      position: "absolute",
+                      transform: "scale(1.3)",
+                    }}
+                  />
                 </div>
               </div>
             );
@@ -93,7 +113,17 @@ const About = forwardRef((props, ref) => {
                 <div>
                   <img src={e.img} className={styles.staffImg} />
                   {e.name.match(/Senior/g) ? (
-                    <h3>{e.name.match(/\S+/g).slice(0, -1).join(" ")}</h3>
+                    <>
+                      <h3>{e.name.match(/\S+/g).slice(0, -1).join(" ")}</h3>
+                      <img
+                        src={seniorTatoeTag}
+                        className={styles.staffImg}
+                        style={{
+                          position: "absolute",
+                          transform: "scale(1.3)",
+                        }}
+                      />
+                    </>
                   ) : (
                     <h3>{e.name}</h3>
                   )}
