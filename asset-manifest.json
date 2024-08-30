@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.b3a42051.css",
-    "main.js": "/static/js/main.4a8a3dd5.js",
+    "main.css": "/static/css/main.c3fba776.css",
+    "main.js": "/static/js/main.3f2d1499.js",
     "static/js/526.a1046954.chunk.js": "/static/js/526.a1046954.chunk.js",
     "static/js/811.294da54e.chunk.js": "/static/js/811.294da54e.chunk.js",
     "static/js/206.24d8eb7c.chunk.js": "/static/js/206.24d8eb7c.chunk.js",
@@ -31,6 +31,7 @@
     "static/media/Cameron Hui.jpg": "/static/media/Cameron Hui.cb0ab54134aa8a4bf118.jpg",
     "static/media/spline.mp4": "/static/media/spline.b29a64ee5e03596827ee.mp4",
     "static/media/heel_roll.gif": "/static/media/heel_roll.9bc61b924dc3eeb9430d.gif",
+    "static/media/Khylie Aviles.jpg": "/static/media/Khylie Aviles.f823a272e2eaf8916757.jpg",
     "static/media/SDH200.jpg": "/static/media/SDH200.380731f44c30f5e285bb.jpg",
     "static/media/Hoang Ton.jpg": "/static/media/Hoang Ton.97fccbd408b9ab1e72c9.jpg",
     "static/media/h2o.gif": "/static/media/h2o.5ecb2ef7c9c968c3c1b6.gif",
@@ -41,7 +42,9 @@
     "static/media/Andy Gagliardi.jpg": "/static/media/Andy Gagliardi.7956f9ce2141fb7fba88.jpg",
     "static/media/storyboardingExample.png": "/static/media/storyboardingExample.b4e8d963b23f448a7b65.png",
     "static/media/making_circle_controller.gif": "/static/media/making_circle_controller.bc45d75bb8c93d7992f0.gif",
+    "static/media/Ethan Tan.jpg": "/static/media/Ethan Tan.d044e50042c9b05b3536.jpg",
     "static/media/fiayer-h-ydk.gif": "/static/media/fiayer-h-ydk.66a1e16b81bdef82a5fb.gif",
+    "static/media/Soda330Image.jpg": "/static/media/Soda330Image.1abf0f00bc675ba970bb.jpg",
     "static/media/no_collide.gif": "/static/media/no_collide.f79ad6667d2875b6ecce.gif",
     "static/media/updated_box_making.gif": "/static/media/updated_box_making.4e85f3d9d802cfcff787.gif",
     "static/media/vid2.gif": "/static/media/vid2.3e13b38e86b0223613bb.gif",
@@ -89,7 +92,6 @@
     "static/media/resizing_whole_rig.gif": "/static/media/resizing_whole_rig.65eb8a77f99d24cf5744.gif",
     "static/media/wr3.png": "/static/media/wr3.37b912f27e9ce85e83b7.png",
     "static/media/pre_comp.gif": "/static/media/pre_comp.be9d06d93dcef56adf2e.gif",
-    "static/media/Soda330Image.jpg": "/static/media/Soda330Image.568bcab7b5f16feb9c2c.jpg",
     "static/media/cello_scroll.zip": "/static/media/cello_scroll.5238de9fd4300913e521.zip",
     "static/media/Rachel Thomas.jpg": "/static/media/Rachel Thomas.c5fc3831fa1da11b2c28.jpg",
     "static/media/trick.gif": "/static/media/trick.b28240b6f8a9603f715f.gif",
@@ -599,6 +601,7 @@
     "static/media/pm12.5.png": "/static/media/pm12.5.17a4b74dd7c3115cae49.png",
     "static/media/20_closedLoop.png": "/static/media/20_closedLoop.2c7a5b46b4782e438417.png",
     "static/media/25_final.png": "/static/media/25_final.7e6de197575fd63a60c5.png",
+    "static/media/Han Li.jpg": "/static/media/Han Li.01f184323333d5990aea.jpg",
     "static/media/Capture104.png": "/static/media/Capture104.f58c98e3708d646d6724.png",
     "static/media/retopology.png": "/static/media/retopology.a7a8dc55a003125a031f.png",
     "static/media/Light Panel.png": "/static/media/Light Panel.67a7841d410536b43932.png",
@@ -972,11 +975,11 @@
     "static/media/Maya Zheng.jpeg": "/static/media/Maya Zheng.04f9796e9af71dd4a05a.jpeg",
     "static/media/matchVertices.jpg": "/static/media/matchVertices.4beeff1376cb731a526a.jpg",
     "static/media/005.png": "/static/media/005.45ecf8b7a6e583be1c08.png",
+    "static/media/example_maya_file.ma": "/static/media/example_maya_file.c576c4da856e79b63af7.ma",
     "static/media/l8.png": "/static/media/l8.fd13fd422ffb6090bb62.png",
     "static/media/Capture31.png": "/static/media/Capture31.6378f1c0ce56a10e7c85.png",
     "static/media/Screen Shot 2016-04-10 at 5.17.12 PM.png": "/static/media/Screen Shot 2016-04-10 at 5.17.12 PM.04edf753f9a646a81aa7.png",
     "static/media/ear12.jpg": "/static/media/ear12.36bc34da85ffc2fbbea7.jpg",
-    "static/media/example_maya_file.ma": "/static/media/example_maya_file.513848e14995307c5b76.ma",
     "static/media/ear13.jpg": "/static/media/ear13.c83b4fd5c5bf47966a65.jpg",
     "static/media/Screen Shot 2016-04-11 at 1.10.22 PM.png": "/static/media/Screen Shot 2016-04-11 at 1.10.22 PM.3b647e54116e417f732a.png",
     "static/media/pm7.png": "/static/media/pm7.da90e63d4ac3c367c082.png",
@@ -1036,6 +1039,7 @@
     "static/media/ear.jpg": "/static/media/ear.dffcb1c8c69fc3027b57.jpg",
     "static/media/pm19.png": "/static/media/pm19.f7b5b18b66f41a1828a7.png",
     "static/media/image35.png": "/static/media/image35.b3c6ab00f954f2e0e5fa.png",
+    "static/media/Raine Koizumi Senior.jpg": "/static/media/Raine Koizumi Senior.2d6bd7519d9ca233b979.jpg",
     "static/media/l5.png": "/static/media/l5.7b0cc5b0297bdf3446f1.png",
     "static/media/image2.png": "/static/media/image2.a7aab0cada1896bc7f62.png",
     "static/media/extrude.jpg": "/static/media/extrude.0376ff09718aa9fbc417.jpg",
@@ -1478,7 +1482,7 @@
     "static/media/download_this.ma": "/static/media/download_this.cae342c80f739080fae9.ma"
   },
   "entrypoints": [
-    "static/css/main.b3a42051.css",
-    "static/js/main.4a8a3dd5.js"
+    "static/css/main.c3fba776.css",
+    "static/js/main.3f2d1499.js"
   ]
 }
