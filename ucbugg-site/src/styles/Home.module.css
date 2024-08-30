@@ -374,9 +374,9 @@
   overflow: hidden;
 }
 
-#pipelineDataContainer:hover {
+/* #pipelineDataContainer:hover {
   scale: 102%;
-}
+} */
 
 #pipelineInfoContainer {
   display: flex;
@@ -469,6 +469,19 @@
 
   #timelineContainer .triangle {
     display: none;
+  }
+}
+
+.backgroundImg {
+  animation: float 2s infinite alternate-reverse ease-in-out;
+}
+
+@keyframes float {
+  from {
+    transform: translateY(5px);
+  }
+  to {
+    transform: translateY(-5px);
   }
 }
 
