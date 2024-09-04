@@ -28,7 +28,7 @@
   "scripts": {
     "predeploy": "node generateLabsExport src/assets/labs src/pages all && node generateFacilitators src/assets/tatoes src/pages all && node generateSchedule.js src/assets/Syllabus && npm run build",
     "deploy": "gh-pages -d build",
-    "start": "react-scripts start",
+    "start": "node generateLabsExport src/assets/labs src/pages all && node generateFacilitators src/assets/tatoes src/pages all && node generateSchedule.js src/assets/Syllabus && react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"

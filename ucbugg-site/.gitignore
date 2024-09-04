@@ -11,6 +11,10 @@
 # production
 /build
 
+labExport.js
+labSchedule.json
+TatoeImgImports.js
+
 # misc
 .DS_Store
 .env.local

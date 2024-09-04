@@ -23,7 +23,7 @@
 - There are two distinct sections to this course, one on Monday and one on Wednesday. Students must register for one of these two sections, and then attend that section for the rest of the semester. Students will not be allowed to switch sections after registration.
 - Every class will begin with a short lecture introducing a new concept of 3D animation. Students will then work through an online tutorial which will help them learn to put this new concept into practice. After completing this tutorial, students will be encouraged to work on their projects in class with the help of facilitators.
 - In addition to class every week, there will be regular office hours held in Sutardja Dai Hall 200, where facilitators will be available to provide feedback and answer any questions students may have concerning their projects.
-- Grading is based on four components:
+- Grading is based on five components:
   - Homework submission (40%)
   - Attendance (10%)
   - Participation (5%)

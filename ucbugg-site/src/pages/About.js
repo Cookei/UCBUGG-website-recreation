@@ -76,35 +76,37 @@ const About = forwardRef((props, ref) => {
             return (
               <div key={i}>
                 <div style={{ position: "relative" }}>
-                  <img
-                    src={e.img}
-                    className={styles.staffImg}
-                    alt={"Staff:" + e.name}
-                  />
+                  <img src={e.img} alt={"Staff:" + e.name} />
                   {e.name.match(/Senior/g) ? (
                     <>
                       <h3>{e.name.match(/\S+/g).slice(0, -1).join(" ")}</h3>
                       <img
-                        src={seniorTatoeTag}
-                        className={styles.staffImg}
+                        src={headTatoeTag}
                         style={{
                           position: "absolute",
                           transform: "scale(1.3)",
                         }}
-                        alt="Fox sticker to signify head facilitator"
+                        alt="Sakura petals to signify Senior or higher facilitator"
                       />
+                      <div
+                        className={styles.seniorInfoBox}
+                        style={{
+                          height: "100%",
+                          width: "100%",
+                          position: "absolute",
+                        }}
+                      ></div>
                     </>
                   ) : (
                     <h3>{e.name}</h3>
                   )}
                   <img
-                    src={headTatoeTag}
-                    className={styles.staffImg}
+                    src={seniorTatoeTag}
                     style={{
                       position: "absolute",
                       transform: "scale(1.3)",
                     }}
-                    alt="Sakura petals to signify Senior or higher facilitator"
+                    alt="Fox sticker to signify head facilitator"
                   />
                 </div>
               </div>
@@ -116,23 +118,26 @@ const About = forwardRef((props, ref) => {
             return (
               <div key={i}>
                 <div style={{ position: "relative" }}>
-                  <img
-                    src={e.img}
-                    className={styles.staffImg}
-                    alt={"Staff:" + e.name}
-                  />
+                  <img src={e.img} alt={"Staff:" + e.name} />
                   {e.name.match(/Senior/g) ? (
                     <>
                       <h3>{e.name.match(/\S+/g).slice(0, -1).join(" ")}</h3>
                       <img
                         src={seniorTatoeTag}
-                        className={styles.staffImg}
                         style={{
                           position: "absolute",
                           transform: "scale(1.3)",
                         }}
                         alt="Sakura petals to signify Senior or higher facilitator"
                       />
+                      <div
+                        className={styles.seniorInfoBox}
+                        style={{
+                          height: "100%",
+                          width: "100%",
+                          position: "absolute",
+                        }}
+                      ></div>
                     </>
                   ) : (
                     <h3>{e.name}</h3>

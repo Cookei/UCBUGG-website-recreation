@@ -210,3 +210,23 @@
     }
   }
 }
+
+.seniorInfoBox {
+  z-index: 10;
+}
+
+.seniorInfoBox:hover::after {
+  content: "Graduating Soon!";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 50%;
+  transform: translate(60%, -40%);
+  border-radius: 10px;
+  right: 0;
+  padding: 0.5rem;
+  padding-top: 0.7rem;
+  padding-bottom: 0.7rem;
+  background-color: rgba(252, 185, 108, 0.966);
+}

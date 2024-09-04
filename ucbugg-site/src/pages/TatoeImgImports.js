@@ -1,7 +1,7 @@
 import _Olivia_Xie_Seniorjpg from '../assets/tatoes/head tatoes/Olivia Xie Senior.jpg'
 import _Rebecca_Feng_Seniorjpg from '../assets/tatoes/head tatoes/Rebecca Feng Senior.jpg'
 import _Chinyce_Cole_Henry_Seniorjpg from '../assets/tatoes/normal tatoes/Chinyce Cole-Henry Senior.jpg'
-import _Ethan_Tanjpg from '../assets/tatoes/normal tatoes/Ethan Tan.jpg'
+import _Ethan_Tamjpg from '../assets/tatoes/normal tatoes/Ethan Tam.jpg'
 import _Francis_Bascojpg from '../assets/tatoes/normal tatoes/Francis Basco.jpg'
 import _Gabriel_De_Leonjpg from '../assets/tatoes/normal tatoes/Gabriel De Leon.jpg'
 import _Han_Lijpg from '../assets/tatoes/normal tatoes/Han Li.jpg'
@@ -64,8 +64,8 @@ const data = {
 "normal_tatoes": [
 {img: _Chinyce_Cole_Henry_Seniorjpg,
  name: "Chinyce Cole-Henry Senior", folder: "../assets/tatoes/normal tatoes"},
-{img: _Ethan_Tanjpg,
- name: "Ethan Tan", folder: "../assets/tatoes/normal tatoes"},
+{img: _Ethan_Tamjpg,
+ name: "Ethan Tam", folder: "../assets/tatoes/normal tatoes"},
 {img: _Francis_Bascojpg,
  name: "Francis Basco", folder: "../assets/tatoes/normal tatoes"},
 {img: _Gabriel_De_Leonjpg,
