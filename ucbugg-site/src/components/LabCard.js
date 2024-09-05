@@ -5,7 +5,6 @@ import logo from "../assets/Syllabus/logo.png";
 
 const LabCard = forwardRef((props, ref) => {
   const { name, path, basicOrAdvanced, image } = props;
-  console.log(image);
 
   return (
     <Link ref={ref} to={`labs/${path}`} className={styles.labCard}>

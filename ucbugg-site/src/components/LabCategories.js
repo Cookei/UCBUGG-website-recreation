@@ -123,7 +123,11 @@ const LabCategories = (props) => {
         title="Effects"
         variants={LabVariants}
       />
-      <MotionLabCategory variants={LabVariants} />
+      {/* <MotionLabCategory
+        selectCallback={selectFunc}
+        title="Misc Labs"
+        variants={LabVariants}
+      /> */}
     </motion.div>
   );
 };

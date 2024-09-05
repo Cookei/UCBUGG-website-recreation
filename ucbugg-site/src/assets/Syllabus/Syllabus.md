@@ -5,7 +5,7 @@
 **Course Email:** staff@ucbugg.com  
 **Course Website:** ucbugg.com  
 **Class Days & Hours:** Monday or Friday | 7:00pm - 9:00pm  
-**Class Location:** Soda 330
+**Class Location:** Soda 330  
 **Unit Information:** CS 198-3, 3 units
 
 ## Staff
