@@ -358,9 +358,12 @@
 }
 
 #pipelineDataContainer {
+  position: relative;
   display: flex;
   width: 800px;
   padding: 2rem;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
   flex-direction: column;
   background: linear-gradient(
     to bottom,
@@ -403,7 +406,6 @@
   width: 350px;
   border-radius: 10px;
   margin-left: 1rem;
-  box-shadow: 2px 2px 5px rgb(180, 180, 180);
 }
 
 @media (max-width: 1000px) {
@@ -598,4 +600,38 @@
 
 .active {
   background-color: rgb(255, 152, 68);
+}
+
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: rgb(83, 83, 83);
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+  transform: translate(0, 50%) scaleY(2);
+  z-index: 10;
+  transition: all 0.2s;
+}
+
+.prev {
+  left: 1.2rem;
+  border-radius: 3px 0 0 3px;
+}
+
+.next {
+  right: 1.2rem;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover,
+.next:hover {
+  color: #2e2e2e;
 }

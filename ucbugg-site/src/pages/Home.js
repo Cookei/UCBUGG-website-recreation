@@ -1,4 +1,4 @@
-import React, { forwardRef, useRef, useState } from "react";
+import React, { forwardRef, useEffect, useRef, useState } from "react";
 import styles from "../styles/Home.module.css";
 import appStyles from "../styles/App.module.css";
 import mayaIconImage from "../assets/homePageIcon/maya-logo.jpg";
@@ -7,7 +7,7 @@ import creativecloudIconImage from "../assets/homePageIcon/cs-logo.jpeg";
 import substancePainterImage from "../assets/homePageIcon/adobe-substance-3d-painter-icon.png";
 import aftereffectIconImage from "../assets/homePageIcon/AELOGO.png";
 import PipelineInfoUpdate from "../components/PipelineUpdate";
-import SDHRoomImage from "../assets/homePageIcon/SDH200.jpg";
+// import SDHRoomImage from "../assets/homePageIcon/SDH200.jpg";
 import Soda330Image from "../assets/homePageIcon/Soda330Image.jpg";
 
 import ModelingImage from "../assets/homePageIcon/modelingIcon.png";
@@ -40,6 +40,21 @@ const InfoseshModel = React.lazy(() => import("../models/InfoseshModel"));
 
 const Home = (props, ref) => {
   const [pipelineState, setPipelineState] = useState("storyBoarding");
+  const [pipelineNum, setPipelineNum] = useState(0);
+
+  const pipelineDict = {
+    0: "storyBoarding",
+    1: "modeling",
+    2: "shading",
+    3: "rigging",
+    4: "animating",
+    5: "compositing",
+  };
+
+  useEffect(() => {
+    setPipelineNum(((pipelineNum % 6) + 6) % 6);
+    setPipelineState(pipelineDict[pipelineNum]);
+  }, [pipelineNum]);
 
   const size = useWindowSize();
 
@@ -160,7 +175,10 @@ const Home = (props, ref) => {
               <div style={{ position: "relative", marginBottom: "2rem" }}>
                 <div id={styles.pipelineButtons}>
                   <div
-                    onClick={() => setPipelineState("storyBoarding")}
+                    onClick={() => {
+                      setPipelineState("storyBoarding");
+                      setPipelineNum(0);
+                    }}
                     className={styles.pipelineButton}
                   >
                     <img
@@ -175,7 +193,10 @@ const Home = (props, ref) => {
                     <h3>Storyboarding</h3>
                   </div>
                   <div
-                    onClick={() => setPipelineState("modeling")}
+                    onClick={() => {
+                      setPipelineState("modeling");
+                      setPipelineNum(1);
+                    }}
                     className={styles.pipelineButton}
                   >
                     <img
@@ -190,7 +211,10 @@ const Home = (props, ref) => {
                     <h3>Modeling</h3>
                   </div>
                   <div
-                    onClick={() => setPipelineState("shading")}
+                    onClick={() => {
+                      setPipelineState("shading");
+                      setPipelineNum(2);
+                    }}
                     className={styles.pipelineButton}
                   >
                     <img
@@ -205,7 +229,10 @@ const Home = (props, ref) => {
                     <h3>Shading</h3>
                   </div>
                   <div
-                    onClick={() => setPipelineState("rigging")}
+                    onClick={() => {
+                      setPipelineState("rigging");
+                      setPipelineNum(3);
+                    }}
                     className={styles.pipelineButton}
                   >
                     <img
@@ -220,7 +247,10 @@ const Home = (props, ref) => {
                     <h3>Rigging</h3>
                   </div>
                   <div
-                    onClick={() => setPipelineState("animating")}
+                    onClick={() => {
+                      setPipelineState("animating");
+                      setPipelineNum(4);
+                    }}
                     className={styles.pipelineButton}
                   >
                     <img
@@ -235,7 +265,10 @@ const Home = (props, ref) => {
                     <h3>Animating</h3>
                   </div>
                   <div
-                    onClick={() => setPipelineState("compositing")}
+                    onClick={() => {
+                      setPipelineState("compositing");
+                      setPipelineNum(5);
+                    }}
                     className={styles.pipelineButton}
                   >
                     <img
@@ -255,7 +288,25 @@ const Home = (props, ref) => {
                   <div className={styles.triangle} />
                 </div>
               </div>
-              <PipelineInfoUpdate pipelineState={pipelineState} />
+              <div style={{ position: "relative" }}>
+                <PipelineInfoUpdate pipelineState={pipelineState} />
+                <a
+                  className={styles.prev}
+                  onClick={() => {
+                    setPipelineNum(pipelineNum - 1);
+                  }}
+                >
+                  &#10094;
+                </a>
+                <a
+                  className={styles.next}
+                  onClick={() => {
+                    setPipelineNum(pipelineNum + 1);
+                  }}
+                >
+                  &#10095;
+                </a>
+              </div>
             </div>
           </div>
           <div style={{ flexGrow: 1 }} />
