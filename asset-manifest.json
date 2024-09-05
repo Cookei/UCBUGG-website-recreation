@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.49ac4732.css",
-    "main.js": "/static/js/main.2d995275.js",
+    "main.css": "/static/css/main.4a129709.css",
+    "main.js": "/static/js/main.f22a9c9b.js",
     "static/js/526.a1046954.chunk.js": "/static/js/526.a1046954.chunk.js",
     "static/js/811.294da54e.chunk.js": "/static/js/811.294da54e.chunk.js",
     "static/js/206.24d8eb7c.chunk.js": "/static/js/206.24d8eb7c.chunk.js",
@@ -32,7 +32,6 @@
     "static/media/spline.mp4": "/static/media/spline.b29a64ee5e03596827ee.mp4",
     "static/media/heel_roll.gif": "/static/media/heel_roll.9bc61b924dc3eeb9430d.gif",
     "static/media/Khylie Aviles.jpg": "/static/media/Khylie Aviles.f823a272e2eaf8916757.jpg",
-    "static/media/SDH200.jpg": "/static/media/SDH200.380731f44c30f5e285bb.jpg",
     "static/media/Hoang Ton.jpg": "/static/media/Hoang Ton.97fccbd408b9ab1e72c9.jpg",
     "static/media/h2o.gif": "/static/media/h2o.5ecb2ef7c9c968c3c1b6.gif",
     "static/media/Christine Co.jpg": "/static/media/Christine Co.bafbe96f8582e5c1b1fa.jpg",
@@ -119,7 +118,6 @@
     "static/media/copy_pating_link1_to_link2.gif": "/static/media/copy_pating_link1_to_link2.4ced65cbf507d7024e0a.gif",
     "static/media/step12.gif": "/static/media/step12.4c42cbe138dead058039.gif",
     "static/media/body9.png": "/static/media/body9.e7935d232315ce266d06.png",
-    "static/media/Gabriel De Leon.jpg": "/static/media/Gabriel De Leon.d58c7e2f0d1fb5536beb.jpg",
     "static/media/body1.png": "/static/media/body1.8d2d9906d7dd24af02ca.png",
     "static/media/l13.png": "/static/media/l13.b0111c144215eadbe943.png",
     "static/media/pastcharacters.png": "/static/media/pastcharacters.b056af65ca0ae2dfe2c4.png",
@@ -601,7 +599,6 @@
     "static/media/pm12.5.png": "/static/media/pm12.5.17a4b74dd7c3115cae49.png",
     "static/media/20_closedLoop.png": "/static/media/20_closedLoop.2c7a5b46b4782e438417.png",
     "static/media/25_final.png": "/static/media/25_final.7e6de197575fd63a60c5.png",
-    "static/media/Han Li.jpg": "/static/media/Han Li.01f184323333d5990aea.jpg",
     "static/media/Capture104.png": "/static/media/Capture104.f58c98e3708d646d6724.png",
     "static/media/retopology.png": "/static/media/retopology.a7a8dc55a003125a031f.png",
     "static/media/Light Panel.png": "/static/media/Light Panel.67a7841d410536b43932.png",
@@ -632,6 +629,7 @@
     "static/media/image28.png": "/static/media/image28.49486a957a958c3ff416.png",
     "static/media/wrinkle_top.png": "/static/media/wrinkle_top.870df73f7173af2d0f42.png",
     "static/media/2.front_half.png": "/static/media/2.front_half.cdd3a4ad38c28169f689.png",
+    "static/media/Gabriel De Leon.jpg": "/static/media/Gabriel De Leon.3c00670992a88435c71f.jpg",
     "static/media/fingerboard_outline.png": "/static/media/fingerboard_outline.3629069744417791456d.png",
     "static/media/Capture23.png": "/static/media/Capture23.396c509a0189bb875c9f.png",
     "static/media/Capture74.png": "/static/media/Capture74.408831ba478154a531de.png",
@@ -1395,6 +1393,7 @@
     "static/media/mouth8.jpg": "/static/media/mouth8.6b26df7c972b8b4a32eb.jpg",
     "static/media/cloth4.png": "/static/media/cloth4.0ba6a37a375580471abe.png",
     "static/media/stitching.jpg": "/static/media/stitching.d9649add5958f97fc827.jpg",
+    "static/media/Han Li.jpg": "/static/media/Han Li.c6de3e313016faaf1d1b.jpg",
     "static/media/final.jpg": "/static/media/final.e3c56d9d7dd107fa7a65.jpg",
     "static/media/mouth5.jpg": "/static/media/mouth5.acd56f3c14088fc74434.jpg",
     "static/media/l7.png": "/static/media/l7.9dd77119090dcd52a4ab.png",
@@ -1467,7 +1466,7 @@
     "static/media/xgen.md": "/static/media/xgen.b65957394c590d5edbc2.md",
     "static/media/cloth.md": "/static/media/cloth.8b9f8004ec56f327b6f5.md",
     "static/media/fluids.md": "/static/media/fluids.8d349e8951c6309c6435.md",
-    "static/media/Syllabus.md": "/static/media/Syllabus.ff054b241da02976abc0.md",
+    "static/media/Syllabus.md": "/static/media/Syllabus.e309de19dea0b185fa0b.md",
     "static/media/playblasts.md": "/static/media/playblasts.3ca2d5a786516a2dd26d.md",
     "static/media/animation 2.md": "/static/media/animation 2.05e30cf53528160b10dc.md",
     "static/media/stupidbottombannerhillsblahugh.svg": "/static/media/stupidbottombannerhillsblahugh.b144eddf435eaa50ce6a400ff25a81c7.svg",
@@ -1482,7 +1481,7 @@
     "static/media/download_this.ma": "/static/media/download_this.cae342c80f739080fae9.ma"
   },
   "entrypoints": [
-    "static/css/main.49ac4732.css",
-    "static/js/main.2d995275.js"
+    "static/css/main.4a129709.css",
+    "static/js/main.f22a9c9b.js"
   ]
 }
