@@ -362,8 +362,8 @@
   display: flex;
   width: 800px;
   padding: 2rem;
-  margin-left: 1.5rem;
-  margin-right: 1.5rem;
+  padding-left: 45px;
+  padding-right: 45px;
   flex-direction: column;
   background: linear-gradient(
     to bottom,
@@ -622,12 +622,12 @@
 }
 
 .prev {
-  left: 1.2rem;
+  left: 0;
   border-radius: 3px 0 0 3px;
 }
 
 .next {
-  right: 1.2rem;
+  right: 0;
   border-radius: 3px 0 0 3px;
 }
 

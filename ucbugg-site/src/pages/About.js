@@ -28,7 +28,10 @@ const About = forwardRef((props, ref) => {
         <div id={styles.historyBlurb}>
           <h1>A Brief History of UCBUGG</h1>
           <div>
-            <div style={{ display: "flex", flexDirection: "column" }}>
+            <div
+              style={{ display: "flex", flexDirection: "column" }}
+              id={styles.historyContent}
+            >
               <p>
                 The University of California, Berkeley Undergraduate Graphics
                 Group was first started in Fall of 2001 through a growing

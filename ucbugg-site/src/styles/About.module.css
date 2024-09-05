@@ -56,12 +56,6 @@
   }
 
   @media (max-width: 1000px) {
-    img {
-      max-width: 300px;
-    }
-  }
-
-  @media (max-width: 800px) {
     align-items: center;
 
     > div {
@@ -229,4 +223,8 @@
   padding-top: 0.7rem;
   padding-bottom: 0.7rem;
   background-color: rgba(252, 185, 108, 0.966);
+}
+
+#historyContent p {
+  font-size: 1.3rem;
 }

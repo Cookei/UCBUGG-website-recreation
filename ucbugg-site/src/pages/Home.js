@@ -288,7 +288,7 @@ const Home = (props, ref) => {
                   <div className={styles.triangle} />
                 </div>
               </div>
-              <div style={{ position: "relative" }}>
+              <div style={{ position: "relative", display: "flex" }}>
                 <PipelineInfoUpdate pipelineState={pipelineState} />
                 <a
                   className={styles.prev}
