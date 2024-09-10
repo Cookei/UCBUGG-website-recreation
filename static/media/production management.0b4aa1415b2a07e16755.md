@@ -39,14 +39,14 @@ _For Mac_
 1.  To start, open a new window in Finder. Navigate to your Documents folder by clicking Documents in the panel on the left.
 2.  In here, create a new folder, and name it ucbugg*spring_2023 \_insert your semester and year in this format*. Make sure not to leave any spaces in your file path! Maya will get mad at you if there are any spaces in your file path, and we need to keep Maya happy, kind of like an aging parent.
 3.  Then, inside ucbugg_spring_2023, create a new folder and name it ‘homework’. Create a second folder called ‘group’ that we’re going to use later. This is how you’ll keep your personal lab work separate from your group project work. You can organize the folders by right-clicking, then choosing “Clean Up By -> Name”.
-    pm1.![](5.png)
+    ![](pm1.5.png)
 
 4.  Open up Maya 2022 and create a new file. You are going to use this file to create your project directory, so this can just be an empty file.
 5.  In your new Maya file, navigate to File > Project Window.
-    pm2.![](5.png)
+    ![](pm2.5.png)
 
 6.  This will open up your Project Window. This generates your project directory, which is how Maya keeps track of all the data (including textures, simulations, referenced files, and more) needed for work in Maya.
-    pm3.![](5.png)
+    ![](pm3.5.png)
 
 7.  Setting up your Project Window.
 

@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.b4bf52f5.css",
-    "main.js": "/static/js/main.d986eb63.js",
+    "main.js": "/static/js/main.4cf2c6ef.js",
     "static/js/526.a1046954.chunk.js": "/static/js/526.a1046954.chunk.js",
     "static/js/811.294da54e.chunk.js": "/static/js/811.294da54e.chunk.js",
     "static/js/206.24d8eb7c.chunk.js": "/static/js/206.24d8eb7c.chunk.js",
@@ -1412,7 +1412,7 @@
     "static/media/rightFootForwardBlock.png": "/static/media/rightFootForwardBlock.a28d8c42c797163f4b86.png",
     "static/media/character animation.md": "/static/media/character animation.9520ea648effca8017da.md",
     "static/media/peel_off.png": "/static/media/peel_off.2ae587f825376c47a72d.png",
-    "static/media/production management.md": "/static/media/production management.3a2397aac8e59cf535de.md",
+    "static/media/production management.md": "/static/media/production management.0b4aa1415b2a07e16755.md",
     "static/media/Bifrost7.png": "/static/media/Bifrost7.f6ddd3aecf0eb9d70f18.png",
     "static/media/ty_curve.png": "/static/media/ty_curve.b391728a08ac17913344.png",
     "static/media/4 - delete top and bottom faces.png": "/static/media/4 - delete top and bottom faces.35767454ce0214fcdded.png",
@@ -1482,6 +1482,6 @@
   },
   "entrypoints": [
     "static/css/main.b4bf52f5.css",
-    "static/js/main.d986eb63.js"
+    "static/js/main.4cf2c6ef.js"
   ]
 }
