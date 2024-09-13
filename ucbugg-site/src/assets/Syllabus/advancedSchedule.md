@@ -1,14 +1,14 @@
 | Date | Topics Covered | > | Assignments (Due before next class unless specified otherwise) |
 | - | - | - | - |
-| Sept 3 / 4 | Intro to Maya | Individual | Group |
+| Sep 3 / 6 | Intro to Maya | Individual | Group |
 | ^ | ^ | <ul><li>Submit enrollment form</li><li>Submit application</li><li>Join Discord</li></ul> |  |
-| Sept 9 / 13 | Art and Story | Individual | Group |
+| Sep 9 / 13 | Art and Story | Individual | Group |
 | ^ | ^ | <ul><li>Receive feedback on application story pitches</li><li>Make 15-20 storyboards to accompany final pitch</li></ul> |  |
-| Sept 16 / 20 | Story Pitches<br>Project Management<br>Group Formation | Individual | Group |
+| Sep 16 / 20 | Story Pitches<br>Project Management<br>Group Formation | Individual | Group |
 | ^ | ^ |  | <ul><li>Revise storyboards and develop animatic</li><li>Make modeling sheets for characters</li><li>Create an asset list</li><li>Set up GDrive</li></ul> |
-| Sept 23 / 27 | Basic Modeling | Individual | Group |
+| Sep 23 / 27 | Basic Modeling | Individual | Group |
 | ^ | ^ | <ul><li>Complete Hard Surface Modeling Lab</li><li>Read Node Editor Lab</li></ul> | <ul><li>Model Props</li><li>Project Set Up</li></ul> |
-| Sept 30<br>Oct 4 | Advanced Modeling | Individual | Group |
+| Sep 30<br>Oct 4 | Advanced Modeling | Individual | Group |
 | ^ | ^ | <ul><li>Complete Organic Modeling Lab</li></ul> | <ul><li>Model all characters and environment</li></ul> |
 | Oct 7 / 11 | Shading | Individual | Group |
 | ^ | ^ | <ul><li>Complete Hypershade Lab</li></ul> | <ul><li>UV Map, texture, and shade all models</li><li>Submit preview render</li></ul> |

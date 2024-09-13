@@ -1,7 +1,7 @@
 [
   {
     "year": 2024,
-    "date": ["Sept 3", "Sept 6"],
+    "date": ["Sep 3", "Sep 6"],
     "topics": ["Intro to Maya"],
     "assignments": {
       "basic": {
@@ -27,7 +27,7 @@
   },
   {
     "year": 2024,
-    "date": ["Sept 9", "Sept 13"],
+    "date": ["Sep 9", "Sep 13"],
     "topics": ["Art and Story"],
     "assignments": {
       "basic": {
@@ -36,7 +36,7 @@
           "Make 15-20 storyboards to accompany pitch"
         ],
         "group": [],
-        "labsAssigned": ["Pre-Production"]
+        "labsAssigned": ["Pre Production"]
       },
       "advanced": {
         "individual": [
@@ -44,13 +44,13 @@
           "Make 15-20 storyboards to accompany final pitch"
         ],
         "group": [],
-        "labsAssigned": ["Pre-Production"]
+        "labsAssigned": ["Pre Production"]
       }
     }
   },
   {
     "year": 2024,
-    "date": ["Sept 16", "Sept 20"],
+    "date": ["Sep 16", "Sep 20"],
     "topics": ["Story Pitches", "Project Management", "Group Formation"],
     "assignments": {
       "basic": {
@@ -77,7 +77,7 @@
   },
   {
     "year": 2024,
-    "date": ["Sept 23", "Sept 27"],
+    "date": ["Sep 23", "Sep 27"],
     "topics": ["Basic Modeling"],
     "assignments": {
       "basic": {
@@ -97,7 +97,7 @@
   },
   {
     "year": 2024,
-    "date": ["Sept 30", "Oct 4"],
+    "date": ["Sep 30", "Oct 4"],
     "topics": ["Advanced Modeling"],
     "assignments": {
       "basic": {

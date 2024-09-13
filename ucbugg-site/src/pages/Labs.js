@@ -42,6 +42,7 @@ const Labs = (props) => {
   const MotionLabCard = motion(LabCard);
   const [date, setDate] = useState(new Date());
 
+  //Highlighting labs based on due dates
   const imlosingmymind = (name) => {
     let basicOrAdvanced = null;
 
