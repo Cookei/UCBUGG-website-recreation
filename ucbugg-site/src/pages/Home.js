@@ -60,11 +60,11 @@ const Home = (props, ref) => {
 
   return (
     <>
-      <div id={styles.adBanner}>
+      {/* <div id={styles.adBanner}>
         <a href="https://forms.gle/RshnVnW2gg4HsBLw6" target="_blank">
           <h1>UCBUGG Infosession signup click here!</h1>
         </a>
-      </div>
+      </div> */}
       <section id={styles.splashSection}>
         {size.width > 600 ? (
           <View index={1} className={appStyles.view}>
@@ -80,7 +80,7 @@ const Home = (props, ref) => {
             <Environment files={hdr} />
             <HelperGrid />
             <SplashModel />
-            <InfoseshModel />
+            {/* <InfoseshModel /> */}
           </View>
         ) : null}
         <div id={styles.splashTitle}>
