@@ -130,7 +130,7 @@ Let’s learn how to UV map and create our own textures in the next section!
 
 Download and open this file:
 (You may need to right click, hit "Save link as ...". If it takes you to a new page filled with text just right click on that page and "Save as". If the file downloaded ends in ".ma.txt" or anything other than ".ma" rename it to have just ".ma" and ignore the warning)
-FILE: pencil.ma
+[pencil.ma](pencil.ma)
 
 You should see a pencil mesh sitting on top of a plane. The pencil has a PxrSurface shader already applied to it, called pencil_PxrSurface. Go ahead and add any quick lighting to the scene using the Preset browser.
 Let’s go into the UV mapping layout, to see the UV editor. On the top right, click the Workspace dropdown and choose “UV Editing”.
