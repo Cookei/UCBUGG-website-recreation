@@ -85,6 +85,7 @@ const CustomMarkdownComponent = (props) => {
               /(?<=\/)[^\/]+(?=\..+\.(zip|ma|mb|iff|exr|py))/g
             ) != null
           ) {
+            let extension = props.href.match(/.(zip|ma|mb|iff|exr|py)$/g);
             return (
               <a
                 href={props.href}
@@ -92,7 +93,7 @@ const CustomMarkdownComponent = (props) => {
                 download={
                   props.href.match(
                     /(?<=\/)[^\/]+(?=\..+\.(zip|ma|mb|iff|exr|py))/g
-                  )[0]
+                  )[0] + extension[0]
                 }
               >
                 <img src={downloadSVG} />

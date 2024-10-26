@@ -23,7 +23,6 @@ const LabMarkdown = (props) => {
           .join("_");
       } else if (i != splitPath.length - 1) {
         val = val.charAt(0).toUpperCase() + val.slice(1);
-        console.log(val);
       }
       obj = obj[val];
     }
