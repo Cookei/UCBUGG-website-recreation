@@ -15,7 +15,7 @@ const About = forwardRef((props, ref) => {
           <iframe
             width="560"
             height="315"
-            src="https://www.youtube.com/embed/csZw414K3RE?si=elSgIJb8aQg47bAK"
+            src="https://www.youtube.com/embed/csZw414K3RE"
             title="YouTube video player"
             frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"

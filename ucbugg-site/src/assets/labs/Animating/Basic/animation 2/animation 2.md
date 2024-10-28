@@ -73,7 +73,7 @@ Now let's repeat the process for the last link. In other words
 
 This is what my final version looks like.
 
-![](pendulum.mp4)
+![](https://www.youtube.com/embed/FPqe6mDLd08)
 
 # HOMEWORK
 
@@ -85,4 +85,4 @@ Your job is to animate the chain below it. I'd approach this assignment by anima
 
 If you're unsure about how a pendulum would move, I'd suggest checking out this video.
 
-![](reference.mp4)
+![](https://www.youtube.com/embed/mKX-MOqmm4E)

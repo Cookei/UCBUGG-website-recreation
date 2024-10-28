@@ -14,6 +14,11 @@
   margin-top: 2rem;
 }
 
+.markdown .center {
+  display: flex;
+  justify-content: center;
+}
+
 .markdown table {
   border-spacing: 0;
   border-collapse: collapse;

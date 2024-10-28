@@ -50,19 +50,20 @@ const CustomMarkdownComponent = (props) => {
       components={{
         img(props) {
           if (!props.src) return <img />;
-          if (
-            (props.src.endsWith(".mov") || props.src.endsWith(".mp4")) &&
-            props.src.match(/(?<=\/)[^\/]+(?=\..+\.(mov|mp4))/g)
-          ) {
+          if (props.src.startsWith("https://www.youtube.com")) {
             return (
-              <video
-                controls
-                className={markdownStyles.videoPlayer}
-                width="560"
-                height="315"
-              >
-                <source src={props.src} />
-              </video>
+              <div className={markdownStyles.center}>
+                <iframe
+                  width="560"
+                  height="315"
+                  src={props.src}
+                  title="YouTube video player"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  referrerpolicy="strict-origin-when-cross-origin"
+                  allowfullscreen
+                ></iframe>
+              </div>
             );
           } else if (props.src) {
             return <img src={props.src} />;
