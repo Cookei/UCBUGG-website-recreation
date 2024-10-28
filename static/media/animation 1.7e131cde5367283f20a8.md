@@ -207,7 +207,7 @@ The second part of your homework is to animate a ball falling from a height. You
 In case that isn't clear, here's what I submitted when I had this homework assignment. You only have to do one ball, but it can be any type of ball.  
 If you're feeling overwhelmed, your ball doesn't have to move horizontally. However, it would be pretty hard to drop a ball and have it only move vertically.
 
-![](sample.mp4)
+![](https://www.youtube.com/embed/ZgEWka3CCMg)
 
 left to right: bowling ball, basketball, ping pong ball, beach ball
 
