@@ -180,7 +180,7 @@
       "basic": {
         "individual": ["Complete Basic Animation Lab"],
         "group": ["Start blocking animation"],
-        "labsAssigned": ["Animation 1"]
+        "labsAssigned": ["Animation 1", "Playblasts"]
       },
       "advanced": {
         "individual": ["Complete Charactor Animation lab up to 'hip rotate y'"],
@@ -192,23 +192,6 @@
   {
     "year": 2024,
     "date": ["Nov 4", "Nov 8"],
-    "topics": ["Visual Effects and Lighting"],
-    "assignments": {
-      "basic": {
-        "individual": ["Complete Lighting 1 Lab"],
-        "group": ["Continue refining animation", "Submit playblasts"],
-        "labsAssigned": ["Lighting 1"]
-      },
-      "advanced": {
-        "individual": ["Complete Lighting 2 Lab"],
-        "group": ["Continue refining animation", "Submit playblasts"],
-        "labsAssigned": ["Lighting 2"]
-      }
-    }
-  },
-  {
-    "year": 2024,
-    "date": ["Nov 13"],
     "topics": ["Advanced Animation"],
     "assignments": {
       "basic": {
@@ -220,6 +203,23 @@
         "individual": ["Complete rest of Character Animation Lab"],
         "group": ["Submit refined playblasts"],
         "labsAssigned": ["Character Animation"]
+      }
+    }
+  },
+  {
+    "year": 2024,
+    "date": ["Nov 13"],
+    "topics": ["Visual Effects and Lighting"],
+    "assignments": {
+      "basic": {
+        "individual": ["Complete Lighting 1 Lab"],
+        "group": ["Continue refining animation", "Submit playblasts"],
+        "labsAssigned": ["Lighting 1"]
+      },
+      "advanced": {
+        "individual": ["Complete Lighting 2 Lab"],
+        "group": ["Continue refining animation", "Submit playblasts"],
+        "labsAssigned": ["Lighting 2"]
       }
     }
   },

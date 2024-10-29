@@ -18,10 +18,10 @@
 | ^ | ^ | <ul><li>Complete Rigging 2 Lab</li></ul> | <ul><li>Add controllers to rigs</li><li>Skin characters</li></ul> |
 | Oct 28<br>Nov 1 | Basic Animation | Individual | Group |
 | ^ | ^ | <ul><li>Complete Basic Animation Lab</li></ul> | <ul><li>Start blocking animation</li></ul> |
-| Nov 4 / 8 | Visual Effects and Lighting | Individual | Group |
-| ^ | ^ | <ul><li>Complete Lighting 1 Lab</li></ul> | <ul><li>Continue refining animation</li><li>Submit playblasts</li></ul> |
-| Nov 13 | Advanced Animation | Individual | Group |
+| Nov 4 / 8 | Advanced Animation | Individual | Group |
 | ^ | ^ | <ul><li>Complete Animation 2 Lab</li></ul> | <ul><li>Submit refined playblasts</li></ul> |
+| Nov 13 | Visual Effects and Lighting | Individual | Group |
+| ^ | ^ | <ul><li>Complete Lighting 1 Lab</li></ul> | <ul><li>Continue refining animation</li><li>Submit playblasts</li></ul> |
 | Nov 18 / 22 | Rendering and Compositing | Individual | Group |
 | ^ | ^ | <ul><li>Complete a Post Production Lab</li><li>Complete VFX Lab (Extra Credit)</li></ul> | <ul><li>Create lighting rigs</li><li>Submit lighting preview render</li></ul> |
 | Nov 29 | Speaker Event | Individual | Group |
