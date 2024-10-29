@@ -61,6 +61,7 @@ import _8src_assets_labs_Animating_Basic_animation_1png from '../assets/labs/Ani
 import _9src_assets_labs_Animating_Basic_animation_1png from '../assets/labs/Animating/Basic/animation 1/9.png'
 import _animation_1src_assets_labs_Animating_Basic_animation_1md from '../assets/labs/Animating/Basic/animation 1/animation 1.md'
 import _Animationsrc_assets_labs_Animating_Basic_animation_1gif from '../assets/labs/Animating/Basic/animation 1/Animation.gif'
+import _animation_preferencessrc_assets_labs_Animating_Basic_animation_1jpg from '../assets/labs/Animating/Basic/animation 1/animation_preferences.jpg'
 import _ask1src_assets_labs_Animating_Basic_animation_1png from '../assets/labs/Animating/Basic/animation 1/ask1.png'
 import _ask2src_assets_labs_Animating_Basic_animation_1png from '../assets/labs/Animating/Basic/animation 1/ask2.png'
 import _ball_rigsrc_assets_labs_Animating_Basic_animation_1png from '../assets/labs/Animating/Basic/animation 1/ball_rig.png'
@@ -1593,6 +1594,7 @@ const data = {
           "8.png": _8src_assets_labs_Animating_Basic_animation_1png,
           "9.png": _9src_assets_labs_Animating_Basic_animation_1png,
           "Animation.gif": _Animationsrc_assets_labs_Animating_Basic_animation_1gif,
+          "animation_preferences.jpg": _animation_preferencessrc_assets_labs_Animating_Basic_animation_1jpg,
           "ask1.png": _ask1src_assets_labs_Animating_Basic_animation_1png,
           "ask2.png": _ask2src_assets_labs_Animating_Basic_animation_1png,
           "ball_rig.png": _ball_rigsrc_assets_labs_Animating_Basic_animation_1png,
