@@ -6,12 +6,15 @@ In this lab you'll get familiar with the graph editor and set up your Maya work 
 
 # SETTING UP MAYA
 
-1. Click the running guy at the bottom of Maya. This will bring up the animation preferences
+1. Click the running guy at the bottom of Maya. This will bring up the animation preferences. Alternatively, you can go to Windows -> Settings/Preferences -> Preferences -> Time Slider
    ![](running.png)
 
-2. Make sure playback speed is set to 24 frames per second (fps). This means that for every 24 frames, a second of animation occurs.
+2. Make sure playback speed is set to 24 frames per second (fps). This means that for every 24 frames, a second of animation occurs. Additionally, make sure your playback speed is set to 24 fps x 1 and NOT play every frame.
    24 fps is the animation industry standard.
-   ![](2.png)
+   ![](animation_preferences.jpg)
+
+> The reason why you don't want play every frame is because although your framerate will make renders play at 24 fps, your preview in the viewport (playback speed) won't necessarily be at 24 fps. Thus, when you're creating animations, your frames could play slower or faster than what they'll actually be playing at in your render, making you mess up your timings.  
+> If you're working with simulations (IE: bifrost), set this to play every frame and set the Max Playback Speed to 24fps. This will make your simulation math calculations more accurate and if it slows down your frame rate because it takes a long time to calculate, it won't skip frames and thus skip calculations in order to maintain that 24fps.
 
 3. In the left categories menu, go to Animation under Settings. Under tangents, make sure you're defaulting to weighted tangents. Also make sure in and out tangents default to flat. We'll explain these settings later.
 

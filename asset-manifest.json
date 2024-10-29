@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.b7a520e6.css",
-    "main.js": "/static/js/main.2b35c416.js",
+    "main.js": "/static/js/main.540def3c.js",
     "static/js/526.a1046954.chunk.js": "/static/js/526.a1046954.chunk.js",
     "static/js/811.294da54e.chunk.js": "/static/js/811.294da54e.chunk.js",
     "static/js/206.24d8eb7c.chunk.js": "/static/js/206.24d8eb7c.chunk.js",
@@ -660,6 +660,7 @@
     "static/media/body39.png": "/static/media/body39.481be2a47acedb3819e9.png",
     "static/media/pxrsurface_attribute_editor.jpg": "/static/media/pxrsurface_attribute_editor.4f9a38782790763fbb01.jpg",
     "static/media/basic_toon_shading_5.png": "/static/media/basic_toon_shading_5.c0b72273abf95e260a4c.png",
+    "static/media/animation_preferences.jpg": "/static/media/animation_preferences.403a8d5c74955dc56bf0.jpg",
     "static/media/Capture14.png": "/static/media/Capture14.42915485d146722581b5.png",
     "static/media/Capture69.png": "/static/media/Capture69.a72e9d0e7c31da80498b.png",
     "static/media/HairSelectInverse.png": "/static/media/HairSelectInverse.6a47d41900d6d97c2253.png",
@@ -1385,6 +1386,7 @@
     "static/media/013.png": "/static/media/013.ec7a6e6b267c037b89f2.png",
     "static/media/Screen Shot 2016-04-09 at 4.02.20 PM.png": "/static/media/Screen Shot 2016-04-09 at 4.02.20 PM.bfc8f1d661f42fd952a4.png",
     "static/media/rightFootPassingBlock.png": "/static/media/rightFootPassingBlock.afa4e4dc250c07b0c6ff.png",
+    "static/media/animation 1.md": "/static/media/animation 1.8a804aef0a765490c0ef.md",
     "static/media/subsur.jpg": "/static/media/subsur.75e1a7323cfc4c4b971b.jpg",
     "static/media/mouth7.jpg": "/static/media/mouth7.9a7c95f3726ee65c0c4a.jpg",
     "static/media/Capture67.png": "/static/media/Capture67.c48b9799dd2ddc818bd8.png",
@@ -1399,7 +1401,6 @@
     "static/media/l7.png": "/static/media/l7.9dd77119090dcd52a4ab.png",
     "static/media/Capture11.png": "/static/media/Capture11.98d5e45697bb2f2b8520.png",
     "static/media/003.png": "/static/media/003.c67ecb38de724082721c.png",
-    "static/media/animation 1.md": "/static/media/animation 1.bda1e4d197cab62260c2.md",
     "static/media/introduction_to_maya.md": "/static/media/introduction_to_maya.2b56c41d531701629974.md",
     "static/media/creating labs - 8.jpg": "/static/media/creating labs - 8.3da418853db60c09f98f.jpg",
     "static/media/running.png": "/static/media/running.78c2db47030faef38c42.png",
@@ -1482,6 +1483,6 @@
   },
   "entrypoints": [
     "static/css/main.b7a520e6.css",
-    "static/js/main.2b35c416.js"
+    "static/js/main.540def3c.js"
   ]
 }
