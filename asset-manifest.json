@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.e5bc7fc6.css",
-    "main.js": "/static/js/main.6234c1a7.js",
+    "main.css": "/static/css/main.b7a520e6.css",
+    "main.js": "/static/js/main.2b35c416.js",
     "static/js/526.a1046954.chunk.js": "/static/js/526.a1046954.chunk.js",
     "static/js/811.294da54e.chunk.js": "/static/js/811.294da54e.chunk.js",
     "static/js/206.24d8eb7c.chunk.js": "/static/js/206.24d8eb7c.chunk.js",
@@ -973,11 +973,11 @@
     "static/media/Maya Zheng.jpeg": "/static/media/Maya Zheng.04f9796e9af71dd4a05a.jpeg",
     "static/media/matchVertices.jpg": "/static/media/matchVertices.4beeff1376cb731a526a.jpg",
     "static/media/005.png": "/static/media/005.45ecf8b7a6e583be1c08.png",
+    "static/media/example_maya_file.ma": "/static/media/example_maya_file.c576c4da856e79b63af7.ma",
     "static/media/l8.png": "/static/media/l8.fd13fd422ffb6090bb62.png",
     "static/media/Capture31.png": "/static/media/Capture31.6378f1c0ce56a10e7c85.png",
     "static/media/Screen Shot 2016-04-10 at 5.17.12 PM.png": "/static/media/Screen Shot 2016-04-10 at 5.17.12 PM.04edf753f9a646a81aa7.png",
     "static/media/ear12.jpg": "/static/media/ear12.36bc34da85ffc2fbbea7.jpg",
-    "static/media/example_maya_file.ma": "/static/media/example_maya_file.513848e14995307c5b76.ma",
     "static/media/ear13.jpg": "/static/media/ear13.c83b4fd5c5bf47966a65.jpg",
     "static/media/Screen Shot 2016-04-11 at 1.10.22 PM.png": "/static/media/Screen Shot 2016-04-11 at 1.10.22 PM.3b647e54116e417f732a.png",
     "static/media/pm7.png": "/static/media/pm7.da90e63d4ac3c367c082.png",
@@ -1399,7 +1399,7 @@
     "static/media/l7.png": "/static/media/l7.9dd77119090dcd52a4ab.png",
     "static/media/Capture11.png": "/static/media/Capture11.98d5e45697bb2f2b8520.png",
     "static/media/003.png": "/static/media/003.c67ecb38de724082721c.png",
-    "static/media/animation 1.md": "/static/media/animation 1.7e131cde5367283f20a8.md",
+    "static/media/animation 1.md": "/static/media/animation 1.bda1e4d197cab62260c2.md",
     "static/media/introduction_to_maya.md": "/static/media/introduction_to_maya.2b56c41d531701629974.md",
     "static/media/creating labs - 8.jpg": "/static/media/creating labs - 8.3da418853db60c09f98f.jpg",
     "static/media/running.png": "/static/media/running.78c2db47030faef38c42.png",
@@ -1470,8 +1470,8 @@
     "static/media/playblasts.md": "/static/media/playblasts.3ca2d5a786516a2dd26d.md",
     "static/media/animation 2.md": "/static/media/animation 2.b95b00dfdef4b3458b48.md",
     "static/media/stupidbottombannerhillsblahugh.svg": "/static/media/stupidbottombannerhillsblahugh.b144eddf435eaa50ce6a400ff25a81c7.svg",
-    "static/media/advancedSchedule.md": "/static/media/advancedSchedule.437a820ca3c62285e168.md",
-    "static/media/basicSchedule.md": "/static/media/basicSchedule.1d44e8715cfc5359b730.md",
+    "static/media/advancedSchedule.md": "/static/media/advancedSchedule.d32256d76d204194f237.md",
+    "static/media/basicSchedule.md": "/static/media/basicSchedule.367457d5e5a03c8d963e.md",
     "index.html": "/index.html",
     "static/media/discord-mark-white.svg": "/static/media/discord-mark-white.81949e05bf4c1f0292fc0bf241b394ba.svg",
     "static/media/email.svg": "/static/media/email.0333216cc88b764fa04f4acd907aedbc.svg",
@@ -1481,7 +1481,7 @@
     "static/media/download_this.ma": "/static/media/download_this.cae342c80f739080fae9.ma"
   },
   "entrypoints": [
-    "static/css/main.e5bc7fc6.css",
-    "static/js/main.6234c1a7.js"
+    "static/css/main.b7a520e6.css",
+    "static/js/main.2b35c416.js"
   ]
 }

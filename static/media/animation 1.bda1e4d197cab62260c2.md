@@ -161,7 +161,7 @@ A great test to see if you have your tangent operations down is to create a spli
 
 Here's video of me doing it:
 
-![](spline.mp4)
+![](https://www.youtube.com/embed/6BIn3OL_x0o)
 
 # HOMEWORK, PART 1 OF 2
 
