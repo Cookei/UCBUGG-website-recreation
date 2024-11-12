@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.b7a520e6.css",
-    "main.js": "/static/js/main.540def3c.js",
+    "main.css": "/static/css/main.e5bc7fc6.css",
+    "main.js": "/static/js/main.8f3e71ae.js",
     "static/js/526.a1046954.chunk.js": "/static/js/526.a1046954.chunk.js",
     "static/js/811.294da54e.chunk.js": "/static/js/811.294da54e.chunk.js",
     "static/js/206.24d8eb7c.chunk.js": "/static/js/206.24d8eb7c.chunk.js",
@@ -403,6 +403,7 @@
     "static/media/fire.ma": "/static/media/fire.17244b28a709d650ee19.ma",
     "static/media/f_hole_duplicated_curve.png": "/static/media/f_hole_duplicated_curve.12746c7319dd14abfd22.png",
     "static/media/body15.png": "/static/media/body15.22735776043885efa4ea.png",
+    "static/media/iterate_graph.jpg": "/static/media/iterate_graph.acca6ad1b0cf14bf9125.jpg",
     "static/media/intro_far.png": "/static/media/intro_far.fd9dbe94a67ba5011a31.png",
     "static/media/spacesinfilepaths.png": "/static/media/spacesinfilepaths.0b71f40451cd09288864.png",
     "static/media/7.png": "/static/media/7.5bb6bcf9c2943168eb4a.png",
@@ -559,6 +560,7 @@
     "static/media/full_half_curve.png": "/static/media/full_half_curve.383f17c0e1c9cf52b4f4.png",
     "static/media/master.png": "/static/media/master.4582cbffd29922d8339e.png",
     "static/media/skinning10.png": "/static/media/skinning10.98adad8cf63bae607308.png",
+    "static/media/displace_cloud_points_graph.jpg": "/static/media/displace_cloud_points_graph.56691347c23aeda3cfc4.jpg",
     "static/media/Capture86.png": "/static/media/Capture86.b7d39627074fbd4efb29.png",
     "static/media/Abby Cohn.jpg": "/static/media/Abby Cohn.ee8414f6b03eabdc61c3.jpg",
     "static/media/first_edge_to_fix_wrinkle.png": "/static/media/first_edge_to_fix_wrinkle.a9f351ed6661d2dcac67.png",
@@ -698,6 +700,7 @@
     "static/media/tuning_peg_starting_shape.png": "/static/media/tuning_peg_starting_shape.0a0cb7820df7fbc830a7.png",
     "static/media/matching_fingerboard_angle.png": "/static/media/matching_fingerboard_angle.1aa036002c8133c41817.png",
     "static/media/55_almostDone.png": "/static/media/55_almostDone.cc1413df6ab943b3aa04.png",
+    "static/media/main_graph.jpg": "/static/media/main_graph.e6ce09a77e74200a20a4.jpg",
     "static/media/snapping_vertex_to_fix_triangle.png": "/static/media/snapping_vertex_to_fix_triangle.07f720919e7903aedd73.png",
     "static/media/pm7.5.png": "/static/media/pm7.5.4aa4360d187df64a8a16.png",
     "static/media/Kelvin Temperature - Renderman.png": "/static/media/Kelvin Temperature - Renderman.7ebe697a3c67f0c6ed9c.png",
@@ -752,6 +755,7 @@
     "static/media/image42.png": "/static/media/image42.d8ea87cf7f157d0008f6.png",
     "static/media/sample.mp4": "/static/media/sample.daf2b104d8a92ba2ed2c.mp4",
     "static/media/original_fox.jpg": "/static/media/original_fox.cfe14a14300f3d9b4f7c.jpg",
+    "static/media/scatter_geo_graph.jpg": "/static/media/scatter_geo_graph.304ef8e46426fad033fc.jpg",
     "static/media/66_finishedQuadDraw.png": "/static/media/66_finishedQuadDraw.8e85ccdb4412e14b435b.png",
     "static/media/strings_bases.png": "/static/media/strings_bases.f165cafb870493f54855.png",
     "static/media/Screen Shot 2015-11-16 at 2.16.00 PM.png": "/static/media/Screen Shot 2015-11-16 at 2.16.00 PM.fe4c00b3a56f51bc7bd0.png",
@@ -974,11 +978,11 @@
     "static/media/Maya Zheng.jpeg": "/static/media/Maya Zheng.04f9796e9af71dd4a05a.jpeg",
     "static/media/matchVertices.jpg": "/static/media/matchVertices.4beeff1376cb731a526a.jpg",
     "static/media/005.png": "/static/media/005.45ecf8b7a6e583be1c08.png",
-    "static/media/example_maya_file.ma": "/static/media/example_maya_file.c576c4da856e79b63af7.ma",
     "static/media/l8.png": "/static/media/l8.fd13fd422ffb6090bb62.png",
     "static/media/Capture31.png": "/static/media/Capture31.6378f1c0ce56a10e7c85.png",
     "static/media/Screen Shot 2016-04-10 at 5.17.12 PM.png": "/static/media/Screen Shot 2016-04-10 at 5.17.12 PM.04edf753f9a646a81aa7.png",
     "static/media/ear12.jpg": "/static/media/ear12.36bc34da85ffc2fbbea7.jpg",
+    "static/media/example_maya_file.ma": "/static/media/example_maya_file.513848e14995307c5b76.ma",
     "static/media/ear13.jpg": "/static/media/ear13.c83b4fd5c5bf47966a65.jpg",
     "static/media/Screen Shot 2016-04-11 at 1.10.22 PM.png": "/static/media/Screen Shot 2016-04-11 at 1.10.22 PM.3b647e54116e417f732a.png",
     "static/media/pm7.png": "/static/media/pm7.da90e63d4ac3c367c082.png",
@@ -1473,6 +1477,8 @@
     "static/media/stupidbottombannerhillsblahugh.svg": "/static/media/stupidbottombannerhillsblahugh.b144eddf435eaa50ce6a400ff25a81c7.svg",
     "static/media/advancedSchedule.md": "/static/media/advancedSchedule.d32256d76d204194f237.md",
     "static/media/basicSchedule.md": "/static/media/basicSchedule.367457d5e5a03c8d963e.md",
+    "static/media/bifrost_clouds.md": "/static/media/bifrost_clouds.5c3731107cbaef9e5e57.md",
+    "static/media/descend.zip": "/static/media/descend.57c6aafac005f02e6040.zip",
     "index.html": "/index.html",
     "static/media/discord-mark-white.svg": "/static/media/discord-mark-white.81949e05bf4c1f0292fc0bf241b394ba.svg",
     "static/media/email.svg": "/static/media/email.0333216cc88b764fa04f4acd907aedbc.svg",
@@ -1482,7 +1488,7 @@
     "static/media/download_this.ma": "/static/media/download_this.cae342c80f739080fae9.ma"
   },
   "entrypoints": [
-    "static/css/main.b7a520e6.css",
-    "static/js/main.540def3c.js"
+    "static/css/main.e5bc7fc6.css",
+    "static/js/main.8f3e71ae.js"
   ]
 }
