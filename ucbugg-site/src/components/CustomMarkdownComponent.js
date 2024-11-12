@@ -74,6 +74,7 @@ const CustomMarkdownComponent = (props) => {
           if (props.href == undefined) {
             return <a>{childrenProps}</a>;
           }
+          console.log(props.href);
           if (
             props.href != undefined &&
             (props.href.endsWith(".zip") ||

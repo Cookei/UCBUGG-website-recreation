@@ -155,6 +155,13 @@ import _Capture16src_assets_labs_Effects_bifrostpng from '../assets/labs/Effects
 import _outlinersrc_assets_labs_Effects_bifrostpng from '../assets/labs/Effects/bifrost/outliner.png'
 import _poursrc_assets_labs_Effects_bifrostgif from '../assets/labs/Effects/bifrost/pour.gif'
 import _THUMBNAILsrc_assets_labs_Effects_bifrostpng from '../assets/labs/Effects/bifrost/THUMBNAIL.png'
+import _bifrost_cloudssrc_assets_labs_Effects_bifrost_cloudsmd from '../assets/labs/Effects/bifrost clouds/bifrost_clouds.md'
+import _descendsrc_assets_labs_Effects_bifrost_cloudszip from '../assets/labs/Effects/bifrost clouds/descend.zip'
+import _displace_cloud_points_graphsrc_assets_labs_Effects_bifrost_cloudsjpg from '../assets/labs/Effects/bifrost clouds/displace_cloud_points_graph.jpg'
+import _iterate_graphsrc_assets_labs_Effects_bifrost_cloudsjpg from '../assets/labs/Effects/bifrost clouds/iterate_graph.jpg'
+import _main_graphsrc_assets_labs_Effects_bifrost_cloudsjpg from '../assets/labs/Effects/bifrost clouds/main_graph.jpg'
+import _scatter_geo_graphsrc_assets_labs_Effects_bifrost_cloudsjpg from '../assets/labs/Effects/bifrost clouds/scatter_geo_graph.jpg'
+import _THUMBNAILsrc_assets_labs_Effects_bifrost_cloudsjpg from '../assets/labs/Effects/bifrost clouds/THUMBNAIL.jpg'
 import _capesrc_assets_labs_Effects_clothgif from '../assets/labs/Effects/cloth/cape.gif'
 import _clothsrc_assets_labs_Effects_clothmd from '../assets/labs/Effects/cloth/cloth.md'
 import _cloth1src_assets_labs_Effects_clothgif from '../assets/labs/Effects/cloth/cloth1.gif'
@@ -1717,6 +1724,20 @@ const data = {
         "pour.gif": _poursrc_assets_labs_Effects_bifrostgif
       },
       "thumbnail": _THUMBNAILsrc_assets_labs_Effects_bifrostpng
+    },
+    "bifrost_clouds": {
+      "markdown": [
+        _bifrost_cloudssrc_assets_labs_Effects_bifrost_cloudsmd,
+        "Effects/bifrost_clouds"
+      ],
+      "images": {
+        "descend.zip": _descendsrc_assets_labs_Effects_bifrost_cloudszip,
+        "displace_cloud_points_graph.jpg": _displace_cloud_points_graphsrc_assets_labs_Effects_bifrost_cloudsjpg,
+        "iterate_graph.jpg": _iterate_graphsrc_assets_labs_Effects_bifrost_cloudsjpg,
+        "main_graph.jpg": _main_graphsrc_assets_labs_Effects_bifrost_cloudsjpg,
+        "scatter_geo_graph.jpg": _scatter_geo_graphsrc_assets_labs_Effects_bifrost_cloudsjpg
+      },
+      "thumbnail": _THUMBNAILsrc_assets_labs_Effects_bifrost_cloudsjpg
     },
     "cloth": {
       "images": {
