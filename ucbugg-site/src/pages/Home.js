@@ -37,6 +37,9 @@ import hdr from "../assets/models/rainforest_trail_1k.hdr";
 import useWindowSize from "../components/useWindowSize";
 const SplashModel = React.lazy(() => import("../models/SplashModel"));
 const InfoseshModel = React.lazy(() => import("../models/InfoseshModel"));
+const ChristmasHatModel = React.lazy(() =>
+  import("../models/ChristmasHatModel")
+);
 
 const Home = (props, ref) => {
   const [pipelineState, setPipelineState] = useState("storyBoarding");
@@ -80,6 +83,7 @@ const Home = (props, ref) => {
             <Environment files={hdr} />
             <HelperGrid />
             <SplashModel />
+            <ChristmasHatModel />
             {/* <InfoseshModel /> */}
           </View>
         ) : null}
