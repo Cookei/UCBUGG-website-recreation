@@ -1127,12 +1127,15 @@ import _camera_resolutionsrc_assets_labs_Post_Production_rendering_arnoldjpg fro
 import _create_comp_settingssrc_assets_labs_Post_Production_rendering_arnoldjpg from '../assets/labs/Post Production/rendering arnold/create_comp_settings.jpg'
 import _file_settingssrc_assets_labs_Post_Production_rendering_arnoldjpg from '../assets/labs/Post Production/rendering arnold/file_settings.jpg'
 import _frame_rangesrc_assets_labs_Post_Production_rendering_arnoldjpg from '../assets/labs/Post Production/rendering arnold/frame_range.jpg'
+import _GPU_render_settingssrc_assets_labs_Post_Production_rendering_arnoldjpg from '../assets/labs/Post Production/rendering arnold/GPU_render_settings.jpg'
 import _import_file_locationsrc_assets_labs_Post_Production_rendering_arnoldjpg from '../assets/labs/Post Production/rendering arnold/import_file_location.jpg'
 import _import_settingssrc_assets_labs_Post_Production_rendering_arnoldjpg from '../assets/labs/Post Production/rendering arnold/import_settings.jpg'
 import _interpret_footage_locationsrc_assets_labs_Post_Production_rendering_arnoldjpg from '../assets/labs/Post Production/rendering arnold/interpret_footage_location.jpg'
-import _interpret_footage_settings1src_assets_labs_Post_Production_rendering_arnoldpng from '../assets/labs/Post Production/rendering arnold/interpret_footage_settings1.png'
+import _interpret_footage_settings1src_assets_labs_Post_Production_rendering_arnoldjpg from '../assets/labs/Post Production/rendering arnold/interpret_footage_settings1.jpg'
 import _interpret_footage_settings2src_assets_labs_Post_Production_rendering_arnoldpng from '../assets/labs/Post Production/rendering arnold/interpret_footage_settings2.png'
 import _motion_blur_settings_3src_assets_labs_Post_Production_rendering_arnoldpng from '../assets/labs/Post Production/rendering arnold/motion_blur_settings_3.png'
+import _Noice_Locationsrc_assets_labs_Post_Production_rendering_arnoldjpg from '../assets/labs/Post Production/rendering arnold/Noice_Location.jpg'
+import _Noice_Settingssrc_assets_labs_Post_Production_rendering_arnoldjpg from '../assets/labs/Post Production/rendering arnold/Noice_Settings.jpg'
 import _output_module_settingssrc_assets_labs_Post_Production_rendering_arnoldjpg from '../assets/labs/Post Production/rendering arnold/output_module_settings.jpg'
 import _project_settings_color_3src_assets_labs_Post_Production_rendering_arnoldjpg from '../assets/labs/Post Production/rendering arnold/project_settings_color_3.jpg'
 import _project_settings_color_managementsrc_assets_labs_Post_Production_rendering_arnoldpng from '../assets/labs/Post Production/rendering arnold/project_settings_color_management.png'
@@ -2823,12 +2826,15 @@ const data = {
         "create_comp_settings.jpg": _create_comp_settingssrc_assets_labs_Post_Production_rendering_arnoldjpg,
         "file_settings.jpg": _file_settingssrc_assets_labs_Post_Production_rendering_arnoldjpg,
         "frame_range.jpg": _frame_rangesrc_assets_labs_Post_Production_rendering_arnoldjpg,
+        "GPU_render_settings.jpg": _GPU_render_settingssrc_assets_labs_Post_Production_rendering_arnoldjpg,
         "import_file_location.jpg": _import_file_locationsrc_assets_labs_Post_Production_rendering_arnoldjpg,
         "import_settings.jpg": _import_settingssrc_assets_labs_Post_Production_rendering_arnoldjpg,
         "interpret_footage_location.jpg": _interpret_footage_locationsrc_assets_labs_Post_Production_rendering_arnoldjpg,
-        "interpret_footage_settings1.png": _interpret_footage_settings1src_assets_labs_Post_Production_rendering_arnoldpng,
+        "interpret_footage_settings1.jpg": _interpret_footage_settings1src_assets_labs_Post_Production_rendering_arnoldjpg,
         "interpret_footage_settings2.png": _interpret_footage_settings2src_assets_labs_Post_Production_rendering_arnoldpng,
         "motion_blur_settings_3.png": _motion_blur_settings_3src_assets_labs_Post_Production_rendering_arnoldpng,
+        "Noice_Location.jpg": _Noice_Locationsrc_assets_labs_Post_Production_rendering_arnoldjpg,
+        "Noice_Settings.jpg": _Noice_Settingssrc_assets_labs_Post_Production_rendering_arnoldjpg,
         "output_module_settings.jpg": _output_module_settingssrc_assets_labs_Post_Production_rendering_arnoldjpg,
         "project_settings_color_3.jpg": _project_settings_color_3src_assets_labs_Post_Production_rendering_arnoldjpg,
         "project_settings_color_management.png": _project_settings_color_managementsrc_assets_labs_Post_Production_rendering_arnoldpng,
