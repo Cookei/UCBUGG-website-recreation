@@ -199,7 +199,8 @@ Create a polygon cube, and match it to the cello's fingerboard. Something like t
 ![](fingerboard_outline.png)
 We are missing something essential, however: the side view. The shape of the fingerboard is correct, but we need to get it to be at the correct angle off the cello.
 Import this image into the front view of the orthographic view in maya.
-FILE: cello_side.zip
+
+[cello_side.zip](cello_side.zip)
 
 Adjust the image accordingly. Make the cello in it the same size as the cello you modeled, and it's okay if you need to stretch it beyond what's usual since we're only focusing on the angle. It is up to you how/if you want to change the proportions of the cello when you're done with it. Since we used a 2d image (hand drawn) for the cello body, the body outline is going to be really precise. However, since this is an image of an actual cello, the perspective isn't going to be "flattened" and so it's okay if there are discrepancies. We're not going for a picture-perfect cello, just a really good model.
 Match the fingerboard angle to the one in the image
@@ -222,7 +223,8 @@ If you haven't already, I'd recommend putting all of your modeled pieces in diff
 This is going to be a lot more complicated than the fingerboard and the tailpiece, so for the sake of simplicity, hide everything you've modeled so far (using those great layers you made earlier).
 Import this image and place it in the the "top" view of the orthographic views
 
-FILE: cello_bridge.zip
+[cello_bridge.zip](cello_bridge.zip)
+
 It doesn't really matter what size the image is since we're going to resize the whole model when we're done with it anyway, just keep in mind that if/when you resize it, you resize it in all dimensions so that it remains in proportion.
 We will NOT use curves to model this. Why? Because when you reach this stage, it's going to be pretty much impossible to get any semblance of a good edge flow using the multi-cut tool
 ![](fill_hole_bridge_wont_work.png)
