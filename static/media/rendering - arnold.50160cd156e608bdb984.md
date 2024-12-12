@@ -189,6 +189,10 @@ Now, you want to right click your exr sequence and create New Comp from Selectio
 
 You should have a composition that you can play!
 
+As a good rule of thumb, you should also apply the EXtractoR effect onto your exr sequence in your composition. Select your exr sequence in your composition, and then go to Effects & Presets on the right, and assign the EXtractoR effect to it.
+
+![](extractor_location.jpg)
+
 ---
 
 Here in After Effects, you can do lots of post processing touch ups if you want. For example, you can mask, apply other color correction settings, add bloom, and more! Experiment with it to see what works for you!  
