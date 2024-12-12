@@ -1125,6 +1125,7 @@ import _AE_render_settingssrc_assets_labs_Post_Production_rendering_arnoldjpg fr
 import _black_screensrc_assets_labs_Post_Production_rendering_arnoldjpg from '../assets/labs/Post Production/rendering arnold/black_screen.jpg'
 import _camera_resolutionsrc_assets_labs_Post_Production_rendering_arnoldjpg from '../assets/labs/Post Production/rendering arnold/camera_resolution.jpg'
 import _create_comp_settingssrc_assets_labs_Post_Production_rendering_arnoldjpg from '../assets/labs/Post Production/rendering arnold/create_comp_settings.jpg'
+import _extractor_locationsrc_assets_labs_Post_Production_rendering_arnoldjpg from '../assets/labs/Post Production/rendering arnold/extractor_location.jpg'
 import _file_settingssrc_assets_labs_Post_Production_rendering_arnoldjpg from '../assets/labs/Post Production/rendering arnold/file_settings.jpg'
 import _frame_rangesrc_assets_labs_Post_Production_rendering_arnoldjpg from '../assets/labs/Post Production/rendering arnold/frame_range.jpg'
 import _GPU_render_settingssrc_assets_labs_Post_Production_rendering_arnoldjpg from '../assets/labs/Post Production/rendering arnold/GPU_render_settings.jpg'
@@ -2824,6 +2825,7 @@ const data = {
         "black_screen.jpg": _black_screensrc_assets_labs_Post_Production_rendering_arnoldjpg,
         "camera_resolution.jpg": _camera_resolutionsrc_assets_labs_Post_Production_rendering_arnoldjpg,
         "create_comp_settings.jpg": _create_comp_settingssrc_assets_labs_Post_Production_rendering_arnoldjpg,
+        "extractor_location.jpg": _extractor_locationsrc_assets_labs_Post_Production_rendering_arnoldjpg,
         "file_settings.jpg": _file_settingssrc_assets_labs_Post_Production_rendering_arnoldjpg,
         "frame_range.jpg": _frame_rangesrc_assets_labs_Post_Production_rendering_arnoldjpg,
         "GPU_render_settings.jpg": _GPU_render_settingssrc_assets_labs_Post_Production_rendering_arnoldjpg,
