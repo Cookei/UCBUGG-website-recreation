@@ -25,6 +25,7 @@ import _Connie_Chenjpg from '../assets/tatoes/past tatoes/Connie Chen.jpg'
 import _Danako_Messelejpg from '../assets/tatoes/past tatoes/Danako Messele.jpg'
 import _Edward_Zammorajpg from '../assets/tatoes/past tatoes/Edward Zammora.jpg'
 import _Ethan_Buttimerjpg from '../assets/tatoes/past tatoes/Ethan Buttimer.jpg'
+import _Ethan_Tamjpg from '../assets/tatoes/past tatoes/Ethan Tam.jpg'
 import _Gina_Condottijpg from '../assets/tatoes/past tatoes/Gina Condotti.JPG'
 import _Gina_Kimjpg from '../assets/tatoes/past tatoes/Gina Kim.jpg'
 import _Gracia_Y__Barrera_Ruizjpg from '../assets/tatoes/past tatoes/Gracia Y. Barrera Ruiz.JPG'
@@ -115,6 +116,8 @@ const data = {
  name: "Edward Zammora", folder: "../assets/tatoes/past tatoes"},
 {img: _Ethan_Buttimerjpg,
  name: "Ethan Buttimer", folder: "../assets/tatoes/past tatoes"},
+{img: _Ethan_Tamjpg,
+ name: "Ethan Tam", folder: "../assets/tatoes/past tatoes"},
 {img: _Gina_Condottijpg,
  name: "Gina Condotti", folder: "../assets/tatoes/past tatoes"},
 {img: _Gina_Kimjpg,
