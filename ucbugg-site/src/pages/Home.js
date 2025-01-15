@@ -37,9 +37,9 @@ import hdr from "../assets/models/rainforest_trail_1k.hdr";
 import useWindowSize from "../components/useWindowSize";
 const SplashModel = React.lazy(() => import("../models/SplashModel"));
 const InfoseshModel = React.lazy(() => import("../models/InfoseshModel"));
-const ChristmasHatModel = React.lazy(() =>
-  import("../models/ChristmasHatModel")
-);
+// const ChristmasHatModel = React.lazy(() =>
+//   import("../models/ChristmasHatModel")
+// );
 
 const Home = (props, ref) => {
   const [pipelineState, setPipelineState] = useState("storyBoarding");
@@ -63,11 +63,11 @@ const Home = (props, ref) => {
 
   return (
     <>
-      {/* <div id={styles.adBanner}>
-        <a href="https://forms.gle/RshnVnW2gg4HsBLw6" target="_blank">
-          <h1>UCBUGG Infosession signup click here!</h1>
+      <div id={styles.adBanner}>
+        <a href="https://forms.gle/Ysnk7TyUDETQZBDi7" target="_blank">
+          <h1>UCBUGG Infosession Signup/Interest Form click here!</h1>
         </a>
-      </div> */}
+      </div>
       <section id={styles.splashSection}>
         {size.width > 600 ? (
           <View index={1} className={appStyles.view}>
@@ -83,8 +83,8 @@ const Home = (props, ref) => {
             <Environment files={hdr} />
             <HelperGrid />
             <SplashModel />
-            <ChristmasHatModel />
-            {/* <InfoseshModel /> */}
+            {/* <ChristmasHatModel /> */}
+            <InfoseshModel />
           </View>
         ) : null}
         <div id={styles.splashTitle}>
@@ -114,7 +114,7 @@ const Home = (props, ref) => {
           <h1>Who we are</h1>
           {/* prettier-ignore */}
           <p>
-            The UC Berkeley Undergraduate Graphics Group (UCBUGG) is a group of passionate students who want to introduce our fellow peers to the art of creating a 3D-animated short film. We run the UCBUGG DeCal, offering both a basic and advanced curriculum. This DeCal guides students of all skill levels through the entire production pipeline of creating an animated film, using software like Autodesk Maya, Adobe After Effects, and Pixar's Renderman. UCBUGG alumni have broke into the industry, working at places like Dreamworks, Pixar, and Sony Intestyles.activeEntertainment
+            The UC Berkeley Undergraduate Graphics Group (UCBUGG) is a group of passionate students who want to introduce our fellow peers to the art of creating a 3D-animated short film. We run the UCBUGG DeCal, offering both a basic and advanced curriculum. This DeCal guides students of all skill levels through the entire production pipeline of creating an animated film, using software like Autodesk Maya, Adobe After Effects, and Pixar's Renderman. UCBUGG alumni have broke into the industry, working at places like Dreamworks, Pixar, and Sony Entertainment
           </p>
           <div className={styles.iconImageBlock}>
             <a

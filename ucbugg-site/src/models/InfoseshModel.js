@@ -76,7 +76,7 @@ const InfoseshModel = () => {
           setHovered(false);
         }}
         onClick={() => {
-          window.open("https://forms.gle/uPkium81Ewg4w5ni7", "_blank"); // Redirect to the specified URL
+          window.open("https://forms.gle/Ysnk7TyUDETQZBDi7", "_blank"); // Redirect to the specified URL
         }}
       >
         <boxGeometry args={[2, 0.5, 0.75]} />

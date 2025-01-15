@@ -1,7 +1,7 @@
 [
   {
-    "year": 2024,
-    "date": ["Sep 3", "Sep 6"],
+    "year": 2025,
+    "date": ["Jan 27", "Jan 31"],
     "topics": ["Intro to Maya"],
     "assignments": {
       "basic": {
@@ -26,8 +26,8 @@
     }
   },
   {
-    "year": 2024,
-    "date": ["Sep 9", "Sep 13"],
+    "year": 2025,
+    "date": ["Feb 3", "Feb 7"],
     "topics": ["Art and Story"],
     "assignments": {
       "basic": {
@@ -49,8 +49,8 @@
     }
   },
   {
-    "year": 2024,
-    "date": ["Sep 16", "Sep 20"],
+    "year": 2025,
+    "date": ["Feb 10", "Feb 14"],
     "topics": ["Story Pitches", "Project Management", "Group Formation"],
     "assignments": {
       "basic": {
@@ -76,9 +76,9 @@
     }
   },
   {
-    "year": 2024,
-    "date": ["Sep 23", "Sep 27"],
-    "topics": ["Basic Modeling"],
+    "year": 2025,
+    "date": ["Feb 17", "Feb 21"],
+    "topics": ["Modeling 1"],
     "assignments": {
       "basic": {
         "individual": ["Complete Modeling 1 Lab"],
@@ -96,9 +96,9 @@
     }
   },
   {
-    "year": 2024,
-    "date": ["Sep 30", "Oct 4"],
-    "topics": ["Advanced Modeling"],
+    "year": 2025,
+    "date": ["Feb 24", "Feb 28"],
+    "topics": ["Modeling 2"],
     "assignments": {
       "basic": {
         "individual": ["Complete Modeling 2 Lab"],
@@ -113,8 +113,8 @@
     }
   },
   {
-    "year": 2024,
-    "date": ["Oct 7", "Oct 11"],
+    "year": 2025,
+    "date": ["Mar 3", "Mar 7"],
     "topics": ["Shading"],
     "assignments": {
       "basic": {
@@ -136,9 +136,9 @@
     }
   },
   {
-    "year": 2024,
-    "date": ["Oct 14", "Oct 18"],
-    "topics": ["Basic Rigging"],
+    "year": 2025,
+    "date": ["Mar 10", "Mar 14"],
+    "topics": ["Rigging 1"],
     "assignments": {
       "basic": {
         "individual": ["Complete Basic Rigging Lab"],
@@ -153,9 +153,9 @@
     }
   },
   {
-    "year": 2024,
-    "date": ["Oct 21", "Oct 25"],
-    "topics": ["Advanced Rigging"],
+    "year": 2025,
+    "date": ["Mar 17", "Mar 21"],
+    "topics": ["Rigging 2"],
     "assignments": {
       "basic": {
         "individual": ["Complete Rigging 2 Lab"],
@@ -173,9 +173,9 @@
     }
   },
   {
-    "year": 2024,
-    "date": ["Oct 28", "Nov 1"],
-    "topics": ["Basic Animation"],
+    "year": 2025,
+    "date": ["Mar 31", "Apr 4"],
+    "topics": ["Animation 1"],
     "assignments": {
       "basic": {
         "individual": ["Complete Basic Animation Lab"],
@@ -190,9 +190,9 @@
     }
   },
   {
-    "year": 2024,
-    "date": ["Nov 4", "Nov 8"],
-    "topics": ["Advanced Animation"],
+    "year": 2025,
+    "date": ["Apr 7", "Apr 11"],
+    "topics": ["Animation 2"],
     "assignments": {
       "basic": {
         "individual": ["Complete Animation 2 Lab"],
@@ -207,8 +207,8 @@
     }
   },
   {
-    "year": 2024,
-    "date": ["Nov 13"],
+    "year": 2025,
+    "date": ["Apr 14", "Apr 18"],
     "topics": ["Visual Effects and Lighting"],
     "assignments": {
       "basic": {
@@ -224,8 +224,8 @@
     }
   },
   {
-    "year": 2024,
-    "date": ["Nov 18", "Nov 22"],
+    "year": 2025,
+    "date": ["Apr 21", "Apr 25"],
     "topics": ["Rendering and Compositing"],
     "assignments": {
       "basic": {
@@ -257,9 +257,9 @@
     }
   },
   {
-    "year": 2024,
-    "date": ["Nov 29"],
-    "topics": ["Speaker Event"],
+    "year": 2025,
+    "date": ["Apr 28", "May 2"],
+    "topics": ["Last Lecture/Speaker Event"],
     "assignments": {
       "basic": {
         "individual": [],
@@ -274,9 +274,9 @@
     }
   },
   {
-    "year": 2024,
-    "date": ["Dec 2", "Dec 6"],
-    "topics": ["Final Class Critique"],
+    "year": 2025,
+    "date": ["May 5-9"],
+    "topics": ["Render week"],
     "assignments": {
       "basic": {
         "individual": [],
@@ -291,9 +291,9 @@
     }
   },
   {
-    "year": 2024,
-    "date": ["~ Dec 13 (TBD)"],
+    "year": 2025,
+    "date": ["May 9"],
     "topics": ["Final Showcase"],
-    "location": "Location: TBD"
+    "location": "Location: Soda 306 HP Auditorium"
   }
 ]
