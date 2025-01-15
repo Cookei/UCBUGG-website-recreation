@@ -1,5 +1,6 @@
 # UCBUGG website recreation
- 
+
+ ## Running the website on your local server
 To run the website locally, run from your terminal:
 <ul>
  <li>
@@ -19,4 +20,14 @@ If you get a message like "sh: react-scripts: command not found" or similar, run
 Then run
  <code>npm start</code> again
   </li>
+</ul>
+
+## To deploy the website on [www.ucbugg.com](https://www.ucbugg.com)
+<ul>
+ <li>
+  In the directory <code>.../UCBUGG-website-recreation/ucbugg-sites</code>, run <code>npm run deploy</code>
+ </li>
+ <li>
+  Changes should be reflected on the [website](https://www.ucbugg.com) ~10 minutes.
+ </li>
 </ul>
