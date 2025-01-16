@@ -1,6 +1,8 @@
 # UCBUGG website recreation
 
  ## Running the website on your local server
+ **Important**: You need to have Node installed and added to PATH  
+ 
 To run the website locally, run from your terminal:
 <ul>
  <li>
