@@ -84,7 +84,7 @@ const About = forwardRef((props, ref) => {
                     <>
                       <h3>{e.name.match(/\S+/g).slice(0, -1).join(" ")}</h3>
                       <img
-                        src={headTatoeTag}
+                        src={seniorTatoeTag}
                         style={{
                           position: "absolute",
                           transform: "scale(1.3)",
@@ -104,7 +104,7 @@ const About = forwardRef((props, ref) => {
                     <h3>{e.name}</h3>
                   )}
                   <img
-                    src={seniorTatoeTag}
+                    src={headTatoeTag}
                     style={{
                       position: "absolute",
                       transform: "scale(1.3)",
