@@ -14,7 +14,7 @@ To run the website locally, run from your terminal:
   </li>
  <li>
 If you get a message like "sh: react-scripts: command not found" or similar, run
-<code>npm install react-scripts</code> (or replace <code>react-scripts</code> with the corresponding dependency/command
+<code>npm install</code>
   </li>
  <li>
 Then run
