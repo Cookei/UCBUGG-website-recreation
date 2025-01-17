@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.430239e8.css",
-    "main.js": "/static/js/main.379f4550.js",
+    "main.js": "/static/js/main.34b42947.js",
     "static/js/526.a1046954.chunk.js": "/static/js/526.a1046954.chunk.js",
     "static/js/811.149798e1.chunk.js": "/static/js/811.149798e1.chunk.js",
     "static/js/206.24d8eb7c.chunk.js": "/static/js/206.24d8eb7c.chunk.js",
@@ -827,6 +827,7 @@
     "static/media/2.jpg": "/static/media/2.97ae2bf7aedeffc6fc3b.jpg",
     "static/media/Capture82.png": "/static/media/Capture82.a0e3e03242ca437f8e0f.png",
     "static/media/body7b.png": "/static/media/body7b.5181c30b79e6a2f8efd0.png",
+    "static/media/Joel Castro.jpg": "/static/media/Joel Castro.6ee632b5348be241fee4.jpg",
     "static/media/Capture43.png": "/static/media/Capture43.04463b5b7eae86837b18.png",
     "static/media/ear20.jpg": "/static/media/ear20.6b8d0d34c1d46769fc15.jpg",
     "static/media/saveProject.png": "/static/media/saveProject.8a5744502e4cf68df619.png",
@@ -1408,7 +1409,6 @@
     "static/media/mouth5.jpg": "/static/media/mouth5.acd56f3c14088fc74434.jpg",
     "static/media/l7.png": "/static/media/l7.9dd77119090dcd52a4ab.png",
     "static/media/Capture11.png": "/static/media/Capture11.98d5e45697bb2f2b8520.png",
-    "static/media/Joel Castro.jpg": "/static/media/Joel Castro.8d7b617f48e88a39a882.jpg",
     "static/media/003.png": "/static/media/003.c67ecb38de724082721c.png",
     "static/media/creating labs - 8.jpg": "/static/media/creating labs - 8.3da418853db60c09f98f.jpg",
     "static/media/running.png": "/static/media/running.78c2db47030faef38c42.png",
@@ -1494,6 +1494,6 @@
   },
   "entrypoints": [
     "static/css/main.430239e8.css",
-    "static/js/main.379f4550.js"
+    "static/js/main.34b42947.js"
   ]
 }
