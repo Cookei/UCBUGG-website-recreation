@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.430239e8.css",
-    "main.js": "/static/js/main.c66d5a96.js",
+    "main.js": "/static/js/main.f3274f7e.js",
     "static/js/526.a1046954.chunk.js": "/static/js/526.a1046954.chunk.js",
     "static/js/811.149798e1.chunk.js": "/static/js/811.149798e1.chunk.js",
     "static/js/206.24d8eb7c.chunk.js": "/static/js/206.24d8eb7c.chunk.js",
@@ -1481,7 +1481,7 @@
     "static/media/animation 2.md": "/static/media/animation 2.8121f710a5174f89d300.md",
     "static/media/stupidbottombannerhillsblahugh.svg": "/static/media/stupidbottombannerhillsblahugh.9482a12e22e2663cc2a965b37ccaf6a2.svg",
     "static/media/advancedSchedule.md": "/static/media/advancedSchedule.6009e5d5b63170acb5bd.md",
-    "static/media/basicSchedule.md": "/static/media/basicSchedule.24b2dec719f478bebfa5.md",
+    "static/media/basicSchedule.md": "/static/media/basicSchedule.75f65f25a99d80d1475d.md",
     "static/media/bifrost_clouds.md": "/static/media/bifrost_clouds.b658d1c163d4291bfcc0.md",
     "static/media/descend.zip": "/static/media/descend.57c6aafac005f02e6040.zip",
     "index.html": "/index.html",
@@ -1494,6 +1494,6 @@
   },
   "entrypoints": [
     "static/css/main.430239e8.css",
-    "static/js/main.c66d5a96.js"
+    "static/js/main.f3274f7e.js"
   ]
 }
