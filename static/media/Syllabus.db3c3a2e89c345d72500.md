@@ -40,7 +40,7 @@
 
 - Enrollment will be based on an application which involves the submission of an initial homework assignment along with a form containing other relevant information about the student. The details of this assignment will be discussed in the infosession. **Students must attend this infosession to be considered for enrollment**. You may find the sign up link on the home page near the beginning of the semester. The infosession usually occurs during the second week of the semester on Monday or Friday. **Spring 2025's infosession will occur Jan 27 and 31 7-9pm Soda 330.**
 - **Students must be fully enrolled both in this class and at UC Berkeley. Auditors are handled on a case-to-case basis.**
-- It is highly recommended that students have access to a personal computer that can have Autodesk Maya 2023 installed on it. However, this is not a hard requirement as card key access to the computer lab will be granted after registration as well.
+- It is highly recommended that students have access to a personal computer that can have Autodesk Maya 2024 installed on it. However, this is not a hard requirement as card key access to the computer lab will be granted after registration as well.
 
 # Grading and Absence Policy
 

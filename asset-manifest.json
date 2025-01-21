@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.430239e8.css",
-    "main.js": "/static/js/main.34b42947.js",
+    "main.js": "/static/js/main.c66d5a96.js",
     "static/js/526.a1046954.chunk.js": "/static/js/526.a1046954.chunk.js",
     "static/js/811.149798e1.chunk.js": "/static/js/811.149798e1.chunk.js",
     "static/js/206.24d8eb7c.chunk.js": "/static/js/206.24d8eb7c.chunk.js",
@@ -1476,7 +1476,7 @@
     "static/media/xgen.md": "/static/media/xgen.4bdad4db8fb0e8227236.md",
     "static/media/cloth.md": "/static/media/cloth.9c87d16e834de9264dfa.md",
     "static/media/fluids.md": "/static/media/fluids.eb45519b74c8e9e525ec.md",
-    "static/media/Syllabus.md": "/static/media/Syllabus.f3fc7906dc96f06a79c3.md",
+    "static/media/Syllabus.md": "/static/media/Syllabus.db3c3a2e89c345d72500.md",
     "static/media/playblasts.md": "/static/media/playblasts.e5cfb37bc4bc9123dd12.md",
     "static/media/animation 2.md": "/static/media/animation 2.8121f710a5174f89d300.md",
     "static/media/stupidbottombannerhillsblahugh.svg": "/static/media/stupidbottombannerhillsblahugh.9482a12e22e2663cc2a965b37ccaf6a2.svg",
@@ -1494,6 +1494,6 @@
   },
   "entrypoints": [
     "static/css/main.430239e8.css",
-    "static/js/main.34b42947.js"
+    "static/js/main.c66d5a96.js"
   ]
 }
