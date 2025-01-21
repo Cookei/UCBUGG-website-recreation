@@ -1,7 +1,7 @@
 | Date | Topics Covered | > | Assignments (Due before next class unless specified otherwise) |
 | - | - | - | - |
 | Jan 27 / 31 | Intro to Maya | Individual | Group |
-| ^ | ^ | <ul><li>Install Maya 2023</li><li>Submit enrollment form</li><li>Submit application</li><li>Join Discord</li></ul> |  |
+| ^ | ^ | <ul><li>Install Maya 2024</li><li>Submit enrollment form</li><li>Submit application</li><li>Join Discord</li></ul> |  |
 | Feb 3 / 7 | Art and Story | Individual | Group |
 | ^ | ^ | <ul><li>Prepare a story pitch</li><li>Make 15-20 storyboards to accompany pitch</li></ul> |  |
 | Feb 10 / 14 | Story Pitches<br>Project Management<br>Group Formation | Individual | Group |
