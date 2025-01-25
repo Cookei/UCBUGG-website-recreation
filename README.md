@@ -6,7 +6,7 @@
 To run the website locally, run from your terminal:
 <ul>
  <li>
-<code>git clone https://github.com/Cookei/UCBUGG-website-recreation.git</code>
+<bash>git clone https://github.com/Cookei/UCBUGG-website-recreation.git</bash>
   </li>
  <li>
 <code>cd UCBUGG-website-recreation/ucbugg-site</code>
