@@ -21,7 +21,7 @@ npm install
 
 Then run
 ```bash
- npm start</code> again
+ npm start
 ```
 
 ## To deploy the website on [www.ucbugg.com](https://www.ucbugg.com)
