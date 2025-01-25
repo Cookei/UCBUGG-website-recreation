@@ -25,14 +25,12 @@ Then run
 ```
 
 ## To deploy the website on [www.ucbugg.com](https://www.ucbugg.com)
+In the directory UCBUGG-website-recreation/ucbugg-sites, run
 ```bash
-  In the directory <code>.../UCBUGG-website-recreation/ucbugg-sites</code>, run <code>npm run build</code>
-```
-```bash
+npm run build;
 npm run deploy
 ```
-```bash
   Push your changes. Then in Github, under the gh-pages branch, create a new file in the root directory called <code>CNAME</code> which contains only <code>www.ucbugg.com</code> on the first line
-```
+
 Changes should be reflected on the [website](https://www.ucbugg.com) ~10 minutes.
 
