@@ -4,27 +4,25 @@
  **Important**: You need to have Node installed and added to PATH  
  
 To run the website locally, run from your terminal:
-<ul>
- <li>
+
 ```bash
-  git clone https://github.com/Cookei/UCBUGG-website-recreation.git
+git clone https://github.com/Cookei/UCBUGG-website-recreation.git
+
+cd UCBUGG-website-recreation/ucbugg-site
+
+npm start
+
 ```
-  </li>
- <li>
-<code>cd UCBUGG-website-recreation/ucbugg-site</code>
-  </li>
- <li>
-<code>npm start</code>
-  </li>
- <li>
 If you get a message like "sh: react-scripts: command not found" or similar, run
-<code>npm install</code>
-  </li>
- <li>
+
+```bash
+npm install
+```
+
 Then run
- <code>npm start</code> again
-  </li>
-</ul>
+```bash
+ npm start</code> again
+```
 
 ## To deploy the website on [www.ucbugg.com](https://www.ucbugg.com)
 <ul>
