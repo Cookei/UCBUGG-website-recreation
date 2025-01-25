@@ -6,11 +6,11 @@
 To run the website locally, run from your terminal:
 
 ```bash
-git clone https://github.com/Cookei/UCBUGG-website-recreation.git
+git clone https://github.com/Cookei/UCBUGG-website-recreation.git;
 
-cd UCBUGG-website-recreation/ucbugg-site
+cd UCBUGG-website-recreation/ucbugg-site;
 
-npm start
+npm start;
 
 ```
 If you get a message like "sh: react-scripts: command not found" or similar, run
@@ -25,17 +25,14 @@ Then run
 ```
 
 ## To deploy the website on [www.ucbugg.com](https://www.ucbugg.com)
-<ul>
- <li>
+```bash
   In the directory <code>.../UCBUGG-website-recreation/ucbugg-sites</code>, run <code>npm run build</code>
- </li>
- <li>
-  <code>npm run deploy</code>
- </li>
- <li>
+```
+```bash
+npm run deploy
+```
+```bash
   Push your changes. Then in Github, under the gh-pages branch, create a new file in the root directory called <code>CNAME</code> which contains only <code>www.ucbugg.com</code> on the first line
- </li>
- <li>
-  Changes should be reflected on the [website](https://www.ucbugg.com) ~10 minutes.
- </li>
-</ul>
+```
+Changes should be reflected on the [website](https://www.ucbugg.com) ~10 minutes.
+
