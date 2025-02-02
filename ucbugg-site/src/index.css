@@ -61,6 +61,7 @@ blockquote.important::before {
   padding-right: 10px;
   width: var(--navbar-offset);
   max-height: 90vh;
+  min-width: 200px;
   border-right: 2px gray solid;
   top: 35px;
   overflow-y: auto;
