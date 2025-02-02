@@ -84,7 +84,7 @@ const Home = (props, ref) => {
             <HelperGrid />
             <SplashModel />
             {/* <ChristmasHatModel /> */}
-            <InfoseshModel />
+            {/* <InfoseshModel /> */}
           </View>
         ) : null}
         <div id={styles.splashTitle}>
