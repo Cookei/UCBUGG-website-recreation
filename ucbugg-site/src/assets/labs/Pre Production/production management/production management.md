@@ -138,7 +138,7 @@ The next steps need only be completed by your group’s Project Manager, as they
 
 _All Group Members_ Make sure to set your project! You’ll be switching between two project directories, your personal directory in your ‘homework’ folder for individual lab work, and your team’s directory which you created a shortcut to access from your ‘group’ folder. Don’t forget to do this every time you open Maya!
 
-    ![](pm17.png)
+![](pm17.png)
 
 If you have any questions, please ask the course staff! We are more than happy to help you in figuring out each aspect of animation, including project management.
 
