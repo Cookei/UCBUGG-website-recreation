@@ -36,7 +36,7 @@ for (let obj of jsonFile) {
   let date = "";
 
   if (obj.location == undefined) {
-    let d = new Date(`${obj.date[1]}, ${obj.year}`);
+    let d = new Date(`${obj.date[0]}, ${obj.year}`);
     let da = firstDayOfWeek(d, 0);
     labScheduleOutputObj[da.toString()] = {
       real_date: d,

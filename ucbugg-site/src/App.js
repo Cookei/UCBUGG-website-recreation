@@ -20,7 +20,7 @@ const tempEntries = [];
 function getRoute(obj) {
   Object.entries(obj).forEach((element) => {
     let [key, value] = element;
-    if (value.markdown != undefined) {
+    if (value.markdown !== undefined) {
       tempEntries.push({
         path: value.markdown[1].toLowerCase(),
         element: value.markdown[0],

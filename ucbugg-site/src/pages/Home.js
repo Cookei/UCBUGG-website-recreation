@@ -1,4 +1,4 @@
-import React, { forwardRef, useRef, useState } from "react";
+import React, { forwardRef, useEffect, useRef, useState } from "react";
 import styles from "../styles/Home.module.css";
 import appStyles from "../styles/App.module.css";
 import mayaIconImage from "../assets/homePageIcon/maya-logo.jpg";
@@ -7,7 +7,7 @@ import creativecloudIconImage from "../assets/homePageIcon/cs-logo.jpeg";
 import substancePainterImage from "../assets/homePageIcon/adobe-substance-3d-painter-icon.png";
 import aftereffectIconImage from "../assets/homePageIcon/AELOGO.png";
 import PipelineInfoUpdate from "../components/PipelineUpdate";
-import SDHRoomImage from "../assets/homePageIcon/SDH200.jpg";
+// import SDHRoomImage from "../assets/homePageIcon/SDH200.jpg";
 import Soda330Image from "../assets/homePageIcon/Soda330Image.jpg";
 
 import ModelingImage from "../assets/homePageIcon/modelingIcon.png";
@@ -37,19 +37,37 @@ import hdr from "../assets/models/rainforest_trail_1k.hdr";
 import useWindowSize from "../components/useWindowSize";
 const SplashModel = React.lazy(() => import("../models/SplashModel"));
 const InfoseshModel = React.lazy(() => import("../models/InfoseshModel"));
+// const ChristmasHatModel = React.lazy(() =>
+//   import("../models/ChristmasHatModel")
+// );
 
 const Home = (props, ref) => {
-  const [pipelineState, setPipelineState] = useState(null);
+  const [pipelineState, setPipelineState] = useState("storyBoarding");
+  const [pipelineNum, setPipelineNum] = useState(0);
+
+  const pipelineDict = {
+    0: "storyBoarding",
+    1: "modeling",
+    2: "shading",
+    3: "rigging",
+    4: "animating",
+    5: "compositing",
+  };
+
+  useEffect(() => {
+    setPipelineNum(((pipelineNum % 6) + 6) % 6);
+    setPipelineState(pipelineDict[pipelineNum]);
+  }, [pipelineNum]);
 
   const size = useWindowSize();
 
   return (
     <>
-      <div id={styles.adBanner}>
-        <a href="https://forms.gle/RshnVnW2gg4HsBLw6" target="_blank">
-          <h1>UCBUGG Infosession signup click here!</h1>
+      {/* <div id={styles.adBanner}>
+        <a href="https://forms.gle/Ysnk7TyUDETQZBDi7" target="_blank">
+          <h1>UCBUGG Infosession Signup/Interest Form click here!</h1>
         </a>
-      </div>
+      </div> */}
       <section id={styles.splashSection}>
         {size.width > 600 ? (
           <View index={1} className={appStyles.view}>
@@ -65,7 +83,8 @@ const Home = (props, ref) => {
             <Environment files={hdr} />
             <HelperGrid />
             <SplashModel />
-            <InfoseshModel />
+            {/* <ChristmasHatModel /> */}
+            {/* <InfoseshModel /> */}
           </View>
         ) : null}
         <div id={styles.splashTitle}>
@@ -95,7 +114,7 @@ const Home = (props, ref) => {
           <h1>Who we are</h1>
           {/* prettier-ignore */}
           <p>
-            The UC Berkeley Undergraduate Graphics Group (UCBUGG) is a group of passionate students who want to introduce our fellow peers to the art of creating a 3D-animated short film. We run the UCBUGG DeCal, offering both a basic and advanced curriculum. This DeCal guides students of all skill levels through the entire production pipeline of creating an animated film, using software like Autodesk Maya, Adobe After Effects, and Pixar's Renderman. UCBUGG alumni have broke into the industry, working at places like Dreamworks, Pixar, and Sony Interactive Entertainment
+            The UC Berkeley Undergraduate Graphics Group (UCBUGG) is a group of passionate students who want to introduce our fellow peers to the art of creating a 3D-animated short film. We run the UCBUGG DeCal, offering both a basic and advanced curriculum. This DeCal guides students of all skill levels through the entire production pipeline of creating an animated film, using software like Autodesk Maya, Adobe After Effects, and Pixar's Renderman. UCBUGG alumni have broke into the industry, working at places like Dreamworks, Pixar, and Sony Entertainment
           </p>
           <div className={styles.iconImageBlock}>
             <a
@@ -158,80 +177,140 @@ const Home = (props, ref) => {
               }}
             >
               <div style={{ position: "relative", marginBottom: "2rem" }}>
-                <div id={styles.timelineContainer}>
-                  <div className={styles.horizontalLine} />
-                  <div className={styles.triangle} />
-                </div>
                 <div id={styles.pipelineButtons}>
                   <div
-                    onClick={() => setPipelineState("storyBoarding")}
+                    onClick={() => {
+                      setPipelineState("storyBoarding");
+                      setPipelineNum(0);
+                    }}
                     className={styles.pipelineButton}
                   >
                     <img
                       className={styles.timelineModelImg}
                       src={StoryboardingImage}
                     />
-                    <div className={styles.verticalLine} />
+                    <div
+                      className={`${styles.verticalLine} ${
+                        pipelineState == "storyBoarding" ? styles.active : ""
+                      }`}
+                    />
                     <h3>Storyboarding</h3>
                   </div>
                   <div
-                    onClick={() => setPipelineState("modeling")}
+                    onClick={() => {
+                      setPipelineState("modeling");
+                      setPipelineNum(1);
+                    }}
                     className={styles.pipelineButton}
                   >
                     <img
                       className={styles.timelineModelImg}
                       src={ModelingImage}
                     />
-                    <div className={styles.verticalLine} />
+                    <div
+                      className={`${styles.verticalLine} ${
+                        pipelineState == "modeling" ? styles.active : ""
+                      }`}
+                    />
                     <h3>Modeling</h3>
                   </div>
                   <div
-                    onClick={() => setPipelineState("shading")}
+                    onClick={() => {
+                      setPipelineState("shading");
+                      setPipelineNum(2);
+                    }}
                     className={styles.pipelineButton}
                   >
                     <img
                       className={styles.timelineModelImg}
                       src={ShadingImage}
                     />
-                    <div className={styles.verticalLine} />
+                    <div
+                      className={`${styles.verticalLine} ${
+                        pipelineState == "shading" ? styles.active : ""
+                      }`}
+                    />
                     <h3>Shading</h3>
                   </div>
                   <div
-                    onClick={() => setPipelineState("rigging")}
+                    onClick={() => {
+                      setPipelineState("rigging");
+                      setPipelineNum(3);
+                    }}
                     className={styles.pipelineButton}
                   >
                     <img
                       className={styles.timelineModelImg}
                       src={RiggingImage}
                     />
-                    <div className={styles.verticalLine} />
+                    <div
+                      className={`${styles.verticalLine} ${
+                        pipelineState == "rigging" ? styles.active : ""
+                      }`}
+                    />
                     <h3>Rigging</h3>
                   </div>
                   <div
-                    onClick={() => setPipelineState("animating")}
+                    onClick={() => {
+                      setPipelineState("animating");
+                      setPipelineNum(4);
+                    }}
                     className={styles.pipelineButton}
                   >
                     <img
                       className={styles.timelineModelImg}
                       src={AnimatingImage}
                     />
-                    <div className={styles.verticalLine} />
+                    <div
+                      className={`${styles.verticalLine} ${
+                        pipelineState == "animating" ? styles.active : ""
+                      }`}
+                    />
                     <h3>Animating</h3>
                   </div>
                   <div
-                    onClick={() => setPipelineState("compositing")}
+                    onClick={() => {
+                      setPipelineState("compositing");
+                      setPipelineNum(5);
+                    }}
                     className={styles.pipelineButton}
                   >
                     <img
                       className={styles.timelineModelImg}
                       src={CompositingImage}
                     />
-                    <div className={styles.verticalLine} />
+                    <div
+                      className={`${styles.verticalLine} ${
+                        pipelineState == "compositing" ? styles.active : ""
+                      }`}
+                    />
                     <h3>Compositing</h3>
                   </div>
                 </div>
+                <div id={styles.timelineContainer} style={{ zIndex: -1 }}>
+                  <div className={styles.horizontalLine} />
+                  <div className={styles.triangle} />
+                </div>
               </div>
-              <PipelineInfoUpdate pipelineState={pipelineState} />
+              <div style={{ position: "relative", display: "flex" }}>
+                <PipelineInfoUpdate pipelineState={pipelineState} />
+                <a
+                  className={styles.prev}
+                  onClick={() => {
+                    setPipelineNum(pipelineNum - 1);
+                  }}
+                >
+                  &#10094;
+                </a>
+                <a
+                  className={styles.next}
+                  onClick={() => {
+                    setPipelineNum(pipelineNum + 1);
+                  }}
+                >
+                  &#10095;
+                </a>
+              </div>
             </div>
           </div>
           <div style={{ flexGrow: 1 }} />

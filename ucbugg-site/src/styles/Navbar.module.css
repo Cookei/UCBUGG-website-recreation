@@ -45,6 +45,7 @@
   margin: 10px;
   margin-left: 15px;
   max-width: calc(100vw - 25px - 70px);
+  min-width: 0;
 }
 
 .title {

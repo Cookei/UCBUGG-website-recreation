@@ -2,6 +2,8 @@
   padding: 50px;
   background: linear-gradient(rgb(253, 248, 253), rgb(243, 240, 237));
   min-height: 100%;
+  justify-content: center;
+  display: flex;
 }
 
 h1 {

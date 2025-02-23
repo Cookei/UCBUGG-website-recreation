@@ -1,9 +1,10 @@
 import React, { forwardRef } from "react";
 import styles from "../styles/About.module.css";
-import appStyles from "../styles/App.module.css";
 import data from "./TatoeImgImports.js";
 import historyImg from "../assets/aboutPage/melchananime.png";
 import BottomBanner from "../assets/homePageIcon/stupidbottombannerhillsblahugh.svg";
+import headTatoeTag from "../assets/aboutPage/UCBUGG_Head_Tatoe_Tag.png";
+import seniorTatoeTag from "../assets/aboutPage/UCBUGG_Senior_Tag.png";
 
 const About = forwardRef((props, ref) => {
   return (
@@ -14,7 +15,7 @@ const About = forwardRef((props, ref) => {
           <iframe
             width="560"
             height="315"
-            src="https://www.youtube.com/embed/mP_huyd4_nY?si=1OcEZiMWM9WIGuJt"
+            src="https://www.youtube.com/embed/csZw414K3RE"
             title="YouTube video player"
             frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -27,7 +28,10 @@ const About = forwardRef((props, ref) => {
         <div id={styles.historyBlurb}>
           <h1>A Brief History of UCBUGG</h1>
           <div>
-            <div style={{ display: "flex", flexDirection: "column" }}>
+            <div
+              style={{ display: "flex", flexDirection: "column" }}
+              id={styles.historyContent}
+            >
               <p>
                 The University of California, Berkeley Undergraduate Graphics
                 Group was first started in Fall of 2001 through a growing
@@ -64,7 +68,7 @@ const About = forwardRef((props, ref) => {
               </p>
             </div>
 
-            <img src={historyImg} />
+            <img src={historyImg} alt="Mel-chan doing a cool pose" />
           </div>
         </div>
       </section>
@@ -74,13 +78,39 @@ const About = forwardRef((props, ref) => {
           {data.head_tatoes.map((e, i) => {
             return (
               <div key={i}>
-                <div>
-                  <img src={e.img} className={styles.staffImg} />
+                <div style={{ position: "relative" }}>
+                  <img src={e.img} alt={"Staff:" + e.name} />
                   {e.name.match(/Senior/g) ? (
-                    <h3>{e.name.match(/\S+/g).slice(0, -1).join(" ")}</h3>
+                    <>
+                      <h3>{e.name.match(/\S+/g).slice(0, -1).join(" ")}</h3>
+                      <img
+                        src={seniorTatoeTag}
+                        style={{
+                          position: "absolute",
+                          transform: "scale(1.3)",
+                        }}
+                        alt="Sakura petals to signify Senior or higher facilitator"
+                      />
+                      <div
+                        className={styles.seniorInfoBox}
+                        style={{
+                          height: "100%",
+                          width: "100%",
+                          position: "absolute",
+                        }}
+                      ></div>
+                    </>
                   ) : (
                     <h3>{e.name}</h3>
                   )}
+                  <img
+                    src={headTatoeTag}
+                    style={{
+                      position: "absolute",
+                      transform: "scale(1.3)",
+                    }}
+                    alt="Fox sticker to signify head facilitator"
+                  />
                 </div>
               </div>
             );
@@ -90,10 +120,28 @@ const About = forwardRef((props, ref) => {
           {data.normal_tatoes.map((e, i) => {
             return (
               <div key={i}>
-                <div>
-                  <img src={e.img} className={styles.staffImg} />
+                <div style={{ position: "relative" }}>
+                  <img src={e.img} alt={"Staff:" + e.name} />
                   {e.name.match(/Senior/g) ? (
-                    <h3>{e.name.match(/\S+/g).slice(0, -1).join(" ")}</h3>
+                    <>
+                      <h3>{e.name.match(/\S+/g).slice(0, -1).join(" ")}</h3>
+                      <img
+                        src={seniorTatoeTag}
+                        style={{
+                          position: "absolute",
+                          transform: "scale(1.3)",
+                        }}
+                        alt="Sakura petals to signify Senior or higher facilitator"
+                      />
+                      <div
+                        className={styles.seniorInfoBox}
+                        style={{
+                          height: "100%",
+                          width: "100%",
+                          position: "absolute",
+                        }}
+                      ></div>
+                    </>
                   ) : (
                     <h3>{e.name}</h3>
                   )}
@@ -111,7 +159,7 @@ const About = forwardRef((props, ref) => {
             return (
               <div key={i}>
                 <div>
-                  <img src={e.img} />
+                  <img src={e.img} alt={"Past Staff:" + e.name} />
                   {e.name.match(/Senior/g) ? (
                     <h3>{e.name.match(/\S+/g).slice(0, -1).join(" ")}</h3>
                   ) : (
@@ -131,6 +179,7 @@ const About = forwardRef((props, ref) => {
           left: "0",
           width: "100%",
         }}
+        alt="Cool graphic"
       />
     </div>
   );

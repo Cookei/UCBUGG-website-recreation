@@ -1,8 +1,10 @@
-import _Olivia_Xie_Seniorjpg from '../assets/tatoes/head tatoes/Olivia Xie Senior.jpg'
+import _Francis_Bascojpg from '../assets/tatoes/head tatoes/Francis Basco.jpg'
 import _Rebecca_Feng_Seniorjpg from '../assets/tatoes/head tatoes/Rebecca Feng Senior.jpg'
-import _Chinyce_Cole_Henryjpg from '../assets/tatoes/normal tatoes/Chinyce Cole-Henry.jpg'
-import _Francis_Bascojpg from '../assets/tatoes/normal tatoes/Francis Basco.jpg'
-import _Gabriel_De_Leonjpg from '../assets/tatoes/normal tatoes/Gabriel De Leon.jpg'
+import _Gabriel_De_Leon_Seniorjpg from '../assets/tatoes/normal tatoes/Gabriel De Leon Senior.jpg'
+import _Han_Lijpg from '../assets/tatoes/normal tatoes/Han Li.jpg'
+import _Joel_Castrojpg from '../assets/tatoes/normal tatoes/Joel Castro.jpg'
+import _Khylie_Avilesjpg from '../assets/tatoes/normal tatoes/Khylie Aviles.jpg'
+import _Raine_Koizumi_Seniorjpg from '../assets/tatoes/normal tatoes/Raine Koizumi Senior.jpg'
 import _Abby_Cohnjpg from '../assets/tatoes/past tatoes/Abby Cohn.jpg'
 import _Akemi_Nagashikijpg from '../assets/tatoes/past tatoes/Akemi Nagashiki.JPG'
 import _Akshata_Nagendrajpg from '../assets/tatoes/past tatoes/Akshata Nagendra.jpg'
@@ -16,12 +18,14 @@ import _Billy_Dongjpeg from '../assets/tatoes/past tatoes/Billy Dong.jpeg'
 import _Brian_Lojpg from '../assets/tatoes/past tatoes/Brian Lo.jpg'
 import _Brian_Roystonjpg from '../assets/tatoes/past tatoes/Brian Royston.jpg'
 import _Cameron_Huijpg from '../assets/tatoes/past tatoes/Cameron Hui.jpg'
+import _Chinyce_Cole_Henryjpg from '../assets/tatoes/past tatoes/Chinyce Cole-Henry.jpg'
 import _Chris_Maganapng from '../assets/tatoes/past tatoes/Chris Magana.png'
 import _Christine_Cojpg from '../assets/tatoes/past tatoes/Christine Co.jpg'
 import _Connie_Chenjpg from '../assets/tatoes/past tatoes/Connie Chen.jpg'
 import _Danako_Messelejpg from '../assets/tatoes/past tatoes/Danako Messele.jpg'
 import _Edward_Zammorajpg from '../assets/tatoes/past tatoes/Edward Zammora.jpg'
 import _Ethan_Buttimerjpg from '../assets/tatoes/past tatoes/Ethan Buttimer.jpg'
+import _Ethan_Tamjpg from '../assets/tatoes/past tatoes/Ethan Tam.jpg'
 import _Gina_Condottijpg from '../assets/tatoes/past tatoes/Gina Condotti.JPG'
 import _Gina_Kimjpg from '../assets/tatoes/past tatoes/Gina Kim.jpg'
 import _Gracia_Y__Barrera_Ruizjpg from '../assets/tatoes/past tatoes/Gracia Y. Barrera Ruiz.JPG'
@@ -39,6 +43,7 @@ import _Madi_Hightjpg from '../assets/tatoes/past tatoes/Madi Hight.jpg'
 import _Maya_Zhengjpeg from '../assets/tatoes/past tatoes/Maya Zheng.jpeg'
 import _Natalie_Kemperjpg from '../assets/tatoes/past tatoes/Natalie Kemper.jpg'
 import _Natalie_Khamphanhpng from '../assets/tatoes/past tatoes/Natalie Khamphanh.png'
+import _Olivia_Xiejpg from '../assets/tatoes/past tatoes/Olivia Xie.jpg'
 import _Rachel_Thomasjpg from '../assets/tatoes/past tatoes/Rachel Thomas.jpg'
 import _Ricky_Herrerajpg from '../assets/tatoes/past tatoes/Ricky Herrera.jpg'
 import _Ryan_Adolfjpg from '../assets/tatoes/past tatoes/Ryan Adolf.jpg'
@@ -51,19 +56,23 @@ import _Wyatt_Hollisterjpg from '../assets/tatoes/past tatoes/Wyatt Hollister.jp
 
 const data = {
 "head_tatoes": [
-{img: _Olivia_Xie_Seniorjpg,
- name: "Olivia Xie Senior", folder: "../assets/tatoes/head tatoes"},
+{img: _Francis_Bascojpg,
+ name: "Francis Basco", folder: "../assets/tatoes/head tatoes"},
 {img: _Rebecca_Feng_Seniorjpg,
  name: "Rebecca Feng Senior", folder: "../assets/tatoes/head tatoes"},
 
 ],
 "normal_tatoes": [
-{img: _Chinyce_Cole_Henryjpg,
- name: "Chinyce Cole-Henry", folder: "../assets/tatoes/normal tatoes"},
-{img: _Francis_Bascojpg,
- name: "Francis Basco", folder: "../assets/tatoes/normal tatoes"},
-{img: _Gabriel_De_Leonjpg,
- name: "Gabriel De Leon", folder: "../assets/tatoes/normal tatoes"},
+{img: _Gabriel_De_Leon_Seniorjpg,
+ name: "Gabriel De Leon Senior", folder: "../assets/tatoes/normal tatoes"},
+{img: _Han_Lijpg,
+ name: "Han Li", folder: "../assets/tatoes/normal tatoes"},
+{img: _Joel_Castrojpg,
+ name: "Joel Castro", folder: "../assets/tatoes/normal tatoes"},
+{img: _Khylie_Avilesjpg,
+ name: "Khylie Aviles", folder: "../assets/tatoes/normal tatoes"},
+{img: _Raine_Koizumi_Seniorjpg,
+ name: "Raine Koizumi Senior", folder: "../assets/tatoes/normal tatoes"},
 
 ],
 "past_tatoes": [
@@ -93,6 +102,8 @@ const data = {
  name: "Brian Royston", folder: "../assets/tatoes/past tatoes"},
 {img: _Cameron_Huijpg,
  name: "Cameron Hui", folder: "../assets/tatoes/past tatoes"},
+{img: _Chinyce_Cole_Henryjpg,
+ name: "Chinyce Cole-Henry", folder: "../assets/tatoes/past tatoes"},
 {img: _Chris_Maganapng,
  name: "Chris Magana", folder: "../assets/tatoes/past tatoes"},
 {img: _Christine_Cojpg,
@@ -105,6 +116,8 @@ const data = {
  name: "Edward Zammora", folder: "../assets/tatoes/past tatoes"},
 {img: _Ethan_Buttimerjpg,
  name: "Ethan Buttimer", folder: "../assets/tatoes/past tatoes"},
+{img: _Ethan_Tamjpg,
+ name: "Ethan Tam", folder: "../assets/tatoes/past tatoes"},
 {img: _Gina_Condottijpg,
  name: "Gina Condotti", folder: "../assets/tatoes/past tatoes"},
 {img: _Gina_Kimjpg,
@@ -139,6 +152,8 @@ const data = {
  name: "Natalie Kemper", folder: "../assets/tatoes/past tatoes"},
 {img: _Natalie_Khamphanhpng,
  name: "Natalie Khamphanh", folder: "../assets/tatoes/past tatoes"},
+{img: _Olivia_Xiejpg,
+ name: "Olivia Xie", folder: "../assets/tatoes/past tatoes"},
 {img: _Rachel_Thomasjpg,
  name: "Rachel Thomas", folder: "../assets/tatoes/past tatoes"},
 {img: _Ricky_Herrerajpg,

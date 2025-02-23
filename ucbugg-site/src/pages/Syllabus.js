@@ -39,7 +39,11 @@ const Syllabus = () => {
               ordered={false}
               className={markdownStyles.unset}
             />
-            <img src={rebeccafox} id={styles.rebeccafox} />
+            <img
+              src={rebeccafox}
+              id={styles.rebeccafox}
+              alt="Mel-chan 3d graphic"
+            />
           </div>
 
           <div id={styles.content}>
@@ -53,7 +57,7 @@ const Syllabus = () => {
                   setSelectedSection("Basic");
                 }}
                 className={
-                  selectedSection == "Basic" ? `${styles.borderBottom}` : ""
+                  selectedSection === "Basic" ? `${styles.borderBottom}` : ""
                 }
               >
                 Basic Section
@@ -63,7 +67,7 @@ const Syllabus = () => {
                   setSelectedSection("Advanced");
                 }}
                 className={
-                  selectedSection == "Advanced" ? `${styles.borderBottom}` : ""
+                  selectedSection === "Advanced" ? `${styles.borderBottom}` : ""
                 }
               >
                 Advanced Section
@@ -71,7 +75,7 @@ const Syllabus = () => {
             </div>
             <CustomMarkdownComponent
               child={
-                selectedSection == "Basic"
+                selectedSection === "Basic"
                   ? basicScheduleMarkdown
                   : advancedScheduleMarkdown
               }
@@ -86,6 +90,7 @@ const Syllabus = () => {
             left: 0,
             width: "100%",
           }}
+          alt="Cool graphic"
         />
       </section>
     </div>

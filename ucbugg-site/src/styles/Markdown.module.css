@@ -2,6 +2,7 @@
   position: relative;
   max-width: calc(100vw - var(--navbar-offset) - 150px);
   margin-left: 25px;
+  max-width: clamp(1000px, 60vw, 1300px);
 }
 
 .markdown img {
@@ -12,6 +13,11 @@
   display: block;
   margin-bottom: 2rem;
   margin-top: 2rem;
+}
+
+.markdown .center {
+  display: flex;
+  justify-content: center;
 }
 
 .markdown table {
