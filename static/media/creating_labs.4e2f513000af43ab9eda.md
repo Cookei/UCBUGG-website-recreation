@@ -236,6 +236,6 @@ Note that the only thing that is in all lowercase is the lab itself. All _non-la
 
 To push it to production. Please contact whoever is in charge of the website
 
-If you want to test your changes to an already existing lab, you can run the site by navigating inside ucbugg-site and running `npm start` (Make sure you have all the dependencies installed by running `npm install dependencyname`).
+If you want to test your changes to an already existing lab, you can run the site by navigating inside ucbugg-site and running `npm start` (Make sure you have all the dependencies installed by running `npm install`). This will install all required dependencies for the project.
 
-If you added a new lab, first run `node generateLabsExport src/assets/labs src/pages all` in the ucbugg-site directory, then run `npm start` to see your changes.
+If you added a new lab or change the file structure hierarchy, run `npm start` again to see your changes.
