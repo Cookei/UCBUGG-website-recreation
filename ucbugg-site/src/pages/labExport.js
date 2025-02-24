@@ -833,6 +833,12 @@ import _symmetrysrc_assets_labs_Modeling_Advanced_organic_modeling_humanpng from
 import _targetWeldsrc_assets_labs_Modeling_Advanced_organic_modeling_humanpng from '../assets/labs/Modeling/Advanced/organic modeling human/targetWeld.png'
 import _THUMBNAILsrc_assets_labs_Modeling_Advanced_organic_modeling_humanpng from '../assets/labs/Modeling/Advanced/organic modeling human/THUMBNAIL.png'
 import _under_constructionsrc_assets_labs_Modeling_Advanced_organic_modeling_humanjpg from '../assets/labs/Modeling/Advanced/organic modeling human/under-construction.jpg'
+import _Head_BaseMeshsrc_assets_labs_Modeling_Advanced_polygon_hair_modelingma from '../assets/labs/Modeling/Advanced/polygon hair modeling/Head_BaseMesh.ma'
+import _picture_1src_assets_labs_Modeling_Advanced_polygon_hair_modelingpng from '../assets/labs/Modeling/Advanced/polygon hair modeling/picture_1.png'
+import _picture_2src_assets_labs_Modeling_Advanced_polygon_hair_modelingpng from '../assets/labs/Modeling/Advanced/polygon hair modeling/picture_2.png'
+import _picture_3src_assets_labs_Modeling_Advanced_polygon_hair_modelingpng from '../assets/labs/Modeling/Advanced/polygon hair modeling/picture_3.png'
+import _picture_4src_assets_labs_Modeling_Advanced_polygon_hair_modelingpng from '../assets/labs/Modeling/Advanced/polygon hair modeling/picture_4.png'
+import _polygon_hair_modelingsrc_assets_labs_Modeling_Advanced_polygon_hair_modelingmd from '../assets/labs/Modeling/Advanced/polygon hair modeling/polygon hair modeling.md'
 import _1_turn_off_interactive_creationsrc_assets_labs_Modeling_Basic_modeling_1png from '../assets/labs/Modeling/Basic/modeling 1/1-turn off interactive creation.png'
 import _10___extrude_and_tweaksrc_assets_labs_Modeling_Basic_modeling_1png from '../assets/labs/Modeling/Basic/modeling 1/10 - extrude and tweak.png'
 import _11__insert_edge_loopsrc_assets_labs_Modeling_Basic_modeling_1png from '../assets/labs/Modeling/Basic/modeling 1/11- insert edge loop.png'
@@ -2515,6 +2521,19 @@ const data = {
           "Modeling/Advanced/organic_modeling_human"
         ],
         "thumbnail": _THUMBNAILsrc_assets_labs_Modeling_Advanced_organic_modeling_humanpng
+      },
+      "polygon_hair_modeling": {
+        "images": {
+          "Head_BaseMesh.ma": _Head_BaseMeshsrc_assets_labs_Modeling_Advanced_polygon_hair_modelingma,
+          "picture_1.png": _picture_1src_assets_labs_Modeling_Advanced_polygon_hair_modelingpng,
+          "picture_2.png": _picture_2src_assets_labs_Modeling_Advanced_polygon_hair_modelingpng,
+          "picture_3.png": _picture_3src_assets_labs_Modeling_Advanced_polygon_hair_modelingpng,
+          "picture_4.png": _picture_4src_assets_labs_Modeling_Advanced_polygon_hair_modelingpng
+        },
+        "markdown": [
+          _polygon_hair_modelingsrc_assets_labs_Modeling_Advanced_polygon_hair_modelingmd,
+          "Modeling/Advanced/polygon_hair_modeling"
+        ]
       }
     },
     "Basic": {
