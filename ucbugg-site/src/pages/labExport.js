@@ -833,6 +833,47 @@ import _symmetrysrc_assets_labs_Modeling_Advanced_organic_modeling_humanpng from
 import _targetWeldsrc_assets_labs_Modeling_Advanced_organic_modeling_humanpng from '../assets/labs/Modeling/Advanced/organic modeling human/targetWeld.png'
 import _THUMBNAILsrc_assets_labs_Modeling_Advanced_organic_modeling_humanpng from '../assets/labs/Modeling/Advanced/organic modeling human/THUMBNAIL.png'
 import _under_constructionsrc_assets_labs_Modeling_Advanced_organic_modeling_humanjpg from '../assets/labs/Modeling/Advanced/organic modeling human/under-construction.jpg'
+import _Head_BaseMeshsrc_assets_labs_Modeling_Advanced_polygon_hair_modelingma from '../assets/labs/Modeling/Advanced/polygon hair modeling/Head_BaseMesh.ma'
+import _picture_1src_assets_labs_Modeling_Advanced_polygon_hair_modelingpng from '../assets/labs/Modeling/Advanced/polygon hair modeling/picture_1.png'
+import _picture_10src_assets_labs_Modeling_Advanced_polygon_hair_modelingpng from '../assets/labs/Modeling/Advanced/polygon hair modeling/picture_10.png'
+import _picture_11src_assets_labs_Modeling_Advanced_polygon_hair_modelingpng from '../assets/labs/Modeling/Advanced/polygon hair modeling/picture_11.png'
+import _picture_12src_assets_labs_Modeling_Advanced_polygon_hair_modelingpng from '../assets/labs/Modeling/Advanced/polygon hair modeling/picture_12.png'
+import _picture_13src_assets_labs_Modeling_Advanced_polygon_hair_modelingpng from '../assets/labs/Modeling/Advanced/polygon hair modeling/picture_13.png'
+import _picture_14src_assets_labs_Modeling_Advanced_polygon_hair_modelingpng from '../assets/labs/Modeling/Advanced/polygon hair modeling/picture_14.png'
+import _picture_15src_assets_labs_Modeling_Advanced_polygon_hair_modelingpng from '../assets/labs/Modeling/Advanced/polygon hair modeling/picture_15.png'
+import _picture_16src_assets_labs_Modeling_Advanced_polygon_hair_modelingpng from '../assets/labs/Modeling/Advanced/polygon hair modeling/picture_16.png'
+import _picture_17src_assets_labs_Modeling_Advanced_polygon_hair_modelingpng from '../assets/labs/Modeling/Advanced/polygon hair modeling/picture_17.png'
+import _picture_18src_assets_labs_Modeling_Advanced_polygon_hair_modelingpng from '../assets/labs/Modeling/Advanced/polygon hair modeling/picture_18.png'
+import _picture_19src_assets_labs_Modeling_Advanced_polygon_hair_modelingpng from '../assets/labs/Modeling/Advanced/polygon hair modeling/picture_19.png'
+import _picture_2src_assets_labs_Modeling_Advanced_polygon_hair_modelingpng from '../assets/labs/Modeling/Advanced/polygon hair modeling/picture_2.png'
+import _picture_20src_assets_labs_Modeling_Advanced_polygon_hair_modelingpng from '../assets/labs/Modeling/Advanced/polygon hair modeling/picture_20.png'
+import _picture_21src_assets_labs_Modeling_Advanced_polygon_hair_modelingpng from '../assets/labs/Modeling/Advanced/polygon hair modeling/picture_21.png'
+import _picture_22src_assets_labs_Modeling_Advanced_polygon_hair_modelingpng from '../assets/labs/Modeling/Advanced/polygon hair modeling/picture_22.png'
+import _picture_23src_assets_labs_Modeling_Advanced_polygon_hair_modelingpng from '../assets/labs/Modeling/Advanced/polygon hair modeling/picture_23.png'
+import _picture_24src_assets_labs_Modeling_Advanced_polygon_hair_modelingpng from '../assets/labs/Modeling/Advanced/polygon hair modeling/picture_24.png'
+import _picture_25src_assets_labs_Modeling_Advanced_polygon_hair_modelingpng from '../assets/labs/Modeling/Advanced/polygon hair modeling/picture_25.png'
+import _picture_26src_assets_labs_Modeling_Advanced_polygon_hair_modelingpng from '../assets/labs/Modeling/Advanced/polygon hair modeling/picture_26.png'
+import _picture_27src_assets_labs_Modeling_Advanced_polygon_hair_modelingpng from '../assets/labs/Modeling/Advanced/polygon hair modeling/picture_27.png'
+import _picture_28src_assets_labs_Modeling_Advanced_polygon_hair_modelingpng from '../assets/labs/Modeling/Advanced/polygon hair modeling/picture_28.png'
+import _picture_29src_assets_labs_Modeling_Advanced_polygon_hair_modelingpng from '../assets/labs/Modeling/Advanced/polygon hair modeling/picture_29.png'
+import _picture_3src_assets_labs_Modeling_Advanced_polygon_hair_modelingpng from '../assets/labs/Modeling/Advanced/polygon hair modeling/picture_3.png'
+import _picture_30src_assets_labs_Modeling_Advanced_polygon_hair_modelingpng from '../assets/labs/Modeling/Advanced/polygon hair modeling/picture_30.png'
+import _picture_31src_assets_labs_Modeling_Advanced_polygon_hair_modelingpng from '../assets/labs/Modeling/Advanced/polygon hair modeling/picture_31.png'
+import _picture_32src_assets_labs_Modeling_Advanced_polygon_hair_modelingpng from '../assets/labs/Modeling/Advanced/polygon hair modeling/picture_32.png'
+import _picture_33src_assets_labs_Modeling_Advanced_polygon_hair_modelingpng from '../assets/labs/Modeling/Advanced/polygon hair modeling/picture_33.png'
+import _picture_34src_assets_labs_Modeling_Advanced_polygon_hair_modelingpng from '../assets/labs/Modeling/Advanced/polygon hair modeling/picture_34.png'
+import _picture_35src_assets_labs_Modeling_Advanced_polygon_hair_modelingpng from '../assets/labs/Modeling/Advanced/polygon hair modeling/picture_35.png'
+import _picture_36src_assets_labs_Modeling_Advanced_polygon_hair_modelingpng from '../assets/labs/Modeling/Advanced/polygon hair modeling/picture_36.png'
+import _picture_37src_assets_labs_Modeling_Advanced_polygon_hair_modelingpng from '../assets/labs/Modeling/Advanced/polygon hair modeling/picture_37.png'
+import _picture_38src_assets_labs_Modeling_Advanced_polygon_hair_modelingpng from '../assets/labs/Modeling/Advanced/polygon hair modeling/picture_38.png'
+import _picture_4src_assets_labs_Modeling_Advanced_polygon_hair_modelingpng from '../assets/labs/Modeling/Advanced/polygon hair modeling/picture_4.png'
+import _picture_5src_assets_labs_Modeling_Advanced_polygon_hair_modelingpng from '../assets/labs/Modeling/Advanced/polygon hair modeling/picture_5.png'
+import _picture_6src_assets_labs_Modeling_Advanced_polygon_hair_modelingpng from '../assets/labs/Modeling/Advanced/polygon hair modeling/picture_6.png'
+import _picture_7src_assets_labs_Modeling_Advanced_polygon_hair_modelingpng from '../assets/labs/Modeling/Advanced/polygon hair modeling/picture_7.png'
+import _picture_8src_assets_labs_Modeling_Advanced_polygon_hair_modelingpng from '../assets/labs/Modeling/Advanced/polygon hair modeling/picture_8.png'
+import _picture_9src_assets_labs_Modeling_Advanced_polygon_hair_modelingpng from '../assets/labs/Modeling/Advanced/polygon hair modeling/picture_9.png'
+import _polygon_hair_modelingsrc_assets_labs_Modeling_Advanced_polygon_hair_modelingmd from '../assets/labs/Modeling/Advanced/polygon hair modeling/polygon hair modeling.md'
+import _THUMBNAILsrc_assets_labs_Modeling_Advanced_polygon_hair_modelingpng from '../assets/labs/Modeling/Advanced/polygon hair modeling/THUMBNAIL.png'
 import _1_turn_off_interactive_creationsrc_assets_labs_Modeling_Basic_modeling_1png from '../assets/labs/Modeling/Basic/modeling 1/1-turn off interactive creation.png'
 import _10___extrude_and_tweaksrc_assets_labs_Modeling_Basic_modeling_1png from '../assets/labs/Modeling/Basic/modeling 1/10 - extrude and tweak.png'
 import _11__insert_edge_loopsrc_assets_labs_Modeling_Basic_modeling_1png from '../assets/labs/Modeling/Basic/modeling 1/11- insert edge loop.png'
@@ -2515,6 +2556,54 @@ const data = {
           "Modeling/Advanced/organic_modeling_human"
         ],
         "thumbnail": _THUMBNAILsrc_assets_labs_Modeling_Advanced_organic_modeling_humanpng
+      },
+      "polygon_hair_modeling": {
+        "images": {
+          "Head_BaseMesh.ma": _Head_BaseMeshsrc_assets_labs_Modeling_Advanced_polygon_hair_modelingma,
+          "picture_1.png": _picture_1src_assets_labs_Modeling_Advanced_polygon_hair_modelingpng,
+          "picture_10.png": _picture_10src_assets_labs_Modeling_Advanced_polygon_hair_modelingpng,
+          "picture_11.png": _picture_11src_assets_labs_Modeling_Advanced_polygon_hair_modelingpng,
+          "picture_12.png": _picture_12src_assets_labs_Modeling_Advanced_polygon_hair_modelingpng,
+          "picture_13.png": _picture_13src_assets_labs_Modeling_Advanced_polygon_hair_modelingpng,
+          "picture_14.png": _picture_14src_assets_labs_Modeling_Advanced_polygon_hair_modelingpng,
+          "picture_15.png": _picture_15src_assets_labs_Modeling_Advanced_polygon_hair_modelingpng,
+          "picture_16.png": _picture_16src_assets_labs_Modeling_Advanced_polygon_hair_modelingpng,
+          "picture_17.png": _picture_17src_assets_labs_Modeling_Advanced_polygon_hair_modelingpng,
+          "picture_18.png": _picture_18src_assets_labs_Modeling_Advanced_polygon_hair_modelingpng,
+          "picture_19.png": _picture_19src_assets_labs_Modeling_Advanced_polygon_hair_modelingpng,
+          "picture_2.png": _picture_2src_assets_labs_Modeling_Advanced_polygon_hair_modelingpng,
+          "picture_20.png": _picture_20src_assets_labs_Modeling_Advanced_polygon_hair_modelingpng,
+          "picture_21.png": _picture_21src_assets_labs_Modeling_Advanced_polygon_hair_modelingpng,
+          "picture_22.png": _picture_22src_assets_labs_Modeling_Advanced_polygon_hair_modelingpng,
+          "picture_23.png": _picture_23src_assets_labs_Modeling_Advanced_polygon_hair_modelingpng,
+          "picture_24.png": _picture_24src_assets_labs_Modeling_Advanced_polygon_hair_modelingpng,
+          "picture_25.png": _picture_25src_assets_labs_Modeling_Advanced_polygon_hair_modelingpng,
+          "picture_26.png": _picture_26src_assets_labs_Modeling_Advanced_polygon_hair_modelingpng,
+          "picture_27.png": _picture_27src_assets_labs_Modeling_Advanced_polygon_hair_modelingpng,
+          "picture_28.png": _picture_28src_assets_labs_Modeling_Advanced_polygon_hair_modelingpng,
+          "picture_29.png": _picture_29src_assets_labs_Modeling_Advanced_polygon_hair_modelingpng,
+          "picture_3.png": _picture_3src_assets_labs_Modeling_Advanced_polygon_hair_modelingpng,
+          "picture_30.png": _picture_30src_assets_labs_Modeling_Advanced_polygon_hair_modelingpng,
+          "picture_31.png": _picture_31src_assets_labs_Modeling_Advanced_polygon_hair_modelingpng,
+          "picture_32.png": _picture_32src_assets_labs_Modeling_Advanced_polygon_hair_modelingpng,
+          "picture_33.png": _picture_33src_assets_labs_Modeling_Advanced_polygon_hair_modelingpng,
+          "picture_34.png": _picture_34src_assets_labs_Modeling_Advanced_polygon_hair_modelingpng,
+          "picture_35.png": _picture_35src_assets_labs_Modeling_Advanced_polygon_hair_modelingpng,
+          "picture_36.png": _picture_36src_assets_labs_Modeling_Advanced_polygon_hair_modelingpng,
+          "picture_37.png": _picture_37src_assets_labs_Modeling_Advanced_polygon_hair_modelingpng,
+          "picture_38.png": _picture_38src_assets_labs_Modeling_Advanced_polygon_hair_modelingpng,
+          "picture_4.png": _picture_4src_assets_labs_Modeling_Advanced_polygon_hair_modelingpng,
+          "picture_5.png": _picture_5src_assets_labs_Modeling_Advanced_polygon_hair_modelingpng,
+          "picture_6.png": _picture_6src_assets_labs_Modeling_Advanced_polygon_hair_modelingpng,
+          "picture_7.png": _picture_7src_assets_labs_Modeling_Advanced_polygon_hair_modelingpng,
+          "picture_8.png": _picture_8src_assets_labs_Modeling_Advanced_polygon_hair_modelingpng,
+          "picture_9.png": _picture_9src_assets_labs_Modeling_Advanced_polygon_hair_modelingpng
+        },
+        "markdown": [
+          _polygon_hair_modelingsrc_assets_labs_Modeling_Advanced_polygon_hair_modelingmd,
+          "Modeling/Advanced/polygon_hair_modeling"
+        ],
+        "thumbnail": _THUMBNAILsrc_assets_labs_Modeling_Advanced_polygon_hair_modelingpng
       }
     },
     "Basic": {
