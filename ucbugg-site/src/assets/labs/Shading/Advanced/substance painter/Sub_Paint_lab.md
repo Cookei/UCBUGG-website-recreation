@@ -126,6 +126,7 @@ Deselect everything on that fill layer execpt for "color", "Metallic" and, "Roug
 
 Now that we have a solid color, we can start adding varied shades of green in different ways to make it pop out and have texture.
 
+
 # Black and White Masks + layering
 
 Add another fill layer and deselect everything except for roughness and color. Make sure this layer is on top of the previous layer. Rename this to Dark Grunge and select a darker green in the color wheel. This should make your tree go from green to dark green.
@@ -167,6 +168,19 @@ Select the material properties button shown in the picture. From here there are 
 
 ![card2](card2.png)
 
+# Materials
+
+We want a cardboard material so lets search cardboard in the assets tab and ctrl + drag and drop it on the vertex color that is not on the edges of the tree.  
+
+From here drag the layer down so that the cardboard material is behind the grunge.
+
+In the properties tab, we can edit the new preset texture that we put on. Select "Glossy Brown Paper Cardboard" in the preset button under parameters. As we see, there are now cardboard lines on the mesh. Change the color to be green and darker green in "Cardboard Color" and "Inserts Color" respectivly. Play with the sliders and set them to your liking.
+
+![mat2](mat2.png)
+
+![ASasd](ASasd.png)
+
+
 # Generators
 
 Add a fill layer, deselect height and metal, change the color to dirt brown, then add a black mask. Now **in the black mask properties tab**, we right click the layer, and add a generator, then search up dirt and add it.
@@ -192,13 +206,35 @@ Tweak the settings in the mask tab to your liking.
 
 In each fill tab there is a Roughness slider going from 0 (shiny) to 1 (dull).
 
-As we set the roughness to one value in the base color layer, there is no variation in roughness, we need to vary the roughness just like we did the colors. In each layer decide what the roughness of that should be.
+As we set the roughness to one value in the base color layer, there is barely any variation in roughness, we need to vary the roughness just like we did the colors. In each layer decide what the roughness of that should be.
 
-![roughness](roughness.png)
+![asd4.png](asd4.png)
 
 > Since we are making a handpainted cardboard tree, should we make the most recent grunge brushstrokes that are lighter more shiny or less shiny and vice versa for the darker grunge brushstrokes. What about dirt?
 
+# Manual Painting
+
+Lets add a handprint to the tree. Create a fill layer with a black mask. Set it to be a lighter green than your cardboard color. From here click on your black mask and in your assets tab, click on the circular checkboard called "Alphas". Search up handprint and click on it. 
+
+![hand](hand.png)
+
+In the "Properties - Paint" tab when you click on the mask layer, we can see that the handprint that you selected is now the alpha.
+
+
+
+![alpha](alpha.png)
+
+Scroll all the way down untill you see "Grayscale". Set the slider to 1 and click on the mesh to start painting.
+
+> (!info)
+> What this does is it paints the black mask white so that our layer's color can come through. 
+
+
+![asd5](asd5.png)
+
+
 # Star (Optional)
+
 
 Use the vertex colors and to drag and drop a asset material of your choosing. What should the star on the tree look like? Should we make a more metallic star or should we stick with the cardboard theme and make the star also cardboard. Be as creative as you want.
 
@@ -235,7 +271,7 @@ Click the textured button and the smooth shade button on the viewport to view yo
 
 > If your texture is dull it is due to the fact the Maya is not rendering lights and just rendering the base color. If you want lighting like the in the picture, create a volume light and place it above the tree. Finally, select the icon of the lightbulb to the right of the "Use all textures" button in the top of the viewport.
 
-![export6](export6.png)
+![finalrender](finalrender.png)
 
 SAVE YOUR SCENE AS .MA FILE IF YOU HAVE NOT ALREADY! (save your file as often as you can). Screenshot and submit your textured tree.
 
