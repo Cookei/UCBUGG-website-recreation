@@ -1412,6 +1412,12 @@ import _normals2src_assets_labs_Shading_Advanced_hypershadepng from '../assets/l
 import _pxrflakessrc_assets_labs_Shading_Advanced_hypershadepng from '../assets/labs/Shading/Advanced/hypershade/pxrflakes.png'
 import _setupWithFlakessrc_assets_labs_Shading_Advanced_hypershadepng from '../assets/labs/Shading/Advanced/hypershade/setupWithFlakes.png'
 import _THUMBNAILsrc_assets_labs_Shading_Advanced_hypershadepng from '../assets/labs/Shading/Advanced/hypershade/THUMBNAIL.png'
+import _alphasrc_assets_labs_Shading_Advanced_substance_painterpng from '../assets/labs/Shading/Advanced/substance painter/alpha.png'
+import _ASasdsrc_assets_labs_Shading_Advanced_substance_painterpng from '../assets/labs/Shading/Advanced/substance painter/ASasd.png'
+import _asd2src_assets_labs_Shading_Advanced_substance_painterpng from '../assets/labs/Shading/Advanced/substance painter/asd2.png'
+import _asd3src_assets_labs_Shading_Advanced_substance_painterpng from '../assets/labs/Shading/Advanced/substance painter/asd3.png'
+import _asd4src_assets_labs_Shading_Advanced_substance_painterpng from '../assets/labs/Shading/Advanced/substance painter/asd4.png'
+import _asd5src_assets_labs_Shading_Advanced_substance_painterpng from '../assets/labs/Shading/Advanced/substance painter/asd5.png'
 import _bake1src_assets_labs_Shading_Advanced_substance_painterpng from '../assets/labs/Shading/Advanced/substance painter/bake1.png'
 import _bake2src_assets_labs_Shading_Advanced_substance_painterpng from '../assets/labs/Shading/Advanced/substance painter/bake2.png'
 import _cardsrc_assets_labs_Shading_Advanced_substance_painterpng from '../assets/labs/Shading/Advanced/substance painter/card.png'
@@ -1426,12 +1432,16 @@ import _export3src_assets_labs_Shading_Advanced_substance_painterpng from '../as
 import _export4src_assets_labs_Shading_Advanced_substance_painterpng from '../assets/labs/Shading/Advanced/substance painter/export4.png'
 import _export5src_assets_labs_Shading_Advanced_substance_painterpng from '../assets/labs/Shading/Advanced/substance painter/export5.png'
 import _export6src_assets_labs_Shading_Advanced_substance_painterpng from '../assets/labs/Shading/Advanced/substance painter/export6.png'
+import _finalrendersrc_assets_labs_Shading_Advanced_substance_painterpng from '../assets/labs/Shading/Advanced/substance painter/finalrender.png'
 import _gensrc_assets_labs_Shading_Advanced_substance_painterpng from '../assets/labs/Shading/Advanced/substance painter/gen.png'
 import _grungesrc_assets_labs_Shading_Advanced_substance_painterpng from '../assets/labs/Shading/Advanced/substance painter/grunge.png'
 import _grunge2src_assets_labs_Shading_Advanced_substance_painterpng from '../assets/labs/Shading/Advanced/substance painter/grunge2.png'
+import _handsrc_assets_labs_Shading_Advanced_substance_painterpng from '../assets/labs/Shading/Advanced/substance painter/hand.png'
 import _hsvsrc_assets_labs_Shading_Advanced_substance_painterpng from '../assets/labs/Shading/Advanced/substance painter/hsv.png'
 import _Installingsrc_assets_labs_Shading_Advanced_substance_painterpng from '../assets/labs/Shading/Advanced/substance painter/Installing.png'
 import _main_treesrc_assets_labs_Shading_Advanced_substance_painterma from '../assets/labs/Shading/Advanced/substance painter/main_tree.ma'
+import _mat1src_assets_labs_Shading_Advanced_substance_painterpng from '../assets/labs/Shading/Advanced/substance painter/mat1.png'
+import _mat2src_assets_labs_Shading_Advanced_substance_painterpng from '../assets/labs/Shading/Advanced/substance painter/mat2.png'
 import _renderman_hypyershadesrc_assets_labs_Shading_Advanced_substance_painterpng from '../assets/labs/Shading/Advanced/substance painter/renderman_hypyershade.png'
 import _roughnesssrc_assets_labs_Shading_Advanced_substance_painterpng from '../assets/labs/Shading/Advanced/substance painter/roughness.png'
 import _sb2src_assets_labs_Shading_Advanced_substance_painterpng from '../assets/labs/Shading/Advanced/substance painter/sb2.png'
@@ -3303,6 +3313,12 @@ const data = {
       },
       "substance_painter": {
         "images": {
+          "alpha.png": _alphasrc_assets_labs_Shading_Advanced_substance_painterpng,
+          "ASasd.png": _ASasdsrc_assets_labs_Shading_Advanced_substance_painterpng,
+          "asd2.png": _asd2src_assets_labs_Shading_Advanced_substance_painterpng,
+          "asd3.png": _asd3src_assets_labs_Shading_Advanced_substance_painterpng,
+          "asd4.png": _asd4src_assets_labs_Shading_Advanced_substance_painterpng,
+          "asd5.png": _asd5src_assets_labs_Shading_Advanced_substance_painterpng,
           "bake1.png": _bake1src_assets_labs_Shading_Advanced_substance_painterpng,
           "bake2.png": _bake2src_assets_labs_Shading_Advanced_substance_painterpng,
           "card.png": _cardsrc_assets_labs_Shading_Advanced_substance_painterpng,
@@ -3317,12 +3333,16 @@ const data = {
           "export4.png": _export4src_assets_labs_Shading_Advanced_substance_painterpng,
           "export5.png": _export5src_assets_labs_Shading_Advanced_substance_painterpng,
           "export6.png": _export6src_assets_labs_Shading_Advanced_substance_painterpng,
+          "finalrender.png": _finalrendersrc_assets_labs_Shading_Advanced_substance_painterpng,
           "gen.png": _gensrc_assets_labs_Shading_Advanced_substance_painterpng,
           "grunge.png": _grungesrc_assets_labs_Shading_Advanced_substance_painterpng,
           "grunge2.png": _grunge2src_assets_labs_Shading_Advanced_substance_painterpng,
+          "hand.png": _handsrc_assets_labs_Shading_Advanced_substance_painterpng,
           "hsv.png": _hsvsrc_assets_labs_Shading_Advanced_substance_painterpng,
           "Installing.png": _Installingsrc_assets_labs_Shading_Advanced_substance_painterpng,
           "main_tree.ma": _main_treesrc_assets_labs_Shading_Advanced_substance_painterma,
+          "mat1.png": _mat1src_assets_labs_Shading_Advanced_substance_painterpng,
+          "mat2.png": _mat2src_assets_labs_Shading_Advanced_substance_painterpng,
           "renderman_hypyershade.png": _renderman_hypyershadesrc_assets_labs_Shading_Advanced_substance_painterpng,
           "roughness.png": _roughnesssrc_assets_labs_Shading_Advanced_substance_painterpng,
           "sb2.png": _sb2src_assets_labs_Shading_Advanced_substance_painterpng,

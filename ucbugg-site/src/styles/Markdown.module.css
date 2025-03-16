@@ -3,6 +3,8 @@
   max-width: calc(100vw - var(--navbar-offset) - 150px);
   margin-left: 25px;
   max-width: clamp(1000px, 60vw, 1300px);
+  font-size: large;
+  line-height: 2rem;
 }
 
 .markdown img {
