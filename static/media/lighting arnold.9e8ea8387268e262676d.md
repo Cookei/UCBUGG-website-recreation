@@ -228,7 +228,6 @@ Let's close out of lighting_lamps.ma and instead open lighting.ma. You should be
 
 > "ROOMV1352233754567" (https://skfb.ly/puT6t) by tokoissick is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).
 
-> (!note)
 > I have created a display layer to help you navigate the room a bit more. Toggle on and off the V in the display layer to turn on and off the walls. Make sure to turn them back on when you're rendering.
 
 ![](img29.png)
@@ -245,6 +244,9 @@ We do **NOT** want to use an HDRI since that adds unneeded complexity and render
 > For this part of the assignment, **ALL images must be generated from the render view**. You can go to the render view by going to Arnold -> Render View. This should open up a popup window.
 
 ![](img30.png)
+
+> (!important)
+> Make sure to change the camera here in the render view to the FinalCam. There's a dropdown menu in the upper left corner.
 
 You can see here in our render that it is incredibly noisy. This is because there is only a small opening for the light to come through. Since the dome light spans all 360 degrees, there a high likelihood that most of the light rays will be blocked by an object, leading to a lot of noise.
 
@@ -284,7 +286,10 @@ After adjusting the exposure settings, we get this image! I also adjusted the Vi
 
 ![](img38.png)
 
-Not bad! For the fairy lights, this would be the perfect situation to use the Emission attribute in the shader. Unfortunately, since this is a new lab, I didn't have the time to set up the aiStandardSurface for the lights and instead they're phong shaders. If you want, you can assign aiStandardSurfaces to them to get them to glow. You can also take the time to make point lights for each them to get them to glow as well (light linking would be helpful here). Instead, I'm going to skip doing them.
+Not bad!
+
+> (!info)
+> For the fairy lights, this would be the perfect situation to use the Emission attribute in the shader. Unfortunately, since this is a new lab, I didn't have the time to set up the aiStandardSurface for the lights and instead they're phong shaders. If you want, you can assign aiStandardSurfaces to them to get them to glow. You can also take the time to make point lights for each them to get them to glow as well (light linking would be helpful here). Instead, I'm going to skip doing them.
 
 ## Motivated lighting.
 
@@ -299,11 +304,11 @@ Here I added in an area light to light up the part of the scene. I also unchecke
 > (!important)
 > Take a screenshot of your lit bedroom and save it.
 
+> (!important)
+> Please zip up your your project file (should have both maya files, texture folders, etc) and submit it to bcourses. Additionally, also submit all required rendered images.
+
 # Bonus
 
 ![](img41.jpg)
 
 Here are some volumetrics! I added some area lights outside the window with their spread set to 0. Then, for every other light, I turned their volume samples to 0 such that they don't contribute to the volumetric. This gives off this god ray effect from the windows.
-
-> (!important)
-> Please zip up your your project file (should have both maya files, texture folders, etc) and submit it to bcourses. Additionally, also submit all required rendered images.
