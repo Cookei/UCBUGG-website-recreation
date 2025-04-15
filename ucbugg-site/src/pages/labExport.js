@@ -329,6 +329,50 @@ import _Untitledsrc_assets_labs_Lighting_lighting_2png from '../assets/labs/Ligh
 import _Untitled_primaryvisibilitysrc_assets_labs_Lighting_lighting_2png from '../assets/labs/Lighting/lighting 2/Untitled_primaryvisibility.png'
 import _viewportMalcolmsrc_assets_labs_Lighting_lighting_2png from '../assets/labs/Lighting/lighting 2/viewportMalcolm.png'
 import _viewptsrc_assets_labs_Lighting_lighting_2png from '../assets/labs/Lighting/lighting 2/viewpt.png'
+import _img1src_assets_labs_Lighting_lighting_arnoldpng from '../assets/labs/Lighting/lighting arnold/img1.png'
+import _img10src_assets_labs_Lighting_lighting_arnoldpng from '../assets/labs/Lighting/lighting arnold/img10.png'
+import _img11src_assets_labs_Lighting_lighting_arnoldpng from '../assets/labs/Lighting/lighting arnold/img11.png'
+import _img12src_assets_labs_Lighting_lighting_arnoldpng from '../assets/labs/Lighting/lighting arnold/img12.png'
+import _img13src_assets_labs_Lighting_lighting_arnoldpng from '../assets/labs/Lighting/lighting arnold/img13.png'
+import _img14src_assets_labs_Lighting_lighting_arnoldpng from '../assets/labs/Lighting/lighting arnold/img14.png'
+import _img15src_assets_labs_Lighting_lighting_arnoldpng from '../assets/labs/Lighting/lighting arnold/img15.png'
+import _img16src_assets_labs_Lighting_lighting_arnoldpng from '../assets/labs/Lighting/lighting arnold/img16.png'
+import _img17src_assets_labs_Lighting_lighting_arnoldpng from '../assets/labs/Lighting/lighting arnold/img17.png'
+import _img18src_assets_labs_Lighting_lighting_arnoldpng from '../assets/labs/Lighting/lighting arnold/img18.png'
+import _img19src_assets_labs_Lighting_lighting_arnoldpng from '../assets/labs/Lighting/lighting arnold/img19.png'
+import _img2src_assets_labs_Lighting_lighting_arnoldpng from '../assets/labs/Lighting/lighting arnold/img2.png'
+import _img20src_assets_labs_Lighting_lighting_arnoldpng from '../assets/labs/Lighting/lighting arnold/img20.png'
+import _img21src_assets_labs_Lighting_lighting_arnoldpng from '../assets/labs/Lighting/lighting arnold/img21.png'
+import _img22src_assets_labs_Lighting_lighting_arnoldpng from '../assets/labs/Lighting/lighting arnold/img22.png'
+import _img23src_assets_labs_Lighting_lighting_arnoldpng from '../assets/labs/Lighting/lighting arnold/img23.png'
+import _img24src_assets_labs_Lighting_lighting_arnoldpng from '../assets/labs/Lighting/lighting arnold/img24.png'
+import _img25src_assets_labs_Lighting_lighting_arnoldpng from '../assets/labs/Lighting/lighting arnold/img25.png'
+import _img26src_assets_labs_Lighting_lighting_arnoldpng from '../assets/labs/Lighting/lighting arnold/img26.png'
+import _img27src_assets_labs_Lighting_lighting_arnoldpng from '../assets/labs/Lighting/lighting arnold/img27.png'
+import _img28src_assets_labs_Lighting_lighting_arnoldpng from '../assets/labs/Lighting/lighting arnold/img28.png'
+import _img29src_assets_labs_Lighting_lighting_arnoldpng from '../assets/labs/Lighting/lighting arnold/img29.png'
+import _img3src_assets_labs_Lighting_lighting_arnoldpng from '../assets/labs/Lighting/lighting arnold/img3.png'
+import _img30src_assets_labs_Lighting_lighting_arnoldpng from '../assets/labs/Lighting/lighting arnold/img30.png'
+import _img31src_assets_labs_Lighting_lighting_arnoldpng from '../assets/labs/Lighting/lighting arnold/img31.png'
+import _img32src_assets_labs_Lighting_lighting_arnoldpng from '../assets/labs/Lighting/lighting arnold/img32.png'
+import _img33src_assets_labs_Lighting_lighting_arnoldpng from '../assets/labs/Lighting/lighting arnold/img33.png'
+import _img34src_assets_labs_Lighting_lighting_arnoldpng from '../assets/labs/Lighting/lighting arnold/img34.png'
+import _img35src_assets_labs_Lighting_lighting_arnoldpng from '../assets/labs/Lighting/lighting arnold/img35.png'
+import _img36src_assets_labs_Lighting_lighting_arnoldpng from '../assets/labs/Lighting/lighting arnold/img36.png'
+import _img37src_assets_labs_Lighting_lighting_arnoldpng from '../assets/labs/Lighting/lighting arnold/img37.png'
+import _img38src_assets_labs_Lighting_lighting_arnoldpng from '../assets/labs/Lighting/lighting arnold/img38.png'
+import _img39src_assets_labs_Lighting_lighting_arnoldpng from '../assets/labs/Lighting/lighting arnold/img39.png'
+import _img4src_assets_labs_Lighting_lighting_arnoldpng from '../assets/labs/Lighting/lighting arnold/img4.png'
+import _img40src_assets_labs_Lighting_lighting_arnoldpng from '../assets/labs/Lighting/lighting arnold/img40.png'
+import _img41src_assets_labs_Lighting_lighting_arnoldjpg from '../assets/labs/Lighting/lighting arnold/img41.jpg'
+import _img5src_assets_labs_Lighting_lighting_arnoldpng from '../assets/labs/Lighting/lighting arnold/img5.png'
+import _img6src_assets_labs_Lighting_lighting_arnoldpng from '../assets/labs/Lighting/lighting arnold/img6.png'
+import _img7src_assets_labs_Lighting_lighting_arnoldpng from '../assets/labs/Lighting/lighting arnold/img7.png'
+import _img8src_assets_labs_Lighting_lighting_arnoldpng from '../assets/labs/Lighting/lighting arnold/img8.png'
+import _img9src_assets_labs_Lighting_lighting_arnoldpng from '../assets/labs/Lighting/lighting arnold/img9.png'
+import _lighting_arnoldsrc_assets_labs_Lighting_lighting_arnoldmd from '../assets/labs/Lighting/lighting arnold/lighting arnold.md'
+import _lighting_labsrc_assets_labs_Lighting_lighting_arnoldzip from '../assets/labs/Lighting/lighting arnold/lighting_lab.zip'
+import _THUMBNAILsrc_assets_labs_Lighting_lighting_arnoldjpg from '../assets/labs/Lighting/lighting arnold/THUMBNAIL.jpg'
 import _adding_body_to_layersrc_assets_labs_Modeling_Advanced_hard_surface_modelingpng from '../assets/labs/Modeling/Advanced/hard surface modeling/adding_body_to_layer.png'
 import _add_first_edge_loopsrc_assets_labs_Modeling_Advanced_hard_surface_modelingpng from '../assets/labs/Modeling/Advanced/hard surface modeling/add_first_edge_loop.png'
 import _add_second_edge_loopsrc_assets_labs_Modeling_Advanced_hard_surface_modelingpng from '../assets/labs/Modeling/Advanced/hard surface modeling/add_second_edge_loop.png'
@@ -2063,6 +2107,57 @@ const data = {
         "Lighting/lighting_2"
       ],
       "thumbnail": _THUMBNAILsrc_assets_labs_Lighting_lighting_2png
+    },
+    "lighting_arnold": {
+      "images": {
+        "img1.png": _img1src_assets_labs_Lighting_lighting_arnoldpng,
+        "img10.png": _img10src_assets_labs_Lighting_lighting_arnoldpng,
+        "img11.png": _img11src_assets_labs_Lighting_lighting_arnoldpng,
+        "img12.png": _img12src_assets_labs_Lighting_lighting_arnoldpng,
+        "img13.png": _img13src_assets_labs_Lighting_lighting_arnoldpng,
+        "img14.png": _img14src_assets_labs_Lighting_lighting_arnoldpng,
+        "img15.png": _img15src_assets_labs_Lighting_lighting_arnoldpng,
+        "img16.png": _img16src_assets_labs_Lighting_lighting_arnoldpng,
+        "img17.png": _img17src_assets_labs_Lighting_lighting_arnoldpng,
+        "img18.png": _img18src_assets_labs_Lighting_lighting_arnoldpng,
+        "img19.png": _img19src_assets_labs_Lighting_lighting_arnoldpng,
+        "img2.png": _img2src_assets_labs_Lighting_lighting_arnoldpng,
+        "img20.png": _img20src_assets_labs_Lighting_lighting_arnoldpng,
+        "img21.png": _img21src_assets_labs_Lighting_lighting_arnoldpng,
+        "img22.png": _img22src_assets_labs_Lighting_lighting_arnoldpng,
+        "img23.png": _img23src_assets_labs_Lighting_lighting_arnoldpng,
+        "img24.png": _img24src_assets_labs_Lighting_lighting_arnoldpng,
+        "img25.png": _img25src_assets_labs_Lighting_lighting_arnoldpng,
+        "img26.png": _img26src_assets_labs_Lighting_lighting_arnoldpng,
+        "img27.png": _img27src_assets_labs_Lighting_lighting_arnoldpng,
+        "img28.png": _img28src_assets_labs_Lighting_lighting_arnoldpng,
+        "img29.png": _img29src_assets_labs_Lighting_lighting_arnoldpng,
+        "img3.png": _img3src_assets_labs_Lighting_lighting_arnoldpng,
+        "img30.png": _img30src_assets_labs_Lighting_lighting_arnoldpng,
+        "img31.png": _img31src_assets_labs_Lighting_lighting_arnoldpng,
+        "img32.png": _img32src_assets_labs_Lighting_lighting_arnoldpng,
+        "img33.png": _img33src_assets_labs_Lighting_lighting_arnoldpng,
+        "img34.png": _img34src_assets_labs_Lighting_lighting_arnoldpng,
+        "img35.png": _img35src_assets_labs_Lighting_lighting_arnoldpng,
+        "img36.png": _img36src_assets_labs_Lighting_lighting_arnoldpng,
+        "img37.png": _img37src_assets_labs_Lighting_lighting_arnoldpng,
+        "img38.png": _img38src_assets_labs_Lighting_lighting_arnoldpng,
+        "img39.png": _img39src_assets_labs_Lighting_lighting_arnoldpng,
+        "img4.png": _img4src_assets_labs_Lighting_lighting_arnoldpng,
+        "img40.png": _img40src_assets_labs_Lighting_lighting_arnoldpng,
+        "img41.jpg": _img41src_assets_labs_Lighting_lighting_arnoldjpg,
+        "img5.png": _img5src_assets_labs_Lighting_lighting_arnoldpng,
+        "img6.png": _img6src_assets_labs_Lighting_lighting_arnoldpng,
+        "img7.png": _img7src_assets_labs_Lighting_lighting_arnoldpng,
+        "img8.png": _img8src_assets_labs_Lighting_lighting_arnoldpng,
+        "img9.png": _img9src_assets_labs_Lighting_lighting_arnoldpng,
+        "lighting_lab.zip": _lighting_labsrc_assets_labs_Lighting_lighting_arnoldzip
+      },
+      "markdown": [
+        _lighting_arnoldsrc_assets_labs_Lighting_lighting_arnoldmd,
+        "Lighting/lighting_arnold"
+      ],
+      "thumbnail": _THUMBNAILsrc_assets_labs_Lighting_lighting_arnoldjpg
     }
   },
   "Modeling": {
