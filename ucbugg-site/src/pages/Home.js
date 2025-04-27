@@ -68,6 +68,11 @@ const Home = (props, ref) => {
           <h1>UCBUGG Infosession Signup/Interest Form click here!</h1>
         </a>
       </div> */}
+      <div id={styles.adBanner}>
+        <a href="https://maps.app.goo.gl/426jEUhW89u27SsR7" target="_blank">
+          <h1>Sp2025 Showcase May 9th 5-7pm at the HP Auditorium!</h1>
+        </a>
+      </div>
       <section id={styles.splashSection}>
         {size.width > 600 ? (
           <View index={1} className={appStyles.view}>

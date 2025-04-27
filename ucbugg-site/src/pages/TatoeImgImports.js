@@ -3,7 +3,6 @@ import _Rebecca_Feng_Seniorjpg from '../assets/tatoes/head tatoes/Rebecca Feng S
 import _Gabriel_De_Leon_Seniorjpg from '../assets/tatoes/normal tatoes/Gabriel De Leon Senior.jpg'
 import _Han_Lijpg from '../assets/tatoes/normal tatoes/Han Li.jpg'
 import _Joel_Castrojpg from '../assets/tatoes/normal tatoes/Joel Castro.jpg'
-import _Khylie_Avilesjpg from '../assets/tatoes/normal tatoes/Khylie Aviles.jpg'
 import _Raine_Koizumi_Seniorjpg from '../assets/tatoes/normal tatoes/Raine Koizumi Senior.jpg'
 import _Abby_Cohnjpg from '../assets/tatoes/past tatoes/Abby Cohn.jpg'
 import _Akemi_Nagashikijpg from '../assets/tatoes/past tatoes/Akemi Nagashiki.JPG'
@@ -36,6 +35,7 @@ import _Jacob_Holesingerjpg from '../assets/tatoes/past tatoes/Jacob Holesinger.
 import _Jen_Hoangjpg from '../assets/tatoes/past tatoes/Jen Hoang.jpg'
 import _Jessica_Nyepng from '../assets/tatoes/past tatoes/Jessica Nye.png'
 import _Justin_Leejpg from '../assets/tatoes/past tatoes/Justin Lee.jpg'
+import _Khylie_Avilesjpg from '../assets/tatoes/past tatoes/Khylie Aviles.jpg'
 import _Kyle_Zhoujpg from '../assets/tatoes/past tatoes/Kyle Zhou.jpg'
 import _Leah_Rosalesjpg from '../assets/tatoes/past tatoes/Leah Rosales.jpg'
 import _Maddie_Pahatijpg from '../assets/tatoes/past tatoes/Maddie Pahati.jpg'
@@ -69,8 +69,6 @@ const data = {
  name: "Han Li", folder: "../assets/tatoes/normal tatoes"},
 {img: _Joel_Castrojpg,
  name: "Joel Castro", folder: "../assets/tatoes/normal tatoes"},
-{img: _Khylie_Avilesjpg,
- name: "Khylie Aviles", folder: "../assets/tatoes/normal tatoes"},
 {img: _Raine_Koizumi_Seniorjpg,
  name: "Raine Koizumi Senior", folder: "../assets/tatoes/normal tatoes"},
 
@@ -138,6 +136,8 @@ const data = {
  name: "Jessica Nye", folder: "../assets/tatoes/past tatoes"},
 {img: _Justin_Leejpg,
  name: "Justin Lee", folder: "../assets/tatoes/past tatoes"},
+{img: _Khylie_Avilesjpg,
+ name: "Khylie Aviles", folder: "../assets/tatoes/past tatoes"},
 {img: _Kyle_Zhoujpg,
  name: "Kyle Zhou", folder: "../assets/tatoes/past tatoes"},
 {img: _Leah_Rosalesjpg,
