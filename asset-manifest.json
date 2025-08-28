@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.621a8fb8.css",
-    "main.js": "/static/js/main.8279284e.js",
+    "main.js": "/static/js/main.be5e84ad.js",
     "static/js/526.a1046954.chunk.js": "/static/js/526.a1046954.chunk.js",
     "static/js/811.149798e1.chunk.js": "/static/js/811.149798e1.chunk.js",
     "static/js/206.24d8eb7c.chunk.js": "/static/js/206.24d8eb7c.chunk.js",
@@ -61,6 +61,7 @@
     "static/media/rainforest_trail_1k.hdr": "/static/media/rainforest_trail_1k.d309cb00ef281cd84ff8.hdr",
     "static/media/THUMBNAIL.jpg": "/static/media/THUMBNAIL.e3c56d9d7dd107fa7a65.jpg",
     "static/media/img41.jpg": "/static/media/img41.2018c0298aeea7221d53.jpg",
+    "static/media/Travis Le.jpg": "/static/media/Travis Le.49982b58adb45979cbd4.jpg",
     "static/media/hi-res-wrap.gif": "/static/media/hi-res-wrap.bc2d29ac8bf4e8b8e110.gif",
     "static/media/img30.png": "/static/media/img30.f2230f2a01651eb5810c.png",
     "static/media/Anze Liu.JPG": "/static/media/Anze Liu.ccda581a4e27f88b74af.JPG",
@@ -127,7 +128,6 @@
     "static/media/lighting_lab.ma": "/static/media/lighting_lab.48b6b316166d73af1f71.ma",
     "static/media/boxUpHigher.gif": "/static/media/boxUpHigher.6e3c2d34da29829005e5.gif",
     "static/media/Akemi Nagashiki.JPG": "/static/media/Akemi Nagashiki.282ad7cfc47c3cef399f.JPG",
-    "static/media/Francis Basco.jpg": "/static/media/Francis Basco.9991616ad258b18b02f2.jpg",
     "static/media/img3.png": "/static/media/img3.bc0a6e193b1880abea91.png",
     "static/media/step6.gif": "/static/media/step6.2afa5ce16d80796cc331.gif",
     "static/media/body6.png": "/static/media/body6.451312a5a5e922a76a1b.png",
@@ -240,6 +240,7 @@
     "static/media/62_neck.png": "/static/media/62_neck.1c53a11a39fbdd5e0a9b.png",
     "static/media/edge_3.png": "/static/media/edge_3.1c04b047132a79f0e790.png",
     "static/media/014.png": "/static/media/014.7360fd91d5d4ec3df282.png",
+    "static/media/Francis Basco Senior.webp": "/static/media/Francis Basco Senior.bee927eb76e174c86cf4.webp",
     "static/media/body2.png": "/static/media/body2.7a01babe9183360f7848.png",
     "static/media/63_neck.png": "/static/media/63_neck.3c8c5b4770a78ebe72d8.png",
     "static/media/body52.png": "/static/media/body52.716d290052793e6c2639.png",
@@ -586,6 +587,7 @@
     "static/media/image16.png": "/static/media/image16.5e9610280821176372cb.png",
     "static/media/belly.png": "/static/media/belly.f38ea671fd18d9440cfc.png",
     "static/media/Ethan Buttimer.jpg": "/static/media/Ethan Buttimer.f383fac46fc3cda87966.jpg",
+    "static/media/Alyn Ponggabean Senior.jpg": "/static/media/Alyn Ponggabean Senior.9efb5decc8c4d2f151b7.jpg",
     "static/media/getting_started_0.png": "/static/media/getting_started_0.861fc7036291763ba44f.png",
     "static/media/picture_9.png": "/static/media/picture_9.c2bb2f081d56dbd17cab.png",
     "static/media/finished_appending_inner_curve_floor.png": "/static/media/finished_appending_inner_curve_floor.9305dcb927a6482e74ed.png",
@@ -1637,6 +1639,6 @@
   },
   "entrypoints": [
     "static/css/main.621a8fb8.css",
-    "static/js/main.8279284e.js"
+    "static/js/main.be5e84ad.js"
   ]
 }
