@@ -37,7 +37,11 @@ const LabMarkdown = (props) => {
   return (
     <section id={styles.daLab}>
       <div style={{ display: "flex", flexDirection: "row" }}>
-        <MarkdownNavbar source={markdown} ordered={false} />
+        <MarkdownNavbar
+          source={markdown}
+          ordered={false}
+          updateHashAuto={false}
+        />
         <CustomMarkdownComponent images={images} child={markdown} />
       </div>
     </section>

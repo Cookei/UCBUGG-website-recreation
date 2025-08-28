@@ -48,7 +48,7 @@ const About = forwardRef((props, ref) => {
               <p>
                 With the success of UCBUGG, we were able to create another class
                 meant for more advanced techniques in 3D Modeling and Animation
-                called CNM 190, however to budget cuts we were unable to
+                called CNM 190, however due to budget cuts we were unable to
                 maintain the class.
               </p>
               <p>

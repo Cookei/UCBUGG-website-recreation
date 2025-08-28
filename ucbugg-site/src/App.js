@@ -1,6 +1,7 @@
 //Routing
 // import { BrowserRouter, Routes, Route } from "react-router-dom";
-import { Redirect, Route, Switch } from "wouter";
+import { Router, Redirect, Route, Switch } from "wouter";
+import { useHashLocation } from "wouter/use-hash-location";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Syllabus from "./pages/Syllabus";
@@ -38,38 +39,40 @@ getRoute(data);
 function App() {
   return (
     <>
-      <Navbar />
-      <Switch>
-        <Route path="/">
-          <Home />
-        </Route>
-        <Route path="/syllabus">
-          <Syllabus />
-        </Route>
-        <Route path="/labs">
-          <Labs />
-        </Route>
-        {tempEntries.map((e) => {
-          return (
-            <Route path={`/labs/${e.path}`} key={e.key}>
-              <LabMarkdown path={e.path} />
-            </Route>
-          );
-        })}
-        <Route path="/about">
-          <About />
-        </Route>
-        <Route>
-          <Redirect to="/" />
-        </Route>
-      </Switch>
-      <Canvas
-        eventSource={document.getElementById("root")}
-        className={styles.splashCanvas}
-      >
-        <View.Port />
-        <Preload all />
-      </Canvas>
+      <Router hook={useHashLocation}>
+        <Navbar />
+        <Switch>
+          <Route path="/">
+            <Home />
+          </Route>
+          <Route path="/syllabus">
+            <Syllabus />
+          </Route>
+          <Route path="/labs">
+            <Labs />
+          </Route>
+          {tempEntries.map((e) => {
+            return (
+              <Route path={`/labs/${e.path}`} key={e.key}>
+                <LabMarkdown path={e.path} />
+              </Route>
+            );
+          })}
+          <Route path="/about">
+            <About />
+          </Route>
+          <Route>
+            <Redirect to="/" />
+          </Route>
+        </Switch>
+        <Canvas
+          eventSource={document.getElementById("root")}
+          className={styles.splashCanvas}
+        >
+          <View.Port />
+          <Preload all />
+        </Canvas>
+      </Router>
     </>
   );
 }

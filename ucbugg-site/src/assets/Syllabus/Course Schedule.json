@@ -1,14 +1,14 @@
 [
   {
     "year": 2025,
-    "date": ["Jan 27", "Jan 31"],
-    "topics": ["Intro to Maya"],
+    "date": ["Sep 2", "Sep 3"],
+    "topics": ["Intro to Maya / Infosession"],
     "assignments": {
       "basic": {
         "individual": [
           "Install Maya 2024",
           "Submit enrollment form",
-          "Submit application",
+          "Submit application (details in class)",
           "Join Discord"
         ],
         "group": [],
@@ -16,8 +16,9 @@
       },
       "advanced": {
         "individual": [
+          "Install Maya 2024",
           "Submit enrollment form",
-          "Submit application",
+          "Submit application (details in class)",
           "Join Discord"
         ],
         "group": [],
@@ -27,8 +28,8 @@
   },
   {
     "year": 2025,
-    "date": ["Feb 3", "Feb 7"],
-    "topics": ["Art and Story"],
+    "date": ["Sep 8", "Sep 10"],
+    "topics": ["Pre-Production: Story and Art"],
     "assignments": {
       "basic": {
         "individual": [
@@ -39,18 +40,18 @@
         "labsAssigned": ["Pre Production"]
       },
       "advanced": {
-        "individual": [
+        "individual": ["Lab Choice 1"],
+        "group": [
           "Receive feedback on application story pitches",
           "Make 15-20 storyboards to accompany final pitch"
         ],
-        "group": [],
-        "labsAssigned": ["Pre Production"]
+        "labsAssigned": []
       }
     }
   },
   {
     "year": 2025,
-    "date": ["Feb 10", "Feb 14"],
+    "date": ["Sep 15", "Sep 17"],
     "topics": ["Story Pitches", "Project Management", "Group Formation"],
     "assignments": {
       "basic": {
@@ -61,23 +62,18 @@
           "Create an asset list",
           "Set up GDrive"
         ],
-        "labsAssigned": ["Production Management"]
+        "labsAssigned": []
       },
       "advanced": {
-        "individual": [],
-        "group": [
-          "Revise storyboards and develop animatic",
-          "Make modeling sheets for characters",
-          "Create an asset list",
-          "Set up GDrive"
-        ],
-        "labsAssigned": ["Production Management"]
+        "individual": ["Lab Choice 2"],
+        "group": ["Revise storyboards and provide critique"],
+        "labsAssigned": []
       }
     }
   },
   {
     "year": 2025,
-    "date": ["Feb 17", "Feb 21"],
+    "date": ["Sep 22", "Sep 24"],
     "topics": ["Modeling 1"],
     "assignments": {
       "basic": {
@@ -86,18 +82,15 @@
         "labsAssigned": ["Modeling 1"]
       },
       "advanced": {
-        "individual": [
-          "Complete Hard Surface Modeling Lab",
-          "Read Node Editor Lab"
-        ],
-        "group": ["Model Props", "Project Set Up"],
-        "labsAssigned": ["Hard Surface Modeling", "Node Editor"]
+        "individual": ["Lab Choice 3"],
+        "group": ["Group Formation or Demo Reel Pitch"],
+        "labsAssigned": []
       }
     }
   },
   {
     "year": 2025,
-    "date": ["Feb 24", "Feb 28"],
+    "date": ["Sep 29", "Oct 1"],
     "topics": ["Modeling 2"],
     "assignments": {
       "basic": {
@@ -106,15 +99,15 @@
         "labsAssigned": ["Modeling 2"]
       },
       "advanced": {
-        "individual": ["Complete Organic Modeling Lab"],
-        "group": ["Model all characters and environment"],
-        "labsAssigned": ["Organic Modeling Dragon", "Organic Modeling Human"]
+        "individual": ["Homework Choice"],
+        "group": ["Homework Choice", "Work on short"],
+        "labsAssigned": []
       }
     }
   },
   {
     "year": 2025,
-    "date": ["Mar 3", "Mar 7"],
+    "date": ["Oct 6", "Oct 8"],
     "topics": ["Shading"],
     "assignments": {
       "basic": {
@@ -126,18 +119,15 @@
         "labsAssigned": ["Basic Materials"]
       },
       "advanced": {
-        "individual": ["Complete Hypershade Lab"],
-        "group": [
-          "UV Map, texture, and shade all models",
-          "Submit preview render"
-        ],
+        "individual": ["Homework Choice"],
+        "group": ["Work on short"],
         "labsAssigned": ["Hypershade"]
       }
     }
   },
   {
     "year": 2025,
-    "date": ["Mar 10", "Mar 14"],
+    "date": ["Oct 13", "Oct 15"],
     "topics": ["Rigging 1"],
     "assignments": {
       "basic": {
@@ -146,15 +136,15 @@
         "labsAssigned": ["Rigging 1"]
       },
       "advanced": {
-        "individual": [],
-        "group": ["Setup skeletons for all characters", "Create blendshapes"],
+        "individual": ["Homework Choice"],
+        "group": ["Homework Choice", "Work on short"],
         "labsAssigned": []
       }
     }
   },
   {
     "year": 2025,
-    "date": ["Mar 17", "Mar 21"],
+    "date": ["Oct 20", "Oct 22"],
     "topics": ["Rigging 2"],
     "assignments": {
       "basic": {
@@ -163,18 +153,15 @@
         "labsAssigned": ["Rigging 2"]
       },
       "advanced": {
-        "individual": [
-          "Complete Advanced Rigging Lab",
-          "Read Rigging Guide Lab"
-        ],
-        "group": ["Add controllers to rigs", "Skin characters"],
-        "labsAssigned": ["Advanced Rigging", "Rigging Guide"]
+        "individual": ["Homework Choice"],
+        "group": ["Work on short"],
+        "labsAssigned": []
       }
     }
   },
   {
     "year": 2025,
-    "date": ["Mar 31", "Apr 4"],
+    "date": ["Oct 27", "Oct 29"],
     "topics": ["Animation 1"],
     "assignments": {
       "basic": {
@@ -183,15 +170,15 @@
         "labsAssigned": ["Animation 1", "Playblasts"]
       },
       "advanced": {
-        "individual": ["Complete Charactor Animation lab up to 'hip rotate y'"],
-        "group": ["Start blocking animation"],
-        "labsAssigned": ["Character Animation"]
+        "individual": ["Homework Choice"],
+        "group": ["Homework Choice", "Work on short"],
+        "labsAssigned": []
       }
     }
   },
   {
     "year": 2025,
-    "date": ["Apr 7", "Apr 11"],
+    "date": ["Nov 3", "Nov 5"],
     "topics": ["Animation 2"],
     "assignments": {
       "basic": {
@@ -200,15 +187,15 @@
         "labsAssigned": ["Animation 2"]
       },
       "advanced": {
-        "individual": ["Complete rest of Character Animation Lab"],
-        "group": ["Submit refined playblasts"],
-        "labsAssigned": ["Character Animation"]
+        "individual": ["Homework Choice"],
+        "group": ["Work on short"],
+        "labsAssigned": []
       }
     }
   },
   {
     "year": 2025,
-    "date": ["Apr 14", "Apr 18"],
+    "date": ["Nov 10", "Nov 12"],
     "topics": ["Visual Effects and Lighting"],
     "assignments": {
       "basic": {
@@ -217,15 +204,15 @@
         "labsAssigned": ["Lighting Arnold"]
       },
       "advanced": {
-        "individual": ["Complete Lighting 2 Lab"],
-        "group": ["Continue refining animation", "Submit playblasts"],
-        "labsAssigned": ["Lighting 2"]
+        "individual": ["Homework Choice"],
+        "group": ["Work on short"],
+        "labsAssigned": []
       }
     }
   },
   {
     "year": 2025,
-    "date": ["Apr 21", "Apr 25"],
+    "date": ["Nov 17", "Nov 19"],
     "topics": ["Rendering and Compositing"],
     "assignments": {
       "basic": {
@@ -242,58 +229,67 @@
         ]
       },
       "advanced": {
-        "individual": [
-          "Complete a Post Production Lab",
-          "Complete VFX Lab (Extra Credit)"
-        ],
-        "group": ["Create lighting rigs", "Submit lighting preview render"],
-        "labsAssigned": [
-          "Rendering",
-          "Compositing Layer Management",
-          "Compositing Motion Tracking",
-          "Compositing Particles"
-        ]
+        "individual": ["Homework Choice"],
+        "group": ["Homework Choice", "Work on short"],
+        "labsAssigned": []
       }
     }
   },
   {
     "year": 2025,
-    "date": ["Apr 28", "May 2"],
-    "topics": ["Last Lecture/Speaker Event"],
+    "date": ["Nov 24", "Nov 26"],
+    "topics": ["Thanksgiving Break \\| No Class"],
     "assignments": {
       "basic": {
-        "individual": [],
-        "group": ["Continue groupwork"],
+        "individual": ["N/A"],
+        "group": ["N/A"],
         "labsAssigned": []
       },
       "advanced": {
-        "individual": [],
-        "group": ["Continue groupwork"],
+        "individual": ["N/A"],
+        "group": ["N/A"],
         "labsAssigned": []
       }
     }
   },
   {
     "year": 2025,
-    "date": ["May 5-9"],
+    "date": ["Dec 1", "Dec 3"],
+    "topics": ["Final Class Critique"],
+    "assignments": {
+      "basic": {
+        "individual": [],
+        "group": ["Final Renders", "Post-production and sound effects"],
+        "labsAssigned": []
+      },
+      "advanced": {
+        "individual": ["Final Renders"],
+        "group": ["Final Renders", "Post-production and sound effects"],
+        "labsAssigned": []
+      }
+    }
+  },
+  {
+    "year": 2025,
+    "date": ["Dec 8-12"],
     "topics": ["Render week"],
     "assignments": {
       "basic": {
         "individual": [],
-        "group": ["Final Renders", "Post-production and sound effects"],
+        "group": ["Finish up rendering and post production"],
         "labsAssigned": []
       },
       "advanced": {
-        "individual": [],
-        "group": ["Final Renders", "Post-production and sound effects"],
+        "individual": ["Finish up rendering and post production"],
+        "group": ["Finish up rendering and post production"],
         "labsAssigned": []
       }
     }
   },
   {
     "year": 2025,
-    "date": ["May 9"],
+    "date": ["TBA"],
     "topics": ["Final Showcase"],
-    "location": "Location: Soda 306 HP Auditorium"
+    "location": "TBA"
   }
 ]
