@@ -2,23 +2,23 @@
 
 # Course Overview
 
-**Course Email:** staff@ucbugg.com  
+**Course Email:** staff@ucbugg.com
 
 **Course Website:** ucbugg.com
 
-**Class Days & Hours:** Monday or Friday | 7:00pm - 9:00pm  
+**Class Days & Hours:** Monday or Friday | 7:00pm - 9:00pm
 
-**Class Location:** Soda 330  
+**Class Location:** Soda 330
 
 **Unit Information:** CS 198-3, 3 units
 
 ## Staff
 
-| Role              | Name(s)                                                                                                         |
-| ----------------- | --------------------------------------------------------------------------------------------------------------- |
-| Head Facilitators | Francis Basco <br>Rebecca Feng                                                                                      |
-| Facilitators      | Gabriel De Leon <br>Khylie Aviles<br>Han Li<br>Raine Koizumi <br> Joel Castro|
-| Faculty Sponsor   | Dan Garcia                                                                                                      |
+| Role              | Name(s)                                                                                                                                  |
+| ----------------- | ---------------------------------------------------------------------------------------------------------------------------------------- |
+| Head Facilitators | Francis Basco                                                                                                                            |
+| Facilitators      | Gabriel De Leon <br>Han Li <br>Joel Castro <br>Joyce Yang <br>Mirinae Toste <br>Travis Le <br>Alyn Panggabean <br>Genesis Diaz-Velazquez |
+| Faculty Sponsor   | Dan Garcia                                                                                                                               |
 
 # Course Description and Structure
 
@@ -69,5 +69,3 @@ This course can only be taken as PASS/NO PASS (P/NP). CCNs will be provided by t
 | Completion of Final Short | 25%        |
 
 # Course Outline
-
-

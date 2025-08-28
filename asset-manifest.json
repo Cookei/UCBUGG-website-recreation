@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.621a8fb8.css",
-    "main.js": "/static/js/main.0c9fd454.js",
+    "main.js": "/static/js/main.8279284e.js",
     "static/js/526.a1046954.chunk.js": "/static/js/526.a1046954.chunk.js",
     "static/js/811.149798e1.chunk.js": "/static/js/811.149798e1.chunk.js",
     "static/js/206.24d8eb7c.chunk.js": "/static/js/206.24d8eb7c.chunk.js",
@@ -363,7 +363,7 @@
     "static/media/cello_bridge.zip": "/static/media/cello_bridge.7223e717e7f6d231d3d3.zip",
     "static/media/basic_toon_shading_8.png": "/static/media/basic_toon_shading_8.4da05ce4e22036e3b8bf.png",
     "static/media/17.png": "/static/media/17.dfbac3f01362d3bfda77.png",
-    "static/media/Rebecca Feng Senior.jpg": "/static/media/Rebecca Feng Senior.53b4370b3452eb2d99c2.jpg",
+    "static/media/Rebecca Feng.jpg": "/static/media/Rebecca Feng.53b4370b3452eb2d99c2.jpg",
     "static/media/kneepops.gif": "/static/media/kneepops.20159ab8843b13c574d6.gif",
     "static/media/52.png": "/static/media/52.eb547880b857df3c661c.png",
     "static/media/body26.png": "/static/media/body26.f343617284e7ffbaefa5.png",
@@ -683,6 +683,7 @@
     "static/media/wrong_normal_inner_curve.png": "/static/media/wrong_normal_inner_curve.eaa13d467cbe8e0128b6.png",
     "static/media/18_hair.png": "/static/media/18_hair.d42e5bbff33dbca46eff.png",
     "static/media/Capture8.png": "/static/media/Capture8.e7a2842a1eab0308841c.png",
+    "static/media/Joyce Yang Senior.jpg": "/static/media/Joyce Yang Senior.facc719e232e39b35f2c.jpg",
     "static/media/main_tree.ma": "/static/media/main_tree.efd9e821bf1b21590720.ma",
     "static/media/8_shirt.png": "/static/media/8_shirt.91dee7301f15c250c809.png",
     "static/media/basic_toon_shading_3.png": "/static/media/basic_toon_shading_3.1e00bf95fd12ead0f55f.png",
@@ -1145,7 +1146,7 @@
     "static/media/ear.jpg": "/static/media/ear.dffcb1c8c69fc3027b57.jpg",
     "static/media/pm19.png": "/static/media/pm19.f7b5b18b66f41a1828a7.png",
     "static/media/image35.png": "/static/media/image35.b3c6ab00f954f2e0e5fa.png",
-    "static/media/Raine Koizumi Senior.jpg": "/static/media/Raine Koizumi Senior.2d6bd7519d9ca233b979.jpg",
+    "static/media/Raine Koizumi.jpg": "/static/media/Raine Koizumi.2d6bd7519d9ca233b979.jpg",
     "static/media/l5.png": "/static/media/l5.7b0cc5b0297bdf3446f1.png",
     "static/media/image2.png": "/static/media/image2.a7aab0cada1896bc7f62.png",
     "static/media/extrude.jpg": "/static/media/extrude.0376ff09718aa9fbc417.jpg",
@@ -1618,12 +1619,12 @@
     "static/media/xgen.md": "/static/media/xgen.b65957394c590d5edbc2.md",
     "static/media/cloth.md": "/static/media/cloth.8b9f8004ec56f327b6f5.md",
     "static/media/fluids.md": "/static/media/fluids.8d349e8951c6309c6435.md",
-    "static/media/Syllabus.md": "/static/media/Syllabus.767434f6d697c2d4b5b5.md",
+    "static/media/Syllabus.md": "/static/media/Syllabus.08f1bfde1063309d3f4c.md",
     "static/media/playblasts.md": "/static/media/playblasts.3ca2d5a786516a2dd26d.md",
     "static/media/animation 2.md": "/static/media/animation 2.b95b00dfdef4b3458b48.md",
     "static/media/stupidbottombannerhillsblahugh.svg": "/static/media/stupidbottombannerhillsblahugh.b144eddf435eaa50ce6a400ff25a81c7.svg",
-    "static/media/advancedSchedule.md": "/static/media/advancedSchedule.6009e5d5b63170acb5bd.md",
-    "static/media/basicSchedule.md": "/static/media/basicSchedule.75f65f25a99d80d1475d.md",
+    "static/media/basicSchedule.md": "/static/media/basicSchedule.32353eefcef2be45f209.md",
+    "static/media/advancedSchedule.md": "/static/media/advancedSchedule.82951730017ad39fed48.md",
     "static/media/bifrost_clouds.md": "/static/media/bifrost_clouds.5c3731107cbaef9e5e57.md",
     "static/media/descend.zip": "/static/media/descend.57c6aafac005f02e6040.zip",
     "index.html": "/index.html",
@@ -1636,6 +1637,6 @@
   },
   "entrypoints": [
     "static/css/main.621a8fb8.css",
-    "static/js/main.0c9fd454.js"
+    "static/js/main.8279284e.js"
   ]
 }
