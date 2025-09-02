@@ -42,8 +42,10 @@
       "advanced": {
         "individual": ["Lab Choice 1"],
         "group": [
-          "Receive feedback on application story pitches",
-          "Make 15-20 storyboards to accompany final pitch"
+          "Revise storyboards (15-20 frames)",
+          "Create mood board",
+          "Create character sheets",
+          "Create asset list"
         ],
         "labsAssigned": []
       }
@@ -66,7 +68,12 @@
       },
       "advanced": {
         "individual": ["Lab Choice 2"],
-        "group": ["Revise storyboards and provide critique"],
+        "group": [
+          "Revise storyboards and provide critique",
+          "Revise moodboard",
+          "Block out character models and major assets (previs)",
+          "Create animatic"
+        ],
         "labsAssigned": []
       }
     }
@@ -83,7 +90,10 @@
       },
       "advanced": {
         "individual": ["Lab Choice 3"],
-        "group": ["Group Formation or Demo Reel Pitch"],
+        "group": [
+          "Group Formation or Demo Reel Pitch",
+          "Start modeling assets"
+        ],
         "labsAssigned": []
       }
     }
@@ -100,7 +110,7 @@
       },
       "advanced": {
         "individual": ["Homework Choice"],
-        "group": ["Homework Choice", "Work on short"],
+        "group": ["Homework Choice", "Continue modeling", "Start shading"],
         "labsAssigned": []
       }
     }
@@ -120,8 +130,13 @@
       },
       "advanced": {
         "individual": ["Homework Choice"],
-        "group": ["Work on short"],
-        "labsAssigned": ["Hypershade"]
+        "group": [
+          "Continue modeling",
+          "Continue shading",
+          "Start rigging",
+          "Block out set"
+        ],
+        "labsAssigned": []
       }
     }
   },
@@ -137,7 +152,12 @@
       },
       "advanced": {
         "individual": ["Homework Choice"],
-        "group": ["Homework Choice", "Work on short"],
+        "group": [
+          "Homework Choice",
+          "Continue shading",
+          "Refine set",
+          "Continue rigging"
+        ],
         "labsAssigned": []
       }
     }
@@ -154,7 +174,7 @@
       },
       "advanced": {
         "individual": ["Homework Choice"],
-        "group": ["Work on short"],
+        "group": ["Finish all models, rigs, and sets"],
         "labsAssigned": []
       }
     }
@@ -171,7 +191,11 @@
       },
       "advanced": {
         "individual": ["Homework Choice"],
-        "group": ["Homework Choice", "Work on short"],
+        "group": [
+          "Homework Choice",
+          "Start lighting",
+          "Start blocking animation"
+        ],
         "labsAssigned": []
       }
     }
@@ -188,7 +212,7 @@
       },
       "advanced": {
         "individual": ["Homework Choice"],
-        "group": ["Work on short"],
+        "group": ["Continue lighting", "Submit refined playblast 1"],
         "labsAssigned": []
       }
     }
@@ -205,7 +229,7 @@
       },
       "advanced": {
         "individual": ["Homework Choice"],
-        "group": ["Work on short"],
+        "group": ["Submit refined playblast 2", "Touchups"],
         "labsAssigned": []
       }
     }
@@ -230,7 +254,11 @@
       },
       "advanced": {
         "individual": ["Homework Choice"],
-        "group": ["Homework Choice", "Work on short"],
+        "group": [
+          "Homework Choice",
+          "Submit refined playblast 3",
+          "Continue refining"
+        ],
         "labsAssigned": []
       }
     }
@@ -264,7 +292,7 @@
       },
       "advanced": {
         "individual": ["Final Renders"],
-        "group": ["Final Renders", "Post-production and sound effects"],
+        "group": ["Final Renders", "Start post-production and sound effects"],
         "labsAssigned": []
       }
     }
@@ -281,7 +309,7 @@
       },
       "advanced": {
         "individual": ["Finish up rendering and post production"],
-        "group": ["Finish up rendering and post production"],
+        "group": ["Compositing", "Finish everything"],
         "labsAssigned": []
       }
     }

@@ -368,7 +368,7 @@ const Home = (props, ref) => {
           >
             <h1>Schedule</h1>
             <div className={styles.SDHSmallTextBlock}>
-              Monday or Friday
+              Monday or Wednesday
               <br />
               7:00 - 9:00pm
               <br />
