@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.621a8fb8.css",
-    "main.js": "/static/js/main.be5e84ad.js",
+    "main.js": "/static/js/main.3bca76a9.js",
     "static/js/526.a1046954.chunk.js": "/static/js/526.a1046954.chunk.js",
     "static/js/811.149798e1.chunk.js": "/static/js/811.149798e1.chunk.js",
     "static/js/206.24d8eb7c.chunk.js": "/static/js/206.24d8eb7c.chunk.js",
@@ -17,6 +17,7 @@
     "static/media/2d3d_4.gif": "/static/media/2d3d_4.f2cf65a6a8d99e6086f3.gif",
     "static/media/010.mp4": "/static/media/010.8e5556ab98752c3cc144.mp4",
     "static/media/moving_cluster_controllers.gif": "/static/media/moving_cluster_controllers.bf78b6dbb65ec28e2935.gif",
+    "static/media/Genesis Diaz-Velazquez Senior.png": "/static/media/Genesis Diaz-Velazquez Senior.73018501330abe3841ef.png",
     "static/media/demo_no_lights.ma": "/static/media/demo_no_lights.634d26806e574f7a0efb.ma",
     "static/media/Head_BaseMesh.ma": "/static/media/Head_BaseMesh.79e46e54c2c5917d595a.ma",
     "static/media/eraser1.gif": "/static/media/eraser1.d2e50ccf0a5fee08c29e.gif",
@@ -905,7 +906,7 @@
     "static/media/Capture82.png": "/static/media/Capture82.a0e3e03242ca437f8e0f.png",
     "static/media/body7b.png": "/static/media/body7b.5181c30b79e6a2f8efd0.png",
     "static/media/img29.png": "/static/media/img29.850557a42b301fdc23f7.png",
-    "static/media/Joel Castro.jpg": "/static/media/Joel Castro.6ee632b5348be241fee4.jpg",
+    "static/media/Joel Castro Senior.jpg": "/static/media/Joel Castro Senior.6ee632b5348be241fee4.jpg",
     "static/media/hand.png": "/static/media/hand.6f30555f33a0f0c916fd.png",
     "static/media/gen.png": "/static/media/gen.65b69b04ca34f8aff46d.png",
     "static/media/picture_3.png": "/static/media/picture_3.f0f057980abf311f139e.png",
@@ -1129,6 +1130,7 @@
     "static/media/render_sequence_location.jpg": "/static/media/render_sequence_location.a77624432e2cfa1e44cf.jpg",
     "static/media/3cube2.png": "/static/media/3cube2.d02dda43a23469a48e48.png",
     "static/media/11- insert edge loop.png": "/static/media/11- insert edge loop.2b38f4c7fd10206af62c.png",
+    "static/media/Han Li.jpg": "/static/media/Han Li.530ee8e597e4b3e1a84a.jpg",
     "static/media/lightcentric.png": "/static/media/lightcentric.8c18cfaaff816ab2cea9.png",
     "static/media/locator.png": "/static/media/locator.32d51cd4071ac37cd168.png",
     "static/media/mirror.png": "/static/media/mirror.ba685585ab7cb3d1ab76.png",
@@ -1500,6 +1502,7 @@
     "static/media/checkerboard.png": "/static/media/checkerboard.1bff87713257636cf1c9.png",
     "static/media/basic_materials_arnold_7.png": "/static/media/basic_materials_arnold_7.2e61e7324476b01849f9.png",
     "static/media/Screen Shot 2016-04-11 at 2.22.04 PM.png": "/static/media/Screen Shot 2016-04-11 at 2.22.04 PM.b553707b4e7877702254.png",
+    "static/media/Miriane Toste Senior.jpg": "/static/media/Miriane Toste Senior.a0443b08a7c6cda230d0.jpg",
     "static/media/022.png": "/static/media/022.aa02a6cb4cdc86a03f5d.png",
     "static/media/l2.png": "/static/media/l2.6fa57784c3c280b26462.png",
     "static/media/basic_materials_arnold_20.png": "/static/media/basic_materials_arnold_20.ac0c13f0d63cba08afdb.png",
@@ -1542,7 +1545,6 @@
     "static/media/basic_materials_arnold_4.png": "/static/media/basic_materials_arnold_4.1ca9eb5bdd56a904d5c4.png",
     "static/media/cloth4.png": "/static/media/cloth4.0ba6a37a375580471abe.png",
     "static/media/stitching.jpg": "/static/media/stitching.d9649add5958f97fc827.jpg",
-    "static/media/Han Li.jpg": "/static/media/Han Li.c6de3e313016faaf1d1b.jpg",
     "static/media/final.jpg": "/static/media/final.e3c56d9d7dd107fa7a65.jpg",
     "static/media/mouth5.jpg": "/static/media/mouth5.acd56f3c14088fc74434.jpg",
     "static/media/l7.png": "/static/media/l7.9dd77119090dcd52a4ab.png",
@@ -1621,7 +1623,7 @@
     "static/media/xgen.md": "/static/media/xgen.b65957394c590d5edbc2.md",
     "static/media/cloth.md": "/static/media/cloth.8b9f8004ec56f327b6f5.md",
     "static/media/fluids.md": "/static/media/fluids.8d349e8951c6309c6435.md",
-    "static/media/Syllabus.md": "/static/media/Syllabus.08f1bfde1063309d3f4c.md",
+    "static/media/Syllabus.md": "/static/media/Syllabus.3a6d56e8a2d7df73e78f.md",
     "static/media/playblasts.md": "/static/media/playblasts.3ca2d5a786516a2dd26d.md",
     "static/media/animation 2.md": "/static/media/animation 2.b95b00dfdef4b3458b48.md",
     "static/media/stupidbottombannerhillsblahugh.svg": "/static/media/stupidbottombannerhillsblahugh.b144eddf435eaa50ce6a400ff25a81c7.svg",
@@ -1639,6 +1641,6 @@
   },
   "entrypoints": [
     "static/css/main.621a8fb8.css",
-    "static/js/main.be5e84ad.js"
+    "static/js/main.3bca76a9.js"
   ]
 }
