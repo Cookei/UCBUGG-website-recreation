@@ -1,9 +1,11 @@
 import _Francis_Basco_Seniorwebp from '../assets/tatoes/head tatoes/Francis Basco Senior.webp'
 import _Alyn_Ponggabean_Seniorjpg from '../assets/tatoes/normal tatoes/Alyn Ponggabean Senior.jpg'
 import _Gabriel_De_Leon_Seniorjpg from '../assets/tatoes/normal tatoes/Gabriel De Leon Senior.jpg'
+import _Genesis_Diaz_Velazquez_Seniorpng from '../assets/tatoes/normal tatoes/Genesis Diaz-Velazquez Senior.png'
 import _Han_Lijpg from '../assets/tatoes/normal tatoes/Han Li.jpg'
-import _Joel_Castrojpg from '../assets/tatoes/normal tatoes/Joel Castro.jpg'
+import _Joel_Castro_Seniorjpg from '../assets/tatoes/normal tatoes/Joel Castro Senior.jpg'
 import _Joyce_Yang_Seniorjpg from '../assets/tatoes/normal tatoes/Joyce Yang Senior.jpg'
+import _Miriane_Toste_Seniorjpg from '../assets/tatoes/normal tatoes/Miriane Toste Senior.jpg'
 import _Travis_Lejpg from '../assets/tatoes/normal tatoes/Travis Le.jpg'
 import _Abby_Cohnjpg from '../assets/tatoes/past tatoes/Abby Cohn.jpg'
 import _Akemi_Nagashikijpg from '../assets/tatoes/past tatoes/Akemi Nagashiki.JPG'
@@ -68,12 +70,16 @@ const data = {
  name: "Alyn Ponggabean Senior", folder: "../assets/tatoes/normal tatoes"},
 {img: _Gabriel_De_Leon_Seniorjpg,
  name: "Gabriel De Leon Senior", folder: "../assets/tatoes/normal tatoes"},
+{img: _Genesis_Diaz_Velazquez_Seniorpng,
+ name: "Genesis Diaz-Velazquez Senior", folder: "../assets/tatoes/normal tatoes"},
 {img: _Han_Lijpg,
  name: "Han Li", folder: "../assets/tatoes/normal tatoes"},
-{img: _Joel_Castrojpg,
- name: "Joel Castro", folder: "../assets/tatoes/normal tatoes"},
+{img: _Joel_Castro_Seniorjpg,
+ name: "Joel Castro Senior", folder: "../assets/tatoes/normal tatoes"},
 {img: _Joyce_Yang_Seniorjpg,
  name: "Joyce Yang Senior", folder: "../assets/tatoes/normal tatoes"},
+{img: _Miriane_Toste_Seniorjpg,
+ name: "Miriane Toste Senior", folder: "../assets/tatoes/normal tatoes"},
 {img: _Travis_Lejpg,
  name: "Travis Le", folder: "../assets/tatoes/normal tatoes"},
 

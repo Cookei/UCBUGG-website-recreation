@@ -64,7 +64,7 @@ const Home = (props, ref) => {
   return (
     <>
       <div id={styles.adBanner}>
-        <a href="https://forms.gle/w51Q3HYgNCSLPBNN7" target="_blank">
+        <a href="https://forms.gle/biATn79VFULMki2q7" target="_blank">
           <h1>UCBUGG Infosession Signup / Interest Form click here!</h1>
         </a>
       </div>
