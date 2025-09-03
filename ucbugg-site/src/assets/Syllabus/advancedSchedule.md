@@ -9,7 +9,7 @@
 | Sep 22 / 24 | Modeling 1 | Individual | Group |
 | ^ | ^ | <ul><li>Lab Choice 3</li></ul> | <ul><li>Group Formation or Demo Reel Pitch</li><li>Start modeling assets</li></ul> |
 | Sep 29<br>Oct 1 | Modeling 2 | Individual | Group |
-| ^ | ^ | <ul><li>Homework Choice</li></ul> | <ul><li>Homework Choice</li><li>Continue modeling</li><li>Start shading</li></ul> |
+| ^ | ^ | <ul><li>Homework Choice</li></ul> | <ul><li>Homework Choice</li><li>Continue modeling</li><li>Start shading and/or rigging</li></ul> |
 | Oct 6 / 8 | Shading | Individual | Group |
 | ^ | ^ | <ul><li>Homework Choice</li></ul> | <ul><li>Continue modeling</li><li>Continue shading</li><li>Start rigging</li><li>Block out set</li></ul> |
 | Oct 13 / 15 | Rigging 1 | Individual | Group |

@@ -110,7 +110,11 @@
       },
       "advanced": {
         "individual": ["Homework Choice"],
-        "group": ["Homework Choice", "Continue modeling", "Start shading"],
+        "group": [
+          "Homework Choice",
+          "Continue modeling",
+          "Start shading and/or rigging"
+        ],
         "labsAssigned": []
       }
     }
