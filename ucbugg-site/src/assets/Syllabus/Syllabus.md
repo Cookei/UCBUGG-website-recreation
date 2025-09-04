@@ -2,7 +2,7 @@
 
 # Course Overview
 
-**Course Email:** staff@ucbugg.com
+**Course Email:** ucbugg@gmail.com
 
 **Course Website:** ucbugg.com
 
