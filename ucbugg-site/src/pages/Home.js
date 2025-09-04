@@ -100,7 +100,7 @@ const Home = (props, ref) => {
               University of California Berkeley Undergraduate Graphics Group
             </p>
             <div id={styles.socialIcons}>
-              <SocialIcon icon={emailIcon} link="mailto:staff@ucbugg.com" />
+              <SocialIcon icon={emailIcon} link="mailto:ucbugg@gmail.com" />
               <SocialIcon
                 icon={discordIcon}
                 link="https://discord.gg/QTYFDrhw9y"
