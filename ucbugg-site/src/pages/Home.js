@@ -63,11 +63,11 @@ const Home = (props, ref) => {
 
   return (
     <>
-      <div id={styles.adBanner}>
+      {/* <div id={styles.adBanner}>
         <a href="https://forms.gle/biATn79VFULMki2q7" target="_blank">
           <h1>UCBUGG Infosession Signup / Interest Form click here!</h1>
         </a>
-      </div>
+      </div> */}
       {/* <div id={styles.adBanner}>
         <a href="https://maps.app.goo.gl/426jEUhW89u27SsR7" target="_blank">
           <h1>Sp2025 Showcase May 9th 5-7pm at the HP Auditorium!</h1>
