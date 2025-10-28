@@ -211,7 +211,7 @@ Awesome job! Quadruped rigs are not easy but this example should help you apply 
 
 Now that we have a better grasp on how to manipulate our skeleton, we're going to attach the skeleton to the mesh. Select your root joint and then the body mesh of the fox. Go to Skin -> Bind Skin and click the options box. The dialog should look something like this:
 
-skinning3.jpg
+![](skinning3.jpg)
 
 If it doesn't, change it so it does. Our [Skinning Guide](http://ucbugg.com/static/index.html#labsskinning) provides explanations for each of these options.
 
