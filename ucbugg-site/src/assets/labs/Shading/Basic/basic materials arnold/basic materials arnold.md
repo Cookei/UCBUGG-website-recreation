@@ -190,4 +190,4 @@ Textures and texture maps can go a long way! Textures can represent colors, but 
 
 If you're interested in more advanced shading, understanding how it works more in depth and creating procedual textures, please check out the Hypershade Lab!
 
-For deliverables, save your pencil file as SECTION_HW6_LASTNAMEFIRSTNAME.ma and your screenshot of your cube from the first part as SECTION_HW6_LASTNAMEFIRSTNAME.png and submit it to bcourses.
+For deliverables, save your pencil file as SECTION_HW6_LASTNAMEFIRSTNAME.ma, save all your texture files accordingly, and your screenshot of your cube from the first part as SECTION_HW6_LASTNAMEFIRSTNAME.png and submit it to bcourses.
