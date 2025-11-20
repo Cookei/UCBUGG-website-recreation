@@ -1,9 +1,10 @@
 {
   "files": {
     "main.css": "/static/css/main.621a8fb8.css",
-    "main.js": "/static/js/main.533a9ea2.js",
+    "main.js": "/static/js/main.d78fc18a.js",
     "static/js/526.a1046954.chunk.js": "/static/js/526.a1046954.chunk.js",
     "static/js/811.149798e1.chunk.js": "/static/js/811.149798e1.chunk.js",
+    "static/js/123.82b4a845.chunk.js": "/static/js/123.82b4a845.chunk.js",
     "static/js/206.24d8eb7c.chunk.js": "/static/js/206.24d8eb7c.chunk.js",
     "static/js/905.ca99936b.chunk.js": "/static/js/905.ca99936b.chunk.js",
     "static/js/339.69fb222d.chunk.js": "/static/js/339.69fb222d.chunk.js",
@@ -1398,6 +1399,7 @@
     "static/media/creating labs - 3.jpg": "/static/media/creating labs - 3.b79ed233017ed493bf2e.jpg",
     "static/media/picture_35.png": "/static/media/picture_35.81de29bf1a546cfb941b.png",
     "static/media/mouth6.jpg": "/static/media/mouth6.8a94b1f31eb218cc69e8.jpg",
+    "static/media/christmas_hat.glb": "/static/media/christmas_hat.1d9081ff6c88f2b0289b.glb",
     "static/media/17 - extrude back.png": "/static/media/17 - extrude back.c52ec56ae0fb2a9644b6.png",
     "static/media/18 - flatten back.png": "/static/media/18 - flatten back.90d1b83c58f6bee2252d.png",
     "static/media/figure5a.png": "/static/media/figure5a.129bf3708133df47e2e1.png",
@@ -1493,7 +1495,7 @@
     "static/media/001_mute.png": "/static/media/001_mute.009f50cb2b47f5586a50.png",
     "static/media/barn_settings.png": "/static/media/barn_settings.8de54ba2dfcaed9de8eb.png",
     "static/media/HairColor.png": "/static/media/HairColor.a7c2438d602c85cad495.png",
-    "static/media/rigging 2.md": "/static/media/rigging 2.3f46d54aabeb68c093ba.md",
+    "static/media/rigging 2.md": "/static/media/rigging 2.259067c75927d8459aaa.md",
     "static/media/meshLight.png": "/static/media/meshLight.bb444b94438a93a67f33.png",
     "static/media/holdouts.png": "/static/media/holdouts.16d4a056f7665d944104.png",
     "static/media/l0.png": "/static/media/l0.b890fd37dd385bf018d5.png",
@@ -1576,7 +1578,7 @@
     "static/media/playblasts6.png": "/static/media/playblasts6.d7d08c6ab36956c79e22.png",
     "static/media/cloth3.png": "/static/media/cloth3.bcc0990def8966214678.png",
     "static/media/rotat.png": "/static/media/rotat.3a01acfdbb9c06ffeb1c.png",
-    "static/media/basic materials arnold.md": "/static/media/basic materials arnold.0c8183225971cbaa6d16.md",
+    "static/media/basic materials arnold.md": "/static/media/basic materials arnold.049c45c76a93a7c4c35e.md",
     "static/media/rightFootForwardBlockAgain.png": "/static/media/rightFootForwardBlockAgain.55bfbeb5456ae059ed46.png",
     "static/media/image50.png": "/static/media/image50.980f6d080325340b9048.png",
     "static/media/rendering - arnold.md": "/static/media/rendering - arnold.50160cd156e608bdb984.md",
@@ -1641,6 +1643,6 @@
   },
   "entrypoints": [
     "static/css/main.621a8fb8.css",
-    "static/js/main.533a9ea2.js"
+    "static/js/main.d78fc18a.js"
   ]
 }
