@@ -36,7 +36,7 @@ Now, let's import Nickelstats.mp4 and spacesinfilepaths.png. You can do this in 
 
 Your Project tab should now look like this:
 
-![](001.PNG)
+![](001.png)
 
 > (!info)
 > Pro tip: The Nickelstats.mp4 video is very repetitive and the music can quickly become very annoying. Go ahead and mute the sound since it won't be an important part of this lab.
