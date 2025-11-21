@@ -1189,6 +1189,7 @@ import _029src_assets_labs_Post_Production_compositing_motion_trackingmp4 from '
 import _030src_assets_labs_Post_Production_compositing_motion_trackingpng from '../assets/labs/Post Production/compositing motion tracking/030.png'
 import _032src_assets_labs_Post_Production_compositing_motion_trackingpng from '../assets/labs/Post Production/compositing motion tracking/032.png'
 import _compositing___motion_trackingsrc_assets_labs_Post_Production_compositing_motion_trackingmd from '../assets/labs/Post Production/compositing motion tracking/compositing - motion tracking.md'
+import _Motion_Tracking_Labsrc_assets_labs_Post_Production_compositing_motion_trackingzip from '../assets/labs/Post Production/compositing motion tracking/Motion_Tracking_Lab.zip'
 import _Nickelstatssrc_assets_labs_Post_Production_compositing_motion_trackingmp4 from '../assets/labs/Post Production/compositing motion tracking/Nickelstats.mp4'
 import _Nickelstatssrc_assets_labs_Post_Production_compositing_motion_trackingpng from '../assets/labs/Post Production/compositing motion tracking/Nickelstats.png'
 import _Nickelstats_part1src_assets_labs_Post_Production_compositing_motion_trackinggif from '../assets/labs/Post Production/compositing motion tracking/Nickelstats_part1.gif'
@@ -3040,6 +3041,7 @@ const data = {
         "029.mp4": _029src_assets_labs_Post_Production_compositing_motion_trackingmp4,
         "030.png": _030src_assets_labs_Post_Production_compositing_motion_trackingpng,
         "032.png": _032src_assets_labs_Post_Production_compositing_motion_trackingpng,
+        "Motion_Tracking_Lab.zip": _Motion_Tracking_Labsrc_assets_labs_Post_Production_compositing_motion_trackingzip,
         "Nickelstats.mp4": _Nickelstatssrc_assets_labs_Post_Production_compositing_motion_trackingmp4,
         "Nickelstats.png": _Nickelstatssrc_assets_labs_Post_Production_compositing_motion_trackingpng,
         "Nickelstats_part1.gif": _Nickelstats_part1src_assets_labs_Post_Production_compositing_motion_trackinggif,
