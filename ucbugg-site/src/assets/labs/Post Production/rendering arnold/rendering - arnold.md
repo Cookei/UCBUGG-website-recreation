@@ -106,6 +106,10 @@ Next, you want to navigate to the AOVs tab.
 
 Now, you want to go to the **AOV Browser** and among the Available AOVs menu, find and add N (Normal), P (Position), and albedo. These AOVs will help the Arnold Denoiser in denoising your image. Also, make sure you check Output Denoising AOVs at the top. To add AOVs, simply select the respective AOV from the left under Available AOVs, and click the arrow to move it to the right.
 
+The motionvector and Z (Z-Depth) AOVs are also helpful for if you want to do motion blur in post and/or depth of field in post respectively. If you choose to enable the motionvector AOV and want to do motion blur in post, then make sure to check Instantaneous Shutter in the motion blur settings in the Arnold Renderer tab.
+
+![](motion_blur_settings_4.png)
+
 ## Time to actually render!
 
 After exiting the Render Settings menu, go to Render -> Render Sequence and click the option box.

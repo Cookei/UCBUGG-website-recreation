@@ -1221,6 +1221,7 @@ import _interpret_footage_locationsrc_assets_labs_Post_Production_rendering_arno
 import _interpret_footage_settings1src_assets_labs_Post_Production_rendering_arnoldjpg from '../assets/labs/Post Production/rendering arnold/interpret_footage_settings1.jpg'
 import _interpret_footage_settings2src_assets_labs_Post_Production_rendering_arnoldpng from '../assets/labs/Post Production/rendering arnold/interpret_footage_settings2.png'
 import _motion_blur_settings_3src_assets_labs_Post_Production_rendering_arnoldpng from '../assets/labs/Post Production/rendering arnold/motion_blur_settings_3.png'
+import _motion_blur_settings_4src_assets_labs_Post_Production_rendering_arnoldpng from '../assets/labs/Post Production/rendering arnold/motion_blur_settings_4.png'
 import _Noice_Locationsrc_assets_labs_Post_Production_rendering_arnoldjpg from '../assets/labs/Post Production/rendering arnold/Noice_Location.jpg'
 import _Noice_Settingssrc_assets_labs_Post_Production_rendering_arnoldjpg from '../assets/labs/Post Production/rendering arnold/Noice_Settings.jpg'
 import _output_module_settingssrc_assets_labs_Post_Production_rendering_arnoldjpg from '../assets/labs/Post Production/rendering arnold/output_module_settings.jpg'
@@ -3088,6 +3089,7 @@ const data = {
         "interpret_footage_settings1.jpg": _interpret_footage_settings1src_assets_labs_Post_Production_rendering_arnoldjpg,
         "interpret_footage_settings2.png": _interpret_footage_settings2src_assets_labs_Post_Production_rendering_arnoldpng,
         "motion_blur_settings_3.png": _motion_blur_settings_3src_assets_labs_Post_Production_rendering_arnoldpng,
+        "motion_blur_settings_4.png": _motion_blur_settings_4src_assets_labs_Post_Production_rendering_arnoldpng,
         "Noice_Location.jpg": _Noice_Locationsrc_assets_labs_Post_Production_rendering_arnoldjpg,
         "Noice_Settings.jpg": _Noice_Settingssrc_assets_labs_Post_Production_rendering_arnoldjpg,
         "output_module_settings.jpg": _output_module_settingssrc_assets_labs_Post_Production_rendering_arnoldjpg,
