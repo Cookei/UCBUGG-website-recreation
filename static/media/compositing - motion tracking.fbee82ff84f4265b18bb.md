@@ -8,7 +8,8 @@ In this lab, you will learn how to use After Effect's motion tracking capabiliti
 
 I will assume you have some basic familiarity with the After Effects interface, but in general this lab can be completed without any prior After Effects knowledge. If you would like a refresher on the interface, read through the first few sections of our Compositing - Layer Management lab.
 
-[DOWNLOAD THE LAB HERE](https://drive.google.com/file/d/1pGB8xeVQTX8Odhlg6WIEwXlVwHcPOulO/view?usp=sharing)
+DOWNLOAD THE LAB HERE
+[Motion_Tracking_Lab.zip](Motion_Tracking_Lab.zip)
 
 # PROJECT SETUP
 
@@ -36,7 +37,7 @@ Now, let's import Nickelstats.mp4 and spacesinfilepaths.png. You can do this in 
 
 Your Project tab should now look like this:
 
-![](001.PNG)
+![](001.png)
 
 > (!info)
 > Pro tip: The Nickelstats.mp4 video is very repetitive and the music can quickly become very annoying. Go ahead and mute the sound since it won't be an important part of this lab.

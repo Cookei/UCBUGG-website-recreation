@@ -48,7 +48,7 @@ Back in our Particle World attributes window, let’s select the section labeled
 
 Now let’s play with some of the sizing randomization parameters. Set the attributes for **Birth Size** and **Death Size** to 0.1. Set the **Size Variation** parameter to 75.0%, **Max Opacity** to 50.0%, and both the **Birth Color** and the **Death Color** to a solid white matte (the hex code for solid white in the color picker window is _#FFFFFF_). Now we’re working with snow! We can see there’s some pretty significant variance to the size of our snowflakes - this will help simulate perspective depth in our composite, suggesting that there is snow falling in both the **foreground** and the **background**!
 
-![](snow_shape.gif)
+![](show_shape.gif)
 
 # CREATING THE SNOW (PHYSICS)
 
