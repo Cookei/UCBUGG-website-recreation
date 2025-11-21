@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.621a8fb8.css",
-    "main.js": "/static/js/main.48a3673a.js",
+    "main.js": "/static/js/main.77ce4fa2.js",
     "static/js/526.a1046954.chunk.js": "/static/js/526.a1046954.chunk.js",
     "static/js/811.149798e1.chunk.js": "/static/js/811.149798e1.chunk.js",
     "static/js/123.82b4a845.chunk.js": "/static/js/123.82b4a845.chunk.js",
@@ -1026,11 +1026,11 @@
     "static/media/picture_37.png": "/static/media/picture_37.95861d64dee6bb8920d7.png",
     "static/media/img16.png": "/static/media/img16.54205db5ddea2e764e8d.png",
     "static/media/pm18.png": "/static/media/pm18.2d8d96e8ae53dc73377e.png",
+    "static/media/file_settings.jpg": "/static/media/file_settings.f79a904fb92672619aba.jpg",
     "static/media/body31.png": "/static/media/body31.073bece5147aa887d1cc.png",
     "static/media/image41.png": "/static/media/image41.cb0294d2345171f3cfa8.png",
     "static/media/Capture1.png": "/static/media/Capture1.444665f6b5b2ebd62591.png",
     "static/media/Capture4.png": "/static/media/Capture4.444665f6b5b2ebd62591.png",
-    "static/media/file_settings.jpg": "/static/media/file_settings.8c31b8bb69788bf468d7.jpg",
     "static/media/bowl.gif": "/static/media/bowl.432129b8426e5ff01f29.gif",
     "static/media/30 - post multicut.png": "/static/media/30 - post multicut.9f544d04ffd95abbda4b.png",
     "static/media/mat2.png": "/static/media/mat2.de46e2af19a4617fb453.png",
@@ -1053,7 +1053,6 @@
     "static/media/pm8.png": "/static/media/pm8.bab059201d2d6fcd2e8e.png",
     "static/media/zyncIN.png": "/static/media/zyncIN.ae967dfc092548f6dd0b.png",
     "static/media/Screen Shot 2016-04-11 at 1.06.36 PM.png": "/static/media/Screen Shot 2016-04-11 at 1.06.36 PM.b2fd13629aa9166865be.png",
-    "static/media/renderSettings_AOVs_3.jpg": "/static/media/renderSettings_AOVs_3.80af72cae4d836991811.jpg",
     "static/media/vertical_NEW.gif": "/static/media/vertical_NEW.48470539cc61d54908c4.gif",
     "static/media/skinning6.jpg": "/static/media/skinning6.11c56458fbfdf1b1ee1c.jpg",
     "static/media/preset_browser_on_shelf.png": "/static/media/preset_browser_on_shelf.4a51f402d536431a4caf.png",
@@ -1353,6 +1352,7 @@
     "static/media/ear22.jpg": "/static/media/ear22.35193fb1f5e3db5007ff.jpg",
     "static/media/radius.png": "/static/media/radius.f70b1af9ee86322bae6a.png",
     "static/media/nose5.jpg": "/static/media/nose5.20e93c62a9b0c741065a.jpg",
+    "static/media/renderSettings_AOVs_3.jpg": "/static/media/renderSettings_AOVs_3.c43c80bf6e7099092723.jpg",
     "static/media/zyncConsole.png": "/static/media/zyncConsole.8f480db4e8f7e9bd56ca.png",
     "static/media/straightgood.png": "/static/media/straightgood.1b1d42a2b56b4d6f96ca.png",
     "static/media/point1.png": "/static/media/point1.990816e794329285b7a4.png",
@@ -1581,8 +1581,8 @@
     "static/media/rotat.png": "/static/media/rotat.3a01acfdbb9c06ffeb1c.png",
     "static/media/basic materials arnold.md": "/static/media/basic materials arnold.049c45c76a93a7c4c35e.md",
     "static/media/rightFootForwardBlockAgain.png": "/static/media/rightFootForwardBlockAgain.55bfbeb5456ae059ed46.png",
+    "static/media/rendering - arnold.md": "/static/media/rendering - arnold.75212bfbb3883c484c9c.md",
     "static/media/image50.png": "/static/media/image50.980f6d080325340b9048.png",
-    "static/media/rendering - arnold.md": "/static/media/rendering - arnold.50160cd156e608bdb984.md",
     "static/media/creating labs - 2.jpg": "/static/media/creating labs - 2.02e4691546eb2dbc69ff.jpg",
     "static/media/Bifrost.png": "/static/media/Bifrost.acd977f90a6a7c2d5a9e.png",
     "static/media/picture_1.png": "/static/media/picture_1.ee81e678c2e027cb78ae.png",
@@ -1612,6 +1612,7 @@
     "static/media/024.png": "/static/media/024.5341db22396144ef7e41.png",
     "static/media/rendering - renderman.md": "/static/media/rendering - renderman.92cc6fded59b80cabbf1.md",
     "static/media/27_liveSurface.png": "/static/media/27_liveSurface.89add7e8057e0959ad7b.png",
+    "static/media/motion_blur_settings_4.png": "/static/media/motion_blur_settings_4.4fd649f98d1a4e7bd039.png",
     "static/media/hsv.png": "/static/media/hsv.175a4cdc1c2a068bb9e5.png",
     "static/media/creating labs - 16.jpg": "/static/media/creating labs - 16.bd620da395adcf5a885e.jpg",
     "static/media/24b - toggle visibility.png": "/static/media/24b - toggle visibility.49e875a96ce53f105d3e.png",
@@ -1643,6 +1644,6 @@
   },
   "entrypoints": [
     "static/css/main.621a8fb8.css",
-    "static/js/main.48a3673a.js"
+    "static/js/main.77ce4fa2.js"
   ]
 }
