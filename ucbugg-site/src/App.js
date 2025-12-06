@@ -15,6 +15,7 @@ import styles from "./styles/App.module.css";
 //MarkdownGeneration
 import data from "./pages/labExport";
 import LabMarkdown from "./components/LabMarkdown";
+import Bladerunner from "./pages/Bladerunner";
 // import AboutCanvas from "./pages/AboutCanvas";
 
 const tempEntries = [];
@@ -60,6 +61,9 @@ function App() {
           })}
           <Route path="/about">
             <About />
+          </Route>
+          <Route path="/bladerunner">
+            <Bladerunner />
           </Route>
           <Route>
             <Redirect to="/" />
