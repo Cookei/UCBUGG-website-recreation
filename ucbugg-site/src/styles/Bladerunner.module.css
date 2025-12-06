@@ -70,6 +70,33 @@
         width: 80%;
       }
     }
+
+    .baseNameInput {
+      display: flex;
+      gap: 0.1rem;
+      align-items: baseline;
+      input {
+        padding-left: 0.1rem;
+        padding-right: 0.1rem;
+        max-width: 300px;
+        text-align: right;
+      }
+      input::placeholder {
+        text-align: right;
+      }
+    }
+
+    #flagsInput {
+      display: flex;
+      gap: 1rem;
+      > div {
+        display: flex;
+        align-items: center;
+        input[type="checkbox"] {
+          accent-color: rgb(224, 224, 224);
+        }
+      }
+    }
   }
 
   button {

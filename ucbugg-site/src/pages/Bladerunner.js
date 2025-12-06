@@ -1,8 +1,9 @@
-import React, { useState } from "react";
+import React, { useRef, useState } from "react";
 import styles from "../styles/Bladerunner.module.css";
 
 const Bladerunner = () => {
   const [command, setCommand] = useState("placeholder");
+  const flagsRef = useRef(null);
 
   let generateCommand = (e) => {
     e.preventDefault();
@@ -18,6 +19,10 @@ const Bladerunner = () => {
     let outputDirectory = formData.get("outputDirectory");
     if (outputDirectory[outputDirectory.length - 1] != "/")
       outputDirectory += "/";
+    let flagsList = flagsRef.current.querySelectorAll(
+      `input[type=checkbox]:checked`
+    );
+    console.log(flagsList);
 
     let format_text = /[ `!@#$%^&*()+=\[\]{};':"\\|,.<>\/?~]/;
     let format_directory = /[ `!@#$%^&*()+=\[\]{};':"\\|,.<>?~]/;
@@ -68,7 +73,12 @@ const Bladerunner = () => {
       return;
     }
 
-    let commandOutput = `tractor-spool --title="${title}" --range ${frameStart}-${frameEnd} -c "${kickDirectory} -i ${inputDirectory}${baseName}{RANGE:0>4}.ass -l ${shaderDirectory} -dp -dw -o ${outputDirectory}${baseName}_{RANGE:0>4}.exr"`;
+    let flags = "";
+    flagsList.forEach((cb) => {
+      flags += cb.value + " ";
+    });
+
+    let commandOutput = `tractor-spool --title="${title}" --range ${frameStart}-${frameEnd} -c "${kickDirectory} -i ${inputDirectory}${baseName}{RANGE:0>4}.ass -l ${shaderDirectory} ${flags} -o ${outputDirectory}${baseName}_{RANGE:0>4}.exr"`;
     setCommand(commandOutput);
   };
 
@@ -116,6 +126,7 @@ const Bladerunner = () => {
               />
             </div>
           </div>
+
           <label>Input Directory</label>
           <div className={styles.directoryInput}>
             <code>/home/render/Fall_2025/</code>
@@ -126,6 +137,18 @@ const Bladerunner = () => {
               required
             />
           </div>
+
+          <label>File base name</label>
+          <div className={styles.baseNameInput}>
+            <input
+              type="text"
+              placeholder={"WF_cliff_scene_shot1"}
+              name="baseName"
+              required
+            />
+            <code>{`{RANGE:0>4}.ass`}</code>
+          </div>
+
           <label>Output directory</label>
           <div className={styles.directoryInput}>
             <code>/home/render/Fall_2025/</code>
@@ -136,13 +159,6 @@ const Bladerunner = () => {
               required
             />
           </div>
-          <label>File base name</label>
-          <input
-            type="text"
-            placeholder={"WF_cliff_scene_shot1"}
-            name="baseName"
-            required
-          />
 
           <label>kick directory</label>
           <input
@@ -160,6 +176,17 @@ const Bladerunner = () => {
             readOnly
             required
           />
+          <label>Flags</label>
+          <div id={styles.flagsInput} ref={flagsRef}>
+            <div>
+              <label>-dw</label>
+              <input type="checkbox" value="-dw" checked readOnly />
+            </div>
+            <div>
+              <label>-dp</label>
+              <input type="checkbox" value="-dp" checked readOnly />
+            </div>
+          </div>
           <button type="submit">Generate Command</button>
         </form>
       </div>
