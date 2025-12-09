@@ -90,13 +90,13 @@ const Bladerunner = () => {
     Task {Frame_$frame} -cmds {
       RemoteCmd {
         /bin/bash -lc "
-          F=$(printf "%04d" $frame)
-          export ADSKFLEX_LICENSE_FILE=7111@128.32.42.211;
+          F=$(printf '%04d' $frame)
+          export OCIO=/usr/autodesk/maya2024/resources/OCIO-configs/Maya2022-default/config.ocio;
           ${kickDirectory} \\
-            -i ${inputDirectory}${baseName}\${F}.ass \\
+            -i /home/render/Fall_2025/${inputDirectory}${baseName}\${F}.ass \\
             -l ${shaderDirectory} \\
             ${flags}\\
-            -o ${outputDirectory}${baseName}_\${F}.exr
+            -o /home/render/Fall_2025/${outputDirectory}${baseName}_\${F}.exr
         "
       } -service {${service}}
     }
