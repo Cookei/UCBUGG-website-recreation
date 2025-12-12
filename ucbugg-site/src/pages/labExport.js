@@ -1151,7 +1151,7 @@ import _THUMBNAILsrc_assets_labs_Post_Production_compositing_layer_managementpng
 import _toolboopsrc_assets_labs_Post_Production_compositing_layer_managementpng from '../assets/labs/Post Production/compositing layer management/toolboop.png'
 import _transformsrc_assets_labs_Post_Production_compositing_layer_managementgif from '../assets/labs/Post Production/compositing layer management/transform.gif'
 import _yaysrc_assets_labs_Post_Production_compositing_layer_managementgif from '../assets/labs/Post Production/compositing layer management/yay.gif'
-import _001src_assets_labs_Post_Production_compositing_motion_trackingpng from '../assets/labs/Post Production/compositing motion tracking/001.png'
+import _001src_assets_labs_Post_Production_compositing_motion_trackingpng from '../assets/labs/Post Production/compositing motion tracking/001.PNG'
 import _001_mutesrc_assets_labs_Post_Production_compositing_motion_trackingpng from '../assets/labs/Post Production/compositing motion tracking/001_mute.png'
 import _002src_assets_labs_Post_Production_compositing_motion_trackingpng from '../assets/labs/Post Production/compositing motion tracking/002.png'
 import _003src_assets_labs_Post_Production_compositing_motion_trackingpng from '../assets/labs/Post Production/compositing motion tracking/003.png'

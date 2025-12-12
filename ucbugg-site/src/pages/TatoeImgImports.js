@@ -5,7 +5,7 @@ import _Genesis_Diaz_Velazquez_Seniorpng from '../assets/tatoes/normal tatoes/Ge
 import _Han_Lijpg from '../assets/tatoes/normal tatoes/Han Li.jpg'
 import _Joel_Castro_Seniorjpg from '../assets/tatoes/normal tatoes/Joel Castro Senior.jpg'
 import _Joyce_Yang_Seniorjpg from '../assets/tatoes/normal tatoes/Joyce Yang Senior.jpg'
-import _Miriane_Toste_Seniorjpg from '../assets/tatoes/normal tatoes/Miriane Toste Senior.jpg'
+import _Mirinae_Toste_Seniorjpg from '../assets/tatoes/normal tatoes/Mirinae Toste Senior.jpg'
 import _Travis_Lejpg from '../assets/tatoes/normal tatoes/Travis Le.jpg'
 import _Abby_Cohnjpg from '../assets/tatoes/past tatoes/Abby Cohn.jpg'
 import _Akemi_Nagashikijpg from '../assets/tatoes/past tatoes/Akemi Nagashiki.JPG'
@@ -78,8 +78,8 @@ const data = {
  name: "Joel Castro Senior", folder: "../assets/tatoes/normal tatoes"},
 {img: _Joyce_Yang_Seniorjpg,
  name: "Joyce Yang Senior", folder: "../assets/tatoes/normal tatoes"},
-{img: _Miriane_Toste_Seniorjpg,
- name: "Miriane Toste Senior", folder: "../assets/tatoes/normal tatoes"},
+{img: _Mirinae_Toste_Seniorjpg,
+ name: "Mirinae Toste Senior", folder: "../assets/tatoes/normal tatoes"},
 {img: _Travis_Lejpg,
  name: "Travis Le", folder: "../assets/tatoes/normal tatoes"},
 
