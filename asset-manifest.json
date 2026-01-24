@@ -1,13 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.8cbd56f9.css",
-    "main.js": "/static/js/main.823f7dcb.js",
+    "main.css": "/static/css/main.d03c17fc.css",
+    "main.js": "/static/js/main.7da33178.js",
     "static/js/526.a1046954.chunk.js": "/static/js/526.a1046954.chunk.js",
     "static/js/811.62c6e8df.chunk.js": "/static/js/811.62c6e8df.chunk.js",
     "static/js/123.82b4a845.chunk.js": "/static/js/123.82b4a845.chunk.js",
     "static/js/206.24d8eb7c.chunk.js": "/static/js/206.24d8eb7c.chunk.js",
     "static/js/905.ca99936b.chunk.js": "/static/js/905.ca99936b.chunk.js",
     "static/js/339.69fb222d.chunk.js": "/static/js/339.69fb222d.chunk.js",
+    "static/media/UCBUGG_website_preview.mp4": "/static/media/UCBUGG_website_preview.53779d5034446270f946.mp4",
     "static/media/lighting_lab.zip": "/static/media/lighting_lab.e25a5b26d81769ffa19d.zip",
     "static/media/Nickelstats_part1.gif": "/static/media/Nickelstats_part1.fc9db173c36394c35ac9.gif",
     "static/media/Nickelstats_part2.gif": "/static/media/Nickelstats_part2.dc93e9837697de4fb28b.gif",
@@ -1649,7 +1650,7 @@
     "static/media/download_this.ma": "/static/media/download_this.cae342c80f739080fae9.ma"
   },
   "entrypoints": [
-    "static/css/main.8cbd56f9.css",
-    "static/js/main.823f7dcb.js"
+    "static/css/main.d03c17fc.css",
+    "static/js/main.7da33178.js"
   ]
 }
