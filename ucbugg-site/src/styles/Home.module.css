@@ -164,17 +164,15 @@
 #announcementSection {
   display: flex;
   background-color: var(--home-background-color);
-  padding: 2rem;
-  justify-content: center;
   position: relative;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  overflow: hidden;
 }
 
 .block {
   display: flex;
   flex-direction: column;
-  margin: 20px;
-  max-width: 50%;
-  min-width: 500px;
 }
 
 .block h1 {
@@ -204,18 +202,60 @@
   gap: 25px;
 }
 
+#whoWeAreContainerWrapper {
+  position: relative;
+  width: 110%;
+  border-radius: 0px 15px 15px 0;
+  margin-right: -1rem;
+  overflow: hidden;
+  max-width: 1700px;
+}
+
+#whoWeAreContainerWrapper::after {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  background: linear-gradient(to right, #283944, #3f484e 35%, transparent 70%);
+}
+
 #whoWeAreContainer {
   background: var(--accent);
-  border-radius: 15px;
+  border-radius: 0 15px 15px 0;
   padding: 2rem;
-  margin-top: 100px;
-  box-shadow: 2px 2px 5px rgb(180, 180, 180);
+  margin-top: 40px;
+  margin-bottom: 40px;
   z-index: 1;
+  position: relative;
+  max-width: 700px;
 }
 
 #announcementSidePanel {
   max-width: 300px;
   width: 100%;
+}
+
+#websitePreview {
+  object-fit: cover;
+  width: 110%;
+  height: 100%;
+  max-width: 70%;
+  min-width: 800px;
+  right: 0;
+  position: absolute;
+  z-index: 0;
+  top: 0;
+}
+
+@media (max-width: 800px) {
+  #websitePreview {
+    display: none;
+  }
+
+  #whoWeAreContainerWrapper::after {
+    background: none;
+  }
 }
 
 @media (max-width: 700px) {
@@ -226,7 +266,7 @@
   }
 
   #whoWeAreContainer.block {
-    width: 100%;
+    width: auto;
     margin: 0;
     max-width: none;
     border-radius: 0;

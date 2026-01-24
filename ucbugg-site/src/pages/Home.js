@@ -24,6 +24,8 @@ import discordIcon from "../assets/homePageIcon/discord-mark-white.svg";
 import emailIcon from "../assets/homePageIcon/email.svg";
 import youtubeIcon from "../assets/homePageIcon/utub.svg";
 
+import ucbuggWebsitePreview from "../assets/UCBUGG_website_preview.mp4";
+
 import {
   View,
   GradientTexture,
@@ -115,46 +117,58 @@ const Home = (props, ref) => {
         </div>
       </section>
       <section id={styles.announcementSection}>
-        <div className={styles.block} id={styles.whoWeAreContainer}>
-          <h1>Who we are</h1>
-          {/* prettier-ignore */}
-          <p>
+        <div id={styles.whoWeAreContainerWrapper}>
+          <div className={styles.block} id={styles.whoWeAreContainer}>
+            <h1>Who we are</h1>
+            {/* prettier-ignore */}
+            <p>
             The UC Berkeley Undergraduate Graphics Group (UCBUGG) is a group of passionate students who want to introduce our fellow peers to the art of creating a 3D-animated short film. We run the UCBUGG DeCal, offering both a basic and advanced curriculum. This DeCal guides students of all skill levels through the entire production pipeline of creating an animated film, using software like Autodesk Maya, Adobe After Effects, and Pixar's Renderman. UCBUGG alumni have broke into the industry, working at places like Dreamworks, Pixar, and Sony Entertainment
           </p>
-          <div className={styles.iconImageBlock}>
-            <a
-              href="https://www.autodesk.com/education/edu-software/overview?sorting=featured&filters=individual"
-              target="_blank"
-            >
-              <img src={mayaIconImage} className={styles.iconImage} />
-            </a>
-            <a href="https://www.adobe.com/creativecloud.html" target="_blank">
-              <img src={creativecloudIconImage} className={styles.iconImage} />
-            </a>
-            <a href="https://renderman.pixar.com/" target="_blank">
-              <img src={rendermanIconImage} className={styles.iconImage} />
-            </a>
-            <a
-              href="https://www.adobe.com/products/aftereffects.html"
-              target="_blank"
-            >
-              <img src={aftereffectIconImage} className={styles.iconImage} />
-            </a>
-            <a
-              href="https://www.adobe.com/products/substance3d/apps/painter.html"
-              target="_blank"
-            >
-              <img src={substancePainterImage} className={styles.iconImage} />
-            </a>
+            <div className={styles.iconImageBlock}>
+              <a
+                href="https://www.autodesk.com/education/edu-software/overview?sorting=featured&filters=individual"
+                target="_blank"
+              >
+                <img src={mayaIconImage} className={styles.iconImage} />
+              </a>
+              <a
+                href="https://www.adobe.com/creativecloud.html"
+                target="_blank"
+              >
+                <img
+                  src={creativecloudIconImage}
+                  className={styles.iconImage}
+                />
+              </a>
+              <a href="https://renderman.pixar.com/" target="_blank">
+                <img src={rendermanIconImage} className={styles.iconImage} />
+              </a>
+              <a
+                href="https://www.adobe.com/products/aftereffects.html"
+                target="_blank"
+              >
+                <img src={aftereffectIconImage} className={styles.iconImage} />
+              </a>
+              <a
+                href="https://www.adobe.com/products/substance3d/apps/painter.html"
+                target="_blank"
+              >
+                <img src={substancePainterImage} className={styles.iconImage} />
+              </a>
+            </div>
           </div>
+          <video autoPlay muted loop id={styles.websitePreview}>
+            <source src={ucbuggWebsitePreview} type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
         </div>
-        <div id={styles.announcementSidePanel} />
-        <div
+        {/* <div
           style={{
             position: "absolute",
             top: "375px",
             width: "100%",
             display: "flex",
+            zIndex: "1",
           }}
         >
           <div style={{ flexGrow: 7 }} />
@@ -167,7 +181,7 @@ const Home = (props, ref) => {
             className={styles.backgroundImg}
           />
           <div style={{ flexGrow: 0.5 }} />
-        </div>
+        </div> */}
       </section>
       <section id={styles.pipelineSection}>
         <div style={{ position: "relative", display: "flex" }}>
