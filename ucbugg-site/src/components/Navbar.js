@@ -12,7 +12,7 @@ const Navbar = () => {
       <Link to="/" className={`${styles.left} ${styles.navlink}`}>
         <img src={logoImg} alt="Logo" />
         <div className={styles.title}>
-          <h1>UCBUGG</h1>
+          <h1 className="default-font">UCBUGG</h1>
         </div>
         <div className={styles.caption}>
           <p>3D Modeling</p>
