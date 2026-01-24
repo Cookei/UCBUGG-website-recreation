@@ -19,7 +19,6 @@
   padding: 0.2rem;
   text-align: center;
   background-color: rgb(253, 127, 137);
-  transition: 0.5s all;
   animation-name: pulsate;
   animation-duration: 0.5s;
   animation-iteration-count: infinite;
@@ -44,7 +43,6 @@
   animation-play-state: paused;
   animation: unset;
   background-color: rgb(255, 212, 127);
-  transition: 0.5s all;
 }
 
 .splashView {

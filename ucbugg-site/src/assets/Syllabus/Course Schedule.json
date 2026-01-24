@@ -1,7 +1,7 @@
 [
   {
-    "year": 2025,
-    "date": ["Sep 2", "Sep 3"],
+    "year": 2026,
+    "date": ["Jan 26", "Jan 30"],
     "topics": ["Intro to Maya / Infosession"],
     "assignments": {
       "basic": {
@@ -27,8 +27,8 @@
     }
   },
   {
-    "year": 2025,
-    "date": ["Sep 8", "Sep 10"],
+    "year": 2026,
+    "date": ["Feb 2", "Feb 6"],
     "topics": ["Pre-Production: Story and Art"],
     "assignments": {
       "basic": {
@@ -52,8 +52,8 @@
     }
   },
   {
-    "year": 2025,
-    "date": ["Sep 15", "Sep 17"],
+    "year": 2026,
+    "date": ["Feb 9", "Feb 13"],
     "topics": ["Story Pitches", "Project Management", "Group Formation"],
     "assignments": {
       "basic": {
@@ -79,8 +79,8 @@
     }
   },
   {
-    "year": 2025,
-    "date": ["Sep 22", "Sep 24"],
+    "year": 2026,
+    "date": ["Feb 16", "Feb 20"],
     "topics": ["Modeling 1"],
     "assignments": {
       "basic": {
@@ -99,8 +99,8 @@
     }
   },
   {
-    "year": 2025,
-    "date": ["Sep 29", "Oct 1"],
+    "year": 2026,
+    "date": ["Feb 23", "Feb 27"],
     "topics": ["Modeling 2"],
     "assignments": {
       "basic": {
@@ -120,8 +120,8 @@
     }
   },
   {
-    "year": 2025,
-    "date": ["Oct 6", "Oct 8"],
+    "year": 2026,
+    "date": ["March 2", "March 6"],
     "topics": ["Shading"],
     "assignments": {
       "basic": {
@@ -145,8 +145,8 @@
     }
   },
   {
-    "year": 2025,
-    "date": ["Oct 13", "Oct 15"],
+    "year": 2026,
+    "date": ["March 9", "March 13"],
     "topics": ["Rigging 1"],
     "assignments": {
       "basic": {
@@ -167,8 +167,8 @@
     }
   },
   {
-    "year": 2025,
-    "date": ["Oct 20", "Oct 22"],
+    "year": 2026,
+    "date": ["March 16", "March 20"],
     "topics": ["Rigging 2"],
     "assignments": {
       "basic": {
@@ -184,8 +184,25 @@
     }
   },
   {
-    "year": 2025,
-    "date": ["Oct 27", "Oct 29"],
+    "year": 2026,
+    "date": ["March 23", "March 27"],
+    "topics": ["Spring Break \\| No Class"],
+    "assignments": {
+      "basic": {
+        "individual": ["N/A"],
+        "group": ["N/A"],
+        "labsAssigned": []
+      },
+      "advanced": {
+        "individual": ["N/A"],
+        "group": ["N/A"],
+        "labsAssigned": []
+      }
+    }
+  },
+  {
+    "year": 2026,
+    "date": ["March 30", "April 3"],
     "topics": ["Animation 1"],
     "assignments": {
       "basic": {
@@ -205,8 +222,8 @@
     }
   },
   {
-    "year": 2025,
-    "date": ["Nov 3", "Nov 5"],
+    "year": 2026,
+    "date": ["April 6", "April 10"],
     "topics": ["Animation 2"],
     "assignments": {
       "basic": {
@@ -222,8 +239,8 @@
     }
   },
   {
-    "year": 2025,
-    "date": ["Nov 10", "Nov 12"],
+    "year": 2026,
+    "date": ["April 13", "April 17"],
     "topics": ["Visual Effects and Lighting"],
     "assignments": {
       "basic": {
@@ -239,8 +256,8 @@
     }
   },
   {
-    "year": 2025,
-    "date": ["Nov 17", "Nov 19"],
+    "year": 2026,
+    "date": ["April 20", "April 24"],
     "topics": ["Rendering and Compositing"],
     "assignments": {
       "basic": {
@@ -268,25 +285,8 @@
     }
   },
   {
-    "year": 2025,
-    "date": ["Nov 24", "Nov 26"],
-    "topics": ["Thanksgiving Break \\| No Class"],
-    "assignments": {
-      "basic": {
-        "individual": ["N/A"],
-        "group": ["N/A"],
-        "labsAssigned": []
-      },
-      "advanced": {
-        "individual": ["N/A"],
-        "group": ["N/A"],
-        "labsAssigned": []
-      }
-    }
-  },
-  {
-    "year": 2025,
-    "date": ["Dec 1", "Dec 3"],
+    "year": 2026,
+    "date": ["April 27", "May 1"],
     "topics": ["Final Class Critique"],
     "assignments": {
       "basic": {
@@ -302,8 +302,8 @@
     }
   },
   {
-    "year": 2025,
-    "date": ["Dec 8-12"],
+    "year": 2026,
+    "date": ["May 4-8"],
     "topics": ["Render week"],
     "assignments": {
       "basic": {
@@ -319,7 +319,7 @@
     }
   },
   {
-    "year": 2025,
+    "year": 2026,
     "date": ["TBA"],
     "topics": ["Final Showcase"],
     "location": "TBA"
