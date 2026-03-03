@@ -1680,6 +1680,33 @@ import _rim_light_6src_assets_labs_Shading_Basic_toon_shadingpng from '../assets
 import _rim_light_7src_assets_labs_Shading_Basic_toon_shadingpng from '../assets/labs/Shading/Basic/toon shading/rim_light_7.png'
 import _set_renderer_to_arnold_0src_assets_labs_Shading_Basic_toon_shadingpng from '../assets/labs/Shading/Basic/toon shading/set_renderer_to_arnold_0.png'
 import _set_renderer_to_arnold_1src_assets_labs_Shading_Basic_toon_shadingpng from '../assets/labs/Shading/Basic/toon shading/set_renderer_to_arnold_1.png'
+import _ss1src_assets_labs_Shading_Basic_toon_shadingpng from '../assets/labs/Shading/Basic/toon shading/ss1.png'
+import _ss10src_assets_labs_Shading_Basic_toon_shadingpng from '../assets/labs/Shading/Basic/toon shading/ss10.png'
+import _ss11src_assets_labs_Shading_Basic_toon_shadingpng from '../assets/labs/Shading/Basic/toon shading/ss11.png'
+import _ss12src_assets_labs_Shading_Basic_toon_shadingpng from '../assets/labs/Shading/Basic/toon shading/ss12.png'
+import _ss13src_assets_labs_Shading_Basic_toon_shadingpng from '../assets/labs/Shading/Basic/toon shading/ss13.png'
+import _ss14src_assets_labs_Shading_Basic_toon_shadingpng from '../assets/labs/Shading/Basic/toon shading/ss14.png'
+import _ss15src_assets_labs_Shading_Basic_toon_shadingpng from '../assets/labs/Shading/Basic/toon shading/ss15.png'
+import _ss16src_assets_labs_Shading_Basic_toon_shadingpng from '../assets/labs/Shading/Basic/toon shading/ss16.png'
+import _ss17src_assets_labs_Shading_Basic_toon_shadingpng from '../assets/labs/Shading/Basic/toon shading/ss17.png'
+import _ss18src_assets_labs_Shading_Basic_toon_shadingpng from '../assets/labs/Shading/Basic/toon shading/ss18.png'
+import _ss19src_assets_labs_Shading_Basic_toon_shadingpng from '../assets/labs/Shading/Basic/toon shading/ss19.png'
+import _ss2src_assets_labs_Shading_Basic_toon_shadingpng from '../assets/labs/Shading/Basic/toon shading/ss2.png'
+import _ss20src_assets_labs_Shading_Basic_toon_shadingpng from '../assets/labs/Shading/Basic/toon shading/ss20.png'
+import _ss21src_assets_labs_Shading_Basic_toon_shadingpng from '../assets/labs/Shading/Basic/toon shading/ss21.png'
+import _ss22src_assets_labs_Shading_Basic_toon_shadingpng from '../assets/labs/Shading/Basic/toon shading/ss22.png'
+import _ss23src_assets_labs_Shading_Basic_toon_shadingpng from '../assets/labs/Shading/Basic/toon shading/ss23.png'
+import _ss25src_assets_labs_Shading_Basic_toon_shadingpng from '../assets/labs/Shading/Basic/toon shading/ss25.png'
+import _ss26src_assets_labs_Shading_Basic_toon_shadingpng from '../assets/labs/Shading/Basic/toon shading/ss26.png'
+import _ss27src_assets_labs_Shading_Basic_toon_shadingpng from '../assets/labs/Shading/Basic/toon shading/ss27.png'
+import _ss28src_assets_labs_Shading_Basic_toon_shadingpng from '../assets/labs/Shading/Basic/toon shading/ss28.png'
+import _ss3src_assets_labs_Shading_Basic_toon_shadingpng from '../assets/labs/Shading/Basic/toon shading/ss3.png'
+import _ss4src_assets_labs_Shading_Basic_toon_shadingpng from '../assets/labs/Shading/Basic/toon shading/ss4.png'
+import _ss5src_assets_labs_Shading_Basic_toon_shadingpng from '../assets/labs/Shading/Basic/toon shading/ss5.png'
+import _ss6src_assets_labs_Shading_Basic_toon_shadingpng from '../assets/labs/Shading/Basic/toon shading/ss6.png'
+import _ss7src_assets_labs_Shading_Basic_toon_shadingpng from '../assets/labs/Shading/Basic/toon shading/ss7.png'
+import _ss8src_assets_labs_Shading_Basic_toon_shadingpng from '../assets/labs/Shading/Basic/toon shading/ss8.png'
+import _ss9src_assets_labs_Shading_Basic_toon_shadingpng from '../assets/labs/Shading/Basic/toon shading/ss9.png'
 import _texture_0src_assets_labs_Shading_Basic_toon_shadingpng from '../assets/labs/Shading/Basic/toon shading/texture_0.png'
 import _texture_1src_assets_labs_Shading_Basic_toon_shadingpng from '../assets/labs/Shading/Basic/toon shading/texture_1.png'
 import _texture_2src_assets_labs_Shading_Basic_toon_shadingpng from '../assets/labs/Shading/Basic/toon shading/texture_2.png'
@@ -3701,6 +3728,33 @@ const data = {
           "rim_light_7.png": _rim_light_7src_assets_labs_Shading_Basic_toon_shadingpng,
           "set_renderer_to_arnold_0.png": _set_renderer_to_arnold_0src_assets_labs_Shading_Basic_toon_shadingpng,
           "set_renderer_to_arnold_1.png": _set_renderer_to_arnold_1src_assets_labs_Shading_Basic_toon_shadingpng,
+          "ss1.png": _ss1src_assets_labs_Shading_Basic_toon_shadingpng,
+          "ss10.png": _ss10src_assets_labs_Shading_Basic_toon_shadingpng,
+          "ss11.png": _ss11src_assets_labs_Shading_Basic_toon_shadingpng,
+          "ss12.png": _ss12src_assets_labs_Shading_Basic_toon_shadingpng,
+          "ss13.png": _ss13src_assets_labs_Shading_Basic_toon_shadingpng,
+          "ss14.png": _ss14src_assets_labs_Shading_Basic_toon_shadingpng,
+          "ss15.png": _ss15src_assets_labs_Shading_Basic_toon_shadingpng,
+          "ss16.png": _ss16src_assets_labs_Shading_Basic_toon_shadingpng,
+          "ss17.png": _ss17src_assets_labs_Shading_Basic_toon_shadingpng,
+          "ss18.png": _ss18src_assets_labs_Shading_Basic_toon_shadingpng,
+          "ss19.png": _ss19src_assets_labs_Shading_Basic_toon_shadingpng,
+          "ss2.png": _ss2src_assets_labs_Shading_Basic_toon_shadingpng,
+          "ss20.png": _ss20src_assets_labs_Shading_Basic_toon_shadingpng,
+          "ss21.png": _ss21src_assets_labs_Shading_Basic_toon_shadingpng,
+          "ss22.png": _ss22src_assets_labs_Shading_Basic_toon_shadingpng,
+          "ss23.png": _ss23src_assets_labs_Shading_Basic_toon_shadingpng,
+          "ss25.png": _ss25src_assets_labs_Shading_Basic_toon_shadingpng,
+          "ss26.png": _ss26src_assets_labs_Shading_Basic_toon_shadingpng,
+          "ss27.png": _ss27src_assets_labs_Shading_Basic_toon_shadingpng,
+          "ss28.png": _ss28src_assets_labs_Shading_Basic_toon_shadingpng,
+          "ss3.png": _ss3src_assets_labs_Shading_Basic_toon_shadingpng,
+          "ss4.png": _ss4src_assets_labs_Shading_Basic_toon_shadingpng,
+          "ss5.png": _ss5src_assets_labs_Shading_Basic_toon_shadingpng,
+          "ss6.png": _ss6src_assets_labs_Shading_Basic_toon_shadingpng,
+          "ss7.png": _ss7src_assets_labs_Shading_Basic_toon_shadingpng,
+          "ss8.png": _ss8src_assets_labs_Shading_Basic_toon_shadingpng,
+          "ss9.png": _ss9src_assets_labs_Shading_Basic_toon_shadingpng,
           "texture_0.png": _texture_0src_assets_labs_Shading_Basic_toon_shadingpng,
           "texture_1.png": _texture_1src_assets_labs_Shading_Basic_toon_shadingpng,
           "texture_2.png": _texture_2src_assets_labs_Shading_Basic_toon_shadingpng,
