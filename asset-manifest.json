@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.3d19dcfe.css",
-    "main.js": "/static/js/main.139a7b08.js",
+    "main.js": "/static/js/main.bfaf72f6.js",
     "static/js/526.a1046954.chunk.js": "/static/js/526.a1046954.chunk.js",
     "static/js/811.62c6e8df.chunk.js": "/static/js/811.62c6e8df.chunk.js",
     "static/js/123.82b4a845.chunk.js": "/static/js/123.82b4a845.chunk.js",
@@ -1422,6 +1422,7 @@
     "static/media/preset.png": "/static/media/preset.684835d8ddfbb661e1ba.png",
     "static/media/creating labs - 11.jpg": "/static/media/creating labs - 11.f6eb5aedb9e124fbba34.jpg",
     "static/media/pendulum_pic.png": "/static/media/pendulum_pic.3cbc7ca8f870c4c387d8.png",
+    "static/media/gummy.jpg": "/static/media/gummy.9d781b8fbeff6783aa89.jpg",
     "static/media/pm11.png": "/static/media/pm11.a1cf5cc38cfe25413a1a.png",
     "static/media/point2.png": "/static/media/point2.d410a10c46394d976918.png",
     "static/media/figure5.png": "/static/media/figure5.28b7e3a82a436699d0d4.png",
@@ -1465,7 +1466,7 @@
     "static/media/6 - stretch back edges.png": "/static/media/6 - stretch back edges.27016eba2fec278c24ab.png",
     "static/media/creating labs - 10.jpg": "/static/media/creating labs - 10.5268ea7aca812dff5fdb.jpg",
     "static/media/modeling 2.md": "/static/media/modeling 2.64409ce10055bbc26124.md",
-    "static/media/basic materials arnold.md": "/static/media/basic materials arnold.c2964852f569140666be.md",
+    "static/media/basic materials arnold.md": "/static/media/basic materials arnold.46b29bb39961a5c68386.md",
     "static/media/snaptoaxis.jpg": "/static/media/snaptoaxis.2a5c1cb89618fdbdd1b2.jpg",
     "static/media/pm3.png": "/static/media/pm3.5f3acb1b89f89eb5df5a.png",
     "static/media/toeconst.png": "/static/media/toeconst.790358c931e498616489.png",
@@ -1686,6 +1687,6 @@
   },
   "entrypoints": [
     "static/css/main.3d19dcfe.css",
-    "static/js/main.139a7b08.js"
+    "static/js/main.bfaf72f6.js"
   ]
 }
