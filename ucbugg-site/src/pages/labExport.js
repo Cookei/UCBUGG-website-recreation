@@ -1524,7 +1524,7 @@ import _basic_materials_arnold_6src_assets_labs_Shading_Basic_basic_materials_ar
 import _basic_materials_arnold_7src_assets_labs_Shading_Basic_basic_materials_arnoldpng from '../assets/labs/Shading/Basic/basic materials arnold/basic_materials_arnold_7.png'
 import _basic_materials_arnold_8src_assets_labs_Shading_Basic_basic_materials_arnoldpng from '../assets/labs/Shading/Basic/basic materials arnold/basic_materials_arnold_8.png'
 import _basic_materials_arnold_9src_assets_labs_Shading_Basic_basic_materials_arnoldpng from '../assets/labs/Shading/Basic/basic materials arnold/basic_materials_arnold_9.png'
-import _cast_ironsrc_assets_labs_Shading_Basic_basic_materials_arnoldjpg from '../assets/labs/Shading/Basic/basic materials arnold/cast_iron.jpg'
+import _gummysrc_assets_labs_Shading_Basic_basic_materials_arnoldjpg from '../assets/labs/Shading/Basic/basic materials arnold/gummy.jpg'
 import _ss22src_assets_labs_Shading_Basic_basic_materials_arnoldpng from '../assets/labs/Shading/Basic/basic materials arnold/ss22.png'
 import _ss23src_assets_labs_Shading_Basic_basic_materials_arnoldpng from '../assets/labs/Shading/Basic/basic materials arnold/ss23.png'
 import _ss24src_assets_labs_Shading_Basic_basic_materials_arnoldpng from '../assets/labs/Shading/Basic/basic materials arnold/ss24.png'
@@ -3523,7 +3523,7 @@ const data = {
           "basic_materials_arnold_7.png": _basic_materials_arnold_7src_assets_labs_Shading_Basic_basic_materials_arnoldpng,
           "basic_materials_arnold_8.png": _basic_materials_arnold_8src_assets_labs_Shading_Basic_basic_materials_arnoldpng,
           "basic_materials_arnold_9.png": _basic_materials_arnold_9src_assets_labs_Shading_Basic_basic_materials_arnoldpng,
-          "cast_iron.jpg": _cast_ironsrc_assets_labs_Shading_Basic_basic_materials_arnoldjpg,
+          "gummy.jpg": _gummysrc_assets_labs_Shading_Basic_basic_materials_arnoldjpg,
           "ss22.png": _ss22src_assets_labs_Shading_Basic_basic_materials_arnoldpng,
           "ss23.png": _ss23src_assets_labs_Shading_Basic_basic_materials_arnoldpng,
           "ss24.png": _ss24src_assets_labs_Shading_Basic_basic_materials_arnoldpng,

@@ -139,7 +139,7 @@ Please refer to the lecture slides if you are confused about parts of this shade
 
 ## To-do:
 
-![](cast_iron.png)
+![](gummy.jpg)
 
 > (!important)
 > Action items here are to play around with the aiStandardSurface settings to see if you can recreate this material here as best as you can. Some helpful hints are to think about what this material is made of. Is it a dielectric or a conductor (metal or non-metal). Is it reflective? Is it rough? Is it transparent? Is it transluscent?
