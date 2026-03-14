@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.3d19dcfe.css",
-    "main.js": "/static/js/main.5bc1a908.js",
+    "main.js": "/static/js/main.e61ac660.js",
     "static/js/526.a1046954.chunk.js": "/static/js/526.a1046954.chunk.js",
     "static/js/811.62c6e8df.chunk.js": "/static/js/811.62c6e8df.chunk.js",
     "static/js/123.82b4a845.chunk.js": "/static/js/123.82b4a845.chunk.js",
@@ -1479,7 +1479,7 @@
     "static/media/6 - stretch back edges.png": "/static/media/6 - stretch back edges.27016eba2fec278c24ab.png",
     "static/media/creating labs - 10.jpg": "/static/media/creating labs - 10.5268ea7aca812dff5fdb.jpg",
     "static/media/modeling 2.md": "/static/media/modeling 2.64409ce10055bbc26124.md",
-    "static/media/basic materials arnold.md": "/static/media/basic materials arnold.46b29bb39961a5c68386.md",
+    "static/media/basic materials arnold.md": "/static/media/basic materials arnold.5a80e0aef83b38114d9e.md",
     "static/media/snaptoaxis.jpg": "/static/media/snaptoaxis.2a5c1cb89618fdbdd1b2.jpg",
     "static/media/pm3.png": "/static/media/pm3.5f3acb1b89f89eb5df5a.png",
     "static/media/toeconst.png": "/static/media/toeconst.790358c931e498616489.png",
@@ -1705,6 +1705,6 @@
   },
   "entrypoints": [
     "static/css/main.3d19dcfe.css",
-    "static/js/main.5bc1a908.js"
+    "static/js/main.e61ac660.js"
   ]
 }

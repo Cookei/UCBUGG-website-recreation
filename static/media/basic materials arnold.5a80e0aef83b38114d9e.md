@@ -332,7 +332,7 @@ Additionally, click the three lines next to the right of the Download button and
 
 ![](ss54.png)
 
-Go back to the ArnoldBasicLabTemplate from earlier. The one with the nice fancy dome light and the cube you experimented on. Delete the cube and instead make a default gear. You can do this by going here.
+Go back to the ArnoldBasicLabTemplate from earlier. The one with the nice fancy dome light and the cube you experimented on. Delete the cube and instead make a default gear. You can do this by going to `Create` &rarr; `Polygon Primitives` &rarr; `Gear`.
 
 Try to connect your diffuse texture into the base color.
 
