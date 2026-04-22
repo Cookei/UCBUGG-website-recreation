@@ -110,6 +110,16 @@ The motionvector and Z (Z-Depth) AOVs are also helpful for if you want to do mot
 
 ![](motion_blur_settings_4.png)
 
+## Imagers
+
+Imagers are Arnold's post-processing filters that are applied after your render. When we do compositing, we rarely want to rely on these imagers to modify our final output image. This because we want to have more precise control in our compositing software, and if we decide we don't like something when using an imager, we will have to rerender the entire thing.
+
+As of the latest Arnold version, the `defaultArnoldDenoiser` imager is automatically applied to any new scene created. This is really useful for denoising your IPR renders, however when we render out our short, as this is not a temporally stable denoiser, we need to remove it before we render.
+
+In your render settings, go to the Arnold Renderer tab and click on Imagers on the bottom. Select the defaultArnoldDenoiser imager and click Remove Imager
+
+![](removeImager.png)
+
 ## Time to actually render!
 
 After exiting the Render Settings menu, go to Render -> Render Sequence and click the option box.
