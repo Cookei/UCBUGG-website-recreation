@@ -1228,6 +1228,7 @@ import _output_module_settingssrc_assets_labs_Post_Production_rendering_arnoldjp
 import _project_settings_color_3src_assets_labs_Post_Production_rendering_arnoldjpg from '../assets/labs/Post Production/rendering arnold/project_settings_color_3.jpg'
 import _project_settings_color_managementsrc_assets_labs_Post_Production_rendering_arnoldpng from '../assets/labs/Post Production/rendering arnold/project_settings_color_management.png'
 import _project_settings_locationsrc_assets_labs_Post_Production_rendering_arnoldjpg from '../assets/labs/Post Production/rendering arnold/project_settings_location.jpg'
+import _removeImagersrc_assets_labs_Post_Production_rendering_arnoldpng from '../assets/labs/Post Production/rendering arnold/removeImager.png'
 import _renderable_camerasrc_assets_labs_Post_Production_rendering_arnoldjpg from '../assets/labs/Post Production/rendering arnold/renderable_camera.jpg'
 import _rendering___arnoldsrc_assets_labs_Post_Production_rendering_arnoldmd from '../assets/labs/Post Production/rendering arnold/rendering - arnold.md'
 import _renderSettings_AOVs_3src_assets_labs_Post_Production_rendering_arnoldjpg from '../assets/labs/Post Production/rendering arnold/renderSettings_AOVs_3.jpg'
@@ -3160,6 +3161,7 @@ const data = {
         "project_settings_color_3.jpg": _project_settings_color_3src_assets_labs_Post_Production_rendering_arnoldjpg,
         "project_settings_color_management.png": _project_settings_color_managementsrc_assets_labs_Post_Production_rendering_arnoldpng,
         "project_settings_location.jpg": _project_settings_locationsrc_assets_labs_Post_Production_rendering_arnoldjpg,
+        "removeImager.png": _removeImagersrc_assets_labs_Post_Production_rendering_arnoldpng,
         "renderable_camera.jpg": _renderable_camerasrc_assets_labs_Post_Production_rendering_arnoldjpg,
         "renderSettings_AOVs_3.jpg": _renderSettings_AOVs_3src_assets_labs_Post_Production_rendering_arnoldjpg,
         "renderSettings_arnoldRenderer_2.jpg": _renderSettings_arnoldRenderer_2src_assets_labs_Post_Production_rendering_arnoldjpg,
