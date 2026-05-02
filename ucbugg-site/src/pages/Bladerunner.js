@@ -25,10 +25,12 @@ const Bladerunner = () => {
     if (outputDirectory[outputDirectory.length - 1] != "/")
       outputDirectory += "/";
     let flagsList = flagsRef.current.querySelectorAll(
-      `input[type=checkbox]:checked`
+      `input[type=checkbox]:checked`,
     );
     const service = formData.get("service");
-    let textureSearchPath = formData.get("textureSearchPath");
+    let assetSearchPath = formData.get("assetSearchPath");
+    if (assetSearchPath[assetSearchPath.length - 1] == "/")
+      assetSearchPath = assetSearchPath.slice(0, assetSearchPath.length - 1);
 
     let format_text = /[ `!@#$%^&*()+=\[\]{};':"\\|,<>\/?~]/;
     let format_directory = /[ `!@#$%^&*()+=\[\]{};':"\\|,<>?~]/;
@@ -36,25 +38,31 @@ const Bladerunner = () => {
     let prohibited_directory = "`!@#$%^&* ()+=[]{};':\"\\|,<>?~";
     if (format_text.test(groupName)) {
       alert(
-        `Please remove any special characters in the Group Name\nList of prohibited characters:\n${prohibited_text}`
+        `Please remove any special characters in the Group Name\nList of prohibited characters:\n${prohibited_text}`,
       );
       setCommand("error");
       return;
     } else if (format_directory.test(inputDirectory)) {
       alert(
-        `Please remove any special characters in Input Directory\nList of prohibited characters:\n${prohibited_directory}`
+        `Please remove any special characters in Input Directory\nList of prohibited characters:\n${prohibited_directory}`,
       );
       setCommand("error");
       return;
     } else if (format_directory.test(outputDirectory)) {
       alert(
-        `Please remove any special characters in Output Directory\nList of prohibited characters:\n${prohibited_directory}`
+        `Please remove any special characters in Output Directory\nList of prohibited characters:\n${prohibited_directory}`,
       );
       setCommand("error");
       return;
     } else if (format_text.test(baseName)) {
       alert(
-        `Please remove any special characters in File Base Name\nList of prohibited characters:\n${prohibited_text}`
+        `Please remove any special characters in File Base Name\nList of prohibited characters:\n${prohibited_text}`,
+      );
+      setCommand("error");
+      return;
+    } else if (format_text.test(assetSearchPath)) {
+      alert(
+        `Please remove any special characters in Asset Search Path\nList of prohibited characters:\n${prohibited_text}`,
       );
       setCommand("error");
       return;
@@ -98,7 +106,7 @@ const Bladerunner = () => {
             -i /home/render/sp26/${inputDirectory}${baseName}\${F}.ass \\
             -l ${shaderDirectory} \\
             ${flags}\\
-            -set 'options.texture_searchpath' /home/render/sp26/${textureSearchPath} \\
+            -set 'options.asset_searchpath' /home/render/sp26/${assetSearchPath} \\
             -o /home/render/sp26/${outputDirectory}${baseName}_\${F}.exr
         "
       } -service {${service}}
@@ -163,7 +171,7 @@ const Bladerunner = () => {
               <input
                 inputMode="numeric"
                 pattern="[0-9]*"
-                placeholder="0"
+                placeholder="1"
                 value={sceneNum}
                 onChange={(e) => {
                   if (/^\d+$/.test(e.target.value)) {
@@ -194,8 +202,8 @@ const Bladerunner = () => {
               <input
                 inputMode="numeric"
                 pattern="[0-9]*"
-                placeholder="1"
-                min={1}
+                placeholder="0"
+                min={0}
                 name="frameStart"
                 value={frameStart}
                 onChange={(e) => {
@@ -230,7 +238,7 @@ const Bladerunner = () => {
             <code>/home/render/sp26/</code>
             <input
               type="text"
-              placeholder={"Test/Scene1/Shot1/"}
+              placeholder={"weird_fishes/Scene1/Shot1/"}
               name="inputDirectory"
               required
             />
@@ -252,8 +260,8 @@ const Bladerunner = () => {
             <code>{`/home/render/sp26/`}</code>
             <input
               type="text"
-              placeholder={"weird_fishes/"}
-              name="textureSearchPath"
+              placeholder={"weird_fishes/sourceimages"}
+              name="assetSearchPath"
               required
             />
           </div>
@@ -263,7 +271,7 @@ const Bladerunner = () => {
             <code>/home/render/sp26/</code>
             <input
               type="text"
-              placeholder={"Test/Output/Scene1/Shot1/"}
+              placeholder={"weird_fishes/Output/Scene1/Shot1/"}
               name="outputDirectory"
               required
             />
