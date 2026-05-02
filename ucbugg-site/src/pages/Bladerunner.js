@@ -60,9 +60,9 @@ const Bladerunner = () => {
       );
       setCommand("error");
       return;
-    } else if (format_text.test(assetSearchPath)) {
+    } else if (format_directory.test(assetSearchPath)) {
       alert(
-        `Please remove any special characters in Asset Search Path\nList of prohibited characters:\n${prohibited_text}`,
+        `Please remove any special characters in Asset Search Path\nList of prohibited characters:\n${prohibited_directory}`,
       );
       setCommand("error");
       return;
