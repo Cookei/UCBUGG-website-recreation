@@ -28,11 +28,12 @@ const Bladerunner = () => {
       `input[type=checkbox]:checked`
     );
     const service = formData.get("service");
+    let textureSearchPath = formData.get("textureSearchPath");
 
-    let format_text = /[ `!@#$%^&*()+=\[\]{};':"\\|,.<>\/?~]/;
-    let format_directory = /[ `!@#$%^&*()+=\[\]{};':"\\|,.<>?~]/;
-    let prohibited_text = "`!@#$%^&* ()+=[]{};':\"\\|,.<>/?~";
-    let prohibited_directory = "`!@#$%^&* ()+=[]{};':\"\\|,.<>?~";
+    let format_text = /[ `!@#$%^&*()+=\[\]{};':"\\|,<>\/?~]/;
+    let format_directory = /[ `!@#$%^&*()+=\[\]{};':"\\|,<>?~]/;
+    let prohibited_text = "`!@#$%^&* ()+=[]{};':\"\\|,<>/?~";
+    let prohibited_directory = "`!@#$%^&* ()+=[]{};':\"\\|,<>?~";
     if (format_text.test(groupName)) {
       alert(
         `Please remove any special characters in the Group Name\nList of prohibited characters:\n${prohibited_text}`
@@ -92,11 +93,13 @@ const Bladerunner = () => {
         /bin/bash -lc "
           F=$(printf '%04d' $frame)
           export OCIO=/usr/autodesk/maya2024/resources/OCIO-configs/Maya2022-default/config.ocio;
+          export ARNOLD_ADP_DISABLE=1;
           ${kickDirectory} \\
-            -i /home/render/Fall_2025/${inputDirectory}${baseName}\${F}.ass \\
+            -i /home/render/sp26/${inputDirectory}${baseName}\${F}.ass \\
             -l ${shaderDirectory} \\
             ${flags}\\
-            -o /home/render/Fall_2025/${outputDirectory}${baseName}_\${F}.exr
+            -set 'options.texture_searchpath' /home/render/sp26/${textureSearchPath} \\
+            -o /home/render/sp26/${outputDirectory}${baseName}_\${F}.exr
         "
       } -service {${service}}
     }
@@ -134,9 +137,9 @@ const Bladerunner = () => {
       <div id={styles.left}>
         <h1>Bladerunner</h1>
         <p>
-          MtoA v5.3.4.1
+          MtoA v5.5.5.2
           <br />
-          Arnold Core v7.2.4.1
+          Arnold Core v7.4.4.2
         </p>
         <form
           style={{ display: "flex", flexDirection: "column", gap: "1rem" }}
@@ -160,7 +163,7 @@ const Bladerunner = () => {
               <input
                 inputMode="numeric"
                 pattern="[0-9]*"
-                placeholder="1"
+                placeholder="0"
                 value={sceneNum}
                 onChange={(e) => {
                   if (/^\d+$/.test(e.target.value)) {
@@ -224,7 +227,7 @@ const Bladerunner = () => {
 
           <label>Input Directory</label>
           <div className={styles.directoryInput}>
-            <code>/home/render/Fall_2025/</code>
+            <code>/home/render/sp26/</code>
             <input
               type="text"
               placeholder={"Test/Scene1/Shot1/"}
@@ -244,9 +247,20 @@ const Bladerunner = () => {
             <code>{`{RANGE:0>4}.ass`}</code>
           </div>
 
+          <label>Texture Search Path</label>
+          <div className={styles.directoryInput}>
+            <code>{`/home/render/sp26/`}</code>
+            <input
+              type="text"
+              placeholder={"weird_fishes/"}
+              name="textureSearchPath"
+              required
+            />
+          </div>
+
           <label>Output directory</label>
           <div className={styles.directoryInput}>
-            <code>/home/render/Fall_2025/</code>
+            <code>/home/render/sp26/</code>
             <input
               type="text"
               placeholder={"Test/Output/Scene1/Shot1/"}
