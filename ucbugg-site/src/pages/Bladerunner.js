@@ -260,7 +260,7 @@ const Bladerunner = () => {
             <code>{`/home/render/sp26/`}</code>
             <input
               type="text"
-              placeholder={"weird_fishes/sourceimages"}
+              placeholder={"weird_fishes"}
               name="assetSearchPath"
               required
             />
