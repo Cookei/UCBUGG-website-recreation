@@ -37,8 +37,8 @@ import hdr from "../assets/models/rainforest_trail_1k.hdr";
 import useWindowSize from "../components/useWindowSize";
 const SplashModel = React.lazy(() => import("../models/SplashModel"));
 const InfoseshModel = React.lazy(() => import("../models/InfoseshModel"));
-const ChristmasHatModel = React.lazy(() =>
-  import("../models/ChristmasHatModel")
+const ChristmasHatModel = React.lazy(
+  () => import("../models/ChristmasHatModel"),
 );
 
 const Home = (props, ref) => {
@@ -63,11 +63,11 @@ const Home = (props, ref) => {
 
   return (
     <>
-      <div id={styles.adBanner}>
+      {/* <div id={styles.adBanner}>
         <a href="https://forms.gle/q2U7XFxxWZLmU1F58" target="_blank">
           <h1>UCBUGG Infosession Signup / Interest Form click here!</h1>
         </a>
-      </div>
+      </div> */}
       {/* <div id={styles.adBanner}>
         <a href="https://maps.app.goo.gl/426jEUhW89u27SsR7" target="_blank">
           <h1>Sp2025 Showcase May 9th 5-7pm at the HP Auditorium!</h1>
@@ -89,7 +89,7 @@ const Home = (props, ref) => {
             <HelperGrid />
             <SplashModel />
             {/* <ChristmasHatModel /> */}
-            <InfoseshModel />
+            {/* <InfoseshModel /> */}
           </View>
         ) : null}
         <div id={styles.splashTitle}>
