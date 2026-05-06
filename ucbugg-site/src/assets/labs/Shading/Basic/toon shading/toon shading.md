@@ -1,36 +1,21 @@
 # INTRODUCTION
 
-This lab explores how to get a cell shading effect in Maya.
+This lab explores how to achieve a cell shaded toon look in Maya using Arnold. The `aiToon` shader is incredibly powerful and you can achieve various effects with it. This lab is intended to get you the basics of understanding the toon shader, edge outlines, and tonemapping.
 
-![](intro_far.png)
+As of 3/2/2026, the Spring 2026 semester, we will be using the Maya to Arnold MtoA version 5.5.5.2, corresponding to Arnold version 7.4.4.2, with Maya 2024. This means that we will not have access to the line shader introduced in Arnold version 7.4.5.0. This is just a note in case you find any tutorials out there that use a higher Arnold version.
 
-![](intro_close.png)
-
-## Pros of toon shading:
-
-Renders super fast (< 1 min per frame generally). A good choice if you don't have access to high performance hardware or cloud rendering resources.
-Great control of colors in your scene.
-
-## Cons of toon shading:
-
-Takes a bit of setup even for basic features
-Particular to this lab: In this lab, toon shading is done with Arnold, the built-in renderer in Maya, not Renderman. If you want to combine toon shading and Renderman features, you will have to do some compositing in post.  
-Also particular to this lab: rendering toon shading with alpha channel requires 2 render passes.
-
-## Pipeline
-
-In this lab, toon shading is just using special shaders in Arnold, the built-in renderer in Maya. You can start toon shading as soon as you are done modeling your assets. You only need to unwrap UVs if you are attaching an image texture to the asset (see Attaching Image Textures). Toon shading will require extra steps in rendering and compositing if you want to render image sequences with alpha channel (see Rendering Image Sequences).
+Additionally, this lab assumes that you have completed the Basic Materials Arnold lab and are exposed to and/or familiar with the basics of creating materials and using the hypershade.
 
 # Getting Started
 
-Download the toon shader lab here and set your project to it:
+Download the toon shader lab here:
 [ToonShaderLab.zip](ToonShaderLab.zip)
 
-Open ToonShadingLab_Start.ma. You should see a sphere, a human, and a directional light.
+Open `ToonShadingLab_Start.ma` and set your project to the lab (this should be the folder that contains `workspace.mel`). You should see a sphere, a human, and a directional light.
 
 ![](getting_started_0.png)
 
-# Set the Renderer to Arnold
+<!-- # Set the Renderer to Arnold
 
 The toon shaders we are using are part of Arnold, the default renderer that Maya comes with, so let’s set our current renderer to that. Open render settings by clicking on the icon with the clapboard and the gear.
 
@@ -38,152 +23,182 @@ The toon shaders we are using are part of Arnold, the default renderer that Maya
 
 Set the renderer to Arnold:
 
-![](set_renderer_to_arnold_1.png)
+![](set_renderer_to_arnold_1.png) -->
 
-# Creating a Toon Shader
+# The Toon Shader
 
-This lab will cover 3 main parts of toon shading: base colors, edges (the outline of color around objects), and rim light (the edge of light around objects)
+<!-- This lab will cover 3 main parts of toon shading: base colors, edges (the outline of color around objects), and rim light (the edge of light around objects)
 
 ![](basic_toon_shading_0.png)
 
-Let’s attach a toon shader to the sphere. Hold down the right mouse button on the sphere and in the menu that appears, select Assign New Material.
+Let’s attach a toon shader to the sphere. Hold down the right mouse button on the sphere and in the menu that appears, select `Assign New Material`.
 
 ![](basic_toon_shading_1.png)
 
-Under the Arnold, Shader tab, select aiToon.
+Under the Arnold, Shader tab, select `aiToon`.
 
-![](basic_toon_shading_2.png)
+![](basic_toon_shading_2.png) -->
 
-In the attribute editor for the sphere, you should see that an aiToon shader has been attached to the sphere.
+Select the sphere and attach the `aiToon` shader to it.
+
+![](ss1.png)
+
+In the attribute editor for the sphere, you should see that an `aiToon` shader has been attached to the sphere.
 
 ![](basic_toon_shading_3.png)
 
-# Base Colors
+Like with everything, make sure to name your shader something descriptive
 
-Find the Base section of the toon shader.
+## Base Colors
 
-![](basic_toon_shading_4.png)
+If you scroll down, you should find the `Base` section of the toon shader. Here is where you can set your base color, or your diffuse color. By adjusting the `Color` attribute, you can change the color of your object.
 
-Set Color to any color you want. I’ll set mine to red.
+If you render the scene now, you should see a colored sphere. It doesn't look too terribly interesting however.
 
-![](basic_toon_shading_5.png)
+![](ss2.png)
 
-This is what it looks like if you render the scene now.
+What we want to do to achieve a toon look is to create a sharper cutoff between the light and dark parts of the sphere. In other words, instead of some smooth lighting across its surface, we want it to be stepped and distinct. To fix this, we are going to attach a ramp to the `Tonemap` of the `Base Color` attribute.
 
-![](basic_toon_shading_6.png)
+A Tonemap is the gradation of the brightest and darkest parts of an object due to lighting. Currently, this is perfectly smooth and linearly interpolated (blended), which would work for something realistic, but not the toon effect we're going for.
 
-The colors are incorrect and we want a sharper cutoff between the lights and darks of the sphere. To fix this, let’s add a ramp to the base color (This is easier to explain after it’s seen, so let’s set it up and explain later). Click the grid icon next to the Tonemap attribute.
+![](ss7.png)
 
-![](basic_toon_shading_7.png)
+Notice here how the darkest part of the object is _not_ the opposite side of the sphere, but at the halfway point. This is because in the tonemap, the values of darkness are the same from here on out. There is not light coming from the opposite side of the sphere since it's only a singular directional light, which means that darkest part of the sphere is at the halfway point where the sphere starts to face away from the light.
 
-Select Ramp
+In other words, everything past that point is the same color or same "in shadow" level.
 
-![](basic_toon_shading_8.png)
+In the hypershade network, we are going to open the graph network for the toon shader we've created. I've named mine `ball_shader` so for the rest of this lab, that's what I'm going to be referring to it as.
 
-In the ramp, set interpolation to None (since we want no interpolation).
+In this graph, we are going to create a ramp texture node.
 
-![](basic_toon_shading_9.png)
+![](ss3.png)
 
-Drag the white circle to the middle of the ramp.
+A ramp is essentially a gradient that interpolates between two values. Our goal is to be able to create a harsher cutoff between the lightest and darkest parts of the ball. In other words, we want to be able to control its Tonemap using "something". That something is going to be a ramp because a ramp allows us to control the interpolation between two values (the lightest and darkest parts at each end of the gradient)
 
-![](basic_toon_shading_9b.png)
+There's a bit of a problem though. The ball shader doesn't seem to have any input connections to the Tonemap attribute. This is because by default, Maya doesn't expose every single attribute on the node. There would be too many attributes otherwise!
 
-You should end up with a ramp that’s half black and half white.
+Instead, we can find the attribute ourselves. Drag the `Out Color` of the ramp node to the little white dot here.
 
-![](basic_toon_shading_10.png)
+![](ss4.png)
 
-Click on the black circle and set the Selected Color from black to a lighter grey.
+Then select `Other`.
 
-![](basic_toon_shading_11.png)
+Here in the window that pops up, find and select `baseTonemap`. You should now see that the ramp we created is attached to the `Base Tonemap` attribute on the ball shader.
 
-If you render the scene now, it looks like this.
+![](ss5.png)
 
-![](basic_toon_shading_12.png)
+![](ss6.png)
 
-Explanation: What’s going on is that for the lighter parts of the sphere, the ramp’s white is mixed with the original red color (still the original red), and in the darker parts of the sphere, the ramp’s grey is mixed with the original red color (a darker red).
+If we take a look at our render now, you can see that it looks exactly the same. This is because our ramp by default is smoothly interpolating between the lightest and darkest parts, which is the same thing as before when we didn't have the ramp.
 
-The x-axis of the ramp represents dark to light. You could actually add more than 2 colors to the ramp and get more complex shading. The color mixing method is equivalent to the “multiply” effect in Photoshop.
+Let's select our ramp node. If you click the little dots on the gradient, you can view the attributes attached to that specific gradient stop.
 
-This is what happens when I change the grey to a light blue.
+Selecting the black dot, lets change the `Interpolation` mode to `None`. You should see the entire ramp turn black. This is because with the interpolation set to `None`, we are saying that it is going to be the same color (black) until it reaches the next gradient stop. IE: it won't blend between the two colors.
 
-![](basic_toon_shading_13.png)
+Unfortunately, this makes our entire Tonemap the same color. To resolve this, lets move the white gradient stop to the middle.
 
-This is what happens when I change the grey to a light brown.
+![](ss9.png)
 
-![](basic_toon_shading_14.png)
+Taking a look at our render now, we see something that resembles our desired effect a lot more.
 
-# Edges
+![](ss10.png)
 
-Find the Edge section of the toon shader.
+> Here are some questions to test your understanding of what's happening. Why do you think that even though the ramp is at the halfway point, the cutoff on the ball (the boundary between the light and dark parts), isn't perfectly at the middle of the ball?  
+> If you are struggling to answer this question, refer back to what a Tonemap is and what we are specifically doing to the Tonemap.
 
-![](edge_0.png)
+Unless this is the specific effect you're going for, this usually doesn't look too good. We might want more than 2 colors determining the shadows of our object. To create a more detailed gradation, we can simply add more gradient stops.
 
-The default parameters are actually perfect. The only reason why they aren’t showing up is because we need a contour filter.
+In the attribute editor of your ramp node, you can click anywhere on the ramp to add a new gradient stop. Make sure you change your interpolation mode to `None`, and adjust the color so it creates a smoother blend between the two colors.
 
-Open up the render settings again
+![](ss11.png)
 
-![](edge_1.png)
+Here I've added a few more stops, making sure that white is still on the rightmost stop. Each gradient stop corresponds to a band of color, which you can see reflected in the ball here. 4 stops = 4 bands.
 
-Open up the Filter section
+![](ss12.png)
 
-![](edge_2.png)
+The Base Tonemap is multiplied against the Base Color. In other words, if you multiply gray with the base color, the final look will be just a darker version of that color. This is essentially the same as the "multiply" layer effect in Photoshop or other drawing softwares.
 
-Set the filter to Contour.
+Oftentimes, you don't want the shadows of an object to be pure black. I tend to like to set the darkest parts to a dark gray instead of pure black.
 
-![](edge_3.png)
+![](ss13.png)
 
-If you render the scene now, it looks like this.
+By changing the color of the tonemap, you can also achieve different effects. Here's me messing with some different colors for the shadows. Shadows in real life tend to be blueish so you can experiment with that if you desire, or go for something completely unrealistic as well!
 
-![](edge_4.png)
+![](ss14.png)
 
-You can edit the line width and color in the toon shader.
+Hopefully this gets you familiar with how the Tonemap works. Understanding the Tonemap is key to getting toon styled looks. This is just the Tonemap for the diffuse color, but there also exists separate Tonemaps for the specular as well. Additionally, we explored having no interpolation in our Ramp, however, depending on the style you want, you can have linear interpolation and just weigh it differently by moving the sliders around, or even a mix!
 
-# Rim Light
+> Depending on the light being used, the Tonemap looks different. A distant/directional light (the one used in this lab) creates harsher cutoffs and brighter colors. The Tonemap essentially has a larger effect. A dome light however creates a more diffuse look and less harsh changes between each gradient band. I suggest reading the Arnold Toon documentation for more information
+
+> The Tonemap Hue Saturation allows you to control the RGB value separately from the value (brightness). We will not be getting into this but when used in conjunction, the Tonemap controls the brightness of the Tonemap and the Hue Saturation controls the Tonemap only with respect to color
+
+## Edges
+
+In a lot of cartoon style looks, we tend to have a lot of edge outlines for lineart. To do this with the toon shader, we will employ the `edge` attribute.
+
+In order for this to work however, we need to change our render filter to `contour`. Don't worry too much about what this means, but it's necessary for edge outlines to work.
+
+Go to `Windows` &rarr; `Rendering Editors` &rarr; `Render Settings`. Then navigate to the `Arnold Renderer` tab, and under `Filter`, change the `Type` to `Contour`.
+
+![](ss15.png)
+
+The edge outline is actually enabled by default on the `aiToon` shader, but in case it isn't, go to the `Edge` section of the toon shader and enable it.
+
+If you render the scene now, it now looks like this!
+
+![](ss16.png)
+
+Here you can adjust the color as well as the tonemap of the edge! Here I've just attached a simple linearly interpolated ramp to the Tonemap and changed the color a bit. If you don't remember how to attach a ramp to a tonemap on the toon shader, refer back to the above section.
+
+![](ss17.png)
+
+In your own models, you might have more complex models where you want more control over how and where edges appear. You can adjust the `Edge Detection` radius to only make edges appear different angles.
+
+## Specular
+
+Find the Specular section of the toon shader. The specular is by default set to 0. By increasing it, you can make the object appear to be more of a mirror like surface, or in other words, have reflections. The higher the specular weight, the more specular and less base color it has. A specular weight of 1 means only specular color, no base color.
+
+In the toon shader, the Roughness attribute controls how close to a diffuse surface it is. A roughness value of 0 is a perfect mirror while a roughness value of 1 is a perfectly diffuse surface.
+
+![](ss18.png)
+
+Here I've increased the specular weight by just a little, and given it a bit of specular roughness. Additionally, I attached a ramp to the tonemap to make the specular reflection have a toon look by separating its colors.
+
+## Rim Light
 
 Find the Rim Lighting section in the toon shader.
 
-![](rim_light_0.png)
+A rim light is defined by the shadow of a light. It is the boundary of an object where the light stops lighting the surface relative to the viewer. In other words, it is the part of the object that starts to turn away from the viewer (the edges of an object, or, the "rim").
 
-Set the light color to white.
+Set the color of the rim light to white.
 
-![](rim_light_1.png)
+![](ss19.png)
 
-If you render the scene now, it looks like this.
+![](ss20.png)
 
-![](rim_light_2.png)
+Unfortunately, this looks kinda bad. Our rim light goes all the way to the center and it's perfectly smooth, which is not the effect we're going for.
 
-Currently, the rim light fades gradually to the center of the sphere. We want a sharper cutoff between the lightest and darkest parts of the rim light. Sound familiar? We need another ramp!
+To resolve the first issue, we can adjust the `Width` attribute of the Rim Lighting.
 
-Attach a ramp to the Color attribute by clicking on the grid icon next to it. Select Ramp in the menu that pops up. Again, make a half black half white ramp.
+![](ss21.png)
 
-![](rim_light_3.png)
+Lowering the width attribute gives us a much more localized rim light.
 
-If you render the scene now, it looks like this.
+To resolve the perfectly smooth issue, we need a... ramp! Remember, a ramp allows us to control the gradation of an attribute. The rim light doesn't have tonemap. This is because by definition, a tonemap doesn't really apply to a rim light. However, we can instead just attach a ramp to the color of the rim light instead.
 
-![](rim_light_4.png)
+![](ss22.png)
 
-We want the rim light to be thinner. There are two ways to do this.
+Here's what my graph looks like so far
 
-1. Decrease the white part of the ramp.
-
-![](rim_light_5.png)
-
-or  
-2. Back in the toon shader’s Rim Lighting section, decrease the Width parameter (I find that 0.4 works well)
-
-![](rim_light_6.png)
-
-If you render the scene now, it looks like this.
-
-![](rim_light_7.png)
+![](ss23.png)
 
 # Shade the character!
 
-Try shading all of the character except his pupils and eye highlights. Colors are up to you. You can select individual faces and assign toon shaders to them to make his skin and suit different colors. (Applying different shaders to different faces on one model is actually considered bad practice, but it works fine for toon shaders)
+Using what you've learned try shading all of the character _except his pupils and eye highlights_. Colors are up to you. You can select individual faces and assign toon shaders to them to make his skin and suit different colors. (Applying different shaders to different faces on one model is actually considered bad practice, but it works fine for toon shaders)
 
-![](intro_far.png)
+![](ss25.png)
 
-# Flat Shaders
+## Flat Shaders
 
 The eye highlights (the little circles on his pupils) are going to be the same shade of white no matter what and they don’t need edges. There is a convenient shortcut shader for that: a Flat shader!
 
@@ -201,173 +216,64 @@ In the aiFlat shader, the color attribute should already be white.
 
 If you render the scene now, it looks like this. It looks the same as before, but now the eye highlights will be this shade of white no matter what the lighting conditions are.
 
-![](highlights_3.png)
+![](ss26.png)
 
-# Attaching Image Textures
+Don't forget to name your shaders!
+
+## Attaching Image Textures
 
 We are going to attach a texture to a toon shader. Select the pupils and assign a toon shader to them.
 
 ![](texture_0.png)
 
-In the Base section, click on the grid icon next to the Color attribute.
+Here, we want to attach a texture file to the pupils. In the `sourceImages` folder, use the png file called `GrunkPupil`.
 
-![](texture_1.png)
+![](ss27.png)
 
-Select File
+Then set up the shader normally (ex. Tonemaps, specular, edge. You probably won't need a rim lighting though).
 
-![](texture_2.png)
+---
 
-Click on the folder icon.
+Here are my final shaders!
 
-![](texture_3.png)
+![](ss28.png)
 
-In the "sourceimages" folder, select the png file called GrunkPupil
+Note that in this lab, the lighting is made intentionally dark to showcase the idea of a Tonemap better. In your real lighting, you might want to have multiple lights, and/or a dome light instead of only a directional light.
 
-![](texture_4.png)
+## Final Notes
 
-If you render the scene now, it looks like this. The colors may look a bit off since you haven't created a ramp in the base colors section.
-
-![](texture_5.png)
-
-Continue setting up the shader as you normally would (ex: base color ramp, edge. You probably won’t need rim lighting, though).
-
-When you render the scene now, it looks like this.
-
-![](intro_close.png)
-
-# UV MAPPING & TEXTURE CREATION
-
-Download and open this file:
-(You may need to right click, hit "Save link as ...". If it takes you to a new page filled with text just right click on that page and "Save as". If the file downloaded ends in ".ma.txt" or anything other than ".ma" rename it to have just ".ma" and ignore the warning)  
-[pencil_toon.ma](pencil_toon.ma)
-
-You should see a pencil mesh sitting on top of a plane. The pencil has an AIToon shader already applied to it, called PencilAIToon.  
-Let’s go into the UV mapping layout, to see the UV editor. On the top right, click the Workspace dropdown and choose “UV Editing”.
-
-![](uv_editing_workspace.jpg)
-
-You should now see the UV editor next to your viewport.
-Now, we have to create UV coordinates for our mesh. Click Create->Camera Based at the top of the UV editor.
-
-![](camera_based.jpg)
-
-This basically squashes your 3D object down across the camera plane, thus converting our 3D coordinates to 2D ones.
-
-But we need a map with no overlapping faces, so we have to divide our UV map up even more. We now have to mark edges as seams, and “unfold” our object.
-Think of it like peeling a tangerine - we need to take off the peel and flatten into a two-dimensional shape, so we need to cut the peel at certain points (mark seams) and then take the peel off and flatten it out (unfold).
-
-To mark seams on your object, go into edge mode and select edges, then go to the UV editor and click Cut/Sew->Cut. (Hotkey is Shift X)
-Remember that you can double-click an edge to select the whole edge loop, and shift-click to select multiple edges at once.
-
-Since our pencil is cylindrical, we want to mark an edge going down the whole thing as a seam. We also want to divide our pencil up by material, since we will be creating our own maps. So, mark the edge loops that divide the ferrule, eraser, wood part, and tip of the pencil.
-
-Once you’re done marking seams, your UV editor should look something like this:
-
-![](pencil_seams_marked.jpg)
-
-Now to unfold the map. Save your work (as this can sometimes crash Maya), then select your whole object and click Modify->Unfold.
-
-Each section of the pencil surrounded by seams has been unwrapped.
-
-![](pencil_unfolded.jpg)
-
-Now, we still have some overlapping parts. To fix this, select your whole object and click Modify->Layout. Now the pencil will be perfectly laid out in the 0-1 UV square, with no overlapping. Hold down right click in the UV editor and select UV shell mode, then hover over the different “shells” to figure out which one is which. This will be important very soon!
-Mine looks like this:
-
-![](pencil_layout.jpg)
-
-Now we want to export our map and import it into photoshop or another image editor, to paint on top of it. In the UV editor, click Image->UV Snapshot…
-Then, hit “Browse” next to the filename and choose an easy-to-find location. Change the format to PNG, and keep the rest of the settings.
-
-![](uv_snapshot.jpg)
-
-Now, open up this file it outputs in an image editor of your choice. This is the fun part - painting on the details. Create a new layer underneath the UV map, and color it black.
-
-![](uvs_on_black.jpg)
-
-Now we can see our UV map. Since we know which UV shell corresponds to each part of our mesh, we can color them accordingly. Paint on the black layer to give your shells some color. Here, I have colored the pencil yellow with a tan wooden part pink eraser, and gray ferrule and tip.
-
-![](uvs_colored.jpg)
-
-Now, hide the layer with the UV map in it, and export your image to an easy-to-find location.
-
-# APPLYING YOUR TEXTURES
-
-Finally, we have to apply our textures we created to our AIToon shader. Switch back to the “Maya Classic” workspace in the top right dropdown, and find the pencil’s AIToon shader in the Attribute Editor.
-
-In general, to add any image to a shader attribute, click the checkerboard icon beside an attribute.
-
-For the purposes of this lab, make sure to click on the checkerboard icon next to an attribute like Color under the Base tab, NOT "Input Material"!
-
-On the sidebar in the window that results, choose 2D Textures->File.
-
-![](pencil_1.png)
-
-Once the files are created, you should see a tab called “file1” or something similar in the attribute editor. Click the folder icon to look up an image to apply to the attribute.
-
-![](pencil_2.png)
-
-Select your image.
-
-Now, do a test render! You should see something like the following:
-
-![](pencil_3.png)
-
-Congratulations, you have shaded your first object! Make sure to save your work.
+Here we used the ramp shader almost exclusively. However, feel free to play around with things. For example, you might not want to have hard cutoffs for the specular or rim lighting. Or you might only want 2 colors instead of the multiple gradient stops we included in this lab. Additionally, you can always attach different shaders that aren't the ramp shader to these tonemaps.
 
 # Submission
 
-You can now submit the lab at this point. Please submit your .ma file for the pencil, along with the image texture you created for the colors. Please submit a screenshot of a full body render of your character as well as a .zip file of the entire project folder.
+You can now submit the lab at this point. Please submit a screenshot of a full body render of your character as well as a .zip file of the entire project folder.
 
 # Other Toon Shading Sections
 
-### Silhouette
-
-A bit like edges, but only covers the outline of the model, while edges can appear on hard edges not on the boundaries of the model as well
-
-### Specular
-
-For reflections and shiny objects. I recommend adding a ramp to its tonemap for sharper highlight areas.
-
-### Transmission
-
-For glass and transparent objects. Make sure Opacity is checked in the model’s render stats. Also, the weight attribute in the specular section must be greater than 0.0 or Transmission will have no effect at all.
-
-### Emission
-
-For a glowing effect
-
-### Geometry
-
-Connect normal maps here
-
-### Sheen
-
-For a microfiber “velvety” look
+- Silhouette
+  - A bit like edges, but only covers the outline of the model, while edges can appear on hard edges not on the boundaries of the model as well
+- Transmission
+  - For glass and transparent objects. Make sure Opacity is checked in the model’s render stats. Also, the weight attribute in the specular section must be greater than 0.0 or Transmission will have no effect at all.
+- Emission
+  - For a glowing effect
+- Geometry
+  - Connect normal maps here
+- Sheen
+  - For a microfiber “velvety” look
 
 For more details check [the official toon shader](https://docs.arnoldrenderer.com/display/A5AFMUG/Toon) documentation.
 
-# Rendering Image Sequences
-
-How you render your toon shaders depends on if you want to render images with alpha channel (transparency).
-
 ## Quick Crash course on rendering with Arnold
 
-Open the render settings window. In the Common tab, set up everything as you would with Renderman. You can set the render image type here.
+This section is nice to know when you're in the rendering pipeline stage. You can ignore this otherwise (for the purposes of this lab assignment, you can ignore this.)
 
-![](image_sequences_0.png)
+Open the render settings window. In the Common tab, set up everything as you would normally. You can set the render image type here.
 
-In the Arnold Render tab, there is a Camera (AA) field. In a nutshell, this field controls the overall quality of the render. For toon shading, 1 is low quality (use for render previews), and 3 is good generally. If your render seems noisy, feel free to turn it up even more.
-
-![](image_sequences_1.png)
-
-In the Rendering menu set, go to Render > Render Sequence. The images will be rendered to the “images” folder of the currently set project.
-
-## Rendering without Alpha Channel
+### Rendering without Alpha Channel
 
 Render as png images.
 
-## Rendering with Alpha Channel
+### Rendering with Alpha Channel
 
 Render as exr images. Alpha channel is supported in Arnold EXR image sequence renders.
 However, you will need to render twice. When the filter is set to Contour, Arnold only renders edges. When the filter is set to the default Gaussian filter, Arnold renders everything but edges.  
