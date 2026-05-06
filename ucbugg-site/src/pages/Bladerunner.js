@@ -102,6 +102,7 @@ const Bladerunner = () => {
           F=$(printf '%04d' $frame)
           export OCIO=/usr/autodesk/maya2024/resources/OCIO-configs/Maya2022-default/config.ocio;
           export ARNOLD_ADP_DISABLE=1;
+          sed -i '/drivers NULL/d' /home/render/sp26/${inputDirectory}${baseName}\${F}.ass;
           ${kickDirectory} \\
             -i /home/render/sp26/${inputDirectory}${baseName}\${F}.ass \\
             -l ${shaderDirectory} \\
